@@ -1,0 +1,31 @@
+name: Daily mood
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 14:00 UTC (9 or 10 AM New York). NYC posts each day's 311 data the following morning.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: daily-mood
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt
+      - name: Build yesterday's mood
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/build.py
+      - name: Publish
+        run: |
+          git config user.name "citymood-bot"
+          git config user.email "citymood-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then echo "Nothing new."; else git commit -m "Mood for $(date -u +%F)" && git push; fi

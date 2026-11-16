@@ -213,8 +213,9 @@ def aggregate(assigned, hoods, base: Counter):
             "total": len(types),
             "top": top,
             "moods": {m: n for m, n in moods.items() if n >= MIN_CELL},
-            "types": [{"name": nice(t), "n": n} for t, n in Counter(types).most_common()
-                      if n >= MIN_CELL and is_public(t)][:5],
+            # Each complaint type with its mood, so the page can show what makes up each mood's total.
+            "types": [{"name": nice(t), "mood": mood_of(t), "n": n} for t, n in Counter(types).most_common()
+                      if n >= MIN_CELL and is_public(t) and mood_of(t) != "other"][:15],
         }
 
     def ratio(now, typical):

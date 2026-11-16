@@ -153,13 +153,19 @@
     if (!h) {
       body = `<p class="sub">${escapeHTML(el.dataset.borough)}</p><p>No 311 reports with a location here yesterday.</p>`;
     } else {
-      const top = h.top
-        ? `${MOODS[h.top].emoji} Top gripe: <b>${MOODS[h.top].label}</b> (${fmt(h.moods[h.top])} of ${fmt(h.total)} reports)`
-        : "A mixed bag of gripes";
-      const items = h.types.length
-        ? `<ol>${h.types.map((t) => `<li>${escapeHTML(t.name)}: ${fmt(t.n)}</li>`).join("")}</ol>`
-        : "";
-      body = `<p class="sub">${escapeHTML(h.borough)} · ${fmt(h.total)} reports</p><p>${top}</p>${items}`;
+      // One row per mood, biggest first, with the complaint types that add up to it.
+      const order = Object.entries(h.moods).filter(([m]) => m !== "other").sort((a, b) => b[1] - a[1]);
+      const rows = order.map(([m, n]) => {
+        const shown = h.types.filter((t) => t.mood === m).slice(0, 3);
+        const bits = shown.map((t) => `${escapeHTML(t.name)} ${fmt(t.n)}`);
+        const rest = n - shown.reduce((s, t) => s + t.n, 0);
+        if (rest > 0) bits.push(`${shown.length ? "other" : "various"} ${fmt(rest)}`);
+        return `<li><div class="row"><span>${MOODS[m].emoji} ${MOODS[m].label}${m === h.top ? " <em>top gripe</em>" : ""}</span><b>${fmt(n)}</b></div>`
+          + `<div class="parts">${bits.join(" · ")}</div></li>`;
+      }).join("");
+      const elsewhere = h.total - order.reduce((s, [, n]) => s + n, 0);
+      const foot = elsewhere > 0 ? `<p class="fine-card">Plus ${fmt(elsewhere)} other or uncommon reports.</p>` : "";
+      body = `<p class="sub">${escapeHTML(h.borough)} · ${fmt(h.total)} reports</p><ol class="card-moods">${rows}</ol>${foot}`;
     }
     card.innerHTML = `<button class="close" aria-label="Close">×</button><h3>${escapeHTML(el.dataset.name)}</h3>${body}`;
     card.querySelector(".close").addEventListener("click", () => { selected = null; card.hidden = true; paint(); });

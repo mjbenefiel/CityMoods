@@ -153,7 +153,9 @@
     if (!h) {
       body = `<p class="sub">${escapeHTML(el.dataset.borough)}</p><p>No 311 reports with a location here yesterday.</p>`;
     } else {
-      const top = h.top ? `${MOODS[h.top].emoji} Top gripe: <b>${MOODS[h.top].label}</b>` : "A mixed bag of gripes";
+      const top = h.top
+        ? `${MOODS[h.top].emoji} Top gripe: <b>${MOODS[h.top].label}</b> (${fmt(h.moods[h.top])} of ${fmt(h.total)} reports)`
+        : "A mixed bag of gripes";
       const items = h.types.length
         ? `<ol>${h.types.map((t) => `<li>${escapeHTML(t.name)}: ${fmt(t.n)}</li>`).join("")}</ol>`
         : "";

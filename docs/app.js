@@ -123,14 +123,31 @@
     });
   }
 
-  function renderTypes() {
-    const ol = $("types");
+  function listInto(id, items) {
+    const ol = $(id);
     ol.textContent = "";
-    entry.top_types.slice(0, 10).forEach((t) => {
+    items.forEach((t) => {
       const li = document.createElement("li");
       li.innerHTML = `${MOODS[t.mood].emoji} ${escapeHTML(t.name)}: <b>${fmt(t.n)}</b> ${vs(t.n, t.typical)}`;
       ol.append(li);
     });
+    ol.closest("section > div").hidden = !items.length;
+  }
+
+  function renderTypes() {
+    // Older day files only have complaint types; newer ones have problem details too.
+    listInto("types", (entry.top_details || entry.top_types).slice(0, 10));
+    listInto("odd", (entry.detail_spikes || []).slice(0, 5));
+  }
+
+  function renderAgencies() {
+    const box = $("agencies");
+    const list = entry.agencies || [];
+    box.closest("section > div").hidden = !list.length;
+    if (!list.length) return;
+    const max = list[0].n;
+    box.innerHTML = list.slice(0, 8).map((a) =>
+      `<li><span>${escapeHTML(a.name)}</span><b>${fmt(a.n)}</b><i style="width:${(100 * a.n / max).toFixed(1)}%"></i></li>`).join("");
   }
 
   function renderBoroughs() {
@@ -156,7 +173,7 @@
       // One row per mood, biggest first, with the complaint types that add up to it.
       const order = Object.entries(h.moods).filter(([m]) => m !== "other").sort((a, b) => b[1] - a[1]);
       const rows = order.map(([m, n]) => {
-        const shown = h.types.filter((t) => t.mood === m).slice(0, 3);
+        const shown = (h.details || h.types || []).filter((t) => t.mood === m).slice(0, 3);
         const bits = shown.map((t) => `${escapeHTML(t.name)} ${fmt(t.n)}`);
         const rest = n - shown.reduce((s, t) => s + t.n, 0);
         if (rest > 0) bits.push(`${shown.length ? "other" : "various"} ${fmt(rest)}`);
@@ -165,7 +182,8 @@
       }).join("");
       const elsewhere = h.total - order.reduce((s, [, n]) => s + n, 0);
       const foot = elsewhere > 0 ? `<p class="fine-card">Plus ${fmt(elsewhere)} other or uncommon reports.</p>` : "";
-      body = `<p class="sub">${escapeHTML(h.borough)} · ${fmt(h.total)} reports</p><ol class="card-moods">${rows}</ol>${foot}`;
+      const ag = h.agency ? `<p class="fine-card">Most were sent to ${escapeHTML(h.agency.name)} (${fmt(h.agency.n)} of ${fmt(h.total)}).</p>` : "";
+      body = `<p class="sub">${escapeHTML(h.borough)} · ${fmt(h.total)} reports</p><ol class="card-moods">${rows}</ol>${foot}${ag}`;
     }
     card.innerHTML = `<button class="close" aria-label="Close">×</button><h3>${escapeHTML(el.dataset.name)}</h3>${body}`;
     card.querySelector(".close").addEventListener("click", () => { selected = null; card.hidden = true; paint(); });
@@ -200,11 +218,21 @@
     document.title = `${entry.words.headline} · City Mood`;
     renderMoods();
     renderTypes();
+    renderAgencies();
     renderBoroughs();
+    renderFreshness();
     if (selected) select(selected); else paint();
     const url = new URL(location.href);
     if (i === 0) url.searchParams.delete("day"); else url.searchParams.set("day", date);
     history.replaceState(null, "", url);
+  }
+
+  function renderFreshness() {
+    const el = $("fresh");
+    if (!entry.source_newest) { el.textContent = ""; return; }
+    const t = new Date(entry.source_newest);
+    const when = t.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    el.textContent = `The city's data currently runs through ${when}, so ${niceDate(days[0])} is the newest full day. NYC usually posts each day's requests the following evening.`;
   }
 
   function escapeHTML(s) {

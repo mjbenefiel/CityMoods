@@ -99,3 +99,101 @@ NICE_NAMES = {
 
 def nice(complaint_type: str) -> str:
     return NICE_NAMES.get(complaint_type, complaint_type)
+
+
+# ---------------------------------------------------------------- problem details
+# 311 has two more levels below the complaint type: "Problem Detail" (descriptor) and
+# "Additional Details" (descriptor_2). Both are picked from fixed menus, not typed freely,
+# but build.py still only publishes a detail once it shows up at least 3 times in a place.
+
+_BLANK = {"", "N/A", "NA", "-", "OTHER", "Other", "Other (complaint details)", "Unknown"}
+
+# Labels for combinations that read badly as-is. Keys are (descriptor, descriptor_2), lowercased.
+_DETAIL_LABELS = {
+    ("no access", ""): "Driveway fully blocked",
+    ("partial access", ""): "Driveway partly blocked",
+    ("with license plate", ""): "Abandoned car (with plates)",
+    ("derelict vehicles", ""): "Derelict car",
+    ("construction", "before/after hours"): "Construction at odd hours",
+    ("dog", ""): "Barking dog",
+    ("alarm", "chronic"): "Alarm that won't stop",
+    ("lead kit", ""): "Lead test kit request",
+    ("removal request", ""): "Dumped stuff to haul away",
+    ("trash", "littering"): "Littering",
+    ("trash", "not cleaned by property owner"): "Trash left by property owner",
+    ("mold", ""): "Mold",
+    ("catch basin clogged", ""): "Clogged storm drain",
+    ("backup", ""): "Sewer backup",
+    ("flooding on street", ""): "Flooded street",
+    ("dirty water", ""): "Dirty tap water",
+    ("controller", "allout"): "Traffic signal completely out",
+    ("controller", "all out"): "Traffic signal completely out",
+    ("controller", "operating improperly"): "Traffic signal acting up",
+    ("building shaking/vibrating/structural stability", ""): "Building shaking or unstable",
+    ("trees and sidewalks program", "free repair"): "Tree-damaged sidewalk (free repair)",
+}
+
+
+def _sentence(s: str) -> str:
+    s = " ".join(s.split())
+    if s.isupper() or s.istitle():
+        s = s.lower()
+    return s[:1].upper() + s[1:]
+
+
+def detail_of(ctype: str, d1: str | None, d2: str | None) -> str | None:
+    """A short human label for the problem detail, or None if there's nothing useful."""
+    d1 = (d1 or "").strip()
+    d2 = (d2 or "").strip()
+    if d1 in _BLANK:
+        d1 = ""
+    if d2 in _BLANK or d2.startswith("Location Type"):
+        d2 = ""
+    if not d1 and not d2:
+        return None
+    key = (d1.lower(), d2.lower())
+    if key in _DETAIL_LABELS:
+        return _DETAIL_LABELS[key]
+    if ctype == "HEAT/HOT WATER":
+        base = _sentence(d2 or "No heat or hot water")
+        return base + (" (whole building)" if d1.upper() == "ENTIRE BUILDING" else " (one apartment)")
+    if d1.upper() == "PESTS":
+        return _sentence(d2) if d2 else "Pests"
+    if d1.lower().startswith("elevator"):
+        return "Elevator out"
+    if d1 and d2:
+        label = f"{_sentence(d1)}: {d2.lower()}"
+    else:
+        label = _sentence(d1 or d2)
+    where = _NOISE_WHERE.get(ctype)
+    return f"{label} ({where})" if where else label
+
+
+# The same noise detail can come from different places; say which.
+_NOISE_WHERE = {
+    "Noise - Residential": "next door",
+    "Noise - Street/Sidewalk": "on the street",
+    "Noise - Commercial": "at a business",
+    "Noise - Park": "in a park",
+}
+
+
+# Responding agencies: short, friendly names.
+AGENCIES = {
+    "NYPD": "Police (NYPD)",
+    "HPD": "Housing (HPD)",
+    "DEP": "Environmental Protection (DEP)",
+    "DSNY": "Sanitation (DSNY)",
+    "DOT": "Transportation (DOT)",
+    "DOB": "Buildings (DOB)",
+    "DOHMH": "Health (DOHMH)",
+    "DPR": "Parks (DPR)",
+    "TLC": "Taxi & Limousine (TLC)",
+    "DCWP": "Consumer & Worker Protection",
+    "EDC": "Economic Development (EDC)",
+}
+
+
+def agency_of(code: str | None) -> str:
+    # Agencies not listed (including Homeless Services, whose requests are about people) count as "Other agencies".
+    return AGENCIES.get((code or "").strip(), "Other agencies")

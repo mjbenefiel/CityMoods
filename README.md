@@ -14,12 +14,17 @@ pipeline/
 
 ## Privacy rules (keep these)
 
-- The job downloads only `complaint_type`, `latitude`, `longitude`. Never addresses, streets, BBL, ZIP or request IDs.
+- The job downloads only `complaint_type`, `descriptor` (Problem Detail), `descriptor_2` (Additional Details), `agency`, `latitude`, `longitude`. The two detail fields are fixed menu choices, not free text. Never addresses, streets, BBL, ZIP, request IDs or `resolution_description`.
 - Coordinates are used once to find the neighborhood, then dropped. Only neighborhood totals are published.
-- Neighborhood counts under 3 are left out.
+- Neighborhood counts under 3 are left out (moods, details and the lead agency alike).
 - Complaint types about people (homelessness, panhandling, police matters…) are listed in `SENSITIVE` in `moods.py`. They count toward "everything else" and are never named or put in the headline.
 - `assert_no_pii` in `build.py` stops the build if anything address- or coordinate-like reaches the output.
 - The site has no analytics, cookies or third-party requests. If that changes, update `privacy.html` too.
+
+## When it runs
+
+`.github/workflows/daily.yml` runs `build.py` every day at 14:00 UTC once the repo is on GitHub, then commits the new `docs/data`.
+NYC refreshes the 311 dataset once a day, in the evening (New York time), with requests up to roughly midnight; the newest full day is usually yesterday or the day before.
 
 ## Run it locally
 

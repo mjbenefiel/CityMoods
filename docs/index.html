@@ -40,23 +40,38 @@
     </div>
 
     <aside class="side">
-      <h2>Yesterday's moods</h2>
+      <h2>The day's moods</h2>
       <p class="hint">Tap a mood to see where it was loudest.</p>
       <ol id="moods" class="moods"></ol>
       <div id="boroughs" class="boroughs"></div>
     </aside>
   </section>
 
-  <section class="extra">
+  <section class="extra three">
     <div>
-      <h2>Top 311 requests</h2>
+      <h2>The specific gripes</h2>
+      <p class="hint">The "problem detail" New Yorkers picked.</p>
       <ol id="types" class="types"></ol>
     </div>
     <div>
+      <h2>Unusually high</h2>
+      <p class="hint">Details at least 1.8× their usual level.</p>
+      <ol id="odd" class="types"></ol>
+    </div>
+    <div>
+      <h2>Who got the call</h2>
+      <p class="hint">The city agency each request was sent to.</p>
+      <ol id="agencies" class="agencies"></ol>
+    </div>
+  </section>
+
+  <section class="extra solo">
+    <div>
       <h2>How this works</h2>
       <p>Every day, New Yorkers send around 10,000 requests to 311, the city's non-emergency line, and the city publishes them as open data. Each morning we group yesterday's requests into a few moods and count them by neighborhood.</p>
-      <p><strong>Privacy:</strong> we never download addresses or names. We use each request's location once to find its neighborhood, then throw it away. Only neighborhood totals appear here, and counts under 3 are left out. Requests about people, such as homelessness, aren't shown or joked about.</p>
+      <p><strong>Privacy:</strong> we never download addresses, names or the free-text notes. We use each request's location once to find its neighborhood, then throw it away. Only neighborhood totals appear here, and counts under 3 are left out. Requests about people, such as homelessness, aren't shown or joked about.</p>
       <p class="fine">"Typical" means the average for the same weekday over the previous four weeks.</p>
+      <p class="fine" id="fresh"></p>
     </div>
   </section>
 </main>

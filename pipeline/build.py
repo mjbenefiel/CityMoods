@@ -28,7 +28,7 @@ from shapely import STRtree
 from shapely.geometry import Point, shape, mapping
 
 sys.path.insert(0, str(Path(__file__).parent))
-from moods import MOODS, mood_of, is_public, nice  # noqa: E402
+from moods import MOODS, mood_of, is_public, nice, detail_of, agency_of  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -41,8 +41,9 @@ API_WEATHER = ("https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitud
                "&temperature_unit=fahrenheit&precipitation_unit=inch&timezone=America%2FNew_York&past_days=10")
 
 # The ONLY fields ever requested from the 311 dataset. Addresses, cross streets, property IDs
-# (BBL), zip codes and request IDs are never downloaded at all.
-FIELDS_311 = "complaint_type,latitude,longitude"
+# (BBL), zip codes, request IDs and the free-text resolution notes are never downloaded at all.
+# descriptor ("Problem Detail") and descriptor_2 ("Additional Details") are fixed menu choices.
+FIELDS_311 = "complaint_type,descriptor,descriptor_2,agency,latitude,longitude"
 
 MIN_CELL = 3          # neighborhood-level counts below this are not published
 KEEP_DAYS = 45
@@ -117,10 +118,13 @@ def day_bounds(day: dt.date):
     return f"created_date >= '{day}T00:00:00' AND created_date < '{day + dt.timedelta(days=1)}T00:00:00'"
 
 
-def latest_complete_day() -> dt.date:
-    r = get(API_311, params={"$select": "max(created_date) as m"}).json()
-    newest = dt.date.fromisoformat(r[0]["m"][:10])
-    day = newest - dt.timedelta(days=1)
+def newest_request() -> str:
+    """Timestamp of the newest request in the city's dataset (NYC local time)."""
+    return get(API_311, params={"$select": "max(created_date) as m"}).json()[0]["m"][:16]
+
+
+def latest_complete_day(newest: str) -> dt.date:
+    day = dt.date.fromisoformat(newest[:10]) - dt.timedelta(days=1)
     for _ in range(5):
         n = int(get(API_311, params={"$select": "count(*) as n", "$where": day_bounds(day)}).json()[0]["n"])
         if n >= MIN_FULL_DAY:
@@ -140,18 +144,30 @@ def fetch_day(day: dt.date) -> list[dict]:
         offset += 50000
 
 
-def type_counts(day: dt.date) -> Counter:
-    r = get(API_311, params={"$select": "complaint_type,count(*) as n", "$where": day_bounds(day),
-                             "$group": "complaint_type", "$limit": 1000}).json()
-    return Counter({x["complaint_type"]: int(x["n"]) for x in r if x.get("complaint_type")})
+def detail_counts(day: dt.date) -> tuple[Counter, Counter]:
+    """Counts per complaint type and per (type, detail label) for one day, totals only."""
+    r = get(API_311, params={"$select": "complaint_type,descriptor,descriptor_2,count(*) as n",
+                             "$where": day_bounds(day), "$group": "complaint_type,descriptor,descriptor_2",
+                             "$limit": 20000}).json()
+    types, details = Counter(), Counter()
+    for x in r:
+        t = x.get("complaint_type")
+        if not t:
+            continue
+        n = int(x["n"])
+        types[t] += n
+        details[(t, detail_of(t, x.get("descriptor"), x.get("descriptor_2")) or nice(t))] += n
+    return types, details
 
 
-def baseline(day: dt.date) -> Counter:
-    """Average count per complaint type on the same weekday over the previous four weeks."""
-    total = Counter()
+def baseline(day: dt.date) -> tuple[Counter, Counter]:
+    """Average counts on the same weekday over the previous four weeks."""
+    types, details = Counter(), Counter()
     for w in range(1, 5):
-        total += type_counts(day - dt.timedelta(weeks=w))
-    return Counter({k: v / 4 for k, v in total.items()})
+        t, d = detail_counts(day - dt.timedelta(weeks=w))
+        types += t
+        details += d
+    return Counter({k: v / 4 for k, v in types.items()}), Counter({k: v / 4 for k, v in details.items()})
 
 
 def weather(day: dt.date):
@@ -174,6 +190,8 @@ def assign(rows, hoods):
     unplaced = 0
     for r in rows:
         ctype = r.get("complaint_type") or "Unknown"
+        detail = detail_of(ctype, r.get("descriptor"), r.get("descriptor_2"))
+        agency = agency_of(r.get("agency"))
         hood = None
         try:
             pt = Point(float(r["longitude"]), float(r["latitude"]))
@@ -184,26 +202,34 @@ def assign(rows, hoods):
             pass
         if hood is None:
             unplaced += 1
-        out.append((hood, ctype))
+        out.append((hood, ctype, detail, agency))
     rows.clear()  # drop the raw rows (and their coordinates) as soon as we're done
     return out, unplaced
 
 
-def aggregate(assigned, hoods, base: Counter):
-    city_types = Counter(t for _, t in assigned)
-    city_moods = Counter(mood_of(t) for _, t in assigned)
+def aggregate(assigned, hoods, base: Counter, base_details: Counter):
+    city_types = Counter(t for _, t, _, _ in assigned)
+    city_moods = Counter(mood_of(t) for _, t, _, _ in assigned)
+    city_details = Counter((t, d or nice(t)) for _, t, d, _ in assigned if is_public(t))
+    city_agencies = Counter(a for _, _, _, a in assigned)
     base_moods = Counter()
     for t, v in base.items():
         base_moods[mood_of(t)] += v
 
     by_hood = defaultdict(list)
-    for h, t in assigned:
+    for h, t, d, a in assigned:
         if h:
-            by_hood[h].append(t)
+            by_hood[h].append((t, d, a))
 
     names = {h["id"]: h for h in hoods}
     neighborhoods = {}
-    for hid, types in by_hood.items():
+    for hid, recs in by_hood.items():
+        types = [t for t, _, _ in recs]
+        # Problem details, labelled with the mood they belong to. Requests without a detail
+        # fall back to their complaint type name so each mood's parts still add up.
+        details = Counter((mood_of(t), d or nice(t)) for t, d, _ in recs if is_public(t) and mood_of(t) != "other")
+        agencies = Counter(a for _, _, a in recs)
+        lead_agency, lead_n = agencies.most_common(1)[0]
         moods = Counter(mood_of(t) for t in types)
         named = [m for m in moods.most_common() if m[0] != "other"]
         top = named[0][0] if named and named[0][1] >= MIN_CELL else None
@@ -213,9 +239,10 @@ def aggregate(assigned, hoods, base: Counter):
             "total": len(types),
             "top": top,
             "moods": {m: n for m, n in moods.items() if n >= MIN_CELL},
-            # Each complaint type with its mood, so the page can show what makes up each mood's total.
-            "types": [{"name": nice(t), "mood": mood_of(t), "n": n} for t, n in Counter(types).most_common()
-                      if n >= MIN_CELL and is_public(t) and mood_of(t) != "other"][:15],
+            # What makes up each mood's total, at the "Problem Detail" level.
+            "details": [{"name": d, "mood": m, "n": n} for (m, d), n in details.most_common() if n >= MIN_CELL][:20],
+            "agency": ({"name": lead_agency, "n": lead_n}
+                       if lead_n >= MIN_CELL and lead_agency != "Other agencies" else None),
         }
 
     def ratio(now, typical):
@@ -234,6 +261,19 @@ def aggregate(assigned, hoods, base: Counter):
               if x["ratio"] and x["ratio"] >= 1.6]
     spikes.sort(key=lambda x: -x["ratio"])
 
+    top_details = [{"name": d, "mood": mood_of(t), "n": n, "typical": round(base_details.get((t, d), 0)),
+                    "ratio": ratio(n, base_details.get((t, d), 0))}
+                   for (t, d), n in city_details.most_common() if n >= 10][:15]
+    odd = [x for x in ({"name": d, "mood": mood_of(t), "n": n, "typical": round(base_details.get((t, d), 0)),
+                        "ratio": ratio(n, base_details.get((t, d), 0))}
+                       for (t, d), n in city_details.items() if n >= 25)
+           if x["ratio"] and x["ratio"] >= 1.8]
+    odd.sort(key=lambda x: -x["ratio"])
+    agencies = [{"name": a, "n": n} for a, n in city_agencies.most_common() if a != "Other agencies"]
+    other_ag = city_agencies.get("Other agencies", 0)
+    if other_ag:
+        agencies.append({"name": "Other agencies", "n": other_ag})
+
     boroughs = defaultdict(Counter)
     for hid, info in neighborhoods.items():
         for m, n in info["moods"].items():
@@ -243,6 +283,7 @@ def aggregate(assigned, hoods, base: Counter):
 
     return {"total": sum(city_types.values()), "typical_total": round(sum(base.values())),
             "moods": moods, "top_types": top_types, "spikes": spikes[:5],
+            "top_details": top_details, "detail_spikes": odd[:6], "agencies": agencies,
             "boroughs": borough_summary, "neighborhoods": neighborhoods}
 
 
@@ -258,6 +299,8 @@ Write:
 - headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike, or the mood that dominated).
 - blurb: two short sentences that add one or two specific numbers from the data.
 - boroughs: one short line (at most 90 characters) for each borough in the data, about what that borough reported most.
+
+"Problem details" are the specific sub-types people chose (for example "Roaches" or "Loud music/party"); a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to.
 
 Rules:
 - Use only the numbers and facts given. Do not invent events, causes, places or people. You may connect heat complaints to the temperatures given, and wet-weather complaints to the rain given, but nothing else.
@@ -275,6 +318,9 @@ def headline_with_claude(summary, day, wx):
                   for m in summary["moods"] if m["id"] != "other"],
         "top_complaints": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["top_types"][:8]],
         "unusual_spikes": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["spikes"]],
+        "top_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["top_details"][:10]],
+        "unusual_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["detail_spikes"]],
+        "responding_agencies": summary["agencies"][:5],
         "boroughs": {b: [{"mood": MOODS[m["id"]]["label"], "count": m["n"]} for m in v]
                      for b, v in summary["boroughs"].items()},
     }
@@ -368,7 +414,8 @@ def main():
     args = ap.parse_args()
 
     hoods = load_neighborhoods()
-    day = dt.date.fromisoformat(args.date) if args.date else latest_complete_day()
+    newest = newest_request()
+    day = dt.date.fromisoformat(args.date) if args.date else latest_complete_day(newest)
     log(f"Building {day} ({day:%A})")
 
     rows = fetch_day(day)
@@ -376,7 +423,8 @@ def main():
     assigned, unplaced = assign(rows, hoods)
     log(f"{unplaced:,} had no usable location (counted citywide only)")
 
-    summary = aggregate(assigned, hoods, baseline(day))
+    base_types, base_details = baseline(day)
+    summary = aggregate(assigned, hoods, base_types, base_details)
     wx = weather(day)
 
     words = None
@@ -386,6 +434,7 @@ def main():
 
     entry = {"date": day.isoformat(), "weekday": day.strftime("%A"), "weather": wx,
              "built": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
+             "source_newest": newest,
              "words": words, **summary}
     assert_no_pii(entry)
 

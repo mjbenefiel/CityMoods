@@ -1,4 +1,4 @@
-// City Mood: draws yesterday's 311 moods on a map of NYC neighborhoods.
+// CityMood: draws yesterday's 311 moods on a map of NYC neighborhoods.
 // Everything here is static JSON made by pipeline/build.py. No tracking, no third-party calls.
 (function () {
   "use strict";
@@ -215,16 +215,30 @@
       + (w ? ` · ${w.high_f}°F high, ${w.low_f}°F low` : "");
     $("headline").textContent = entry.words.headline;
     $("blurb").textContent = entry.words.blurb;
-    document.title = `${entry.words.headline} · City Mood`;
+    document.title = `${entry.words.headline} · CityMood`;
     renderMoods();
     renderTypes();
     renderAgencies();
+    renderRare();
     renderBoroughs();
     renderFreshness();
     if (selected) select(selected); else paint();
     const url = new URL(location.href);
     if (i === 0) url.searchParams.delete("day"); else url.searchParams.set("day", date);
     history.replaceState(null, "", url);
+  }
+
+  function renderRare() {
+    const list = entry.rare_finds || [];
+    $("rare-wrap").hidden = !list.length;
+    $("rare").innerHTML = list.map((r) => {
+      const times = r.n === 1 ? "Reported once" : `Reported ${fmt(r.n)} times`;
+      const before = r.past_28_days === 0 ? "not once in the 4 weeks before"
+        : `${fmt(r.past_28_days)} time${r.past_28_days === 1 ? "" : "s"} in the 4 weeks before`;
+      const quip = r.quip ? `<p class="quip">${escapeHTML(r.quip)}</p>` : "";
+      return `<article class="rare-card"><span class="e" aria-hidden="true">${MOODS[r.mood] && r.mood !== "other" ? MOODS[r.mood].emoji : "🔎"}</span>`
+        + `<h3>${escapeHTML(r.name)}</h3>${quip}<p class="meta">${times} · ${before}</p></article>`;
+    }).join("");
   }
 
   function renderFreshness() {

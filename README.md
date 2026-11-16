@@ -1,4 +1,4 @@
-# City Mood · New York
+# CityMood · New York
 
 A map of what New York reported to 311 yesterday, grouped into playful "moods" (no heat, noise, parking wars, critters…) and shown by neighborhood.
 
@@ -17,6 +17,7 @@ pipeline/
 - The job downloads only `complaint_type`, `descriptor` (Problem Detail), `descriptor_2` (Additional Details), `agency`, `latitude`, `longitude`. The two detail fields are fixed menu choices, not free text. Never addresses, streets, BBL, ZIP, request IDs or `resolution_description`.
 - Coordinates are used once to find the neighborhood, then dropped. Only neighborhood totals are published.
 - Neighborhood counts under 3 are left out (moods, details and the lead agency alike).
+- Rare finds (menu choices seen less than about once a week) are shown citywide only, never by neighborhood, and `rare_ok` in `moods.py` filters out anything grim.
 - Complaint types about people (homelessness, panhandling, police matters…) are listed in `SENSITIVE` in `moods.py`. They count toward "everything else" and are never named or put in the headline.
 - `assert_no_pii` in `build.py` stops the build if anything address- or coordinate-like reaches the output.
 - The site has no analytics, cookies or third-party requests. If that changes, update `privacy.html` too.
@@ -39,7 +40,7 @@ NYC publishes each day's 311 data the next morning, so the site always shows yes
 
 ## The daily headline
 
-With an `ANTHROPIC_API_KEY` set, Claude writes the headline, blurb and one line per borough from the totals only (no record-level data is ever sent). Without a key, a plain rule-based headline is used. Model: `claude-opus-5-5`, override with `CITYMOOD_MODEL`. Roughly a couple of cents a day.
+With an `ANTHROPIC_API_KEY` set, Claude writes the headline, blurb, one line per borough, and picks the day's three best "rare finds" with a quip each, all from the totals only (no record-level data is ever sent). Without a key, a plain rule-based headline is used. Model: `claude-opus-5-5`, override with `CITYMOOD_MODEL`. Roughly a couple of cents a day.
 
 ## Going live
 

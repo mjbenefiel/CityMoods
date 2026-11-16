@@ -1,4 +1,4 @@
-"""City Mood daily build.
+"""CityMood daily build.
 
 Fetches one full day of NYC 311 service requests, works out which neighborhood each one
 came from, and publishes neighborhood totals only. No addresses, coordinates or individual
@@ -28,7 +28,7 @@ from shapely import STRtree
 from shapely.geometry import Point, shape, mapping
 
 sys.path.insert(0, str(Path(__file__).parent))
-from moods import MOODS, mood_of, is_public, nice, detail_of, agency_of  # noqa: E402
+from moods import MOODS, mood_of, is_public, nice, detail_of, agency_of, rare_ok, whimsy  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -160,6 +160,38 @@ def detail_counts(day: dt.date) -> tuple[Counter, Counter]:
     return types, details
 
 
+def month_detail_counts(day: dt.date) -> Counter:
+    """How often each (type, detail) appeared in the 28 days before this one. Used to spot rare finds."""
+    start = day - dt.timedelta(days=28)
+    where = f"created_date >= '{start}T00:00:00' AND created_date < '{day}T00:00:00'"
+    r = get(API_311, params={"$select": "complaint_type,descriptor,descriptor_2,count(*) as n", "$where": where,
+                             "$group": "complaint_type,descriptor,descriptor_2", "$limit": 50000}).json()
+    out = Counter()
+    for x in r:
+        t = x.get("complaint_type")
+        if t:
+            out[(t, detail_of(t, x.get("descriptor"), x.get("descriptor_2")) or nice(t))] += int(x["n"])
+    return out
+
+
+def rare_finds(city_details: Counter, month: Counter) -> list[dict]:
+    """Things reported yesterday that happen less than about once a week. Citywide only."""
+    out = []
+    for (t, label), n in city_details.items():
+        before = month.get((t, label), 0)
+        if before <= 3 and rare_ok(t, label):
+            out.append({"name": label, "mood": mood_of(t), "n": n, "past_28_days": before,
+                        "_score": (whimsy(t, label), -before, n), "_fun": whimsy(t, label) >= 0})
+    out.sort(key=lambda x: x["_score"], reverse=True)
+    for x in out:
+        x.pop("_score")
+    return out[:15]
+
+
+def strip_private(c: dict) -> dict:
+    return {k: v for k, v in c.items() if not k.startswith("_")}
+
+
 def baseline(day: dt.date) -> tuple[Counter, Counter]:
     """Average counts on the same weekday over the previous four weeks."""
     types, details = Counter(), Counter()
@@ -207,7 +239,7 @@ def assign(rows, hoods):
     return out, unplaced
 
 
-def aggregate(assigned, hoods, base: Counter, base_details: Counter):
+def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Counter):
     city_types = Counter(t for _, t, _, _ in assigned)
     city_moods = Counter(mood_of(t) for _, t, _, _ in assigned)
     city_details = Counter((t, d or nice(t)) for _, t, d, _ in assigned if is_public(t))
@@ -284,12 +316,13 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter):
     return {"total": sum(city_types.values()), "typical_total": round(sum(base.values())),
             "moods": moods, "top_types": top_types, "spikes": spikes[:5],
             "top_details": top_details, "detail_spikes": odd[:6], "agencies": agencies,
+            "rare_candidates": rare_finds(city_details, month),
             "boroughs": borough_summary, "neighborhoods": neighborhoods}
 
 
 # ---------------------------------------------------------------- headline
 
-PROMPT = """You write the daily headline for City Mood, a playful website that maps what New Yorkers reported to 311 (the city's non-emergency line) yesterday, grouped into "moods".
+PROMPT = """You write the daily headline for CityMood, a playful website that maps what New Yorkers reported to 311 (the city's non-emergency line) yesterday, grouped into "moods".
 
 Here is yesterday's data (all numbers are counts of 311 requests; "typical" is the average for the same weekday over the previous four weeks):
 
@@ -299,6 +332,8 @@ Write:
 - headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike, or the mood that dominated).
 - blurb: two short sentences that add one or two specific numbers from the data.
 - boroughs: one short line (at most 90 characters) for each borough in the data, about what that borough reported most.
+
+- rare_finds: pick the 3 most delightful or baffling items from rare_find_candidates (things that are reported less than about once a week) and give each a quip of at most 100 characters. Copy each name exactly as given. Quips may only riff on the item itself; never guess who reported it or where.
 
 "Problem details" are the specific sub-types people chose (for example "Roaches" or "Loud music/party"); a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to.
 
@@ -321,6 +356,7 @@ def headline_with_claude(summary, day, wx):
         "top_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["top_details"][:10]],
         "unusual_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["detail_spikes"]],
         "responding_agencies": summary["agencies"][:5],
+        "rare_find_candidates": [{k: x[k] for k in ("name", "n", "past_28_days")} for x in summary["rare_candidates"]],
         "boroughs": {b: [{"mood": MOODS[m["id"]]["label"], "count": m["n"]} for m in v]
                      for b, v in summary["boroughs"].items()},
     }
@@ -330,8 +366,12 @@ def headline_with_claude(summary, day, wx):
             "headline": {"type": "string"},
             "blurb": {"type": "string"},
             "boroughs": {"type": "object", "additionalProperties": {"type": "string"}},
+            "rare_finds": {"type": "array", "items": {
+                "type": "object",
+                "properties": {"name": {"type": "string"}, "quip": {"type": "string"}},
+                "required": ["name", "quip"], "additionalProperties": False}},
         },
-        "required": ["headline", "blurb", "boroughs"],
+        "required": ["headline", "blurb", "boroughs", "rare_finds"],
         "additionalProperties": False,
     }
     client = anthropic.Anthropic()
@@ -424,13 +464,20 @@ def main():
     log(f"{unplaced:,} had no usable location (counted citywide only)")
 
     base_types, base_details = baseline(day)
-    summary = aggregate(assigned, hoods, base_types, base_details)
+    summary = aggregate(assigned, hoods, base_types, base_details, month_detail_counts(day))
     wx = weather(day)
 
     words = None
     if not args.no_claude and os.environ.get("ANTHROPIC_API_KEY"):
         words = headline_with_claude(summary, day, wx)
     words = words or headline_plain(summary, wx)
+
+    # Rare finds: Claude's picks and quips when available, otherwise the top-scored candidates.
+    cands = {c["name"]: c for c in summary.pop("rare_candidates")}
+    picks = [dict(strip_private(cands[r["name"]]), quip=r["quip"][:140])
+             for r in words.pop("rare_finds", []) if r.get("name") in cands]
+    fallback = [strip_private(c) for c in cands.values() if c["_fun"]]
+    summary["rare_finds"] = (picks or fallback)[:4]
 
     entry = {"date": day.isoformat(), "weekday": day.strftime("%A"), "weather": wx,
              "built": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),

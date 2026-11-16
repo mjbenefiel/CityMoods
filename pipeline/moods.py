@@ -106,6 +106,11 @@ def nice(complaint_type: str) -> str:
 # "Additional Details" (descriptor_2). Both are picked from fixed menus, not typed freely,
 # but build.py still only publishes a detail once it shows up at least 3 times in a place.
 
+def _re_split(s):
+    import re
+    return re.split(r"[\s/,-]+", s)
+
+
 _BLANK = {"", "N/A", "NA", "-", "OTHER", "Other", "Other (complaint details)", "Unknown"}
 
 # Labels for combinations that read badly as-is. Keys are (descriptor, descriptor_2), lowercased.
@@ -136,7 +141,9 @@ _DETAIL_LABELS = {
 
 def _sentence(s: str) -> str:
     s = " ".join(s.split())
-    if s.isupper() or s.istitle():
+    words = [w for w in _re_split(s) if w]
+    capped = sum(1 for w in words if w[:1].isupper())
+    if s.isupper() or (words and capped >= 0.6 * len(words)):
         s = s.lower()
     return s[:1].upper() + s[1:]
 
@@ -197,3 +204,53 @@ AGENCIES = {
 def agency_of(code: str | None) -> str:
     # Agencies not listed (including Homeless Services, whose requests are about people) count as "Other agencies".
     return AGENCIES.get((code or "").strip(), "Other agencies")
+
+
+# ---------------------------------------------------------------- rare finds
+# Rare menu choices make the best "huh?" moments. These are shown citywide only (never by
+# neighborhood), and anything grim or about vulnerable people is filtered out.
+
+_GRIM = ("harass", "traffick", "abuse", "assault", "discriminat", "bias", "weapon", "death", "dead ",
+         "suicide", "overdose", "child", "minor", "lead", "asbestos", "sewage", "gas leak", "carbon monoxide",
+         "fire", "smoke detector", "collapse", "unsafe", "injur", "eviction", "illegal conversion", "homeless")
+
+# Words that tend to make a rare item delightful rather than dull.
+_WHIMSY = ("horse", "bee", "pigeon", "goat", "chicken", "rooster", "farm", "animal", "pet", "poison ivy", "worm",
+           "insect", "statue", "monument", "film", "tattoo", "airline", "scale", "laser", "ice cream", "sauna",
+           "pool", "beach", "pedicab", "compliment", "hummock", "mosquito", "duck", "swan", "snake", "parrot",
+           "karaoke", "costume", "calorie", "fortune", "psychic", "carriage", "hot dog", "pretzel", "souvenir",
+           "ticket", "tour bus", "street fair", "stoop", "gift", "hotel", "barber", "nail salon", "car wash",
+           "snake", "wildlife", "bird", "flying", "helicopter", "raccoon", "coyote", "hawk", "owl", "bat", "turtle",
+           "squirrel", "deer", "fox", "opossum", "skunk", "news gathering", "film shoot", "drone", "gender pricing",
+           "bookings under 4 hours")
+
+
+
+import re as _re
+
+_GRIM_RE = _re.compile(r"\b(" + "|".join(_re.escape(g.strip()) for g in _GRIM) + ")")
+_WHIMSY_RE = _re.compile(r"\b(" + "|".join(_re.escape(w) for w in _WHIMSY) + r")(e?s)?\b")
+
+
+def rare_ok(complaint_type: str, label: str) -> bool:
+    text = f"{complaint_type} {label}".lower()
+    return is_public(complaint_type) and not _GRIM_RE.search(text)
+
+
+_CRITTER_TYPES = {"Illegal Animal Sold", "Animal in a Park", "Harboring Bees/Wasps", "Unsanitary Pigeon Condition",
+                  "Illegal Animal Kept as Pet", "Pet Sale", "Animal Facility - No Permit"}
+
+
+def whimsy(complaint_type: str, label: str) -> int:
+    # Judge the detail itself; the broad category name alone shouldn't make a dull item look fun.
+    text = label.lower()
+    score = 2 * len(set(m.group(1) for m in _WHIMSY_RE.finditer(text)))
+    if complaint_type in _CRITTER_TYPES:
+        score += 2
+    if _re.search(r"receipt|refund|not posted|not displayed|not provided|explain below|\bother\b|unsanitary|maintenance|equipment", text):
+        score -= 3
+    # Hardware faults (street lights, signals) are rare but not much fun.
+    if complaint_type in ("Street Light Condition", "Traffic Signal Condition", "Street Sign - Damaged",
+                          "Street Sign - Dangling", "Street Sign - Missing", "Highway Sign - Damaged"):
+        score -= 3
+    return score

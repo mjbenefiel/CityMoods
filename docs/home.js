@@ -69,34 +69,39 @@
       <div class="cc-map"><svg aria-hidden="true"></svg></div>
       <div class="cc-body">
         <h2>${esc(c.name)}</h2>
-        <p class="cc-hook">&nbsp;</p>
-        <p class="cc-head">&nbsp;</p>
+        <div class="cc-stat"></div>
+        <p class="cc-label">&nbsp;</p>
         <p class="cc-rare"></p>
-        <p class="cc-foot"><span class="cc-date"></span><span class="cc-open">Open map →</span></p>
+        <p class="cc-foot"><span class="cc-date"></span><span class="cc-open" aria-hidden="true">→</span></p>
       </div></a>`;
   }
 
-  // What made this city's day different: its biggest spike over normal, or else the neighborhood
-  // whose signature gripe stood out most, or else its top request.
+  // What made this city's day different, as one big number plus a short label:
+  // its biggest spike over normal, else the neighborhood that stood out most, else its top request.
   function dayHook(day, MOODS) {
-    const tint = (m) => (MOODS[m] ? MOODS[m].color : "#999");
     const spike = (day.detail_spikes || [])[0];
     if (spike && spike.typical) {
       const r = spike.n / spike.typical;
-      const how = r >= 10 ? `${fmt(spike.n)} reports, usually ${fmt(spike.typical)}` : `${r.toFixed(1)}× its usual level`;
-      return { text: `${spike.name}: ${how}`,
-               html: `<span aria-hidden="true">📈</span> <b style="--tint:${tint(spike.mood)}">${esc(spike.name)}</b>: ${how}` };
+      return { mood: spike.mood, stat: `${r >= 10 ? Math.round(r) : r.toFixed(1)}×`, unit: "normal", label: spike.name };
     }
     const standout = Object.values(day.neighborhoods || {}).filter((h) => h.distinct)
       .sort((a, b) => b.distinct.x - a.distinct.x)[0];
     if (standout && standout.distinct.x >= 2) {
       const d = standout.distinct;
-      return { text: `${standout.name}: ${d.name} at ${d.x}× the city's rate`,
-               html: `<span aria-hidden="true">📍</span> ${esc(standout.name)}: <b style="--tint:${tint(d.mood)}">${esc(d.name.toLowerCase())}</b> at ${d.x}× the city's rate` };
+      return { mood: d.mood, stat: `${Math.round(d.x)}×`, unit: "city rate", label: `${d.name} in ${standout.name}` };
     }
     const top = (day.top_details || day.top_types || [])[0];
-    return top ? { text: `Top request: ${top.name}`, html: `<span aria-hidden="true">🏆</span> Top request: <b style="--tint:${tint(top.mood)}">${esc(top.name)}</b> (${fmt(top.n)})` }
-               : { text: "", html: "" };
+    return top ? { mood: top.mood, stat: fmt(top.n), unit: "reports", label: top.name } : null;
+  }
+
+  // When an item's category is "everything else", pick a fitting mood from its own words.
+  const WORD_MOODS = [[/rat|rodent|mice|mouse|pigeon|animal|bee|wasp|coyote|dog/i, "critters"], [/flood|sewer|water|leak|drain/i, "water"],
+    [/heat|hot water/i, "heat"], [/noise|loud|music|bark/i, "noise"], [/tree|branch|weed|park/i, "trees"],
+    [/park|car|vehicle|scooter|driveway|meter/i, "parking"], [/trash|litter|garbage|dump|graffiti|debris/i, "trash"],
+    [/light|signal|sign|pothole|sidewalk|street|pavement/i, "streets"], [/building|repair|plumb|mold|elevator/i, "housing"]];
+  function guessMood(label, MOODS) {
+    const hit = WORD_MOODS.find(([rx]) => rx.test(label || ""));
+    return hit && MOODS[hit[1]] ? MOODS[hit[1]] : { emoji: "🔍", color: "#B9BEC7" };
   }
 
   async function fillCard(c) {
@@ -106,18 +111,27 @@
         getJSON(`data/${c.key}/index.json`), getJSON(`data/${c.key}/latest.json`), getJSON(`data/${c.key}/neighborhoods.geojson`)]);
       const MOODS = index.moods;
       const hook = dayHook(day, MOODS);
-      card.querySelector(".cc-hook").innerHTML = hook.html;
+      if (hook) {
+        const m = MOODS[hook.mood] && hook.mood !== "other" ? MOODS[hook.mood] : guessMood(hook.label, MOODS);
+        card.querySelector(".cc-stat").innerHTML =
+          `<span class="badge" style="--tint:${m.color}" aria-hidden="true">${m.emoji}</span>`
+          + `<b>${esc(hook.stat)}</b><span class="unit">${esc(hook.unit)}</span>`;
+        card.querySelector(".cc-label").textContent = hook.label;
+      }
       const rare = (day.rare_finds || [])[0];
-      card.querySelector(".cc-rare").innerHTML = rare
-        ? `<span aria-hidden="true">🔎</span> Rare find: <i>${esc(rare.name)}</i>` : "";
-      card.querySelector(".cc-head").textContent = day.words && day.words.headline ? day.words.headline : "";
-      card.querySelector(".cc-date").textContent = `${niceDate(day.date)} · ${fmt(day.total)} requests`;
-      card.setAttribute("aria-label", `${c.name}: ${hook.text}. ${day.words.headline}`);
+      if (rare) {
+        const el = card.querySelector(".cc-rare");
+        el.innerHTML = `<span aria-hidden="true">🔎</span> <i>${esc(rare.name)}</i>`;
+        el.title = `Rare find: ${rare.name}`;
+      }
+      card.querySelector(".cc-date").textContent = niceDate(day.date);
+      card.setAttribute("aria-label", `${c.name}, ${niceDate(day.date)}: ${hook ? `${hook.label}, ${hook.stat} ${hook.unit}` : ""}.`
+        + (rare ? ` Rare find: ${rare.name}.` : ""));
       miniMap(card.querySelector("svg"), geo, c.center_lat || 40,
         (id) => { const h = day.neighborhoods[id]; return h && h.top ? MOODS[h.top].color : "var(--empty)"; });
       return day.date;
     } catch (e) {
-      card.querySelector(".cc-head").textContent = "Loading this city's mood failed. Try again in a minute.";
+      card.querySelector(".cc-label").textContent = "This city's mood didn't load. Try again in a minute.";
       console.error(e);
       return null;
     }

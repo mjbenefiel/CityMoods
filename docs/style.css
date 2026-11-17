@@ -269,3 +269,21 @@ body.is-home #city-view, body.is-home .day-nav { display: none; }
 @media (max-width: 860px) { .how { grid-template-columns: 1fr; gap: 18px; } }
 .hero h1 .line { display: block; white-space: nowrap; }
 @media (max-width: 520px) { .hero h1 .line { white-space: normal; } }
+
+/* ===================================================== city cards: minimalist */
+.city-cards .city-card { flex: 1 1 210px; max-width: 260px; }
+.cc-body { padding: 16px 18px 16px; gap: 0; }
+.cc-body h2 { font: 700 22px/1.15 var(--serif); margin: 0 0 12px; }
+.cc-stat { display: flex; align-items: center; gap: 8px; min-height: 30px; }
+.cc-stat .badge { width: 28px; height: 28px; font-size: 15px; }
+.cc-stat b { font: 700 26px/1 var(--serif); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+.cc-stat .unit { font-size: 13px; color: var(--muted); }
+.cc-label { margin: 8px 0 0; font-size: 14px; line-height: 1.35; font-weight: 600;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.cc-rare { margin: 10px 0 0; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cc-rare i { color: var(--muted); }
+.cc-foot { margin: auto 0 0; padding-top: 14px; display: flex; justify-content: space-between; align-items: center;
+  font-size: 12.5px; color: var(--muted); }
+.cc-open { font-size: 16px; color: var(--ink); transition: transform .18s; }
+.city-card:hover .cc-open { transform: translateX(3px); }
+@media (max-width: 520px) { .city-cards .city-card { max-width: none; flex-basis: 100%; } }

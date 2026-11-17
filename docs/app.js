@@ -93,10 +93,18 @@
     Z.v = { x, y, w, h };
     svg.setAttribute("viewBox", `${x.toFixed(2)} ${y.toFixed(2)} ${w.toFixed(2)} ${h.toFixed(2)}`);
     svg.style.setProperty("--z", (b.w / w).toFixed(3));
+    svg.style.setProperty("--u", unitsPerPixel().toFixed(4));
     const zoomed = w < b.w - 0.5;
     svg.classList.toggle("zoomed", zoomed);
     const ctl = (id, off) => { const el = $(id); if (el) el.disabled = off; };
     ctl("zoom-out", !zoomed); ctl("zoom-reset", !zoomed); ctl("zoom-in", w <= b.w / Z.max + 0.5);
+  }
+
+  // How many map units one screen pixel covers right now (changes with zoom and screen width).
+  // Map text is sized with this so it's the same on-screen size on a phone or a big monitor.
+  function unitsPerPixel() {
+    const svg = $("map"), w = svg.clientWidth || svg.getBoundingClientRect().width;
+    return w && Z.v ? Z.v.w / w : 1.5;
   }
 
   function animateTo(target, after) {
@@ -161,6 +169,8 @@
 
   function setupZoom() {
     const svg = $("map");
+    // Keep label sizes right when the screen is resized or rotated.
+    if (window.ResizeObserver) new ResizeObserver(() => { svg.style.setProperty("--u", unitsPerPixel().toFixed(4)); markSelected(); }).observe(svg);
     $("zoom-in").addEventListener("click", () => zoomCenter(1.8));
     $("zoom-out").addEventListener("click", () => zoomCenter(1 / 1.8));
     $("zoom-reset").addEventListener("click", () => animateTo({ ...Z.base }));
@@ -268,8 +278,9 @@
     g.append(t);
     svg.append(g);
     const tb = t.getBBox();
-    const z = Z.base ? Z.base.w / Z.v.w : 1, view = Z.v || { x: 0, y: 0, w: vb.width, h: vb.height };
-    const padX = 10 / z, padY = 6 / z, gap = 8 / z, w = tb.width + padX * 2, h = tb.height + padY * 2;
+    const u = unitsPerPixel(), view = Z.v || { x: 0, y: 0, w: vb.width, h: vb.height };
+    const padX = 9 * u, padY = 5 * u, gap = 6 * u, w = tb.width + padX * 2, h = tb.height + padY * 2;
+    const z = 1 / u;
     let x = b.x + b.width / 2 - w / 2, y = b.y - h - gap;          // above the shape...
     if (y < view.y + 4 / z) y = b.y + b.height + gap;               // ...or below if it's at the top edge
     const left = view.x + view.w * cardCover() + 4 / z;            // keep the name tag clear of the card
@@ -501,11 +512,29 @@
       : "";
     card.innerHTML = `<button class="close" aria-label="Close">×</button><h3>${escapeHTML(el.dataset.name)}</h3>`
       + body.replace("</p>", "</p>" + sig) + `<button class="share" type="button">🔗 Copy link to ${escapeHTML(el.dataset.name.split("-")[0])}</button>`;
-    card.querySelector(".close").addEventListener("click", () => { selected = null; card.hidden = true; paint(); syncURL(); });
+    card.querySelector(".close").addEventListener("click", () => { selected = null; card.hidden = true; hidePeek(); paint(); syncURL(); });
+    showPeek(el, h);
     card.querySelector(".share").addEventListener("click", (ev) => copyLink(ev.currentTarget));
     syncURL();
     card.hidden = false;
     paint();
+  }
+
+  // Phones: the card sits below the map, so show a slim bar on the map that points to it.
+  function showPeek(el, h) {
+    const peek = $("peek");
+    if (!peek) return;
+    const top = h && h.top ? `${MOODS[h.top].emoji} ${MOODS[h.top].label} ${fmt(h.moods[h.top])}` : (h ? `${fmt(h.total)} reports` : "No reports");
+    peek.innerHTML = `<span class="pk-name">${escapeHTML(el.dataset.name)}</span><span class="pk-top">${top}</span><span class="pk-go">Details ↓</span>`;
+    peek.hidden = false;
+    peek.closest(".map-wrap").classList.add("has-peek");
+  }
+
+  function hidePeek() {
+    const peek = $("peek");
+    if (!peek) return;
+    peek.hidden = true;
+    peek.closest(".map-wrap").classList.remove("has-peek");
   }
 
   function setMode(m) {
@@ -688,6 +717,7 @@
       document.querySelectorAll(".chip[data-mode]").forEach((c) =>
         c.addEventListener("click", () => setMode(c.dataset.mode)));
       setupSearch(geo);
+      $("peek").addEventListener("click", () => $("card").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }));
       $("map").addEventListener("pointerleave", hideHover);
       window.addEventListener("scroll", hideHover, { passive: true });
       const params = new URL(location.href).searchParams;

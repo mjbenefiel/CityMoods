@@ -329,3 +329,22 @@ a.brand img { display: block; }
 .zoom-ctl button { width: 34px; height: 32px; }
 .zoom-ctl button + button { border-top: 0; border-left: 1px solid var(--line); }
 
+
+/* ===================================================== map text in real screen pixels (--u set in app.js) */
+#map .boro { font-size: calc(var(--u, 1.5) * 11px); }
+#map .sel-label text { font-size: calc(var(--u, 1.5) * 14px); }
+
+/* ===================================================== phone: bar on the map pointing to the details */
+.peek { display: none; }
+@media (max-width: 860px) {
+  .peek:not([hidden]) { display: flex; align-items: center; gap: 8px; position: absolute; left: 10px; right: 10px; bottom: 10px;
+    z-index: 4; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel);
+    color: var(--ink); font-size: 14px; text-align: left; box-shadow: 0 6px 18px rgba(0,0,0,.22); }
+  .peek .pk-name { font: 700 15px/1.2 var(--serif); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .peek .pk-top { color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
+  .peek .pk-go { font-weight: 700; white-space: nowrap; }
+  .map-wrap.has-peek .zoom-ctl { bottom: 62px; }
+}
+
+/* the map and its overlays (hover, zoom buttons, phone details bar) share one frame */
+.map-stage { position: relative; }

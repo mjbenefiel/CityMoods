@@ -174,7 +174,7 @@ footer p { margin: 0 0 6px; }
   border-radius: 999px; padding: 6px 12px; font: 13px var(--sans); }
 .search input:focus { outline: 2px solid var(--ink); outline-offset: 1px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-@media (max-width: 860px) { .search { margin-left: 0; flex-basis: 100%; } .search input { width: 100%; } }
+@media (max-width: 860px) { .search { margin-left: 0; flex-basis: 100%; } .search input { width: 100%; font-size: 16px; padding: 8px 14px; } }  /* 16px stops iPhone Safari zooming the page on focus */
 @media (max-width: 860px) { .map-mode { position: static; padding: 12px 12px 0; } }
 
 /* Search results: small, at most 6 */

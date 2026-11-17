@@ -604,7 +604,8 @@
       zoomToHood(id);
       // On phones, line the search bar up with the top of the screen so the search, the whole map
       // and its details bar fit on one screen.
-      if (isPhoneLayout()) $("hood-search").closest(".map-wrap").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+      // (Wait for the keyboard to slide away first, or iOS cancels the scroll.)
+      if (isPhoneLayout()) setTimeout(() => $("hood-search").closest(".map-wrap").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }), 350);
       else $("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
 

@@ -34,6 +34,8 @@ jobs:
         run: |
           if [ -n "$DATES" ]; then python pipeline/build.py --dates "$DATES" --claude; else python pipeline/build.py; fi
       - name: Publish
+        # Runs even if the build failed or was cancelled partway, so finished days aren't thrown away.
+        if: always()
         run: |
           git config user.name "citymood-bot"
           git config user.email "citymood-bot@users.noreply.github.com"

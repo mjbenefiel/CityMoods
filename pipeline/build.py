@@ -555,7 +555,7 @@ def main():
             raise SystemExit(f"Pick at most 10 days, none after {latest} (the newest complete day).")
         for day in days:
             build_day(day, hoods, newest, use_claude=have_key and args.claude)
-        refresh_indexes()
+            refresh_indexes()  # after every day, so a stopped run still keeps the days it finished
         return
 
     latest = latest_complete_day(newest)
@@ -571,7 +571,7 @@ def main():
         # Every day this run builds gets Claude's headline and quips, including caught-up days
         # (at most MAX_CATCH_UP, so a long outage costs at most a few Claude calls).
         build_day(day, hoods, newest, use_claude=have_key)
-    refresh_indexes()
+        refresh_indexes()
 
 
 if __name__ == "__main__":

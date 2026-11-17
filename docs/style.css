@@ -11,7 +11,7 @@
   }
 }
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; touch-action: manipulation; overflow-x: hidden; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 var(--sans); }
 a { color: inherit; }
 button { font: inherit; color: inherit; cursor: pointer; }

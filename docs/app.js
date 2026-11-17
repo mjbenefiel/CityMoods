@@ -141,7 +141,9 @@
     const el = paths[id];
     if (!el || !Z.base) return;
     const bb = el.getBBox(), b = Z.base, aspect = b.w / b.h;
-    let w = Math.max(bb.width * 3, bb.height * 3 * aspect, b.w / 6);
+    // Phones get a gentler zoom so you can still see the neighbors around the pick.
+    const phone = isPhoneLayout(), pad = phone ? 5 : 3, minW = b.w / (phone ? 3 : 6);
+    let w = Math.max(bb.width * pad, bb.height * pad * aspect, minW);
     if (w >= b.w * 0.8) w = b.w;
     const h = w / aspect;
     // Center it in the part of the map the card doesn't cover.
@@ -600,7 +602,10 @@
       hideHover();
       select(id);
       zoomToHood(id);
-      $("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      // On phones, line the search bar up with the top of the screen so the search, the whole map
+      // and its details bar fit on one screen.
+      if (isPhoneLayout()) $("hood-search").closest(".map-wrap").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+      else $("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
 
     input.addEventListener("input", search);

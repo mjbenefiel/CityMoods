@@ -45,12 +45,62 @@
       el.dataset.id = f.id;
       el.dataset.name = f.properties.name;
       el.dataset.borough = f.properties.borough;
-      const t = document.createElementNS(SVGNS, "title");
-      el.append(t);
+      el.setAttribute("role", "button");
       el.addEventListener("click", () => select(f.id));
+      el.addEventListener("pointermove", (ev) => showHover(f.id, ev));
+      el.addEventListener("pointerleave", hideHover);
       svg.append(el);
       paths[f.id] = el;
     });
+
+    // Faint borough names so you know where you are before hovering.
+    const BOROUGH_LABELS = [["Manhattan", -73.972, 40.785], ["Bronx", -73.866, 40.852], ["Brooklyn", -73.947, 40.648],
+      ["Queens", -73.805, 40.712], ["Staten Island", -74.152, 40.582]];
+    for (const [name, lon, lat] of BOROUGH_LABELS) {
+      const [x, y] = pt([lon, lat]).split(",");
+      const t = document.createElementNS(SVGNS, "text");
+      t.setAttribute("x", x); t.setAttribute("y", y);
+      t.setAttribute("class", "boro");
+      t.textContent = name.toUpperCase();
+      svg.append(t);
+    }
+  }
+
+  // ---------------------------------------------------------------- hover label
+  function hoverLine(id) {
+    const h = entry && entry.neighborhoods[id];
+    if (!h) return "No reports with a location";
+    if (mode === "distinct") {
+      return h.distinct ? `✨ ${escapeHTML(h.distinct.name)}, ${h.distinct.x}× the city's rate` : "Nothing stands out";
+    }
+    if (MOODS[mode]) {
+      const n = h.moods[mode] || 0;
+      return `${MOODS[mode].emoji} ${n ? fmt(n) : "Fewer than 3"} ${MOODS[mode].label.toLowerCase()} reports`;
+    }
+    return h.top
+      ? `${MOODS[h.top].emoji} ${MOODS[h.top].label} · ${fmt(h.moods[h.top])} of ${fmt(h.total)} reports`
+      : `${fmt(h.total)} reports, no clear top gripe`;
+  }
+
+  function showHover(id, ev) {
+    if (ev.pointerType && ev.pointerType !== "mouse") return;  // phones: tap opens the card instead
+    const tip = $("hover"), wrap = tip.parentElement.getBoundingClientRect(), el = paths[id];
+    if (tip.dataset.id !== id) {
+      tip.innerHTML = `<b>${escapeHTML(el.dataset.name)}</b><span>${hoverLine(id)}</span>`;
+      tip.dataset.id = id;
+    }
+    tip.hidden = false;
+    let x = ev.clientX - wrap.left + 14, y = ev.clientY - wrap.top + 14;
+    const w = tip.offsetWidth, hgt = tip.offsetHeight;
+    if (x + w > wrap.width - 8) x = ev.clientX - wrap.left - w - 14;
+    if (y + hgt > wrap.height - 8) y = ev.clientY - wrap.top - hgt - 14;
+    tip.style.transform = `translate(${Math.max(8, x)}px, ${Math.max(8, y)}px)`;
+  }
+
+  function hideHover() {
+    const tip = $("hover");
+    tip.hidden = true;
+    tip.dataset.id = "";
   }
 
   function mix(hex, amount) {
@@ -86,7 +136,7 @@
         }
       }
       el.style.fill = fill;
-      el.querySelector("title").textContent = tip;
+      el.setAttribute("aria-label", tip);
       el.classList.toggle("sel", id === selected);
     }
     const note = $("mode-note");
@@ -258,6 +308,37 @@
     history.replaceState(null, "", url);
   }
 
+  // ---------------------------------------------------------------- search
+  function setupSearch(geo) {
+    const list = $("hood-list"), input = $("hood-search");
+    const byLabel = {};
+    geo.features
+      .map((f) => ({ id: f.id, label: `${f.properties.name}, ${f.properties.borough}` }))
+      .sort((a, b) => a.label.localeCompare(b.label))
+      .forEach(({ id, label }) => {
+        byLabel[label.toLowerCase()] = id;
+        const o = document.createElement("option");
+        o.value = label;
+        list.append(o);
+      });
+    const go = () => {
+      const q = input.value.trim().toLowerCase();
+      if (!q) return;
+      const id = byLabel[q] || Object.entries(byLabel).find(([label]) => label.startsWith(q))?.[1]
+        || Object.entries(byLabel).find(([label]) => label.includes(q))?.[1];
+      if (!id) { input.setCustomValidity("No neighborhood by that name"); input.reportValidity(); return; }
+      input.setCustomValidity("");
+      hideHover();
+      select(id);
+      input.value = "";
+      input.blur();
+      $("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
+    };
+    input.addEventListener("change", go);
+    input.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); go(); } });
+    input.addEventListener("input", () => input.setCustomValidity(""));
+  }
+
   async function copyLink(btn) {
     const old = btn.textContent;
     try {
@@ -333,6 +414,9 @@
       $("next").addEventListener("click", () => loadDay(Math.max(0, dayIndex - 1)));
       document.querySelectorAll(".chip[data-mode]").forEach((c) =>
         c.addEventListener("click", () => setMode(c.dataset.mode)));
+      setupSearch(geo);
+      $("map").addEventListener("pointerleave", hideHover);
+      window.addEventListener("scroll", hideHover, { passive: true });
       const params = new URL(location.href).searchParams;
       const wantMode = params.get("mode");
       if (wantMode === "distinct" || MOODS[wantMode]) mode = wantMode;

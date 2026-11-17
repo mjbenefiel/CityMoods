@@ -465,7 +465,11 @@ def headline_plain(summary, wx):
 
 # ---------------------------------------------------------------- privacy check
 
-ADDRESS_RE = re.compile(r"\b\d{1,5}\s+[A-Z0-9 ]+\s(ST|STREET|AVE|AVENUE|RD|ROAD|BLVD|PL|PLACE|DR|LANE|LN)\b", re.I)
+ADDRESS_RE = re.compile(
+    r"\b\d{1,5}\s+(?:[A-Za-z0-9]+\s){0,4}(?:ST|STREET|AVE|AVENUE|RD|ROAD|BLVD|PL|PLACE|DR|LANE|LN)\b"
+    # ...but "57 calls for street fixes" or "street noise" aren't addresses: those are our own category names.
+    r"(?!\s+(?:fixes|noise|light|lights|sweeping|condition|vendor|sign|signs|tree|trees|fair|food)\b)",
+    re.I)
 BANNED_KEYS = {"incident_address", "street_name", "cross_street_1", "cross_street_2", "intersection_street_1",
                "intersection_street_2", "bbl", "latitude", "longitude", "location", "unique_key",
                "x_coordinate_state_plane", "y_coordinate_state_plane", "incident_zip", "landmark"}
@@ -507,6 +511,14 @@ def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
     wx = weather(day)
 
     words = headline_with_claude(summary, day, wx) if use_claude else None
+    if words:
+        # Claude never sees addresses, but if its writing ever trips the privacy check
+        # (even as a false alarm), use the plain headline for this day instead of failing the build.
+        try:
+            assert_no_pii(words)
+        except SystemExit as e:
+            log(f"Claude's text tripped the privacy check ({e}); using the plain headline.")
+            words = None
     words = words or headline_plain(summary, wx)
 
     # Rare finds: Claude's picks and quips when available, otherwise the top-scored candidates.

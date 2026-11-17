@@ -40,4 +40,10 @@ jobs:
           git config user.name "citymood-bot"
           git config user.email "citymood-bot@users.noreply.github.com"
           git add docs/data
-          if git diff --cached --quiet; then echo "Nothing new."; else git commit -m "Mood for $(python3 -c \"import json;print(json.load(open('docs/data/latest.json'))['date'])\")" && git push; fi
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+          else
+            DAY=$(python3 -c 'import json; print(json.load(open("docs/data/latest.json"))["date"])')
+            git commit -m "Mood for $DAY"
+            git push
+          fi

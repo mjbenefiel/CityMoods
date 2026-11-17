@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>Not on the map · CityMoods</title>
+<meta name="robots" content="noindex">
+<script>
+  // GitHub Pages serves this page at whatever address was missing, so work out where the site lives
+  // (/CityMoods/ on github.io, / on a custom domain) and send near-misses like /NYC or /new-york on.
+  var BASE = location.pathname.toLowerCase().indexOf("/citymoods/") === 0 ? "/CityMoods/" : "/";
+  var ALIASES = { nyc: "nyc", newyork: "nyc", ny: "nyc", manhattan: "nyc", brooklyn: "nyc",
+    chicago: "chicago", chi: "chicago", la: "la", losangeles: "la", sf: "sf", sanfrancisco: "sf",
+    boston: "boston", bos: "boston" };
+  var rest = location.pathname.slice(BASE.length).split("/")[0].toLowerCase().replace(/[^a-z]/g, "");
+  if (ALIASES[rest]) location.replace(BASE + "?city=" + ALIASES[rest]);
+</script>
+<style>
+  :root { --bg: #FAF7F2; --panel: #FFFFFF; --ink: #1D1F24; --muted: #646A75; --line: #E6E1D8; --accent: #E2557B; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161B; --panel: #1C1F26; --ink: #ECEDEF; --muted: #9AA0AB; --line: #2C3039; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex; align-items: center; justify-content: center; padding: 32px 16px; }
+  main { max-width: 560px; width: 100%; }
+  .kicker { font: 600 13px/1 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font: 700 clamp(32px, 7vw, 48px)/1.1 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; margin: 12px 0; }
+  p { color: var(--muted); margin: 0 0 14px; }
+  .ticket { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin: 22px 0;
+    font: 14px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); }
+  .ticket b { color: var(--ink); font-weight: 600; }
+  .cities { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; padding: 0; list-style: none; }
+  .cities a { display: inline-block; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px;
+    background: var(--panel); color: var(--ink); text-decoration: none; font-weight: 500; }
+  .cities a:hover { border-color: var(--ink); }
+  .home { color: var(--accent); font-weight: 600; text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Error 404</p>
+  <h1>This block isn't on our map.</h1>
+  <p>The page you're looking for doesn't exist. We filed a request about it.</p>
+  <div class="ticket">
+    <b>Request type:</b> Page missing<br>
+    <b>Status:</b> Closed. The Department of Web Pages inspected the location and found no page there.
+  </div>
+  <p>Pick a city instead:</p>
+  <ul class="cities" id="cities">
+    <li><a data-city="nyc" href="/">New York</a></li>
+    <li><a data-city="chicago" href="/">Chicago</a></li>
+    <li><a data-city="la" href="/">Los Angeles</a></li>
+    <li><a data-city="sf" href="/">San Francisco</a></li>
+    <li><a data-city="boston" href="/">Boston</a></li>
+  </ul>
+  <p style="margin-top:22px"><a class="home" id="home" href="/">← CityMoods home</a></p>
+</main>
+<script>
+  document.getElementById("home").href = BASE;
+  var links = document.querySelectorAll("#cities a");
+  for (var i = 0; i < links.length; i++) links[i].href = BASE + "?city=" + links[i].getAttribute("data-city");
+  var icon = document.createElement("link");
+  icon.rel = "icon"; icon.type = "image/svg+xml"; icon.href = BASE + "favicon.svg";
+  document.head.appendChild(icon);
+</script>
+</body>
+</html>

@@ -635,13 +635,23 @@
     input.addEventListener("blur", () => setTimeout(() => { matches = []; render(); }, 120));
   }
 
+  // Shared links use the short city address (e.g. .../chicago/?hood=...), whose page carries that city's
+  // link-preview card and headline, then forwards to the map.
+  function shareURL() {
+    const url = new URL(`${CITY_KEY}/`, location.href);
+    const params = new URL(location.href).searchParams;
+    params.delete("city");
+    url.search = params.toString();
+    return url.href;
+  }
+
   async function copyLink(btn) {
-    const old = btn.textContent;
+    const old = btn.textContent, link = shareURL();
     try {
-      await navigator.clipboard.writeText(location.href);
+      await navigator.clipboard.writeText(link);
       btn.textContent = "✓ Link copied";
     } catch (_) {
-      window.prompt("Copy this link:", location.href);
+      window.prompt("Copy this link:", link);
     }
     setTimeout(() => { btn.textContent = old; }, 1800);
   }

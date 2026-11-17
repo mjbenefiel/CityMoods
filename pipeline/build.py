@@ -15,6 +15,7 @@ plus docs/data/cities.json.
 from __future__ import annotations
 
 import argparse
+import html
 import datetime as dt
 import json
 import os
@@ -25,7 +26,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from common import DATA, get, log  # noqa: E402
+from common import DATA, SITE, get, log  # noqa: E402
 from moods import MOODS  # noqa: E402
 from cities import CITIES, City  # noqa: E402
 
@@ -437,6 +438,53 @@ def refresh_indexes():
     (C.data_dir / "index.json").write_text(json.dumps({"days": dates, "moods": MOODS, "city": C.meta()},
                                                       ensure_ascii=False))
     write_cities_list()
+    write_share_page(json.loads((days_dir / f"{dates[0]}.json").read_text()))
+
+
+# A tiny page per city (docs/<city>/index.html) so a shared link shows that city's preview card and the
+# latest headline. Link-preview bots read the tags; people are sent straight on to the map.
+SHARE_PAGE = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CityMoods">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{image}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{alt}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<script>
+  var q = location.search.replace(/^\\?/, "");
+  location.replace("../?city={key}" + (q ? "&" + q : "") + location.hash);
+</script>
+</head>
+<body>
+<p><a href="../?city={key}">Open CityMoods {name}</a></p>
+</body>
+</html>
+"""
+
+
+def write_share_page(day: dict):
+    words = day.get("words") or {}
+    e = lambda t: html.escape(t, quote=True)
+    page = SHARE_PAGE.format(
+        key=C.key, name=e(C.name),
+        title=e(f"What {C.name} complained about on {day['weekday']} · CityMoods"),
+        desc=e((words.get("headline") or f"{C.name}'s 311 requests, mapped by neighborhood.").rstrip(".") + ". Mapped, ranked and roasted."),
+        url=e(f"{SITE}{C.key}/"), image=e(f"{SITE}share/{C.key}.png?v={day['date']}"),
+        alt=e(f"Map of {C.name} neighborhoods colored by their top 311 complaint"))
+    out = DATA.parent / C.key / "index.html"
+    out.parent.mkdir(exist_ok=True)
+    out.write_text(page)
 
 
 def write_cities_list():

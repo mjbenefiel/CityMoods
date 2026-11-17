@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
 CACHE = ROOT / "pipeline" / "cache"
 UA = {"User-Agent": "CityMoods/1.0"}
+# The public address of the site. Link previews need full URLs; change this when the custom domain is live.
+SITE = "https://mjbenefiel.github.io/CityMoods/"
 
 
 def log(*a):

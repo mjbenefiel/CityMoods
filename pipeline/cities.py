@@ -594,8 +594,11 @@ class Boston(City):
     min_full_day = 300
     rare_max_28 = 12
     center_lat = 42.32
-    labels = [["Downtown", -71.06, 42.357], ["Dorchester", -71.062, 42.298], ["East Boston", -71.028, 42.377],
-              ["Roxbury", -71.088, 42.318], ["Jamaica Plain", -71.113, 42.308], ["Allston-Brighton", -71.15, 42.352]]
+    # Placed at each neighborhood's center (computed from the BPDA boundaries).
+    labels = [["Downtown", -71.057, 42.354], ["East Boston", -71.028, 42.372], ["Charlestown", -71.063, 42.380],
+              ["Allston-Brighton", -71.145, 42.353], ["South Boston", -71.046, 42.334], ["Roxbury", -71.086, 42.317],
+              ["Jamaica Plain", -71.117, 42.308], ["Dorchester", -71.066, 42.299], ["Roslindale", -71.124, 42.283],
+              ["Mattapan", -71.091, 42.278], ["West Roxbury", -71.163, 42.278], ["Hyde Park", -71.128, 42.252]]
     agency_examples = "Public Works, Transportation, Inspectional Services, Parks"
     sources = [["Boston 311 Service Requests", "https://data.boston.gov/dataset/311-service-requests"],
                ["BPDA Neighborhood Boundaries", "https://data.boston.gov/dataset/bpda-neighborhood-boundaries"]]

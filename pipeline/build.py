@@ -50,6 +50,7 @@ KEEP_DAYS = 45
 MIN_FULL_DAY = 5000   # a day with fewer requests than this is treated as still loading
 UA = {"User-Agent": "CityMood/1.0"}
 MODEL = os.environ.get("CITYMOOD_MODEL", "claude-opus-5-5")
+BOROUGHS = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
 
 
 def log(*a):
@@ -365,7 +366,9 @@ def headline_with_claude(summary, day, wx):
         "properties": {
             "headline": {"type": "string"},
             "blurb": {"type": "string"},
-            "boroughs": {"type": "object", "additionalProperties": {"type": "string"}},
+            "boroughs": {"type": "object",
+                         "properties": {b: {"type": "string"} for b in BOROUGHS},
+                         "required": BOROUGHS, "additionalProperties": False},
             "rare_finds": {"type": "array", "items": {
                 "type": "object",
                 "properties": {"name": {"type": "string"}, "quip": {"type": "string"}},

@@ -198,3 +198,6 @@ footer p { margin: 0 0 6px; }
 #map .sel-label.pulse { animation: sel-pop .5s ease-out; transform-box: fill-box; transform-origin: center; }
 @keyframes sel-pop { 0% { transform: scale(.6); opacity: 0; } 70% { transform: scale(1.08); opacity: 1; } 100% { transform: scale(1); } }
 @media (prefers-reduced-motion: reduce) { #map .sel-label.pulse { animation: none; } }
+
+.ramp { display: inline-block; width: 46px; height: 8px; border-radius: 4px; vertical-align: middle; margin: 0 2px;
+  background: linear-gradient(90deg, var(--empty), var(--muted)); }

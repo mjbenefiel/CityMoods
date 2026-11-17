@@ -159,7 +159,8 @@
           tip = `${h.name}: ${h.top ? MOODS[h.top].label : "mixed"} (${fmt(h.total)} reports)`;
         } else if (mode === "distinct") {
           const d = h.distinct;
-          if (d) fill = MOODS[d.mood].color;
+          // Heatmap: mood color for *what* stands out, depth for *how much* (log scale, 1.5x pale -> 30x+ full).
+          if (d) fill = mix(MOODS[d.mood].color, 0.2 + 0.8 * Math.min(1, Math.log(d.x / 1.5) / Math.log(20)));
           tip = d ? `${h.name}: ${d.name}, ${d.x}× the city's rate` : `${h.name}: nothing stands out`;
         } else {
           const n = h.moods[mode] || 0;
@@ -178,7 +179,7 @@
       c.setAttribute("aria-pressed", c.dataset.mode === mode);
     });
     if (mode === "top") note.textContent = "";
-    else if (mode === "distinct") note.textContent = "What each place reports far more than the rest of the city";
+    else if (mode === "distinct") note.innerHTML = 'What each place reports more than the city · <span class="ramp" aria-hidden="true"></span> darker = more out of character';
     else note.textContent = `${MOODS[mode].emoji} ${MOODS[mode].label}: darker = more reports`;
   }
 

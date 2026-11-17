@@ -17,6 +17,8 @@ from pathlib import Path
 from common import DATA, SITE
 
 DOCS = DATA.parent
+# Bump when docs/share/*.png are re-rendered, so apps that cached the old preview image fetch the new one.
+CARD_VERSION = "dark1"
 
 
 def _set_meta(page: str, attr: str, name: str, value: str) -> str:
@@ -40,7 +42,7 @@ def write_city_page(key: str, name: str, day: dict):
         ("property", "og:title", title),
         ("property", "og:description", desc),
         ("property", "og:url", f"{SITE}{key}/"),
-        ("property", "og:image", f"{SITE}share/{key}.png?v={day['date']}"),
+        ("property", "og:image", f"{SITE}share/{key}.png?v={day['date']}-{CARD_VERSION}"),
         ("property", "og:image:alt", f"Map of {name} neighborhoods colored by their top 311 complaint"),
     ]:
         page = _set_meta(page, attr, tag, e(value))

@@ -4,8 +4,10 @@
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, ui-serif, serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
+/* Dark for everyone. The light palette above stays for a possible future toggle (data-theme="light"). */
+@media all {
   :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --bg: #14161B; --panel: #1C1F26; --ink: #ECEDEF; --muted: #9AA0AB; --line: #2C3039;
     --water: #182230; --empty: #2A2E36; --stroke: #14161B;
   }
@@ -139,13 +141,13 @@ footer p { margin: 0 0 6px; }
 .pill { font: 600 11px/1 var(--sans); padding: 3px 6px; border-radius: 999px; letter-spacing: .01em; }
 .pill.up { color: #C2410C; background: color-mix(in srgb, #F97316 16%, transparent); }
 .pill.down { color: var(--muted); background: var(--empty); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pill.up { color: #FDBA74; } }
+@media all { :root:not([data-theme="light"]) .pill.up { color: #FDBA74; } }
 
 .spike { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 12px; align-items: start;
   padding: 10px 0; border-top: 1px solid var(--line); }
 .spike:first-child { border-top: 0; }
 .spike .mult { font: 700 26px/1 var(--serif); color: #C2410C; font-variant-numeric: tabular-nums; padding-top: 2px; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .spike .mult { color: #FDBA74; } }
+@media all { :root:not([data-theme="light"]) .spike .mult { color: #FDBA74; } }
 .spike .badge { width: 22px; height: 22px; font-size: 12px; }
 .agencies li { padding: 2px 0; }
 .agencies span { font-size: 14px; font-weight: 600; }

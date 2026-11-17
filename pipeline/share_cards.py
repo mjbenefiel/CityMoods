@@ -24,22 +24,22 @@ SHORT = {"nyc": "New York", "chicago": "Chicago", "la": "Los Angeles", "sf": "Sa
 
 CSS = """
 *{box-sizing:border-box;margin:0}
-body{width:1200px;height:630px;background:#FAF7F2;color:#1D1F24;font-family:-apple-system,system-ui,sans-serif;
+body{width:1200px;height:630px;background:#14161B;color:#ECEDEF;font-family:-apple-system,system-ui,sans-serif;
   display:flex;overflow:hidden}
 .text{flex:1;padding:64px 0 56px 72px;display:flex;flex-direction:column}
-.brand{display:flex;align-items:center;gap:12px;font:600 26px -apple-system,system-ui,sans-serif;color:#1D1F24}
+.brand{display:flex;align-items:center;gap:12px;font:600 26px -apple-system,system-ui,sans-serif;color:#ECEDEF}
 .brand img{width:40px;height:40px}
 h1{font:700 64px/1.06 "Iowan Old Style",Palatino,Georgia,serif;margin-top:auto;letter-spacing:-0.5px}
-h1 em{font-style:normal;color:#E2557B}
-.sub{font:500 28px -apple-system,system-ui,sans-serif;color:#646A75;margin-top:18px}
-.legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:30px;font:500 19px -apple-system,system-ui,sans-serif;color:#646A75}
+h1 em{font-style:normal;color:#F06A8F}
+.sub{font:500 28px -apple-system,system-ui,sans-serif;color:#9AA0AB;margin-top:18px}
+.legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:30px;font:500 19px -apple-system,system-ui,sans-serif;color:#9AA0AB}
 .legend span{display:flex;align-items:center;gap:7px}
 .legend i{width:14px;height:14px;border-radius:4px;display:inline-block}
 .map{width:520px;display:flex;align-items:center;justify-content:center;padding:36px 48px 36px 0}
 .map svg{width:100%;height:100%}
 .minis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:34px;width:1056px}
-.minis div{background:#fff;border:1px solid #E6E1D8;border-radius:14px;padding:10px 10px 8px;text-align:center;
-  font:600 17px -apple-system,system-ui,sans-serif;color:#1D1F24}
+.minis div{background:#1C1F26;border:1px solid #2C3039;border-radius:14px;padding:10px 10px 8px;text-align:center;
+  font:600 17px -apple-system,system-ui,sans-serif;color:#ECEDEF}
 .minis svg{width:100%;height:150px;display:block;margin-bottom:6px}
 .site .text{padding-right:72px}
 .site h1{margin-top:44px;font-size:62px}
@@ -62,11 +62,11 @@ def city_svg(key: str, moods: dict) -> str:
     paths = []
     for hid, rs in rings:
         top = (hoods.get(hid) or {}).get("top")
-        fill = moods[top]["color"] if top in moods else "#ECE8E1"
+        fill = moods[top]["color"] if top in moods else "#2A2E36"
         d = "".join("M" + "L".join(f"{(x - min(xs)) * k * s:.1f},{(max(ys) - y) * s:.1f}" for x, y in r) + "Z" for r in rs)
         paths.append(f'<path d="{d}" fill="{fill}" fill-rule="evenodd"/>')
     return (f'<svg viewBox="-8 -8 {w * s + 16:.0f} {h * s + 16:.0f}" preserveAspectRatio="xMidYMid meet">'
-            f'<g stroke="#FAF7F2" stroke-width="1.6" stroke-linejoin="round">{"".join(paths)}</g></svg>')
+            f'<g stroke="#14161B" stroke-width="1.6" stroke-linejoin="round">{"".join(paths)}</g></svg>')
 
 
 def top_moods(key: str, moods: dict, n: int = 4) -> list[str]:

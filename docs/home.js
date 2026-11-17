@@ -18,6 +18,14 @@
     return new Date(iso + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
   }
 
+  // "yesterday" only when it really was yesterday; otherwise the weekday ("on Monday").
+  function dayWords(iso) {
+    const d = new Date(iso + "T12:00:00"), y = new Date(); y.setDate(y.getDate() - 1);
+    const weekday = d.toLocaleDateString("en-US", { weekday: "long" });
+    const isYesterday = d.toDateString() === y.toDateString();
+    return { phrase: isYesterday ? "yesterday" : `on ${weekday}`, title: isYesterday ? "Yesterday's" : `${weekday}'s`, weekday };
+  }
+
   function possessive(name) {
     return name.endsWith("s") ? `${name}'` : `${name}'s`;
   }
@@ -149,14 +157,32 @@
 
   async function render() {
     $("home").hidden = false;
-    document.title = "CityMoods: what cities complained about yesterday";
+    document.title = "CityMoods: what cities complain about, mapped";
     let cities = [];
     try { cities = (await getJSON("data/cities.json")).cities || []; } catch (e) { console.error(e); }
     if (window.CityMoodsTabs) window.CityMoodsTabs(cities, null);
     rotate(cities.map((c) => c.name));
     $("city-cards").innerHTML = cities.map(skeleton).join("");
-    const dates = (await Promise.all(cities.map(fillCard))).filter(Boolean).sort();
-    if (dates.length) $("home-date").textContent = `Latest: ${niceDate(dates[dates.length - 1])} · ${cities.length} cities`;
+    const results = await Promise.all(cities.map(fillCard));
+    const dates = results.filter(Boolean).sort();
+    if (dates.length) {
+      const newest = dates[dates.length - 1], words = dayWords(newest);
+      $("home-date").textContent = `Latest: ${niceDate(newest)} · ${cities.length} cities`;
+      $("hero-day").textContent = words.phrase;
+      $("cards-title").textContent = `${words.title} moods`;
+      // Only call out a city when it's actually behind the others (e.g. it posted late).
+      cities.forEach((c, i) => {
+        const d = results[i];
+        if (!d || d >= newest) return;
+        const card = $(`card-${c.key}`), date = card.querySelector(".cc-date");
+        date.classList.add("behind");
+        date.title = `${c.name} hasn't posted ${words.weekday}'s requests yet, so this shows ${dayWords(d).weekday}.`;
+        const note = document.createElement("p");
+        note.className = "cc-behind";
+        note.textContent = `${c.name} hasn't posted ${words.weekday} yet`;
+        card.querySelector(".cc-foot").before(note);
+      });
+    }
     $("sources").textContent = "each city's 311 service requests";
     $("not-affiliated").textContent = "any of these cities";
   }

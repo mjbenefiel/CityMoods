@@ -191,9 +191,11 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
 
 # ---------------------------------------------------------------- headline
 
-PROMPT = """You write the daily headline for CityMoods, a playful website that maps what {people} reported to 311 ({city}'s non-emergency line) yesterday, grouped into "moods".
+PROMPT = """You write the daily headline for CityMoods, a playful website that maps what {people} reported to 311 ({city}'s non-emergency line) on a given day, grouped into "moods".
 
-Here is yesterday's data (all numbers are counts of 311 requests; "typical" is the average for the same weekday over the previous four weeks):
+People will often read this a day or two later, so never say "yesterday", "today" or "last night"; when you need to say when, use the weekday (it's in the data).
+
+Here is the day's data (all numbers are counts of 311 requests; "typical" is the average for the same weekday over the previous four weeks):
 
 {data}
 
@@ -316,14 +318,14 @@ def headline_with_claude(summary, day, wx, extras):
     return out
 
 
-def headline_plain(summary, wx):
+def headline_plain(summary, wx, day):
     top = next((m for m in summary["moods"] if m["id"] != "other"), summary["moods"][0])
     lab = MOODS[top["id"]]["label"].lower()
     if summary["spikes"]:
         s = summary["spikes"][0]
         head = f"{s['name']} reports jumped to {s['n']:,}, about {s['ratio']:.1f}x a typical day"
     else:
-        head = f"{C.name}'s biggest gripe yesterday: {lab}"
+        head = f"{C.name}'s biggest gripe on {day:%A}: {lab}"
     blurb = (f"{C.people} made {summary['total']:,} requests to 311. "
              f"The top mood was {lab}, with {top['n']:,} reports.")
     if wx:
@@ -399,7 +401,7 @@ def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
         except SystemExit as e:
             log(f"Claude's text tripped the privacy check ({e}); using the plain headline.")
             words = None
-    words = words or headline_plain(summary, wx)
+    words = words or headline_plain(summary, wx, day)
 
     # Rare finds: Claude's picks and quips when available, otherwise the top-scored candidates.
     cands = {c["name"]: c for c in summary.pop("rare_candidates")}

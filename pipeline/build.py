@@ -1,4 +1,4 @@
-"""CityMood daily build.
+"""CityMoods daily build.
 
 Fetches one full day of NYC 311 service requests, works out which neighborhood each one
 came from, and publishes neighborhood totals only. No addresses, coordinates or individual
@@ -48,8 +48,8 @@ FIELDS_311 = "complaint_type,descriptor,descriptor_2,agency,latitude,longitude"
 MIN_CELL = 3          # neighborhood-level counts below this are not published
 KEEP_DAYS = 45
 MIN_FULL_DAY = 5000   # a day with fewer requests than this is treated as still loading
-UA = {"User-Agent": "CityMood/1.0"}
-MODEL = os.environ.get("CITYMOOD_MODEL", "claude-opus-5-5")
+UA = {"User-Agent": "CityMoods/1.0"}
+MODEL = os.environ.get("CITYMOODS_MODEL", "claude-opus-5-5")
 BOROUGHS = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
 
 
@@ -351,7 +351,7 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
 
 # ---------------------------------------------------------------- headline
 
-PROMPT = """You write the daily headline for CityMood, a playful website that maps what New Yorkers reported to 311 (the city's non-emergency line) yesterday, grouped into "moods".
+PROMPT = """You write the daily headline for CityMoods, a playful website that maps what New Yorkers reported to 311 (the city's non-emergency line) yesterday, grouped into "moods".
 
 Here is yesterday's data (all numbers are counts of 311 requests; "typical" is the average for the same weekday over the previous four weeks):
 

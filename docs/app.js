@@ -1,4 +1,4 @@
-// CityMood: draws yesterday's 311 moods on a map of NYC neighborhoods.
+// CityMoods: draws yesterday's 311 moods on a map of NYC neighborhoods.
 // Everything here is static JSON made by pipeline/build.py. No tracking, no third-party calls.
 (function () {
   "use strict";
@@ -417,7 +417,7 @@
       + (w ? ` · ${w.high_f}°F high, ${w.low_f}°F low` : "");
     $("headline").textContent = entry.words.headline;
     $("blurb").textContent = entry.words.blurb;
-    document.title = `${entry.words.headline} · CityMood`;
+    document.title = `${entry.words.headline} · CityMoods`;
     renderMoods();
     renderTypes();
     renderAgencies();

@@ -1,4 +1,4 @@
-# CityMood · New York
+# CityMoods · New York
 
 A map of what New York reported to 311 yesterday, grouped into playful "moods" (no heat, noise, parking wars, critters…) and shown by neighborhood.
 
@@ -50,7 +50,7 @@ NYC publishes each day's 311 data the next morning, so the site always shows yes
 
 ## The daily headline
 
-With an `ANTHROPIC_API_KEY` set, Claude writes the headline, blurb, one line per borough, and picks the day's three best "rare finds" with a quip each, all from the totals only (no record-level data is ever sent). Without a key, a plain rule-based headline is used. Model: `claude-opus-5-5`, override with `CITYMOOD_MODEL`. Roughly a couple of cents a day.
+With an `ANTHROPIC_API_KEY` set, Claude writes the headline, blurb, one line per borough, and picks the day's three best "rare finds" with a quip each, all from the totals only (no record-level data is ever sent). Without a key, a plain rule-based headline is used. Model: `claude-opus-5-5`, override with `CITYMOODS_MODEL`. Roughly a couple of cents a day.
 
 ## Going live
 
@@ -64,4 +64,4 @@ Data: NYC Open Data (311 Service Requests; 2020 Neighborhood Tabulation Areas). 
 ## License
 
 Code: MIT (see `LICENSE`). The published data comes from NYC Open Data (311 Service Requests; 2020 Neighborhood
-Tabulation Areas) and Open-Meteo, under their own terms; CityMood is not affiliated with the City of New York.
+Tabulation Areas) and Open-Meteo, under their own terms; CityMoods is not affiliated with the City of New York.

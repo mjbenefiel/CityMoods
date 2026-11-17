@@ -69,8 +69,8 @@
       <div class="cc-map"><svg aria-hidden="true"></svg></div>
       <div class="cc-body">
         <h2>${esc(c.name)}</h2>
-        <p class="cc-line"></p>
-        <p class="cc-kicker">&nbsp;</p>
+        <div class="cc-mood"><p class="cc-kicker">The mood</p><p class="cc-line"></p></div>
+        <p class="cc-kicker cc-stat-k">&nbsp;</p>
         <div class="cc-stat"></div>
         <p class="cc-label">&nbsp;</p>
         <p class="cc-rare"></p>
@@ -119,17 +119,22 @@
           `<span class="badge" style="--tint:${m.color}" aria-hidden="true">${m.emoji}</span>`
           + `<b>${esc(hook.stat)}</b><span class="unit">${esc(hook.unit)}</span>`;
         card.querySelector(".cc-label").textContent = hook.label;
-        card.querySelector(".cc-kicker").textContent = hook.kicker;
+        card.querySelector(".cc-stat-k").textContent = hook.kicker;
       }
-      const line = day.words && day.words.card_line;   // Claude's short card line (days written after Nov 17)
+      // Claude's short card line. The card labels it "The mood", so drop an opener like "Monday's mood:".
+      let line = (day.words && day.words.card_line) || "";
+      line = line.replace(/^\s*(\w+day'?s?|today'?s?|the)?\s*mood\s*[:—-]\s*/i, "");
+      line = line ? line[0].toUpperCase() + line.slice(1) : "";
       if (line) card.querySelector(".cc-line").textContent = line;
+      else card.querySelector(".cc-mood").remove();
       const rare = (day.rare_finds || [])[0];
       if (rare) {
         const el = card.querySelector(".cc-rare");
         el.innerHTML = `<span aria-hidden="true">🔎</span> Rare find: <i>${esc(rare.name)}</i>`;
         el.title = `Rare find: ${rare.name}`;
       }
-      card.querySelector(".cc-date").textContent = niceDate(day.date);
+      card.querySelector(".cc-date").textContent =
+        `${new Date(day.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })} · ${fmt(day.total)} requests`;
       card.setAttribute("aria-label", `${c.name}, ${niceDate(day.date)}: ${hook ? `${hook.label}, ${hook.stat} ${hook.unit}` : ""}.`
         + (rare ? ` Rare find: ${rare.name}.` : ""));
       miniMap(card.querySelector("svg"), geo, c.center_lat || 40,

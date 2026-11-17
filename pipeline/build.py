@@ -200,7 +200,7 @@ Here is yesterday's data (all numbers are counts of 311 requests; "typical" is t
 Write:
 - headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike, the mood that dominated, or a fact from today_in_311).
 - blurb: two short sentences that add one or two specific numbers from the data.
-- card_line: at most 45 characters. A witty one-liner about the city's day for its card on the front page, in the same columnist voice, saying something different from the headline. No numbers needed.
+- card_line: at most 45 characters. A witty one-liner capturing the city's mood that day, for its card on the front page, in the same columnist voice, saying something different from the headline. The card already shows the label "The mood", the city name and the date, so don't use the word "mood", the weekday or the city's name. No numbers needed.
 {regions_line}
 - rare_finds: pick the 3 most absurd items from rare_find_candidates and give each a quip of at most 130 characters. Copy each name exactly as given.
   Background (the page already explains this to readers, so you don't need to): each candidate is an official option on the city's 311 menu that someone picked on this day, and it usually gets picked less than about once a week. Don't make every quip about menus or dropdowns; vary the angle.

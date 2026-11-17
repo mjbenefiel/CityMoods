@@ -176,3 +176,25 @@ footer p { margin: 0 0 6px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 860px) { .search { margin-left: 0; flex-basis: 100%; } .search input { width: 100%; } }
 @media (max-width: 860px) { .map-mode { position: static; padding: 12px 12px 0; } }
+
+/* Search results: small, at most 6 */
+.search { position: relative; }
+.results { position: absolute; right: 0; top: calc(100% + 6px); width: 260px; max-width: calc(100vw - 48px); z-index: 6;
+  list-style: none; margin: 0; padding: 4px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.16); }
+.results li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 10px; border-radius: 8px; cursor: pointer;
+  font-size: 13.5px; }
+.results li b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.results li span { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.results li.on, .results li:hover { background: var(--bg); }
+@media (max-width: 860px) { .results { left: 0; right: auto; width: 100%; } }
+
+/* Selected neighborhood: fade others, bold outline, name on the map */
+#map.has-sel path { opacity: .45; }
+#map.has-sel path.sel { opacity: 1; stroke: var(--ink); stroke-width: 3; }
+#map .sel-label { pointer-events: none; }
+#map .sel-label rect { fill: var(--ink); }
+#map .sel-label text { fill: var(--bg); font: 700 17px var(--sans); }
+#map .sel-label.pulse { animation: sel-pop .5s ease-out; transform-box: fill-box; transform-origin: center; }
+@keyframes sel-pop { 0% { transform: scale(.6); opacity: 0; } 70% { transform: scale(1.08); opacity: 1; } 100% { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { #map .sel-label.pulse { animation: none; } }

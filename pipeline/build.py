@@ -366,12 +366,30 @@ Write:
   Write the quips as observational stand-up: a comic marveling at the fact that this is an official, filed, city-government complaint category. Small everyday absurdity, rhetorical questions, mock outrage at the mundane, a surprising turn at the end. A "what's the deal with..." opening is fine at most once per day. Make the three quips different in shape.
   Joke about the situation and the bureaucracy, never about the person who called; never guess who reported it or where. Don't name, quote or impersonate any real comedian, TV show or character, and don't use catchphrases from shows. No insults, nothing mean-spirited, nothing about bodies, race, religion, money troubles or politics.
 
+Don't reuse puns, phrases, jokes or openings from recent_writing_to_avoid_repeating (other days' headlines and quips); each day should feel fresh. If a recent quip opened with "what's the deal", don't open with it today.
+
 "Problem details" are the specific sub-types people chose (for example "Roaches" or "Loud music/party"); a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to.
 
 Rules:
 - Use only the numbers and facts given. Do not invent events, causes, places or people. You may connect heat complaints to the temperatures given, and wet-weather complaints to the rain given, but nothing else.
 - Laugh with the city, never at people. No jokes about poverty, homelessness, immigrants, landlords or tenants as people, or any group.
 - Plain words. No hashtags, no emoji."""
+
+
+def recent_writing(day: dt.date, n: int = 7) -> dict:
+    """Claude's headlines and quips from the nearest other days, so it doesn't repeat itself."""
+    heads, quips = [], []
+    others = sorted((p for p in (DATA / "days").glob("*.json") if p.stem != day.isoformat()),
+                    key=lambda p: abs((dt.date.fromisoformat(p.stem) - day).days))[:n]
+    for p in others:
+        try:
+            d = json.loads(p.read_text())
+        except (OSError, ValueError):
+            continue
+        if d.get("words", {}).get("by") == "claude":
+            heads.append(d["words"]["headline"])
+            quips += [r["quip"] for r in d.get("rare_finds", []) if r.get("quip")]
+    return {"headlines": heads, "quips": quips}
 
 
 def headline_with_claude(summary, day, wx):
@@ -387,6 +405,7 @@ def headline_with_claude(summary, day, wx):
         "top_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["top_details"][:10]],
         "unusual_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["detail_spikes"]],
         "responding_agencies": summary["agencies"][:5],
+        "recent_writing_to_avoid_repeating": recent_writing(day),
         "rare_find_candidates": [{k: x[k] for k in ("name", "n", "past_28_days")} for x in summary["rare_candidates"]],
         "boroughs": {b: [{"mood": MOODS[m["id"]]["label"], "count": m["n"]} for m in v]
                      for b, v in summary["boroughs"].items()},
@@ -468,7 +487,7 @@ def headline_plain(summary, wx):
 ADDRESS_RE = re.compile(
     r"\b\d{1,5}\s+(?:[A-Za-z0-9]+\s){0,4}(?:ST|STREET|AVE|AVENUE|RD|ROAD|BLVD|PL|PLACE|DR|LANE|LN)\b"
     # ...but "57 calls for street fixes" or "street noise" aren't addresses: those are our own category names.
-    r"(?!\s+(?:fixes|noise|light|lights|sweeping|condition|vendor|sign|signs|tree|trees|fair|food)\b)",
+    r"(?![\s-]+(?:fix|fixes|noise|light|lights|sweeping|condition|vendor|sign|signs|tree|trees|fair|food)\b)",
     re.I)
 BANNED_KEYS = {"incident_address", "street_name", "cross_street_1", "cross_street_2", "intersection_street_1",
                "intersection_street_2", "bbl", "latitude", "longitude", "location", "unique_key",

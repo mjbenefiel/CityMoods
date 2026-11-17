@@ -66,6 +66,38 @@
     }
   }
 
+  // ---------------------------------------------------------------- selected neighborhood
+  // Fade the rest of the map, outline the chosen neighborhood, and put its name on the map.
+  let lastMarked = null;
+  function markSelected() {
+    const svg = $("map");
+    svg.classList.toggle("has-sel", !!selected);
+    const old = svg.querySelector(".sel-label");
+    if (old) old.remove();
+    if (!selected || !paths[selected]) { lastMarked = null; return; }
+    const el = paths[selected];
+    svg.insertBefore(el, svg.querySelector(".boro"));   // draw on top of its neighbors (borough names stay above)
+    const b = el.getBBox();
+    const vb = svg.viewBox.baseVal;
+    const g = document.createElementNS(SVGNS, "g");
+    g.setAttribute("class", "sel-label" + (lastMarked !== selected ? " pulse" : ""));
+    const t = document.createElementNS(SVGNS, "text");
+    t.textContent = el.dataset.name;
+    g.append(t);
+    svg.append(g);
+    const tb = t.getBBox();
+    const padX = 10, padY = 6, w = tb.width + padX * 2, h = tb.height + padY * 2;
+    let x = b.x + b.width / 2 - w / 2, y = b.y - h - 8;          // above the shape...
+    if (y < 4) y = b.y + b.height + 8;                             // ...or below if it's at the top edge
+    x = Math.max(4, Math.min(vb.width - w - 4, x));
+    const r = document.createElementNS(SVGNS, "rect");
+    r.setAttribute("x", x); r.setAttribute("y", y); r.setAttribute("width", w); r.setAttribute("height", h);
+    r.setAttribute("rx", h / 2);
+    t.setAttribute("x", x + padX); t.setAttribute("y", y + padY + tb.height * 0.78);
+    g.insertBefore(r, t);
+    lastMarked = selected;
+  }
+
   // ---------------------------------------------------------------- hover label
   function hoverLine(id) {
     const h = entry && entry.neighborhoods[id];
@@ -139,6 +171,7 @@
       el.setAttribute("aria-label", tip);
       el.classList.toggle("sel", id === selected);
     }
+    markSelected();
     const note = $("mode-note");
     document.querySelectorAll(".chip[data-mode]").forEach((c) => {
       c.classList.toggle("on", c.dataset.mode === mode);
@@ -310,33 +343,48 @@
 
   // ---------------------------------------------------------------- search
   function setupSearch(geo) {
-    const list = $("hood-list"), input = $("hood-search");
-    const byLabel = {};
-    geo.features
-      .map((f) => ({ id: f.id, label: `${f.properties.name}, ${f.properties.borough}` }))
-      .sort((a, b) => a.label.localeCompare(b.label))
-      .forEach(({ id, label }) => {
-        byLabel[label.toLowerCase()] = id;
-        const o = document.createElement("option");
-        o.value = label;
-        list.append(o);
-      });
-    const go = () => {
+    const input = $("hood-search"), box = $("hood-results");
+    const all = geo.features.map((f) => ({ id: f.id, name: f.properties.name, borough: f.properties.borough }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+    let matches = [], active = 0;
+
+    const render = () => {
+      box.hidden = !matches.length;
+      box.innerHTML = matches.map((m, k) =>
+        `<li role="option" data-id="${m.id}" class="${k === active ? "on" : ""}" aria-selected="${k === active}">`
+        + `<b>${escapeHTML(m.name)}</b><span>${escapeHTML(m.borough)}</span></li>`).join("");
+    };
+    const search = () => {
       const q = input.value.trim().toLowerCase();
-      if (!q) return;
-      const id = byLabel[q] || Object.entries(byLabel).find(([label]) => label.startsWith(q))?.[1]
-        || Object.entries(byLabel).find(([label]) => label.includes(q))?.[1];
-      if (!id) { input.setCustomValidity("No neighborhood by that name"); input.reportValidity(); return; }
-      input.setCustomValidity("");
-      hideHover();
-      select(id);
+      if (!q) { matches = []; render(); return; }
+      const starts = all.filter((m) => m.name.toLowerCase().startsWith(q));
+      const words = all.filter((m) => !starts.includes(m) && m.name.toLowerCase().split(/[\s()-]+/).some((w) => w.startsWith(q)));
+      const inside = all.filter((m) => !starts.includes(m) && !words.includes(m) && m.name.toLowerCase().includes(q));
+      matches = [...starts, ...words, ...inside].slice(0, 6);
+      active = 0;
+      render();
+    };
+    const choose = (id) => {
+      matches = []; render();
       input.value = "";
       input.blur();
+      hideHover();
+      select(id);
       $("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
-    input.addEventListener("change", go);
-    input.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); go(); } });
-    input.addEventListener("input", () => input.setCustomValidity(""));
+
+    input.addEventListener("input", search);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowDown" && matches.length) { active = (active + 1) % matches.length; render(); e.preventDefault(); }
+      else if (e.key === "ArrowUp" && matches.length) { active = (active - 1 + matches.length) % matches.length; render(); e.preventDefault(); }
+      else if (e.key === "Enter") { if (matches[active]) choose(matches[active].id); e.preventDefault(); }
+      else if (e.key === "Escape") { matches = []; render(); input.blur(); }
+    });
+    box.addEventListener("pointerdown", (e) => {
+      const li = e.target.closest("li[data-id]");
+      if (li) { e.preventDefault(); choose(li.dataset.id); }
+    });
+    input.addEventListener("blur", () => setTimeout(() => { matches = []; render(); }, 120));
   }
 
   async function copyLink(btn) {

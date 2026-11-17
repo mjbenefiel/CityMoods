@@ -51,5 +51,6 @@ jobs:
           else
             DAYS=$(git diff --cached --name-only | grep -oE '[a-z]+/days/[0-9]{4}-[0-9]{2}-[0-9]{2}' | sed 's#/days/# #' | sort -u | tr '\n' ',' | sed 's/,$//; s/,/, /g')
             git commit -m "Moods for ${DAYS:-latest data}"
-            git push
+            # Someone may have pushed site changes while this ran; replay our data commit on top.
+            for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
           fi

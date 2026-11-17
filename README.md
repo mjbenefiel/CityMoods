@@ -60,3 +60,8 @@ With an `ANTHROPIC_API_KEY` set, Claude writes the headline, blurb, one line per
 4. Actions → Daily mood → Run workflow once to check it.
 
 Data: NYC Open Data (311 Service Requests; 2020 Neighborhood Tabulation Areas). Weather: Open-Meteo.
+
+## License
+
+Code: MIT (see `LICENSE`). The published data comes from NYC Open Data (311 Service Requests; 2020 Neighborhood
+Tabulation Areas) and Open-Meteo, under their own terms; CityMood is not affiliated with the City of New York.

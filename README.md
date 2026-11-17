@@ -4,7 +4,9 @@ A map of what cities report to 311 each day, grouped into playful "moods" (no he
 
 ```
 docs/                 The website (static, no build step). GitHub Pages serves this folder.
-  index.html, style.css, app.js, privacy.html
+  index.html, style.css, privacy.html
+  home.js             Front page (no ?city=): rotating headline, live city cards with mini maps
+  app.js              City view (?city=nyc|chicago|la|sf|boston): map, moods, cards, rare finds
   data/cities.json    Which cities have data
   data/<city>/        latest.json, index.json, days/<date>.json, neighborhoods.geojson
 pipeline/

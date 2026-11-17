@@ -10,14 +10,12 @@
 <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14161B" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗽</text></svg>">
-<link rel="stylesheet" href="style.css?v=202611171145">
+<link rel="stylesheet" href="style.css?v=202611171212">
 </head>
 <body>
 <header class="top">
-  <div class="brand"><span aria-hidden="true">🏙️</span> CityMoods
-    <label class="city-pick"><span class="sr">City</span><select id="city-select" hidden></select></label>
-    <span class="city" id="city-name"></span>
-  </div>
+  <a class="brand" href="./" aria-label="CityMoods home"><span aria-hidden="true">🏙️</span> CityMoods</a>
+  <nav class="city-tabs" id="city-tabs" aria-label="Cities"></nav>
   <nav class="day-nav" aria-label="Choose a day">
     <button id="prev" aria-label="Earlier day">‹</button>
     <span id="day-label">Loading…</span>
@@ -25,7 +23,22 @@
   </nav>
 </header>
 
-<main>
+<section id="home" class="home" hidden>
+  <div class="hero">
+    <p class="kicker" id="home-date">&nbsp;</p>
+    <h1><span class="line">What <span class="rot" id="rot">New York</span></span><span class="line">complained about yesterday.</span></h1>
+    <p class="sub">Mapped, ranked and roasted.</p>
+    <p class="hero-note">Every night, CityMoods reads the latest full day of 311 requests (the city's non-emergency line) and turns it into a mood map of every neighborhood, plus the strangest things someone actually picked from the menu.</p>
+  </div>
+  <div id="city-cards" class="city-cards"></div>
+  <div class="how">
+    <div><span aria-hidden="true">📡</span><h3>Real city data, nightly</h3><p>Each city publishes its 311 requests as open data. We pull the latest complete day every night.</p></div>
+    <div><span aria-hidden="true">🗺️</span><h3>Moods, mapped</h3><p>Thousands of requests become a few moods (no heat, noise, parking wars, critters) mapped by neighborhood, with each place's signature gripe.</p></div>
+    <div><span aria-hidden="true">🔒</span><h3>Nobody pinpointed</h3><p>No addresses, names or notes. Neighborhood totals only, and requests about people are never shown or joked about.</p></div>
+  </div>
+</section>
+
+<main id="city-view">
   <section class="lede">
     <p class="kicker" id="kicker"></p>
     <h1 id="headline">Reading the city's mood…</h1>
@@ -98,6 +111,7 @@
   <p><a href="privacy.html">Privacy</a></p>
 </footer>
 
-<script src="app.js?v=202611171145"></script>
+<script src="home.js?v=202611171212"></script>
+<script src="app.js?v=202611171212"></script>
 </body>
 </html>

@@ -16,7 +16,10 @@
   const paths = {};      // id -> <path>
 
   // Which city: ?city=chicago, default New York. Each city's data lives in data/<city>/.
-  const CITY_KEY = (new URL(location.href).searchParams.get("city") || "nyc").toLowerCase().replace(/[^a-z]/g, "");
+  // No ?city= means the front page (home.js); every city view carries its city in the address.
+  const CITY_PARAM = (new URL(location.href).searchParams.get("city") || "").toLowerCase().replace(/[^a-z]/g, "");
+  const IS_HOME = !CITY_PARAM;
+  const CITY_KEY = CITY_PARAM || "nyc";
   const BASE = `data/${CITY_KEY}/`;
   let CITY = { key: CITY_KEY, name: "", center_lat: 40.7, labels: [], sources: [] };
 
@@ -341,7 +344,7 @@
     if (!days.length) return;
     const url = new URL(location.href);
     const set = (k, v) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
-    set("city", CITY_KEY === "nyc" ? "" : CITY_KEY);
+    set("city", CITY_KEY);
     set("day", dayIndex === 0 ? "" : days[dayIndex]);
     set("hood", selected || "");
     set("mode", mode === "top" ? "" : mode);
@@ -472,15 +475,7 @@
     // Header switcher and city-specific wording. Only cities that have data are listed.
     let list = [];
     try { list = (await getJSON("data/cities.json")).cities || []; } catch (_) { /* single-city fallback */ }
-    const sel = $("city-select");
-    sel.innerHTML = list.map((c) => `<option value="${c.key}"${c.key === CITY_KEY ? " selected" : ""}>${escapeHTML(c.name)}</option>`).join("");
-    sel.hidden = list.length < 2;
-    sel.addEventListener("change", () => {
-      const url = new URL(location.href);
-      url.search = sel.value === "nyc" ? "" : `?city=${sel.value}`;
-      location.href = url.toString();
-    });
-    $("city-name").textContent = CITY.name;
+    renderTabs(list, CITY_KEY);
     $("city-people").textContent = CITY.people || "people";
     $("sources").innerHTML = (CITY.sources || []).map(([label, href]) => `<a href="${href}">${escapeHTML(label)}</a>`).join(" and ");
     $("not-affiliated").textContent = `the City of ${CITY.name}`;
@@ -490,7 +485,20 @@
       : `The request type ${CITY.people} picked from the 311 menu.`;
   }
 
+  // City tabs in the header (shared with the front page, where none is active).
+  function renderTabs(list, active) {
+    $("city-tabs").innerHTML = list.map((c) =>
+      `<a href="?city=${c.key}"${c.key === active ? ' class="on" aria-current="page"' : ""}>${escapeHTML(c.name)}</a>`).join("");
+    const on = $("city-tabs").querySelector(".on");
+    if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
+  }
+  window.CityMoodsTabs = renderTabs;
+
   async function start() {
+    if (IS_HOME) {
+      document.body.classList.add("is-home");
+      return window.CityMoodsHome && window.CityMoodsHome.render();
+    }
     try {
       const [index, geo] = await Promise.all([getJSON(`${BASE}index.json`), getJSON(`${BASE}neighborhoods.geojson`)]);
       MOODS = index.moods;

@@ -348,3 +348,16 @@ a.brand img { display: block; }
 
 /* the map and its overlays (hover, zoom buttons, phone details bar) share one frame */
 .map-stage { position: relative; }
+
+/* phone details bar: open button + close button */
+@media (max-width: 860px) {
+  .peek:not([hidden]) { padding: 0; gap: 0; overflow: hidden; }
+  .peek .pk-open { flex: 1; min-width: 0; display: flex; align-items: center; gap: 8px; padding: 10px 6px 10px 12px;
+    border: 0; background: none; color: inherit; text-align: left; font: inherit; }
+  .peek .pk-close { flex: none; width: 46px; align-self: stretch; border: 0; border-left: 1px solid var(--line);
+    background: none; color: var(--ink); font-size: 22px; line-height: 1; }
+  .peek .pk-close:active { background: var(--bg); }
+  /* the card's own close button sits in the card's corner, not the map's */
+  .card { position: relative; }
+  .card .close { top: 10px; right: 10px; width: 36px; height: 36px; font-size: 22px; border-radius: 50%; }
+}

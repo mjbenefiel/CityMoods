@@ -512,7 +512,7 @@
       : "";
     card.innerHTML = `<button class="close" aria-label="Close">×</button><h3>${escapeHTML(el.dataset.name)}</h3>`
       + body.replace("</p>", "</p>" + sig) + `<button class="share" type="button">🔗 Copy link to ${escapeHTML(el.dataset.name.split("-")[0])}</button>`;
-    card.querySelector(".close").addEventListener("click", () => { selected = null; card.hidden = true; hidePeek(); paint(); syncURL(); });
+    card.querySelector(".close").addEventListener("click", closeSelection);
     showPeek(el, h);
     card.querySelector(".share").addEventListener("click", (ev) => copyLink(ev.currentTarget));
     syncURL();
@@ -525,9 +525,23 @@
     const peek = $("peek");
     if (!peek) return;
     const top = h && h.top ? `${MOODS[h.top].emoji} ${MOODS[h.top].label} ${fmt(h.moods[h.top])}` : (h ? `${fmt(h.total)} reports` : "No reports");
-    peek.innerHTML = `<span class="pk-name">${escapeHTML(el.dataset.name)}</span><span class="pk-top">${top}</span><span class="pk-go">Details ↓</span>`;
+    $("peek-open").innerHTML = `<span class="pk-name">${escapeHTML(el.dataset.name)}</span><span class="pk-top">${top}</span><span class="pk-go">Details ↓</span>`;
     peek.hidden = false;
     peek.closest(".map-wrap").classList.add("has-peek");
+  }
+
+  // Close the selected neighborhood. On phones, also glide back out to the whole city so you're never stuck zoomed in.
+  function closeSelection() {
+    selected = null;
+    $("card").hidden = true;
+    hidePeek();
+    paint();
+    syncURL();
+    if (isPhoneLayout() && Z.base && Z.v && Z.v.w < Z.base.w - 0.5) animateTo({ ...Z.base });
+  }
+
+  function isPhoneLayout() {
+    return getComputedStyle($("card")).position !== "absolute";
   }
 
   function hidePeek() {
@@ -717,7 +731,8 @@
       document.querySelectorAll(".chip[data-mode]").forEach((c) =>
         c.addEventListener("click", () => setMode(c.dataset.mode)));
       setupSearch(geo);
-      $("peek").addEventListener("click", () => $("card").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }));
+      $("peek-open").addEventListener("click", () => $("card").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }));
+      $("peek-close").addEventListener("click", closeSelection);
       $("map").addEventListener("pointerleave", hideHover);
       window.addEventListener("scroll", hideHover, { passive: true });
       const params = new URL(location.href).searchParams;

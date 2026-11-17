@@ -366,7 +366,7 @@ class LosAngeles(City):
     labels = [["Sylmar", -118.444, 34.308], ["Porter Ranch", -118.561, 34.288], ["Woodland Hills", -118.604, 34.163],
               ["San Fernando Valley", -118.47, 34.215], ["Hollywood", -118.334, 34.098], ["Downtown", -118.249, 34.043],
               ["Eastside", -118.205, 34.105], ["Westside", -118.44, 34.035], ["Venice", -118.466, 33.986],
-              ["Westchester", -118.41, 33.952], ["South LA", -118.29, 33.975], ["San Pedro", -118.293, 33.748]]
+              ["Westchester", -118.41, 33.952], ["South LA", -118.299, 33.996], ["San Pedro", -118.293, 33.748]]
     agency_examples = "Sanitation, Street Services, LADOT, Building & Safety"
     sources = [["MyLA311 Cases", "https://data.lacity.org/browse?q=MyLA311%20Cases"],
                ["Neighborhood Council Boundaries", "https://geohub.lacity.org/datasets/neighborhood-council-boundaries"]]

@@ -40,7 +40,7 @@ pipeline/
 - Rare finds (menu choices seen less than about once a week) are shown citywide only, never by neighborhood, and `rare_ok` in `moods.py` filters out anything grim.
 - Complaint types about people (homelessness, panhandling, police matters…) are listed in `SENSITIVE` in `moods.py`. They count toward "everything else" and are never named or put in the headline.
 - `assert_no_pii` in `build.py` stops the build if anything address- or coordinate-like reaches the output.
-- The site has no analytics, cookies or third-party requests. If that changes, update `privacy.html` too.
+- The site sets no cookies. Its only third-party request is GoatCounter's cookie-free page counter (citymoods.goatcounter.com), which counts page views and neighborhood opens. If that changes, update `privacy.html` too.
 
 ## When it runs
 

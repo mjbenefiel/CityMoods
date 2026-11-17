@@ -1,5 +1,5 @@
 // CityMoods front page: rotating city headline, one live card per city (mini mood map, today's mood
-// line and Claude's headline) and "how it works". Static JSON only, no tracking.
+// line and Claude's headline) and "how it works". Static JSON only.
 (function () {
   "use strict";
 

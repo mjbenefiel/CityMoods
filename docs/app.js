@@ -1,5 +1,6 @@
 // CityMoods: draws the latest day's 311 moods on a map of a city's neighborhoods.
-// Everything here is static JSON made by pipeline/build.py. No tracking, no third-party calls.
+// Everything here is static JSON made by pipeline/build.py. The only outside call is GoatCounter's
+// cookie-free page counter (see privacy.html).
 (function () {
   "use strict";
 
@@ -570,6 +571,17 @@
     set("hood", selected || "");
     set("mode", mode === "top" ? "" : mode);
     history.replaceState(null, "", url);
+    countHood();
+  }
+
+  // Page views are counted by GoatCounter on load (cookie-free, see privacy.html). Opening a
+  // neighborhood doesn't reload the page, so count it once here, by name only.
+  let lastCounted = null;
+  function countHood() {
+    if (!selected || selected === lastCounted || !window.goatcounter || !goatcounter.count) return;
+    lastCounted = selected;
+    const name = paths[selected] ? paths[selected].dataset.name : selected;
+    goatcounter.count({ path: `${CITY_KEY} / ${name}`, title: `${name} (${CITY_KEY})`, event: true });
   }
 
   // ---------------------------------------------------------------- search

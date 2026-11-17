@@ -10,7 +10,7 @@
 <meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14161B" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗽</text></svg>">
-<link rel="stylesheet" href="style.css?v=202611171011">
+<link rel="stylesheet" href="style.css?v=202611171121">
 </head>
 <body>
 <header class="top">
@@ -46,7 +46,7 @@
         </label>
       </div>
       <div id="hover" class="hover" hidden></div>
-      <svg id="map" role="img" aria-label="Map of New York City neighborhoods colored by their most common 311 complaint"></svg>
+      <svg id="map" role="img" aria-label="Map of the city's neighborhoods colored by their most common 311 complaint"></svg>
       <div id="card" class="card" hidden></div>
     </div>
 
@@ -60,14 +60,14 @@
 
   <section class="rare" id="rare-wrap" hidden>
     <h2>Rare finds from the 311 pile</h2>
-    <p class="hint">Real requests from this day that usually come up less than once a week. Citywide only, so no one is pinpointed.</p>
+    <p class="hint">These are real, official options on the city's 311 menu, and someone actually picked them on this day (online, in the app, or by the 311 operator on a call). They usually get picked less than once a week. Citywide only, so no one is pinpointed.</p>
     <div id="rare" class="rare-grid"></div>
   </section>
 
   <section class="extra three">
     <div>
       <h2>The specific gripes</h2>
-      <p class="hint">The "problem detail" New Yorkers picked.</p>
+      <p class="hint" id="gripes-hint">The option people picked from the city's 311 menu.</p>
       <ol id="types" class="types"></ol>
     </div>
     <div>
@@ -98,6 +98,6 @@
   <p><a href="privacy.html">Privacy</a></p>
 </footer>
 
-<script src="app.js?v=202611171011"></script>
+<script src="app.js?v=202611171121"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-// CityMoods: draws yesterday's 311 moods on a map of NYC neighborhoods.
+// CityMoods: draws the latest day's 311 moods on a map of a city's neighborhoods.
 // Everything here is static JSON made by pipeline/build.py. No tracking, no third-party calls.
 (function () {
   "use strict";
@@ -439,7 +439,7 @@
     const list = entry.rare_finds || [];
     $("rare-wrap").hidden = !list.length;
     $("rare").innerHTML = list.map((r) => {
-      const times = r.n === 1 ? "Reported once" : `Reported ${fmt(r.n)} times`;
+      const times = r.n === 1 ? "Picked once" : `Picked ${fmt(r.n)} times`;
       const before = r.past_28_days === 0 ? "not once in the 4 weeks before"
         : `${fmt(r.past_28_days)} time${r.past_28_days === 1 ? "" : "s"} in the 4 weeks before`;
       const quip = r.quip ? `<p class="quip">${escapeHTML(r.quip)}</p>` : "";
@@ -484,6 +484,10 @@
     $("city-people").textContent = CITY.people || "people";
     $("sources").innerHTML = (CITY.sources || []).map(([label, href]) => `<a href="${href}">${escapeHTML(label)}</a>`).join(" and ");
     $("not-affiliated").textContent = `the City of ${CITY.name}`;
+    // NYC has a "problem detail" level under each complaint; Chicago's menu has just the request type.
+    $("gripes-hint").textContent = CITY_KEY === "nyc"
+      ? `The "problem detail" ${CITY.people} picked from the 311 menu.`
+      : `The request type ${CITY.people} picked from the 311 menu.`;
   }
 
   async function start() {

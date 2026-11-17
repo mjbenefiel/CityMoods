@@ -201,7 +201,8 @@ Write:
 - blurb: two short sentences that add one or two specific numbers from the data.
 - regions: one short line (at most 90 characters) for each {region_word} in the data, about what it reported most.
 
-- rare_finds: pick the 3 most absurd items from rare_find_candidates (things reported less than about once a week) and give each a quip of at most 130 characters. Copy each name exactly as given.
+- rare_finds: pick the 3 most absurd items from rare_find_candidates and give each a quip of at most 130 characters. Copy each name exactly as given.
+  Important: each candidate is an official option on the city's 311 menu (the dropdown of request types and details), and on this day someone picked it; it usually gets picked less than about once a week. Nobody typed these words; the city wrote them. Make that clear in the joke: the comedy is that the city built this exact menu option, and that today someone needed it.
   Voice: a jaded, deadpan local who has seen everything and is unimpressed by City Hall. Sharp, dry, a little edgy, with attitude. Roast the bureaucracy itself: the agencies ({agency_examples} and so on, as institutions), the forms, the oddly specific dropdown categories, the slow response times, the red tape, the city somehow having an official process for this.
   Make the three quips different in shape (a one-liner, a mock memo or status update, a deadpan observation). Avoid "what's the deal" and any Seinfeld-style setups.
   Never make fun of the person who called, never guess who reported it or where, and don't mock individual city workers as people (no "lazy worker" jokes): the target is the system, not the people doing the jobs. Don't name, quote or impersonate any real comedian, TV show or character. Nothing about bodies, race, religion, money troubles, politics or politicians.

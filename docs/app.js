@@ -65,7 +65,7 @@
   function paint() {
     const hoods = entry.neighborhoods;
     let max = 1;
-    if (mode !== "top") {
+    if (MOODS[mode]) {
       for (const h of Object.values(hoods)) max = Math.max(max, h.moods[mode] || 0);
     }
     for (const [id, el] of Object.entries(paths)) {
@@ -75,6 +75,10 @@
         if (mode === "top") {
           if (h.top) fill = MOODS[h.top].color;
           tip = `${h.name}: ${h.top ? MOODS[h.top].label : "mixed"} (${fmt(h.total)} reports)`;
+        } else if (mode === "distinct") {
+          const d = h.distinct;
+          if (d) fill = MOODS[d.mood].color;
+          tip = d ? `${h.name}: ${d.name}, ${d.x}× the city's rate` : `${h.name}: nothing stands out`;
         } else {
           const n = h.moods[mode] || 0;
           if (n) fill = mix(MOODS[mode].color, 0.18 + 0.82 * Math.sqrt(n / max));
@@ -86,13 +90,13 @@
       el.classList.toggle("sel", id === selected);
     }
     const note = $("mode-note");
-    if (mode === "top") {
-      note.textContent = "";
-      document.querySelector('[data-mode="top"]').classList.add("on");
-    } else {
-      document.querySelector('[data-mode="top"]').classList.remove("on");
-      note.textContent = `${MOODS[mode].emoji} ${MOODS[mode].label}: darker = more reports`;
-    }
+    document.querySelectorAll(".chip[data-mode]").forEach((c) => {
+      c.classList.toggle("on", c.dataset.mode === mode);
+      c.setAttribute("aria-pressed", c.dataset.mode === mode);
+    });
+    if (mode === "top") note.textContent = "";
+    else if (mode === "distinct") note.textContent = "What each place reports far more than the rest of the city";
+    else note.textContent = `${MOODS[mode].emoji} ${MOODS[mode].label}: darker = more reports`;
   }
 
   // ---------------------------------------------------------------- panels
@@ -224,8 +228,14 @@
       const ag = h.agency ? `<p class="fine-card">Most were sent to ${escapeHTML(h.agency.name)} (${fmt(h.agency.n)} of ${fmt(h.total)}).</p>` : "";
       body = `<p class="sub">${escapeHTML(h.borough)} · ${fmt(h.total)} reports</p><ol class="card-moods">${rows}</ol>${foot}${ag}`;
     }
-    card.innerHTML = `<button class="close" aria-label="Close">×</button><h3>${escapeHTML(el.dataset.name)}</h3>${body}`;
-    card.querySelector(".close").addEventListener("click", () => { selected = null; card.hidden = true; paint(); });
+    const sig = h && h.distinct
+      ? `<p class="signature">✨ Signature gripe: <b>${escapeHTML(h.distinct.name)}</b>, ${h.distinct.x}× the city's rate (${fmt(h.distinct.n)} reports)</p>`
+      : "";
+    card.innerHTML = `<button class="close" aria-label="Close">×</button><h3>${escapeHTML(el.dataset.name)}</h3>`
+      + body.replace("</p>", "</p>" + sig) + `<button class="share" type="button">🔗 Copy link to ${escapeHTML(el.dataset.name.split("-")[0])}</button>`;
+    card.querySelector(".close").addEventListener("click", () => { selected = null; card.hidden = true; paint(); syncURL(); });
+    card.querySelector(".share").addEventListener("click", (ev) => copyLink(ev.currentTarget));
+    syncURL();
     card.hidden = false;
     paint();
   }
@@ -234,6 +244,29 @@
     mode = m;
     paint();
     renderMoods();
+    syncURL();
+  }
+
+  // The address bar always reflects what you're looking at, so any view can be shared.
+  function syncURL() {
+    if (!days.length) return;
+    const url = new URL(location.href);
+    const set = (k, v) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
+    set("day", dayIndex === 0 ? "" : days[dayIndex]);
+    set("hood", selected || "");
+    set("mode", mode === "top" ? "" : mode);
+    history.replaceState(null, "", url);
+  }
+
+  async function copyLink(btn) {
+    const old = btn.textContent;
+    try {
+      await navigator.clipboard.writeText(location.href);
+      btn.textContent = "✓ Link copied";
+    } catch (_) {
+      window.prompt("Copy this link:", location.href);
+    }
+    setTimeout(() => { btn.textContent = old; }, 1800);
   }
 
   // ---------------------------------------------------------------- day
@@ -262,9 +295,7 @@
     renderBoroughs();
     renderFreshness();
     if (selected) select(selected); else paint();
-    const url = new URL(location.href);
-    if (i === 0) url.searchParams.delete("day"); else url.searchParams.set("day", date);
-    history.replaceState(null, "", url);
+    syncURL();
   }
 
   function renderRare() {
@@ -300,9 +331,14 @@
       drawMap(geo);
       $("prev").addEventListener("click", () => loadDay(Math.min(days.length - 1, dayIndex + 1)));
       $("next").addEventListener("click", () => loadDay(Math.max(0, dayIndex - 1)));
-      document.querySelector('[data-mode="top"]').addEventListener("click", () => setMode("top"));
-      const want = new URL(location.href).searchParams.get("day");
-      await loadDay(Math.max(0, days.indexOf(want)));
+      document.querySelectorAll(".chip[data-mode]").forEach((c) =>
+        c.addEventListener("click", () => setMode(c.dataset.mode)));
+      const params = new URL(location.href).searchParams;
+      const wantMode = params.get("mode");
+      if (wantMode === "distinct" || MOODS[wantMode]) mode = wantMode;
+      const wantHood = params.get("hood");
+      if (wantHood && paths[wantHood]) selected = wantHood;
+      await loadDay(Math.max(0, days.indexOf(params.get("day"))));
     } catch (e) {
       $("headline").textContent = "The city's mood is loading slowly. Try again in a minute.";
       console.error(e);

@@ -240,6 +240,29 @@ def assign(rows, hoods):
     return out, unplaced
 
 
+DISTINCT_MIN = 5        # a neighborhood needs at least this many reports of a detail for it to count
+DISTINCT_MIN_TOTAL = 30  # ...and at least this many reports overall, so tiny areas don't produce flukes
+
+
+def distinctive(details: Counter, hood_total: int, city_keys: Counter, city_total: int):
+    """The detail this neighborhood reports most out of proportion to the rest of the city.
+
+    Score = (share of this neighborhood's reports) / (share of the city's reports). 3.0 means
+    "three times the city's rate". Returns None if nothing stands out.
+    """
+    if hood_total < DISTINCT_MIN_TOTAL:
+        return None
+    best = None
+    for (mood, label), n in details.items():
+        city_n = city_keys.get((mood, label), 0)
+        if n < DISTINCT_MIN or city_n < 20:
+            continue
+        x = (n / hood_total) / (city_n / city_total)
+        if best is None or (x, n) > (best["x"], best["n"]):
+            best = {"name": label, "mood": mood, "n": n, "x": round(x, 1)}
+    return best if best and best["x"] >= 1.5 else None
+
+
 def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Counter):
     city_types = Counter(t for _, t, _, _ in assigned)
     city_moods = Counter(mood_of(t) for _, t, _, _ in assigned)
@@ -256,6 +279,9 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
 
     names = {h["id"]: h for h in hoods}
     neighborhoods = {}
+    # Citywide counts of each (mood, detail), for working out what's distinctive about a neighborhood.
+    city_keys = Counter((mood_of(t), d or nice(t)) for _, t, d, _ in assigned if is_public(t) and mood_of(t) != "other")
+    city_total = len(assigned)
     for hid, recs in by_hood.items():
         types = [t for t, _, _ in recs]
         # Problem details, labelled with the mood they belong to. Requests without a detail
@@ -263,6 +289,7 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
         details = Counter((mood_of(t), d or nice(t)) for t, d, _ in recs if is_public(t) and mood_of(t) != "other")
         agencies = Counter(a for _, _, a in recs)
         lead_agency, lead_n = agencies.most_common(1)[0]
+        distinct = distinctive(details, len(recs), city_keys, city_total)
         moods = Counter(mood_of(t) for t in types)
         named = [m for m in moods.most_common() if m[0] != "other"]
         top = named[0][0] if named and named[0][1] >= MIN_CELL else None
@@ -274,6 +301,7 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
             "moods": {m: n for m, n in moods.items() if n >= MIN_CELL},
             # What makes up each mood's total, at the "Problem Detail" level.
             "details": [{"name": d, "mood": m, "n": n} for (m, d), n in details.most_common() if n >= MIN_CELL][:20],
+            "distinct": distinct,
             "agency": ({"name": lead_agency, "n": lead_n}
                        if lead_n >= MIN_CELL and lead_agency != "Other agencies" else None),
         }
@@ -334,7 +362,9 @@ Write:
 - blurb: two short sentences that add one or two specific numbers from the data.
 - boroughs: one short line (at most 90 characters) for each borough in the data, about what that borough reported most.
 
-- rare_finds: pick the 3 most delightful or baffling items from rare_find_candidates (things that are reported less than about once a week) and give each a quip of at most 100 characters. Copy each name exactly as given. Quips may only riff on the item itself; never guess who reported it or where.
+- rare_finds: pick the 3 most absurd items from rare_find_candidates (things reported less than about once a week) and give each a quip of at most 130 characters. Copy each name exactly as given.
+  Write the quips as observational stand-up: a comic marveling at the fact that this is an official, filed, city-government complaint category. Small everyday absurdity, rhetorical questions, mock outrage at the mundane, a surprising turn at the end. A "what's the deal with..." opening is fine at most once per day. Make the three quips different in shape.
+  Joke about the situation and the bureaucracy, never about the person who called; never guess who reported it or where. Don't name, quote or impersonate any real comedian, TV show or character, and don't use catchphrases from shows. No insults, nothing mean-spirited, nothing about bodies, race, religion, money troubles or politics.
 
 "Problem details" are the specific sub-types people chose (for example "Roaches" or "Loud music/party"); a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to.
 
@@ -481,7 +511,7 @@ def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
 
     # Rare finds: Claude's picks and quips when available, otherwise the top-scored candidates.
     cands = {c["name"]: c for c in summary.pop("rare_candidates")}
-    picks = [dict(strip_private(cands[r["name"]]), quip=r["quip"][:140])
+    picks = [dict(strip_private(cands[r["name"]]), quip=r["quip"][:160])
              for r in words.pop("rare_finds", []) if r.get("name") in cands]
     fallback = [strip_private(c) for c in cands.values() if c["_fun"]]
     summary["rare_finds"] = (picks or fallback)[:4]

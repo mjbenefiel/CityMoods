@@ -377,16 +377,21 @@ def headline_with_claude(summary, day, wx):
         "required": ["headline", "blurb", "boroughs", "rare_finds"],
         "additionalProperties": False,
     }
-    client = anthropic.Anthropic()
+    # A slow reply must never hold up the daily update: wait at most 90 s, retry once, then fall back.
+    client = anthropic.Anthropic(timeout=90.0, max_retries=1)
+    started = time.monotonic()
     try:
         resp = client.beta.messages.create(
             model=MODEL,
-            max_tokens=16000,
+            max_tokens=4000,
             betas=["server-side-fallback-2026-07-01"],
             fallbacks="default",
             output_config={"effort": "low", "format": {"type": "json_schema", "schema": schema}},
             messages=[{"role": "user", "content": PROMPT.format(data=json.dumps(compact, indent=1))}],
         )
+    except anthropic.APITimeoutError:
+        log(f"Claude took too long ({time.monotonic() - started:.0f}s); using the plain headline.")
+        return None
     except anthropic.APIConnectionError as e:
         log(f"Claude unreachable: {e}")
         return None
@@ -395,7 +400,8 @@ def headline_with_claude(summary, day, wx):
         return None
     u = resp.usage
     cost = (u.input_tokens * 4 + u.output_tokens * 20) / 1_000_000  # Claude Opus 5.5 list prices per token
-    log(f"Claude usage: {u.input_tokens:,} input + {u.output_tokens:,} output tokens, about ${cost:.3f}")
+    log(f"Claude usage: {u.input_tokens:,} input + {u.output_tokens:,} output tokens, about ${cost:.3f}, "
+        f"{time.monotonic() - started:.0f}s")
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
             fh.write(f"Claude: {u.input_tokens:,} input + {u.output_tokens:,} output tokens (about ${cost:.3f})\n\n")

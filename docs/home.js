@@ -69,6 +69,8 @@
       <div class="cc-map"><svg aria-hidden="true"></svg></div>
       <div class="cc-body">
         <h2>${esc(c.name)}</h2>
+        <p class="cc-line"></p>
+        <p class="cc-kicker">&nbsp;</p>
         <div class="cc-stat"></div>
         <p class="cc-label">&nbsp;</p>
         <p class="cc-rare"></p>
@@ -82,16 +84,16 @@
     const spike = (day.detail_spikes || [])[0];
     if (spike && spike.typical) {
       const r = spike.n / spike.typical;
-      return { mood: spike.mood, stat: `${r >= 10 ? Math.round(r) : r.toFixed(1)}×`, unit: "normal", label: spike.name };
+      return { kicker: "Biggest jump", mood: spike.mood, stat: `${r >= 10 ? Math.round(r) : r.toFixed(1)}×`, unit: "normal", label: spike.name };
     }
     const standout = Object.values(day.neighborhoods || {}).filter((h) => h.distinct)
       .sort((a, b) => b.distinct.x - a.distinct.x)[0];
     if (standout && standout.distinct.x >= 2) {
       const d = standout.distinct;
-      return { mood: d.mood, stat: `${Math.round(d.x)}×`, unit: "city rate", label: `${d.name} in ${standout.name}` };
+      return { kicker: "Standout area", mood: d.mood, stat: `${Math.round(d.x)}×`, unit: "city rate", label: `${d.name} in ${standout.name}` };
     }
     const top = (day.top_details || day.top_types || [])[0];
-    return top ? { mood: top.mood, stat: fmt(top.n), unit: "reports", label: top.name } : null;
+    return top ? { kicker: "Top request", mood: top.mood, stat: fmt(top.n), unit: "reports", label: top.name } : null;
   }
 
   // When an item's category is "everything else", pick a fitting mood from its own words.
@@ -117,11 +119,14 @@
           `<span class="badge" style="--tint:${m.color}" aria-hidden="true">${m.emoji}</span>`
           + `<b>${esc(hook.stat)}</b><span class="unit">${esc(hook.unit)}</span>`;
         card.querySelector(".cc-label").textContent = hook.label;
+        card.querySelector(".cc-kicker").textContent = hook.kicker;
       }
+      const line = day.words && day.words.card_line;   // Claude's short card line (days written after Nov 17)
+      if (line) card.querySelector(".cc-line").textContent = line;
       const rare = (day.rare_finds || [])[0];
       if (rare) {
         const el = card.querySelector(".cc-rare");
-        el.innerHTML = `<span aria-hidden="true">🔎</span> <i>${esc(rare.name)}</i>`;
+        el.innerHTML = `<span aria-hidden="true">🔎</span> Rare find: <i>${esc(rare.name)}</i>`;
         el.title = `Rare find: ${rare.name}`;
       }
       card.querySelector(".cc-date").textContent = niceDate(day.date);

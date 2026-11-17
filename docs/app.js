@@ -123,21 +123,60 @@
     });
   }
 
+  // "Ceiling: collapsing or falling" -> ["Ceiling", "collapsing or falling"];
+  // "Loud music/party (next door)" -> ["Loud music/party", "next door"].
+  function splitLabel(name) {
+    let main = name, note = "";
+    const paren = main.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+    if (paren) { main = paren[1]; note = paren[2]; }
+    const colon = main.indexOf(": ");
+    if (colon > 0) { note = main.slice(colon + 2) + (note ? ` · ${note}` : ""); main = main.slice(0, colon); }
+    return [main, note];
+  }
+
+  function badge(mood) {
+    const m = MOODS[mood] || MOODS.other;
+    return `<span class="badge" style="--tint:${m.color}" aria-hidden="true">${m.emoji}</span>`;
+  }
+
+  function label(name) {
+    const [main, note] = splitLabel(name);
+    return `<span class="lbl"><span class="main">${escapeHTML(main)}</span>`
+      + (note ? `<span class="note">${escapeHTML(note)}</span>` : "") + "</span>";
+  }
+
+  function change(n, typical) {
+    if (!typical) return "";
+    const r = n / typical;
+    if (r >= 1.3) return `<span class="pill up">↑ ${r.toFixed(r >= 10 ? 0 : 1)}×</span>`;
+    if (r <= 0.75) return `<span class="pill down">↓ ${r.toFixed(1)}×</span>`;
+    return "";
+  }
+
   function listInto(id, items) {
     const ol = $(id);
-    ol.textContent = "";
-    items.forEach((t) => {
-      const li = document.createElement("li");
-      li.innerHTML = `${MOODS[t.mood].emoji} ${escapeHTML(t.name)}: <b>${fmt(t.n)}</b> ${vs(t.n, t.typical)}`;
-      ol.append(li);
-    });
+    ol.innerHTML = items.map((t) => `<li class="row">${badge(t.mood)}${label(t.name)}`
+      + `<span class="num">${fmt(t.n)}${change(t.n, t.typical)}</span></li>`).join("");
+    ol.closest("section > div").hidden = !items.length;
+  }
+
+  function spikesInto(id, items) {
+    const ol = $(id);
+    ol.innerHTML = items.map((t) => {
+      const r = t.typical ? t.n / t.typical : 0;
+      const mult = r >= 10 ? Math.round(r) : r.toFixed(1);
+      return `<li class="spike"><span class="mult">${mult}×</span><span class="lbl">`
+        + `<span class="main">${badge(t.mood)}${escapeHTML(splitLabel(t.name)[0])}</span>`
+        + (splitLabel(t.name)[1] ? `<span class="note">${escapeHTML(splitLabel(t.name)[1])}</span>` : "")
+        + `<span class="note">${fmt(t.n)} reports · usually ${fmt(t.typical)}</span></span></li>`;
+    }).join("");
     ol.closest("section > div").hidden = !items.length;
   }
 
   function renderTypes() {
     // Older day files only have complaint types; newer ones have problem details too.
     listInto("types", (entry.top_details || entry.top_types).slice(0, 10));
-    listInto("odd", (entry.detail_spikes || []).slice(0, 5));
+    spikesInto("odd", (entry.detail_spikes || []).slice(0, 5));
   }
 
   function renderAgencies() {

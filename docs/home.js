@@ -170,13 +170,7 @@
       $("home-date").textContent = `Latest: ${niceDate(newest)} · ${cities.length} cities`;
       $("hero-day").textContent = words.phrase;
       $("cards-title").textContent = `${words.title} moods`;
-      // A city that's a day behind just shows its own date; hovering the date explains why.
-      cities.forEach((c, i) => {
-        const d = results[i];
-        if (!d || d >= newest) return;
-        $(`card-${c.key}`).querySelector(".cc-date").title =
-          `${c.name} hasn't posted ${words.weekday}'s requests yet, so this shows ${dayWords(d).weekday}.`;
-      });
+      // A city that's a day behind simply shows its own (older) date on its card.
     }
     $("sources").textContent = "each city's 311 service requests";
     $("not-affiliated").textContent = "any of these cities";

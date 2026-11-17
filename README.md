@@ -24,13 +24,18 @@ pipeline/
 
 ## When it runs
 
-`.github/workflows/daily.yml` runs `build.py` every day at 14:00 UTC once the repo is on GitHub, then commits the new `docs/data`.
-NYC refreshes the 311 dataset once a day, in the evening (New York time), with requests up to roughly midnight; the newest full day is usually yesterday or the day before.
+`.github/workflows/daily.yml` runs every night at 05:07 UTC (11:07 PM Central; midnight during daylight time).
+NYC refreshes the 311 dataset each evening around 8:30-9:15 PM Central, and that refresh completes the
+*previous* day, so the site is always about a day behind.
+
+Each run builds any complete days that aren't on the site yet, oldest first (up to 7). Only the newest one
+gets Claude's headline and quips. If the city hasn't posted a new full day yet, the run does nothing, so
+Claude is never paid twice for the same day. `--force` rebuilds the newest day anyway.
 
 ## Run it locally
 
 ```
-python3 pipeline/build.py --no-claude        # builds the latest complete day
+python3 pipeline/build.py --no-claude        # builds any new complete days (no Claude)
 python3 -m http.server 8001 --directory docs  # then open http://localhost:8001
 ```
 

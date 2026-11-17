@@ -462,17 +462,11 @@ def assert_no_pii(obj, path="$"):
 
 # ---------------------------------------------------------------- main
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--date")
-    ap.add_argument("--no-claude", action="store_true")
-    args = ap.parse_args()
+MAX_CATCH_UP = 7      # never build more than this many missed days in one run
 
-    hoods = load_neighborhoods()
-    newest = newest_request()
-    day = dt.date.fromisoformat(args.date) if args.date else latest_complete_day(newest)
+
+def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
     log(f"Building {day} ({day:%A})")
-
     rows = fetch_day(day)
     log(f"Fetched {len(rows):,} requests")
     assigned, unplaced = assign(rows, hoods)
@@ -482,9 +476,7 @@ def main():
     summary = aggregate(assigned, hoods, base_types, base_details, month_detail_counts(day))
     wx = weather(day)
 
-    words = None
-    if not args.no_claude and os.environ.get("ANTHROPIC_API_KEY"):
-        words = headline_with_claude(summary, day, wx)
+    words = headline_with_claude(summary, day, wx) if use_claude else None
     words = words or headline_plain(summary, wx)
 
     # Rare finds: Claude's picks and quips when available, otherwise the top-scored candidates.
@@ -502,21 +494,73 @@ def main():
 
     days_dir = DATA / "days"
     days_dir.mkdir(parents=True, exist_ok=True)
-    blob = json.dumps(entry, ensure_ascii=False, separators=(",", ":"))
-    (days_dir / f"{day}.json").write_text(blob)
-
-    files = sorted(days_dir.glob("*.json"))
-    for old in files[:-KEEP_DAYS]:
-        old.unlink()
-    dates = sorted((p.stem for p in days_dir.glob("*.json")), reverse=True)
-    newest = dates[0]
-    (DATA / "latest.json").write_text((days_dir / f"{newest}.json").read_text())
-    (DATA / "index.json").write_text(json.dumps({"days": dates, "moods": MOODS}, ensure_ascii=False))
+    (days_dir / f"{day}.json").write_text(json.dumps(entry, ensure_ascii=False, separators=(",", ":")))
 
     log(f"Headline ({words['by']}): {words['headline']}")
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
-            fh.write(f"## {day}: {words['headline']}\n\n{words['blurb']}\n")
+            fh.write(f"## {day}: {words['headline']}\n\n{words['blurb']}\n\n")
+
+
+def refresh_indexes():
+    days_dir = DATA / "days"
+    files = sorted(days_dir.glob("*.json"))
+    for old in files[:-KEEP_DAYS]:
+        old.unlink()
+    dates = sorted((p.stem for p in days_dir.glob("*.json")), reverse=True)
+    (DATA / "latest.json").write_text((days_dir / f"{dates[0]}.json").read_text())
+    (DATA / "index.json").write_text(json.dumps({"days": dates, "moods": MOODS}, ensure_ascii=False))
+
+
+def built_days() -> set[dt.date]:
+    return {dt.date.fromisoformat(p.stem) for p in (DATA / "days").glob("*.json")}
+
+
+def plan_days(latest: dt.date, have: set[dt.date], force: bool) -> list[dt.date]:
+    """Which days this run should build: any complete days after the last one built, oldest first.
+
+    If the newest complete day is already built, there's nothing to do (unless forced), so a run
+    that happens before the city's refresh doesn't rebuild yesterday's page or call Claude twice.
+    """
+    if force:
+        return [latest]
+    if latest in have:
+        return []
+    last = max((d for d in have if d < latest), default=latest - dt.timedelta(days=1))
+    gap = (latest - last).days
+    return [last + dt.timedelta(days=k) for k in range(1, gap + 1)][-MAX_CATCH_UP:]
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--date", help="build this one day (no Claude unless --claude)")
+    ap.add_argument("--claude", action="store_true", help="with --date: let Claude write that day too")
+    ap.add_argument("--no-claude", action="store_true")
+    ap.add_argument("--force", action="store_true", help="rebuild the newest day even if it already exists")
+    args = ap.parse_args()
+
+    hoods = load_neighborhoods()
+    newest = newest_request()
+    have_key = bool(os.environ.get("ANTHROPIC_API_KEY")) and not args.no_claude
+
+    if args.date:
+        build_day(dt.date.fromisoformat(args.date), hoods, newest, use_claude=have_key and args.claude)
+        refresh_indexes()
+        return
+
+    latest = latest_complete_day(newest)
+    todo = plan_days(latest, built_days(), args.force)
+    if not todo:
+        log(f"{latest} is already built and the city hasn't posted a newer full day yet "
+            f"(its data runs through {newest}). Nothing to do.")
+        if os.environ.get("GITHUB_STEP_SUMMARY"):
+            with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
+                fh.write(f"Nothing new: {latest} is already built; city data runs through {newest}.\n")
+        return
+    for day in todo:
+        # Only the newest day gets Claude's headline and quips; caught-up days use the plain headline.
+        build_day(day, hoods, newest, use_claude=have_key and day == todo[-1])
+    refresh_indexes()
 
 
 if __name__ == "__main__":

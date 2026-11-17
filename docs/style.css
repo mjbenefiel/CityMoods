@@ -322,3 +322,9 @@ body.is-home #city-view, body.is-home .day-nav { display: none; }
 .cc-mood .cc-kicker { margin-bottom: 3px; }
 .cc-mood .cc-line { margin: 0; }
 .cc-body h2 { margin-bottom: 10px; }
+a.brand { display: inline-flex; align-items: center; gap: 8px; }
+a.brand img { display: block; }
+/* zoom buttons as a short row so they cover less of the map's corner */
+.zoom-ctl { flex-direction: row; }
+.zoom-ctl button { width: 34px; height: 32px; }
+.zoom-ctl button + button { border-top: 0; border-left: 1px solid var(--line); }

@@ -40,13 +40,15 @@
       const x = lon * k, y = -lat;
       minX = Math.min(minX, x); maxX = Math.max(maxX, x); minY = Math.min(minY, y); maxY = Math.max(maxY, y);
     })));
-    const W = 1000, pad = 20, s = (W - pad * 2) / (maxX - minX);
-    const H = Math.round((maxY - minY) * s + pad * 2);
+    // Extra room at the top and bottom so the map's edges (and labels) don't sit under the
+    // mode buttons, search box or zoom controls.
+    const W = 1000, pad = 20, padTop = 70, padBottom = 60, s = (W - pad * 2) / (maxX - minX);
+    const H = Math.round((maxY - minY) * s + padTop + padBottom);
     svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
     // Tall maps (Chicago) render smaller on screen, so scale map text up to match.
     svg.style.setProperty("--txt", Math.max(1, H / 1000).toFixed(2));
     svg.style.aspectRatio = `${W} / ${H}`;
-    const pt = ([lon, lat]) => `${((lon * k - minX) * s + pad).toFixed(1)},${((-lat - minY) * s + pad).toFixed(1)}`;
+    const pt = ([lon, lat]) => `${((lon * k - minX) * s + pad).toFixed(1)},${((-lat - minY) * s + padTop).toFixed(1)}`;
 
     geo.features.forEach((f) => {
       const d = polys(f.geometry).map((p) => p.map((ring) => "M" + ring.map(pt).join("L") + "Z").join("")).join("");

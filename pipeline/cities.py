@@ -236,8 +236,11 @@ class Chicago(City):
     min_full_day = 2000
     rare_max_28 = 40               # Chicago has ~100 request types (vs thousands of NYC combos): "rare" = its least common ones
     center_lat = 41.84
+    # Sides of town plus a few well-known areas at their centers (computed from the community area boundaries).
     labels = [["North Side", -87.70, 41.955], ["West Side", -87.735, 41.875], ["Downtown", -87.625, 41.885],
-              ["South Side", -87.60, 41.755], ["Southwest Side", -87.73, 41.78], ["O'Hare", -87.885, 41.978]]
+              ["South Side", -87.60, 41.755], ["Southwest Side", -87.73, 41.78], ["O'Hare", -87.885, 41.978],
+              ["Rogers Park", -87.671, 42.010], ["Lincoln Park", -87.649, 41.922], ["Hyde Park", -87.593, 41.794],
+              ["Beverly", -87.672, 41.717], ["Hegewisch", -87.536, 41.668]]
     agency_examples = "Streets & Sanitation, CDOT, Water Management, Buildings"
     sources = [["Chicago 311 Service Requests", "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy"],
                ["Community Area Boundaries", "https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas/igwz-8jzy"]]
@@ -359,8 +362,11 @@ class LosAngeles(City):
     min_full_day = 4000
     rare_max_28 = 40
     center_lat = 34.05
-    labels = [["San Fernando Valley", -118.47, 34.215], ["Westside", -118.44, 34.03], ["Central LA", -118.32, 34.075],
-              ["Eastside", -118.20, 34.09], ["South LA", -118.29, 33.975], ["Harbor", -118.275, 33.775]]
+    # Areas plus well-known neighborhoods at their centers (computed from the Neighborhood Council boundaries).
+    labels = [["Sylmar", -118.444, 34.308], ["Porter Ranch", -118.561, 34.288], ["Woodland Hills", -118.604, 34.163],
+              ["San Fernando Valley", -118.47, 34.215], ["Hollywood", -118.334, 34.098], ["Downtown", -118.249, 34.043],
+              ["Eastside", -118.205, 34.105], ["Westside", -118.44, 34.035], ["Venice", -118.466, 33.986],
+              ["Westchester", -118.41, 33.952], ["South LA", -118.29, 33.975], ["San Pedro", -118.293, 33.748]]
     agency_examples = "Sanitation, Street Services, LADOT, Building & Safety"
     sources = [["MyLA311 Cases", "https://data.lacity.org/browse?q=MyLA311%20Cases"],
                ["Neighborhood Council Boundaries", "https://geohub.lacity.org/datasets/neighborhood-council-boundaries"]]
@@ -493,8 +499,11 @@ class SanFrancisco(City):
                "&temperature_unit=fahrenheit&precipitation_unit=inch&timezone=America%2FLos_Angeles&past_days=10")
     min_full_day = 1500
     center_lat = 37.76
-    labels = [["Downtown", -122.405, 37.791], ["Mission", -122.415, 37.758], ["Sunset", -122.492, 37.751],
-              ["Richmond", -122.482, 37.779], ["Bayview", -122.39, 37.73]]
+    # Placed at neighborhood centers (computed from the Analysis Neighborhoods boundaries).
+    labels = [["Presidio", -122.465, 37.799], ["Marina", -122.437, 37.802], ["Richmond", -122.48, 37.780],
+              ["Sunset", -122.493, 37.747], ["Downtown", -122.398, 37.792], ["SoMa", -122.405, 37.777],
+              ["Mission", -122.416, 37.760], ["Bayview", -122.383, 37.731], ["Excelsior", -122.432, 37.720],
+              ["Lakeshore", -122.491, 37.722]]
     agency_examples = "Public Works, SFMTA, Recology, Rec & Park"
     sources = [["SF 311 Cases", "https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6"],
                ["Analysis Neighborhoods", "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/j2bu-swwd"]]

@@ -15,6 +15,11 @@
   let selected = null;   // neighborhood id
   const paths = {};      // id -> <path>
 
+  // Which city: ?city=chicago, default New York. Each city's data lives in data/<city>/.
+  const CITY_KEY = (new URL(location.href).searchParams.get("city") || "nyc").toLowerCase().replace(/[^a-z]/g, "");
+  const BASE = `data/${CITY_KEY}/`;
+  let CITY = { key: CITY_KEY, name: "", center_lat: 40.7, labels: [], sources: [] };
+
   async function getJSON(url) {
     const r = await fetch(url, { cache: "no-cache" });
     if (!r.ok) throw new Error(url + " " + r.status);
@@ -24,7 +29,7 @@
   // ---------------------------------------------------------------- map
   function drawMap(geo) {
     const svg = $("map");
-    const k = Math.cos((40.7 * Math.PI) / 180);
+    const k = Math.cos(((CITY.center_lat || 40.7) * Math.PI) / 180);
     let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
     const each = (coords, fn) => coords.forEach((ring) => ring.forEach(fn));
     const polys = (g) => (g.type === "Polygon" ? [g.coordinates] : g.coordinates);
@@ -35,6 +40,8 @@
     const W = 1000, pad = 20, s = (W - pad * 2) / (maxX - minX);
     const H = Math.round((maxY - minY) * s + pad * 2);
     svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    // Tall maps (Chicago) render smaller on screen, so scale map text up to match.
+    svg.style.setProperty("--txt", Math.max(1, H / 1000).toFixed(2));
     svg.style.aspectRatio = `${W} / ${H}`;
     const pt = ([lon, lat]) => `${((lon * k - minX) * s + pad).toFixed(1)},${((-lat - minY) * s + pad).toFixed(1)}`;
 
@@ -54,9 +61,7 @@
     });
 
     // Faint borough names so you know where you are before hovering.
-    const BOROUGH_LABELS = [["Manhattan", -73.972, 40.785], ["Bronx", -73.866, 40.852], ["Brooklyn", -73.947, 40.648],
-      ["Queens", -73.805, 40.712], ["Staten Island", -74.152, 40.582]];
-    for (const [name, lon, lat] of BOROUGH_LABELS) {
+    for (const [name, lon, lat] of (CITY.labels || [])) {
       const [x, y] = pt([lon, lat]).split(",");
       const t = document.createElementNS(SVGNS, "text");
       t.setAttribute("x", x); t.setAttribute("y", y);
@@ -336,6 +341,7 @@
     if (!days.length) return;
     const url = new URL(location.href);
     const set = (k, v) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
+    set("city", CITY_KEY === "nyc" ? "" : CITY_KEY);
     set("day", dayIndex === 0 ? "" : days[dayIndex]);
     set("hood", selected || "");
     set("mode", mode === "top" ? "" : mode);
@@ -408,7 +414,7 @@
   async function loadDay(i) {
     dayIndex = i;
     const date = days[i];
-    entry = await getJSON(`data/days/${date}.json`);
+    entry = await getJSON(`${BASE}days/${date}.json`);
     $("day-label").textContent = niceDate(date);
     $("prev").disabled = i >= days.length - 1;
     $("next").disabled = i <= 0;
@@ -417,7 +423,8 @@
       + (w ? ` · ${w.high_f}°F high, ${w.low_f}°F low` : "");
     $("headline").textContent = entry.words.headline;
     $("blurb").textContent = entry.words.blurb;
-    document.title = `${entry.words.headline} · CityMoods`;
+    renderExtras();
+    document.title = `${entry.words.headline} · CityMoods ${CITY.name}`;
     renderMoods();
     renderTypes();
     renderAgencies();
@@ -446,18 +453,46 @@
     if (!entry.source_newest) { el.textContent = ""; return; }
     const t = new Date(entry.source_newest);
     const when = t.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
-    el.textContent = `The city's data currently runs through ${when}, so ${niceDate(days[0])} is the newest full day. NYC usually posts each day's requests the following evening.`;
+    el.textContent = `The city's data currently runs through ${when}, so ${niceDate(days[0])} is the newest full day. ${CITY_KEY === "nyc" ? "New York usually posts each day's requests the following evening." : `${CITY.name} usually posts each day's requests by the next morning.`}`;
   }
 
   function escapeHTML(s) {
     return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 
+  // "Today in 311": extra citywide facts (NYPD noise outcomes, O'Hare's complaints...)
+  function renderExtras() {
+    const list = entry.extras || [];
+    $("extras").hidden = !list.length;
+    $("extras").innerHTML = list.map((x) =>
+      `<li><span aria-hidden="true">${escapeHTML(x.emoji)}</span> ${escapeHTML(x.text)}</li>`).join("");
+  }
+
+  async function setupCities() {
+    // Header switcher and city-specific wording. Only cities that have data are listed.
+    let list = [];
+    try { list = (await getJSON("data/cities.json")).cities || []; } catch (_) { /* single-city fallback */ }
+    const sel = $("city-select");
+    sel.innerHTML = list.map((c) => `<option value="${c.key}"${c.key === CITY_KEY ? " selected" : ""}>${escapeHTML(c.name)}</option>`).join("");
+    sel.hidden = list.length < 2;
+    sel.addEventListener("change", () => {
+      const url = new URL(location.href);
+      url.search = sel.value === "nyc" ? "" : `?city=${sel.value}`;
+      location.href = url.toString();
+    });
+    $("city-name").textContent = CITY.name;
+    $("city-people").textContent = CITY.people || "people";
+    $("sources").innerHTML = (CITY.sources || []).map(([label, href]) => `<a href="${href}">${escapeHTML(label)}</a>`).join(" and ");
+    $("not-affiliated").textContent = `the City of ${CITY.name}`;
+  }
+
   async function start() {
     try {
-      const [index, geo] = await Promise.all([getJSON("data/index.json"), getJSON("data/neighborhoods.geojson")]);
+      const [index, geo] = await Promise.all([getJSON(`${BASE}index.json`), getJSON(`${BASE}neighborhoods.geojson`)]);
       MOODS = index.moods;
       days = index.days;
+      if (index.city) CITY = index.city;
+      await setupCities();
       drawMap(geo);
       $("prev").addEventListener("click", () => loadDay(Math.min(days.length - 1, dayIndex + 1)));
       $("next").addEventListener("click", () => loadDay(Math.max(0, dayIndex - 1)));

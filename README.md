@@ -1,18 +1,28 @@
-# CityMoods · New York
+# CityMoods
 
-A map of what New York reported to 311 yesterday, grouped into playful "moods" (no heat, noise, parking wars, critters…) and shown by neighborhood.
+A map of what cities report to 311 each day, grouped into playful "moods" (no heat, noise, parking wars, critters…) and shown by neighborhood. Cities: New York and Chicago.
 
 ```
 docs/                 The website (static, no build step). GitHub Pages serves this folder.
   index.html, style.css, app.js, privacy.html
-  data/               Written by the daily job: latest.json, index.json, days/<date>.json, neighborhoods.geojson
+  data/cities.json    Which cities have data
+  data/<city>/        latest.json, index.json, days/<date>.json, neighborhoods.geojson
 pipeline/
-  build.py            Fetch a day of 311 data, find each request's neighborhood, publish totals only
-  moods.py            Which complaint types belong to which mood, and which are never shown
-.github/workflows/daily.yml   Runs build.py every morning and commits docs/data
+  build.py            Shared: aggregate, distinctive gripes, rare finds, Claude headline, privacy check
+  cities.py           Per-city settings: dataset, fields fetched, boundaries, extras ("Today in 311")
+  common.py           Paths, logging, HTTP with retries, map simplification
+  moods.py            NYC moods, detail labels, sensitive types; shared mood colors and rare-find filters
+  moods_chicago.py    Chicago moods, names, sensitive types
+.github/workflows/daily.yml   Runs build.py nightly for every city and commits docs/data
 ```
 
 ## Privacy rules (keep these)
+
+- Chicago: the job downloads only `sr_type`, `community_area`, `owner_department`. No addresses or coordinates at all
+  (Chicago already provides the community area). Information-only calls, airport-logged aircraft noise and
+  duplicates are left out of the map; O'Hare's count appears only as a citywide "Today in 311" line.
+- NYC: police outcome lines come from counting NYPD's standard closing notes for noise calls; the notes
+  themselves are never downloaded into the published data or quoted.
 
 - The job downloads only `complaint_type`, `descriptor` (Problem Detail), `descriptor_2` (Additional Details), `agency`, `latitude`, `longitude`. The two detail fields are fixed menu choices, not free text. Never addresses, streets, BBL, ZIP, request IDs or `resolution_description`.
 - Coordinates are used once to find the neighborhood, then dropped. Only neighborhood totals are published.

@@ -7,6 +7,10 @@ on:
     - cron: "7 5 * * *"
   workflow_dispatch:
     inputs:
+      city:
+        description: "Which city: all, nyc or chicago"
+        required: false
+        default: "all"
       dates:
         description: "Optional: rebuild specific days with Claude's headlines, e.g. 2026-11-08 2026-11-09 (max 10). Leave empty for a normal run."
         required: false
@@ -27,12 +31,14 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r pipeline/requirements.txt
-      - name: Build yesterday's mood
+      - name: Build the latest moods
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DATES: ${{ inputs.dates }}
+          CITY: ${{ inputs.city || 'all' }}
         run: |
-          if [ -n "$DATES" ]; then python pipeline/build.py --dates "$DATES" --claude; else python pipeline/build.py; fi
+          case "$CITY" in all|nyc|chicago) ;; *) echo "Unknown city: $CITY"; exit 1;; esac
+          if [ -n "$DATES" ]; then python pipeline/build.py --city "$CITY" --dates "$DATES" --claude; else python pipeline/build.py --city "$CITY"; fi
       - name: Publish
         # Runs even if the build failed or was cancelled partway, so finished days aren't thrown away.
         if: always()

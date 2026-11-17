@@ -1,15 +1,16 @@
 """CityMoods daily build.
 
-Fetches one full day of NYC 311 service requests, works out which neighborhood each one
-came from, and publishes neighborhood totals only. No addresses, coordinates or individual
-requests ever leave this script.
+For each city: fetch one full day of 311 service requests, work out which neighborhood each one
+came from, and publish neighborhood totals only. No addresses, coordinates or individual
+requests ever leave this script. City-specific settings live in cities.py.
 
-    python pipeline/build.py              # build the latest complete day
-    python pipeline/build.py --date 2026-11-14
-    python pipeline/build.py --no-claude  # skip the Claude headline
+    python pipeline/build.py                       # every city: build any new complete days
+    python pipeline/build.py --city chicago
+    python pipeline/build.py --city nyc --date 2026-11-14
+    python pipeline/build.py --no-claude           # skip the Claude headline
 
-Writes docs/data/latest.json, docs/data/days/<date>.json, docs/data/index.json and,
-once, docs/data/neighborhoods.geojson.
+Writes docs/data/<city>/latest.json, days/<date>.json, index.json and, once, neighborhoods.geojson,
+plus docs/data/cities.json.
 """
 from __future__ import annotations
 
@@ -23,156 +24,29 @@ import time
 from collections import Counter, defaultdict
 from pathlib import Path
 
-import requests
-from shapely import STRtree
-from shapely.geometry import Point, shape, mapping
-
 sys.path.insert(0, str(Path(__file__).parent))
-from moods import MOODS, mood_of, is_public, nice, detail_of, agency_of, rare_ok, whimsy  # noqa: E402
-
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "docs" / "data"
-CACHE = ROOT / "pipeline" / "cache"
-
-API_311 = "https://data.cityofnewyork.us/resource/erm2-nwe9.json"
-API_NTA = "https://data.cityofnewyork.us/resource/9nt8-h7nd.geojson?$limit=500"
-API_WEATHER = ("https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitude=-74.006"
-               "&daily=temperature_2m_max,temperature_2m_min,precipitation_sum"
-               "&temperature_unit=fahrenheit&precipitation_unit=inch&timezone=America%2FNew_York&past_days=10")
-
-# The ONLY fields ever requested from the 311 dataset. Addresses, cross streets, property IDs
-# (BBL), zip codes, request IDs and the free-text resolution notes are never downloaded at all.
-# descriptor ("Problem Detail") and descriptor_2 ("Additional Details") are fixed menu choices.
-FIELDS_311 = "complaint_type,descriptor,descriptor_2,agency,latitude,longitude"
+from common import DATA, get, log  # noqa: E402
+from moods import MOODS  # noqa: E402
+from cities import CITIES, City  # noqa: E402
 
 MIN_CELL = 3          # neighborhood-level counts below this are not published
 KEEP_DAYS = 45
-MIN_FULL_DAY = 5000   # a day with fewer requests than this is treated as still loading
-UA = {"User-Agent": "CityMoods/1.0"}
+MAX_CATCH_UP = 7      # never build more than this many missed days in one run
 MODEL = os.environ.get("CITYMOODS_MODEL", "claude-opus-5-5")
-BOROUGHS = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
+
+C: City = CITIES["nyc"]   # the city being built right now (set in main)
 
 
-def log(*a):
-    print(*a, file=sys.stderr, flush=True)
+# ---------------------------------------------------------------- comparisons
 
-
-def get(url, **kw):
-    for attempt in range(4):
-        try:
-            r = requests.get(url, headers=UA, timeout=120, **kw)
-            if r.status_code < 500 and r.status_code != 429:
-                r.raise_for_status()
-                return r
-            log(f"  server said {r.status_code}, retrying")
-        except (requests.ConnectionError, requests.Timeout) as e:
-            log(f"  network problem ({type(e).__name__}), retrying")
-        time.sleep(5 * 2 ** attempt)
-    r = requests.get(url, headers=UA, timeout=120, **kw)
-    r.raise_for_status()
-    return r
-
-
-# ---------------------------------------------------------------- neighborhoods
-
-def load_neighborhoods():
-    CACHE.mkdir(parents=True, exist_ok=True)
-    raw = CACHE / "nta2020.geojson"
-    if not raw.exists():
-        log("Downloading neighborhood boundaries...")
-        raw.write_bytes(get(API_NTA).content)
-    feats = json.loads(raw.read_text())["features"]
-    hoods = []
-    for f in feats:
-        p = f["properties"]
-        hoods.append({"id": p["nta2020"], "name": p["ntaname"], "borough": p["boroname"],
-                      "geom": shape(f["geometry"])})
-    out = DATA / "neighborhoods.geojson"
-    if not out.exists():
-        write_map(hoods, out)
-    return hoods
-
-
-def write_map(hoods, out: Path):
-    """Simplified boundaries for the page (drawn by the browser, no map tiles needed)."""
-    def rnd(o):
-        if isinstance(o, (list, tuple)):
-            if o and isinstance(o[0], (int, float)):
-                return [round(o[0], 5), round(o[1], 5)]
-            return [rnd(x) for x in o]
-        return o
-    feats = []
-    for h in hoods:
-        g = h["geom"].simplify(0.00025, preserve_topology=True)
-        gm = mapping(g)
-        feats.append({"type": "Feature", "id": h["id"],
-                      "properties": {"name": h["name"], "borough": h["borough"]},
-                      "geometry": {"type": gm["type"], "coordinates": rnd(gm["coordinates"])}})
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({"type": "FeatureCollection", "features": feats}, separators=(",", ":")))
-    log(f"Wrote {out.relative_to(ROOT)} ({out.stat().st_size // 1024} KB)")
-
-
-# ---------------------------------------------------------------- 311 data
-
-def day_bounds(day: dt.date):
-    return f"created_date >= '{day}T00:00:00' AND created_date < '{day + dt.timedelta(days=1)}T00:00:00'"
-
-
-def newest_request() -> str:
-    """Timestamp of the newest request in the city's dataset (NYC local time)."""
-    return get(API_311, params={"$select": "max(created_date) as m"}).json()[0]["m"][:16]
-
-
-def latest_complete_day(newest: str) -> dt.date:
-    day = dt.date.fromisoformat(newest[:10]) - dt.timedelta(days=1)
-    for _ in range(5):
-        n = int(get(API_311, params={"$select": "count(*) as n", "$where": day_bounds(day)}).json()[0]["n"])
-        if n >= MIN_FULL_DAY:
-            return day
-        day -= dt.timedelta(days=1)
-    raise SystemExit("Couldn't find a complete day of 311 data.")
-
-
-def fetch_day(day: dt.date) -> list[dict]:
-    rows, offset = [], 0
-    while True:
-        page = get(API_311, params={"$select": FIELDS_311, "$where": day_bounds(day),
-                                    "$limit": 50000, "$offset": offset, "$order": ":id"}).json()
-        rows += page
-        if len(page) < 50000:
-            return rows
-        offset += 50000
-
-
-def detail_counts(day: dt.date) -> tuple[Counter, Counter]:
-    """Counts per complaint type and per (type, detail label) for one day, totals only."""
-    r = get(API_311, params={"$select": "complaint_type,descriptor,descriptor_2,count(*) as n",
-                             "$where": day_bounds(day), "$group": "complaint_type,descriptor,descriptor_2",
-                             "$limit": 20000}).json()
+def baseline(day: dt.date) -> tuple[Counter, Counter]:
+    """Average counts on the same weekday over the previous four weeks."""
     types, details = Counter(), Counter()
-    for x in r:
-        t = x.get("complaint_type")
-        if not t:
-            continue
-        n = int(x["n"])
-        types[t] += n
-        details[(t, detail_of(t, x.get("descriptor"), x.get("descriptor_2")) or nice(t))] += n
-    return types, details
-
-
-def month_detail_counts(day: dt.date) -> Counter:
-    """How often each (type, detail) appeared in the 28 days before this one. Used to spot rare finds."""
-    start = day - dt.timedelta(days=28)
-    where = f"created_date >= '{start}T00:00:00' AND created_date < '{day}T00:00:00'"
-    r = get(API_311, params={"$select": "complaint_type,descriptor,descriptor_2,count(*) as n", "$where": where,
-                             "$group": "complaint_type,descriptor,descriptor_2", "$limit": 50000}).json()
-    out = Counter()
-    for x in r:
-        t = x.get("complaint_type")
-        if t:
-            out[(t, detail_of(t, x.get("descriptor"), x.get("descriptor_2")) or nice(t))] += int(x["n"])
-    return out
+    for w in range(1, 5):
+        t, d = C.detail_counts(day - dt.timedelta(weeks=w))
+        types += t
+        details += d
+    return Counter({k: v / 4 for k, v in types.items()}), Counter({k: v / 4 for k, v in details.items()})
 
 
 def rare_finds(city_details: Counter, month: Counter) -> list[dict]:
@@ -180,9 +54,10 @@ def rare_finds(city_details: Counter, month: Counter) -> list[dict]:
     out = []
     for (t, label), n in city_details.items():
         before = month.get((t, label), 0)
-        if before <= 3 and rare_ok(t, label):
-            out.append({"name": label, "mood": mood_of(t), "n": n, "past_28_days": before,
-                        "_score": (whimsy(t, label), -before, n), "_fun": whimsy(t, label) >= 0})
+        if before <= C.rare_max_28 and C.rare_ok(t, label):
+            score = C.whimsy(t, label)
+            out.append({"name": label, "mood": C.mood_of(t), "n": n, "past_28_days": before,
+                        "_score": (score, -before, n), "_fun": score >= 0})
     out.sort(key=lambda x: x["_score"], reverse=True)
     for x in out:
         x.pop("_score")
@@ -193,19 +68,9 @@ def strip_private(c: dict) -> dict:
     return {k: v for k, v in c.items() if not k.startswith("_")}
 
 
-def baseline(day: dt.date) -> tuple[Counter, Counter]:
-    """Average counts on the same weekday over the previous four weeks."""
-    types, details = Counter(), Counter()
-    for w in range(1, 5):
-        t, d = detail_counts(day - dt.timedelta(weeks=w))
-        types += t
-        details += d
-    return Counter({k: v / 4 for k, v in types.items()}), Counter({k: v / 4 for k, v in details.items()})
-
-
 def weather(day: dt.date):
     try:
-        d = get(API_WEATHER).json()["daily"]
+        d = get(C.weather).json()["daily"]
         i = d["time"].index(day.isoformat())
         return {"high_f": round(d["temperature_2m_max"][i]), "low_f": round(d["temperature_2m_min"][i]),
                 "rain_in": round(d["precipitation_sum"][i] or 0, 2)}
@@ -215,30 +80,6 @@ def weather(day: dt.date):
 
 
 # ---------------------------------------------------------------- aggregation
-
-def assign(rows, hoods):
-    """Neighborhood id for each request. Coordinates are discarded right here."""
-    tree = STRtree([h["geom"] for h in hoods])
-    out = []
-    unplaced = 0
-    for r in rows:
-        ctype = r.get("complaint_type") or "Unknown"
-        detail = detail_of(ctype, r.get("descriptor"), r.get("descriptor_2"))
-        agency = agency_of(r.get("agency"))
-        hood = None
-        try:
-            pt = Point(float(r["longitude"]), float(r["latitude"]))
-            for idx in tree.query(pt, predicate="intersects"):
-                hood = hoods[idx]["id"]
-                break
-        except (KeyError, TypeError, ValueError):
-            pass
-        if hood is None:
-            unplaced += 1
-        out.append((hood, ctype, detail, agency))
-    rows.clear()  # drop the raw rows (and their coordinates) as soon as we're done
-    return out, unplaced
-
 
 DISTINCT_MIN = 5        # a neighborhood needs at least this many reports of a detail for it to count
 DISTINCT_MIN_TOTAL = 30  # ...and at least this many reports overall, so tiny areas don't produce flukes
@@ -264,6 +105,7 @@ def distinctive(details: Counter, hood_total: int, city_keys: Counter, city_tota
 
 
 def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Counter):
+    mood_of, is_public, nice = C.mood_of, C.is_public, C.nice
     city_types = Counter(t for _, t, _, _ in assigned)
     city_moods = Counter(mood_of(t) for _, t, _, _ in assigned)
     city_details = Counter((t, d or nice(t)) for _, t, d, _ in assigned if is_public(t))
@@ -284,12 +126,11 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
     city_total = len(assigned)
     for hid, recs in by_hood.items():
         types = [t for t, _, _ in recs]
-        # Problem details, labelled with the mood they belong to. Requests without a detail
-        # fall back to their complaint type name so each mood's parts still add up.
+        # Details, labelled with the mood they belong to. Requests without a detail fall back to
+        # their request type name so each mood's parts still add up.
         details = Counter((mood_of(t), d or nice(t)) for t, d, _ in recs if is_public(t) and mood_of(t) != "other")
         agencies = Counter(a for _, _, a in recs)
         lead_agency, lead_n = agencies.most_common(1)[0]
-        distinct = distinctive(details, len(recs), city_keys, city_total)
         moods = Counter(mood_of(t) for t in types)
         named = [m for m in moods.most_common() if m[0] != "other"]
         top = named[0][0] if named and named[0][1] >= MIN_CELL else None
@@ -299,9 +140,8 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
             "total": len(types),
             "top": top,
             "moods": {m: n for m, n in moods.items() if n >= MIN_CELL},
-            # What makes up each mood's total, at the "Problem Detail" level.
             "details": [{"name": d, "mood": m, "n": n} for (m, d), n in details.most_common() if n >= MIN_CELL][:20],
-            "distinct": distinct,
+            "distinct": distinctive(details, len(recs), city_keys, city_total),
             "agency": ({"name": lead_agency, "n": lead_n}
                        if lead_n >= MIN_CELL and lead_agency != "Other agencies" else None),
         }
@@ -331,45 +171,44 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
            if x["ratio"] and x["ratio"] >= 1.8]
     odd.sort(key=lambda x: -x["ratio"])
     agencies = [{"name": a, "n": n} for a, n in city_agencies.most_common() if a != "Other agencies"]
-    other_ag = city_agencies.get("Other agencies", 0)
-    if other_ag:
-        agencies.append({"name": "Other agencies", "n": other_ag})
+    if city_agencies.get("Other agencies"):
+        agencies.append({"name": "Other agencies", "n": city_agencies["Other agencies"]})
 
-    boroughs = defaultdict(Counter)
-    for hid, info in neighborhoods.items():
+    regions = defaultdict(Counter)
+    for info in neighborhoods.values():
         for m, n in info["moods"].items():
-            boroughs[info["borough"]][m] += n
-    borough_summary = {b: [{"id": m, "n": n} for m, n in c.most_common() if m != "other"][:3]
-                       for b, c in sorted(boroughs.items())}
+            regions[info["borough"]][m] += n
+    region_summary = {b: [{"id": m, "n": n} for m, n in c.most_common() if m != "other"][:3]
+                      for b, c in sorted(regions.items())}
 
     return {"total": sum(city_types.values()), "typical_total": round(sum(base.values())),
             "moods": moods, "top_types": top_types, "spikes": spikes[:5],
             "top_details": top_details, "detail_spikes": odd[:6], "agencies": agencies,
             "rare_candidates": rare_finds(city_details, month),
-            "boroughs": borough_summary, "neighborhoods": neighborhoods}
+            "boroughs": region_summary, "neighborhoods": neighborhoods}
 
 
 # ---------------------------------------------------------------- headline
 
-PROMPT = """You write the daily headline for CityMoods, a playful website that maps what New Yorkers reported to 311 (the city's non-emergency line) yesterday, grouped into "moods".
+PROMPT = """You write the daily headline for CityMoods, a playful website that maps what {people} reported to 311 ({city}'s non-emergency line) yesterday, grouped into "moods".
 
 Here is yesterday's data (all numbers are counts of 311 requests; "typical" is the average for the same weekday over the previous four weeks):
 
 {data}
 
 Write:
-- headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike, or the mood that dominated).
+- headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike, the mood that dominated, or a fact from today_in_311).
 - blurb: two short sentences that add one or two specific numbers from the data.
-- boroughs: one short line (at most 90 characters) for each borough in the data, about what that borough reported most.
+- regions: one short line (at most 90 characters) for each {region_word} in the data, about what it reported most.
 
 - rare_finds: pick the 3 most absurd items from rare_find_candidates (things reported less than about once a week) and give each a quip of at most 130 characters. Copy each name exactly as given.
-  Voice: a jaded, deadpan local who has seen everything and is unimpressed by City Hall. Sharp, dry, a little edgy, with attitude. Roast the bureaucracy itself: the agencies (NYPD, Sanitation, Buildings, HPD and so on, as institutions), the forms, the oddly specific dropdown categories, the slow response times, the red tape, the city somehow having an official process for this.
+  Voice: a jaded, deadpan local who has seen everything and is unimpressed by City Hall. Sharp, dry, a little edgy, with attitude. Roast the bureaucracy itself: the agencies ({agency_examples} and so on, as institutions), the forms, the oddly specific dropdown categories, the slow response times, the red tape, the city somehow having an official process for this.
   Make the three quips different in shape (a one-liner, a mock memo or status update, a deadpan observation). Avoid "what's the deal" and any Seinfeld-style setups.
   Never make fun of the person who called, never guess who reported it or where, and don't mock individual city workers as people (no "lazy worker" jokes): the target is the system, not the people doing the jobs. Don't name, quote or impersonate any real comedian, TV show or character. Nothing about bodies, race, religion, money troubles, politics or politicians.
 
 Don't reuse puns, phrases, jokes or openings from recent_writing_to_avoid_repeating (other days' headlines and quips); each day should feel fresh. Don't repeat a recent quip's structure or punchline.
 
-"Problem details" are the specific sub-types people chose (for example "Roaches" or "Loud music/party"); a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to.
+"Problem details" are the specific sub-types people chose; a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to. "today_in_311" are extra citywide facts you may use.
 
 Rules:
 - Use only the numbers and facts given. Do not invent events, causes, places or people. You may connect heat complaints to the temperatures given, and wet-weather complaints to the rain given, but nothing else.
@@ -380,7 +219,7 @@ Rules:
 def recent_writing(day: dt.date, n: int = 7) -> dict:
     """Claude's headlines and quips from the nearest other days, so it doesn't repeat itself."""
     heads, quips = [], []
-    others = sorted((p for p in (DATA / "days").glob("*.json") if p.stem != day.isoformat()),
+    others = sorted((p for p in (C.data_dir / "days").glob("*.json") if p.stem != day.isoformat()),
                     key=lambda p: abs((dt.date.fromisoformat(p.stem) - day).days))[:n]
     for p in others:
         try:
@@ -393,40 +232,43 @@ def recent_writing(day: dt.date, n: int = 7) -> dict:
     return {"headlines": heads, "quips": quips}
 
 
-def headline_with_claude(summary, day, wx):
+def headline_with_claude(summary, day, wx, extras):
     import anthropic
 
     compact = {
-        "date": day.isoformat(), "weekday": day.strftime("%A"), "weather": wx,
+        "city": C.name, "date": day.isoformat(), "weekday": day.strftime("%A"), "weather": wx,
         "total_requests": summary["total"], "typical_total": summary["typical_total"],
         "moods": [{"mood": MOODS[m["id"]]["label"], "count": m["n"], "typical": m["typical"]}
-                  for m in summary["moods"] if m["id"] != "other"],
+                  for m in summary["moods"] if m["id"] != "other" and m["n"]],
         "top_complaints": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["top_types"][:8]],
         "unusual_spikes": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["spikes"]],
         "top_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["top_details"][:10]],
         "unusual_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["detail_spikes"]],
         "responding_agencies": summary["agencies"][:5],
+        "today_in_311": [x["text"] for x in extras.get("lines", [])],
         "recent_writing_to_avoid_repeating": recent_writing(day),
         "rare_find_candidates": [{k: x[k] for k in ("name", "n", "past_28_days")} for x in summary["rare_candidates"]],
-        "boroughs": {b: [{"mood": MOODS[m["id"]]["label"], "count": m["n"]} for m in v]
-                     for b, v in summary["boroughs"].items()},
+        "regions": {b: [{"mood": MOODS[m["id"]]["label"], "count": m["n"]} for m in v]
+                    for b, v in summary["boroughs"].items()},
     }
     schema = {
         "type": "object",
         "properties": {
             "headline": {"type": "string"},
             "blurb": {"type": "string"},
-            "boroughs": {"type": "object",
-                         "properties": {b: {"type": "string"} for b in BOROUGHS},
-                         "required": BOROUGHS, "additionalProperties": False},
+            "regions": {"type": "object",
+                        "properties": {b: {"type": "string"} for b in C.regions},
+                        "required": C.regions, "additionalProperties": False},
             "rare_finds": {"type": "array", "items": {
                 "type": "object",
                 "properties": {"name": {"type": "string"}, "quip": {"type": "string"}},
                 "required": ["name", "quip"], "additionalProperties": False}},
         },
-        "required": ["headline", "blurb", "boroughs", "rare_finds"],
+        "required": ["headline", "blurb", "regions", "rare_finds"],
         "additionalProperties": False,
     }
+    prompt = PROMPT.format(people=C.people, city=C.name, region_word=C.region_word,
+                           agency_examples=C.agency_examples, data=json.dumps(compact, indent=1))
     # A slow reply must never hold up the daily update: wait at most 90 s, retry once, then fall back.
     client = anthropic.Anthropic(timeout=90.0, max_retries=1)
     started = time.monotonic()
@@ -437,7 +279,7 @@ def headline_with_claude(summary, day, wx):
             betas=["server-side-fallback-2026-07-01"],
             fallbacks="default",
             output_config={"effort": "low", "format": {"type": "json_schema", "schema": schema}},
-            messages=[{"role": "user", "content": PROMPT.format(data=json.dumps(compact, indent=1))}],
+            messages=[{"role": "user", "content": prompt}],
         )
     except anthropic.APITimeoutError:
         log(f"Claude took too long ({time.monotonic() - started:.0f}s); using the plain headline.")
@@ -454,7 +296,7 @@ def headline_with_claude(summary, day, wx):
         f"{time.monotonic() - started:.0f}s")
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
-            fh.write(f"Claude: {u.input_tokens:,} input + {u.output_tokens:,} output tokens (about ${cost:.3f})\n\n")
+            fh.write(f"Claude ({C.name}): {u.input_tokens:,} input + {u.output_tokens:,} output tokens (about ${cost:.3f})\n\n")
     if resp.stop_reason != "end_turn":
         log(f"Claude stopped with {resp.stop_reason}; using the plain headline.")
         return None
@@ -464,19 +306,20 @@ def headline_with_claude(summary, day, wx):
     except json.JSONDecodeError:
         log("Claude returned invalid JSON; using the plain headline.")
         return None
+    out["boroughs"] = out.pop("regions", {})   # the page calls them "boroughs" for every city
     out["by"] = "claude"
     return out
 
 
 def headline_plain(summary, wx):
-    top = next(m for m in summary["moods"] if m["id"] != "other")
+    top = next((m for m in summary["moods"] if m["id"] != "other"), summary["moods"][0])
     lab = MOODS[top["id"]]["label"].lower()
     if summary["spikes"]:
         s = summary["spikes"][0]
         head = f"{s['name']} reports jumped to {s['n']:,}, about {s['ratio']:.1f}x a typical day"
     else:
-        head = f"New York's biggest gripe yesterday: {lab}"
-    blurb = (f"New Yorkers made {summary['total']:,} requests to 311. "
+        head = f"{C.name}'s biggest gripe yesterday: {lab}"
+    blurb = (f"{C.people} made {summary['total']:,} requests to 311. "
              f"The top mood was {lab}, with {top['n']:,} reports.")
     if wx:
         blurb += f" The high was {wx['high_f']}°F."
@@ -488,11 +331,19 @@ def headline_plain(summary, wx):
 ADDRESS_RE = re.compile(
     r"\b\d{1,5}\s+(?:[A-Za-z0-9]+\s){0,4}(?:ST|STREET|AVE|AVENUE|RD|ROAD|BLVD|PL|PLACE|DR|LANE|LN)\b"
     # ...but "57 calls for street fixes" or "street noise" aren't addresses: those are our own category names.
-    r"(?![\s-]+(?:fix|fixes|noise|light|lights|sweeping|condition|vendor|sign|signs|tree|trees|fair|food)\b)",
+    r"(?![\s-]+(?:fix|fixes|noise|light|lights|sweeping|condition|vendor|sign|signs|tree|trees|fair|food|cleaning)\b)",
     re.I)
-BANNED_KEYS = {"incident_address", "street_name", "cross_street_1", "cross_street_2", "intersection_street_1",
-               "intersection_street_2", "bbl", "latitude", "longitude", "location", "unique_key",
-               "x_coordinate_state_plane", "y_coordinate_state_plane", "incident_zip", "landmark"}
+BANNED_KEYS = {
+    # NYC
+    "incident_address", "street_name", "cross_street_1", "cross_street_2", "intersection_street_1",
+    "intersection_street_2", "bbl", "latitude", "longitude", "location", "unique_key",
+    "x_coordinate_state_plane", "y_coordinate_state_plane", "incident_zip", "landmark", "resolution_description",
+    # Chicago
+    "street_address", "street_number", "street_direction", "street_type", "zip_code", "sr_number",
+    "x_coordinate", "y_coordinate", "police_beat", "precinct", "parent_sr_number", "legacy_sr_number",
+}
+# Latitude/longitude ranges for every city we cover (NYC, Chicago).
+_COORD_RANGES = [(40.4, 41.0), (73.6, 74.3), (41.6, 42.1), (87.5, 88.0)]
 
 
 def assert_no_pii(obj, path="$"):
@@ -507,30 +358,26 @@ def assert_no_pii(obj, path="$"):
             assert_no_pii(v, f"{path}[{i}]")
     elif isinstance(obj, float):
         precise = len(repr(obj).split(".")[-1]) >= 3
-        if precise and (40.4 <= abs(obj) <= 41.0 or 73.6 <= abs(obj) <= 74.3):
+        if precise and any(lo <= abs(obj) <= hi for lo, hi in _COORD_RANGES):
             raise SystemExit(f"Privacy check failed: coordinate-like number {obj} at {path}")
     elif isinstance(obj, str):
         if ADDRESS_RE.search(obj):
             raise SystemExit(f"Privacy check failed: address-like text at {path}: {obj!r}")
 
 
-# ---------------------------------------------------------------- main
-
-MAX_CATCH_UP = 7      # never build more than this many missed days in one run
-
+# ---------------------------------------------------------------- build
 
 def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
-    log(f"Building {day} ({day:%A})")
-    rows = fetch_day(day)
-    log(f"Fetched {len(rows):,} requests")
-    assigned, unplaced = assign(rows, hoods)
-    log(f"{unplaced:,} had no usable location (counted citywide only)")
+    log(f"[{C.name}] Building {day} ({day:%A})")
+    assigned, unplaced = C.fetch_records(day, hoods)
+    log(f"{unplaced:,} had no usable neighborhood (counted citywide only)")
 
     base_types, base_details = baseline(day)
-    summary = aggregate(assigned, hoods, base_types, base_details, month_detail_counts(day))
+    summary = aggregate(assigned, hoods, base_types, base_details, C.month_detail_counts(day))
     wx = weather(day)
+    extras = C.extras(day)
 
-    words = headline_with_claude(summary, day, wx) if use_claude else None
+    words = headline_with_claude(summary, day, wx, extras) if use_claude else None
     if words:
         # Claude never sees addresses, but if its writing ever trips the privacy check
         # (even as a false alarm), use the plain headline for this day instead of failing the build.
@@ -548,34 +395,42 @@ def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
     fallback = [strip_private(c) for c in cands.values() if c["_fun"]]
     summary["rare_finds"] = (picks or fallback)[:4]
 
-    entry = {"date": day.isoformat(), "weekday": day.strftime("%A"), "weather": wx,
+    entry = {"city": C.key, "date": day.isoformat(), "weekday": day.strftime("%A"), "weather": wx,
              "built": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
-             "source_newest": newest,
-             "words": words, **summary}
+             "source_newest": newest, "words": words, "extras": extras.get("lines", []), **summary}
     assert_no_pii(entry)
 
-    days_dir = DATA / "days"
+    days_dir = C.data_dir / "days"
     days_dir.mkdir(parents=True, exist_ok=True)
     (days_dir / f"{day}.json").write_text(json.dumps(entry, ensure_ascii=False, separators=(",", ":")))
 
-    log(f"Headline ({words['by']}): {words['headline']}")
+    log(f"[{C.name}] Headline ({words['by']}): {words['headline']}")
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
-            fh.write(f"## {day}: {words['headline']}\n\n{words['blurb']}\n\n")
+            fh.write(f"## {C.name}, {day}: {words['headline']}\n\n{words['blurb']}\n\n")
 
 
 def refresh_indexes():
-    days_dir = DATA / "days"
+    days_dir = C.data_dir / "days"
     files = sorted(days_dir.glob("*.json"))
     for old in files[:-KEEP_DAYS]:
         old.unlink()
     dates = sorted((p.stem for p in days_dir.glob("*.json")), reverse=True)
-    (DATA / "latest.json").write_text((days_dir / f"{dates[0]}.json").read_text())
-    (DATA / "index.json").write_text(json.dumps({"days": dates, "moods": MOODS}, ensure_ascii=False))
+    if not dates:
+        return
+    (C.data_dir / "latest.json").write_text((days_dir / f"{dates[0]}.json").read_text())
+    (C.data_dir / "index.json").write_text(json.dumps({"days": dates, "moods": MOODS, "city": C.meta()},
+                                                      ensure_ascii=False))
+    write_cities_list()
+
+
+def write_cities_list():
+    listed = [c.meta() for c in CITIES.values() if (c.data_dir / "index.json").exists()]
+    (DATA / "cities.json").write_text(json.dumps({"cities": listed}, ensure_ascii=False))
 
 
 def built_days() -> set[dt.date]:
-    return {dt.date.fromisoformat(p.stem) for p in (DATA / "days").glob("*.json")}
+    return {dt.date.fromisoformat(p.stem) for p in (C.data_dir / "days").glob("*.json")}
 
 
 def plan_days(latest: dt.date, have: set[dt.date], force: bool) -> list[dt.date]:
@@ -593,18 +448,9 @@ def plan_days(latest: dt.date, have: set[dt.date], force: bool) -> list[dt.date]
     return [last + dt.timedelta(days=k) for k in range(1, gap + 1)][-MAX_CATCH_UP:]
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--date", help="build this one day (no Claude unless --claude)")
-    ap.add_argument("--dates", help="several days, e.g. '2026-11-08 2026-11-09' (max 10)")
-    ap.add_argument("--claude", action="store_true", help="with --date/--dates: let Claude write those days too")
-    ap.add_argument("--no-claude", action="store_true")
-    ap.add_argument("--force", action="store_true", help="rebuild the newest day even if it already exists")
-    args = ap.parse_args()
-
-    hoods = load_neighborhoods()
-    newest = newest_request()
-    have_key = bool(os.environ.get("ANTHROPIC_API_KEY")) and not args.no_claude
+def run_city(args, have_key: bool):
+    hoods = C.load_hoods()
+    newest = C.newest_request()
 
     if args.date or args.dates:
         raw = (args.dates or args.date).replace(",", " ").split()
@@ -612,28 +458,56 @@ def main():
             days = sorted({dt.date.fromisoformat(x) for x in raw})
         except ValueError:
             raise SystemExit(f"Dates must look like 2026-11-08; got: {raw}")
-        latest = latest_complete_day(newest)
+        latest = C.latest_complete_day(newest)
         if len(days) > 10 or any(d > latest for d in days):
-            raise SystemExit(f"Pick at most 10 days, none after {latest} (the newest complete day).")
+            raise SystemExit(f"[{C.name}] Pick at most 10 days, none after {latest} (the newest complete day).")
         for day in days:
             build_day(day, hoods, newest, use_claude=have_key and args.claude)
             refresh_indexes()  # after every day, so a stopped run still keeps the days it finished
         return
 
-    latest = latest_complete_day(newest)
+    latest = C.latest_complete_day(newest)
     todo = plan_days(latest, built_days(), args.force)
     if not todo:
-        log(f"{latest} is already built and the city hasn't posted a newer full day yet "
+        log(f"[{C.name}] {latest} is already built and the city hasn't posted a newer full day yet "
             f"(its data runs through {newest}). Nothing to do.")
         if os.environ.get("GITHUB_STEP_SUMMARY"):
             with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
-                fh.write(f"Nothing new: {latest} is already built; city data runs through {newest}.\n")
+                fh.write(f"{C.name}: nothing new; {latest} is already built (data runs through {newest}).\n\n")
         return
     for day in todo:
         # Every day this run builds gets Claude's headline and quips, including caught-up days
         # (at most MAX_CATCH_UP, so a long outage costs at most a few Claude calls).
         build_day(day, hoods, newest, use_claude=have_key)
         refresh_indexes()
+
+
+def main():
+    global C
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--city", default="all", choices=["all", *CITIES])
+    ap.add_argument("--date", help="build this one day (no Claude unless --claude)")
+    ap.add_argument("--dates", help="several days, e.g. '2026-11-08 2026-11-09' (max 10)")
+    ap.add_argument("--claude", action="store_true", help="with --date/--dates: let Claude write those days too")
+    ap.add_argument("--no-claude", action="store_true")
+    ap.add_argument("--force", action="store_true", help="rebuild the newest day even if it already exists")
+    args = ap.parse_args()
+    have_key = bool(os.environ.get("ANTHROPIC_API_KEY")) and not args.no_claude
+
+    failed = []
+    for key in (CITIES if args.city == "all" else [args.city]):
+        C = CITIES[key]
+        try:
+            run_city(args, have_key)
+        except SystemExit as e:   # one city's problem shouldn't stop the others
+            log(f"[{C.name}] stopped: {e}")
+            failed.append(key)
+        except Exception as e:
+            log(f"[{C.name}] failed: {type(e).__name__}: {e}")
+            failed.append(key)
+    write_cities_list()
+    if failed:
+        raise SystemExit(f"Some cities failed: {', '.join(failed)}")
 
 
 if __name__ == "__main__":

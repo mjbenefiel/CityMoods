@@ -222,7 +222,10 @@ _WHIMSY = ("horse", "bee", "pigeon", "goat", "chicken", "rooster", "farm", "anim
            "ticket", "tour bus", "street fair", "stoop", "gift", "hotel", "barber", "nail salon", "car wash",
            "snake", "wildlife", "bird", "flying", "helicopter", "raccoon", "coyote", "hawk", "owl", "bat", "turtle",
            "squirrel", "deer", "fox", "opossum", "skunk", "news gathering", "film shoot", "drone", "gender pricing",
-           "bookings under 4 hours")
+           "bookings under 4 hours",
+           # Chicago
+           "coyote", "divvy", "lime", "lake", "river", "submerged", "scooter", "viaduct", "fuel pump", "cable tv",
+           "bungalow", "vintage", "porch", "no longer", "solicitation", "outdated merchandise")
 
 
 

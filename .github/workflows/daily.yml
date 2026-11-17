@@ -49,7 +49,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing new."
           else
-            DAY=$(python3 -c 'import json; print(json.load(open("docs/data/latest.json"))["date"])')
-            git commit -m "Mood for $DAY"
+            DAYS=$(git diff --cached --name-only | grep -oE '[a-z]+/days/[0-9]{4}-[0-9]{2}-[0-9]{2}' | sed 's#/days/# #' | sort -u | tr '\n' ',' | sed 's/,$//; s/,/, /g')
+            git commit -m "Moods for ${DAYS:-latest data}"
             git push
           fi

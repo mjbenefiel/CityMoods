@@ -390,6 +390,12 @@ def headline_with_claude(summary, day, wx):
     except anthropic.APIStatusError as e:
         log(f"Claude API error {e.status_code}: {e.message}")
         return None
+    u = resp.usage
+    cost = (u.input_tokens * 4 + u.output_tokens * 20) / 1_000_000  # Claude Opus 5.5 list prices per token
+    log(f"Claude usage: {u.input_tokens:,} input + {u.output_tokens:,} output tokens, about ${cost:.3f}")
+    if os.environ.get("GITHUB_STEP_SUMMARY"):
+        with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
+            fh.write(f"Claude: {u.input_tokens:,} input + {u.output_tokens:,} output tokens (about ${cost:.3f})\n\n")
     if resp.stop_reason != "end_turn":
         log(f"Claude stopped with {resp.stop_reason}; using the plain headline.")
         return None

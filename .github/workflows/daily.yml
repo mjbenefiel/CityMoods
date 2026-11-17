@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       city:
-        description: "Which city: all, nyc or chicago"
+        description: "Which city: all, nyc, chicago, la, sf or boston"
         required: false
         default: "all"
       dates:
@@ -37,7 +37,7 @@ jobs:
           DATES: ${{ inputs.dates }}
           CITY: ${{ inputs.city || 'all' }}
         run: |
-          case "$CITY" in all|nyc|chicago) ;; *) echo "Unknown city: $CITY"; exit 1;; esac
+          case "$CITY" in all|nyc|chicago|la|sf|boston) ;; *) echo "Unknown city: $CITY"; exit 1;; esac
           if [ -n "$DATES" ]; then python pipeline/build.py --city "$CITY" --dates "$DATES" --claude; else python pipeline/build.py --city "$CITY"; fi
       - name: Publish
         # Runs even if the build failed or was cancelled partway, so finished days aren't thrown away.

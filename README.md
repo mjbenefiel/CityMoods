@@ -1,6 +1,6 @@
 # CityMoods
 
-A map of what cities report to 311 each day, grouped into playful "moods" (no heat, noise, parking wars, critters…) and shown by neighborhood. Cities: New York and Chicago.
+A map of what cities report to 311 each day, grouped into playful "moods" (no heat, noise, parking wars, critters…) and shown by neighborhood. Cities: New York, Chicago, Los Angeles, San Francisco and Boston.
 
 ```
 docs/                 The website (static, no build step). GitHub Pages serves this folder.
@@ -13,6 +13,7 @@ pipeline/
   common.py           Paths, logging, HTTP with retries, map simplification
   moods.py            NYC moods, detail labels, sensitive types; shared mood colors and rare-find filters
   moods_chicago.py    Chicago moods, names, sensitive types
+  moods_simple.py     LA, SF and Boston moods, names, sensitive types; SF detail labels
 .github/workflows/daily.yml   Runs build.py nightly for every city and commits docs/data
 ```
 
@@ -21,6 +22,13 @@ pipeline/
 - Chicago: the job downloads only `sr_type`, `community_area`, `owner_department`. No addresses or coordinates at all
   (Chicago already provides the community area). Information-only calls, airport-logged aircraft noise and
   duplicates are left out of the map; O'Hare's count appears only as a citywide "Today in 311" line.
+- Los Angeles: only `type`, `department_name__c` and the Neighborhood Council number. Information-only calls and
+  scheduled bulky-item pickups stay off the map (citywide lines only). Homeless encampments and "illegal
+  activities" are never named.
+- San Francisco: only the category, its two menu detail levels, agency and `analysis_neighborhood`. Never the
+  free-text `status_notes`. Encampments, homelessness, needles, human waste and Muni *employee* feedback are never named.
+- Boston: only `service_name`, `assigned_department`, `neighborhood` (new 311 system, July 2026 onward). Needle
+  pickups are never named.
 - NYC: police outcome lines come from counting NYPD's standard closing notes for noise calls; the notes
   themselves are never downloaded into the published data or quoted.
 

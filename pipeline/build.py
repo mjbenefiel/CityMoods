@@ -178,8 +178,9 @@ def aggregate(assigned, hoods, base: Counter, base_details: Counter, month: Coun
     for info in neighborhoods.values():
         for m, n in info["moods"].items():
             regions[info["borough"]][m] += n
-    region_summary = {b: [{"id": m, "n": n} for m, n in c.most_common() if m != "other"][:3]
-                      for b, c in sorted(regions.items())}
+    # Cities without boroughs/areas (SF, Boston) skip the per-region lines.
+    region_summary = ({b: [{"id": m, "n": n} for m, n in c.most_common() if m != "other"][:3]
+                       for b, c in sorted(regions.items())} if C.regions else {})
 
     return {"total": sum(city_types.values()), "typical_total": round(sum(base.values())),
             "moods": moods, "top_types": top_types, "spikes": spikes[:5],
@@ -199,8 +200,7 @@ Here is yesterday's data (all numbers are counts of 311 requests; "typical" is t
 Write:
 - headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike, the mood that dominated, or a fact from today_in_311).
 - blurb: two short sentences that add one or two specific numbers from the data.
-- regions: one short line (at most 90 characters) for each {region_word} in the data, about what it reported most.
-
+{regions_line}
 - rare_finds: pick the 3 most absurd items from rare_find_candidates and give each a quip of at most 130 characters. Copy each name exactly as given.
   Background (the page already explains this to readers, so you don't need to): each candidate is an official option on the city's 311 menu that someone picked on this day, and it usually gets picked less than about once a week. Don't make every quip about menus or dropdowns; vary the angle.
   Voice: a jaded, deadpan local who has seen everything and is unimpressed by City Hall. Sharp, dry, a little edgy, with attitude. Roast the bureaucracy itself: the agencies ({agency_examples} and so on, as institutions), the forms, the oddly specific dropdown categories, the slow response times, the red tape, the city somehow having an official process for this.
@@ -252,23 +252,23 @@ def headline_with_claude(summary, day, wx, extras):
         "regions": {b: [{"mood": MOODS[m["id"]]["label"], "count": m["n"]} for m in v]
                     for b, v in summary["boroughs"].items()},
     }
-    schema = {
-        "type": "object",
-        "properties": {
-            "headline": {"type": "string"},
-            "blurb": {"type": "string"},
-            "regions": {"type": "object",
-                        "properties": {b: {"type": "string"} for b in C.regions},
-                        "required": C.regions, "additionalProperties": False},
-            "rare_finds": {"type": "array", "items": {
-                "type": "object",
-                "properties": {"name": {"type": "string"}, "quip": {"type": "string"}},
-                "required": ["name", "quip"], "additionalProperties": False}},
-        },
-        "required": ["headline", "blurb", "regions", "rare_finds"],
-        "additionalProperties": False,
+    props = {
+        "headline": {"type": "string"},
+        "blurb": {"type": "string"},
+        "rare_finds": {"type": "array", "items": {
+            "type": "object",
+            "properties": {"name": {"type": "string"}, "quip": {"type": "string"}},
+            "required": ["name", "quip"], "additionalProperties": False}},
     }
-    prompt = PROMPT.format(people=C.people, city=C.name, region_word=C.region_word,
+    if C.regions:
+        props["regions"] = {"type": "object", "properties": {b: {"type": "string"} for b in C.regions},
+                            "required": C.regions, "additionalProperties": False}
+    else:
+        compact.pop("regions", None)
+    schema = {"type": "object", "properties": props, "required": list(props), "additionalProperties": False}
+    regions_line = (f"- regions: one short line (at most 90 characters) for each {C.region_word} in the data, "
+                    f"about what it reported most.\n" if C.regions else "")
+    prompt = PROMPT.format(people=C.people, city=C.name, regions_line=regions_line,
                            agency_examples=C.agency_examples, data=json.dumps(compact, indent=1))
     # A slow reply must never hold up the daily update: wait at most 90 s, retry once, then fall back.
     client = anthropic.Anthropic(timeout=90.0, max_retries=1)
@@ -342,9 +342,17 @@ BANNED_KEYS = {
     # Chicago
     "street_address", "street_number", "street_direction", "street_type", "zip_code", "sr_number",
     "x_coordinate", "y_coordinate", "police_beat", "precinct", "parent_sr_number", "legacy_sr_number",
+    # Los Angeles
+    "casenumber", "locator_gis_returned_address", "locator_sr_house_number_", "locator_sr_street_name__c",
+    "zipcode__c", "geolocation__latitude__s", "geolocation__longitude__s", "assigned_to__c",
+    # San Francisco
+    "service_request_id", "status_notes", "address", "street", "lat", "long", "point", "point_geom", "media_url",
+    # Boston
+    "case_id", "full_address", "closure_comments", "submitted_photo", "closed_photo",
 }
-# Latitude/longitude ranges for every city we cover (NYC, Chicago).
-_COORD_RANGES = [(40.4, 41.0), (73.6, 74.3), (41.6, 42.1), (87.5, 88.0)]
+# Latitude/longitude ranges for every city we cover (NYC, Chicago, LA, SF, Boston).
+_COORD_RANGES = [(40.4, 41.0), (73.6, 74.3), (41.6, 42.1), (87.5, 88.0), (33.6, 34.4), (118.0, 118.8),
+                 (37.6, 37.9), (122.3, 122.6), (42.2, 42.45), (70.9, 71.2)]
 
 
 def assert_no_pii(obj, path="$"):

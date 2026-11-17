@@ -72,6 +72,178 @@
       t.textContent = name.toUpperCase();
       svg.append(t);
     }
+    Z.base = { x: 0, y: 0, w: W, h: H };
+    setView(Z.base);
+    setupZoom();
+  }
+
+  // ---------------------------------------------------------------- zoom
+  // The map is SVG, so zooming just changes which part of it is in view (the viewBox).
+  // Buttons, double-click/tap, ⌘/Ctrl + scroll (plain scrolling still scrolls the page),
+  // drag to pan when zoomed, and two-finger pinch on phones (one finger still scrolls the page).
+  const Z = { base: null, v: null, max: 10, anim: 0, drag: null, moved: false, pinch: null, lastTap: 0, hintTimer: 0 };
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function setView(v) {
+    const b = Z.base, svg = $("map");
+    const w = Math.min(b.w, Math.max(b.w / Z.max, v.w)), h = w * b.h / b.w;
+    const x = Math.min(b.x + b.w - w, Math.max(b.x, v.x)), y = Math.min(b.y + b.h - h, Math.max(b.y, v.y));
+    Z.v = { x, y, w, h };
+    svg.setAttribute("viewBox", `${x.toFixed(2)} ${y.toFixed(2)} ${w.toFixed(2)} ${h.toFixed(2)}`);
+    svg.style.setProperty("--z", (b.w / w).toFixed(3));
+    const zoomed = w < b.w - 0.5;
+    svg.classList.toggle("zoomed", zoomed);
+    const ctl = (id, off) => { const el = $(id); if (el) el.disabled = off; };
+    ctl("zoom-out", !zoomed); ctl("zoom-reset", !zoomed); ctl("zoom-in", w <= b.w / Z.max + 0.5);
+  }
+
+  function animateTo(target, after) {
+    cancelAnimationFrame(Z.anim);
+    if (reduceMotion) { setView(target); markSelected(); if (after) after(); return; }
+    const from = { ...Z.v }, t0 = performance.now(), ms = 340;
+    const step = (now) => {
+      const t = Math.min(1, (now - t0) / ms), e = 1 - Math.pow(1 - t, 3);
+      setView({ x: from.x + (target.x - from.x) * e, y: from.y + (target.y - from.y) * e,
+                w: from.w + (target.w - from.w) * e, h: from.h + (target.h - from.h) * e });
+      if (t < 1) Z.anim = requestAnimationFrame(step); else { markSelected(); if (after) after(); }
+    };
+    Z.anim = requestAnimationFrame(step);
+  }
+
+  function zoomAt(factor, cx, cy, animate) {
+    const v = Z.v, w = v.w / factor, h = v.h / factor;
+    const target = { x: cx - (cx - v.x) / factor, y: cy - (cy - v.y) / factor, w, h };
+    if (animate) animateTo(target); else { setView(target); markSelected(); }
+  }
+
+  function zoomCenter(factor) {
+    const v = Z.v;
+    zoomAt(factor, v.x + v.w / 2, v.y + v.h / 2, true);
+  }
+
+  function toSvg(clientX, clientY) {
+    const r = $("map").getBoundingClientRect();
+    return { x: Z.v.x + (clientX - r.left) / r.width * Z.v.w, y: Z.v.y + (clientY - r.top) / r.height * Z.v.h };
+  }
+
+  // Glide to a neighborhood (from search or a shared link). Big areas just get centered.
+  function zoomToHood(id, animate = true) {
+    const el = paths[id];
+    if (!el || !Z.base) return;
+    const bb = el.getBBox(), b = Z.base, aspect = b.w / b.h;
+    let w = Math.max(bb.width * 3, bb.height * 3 * aspect, b.w / 6);
+    if (w >= b.w * 0.8) w = b.w;
+    const h = w / aspect;
+    // Center it in the part of the map the card doesn't cover.
+    const cover = w < b.w ? cardCover() : 0, centerAt = cover + (1 - cover) / 2;
+    const target = { x: bb.x + bb.width / 2 - w * centerAt, y: bb.y + bb.height / 2 - h / 2, w, h };
+    if (animate) animateTo(target); else { setView(target); markSelected(); }
+  }
+
+  // On wide screens the neighborhood card floats over the left of the map; this is the share of the
+  // map's width it covers (0 when the card is hidden or sits below the map on phones).
+  function cardCover() {
+    const card = $("card"), svg = $("map");
+    if (!card || card.hidden || getComputedStyle(card).position !== "absolute") return 0;
+    const r = svg.getBoundingClientRect(), c = card.getBoundingClientRect();
+    return Math.max(0, Math.min(0.6, (c.right - r.left + 12) / r.width));
+  }
+
+  function showZoomHint() {
+    const hint = $("zoom-hint");
+    if (!hint) return;
+    hint.hidden = false;
+    clearTimeout(Z.hintTimer);
+    Z.hintTimer = setTimeout(() => { hint.hidden = true; }, 1400);
+  }
+
+  function setupZoom() {
+    const svg = $("map");
+    $("zoom-in").addEventListener("click", () => zoomCenter(1.8));
+    $("zoom-out").addEventListener("click", () => zoomCenter(1 / 1.8));
+    $("zoom-reset").addEventListener("click", () => animateTo({ ...Z.base }));
+
+    svg.addEventListener("wheel", (e) => {
+      if (!(e.ctrlKey || e.metaKey)) { showZoomHint(); return; }   // trackpad pinch on Mac arrives as ctrl+wheel
+      e.preventDefault();
+      const p = toSvg(e.clientX, e.clientY);
+      zoomAt(Math.exp(-e.deltaY * 0.0028), p.x, p.y, false);
+    }, { passive: false });
+
+    svg.addEventListener("dblclick", (e) => {
+      e.preventDefault();
+      const p = toSvg(e.clientX, e.clientY);
+      zoomAt(2, p.x, p.y, true);
+    });
+
+    // Mouse drag to pan (only when zoomed in). A drag never counts as a click on a neighborhood.
+    svg.addEventListener("pointerdown", (e) => {
+      if (e.pointerType !== "mouse" || e.button !== 0 || !svg.classList.contains("zoomed")) return;
+      Z.drag = { x: e.clientX, y: e.clientY, v: { ...Z.v } };
+      Z.moved = false;
+    });
+    window.addEventListener("pointermove", (e) => {
+      if (!Z.drag) return;
+      const dx = e.clientX - Z.drag.x, dy = e.clientY - Z.drag.y;
+      if (!Z.moved && Math.hypot(dx, dy) < 4) return;
+      Z.moved = true;
+      svg.classList.add("dragging");
+      hideHover();
+      const r = svg.getBoundingClientRect();
+      setView({ ...Z.drag.v, x: Z.drag.v.x - dx / r.width * Z.drag.v.w, y: Z.drag.v.y - dy / r.height * Z.drag.v.h });
+    });
+    window.addEventListener("pointerup", () => {
+      if (Z.drag && Z.moved) markSelected();
+      Z.drag = null;
+      svg.classList.remove("dragging");
+    });
+    svg.addEventListener("click", (e) => {
+      if (Z.moved) { e.stopPropagation(); e.preventDefault(); Z.moved = false; }
+    }, true);
+
+    // Phones: two fingers pinch-zoom; one finger pans only when zoomed in (otherwise the page scrolls).
+    const dist = (t) => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+    const mid = (t) => ({ x: (t[0].clientX + t[1].clientX) / 2, y: (t[0].clientY + t[1].clientY) / 2 });
+    svg.addEventListener("touchstart", (e) => {
+      if (e.touches.length === 2) {
+        Z.pinch = { d: dist(e.touches), m: mid(e.touches), v: { ...Z.v } };
+        Z.drag = null;
+      } else if (e.touches.length === 1) {
+        const t = e.touches[0], now = Date.now();
+        if (now - Z.lastTap < 300) {   // double-tap to zoom in
+          e.preventDefault();
+          const p = toSvg(t.clientX, t.clientY);
+          zoomAt(2, p.x, p.y, true);
+          Z.lastTap = 0;
+          return;
+        }
+        Z.lastTap = now;
+        if (svg.classList.contains("zoomed")) Z.drag = { x: t.clientX, y: t.clientY, v: { ...Z.v }, touch: true };
+        Z.moved = false;
+      }
+    }, { passive: false });
+    svg.addEventListener("touchmove", (e) => {
+      const r = svg.getBoundingClientRect();
+      if (Z.pinch && e.touches.length === 2) {
+        e.preventDefault();
+        const s = dist(e.touches) / Z.pinch.d, m = mid(e.touches), v0 = Z.pinch.v;
+        const cx = v0.x + (Z.pinch.m.x - r.left) / r.width * v0.w, cy = v0.y + (Z.pinch.m.y - r.top) / r.height * v0.h;
+        const w = v0.w / s, h = v0.h / s;
+        setView({ x: cx - (Z.pinch.m.x - r.left) / r.width * w - (m.x - Z.pinch.m.x) / r.width * w,
+                  y: cy - (Z.pinch.m.y - r.top) / r.height * h - (m.y - Z.pinch.m.y) / r.height * h, w, h });
+        Z.moved = true;
+      } else if (Z.drag && Z.drag.touch && e.touches.length === 1) {
+        const t = e.touches[0], dx = t.clientX - Z.drag.x, dy = t.clientY - Z.drag.y;
+        if (!Z.moved && Math.hypot(dx, dy) < 6) return;
+        e.preventDefault();
+        Z.moved = true;
+        setView({ ...Z.drag.v, x: Z.drag.v.x - dx / r.width * Z.drag.v.w, y: Z.drag.v.y - dy / r.height * Z.drag.v.h });
+      }
+    }, { passive: false });
+    svg.addEventListener("touchend", (e) => {
+      if (e.touches.length < 2) Z.pinch = null;
+      if (e.touches.length === 0) { if (Z.moved) markSelected(); Z.drag = null; }
+    });
   }
 
   // ---------------------------------------------------------------- selected neighborhood
@@ -94,10 +266,12 @@
     g.append(t);
     svg.append(g);
     const tb = t.getBBox();
-    const padX = 10, padY = 6, w = tb.width + padX * 2, h = tb.height + padY * 2;
-    let x = b.x + b.width / 2 - w / 2, y = b.y - h - 8;          // above the shape...
-    if (y < 4) y = b.y + b.height + 8;                             // ...or below if it's at the top edge
-    x = Math.max(4, Math.min(vb.width - w - 4, x));
+    const z = Z.base ? Z.base.w / Z.v.w : 1, view = Z.v || { x: 0, y: 0, w: vb.width, h: vb.height };
+    const padX = 10 / z, padY = 6 / z, gap = 8 / z, w = tb.width + padX * 2, h = tb.height + padY * 2;
+    let x = b.x + b.width / 2 - w / 2, y = b.y - h - gap;          // above the shape...
+    if (y < view.y + 4 / z) y = b.y + b.height + gap;               // ...or below if it's at the top edge
+    const left = view.x + view.w * cardCover() + 4 / z;            // keep the name tag clear of the card
+    x = Math.max(left, Math.min(view.x + view.w - w - 4 / z, x));
     const r = document.createElementNS(SVGNS, "rect");
     r.setAttribute("x", x); r.setAttribute("y", y); r.setAttribute("width", w); r.setAttribute("height", h);
     r.setAttribute("rx", h / 2);
@@ -380,6 +554,7 @@
       input.blur();
       hideHover();
       select(id);
+      zoomToHood(id);
       $("map").scrollIntoView({ behavior: "smooth", block: "nearest" });
     };
 
@@ -519,6 +694,7 @@
       const wantHood = params.get("hood");
       if (wantHood && paths[wantHood]) selected = wantHood;
       await loadDay(Math.max(0, days.indexOf(params.get("day"))));
+      if (selected) zoomToHood(selected, false);
     } catch (e) {
       $("headline").textContent = "The city's mood is loading slowly. Try again in a minute.";
       console.error(e);

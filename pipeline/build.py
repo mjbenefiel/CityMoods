@@ -558,8 +558,9 @@ def main():
                 fh.write(f"Nothing new: {latest} is already built; city data runs through {newest}.\n")
         return
     for day in todo:
-        # Only the newest day gets Claude's headline and quips; caught-up days use the plain headline.
-        build_day(day, hoods, newest, use_claude=have_key and day == todo[-1])
+        # Every day this run builds gets Claude's headline and quips, including caught-up days
+        # (at most MAX_CATCH_UP, so a long outage costs at most a few Claude calls).
+        build_day(day, hoods, newest, use_claude=have_key)
     refresh_indexes()
 
 

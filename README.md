@@ -32,6 +32,11 @@ Each run builds any complete days that aren't on the site yet, oldest first (up 
 gets Claude's headline and quips. If the city hasn't posted a new full day yet, the run does nothing, so
 Claude is never paid twice for the same day. `--force` rebuilds the newest day anyway.
 
+## Changing the design
+
+`index.html` and `privacy.html` load `style.css?v=…` and `app.js?v=…`. After editing either file, bump that
+`v=` number (any new value, e.g. the date and time) so browsers fetch the new copy instead of an old cached one.
+
 ## Run it locally
 
 ```

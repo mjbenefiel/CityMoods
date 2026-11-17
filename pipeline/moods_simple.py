@@ -46,7 +46,8 @@ class SimpleMoods:
         return _whimsy(t, label)
 
 
-_KEEP_CAPS = {"ADA", "LA", "SF", "MTA", "PG&E", "TV", "ATM", "BID", "ID", "NC", "DPW"}
+_KEEP_CAPS = {"ADA", "LA", "SF", "MTA", "PG&E", "TV", "ATM", "BID", "ID", "NC", "DPW", "LADOT", "LASAN", "DWP",
+              "SFMTA", "PUC", "DBI", "BTD", "ISD", "WPD", "CDOT"}
 
 
 def sentence(s: str) -> str:
@@ -95,7 +96,11 @@ def sf_detail(subtype: str | None, details: str | None) -> str | None:
         return f"{'Offensive graffiti' if sub == 'offensive' else 'Graffiti'} on {pretty(det).lower()}"
     if det and sub and sub not in SF_GENERIC_SUBTYPES:
         head = SF_LABELS.get(sub) or pretty(sub)
-        return f"{head}: {pretty(det).lower()}"
+        tail = pretty(det)
+        # Don't repeat the subtype when the detail just restates it ("central_shops" / "central_shops_complaint").
+        if tail.lower().startswith(head.lower()) or head.lower().startswith(tail.lower()):
+            return tail
+        return f"{head}: {tail.lower()}"
     if det:
         return pretty(det)
     if sub and sub not in SF_GENERIC_SUBTYPES and not sub.lower().startswith("other"):

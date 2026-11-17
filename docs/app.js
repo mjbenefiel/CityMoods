@@ -533,14 +533,14 @@
     peek.closest(".map-wrap").classList.add("has-peek");
   }
 
-  // Close the selected neighborhood. On phones, also glide back out to the whole city so you're never stuck zoomed in.
+  // Close the selected neighborhood and glide back out to the whole city, so you're never stuck zoomed in.
   function closeSelection() {
     selected = null;
     $("card").hidden = true;
     hidePeek();
     paint();
     syncURL();
-    if (isPhoneLayout() && Z.base && Z.v && Z.v.w < Z.base.w - 0.5) animateTo({ ...Z.base });
+    if (Z.base && Z.v && Z.v.w < Z.base.w - 0.5) animateTo({ ...Z.base });
   }
 
   function isPhoneLayout() {

@@ -534,7 +534,8 @@ def plan_days(latest: dt.date, have: set[dt.date], force: bool) -> list[dt.date]
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="build this one day (no Claude unless --claude)")
-    ap.add_argument("--claude", action="store_true", help="with --date: let Claude write that day too")
+    ap.add_argument("--dates", help="several days, e.g. '2026-11-08 2026-11-09' (max 10)")
+    ap.add_argument("--claude", action="store_true", help="with --date/--dates: let Claude write those days too")
     ap.add_argument("--no-claude", action="store_true")
     ap.add_argument("--force", action="store_true", help="rebuild the newest day even if it already exists")
     args = ap.parse_args()
@@ -543,8 +544,17 @@ def main():
     newest = newest_request()
     have_key = bool(os.environ.get("ANTHROPIC_API_KEY")) and not args.no_claude
 
-    if args.date:
-        build_day(dt.date.fromisoformat(args.date), hoods, newest, use_claude=have_key and args.claude)
+    if args.date or args.dates:
+        raw = (args.dates or args.date).replace(",", " ").split()
+        try:
+            days = sorted({dt.date.fromisoformat(x) for x in raw})
+        except ValueError:
+            raise SystemExit(f"Dates must look like 2026-11-08; got: {raw}")
+        latest = latest_complete_day(newest)
+        if len(days) > 10 or any(d > latest for d in days):
+            raise SystemExit(f"Pick at most 10 days, none after {latest} (the newest complete day).")
+        for day in days:
+            build_day(day, hoods, newest, use_claude=have_key and args.claude)
         refresh_indexes()
         return
 

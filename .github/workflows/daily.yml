@@ -6,6 +6,11 @@ on:
     # 8:30-9:15 PM Central, completing the previous day. If nothing new is posted yet, the run does nothing.
     - cron: "7 5 * * *"
   workflow_dispatch:
+    inputs:
+      dates:
+        description: "Optional: rebuild specific days with Claude's headlines, e.g. 2026-11-08 2026-11-09 (max 10). Leave empty for a normal run."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -15,7 +20,7 @@ concurrency: daily-mood
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,7 +30,9 @@ jobs:
       - name: Build yesterday's mood
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python pipeline/build.py
+          DATES: ${{ inputs.dates }}
+        run: |
+          if [ -n "$DATES" ]; then python pipeline/build.py --dates "$DATES" --claude; else python pipeline/build.py; fi
       - name: Publish
         run: |
           git config user.name "citymood-bot"

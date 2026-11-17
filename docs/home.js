@@ -73,7 +73,7 @@
 
   // ---------------------------------------------------------------- city cards
   function skeleton(c) {
-    return `<a class="city-card" href="?city=${c.key}" id="card-${c.key}">
+    return `<a class="city-card" href="${c.key}/" id="card-${c.key}">
       <div class="cc-map"><svg aria-hidden="true"></svg></div>
       <div class="cc-body">
         <h2>${esc(c.name)}</h2>

@@ -16,9 +16,18 @@
   let selected = null;   // neighborhood id
   const paths = {};      // id -> <path>
 
-  // Which city: ?city=chicago, default New York. Each city's data lives in data/<city>/.
-  // No ?city= means the front page (home.js); every city view carries its city in the address.
-  const CITY_PARAM = (new URL(location.href).searchParams.get("city") || "").toLowerCase().replace(/[^a-z]/g, "");
+  // Which city. Each city has its own address (…/chicago/), a copy of this page marked <html data-city="chicago">
+  // whose link previews show that city. No city means the front page (home.js). Each city's data lives in data/<city>/.
+  const PAGE_CITY = document.documentElement.dataset.city || "";
+  const QUERY_CITY = (new URL(location.href).searchParams.get("city") || "").toLowerCase().replace(/[^a-z]/g, "");
+  // Older links used ?city=chicago on the front page; move them to the city's own address.
+  const MOVING = !PAGE_CITY && !!QUERY_CITY;
+  if (MOVING) {
+    const old = new URL(location.href);
+    old.searchParams.delete("city");
+    location.replace(new URL(`${QUERY_CITY}/${old.search}${old.hash}`, document.baseURI).href);
+  }
+  const CITY_PARAM = PAGE_CITY || QUERY_CITY;
   const IS_HOME = !CITY_PARAM;
   const CITY_KEY = CITY_PARAM || "nyc";
   const BASE = `data/${CITY_KEY}/`;
@@ -566,7 +575,7 @@
     if (!days.length) return;
     const url = new URL(location.href);
     const set = (k, v) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
-    set("city", CITY_KEY);
+    set("city", PAGE_CITY ? "" : CITY_KEY);
     set("day", dayIndex === 0 ? "" : days[dayIndex]);
     set("hood", selected || "");
     set("mode", mode === "top" ? "" : mode);
@@ -635,18 +644,8 @@
     input.addEventListener("blur", () => setTimeout(() => { matches = []; render(); }, 120));
   }
 
-  // Shared links use the short city address (e.g. .../chicago/?hood=...), whose page carries that city's
-  // link-preview card and headline, then forwards to the map.
-  function shareURL() {
-    const url = new URL(`${CITY_KEY}/`, location.href);
-    const params = new URL(location.href).searchParams;
-    params.delete("city");
-    url.search = params.toString();
-    return url.href;
-  }
-
   async function copyLink(btn) {
-    const old = btn.textContent, link = shareURL();
+    const old = btn.textContent, link = location.href;
     try {
       await navigator.clipboard.writeText(link);
       btn.textContent = "✓ Link copied";
@@ -736,13 +735,14 @@
   // City tabs in the header (shared with the front page, where none is active).
   function renderTabs(list, active) {
     $("city-tabs").innerHTML = list.map((c) =>
-      `<a href="?city=${c.key}"${c.key === active ? ' class="on" aria-current="page"' : ""}>${escapeHTML(c.name)}</a>`).join("");
+      `<a href="${c.key}/"${c.key === active ? ' class="on" aria-current="page"' : ""}>${escapeHTML(c.name)}</a>`).join("");
     const on = $("city-tabs").querySelector(".on");
     if (on) on.scrollIntoView({ block: "nearest", inline: "center" });
   }
   window.CityMoodsTabs = renderTabs;
 
   async function start() {
+    if (MOVING) return;
     if (IS_HOME) {
       document.body.classList.add("is-home");
       return window.CityMoodsHome && window.CityMoodsHome.render();

@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-city="chicago">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<base href="../">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <title>What Chicago complained about on Monday · CityMoods</title>
 <meta name="description" content="Missed Garbage Pickups More Than Double, Chicago Wants Its Trucks. Mapped, ranked and roasted.">
 <meta property="og:type" content="website">
@@ -15,13 +16,130 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Map of Chicago neighborhoods colored by their top 311 complaint">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<script>
-  var q = location.search.replace(/^\?/, "");
-  location.replace("../?city=chicago" + (q ? "&" + q : "") + location.hash);
-</script>
+<meta name="theme-color" content="#FAF7F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14161B" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css?v=202611171830">
+<script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
-<p><a href="../?city=chicago">Open CityMoods Chicago</a></p>
+<header class="top">
+  <a class="brand" href="./" aria-label="CityMoods home"><img src="favicon.svg" alt="" width="22" height="22"> CityMoods</a>
+  <nav class="city-tabs" id="city-tabs" aria-label="Cities"></nav>
+  <nav class="day-nav" aria-label="Choose a day">
+    <button id="prev" aria-label="Earlier day">‹</button>
+    <span id="day-label">Loading…</span>
+    <button id="next" aria-label="Later day">›</button>
+  </nav>
+</header>
+
+<section id="home" class="home" hidden>
+  <div class="hero">
+    <p class="kicker" id="home-date">&nbsp;</p>
+    <h1><span class="line">What <span class="rot" id="rot">New York</span></span><span class="line">complained about <span id="hero-day">lately</span>.</span></h1>
+    <p class="sub">Mapped, ranked and roasted.</p>
+    <p class="hero-note">Every night, CityMoods reads the latest full day of 311 requests (the city's non-emergency line) and turns it into a mood map of every neighborhood, plus the strangest things someone actually picked from the menu.</p>
+  </div>
+  <div class="cards-head">
+    <h2 id="cards-title">The latest moods</h2>
+    <p>Written each night from the real requests people sent to each city's 311 line.</p>
+  </div>
+  <div id="city-cards" class="city-cards"></div>
+  <div class="how">
+    <div><span aria-hidden="true">📡</span><h3>Real city data, nightly</h3><p>Each city publishes its 311 requests as open data. We pull the latest complete day every night.</p></div>
+    <div><span aria-hidden="true">🗺️</span><h3>Moods, mapped</h3><p>Thousands of requests become a few moods (no heat, noise, parking wars, critters) mapped by neighborhood, with each place's signature gripe.</p></div>
+    <div><span aria-hidden="true">🔒</span><h3>Nobody pinpointed</h3><p>No addresses, names or notes. Neighborhood totals only, and requests about people are never shown or joked about.</p></div>
+  </div>
+</section>
+
+<main id="city-view">
+  <section class="lede">
+    <p class="kicker" id="kicker"></p>
+    <h1 id="headline">Reading the city's mood…</h1>
+    <p id="blurb"></p>
+    <ul id="extras" class="extras" hidden></ul>
+  </section>
+
+  <section class="board">
+    <div class="map-wrap">
+      <div class="map-mode" role="group" aria-label="Map shows">
+        <button class="chip on" data-mode="top">Top gripe</button>
+        <button class="chip" data-mode="distinct">Most distinctive</button>
+        <span id="mode-note" class="mode-note"></span>
+        <label class="search"><span class="sr">Find a neighborhood</span>
+          <input id="hood-search" type="search" placeholder="🔍 Find a neighborhood" autocomplete="off"
+            role="combobox" aria-controls="hood-results" aria-autocomplete="list">
+          <ul id="hood-results" class="results" role="listbox" hidden></ul>
+        </label>
+      </div>
+      <div class="map-stage">
+        <svg id="map" role="img" aria-label="Map of the city's neighborhoods colored by their most common 311 complaint"></svg>
+        <div id="peek" class="peek" hidden>
+          <button id="peek-open" class="pk-open" type="button"></button>
+          <button id="peek-close" class="pk-close" type="button" aria-label="Close and show the whole city">×</button>
+        </div>
+        <div id="hover" class="hover" hidden></div>
+        <div class="zoom-ctl" role="group" aria-label="Map zoom">
+          <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+          <button id="zoom-out" type="button" aria-label="Zoom out" disabled>−</button>
+          <button id="zoom-reset" type="button" aria-label="Show the whole city" disabled>⤢</button>
+        </div>
+        <div id="zoom-hint" class="zoom-hint" hidden>Hold ⌘ or Ctrl and scroll to zoom</div>
+      </div>
+      <div id="card" class="card" hidden></div>
+    </div>
+
+    <aside class="side">
+      <h2>The day's moods</h2>
+      <p class="hint">Tap a mood to see where it was loudest.</p>
+      <ol id="moods" class="moods"></ol>
+      <div id="boroughs" class="boroughs"></div>
+    </aside>
+  </section>
+
+  <section class="rare" id="rare-wrap" hidden>
+    <h2>Rare finds from the 311 pile</h2>
+    <p class="hint">These are real, official options on the city's 311 menu, and someone actually picked them on this day (online, in the app, or by the 311 operator on a call). They usually get picked less than once a week. Citywide only, so no one is pinpointed.</p>
+    <div id="rare" class="rare-grid"></div>
+  </section>
+
+  <section class="extra three">
+    <div>
+      <h2>The specific gripes</h2>
+      <p class="hint" id="gripes-hint">The option people picked from the city's 311 menu.</p>
+      <ol id="types" class="types"></ol>
+    </div>
+    <div>
+      <h2>Unusually high</h2>
+      <p class="hint">Details at least 1.8× their usual level.</p>
+      <ol id="odd" class="types"></ol>
+    </div>
+    <div>
+      <h2>Who got the call</h2>
+      <p class="hint">The city agency each request was sent to.</p>
+      <ol id="agencies" class="agencies"></ol>
+    </div>
+  </section>
+
+  <section class="extra solo">
+    <div>
+      <h2>How this works</h2>
+      <p>Every day, <span id="city-people">people</span> send thousands of requests to 311, the city's non-emergency line, and the city publishes them as open data. Each night we group the latest full day of requests into a few moods and count them by neighborhood.</p>
+      <p><strong>Privacy:</strong> we never download addresses, names or written notes. Neighborhoods come from the city's own area codes or from a location used once and then thrown away. Only neighborhood totals appear here, and counts under 3 are left out. Requests about people, such as homelessness or someone's job, aren't shown or joked about.</p>
+      <p class="fine">"Typical" means the average for the same weekday over the previous four weeks.</p>
+      <p class="fine" id="fresh"></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Data: <span id="sources"></span>, from the city's open data portal. Weather: Open-Meteo. CityMoods is independent and not affiliated with <span id="not-affiliated">the city</span>.</p>
+  <p><a href="privacy.html">Privacy</a> · <a href="https://github.com/mjbenefiel/CityMoods/issues/new" target="_blank" rel="noopener">Spot a problem? Tell us</a></p>
+</footer>
+
+<script src="home.js?v=202611171830"></script>
+<script src="app.js?v=202611171830"></script>
 </body>
 </html>

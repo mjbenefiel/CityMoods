@@ -13,7 +13,7 @@
     chicago: "chicago", chi: "chicago", la: "la", losangeles: "la", sf: "sf", sanfrancisco: "sf",
     boston: "boston", bos: "boston" };
   var rest = location.pathname.slice(BASE.length).split("/")[0].toLowerCase().replace(/[^a-z]/g, "");
-  if (ALIASES[rest]) location.replace(BASE + "?city=" + ALIASES[rest]);
+  if (ALIASES[rest]) location.replace(BASE + ALIASES[rest] + "/");
 </script>
 <style>
   :root { --bg: #FAF7F2; --panel: #FFFFFF; --ink: #1D1F24; --muted: #646A75; --line: #E6E1D8; --accent: #E2557B; }
@@ -60,7 +60,7 @@
 <script>
   document.getElementById("home").href = BASE;
   var links = document.querySelectorAll("#cities a");
-  for (var i = 0; i < links.length; i++) links[i].href = BASE + "?city=" + links[i].getAttribute("data-city");
+  for (var i = 0; i < links.length; i++) links[i].href = BASE + links[i].getAttribute("data-city") + "/";
   var icon = document.createElement("link");
   icon.rel = "icon"; icon.type = "image/svg+xml"; icon.href = BASE + "favicon.svg";
   document.head.appendChild(icon);

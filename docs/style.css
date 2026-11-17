@@ -329,8 +329,3 @@ a.brand img { display: block; }
 .zoom-ctl button { width: 34px; height: 32px; }
 .zoom-ctl button + button { border-top: 0; border-left: 1px solid var(--line); }
 
-/* a city that's a day behind the others */
-.cc-date.behind { color: #D97706; font-weight: 600; }
-.cc-behind { margin: 10px 0 0; font-size: 12px; color: #D97706; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cc-date.behind,
-  :root:not([data-theme="light"]) .cc-behind { color: #FBBF24; } }

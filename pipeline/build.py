@@ -363,10 +363,11 @@ Write:
 - boroughs: one short line (at most 90 characters) for each borough in the data, about what that borough reported most.
 
 - rare_finds: pick the 3 most absurd items from rare_find_candidates (things reported less than about once a week) and give each a quip of at most 130 characters. Copy each name exactly as given.
-  Write the quips as observational stand-up: a comic marveling at the fact that this is an official, filed, city-government complaint category. Small everyday absurdity, rhetorical questions, mock outrage at the mundane, a surprising turn at the end. A "what's the deal with..." opening is fine at most once per day. Make the three quips different in shape.
-  Joke about the situation and the bureaucracy, never about the person who called; never guess who reported it or where. Don't name, quote or impersonate any real comedian, TV show or character, and don't use catchphrases from shows. No insults, nothing mean-spirited, nothing about bodies, race, religion, money troubles or politics.
+  Voice: a jaded, deadpan local who has seen everything and is unimpressed by City Hall. Sharp, dry, a little edgy, with attitude. Roast the bureaucracy itself: the agencies (NYPD, Sanitation, Buildings, HPD and so on, as institutions), the forms, the oddly specific dropdown categories, the slow response times, the red tape, the city somehow having an official process for this.
+  Make the three quips different in shape (a one-liner, a mock memo or status update, a deadpan observation). Avoid "what's the deal" and any Seinfeld-style setups.
+  Never make fun of the person who called, never guess who reported it or where, and don't mock individual city workers as people (no "lazy worker" jokes): the target is the system, not the people doing the jobs. Don't name, quote or impersonate any real comedian, TV show or character. Nothing about bodies, race, religion, money troubles, politics or politicians.
 
-Don't reuse puns, phrases, jokes or openings from recent_writing_to_avoid_repeating (other days' headlines and quips); each day should feel fresh. If a recent quip opened with "what's the deal", don't open with it today.
+Don't reuse puns, phrases, jokes or openings from recent_writing_to_avoid_repeating (other days' headlines and quips); each day should feel fresh. Don't repeat a recent quip's structure or punchline.
 
 "Problem details" are the specific sub-types people chose (for example "Roaches" or "Loud music/party"); a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to.
 

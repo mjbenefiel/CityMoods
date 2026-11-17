@@ -69,10 +69,34 @@
       <div class="cc-map"><svg aria-hidden="true"></svg></div>
       <div class="cc-body">
         <h2>${esc(c.name)}</h2>
-        <p class="cc-mood">&nbsp;</p>
+        <p class="cc-hook">&nbsp;</p>
         <p class="cc-head">&nbsp;</p>
+        <p class="cc-rare"></p>
         <p class="cc-foot"><span class="cc-date"></span><span class="cc-open">Open map →</span></p>
       </div></a>`;
+  }
+
+  // What made this city's day different: its biggest spike over normal, or else the neighborhood
+  // whose signature gripe stood out most, or else its top request.
+  function dayHook(day, MOODS) {
+    const tint = (m) => (MOODS[m] ? MOODS[m].color : "#999");
+    const spike = (day.detail_spikes || [])[0];
+    if (spike && spike.typical) {
+      const r = spike.n / spike.typical;
+      const how = r >= 10 ? `${fmt(spike.n)} reports, usually ${fmt(spike.typical)}` : `${r.toFixed(1)}× its usual level`;
+      return { text: `${spike.name}: ${how}`,
+               html: `<span aria-hidden="true">📈</span> <b style="--tint:${tint(spike.mood)}">${esc(spike.name)}</b>: ${how}` };
+    }
+    const standout = Object.values(day.neighborhoods || {}).filter((h) => h.distinct)
+      .sort((a, b) => b.distinct.x - a.distinct.x)[0];
+    if (standout && standout.distinct.x >= 2) {
+      const d = standout.distinct;
+      return { text: `${standout.name}: ${d.name} at ${d.x}× the city's rate`,
+               html: `<span aria-hidden="true">📍</span> ${esc(standout.name)}: <b style="--tint:${tint(d.mood)}">${esc(d.name.toLowerCase())}</b> at ${d.x}× the city's rate` };
+    }
+    const top = (day.top_details || day.top_types || [])[0];
+    return top ? { text: `Top request: ${top.name}`, html: `<span aria-hidden="true">🏆</span> Top request: <b style="--tint:${tint(top.mood)}">${esc(top.name)}</b> (${fmt(top.n)})` }
+               : { text: "", html: "" };
   }
 
   async function fillCard(c) {
@@ -81,14 +105,14 @@
       const [index, day, geo] = await Promise.all([
         getJSON(`data/${c.key}/index.json`), getJSON(`data/${c.key}/latest.json`), getJSON(`data/${c.key}/neighborhoods.geojson`)]);
       const MOODS = index.moods;
-      const top = day.moods.find((m) => m.id !== "other" && m.n);
-      const mood = top ? MOODS[top.id] : null;
-      card.querySelector(".cc-mood").innerHTML = mood
-        ? `<span aria-hidden="true">${mood.emoji}</span> ${esc(possessive(c.name))} mood: mostly <b style="--tint:${mood.color}">${esc(mood.label.toLowerCase())}</b>`
-        : "";
+      const hook = dayHook(day, MOODS);
+      card.querySelector(".cc-hook").innerHTML = hook.html;
+      const rare = (day.rare_finds || [])[0];
+      card.querySelector(".cc-rare").innerHTML = rare
+        ? `<span aria-hidden="true">🔎</span> Rare find: <i>${esc(rare.name)}</i>` : "";
       card.querySelector(".cc-head").textContent = day.words && day.words.headline ? day.words.headline : "";
       card.querySelector(".cc-date").textContent = `${niceDate(day.date)} · ${fmt(day.total)} requests`;
-      card.setAttribute("aria-label", `${c.name}: ${mood ? "mostly " + mood.label.toLowerCase() : ""}. ${day.words.headline}`);
+      card.setAttribute("aria-label", `${c.name}: ${hook.text}. ${day.words.headline}`);
       miniMap(card.querySelector("svg"), geo, c.center_lat || 40,
         (id) => { const h = day.neighborhoods[id]; return h && h.top ? MOODS[h.top].color : "var(--empty)"; });
       return day.date;

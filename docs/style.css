@@ -243,7 +243,9 @@ body.is-home #city-view, body.is-home .day-nav { display: none; }
 .hero .rot.out { opacity: 0; transform: translateY(.18em); }
 .hero .sub { font: 600 clamp(20px, 2.6vw, 28px)/1.2 var(--serif); margin: 12px 0 0; color: var(--muted); }
 .hero-note { margin: 16px 0 0; max-width: 640px; color: var(--muted); font-size: 16px; }
-.city-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.city-cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+.city-cards .city-card { flex: 1 1 200px; max-width: 280px; }
+@media (max-width: 520px) { .city-cards .city-card { max-width: none; } }
 .city-card { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); background: var(--panel);
   border: 1px solid var(--line); border-radius: 18px; overflow: hidden; transition: transform .18s, box-shadow .18s, border-color .18s; }
 .city-card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,.14); border-color: var(--muted); }
@@ -252,8 +254,11 @@ body.is-home #city-view, body.is-home .day-nav { display: none; }
 .cc-map path { stroke: var(--water); stroke-width: .6; }
 .cc-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
 .cc-body h2 { font: 700 24px/1.1 var(--serif); margin: 0; }
-.cc-mood { margin: 0; font-size: 14.5px; }
-.cc-mood b { font-weight: 700; box-shadow: inset 0 -.42em 0 color-mix(in srgb, var(--tint) 35%, transparent); }
+.cc-hook { margin: 0; font-size: 14.5px; line-height: 1.4; }
+.cc-hook b { font-weight: 700; box-shadow: inset 0 -.42em 0 color-mix(in srgb, var(--tint) 35%, transparent); }
+.cc-rare { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
+.cc-rare:empty { display: none; }
+.cc-rare i { color: var(--ink); font-style: italic; }
 .cc-head { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.4; flex: 1; }
 .cc-foot { margin: 6px 0 0; display: flex; justify-content: space-between; gap: 8px; font-size: 12.5px; color: var(--muted); }
 .cc-open { color: var(--ink); font-weight: 600; white-space: nowrap; }

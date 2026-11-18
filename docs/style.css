@@ -363,3 +363,13 @@ a.brand img { display: block; }
   .card { position: relative; }
   .card .close { top: 10px; right: 10px; width: 36px; height: 36px; font-size: 22px; border-radius: 50%; }
 }
+
+/* "Don't see your city?" ask, under the city cards on the home page */
+.ask-city { display: flex; align-items: center; gap: 14px; max-width: 620px; margin: 22px auto 0; padding: 14px 18px;
+  background: var(--panel); border: 1px dashed var(--line); border-radius: 14px; color: var(--ink); text-decoration: none;
+  transition: border-color .15s; }
+.ask-city:hover, .ask-city:focus-visible { border-color: var(--accent); border-style: solid; }
+.ask-emoji { font-size: 24px; }
+.ask-text { flex: 1; font-size: 15px; line-height: 1.4; }
+.ask-text small { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
+.ask-go { color: var(--accent); font-size: 20px; font-weight: 600; }

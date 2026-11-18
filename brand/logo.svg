@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>CityMoods</title>
+  <!-- A speech bubble (a complaint) filled with a tiny four-neighborhood mood map. -->
+  <defs>
+    <clipPath id="b">
+      <path d="M14 4h36a10 10 0 0 1 10 10v24a10 10 0 0 1-10 10H26L12 60V48A10 10 0 0 1 4 38V14A10 10 0 0 1 14 4z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#b)" stroke="#14161B" stroke-width="2.4" stroke-linejoin="round">
+    <polygon points="0,0 37,0 31,21 0,27" fill="#4C8DF6"/>
+    <polygon points="37,0 64,0 64,31 41,25 31,21" fill="#E2557B"/>
+    <polygon points="0,27 31,21 25,64 0,64" fill="#4FB286"/>
+    <polygon points="31,21 41,25 64,31 64,64 25,64" fill="#F2A33A"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;box-sizing:border-box}html,body{width:1500px;height:500px;overflow:hidden}
+body{background:linear-gradient(#0B0D12 0%,#141826 55%,#1E2233 100%);font-family:-apple-system,system-ui,sans-serif;position:relative}
+canvas{position:absolute;left:0;top:0;width:1500px;height:500px}
+.txt{position:absolute;right:90px;top:70px;text-align:right;color:#ECEDEF}
+.txt h1{font:700 64px/1 "Iowan Old Style",Palatino,Georgia,serif;letter-spacing:-.5px}
+.txt h1 em{font-style:normal;color:#F06A8F}
+.txt p{font:500 24px/1.35 -apple-system,system-ui,sans-serif;color:#9AA0AB;margin-top:14px}
+</style></head><body>
+<canvas id="c" width="3000" height="1000"></canvas>
+<div class="txt"><h1>City<em>Moods</em></h1><p>What your city complained to 311 about yesterday.<br>Mapped, ranked and roasted. Every night.</p></div>
+<script>
+const c=document.getElementById('c'),x=c.getContext('2d');x.scale(2,2);
+let s=7;const r=()=>(s=(s*16807)%2147483647)/2147483647;
+const MOODS=['#4C8DF6','#E2557B','#F2A33A','#8E6CDB','#4FB286','#2BB3C0'];
+// stars
+for(let i=0;i<170;i++){const sx=r()*1500,sy=r()*300;x.globalAlpha=.25+r()*.6;x.fillStyle='#fff';x.beginPath();x.arc(sx,sy,r()<.9?.8:1.4,0,7);x.fill()}
+x.globalAlpha=1;
+// moon
+const g=x.createRadialGradient(560,95,0,560,95,90);g.addColorStop(0,'rgba(236,237,239,.18)');g.addColorStop(1,'rgba(236,237,239,0)');
+x.fillStyle=g;x.fillRect(460,0,200,200);const m=document.createElement('canvas');m.width=m.height=120;const mx=m.getContext('2d');mx.scale(2,2);mx.fillStyle='#E9E4D4';mx.beginPath();mx.arc(30,30,26,0,7);mx.fill();mx.globalCompositeOperation='destination-out';mx.beginPath();mx.arc(41,23,23,0,7);mx.fill();x.drawImage(m,530,65,60,60);
+// horizon glow
+const h=x.createLinearGradient(0,330,0,500);h.addColorStop(0,'rgba(226,85,123,0)');h.addColorStop(1,'rgba(226,85,123,.10)');x.fillStyle=h;x.fillRect(0,330,1500,170);
+function layer(base,minH,maxH,col,winA,seedStep){
+  let px=-10;
+  while(px<1510){
+    const w=40+r()*70,ht=minH+r()*(maxH-minH),top=500-ht;
+    x.fillStyle=col;x.fillRect(px,top,w,ht);
+    const kind=r();
+    if(kind<.12){x.fillRect(px+w/2-1.5,top-40,3,40);} // antenna
+    else if(kind<.22){x.beginPath();x.moveTo(px,top);x.lineTo(px+w/2,top-30);x.lineTo(px+w,top);x.fill();} // peak
+    else if(kind<.30){x.fillRect(px+w*.2,top-18,w*.6,18);x.fillRect(px+w*.35,top-34,w*.3,16);} // setbacks
+    else if(kind<.36){const tx=px+w*.6;x.fillRect(tx,top-22,16,16);x.beginPath();x.moveTo(tx-2,top-22);x.lineTo(tx+8,top-31);x.lineTo(tx+18,top-22);x.fill();x.fillRect(tx+2,top-6,2,6);x.fillRect(tx+12,top-6,2,6);} // water tower
+    if(winA>0){
+      for(let wy=top+10;wy<492;wy+=12)for(let wx=px+7;wx<px+w-8;wx+=10){
+        const v=r();if(v<.30){x.globalAlpha=winA*(.5+r()*.5);x.fillStyle=v<.11?MOODS[Math.floor(r()*MOODS.length)]:'#F5D58A';x.fillRect(wx,wy,4,6)}
+      }
+      x.globalAlpha=1;
+    }
+    px+=w+(r()*6);
+  }
+}
+layer(500,90,190,'#1D2232',0,1);
+layer(500,60,230,'#11141C',.85,2);
+// keep the low-left corner calmer where X places the avatar
+</script></body></html>

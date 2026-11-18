@@ -15,7 +15,7 @@ DATA = ROOT / "docs" / "data"
 CACHE = ROOT / "pipeline" / "cache"
 UA = {"User-Agent": "CityMoods/1.0"}
 # The public address of the site. Link previews need full URLs; change this when the custom domain is live.
-SITE = "https://mjbenefiel.github.io/CityMoods/"
+SITE = "https://citymoods311.com/"
 
 
 def log(*a):

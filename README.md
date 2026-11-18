@@ -41,7 +41,7 @@ pipeline/
 - Complaint types about people (homelessness, panhandling, police matters…) are listed in `SENSITIVE` in `moods.py`. They count toward "everything else" and are never named or put in the headline.
 - `assert_no_pii` in `build.py` stops the build if anything address- or coordinate-like reaches the output.
 - The site sets no cookies. Its only third-party request is GoatCounter's cookie-free page counter (citymoods.goatcounter.com), which counts page views and neighborhood opens. If that changes, update `privacy.html` too.
-- Link previews: `docs/share/*.png` are made by `python3 pipeline/share_cards.py` (rerun if a city is added or the look changes). Each city's page `docs/<city>/index.html` is a copy of `docs/index.html` with that city's preview tags and latest headline; the nightly build rewrites it, and after editing `docs/index.html` by hand run `python3 pipeline/city_pages.py` to refresh them all. The site's address lives in `SITE` in `pipeline/common.py` and in the preview tags in `docs/index.html`; update both when the custom domain goes live.
+- Link previews: `docs/share/*.png` are made by `python3 pipeline/share_cards.py` (rerun if a city is added or the look changes). Each city's page `docs/<city>/index.html` is a copy of `docs/index.html` with that city's preview tags and latest headline; the nightly build rewrites it, and after editing `docs/index.html` by hand run `python3 pipeline/city_pages.py` to refresh them all. The site lives at https://citymoods311.com (custom domain set by `docs/CNAME`; DNS at Cloudflare, records DNS-only). That address also appears in `SITE` in `pipeline/common.py` and in the preview tags in `docs/index.html`; change all three together if the domain ever moves.
 
 ## When it runs
 

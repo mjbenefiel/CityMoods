@@ -31,7 +31,7 @@ from moods import MOODS  # noqa: E402
 from cities import CITIES, City  # noqa: E402
 
 MIN_CELL = 3          # neighborhood-level counts below this are not published
-KEEP_DAYS = 45
+KEEP_DAYS = None      # every built day stays on the site (about 230 KB a day for all five cities)
 MAX_CATCH_UP = 7      # never build more than this many missed days in one run
 MODEL = os.environ.get("CITYMOODS_MODEL", "claude-opus-5-5")
 
@@ -426,9 +426,9 @@ def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
 
 def refresh_indexes():
     days_dir = C.data_dir / "days"
-    files = sorted(days_dir.glob("*.json"))
-    for old in files[:-KEEP_DAYS]:
-        old.unlink()
+    if KEEP_DAYS:
+        for old in sorted(days_dir.glob("*.json"))[:-KEEP_DAYS]:
+            old.unlink()
     dates = sorted((p.stem for p in days_dir.glob("*.json")), reverse=True)
     if not dates:
         return

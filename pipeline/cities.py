@@ -19,7 +19,7 @@ import moods as nyc_moods
 import moods_chicago as chi_moods
 import moods_simple as simple
 from moods_simple import PRIVATE, pretty
-from common import CACHE, DATA, day_bounds, get, log, range_bounds, write_map
+from common import CACHE, DATA, day_bounds, get, log, write_map
 
 
 class City:
@@ -60,55 +60,6 @@ class City:
 
     def whimsy(self, t, label):
         return self.mod.whimsy(t, label)
-
-    # "Today in 311" candidates: (emoji, sentence with {n} and {s} for plurals, regex matched against
-    # "type | detail" in lower case, minimum count). Each night extras() shows at most the two that are
-    # furthest above their usual level, so the lines change with the city's day.
-    facts: list[tuple] = []
-    FACT_MIN_JUMP = 1.5     # (count + 1) / (usual + 1) must reach this to be shown...
-    FACT_QUIET_JUMP = 1.25  # ...or, on a day when nothing reaches it, this for a single line
-
-    def fact_counts(self, start: dt.date, end: dt.date) -> Counter:
-        """Citywide counts from start up to (not including) end, keyed by "type | detail" in lower case.
-        Cities override this with a single range query, or to include types the map leaves out."""
-        out, day = Counter(), start
-        while day < end:
-            _, details = self.detail_counts(day)
-            out.update({f"{t} | {d}".lower(): n for (t, d), n in details.items()})
-            day += dt.timedelta(days=1)
-        return out
-
-    def extras(self, day):
-        if not self.facts:
-            return {}
-        one = dt.timedelta(days=1)
-        try:
-            today = self.fact_counts(day, day + one)
-            # "Usual" is the higher of: the same weekday over the previous four weeks, and the daily
-            # average over the previous seven days. The second keeps a level that has been high for a
-            # week or more (a new category, a long cold snap) from looking unusual every single day.
-            weekdays = [self.fact_counts(day - dt.timedelta(weeks=w), day - dt.timedelta(weeks=w) + one) for w in range(1, 5)]
-            last_week = self.fact_counts(day - dt.timedelta(days=7), day)
-        except Exception as e:
-            log(f"{self.name} extra stats unavailable: {e}")
-            return {}
-        picks = []
-        for emoji, text, pattern, min_n in self.facts:
-            rx = re.compile(pattern)
-            total = lambda c: sum(n for k, n in c.items() if rx.search(k))
-            n = total(today)
-            usual = max(sum(total(c) for c in weekdays) / 4, total(last_week) / 7)
-            jump = (n + 1) / (usual + 1)
-            if n >= min_n and jump >= self.FACT_QUIET_JUMP:
-                picks.append((jump, emoji, text, n, usual))
-        picks.sort(key=lambda p: -p[0])
-        shown = [p for p in picks if p[0] >= self.FACT_MIN_JUMP][:2] or picks[:1]
-        lines = []
-        for _, emoji, text, n, usual in shown:
-            sentence = text.format(n=f"{n:,}", s="" if n == 1 else "s")
-            u = round(usual)
-            lines.append({"emoji": emoji, "text": f"{sentence} (usual: {u:,})." if u else f"{sentence} (usually none)."})
-        return {"lines": lines}
 
     def newest_request(self) -> str:
         return get(self.api_311, params={"$select": f"max({self.date_field}) as m"}).json()[0]["m"][:16]
@@ -221,46 +172,6 @@ class NYC(City):
                 out[(t, nyc_moods.detail_of(t, x.get("descriptor"), x.get("descriptor_2")) or self.nice(t))] += int(x["n"])
         return out
 
-    facts = [
-        ("🚓", "{n} times NYPD answered a noise complaint and found nothing going on", r"^nypd noise \| nothing$", 5),
-        ("🚪", "{n} times officers couldn't get inside on a noise call", r"^nypd noise \| no entry$", 5),
-        ("🐀", "{n} rat sighting{s} reported", r"^rodent \| rat sighting", 5),
-        ("🚒", "{n} report{s} of a car blocking a fire hydrant", r"^illegal parking \| blocked hydrant", 5),
-        ("🚲", "{n} report{s} of a car blocking a bike lane", r"^illegal parking \| blocked bike lane", 5),
-        ("🪧", "{n} report{s} of paper license plates", r"^illegal parking \| paper license plates", 5),
-        ("🚁", "{n} helicopter noise complaint{s}", r"^noise - helicopter", 5),
-        ("🐕", "{n} barking dog complaint{s}", r"^noise \| dog", 5),
-        ("🎆", "{n} illegal fireworks report{s}", r"^illegal fireworks", 3),
-        ("🚰", "{n} report{s} of an open fire hydrant", r"^water maintenance \| fire hydrant running", 5),
-        ("💧", "{n} water main break{s} reported", r"^water maintenance \| water main break", 3),
-        ("🕳️", "{n} cave-in report{s} on city streets", r"^street condition \| cave-in", 5),
-        ("🛗", "{n} broken elevator complaint{s}", r"^elevator \|", 5),
-        ("🏚️", "{n} report{s} of a building shaking or vibrating", r"building shaking", 3),
-    ]
-
-    def fact_counts(self, start, end):
-        """Citywide counts by complaint type and descriptor, plus how NYPD noise calls ended
-        (from the police's standard closing notes: counted, never quoted or stored)."""
-        where = range_bounds(start, end)
-        rows = get(self.api_311, params={"$select": "complaint_type,descriptor,count(*) as n", "$where": where,
-                                         "$group": "complaint_type,descriptor", "$limit": 50000}).json()
-        out = Counter()
-        for x in rows:
-            t = x.get("complaint_type")
-            if t and self.is_public(t):
-                out[f"{t} | {x.get('descriptor') or ''}".lower()] += int(x["n"])
-        rows = get(self.api_311, params={
-            "$select": "resolution_description,count(*) as n",
-            "$where": where + " AND starts_with(complaint_type,'Noise') AND agency='NYPD'",
-            "$group": "resolution_description", "$limit": 200}).json()
-        for r in rows:
-            text, n = (r.get("resolution_description") or "").lower(), int(r["n"])
-            if "observed no evidence" in text or "observed no criminal violation upon their arrival" in text:
-                out["nypd noise | nothing"] += n
-            elif "unable to gain entry" in text:
-                out["nypd noise | no entry"] += n
-        return out
-
 
 # ======================================================================= Chicago
 
@@ -352,28 +263,6 @@ class Chicago(City):
         start = day - dt.timedelta(days=28)
         types = self._type_counts(f"created_date >= '{start}T00:00:00' AND created_date < '{day}T00:00:00'")
         return Counter({(t, self.nice(t)): n for t, n in types.items()})
-
-    facts = [
-        ("✈️", "O'Hare received {n} noise complaint{s}, all filed at the airport, so they stay off the map",
-         r"^aircraft noise complaint$", 5),
-        ("☎️", "{n} people called 311 just to ask a question", r"^311 information only call$", 5),
-        ("🌳", "{n} people requested a tree trim, a request type the city says it no longer accepts",
-         r"^tree trim request \(no longer", 5),
-        ("🛴", "{n} bike{s} or scooter{s} reported sleeping with the fishes in the lake or river", r"^submerged divvy", 1),
-        ("🐺", "{n} coyote encounter{s} reported", r"^coyote interaction", 3),
-        ("🐀", "{n} rat complaint{s}", r"^rodent baiting", 5),
-        ("🚦", "{n} traffic signal{s} reported out", r"^traffic signal out", 5),
-        ("💧", "{n} report{s} of water in a basement", r"^water in basement", 3),
-        ("🔦", "{n} report{s} of a street light left on during the day", r"^street light on during day", 3),
-        ("🚕", "{n} complaint{s} about cabs", r"^cab feedback", 5),
-        ("🐝", "{n} bee or wasp removal request{s}", r"^bee/wasp removal", 2),
-    ]
-
-    def fact_counts(self, start, end):
-        """Citywide counts by request type, including the ones the map leaves out (O'Hare, information calls)."""
-        r = get(self.api_311, params={"$select": "sr_type,count(*) as n", "$where": range_bounds(start, end) + " AND duplicate = false",
-                                      "$group": "sr_type", "$limit": 1000}).json()
-        return Counter({x["sr_type"].lower(): int(x["n"]) for x in r if x.get("sr_type")})
 
 
 # ======================================================================= shared helpers
@@ -517,30 +406,6 @@ class LosAngeles(City):
         types = self._type_counts(day - dt.timedelta(days=28), day)
         return Counter({(t, self.nice(t)): n for t, n in types.items()})
 
-    facts = [
-        ("☎️", "{n} people contacted 311 just to ask a question", r"^information-only$", 5),
-        ("🛋️", "{n} Angelenos booked a free bulky-item pickup, an appointment rather than a gripe, so it stays off the map",
-         r"^item pickups$", 5),
-        ("🛴", "{n} badly parked scooter{s} or bike{s} reported", r"^dockless mobility enforcement$", 5),
-        ("⛰️", "{n} mudslide report{s}", r"^land/mud slide$", 1),
-        ("🌊", "{n} flooding report{s}", r"^flooding$", 3),
-        ("🌳", "{n} tree emergency report{s}", r"^tree emergency$", 5),
-        ("🐕", "{n} barking dog complaint{s}", r"^nuisance barking dogs$", 3),
-        ("🐝", "{n} bee or beehive report{s}", r"^bees or beehive$", 2),
-        ("🍃", "{n} complaint{s} about leaf blowers, street auto repair or construction", r"leaf blower", 5),
-        ("🚿", "{n} water-wasting report{s}", r"^report water wasting$", 3),
-        ("🚕", "{n} taxi complaint{s}", r"^taxi complaints$", 2),
-    ]
-
-    def fact_counts(self, start, end):
-        """Citywide counts by request type, including the ones the map leaves out (information calls, pickups)."""
-        out = Counter()
-        for year in range(start.year, (end - dt.timedelta(days=1)).year + 1):   # LA keeps one dataset per year
-            r = get(self.api(year), params={"$select": "type,count(*) as n", "$where": range_bounds(start, end, self.date_field),
-                                            "$group": "type", "$limit": 1000}).json()
-            out.update({x["type"].lower(): int(x["n"]) for x in r if x.get("type")})
-        return out
-
 
 # ======================================================================= San Francisco
 
@@ -627,24 +492,6 @@ class SanFrancisco(City):
     def month_detail_counts(self, day):
         start = day - dt.timedelta(days=28)
         return self._grouped(f"requested_datetime >= '{start}T00:00:00' AND requested_datetime < '{day}T00:00:00'")[1]
-
-    facts = [
-        ("🛴", "{n} report{s} of scooters blocking a sidewalk or street", r"scooter", 5),
-        ("🛏️", "{n} report{s} of a mattress left on the sidewalk", r"\| mattress$", 5),
-        ("🧊", "{n} report{s} of a fridge or appliance left on the sidewalk", r"\| fridge or appliance$", 5),
-        ("🛒", "{n} abandoned shopping cart{s} reported", r"\| shopping cart$", 5),
-        ("🚗", "{n} abandoned car{s} reported", r"\| abandoned car$", 5),
-        ("🚐", "{n} report{s} of an oversized vehicle parked on the street", r"\| oversized vehicle$", 5),
-        ("🎨", "{n} report{s} of offensive graffiti", r"offensive graffiti", 5),
-        ("🤖", "{n} complaint{s} about driverless cars", r"^autonomous vehicle", 3),
-        ("🚌", "{n} complaint{s} about Muni service", r"^muni service feedback", 5),
-        ("🌳", "{n} fallen tree{s} reported", r"fallen tree", 3),
-        ("💡", "{n} burnt-out streetlight{s} reported", r"^streetlights \| light burnt out", 5),
-    ]
-
-    def fact_counts(self, start, end):
-        _, details = self._grouped(range_bounds(start, end, self.date_field))
-        return Counter({f"{t} | {d}".lower(): n for (t, d), n in details.items()})
 
 
 # ======================================================================= Boston
@@ -740,22 +587,6 @@ class Boston(City):
     def month_detail_counts(self, day):
         types = self._type_counts(day - dt.timedelta(days=28), day)
         return Counter({(t, self.nice(t)): n for t, n in types.items()})
-
-    facts = [
-        ("🗑️", "{n} report{s} of trash put out too early", r"^trash placed out early", 5),
-        ("🚗", "{n} illegal parking report{s}", r"^illegal parking", 5),
-        ("🚚", "{n} missed trash pickup{s} reported", r"^missed waste pick-up", 5),
-        ("🐀", "{n} rat sighting{s} reported", r"^rat activity", 3),
-        ("🦝", "{n} wild animal report{s}", r"^wild animal issue", 3),
-        ("🌳", "{n} report{s} of fallen trees or branches", r"^fallen tree or branches", 3),
-        ("💡", "{n} knocked-down street light{s} reported", r"^street light knockdown", 2),
-        ("🛑", "{n} report{s} of a missing or knocked-down sign", r"^missing / knocked down sign", 5),
-        ("🕳️", "{n} pothole report{s}", r"^pothole", 5),
-        ("🔥", "{n} not-enough-heat complaint{s}", r"^insufficient heat", 3),
-    ]
-
-    def fact_counts(self, start, end):
-        return Counter({f"{t} | {self.nice(t)}".lower(): n for t, n in self._type_counts(start, end).items()})
 
 
 CITIES = {"nyc": NYC(), "chicago": Chicago(), "la": LosAngeles(), "sf": SanFrancisco(), "boston": Boston()}

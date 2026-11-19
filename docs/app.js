@@ -673,7 +673,6 @@
       + (w ? ` · ${w.high_f}°F high, ${w.low_f}°F low` : "");
     $("headline").textContent = entry.words.headline;
     $("blurb").textContent = entry.words.blurb;
-    renderExtras();
     document.title = `${entry.words.headline} · CityMoods ${CITY.name}`;
     renderMoods();
     renderTypes();
@@ -710,13 +709,6 @@
     return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   }
 
-  // "Today in 311": extra citywide facts (NYPD noise outcomes, O'Hare's complaints...)
-  function renderExtras() {
-    const list = entry.extras || [];
-    $("extras").hidden = !list.length;
-    $("extras").innerHTML = list.map((x) =>
-      `<li><span aria-hidden="true">${escapeHTML(x.emoji)}</span> ${escapeHTML(x.text)}</li>`).join("");
-  }
 
   async function setupCities() {
     // Header switcher and city-specific wording. Only cities that have data are listed.

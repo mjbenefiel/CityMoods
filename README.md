@@ -11,7 +11,7 @@ docs/                 The website (static, no build step). GitHub Pages serves t
   data/<city>/        latest.json, index.json, days/<date>.json, neighborhoods.geojson
 pipeline/
   build.py            Shared: aggregate, distinctive gripes, rare finds, Claude headline, privacy check
-  cities.py           Per-city settings: dataset, fields fetched, boundaries, extras ("Today in 311")
+  cities.py           Per-city settings: dataset, fields fetched, boundaries
   common.py           Paths, logging, HTTP with retries, map simplification
   moods.py            NYC moods, detail labels, sensitive types; shared mood colors and rare-find filters
   moods_chicago.py    Chicago moods, names, sensitive types

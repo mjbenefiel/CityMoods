@@ -39,12 +39,7 @@ def get(url, **kw):
 
 
 def day_bounds(day: dt.date, field: str = "created_date") -> str:
-    return range_bounds(day, day + dt.timedelta(days=1), field)
-
-
-def range_bounds(start: dt.date, end: dt.date, field: str = "created_date") -> str:
-    """From the start of `start` up to (not including) the start of `end`."""
-    return f"{field} >= '{start}T00:00:00' AND {field} < '{end}T00:00:00'"
+    return f"{field} >= '{day}T00:00:00' AND {field} < '{day + dt.timedelta(days=1)}T00:00:00'"
 
 
 def write_map(hoods, out: Path, tolerance: float = 0.00025):

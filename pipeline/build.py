@@ -201,7 +201,7 @@ Here is the day's data (all numbers are counts of 311 requests; "typical" is the
 {data}
 
 Write:
-- headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike, the mood that dominated, or a fact from today_in_311).
+- headline: at most 70 characters. Curious, warm, a little funny, like a friendly local columnist. Lead with the most interesting thing in the data (a big spike or the mood that dominated).
 - blurb: two short sentences that add one or two specific numbers from the data.
 - card_line: at most 45 characters. A witty one-liner capturing the city's mood that day, for its card on the front page, in the same columnist voice, saying something different from the headline. The card already shows the label "The mood", the city name and the date, so don't use the word "mood", the weekday or the city's name. No numbers needed.
 {regions_line}
@@ -213,7 +213,7 @@ Write:
 
 Don't reuse puns, phrases, jokes or openings from recent_writing_to_avoid_repeating (other days' headlines and quips); each day should feel fresh. Don't repeat a recent quip's structure or punchline.
 
-"Problem details" are the specific sub-types people chose; a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to. "today_in_311" are extra citywide facts you may use.
+"Problem details" are the specific sub-types people chose; a vivid detail often makes a better headline than a broad mood. "Responding agencies" are the city departments the requests were sent to.
 
 Rules:
 - Use only the numbers and facts given. Do not invent events, causes, places or people. You may connect heat complaints to the temperatures given, and wet-weather complaints to the rain given, but nothing else.
@@ -237,7 +237,7 @@ def recent_writing(day: dt.date, n: int = 7) -> dict:
     return {"headlines": heads, "quips": quips}
 
 
-def headline_with_claude(summary, day, wx, extras):
+def headline_with_claude(summary, day, wx):
     import anthropic
 
     compact = {
@@ -250,7 +250,6 @@ def headline_with_claude(summary, day, wx, extras):
         "top_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["top_details"][:10]],
         "unusual_problem_details": [{k: x[k] for k in ("name", "n", "typical")} for x in summary["detail_spikes"]],
         "responding_agencies": summary["agencies"][:5],
-        "today_in_311": [x["text"] for x in extras.get("lines", [])],
         "recent_writing_to_avoid_repeating": recent_writing(day),
         "rare_find_candidates": [{k: x[k] for k in ("name", "n", "past_28_days")} for x in summary["rare_candidates"]],
         "regions": {b: [{"mood": MOODS[m["id"]]["label"], "count": m["n"]} for m in v]
@@ -391,9 +390,8 @@ def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
     base_types, base_details = baseline(day)
     summary = aggregate(assigned, hoods, base_types, base_details, C.month_detail_counts(day))
     wx = weather(day)
-    extras = C.extras(day)
 
-    words = headline_with_claude(summary, day, wx, extras) if use_claude else None
+    words = headline_with_claude(summary, day, wx) if use_claude else None
     if words:
         # Claude never sees addresses, but if its writing ever trips the privacy check
         # (even as a false alarm), use the plain headline for this day instead of failing the build.
@@ -413,7 +411,7 @@ def build_day(day: dt.date, hoods, newest: str, use_claude: bool):
 
     entry = {"city": C.key, "date": day.isoformat(), "weekday": day.strftime("%A"), "weather": wx,
              "built": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%MZ"),
-             "source_newest": newest, "words": words, "extras": extras.get("lines", []), **summary}
+             "source_newest": newest, "words": words, **summary}
     assert_no_pii(entry)
 
     days_dir = C.data_dir / "days"

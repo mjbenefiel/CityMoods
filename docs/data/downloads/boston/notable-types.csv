@@ -155,3 +155,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-18,Wednesday,Abandoned vehicles,parking,14,10,1.33,top
 2026-11-18,Wednesday,Overflowing trash,trash,13,16,0.84,top
 2026-11-18,Wednesday,Utility contractor complaints,streets,12,10,1.17,top
+2026-11-19,Thursday,Illegal parking,parking,225,253,0.89,top
+2026-11-19,Thursday,Litter and debris,trash,74,74,1.0,top
+2026-11-19,Thursday,Missed trash pickup,trash,50,43,1.16,top
+2026-11-19,Thursday,Street light outage,streets,27,18,1.48,top
+2026-11-19,Thursday,Dead animal,critters,27,28,0.98,top
+2026-11-19,Thursday,Rats,critters,23,15,1.56,top
+2026-11-19,Thursday,Utility contractor complaints,streets,22,13,1.69,top
+2026-11-19,Thursday,Illegal dumping or disposal,trash,21,18,1.18,top
+2026-11-19,Thursday,Improper trash storage,trash,21,20,1.06,top
+2026-11-19,Thursday,Sidewalk repair,streets,21,26,0.82,top
+2026-11-19,Thursday,Abandoned vehicles,parking,20,12,1.6,top
+2026-11-19,Thursday,Trash put out too early,trash,18,22,0.84,top
+2026-11-19,Thursday,Domestic animal,critters,17,15,1.15,top
+2026-11-19,Thursday,Missing or knocked-down sign,streets,13,12,1.13,top
+2026-11-19,Thursday,Illegally blocked sidewalk,streets,13,11,1.18,top

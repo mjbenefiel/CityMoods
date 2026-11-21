@@ -120,3 +120,14 @@ date,weekday,mood,mood_label,requests,usual,high_f,low_f,rain_in
 2026-11-19,Thursday,other,Everything else,67,50,66,43,0
 2026-11-19,Thursday,heat,No heat,0,0,66,43,0
 2026-11-19,Thursday,noise,Noise,0,0,66,43,0
+2026-11-20,Friday,all,All requests,2306,2416,66,42,0
+2026-11-20,Friday,trash,Trash talk,861,744,66,42,0
+2026-11-20,Friday,streets,Street fixes,300,419,66,42,0
+2026-11-20,Friday,critters,Critters,284,295,66,42,0
+2026-11-20,Friday,trees,Trees,280,325,66,42,0
+2026-11-20,Friday,parking,Parking wars,259,257,66,42,0
+2026-11-20,Friday,water,Water & sewers,138,207,66,42,0
+2026-11-20,Friday,housing,Home repairs,122,113,66,42,0
+2026-11-20,Friday,other,Everything else,62,56,66,42,0
+2026-11-20,Friday,heat,No heat,0,0,66,42,0
+2026-11-20,Friday,noise,Noise,0,0,66,42,0

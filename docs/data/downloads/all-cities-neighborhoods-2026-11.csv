@@ -10395,6 +10395,974 @@ nyc,New York,2026-11-18,QN0203,Woodside,Queens,43,housing,7
 nyc,New York,2026-11-18,QN0203,Woodside,Queens,43,noise,6
 nyc,New York,2026-11-18,QN0203,Woodside,Queens,43,other,5
 nyc,New York,2026-11-18,QN0203,Woodside,Queens,43,heat,3
+nyc,New York,2026-11-19,BX1104,Allerton,Bronx,81,housing,36
+nyc,New York,2026-11-19,BX1104,Allerton,Bronx,81,heat,16
+nyc,New York,2026-11-19,BX1104,Allerton,Bronx,81,parking,12
+nyc,New York,2026-11-19,BX1104,Allerton,Bronx,81,noise,9
+nyc,New York,2026-11-19,BX1104,Allerton,Bronx,81,trash,7
+nyc,New York,2026-11-19,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,20,streets,7
+nyc,New York,2026-11-19,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,20,parking,4
+nyc,New York,2026-11-19,SI0303,Arden Heights-Rossville,Staten Island,11,housing,3
+nyc,New York,2026-11-19,SI0303,Arden Heights-Rossville,Staten Island,11,streets,3
+nyc,New York,2026-11-19,SI0303,Arden Heights-Rossville,Staten Island,11,noise,3
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,parking,50
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,housing,20
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,heat,13
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,noise,10
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,trash,7
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,other,5
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,streets,5
+nyc,New York,2026-11-19,QN0103,Astoria (Central),Queens,115,trees,3
+nyc,New York,2026-11-19,QN0104,Astoria (East)-Woodside (North),Queens,64,parking,28
+nyc,New York,2026-11-19,QN0104,Astoria (East)-Woodside (North),Queens,64,trash,11
+nyc,New York,2026-11-19,QN0104,Astoria (East)-Woodside (North),Queens,64,noise,9
+nyc,New York,2026-11-19,QN0104,Astoria (East)-Woodside (North),Queens,64,other,7
+nyc,New York,2026-11-19,QN0104,Astoria (East)-Woodside (North),Queens,64,housing,3
+nyc,New York,2026-11-19,QN0101,Astoria (North)-Ditmars-Steinway,Queens,71,parking,35
+nyc,New York,2026-11-19,QN0101,Astoria (North)-Ditmars-Steinway,Queens,71,other,10
+nyc,New York,2026-11-19,QN0101,Astoria (North)-Ditmars-Steinway,Queens,71,noise,7
+nyc,New York,2026-11-19,QN0101,Astoria (North)-Ditmars-Steinway,Queens,71,housing,5
+nyc,New York,2026-11-19,QN0101,Astoria (North)-Ditmars-Steinway,Queens,71,trash,5
+nyc,New York,2026-11-19,QN0101,Astoria (North)-Ditmars-Steinway,Queens,71,streets,3
+nyc,New York,2026-11-19,QN1101,Auburndale,Queens,34,noise,6
+nyc,New York,2026-11-19,QN1101,Auburndale,Queens,34,parking,6
+nyc,New York,2026-11-19,QN1101,Auburndale,Queens,34,water,6
+nyc,New York,2026-11-19,QN1101,Auburndale,Queens,34,critters,5
+nyc,New York,2026-11-19,QN1101,Auburndale,Queens,34,streets,4
+nyc,New York,2026-11-19,QN1101,Auburndale,Queens,34,heat,3
+nyc,New York,2026-11-19,QN1203,Baisley Park,Queens,46,parking,14
+nyc,New York,2026-11-19,QN1203,Baisley Park,Queens,46,housing,6
+nyc,New York,2026-11-19,QN1203,Baisley Park,Queens,46,trash,6
+nyc,New York,2026-11-19,QN1203,Baisley Park,Queens,46,noise,6
+nyc,New York,2026-11-19,QN1203,Baisley Park,Queens,46,other,5
+nyc,New York,2026-11-19,QN1203,Baisley Park,Queens,46,streets,3
+nyc,New York,2026-11-19,BK1102,Bath Beach,Brooklyn,35,parking,20
+nyc,New York,2026-11-19,BK1102,Bath Beach,Brooklyn,35,housing,6
+nyc,New York,2026-11-19,BK1102,Bath Beach,Brooklyn,35,streets,3
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,parking,82
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,heat,32
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,housing,15
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,streets,11
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,trash,7
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,water,6
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,noise,5
+nyc,New York,2026-11-19,BK1001,Bay Ridge,Brooklyn,166,other,4
+nyc,New York,2026-11-19,QN0703,Bay Terrace-Clearview,Queens,9,streets,3
+nyc,New York,2026-11-19,QN1102,Bayside,Queens,31,parking,15
+nyc,New York,2026-11-19,QN1102,Bayside,Queens,31,streets,5
+nyc,New York,2026-11-19,QN1102,Bayside,Queens,31,water,4
+nyc,New York,2026-11-19,QN1102,Bayside,Queens,31,noise,3
+nyc,New York,2026-11-19,BX0702,Bedford Park,Bronx,115,heat,42
+nyc,New York,2026-11-19,BX0702,Bedford Park,Bronx,115,housing,32
+nyc,New York,2026-11-19,BX0702,Bedford Park,Bronx,115,noise,15
+nyc,New York,2026-11-19,BX0702,Bedford Park,Bronx,115,parking,9
+nyc,New York,2026-11-19,BX0702,Bedford Park,Bronx,115,other,8
+nyc,New York,2026-11-19,BX0702,Bedford Park,Bronx,115,trash,4
+nyc,New York,2026-11-19,BX0702,Bedford Park,Bronx,115,water,3
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,housing,53
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,noise,46
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,heat,26
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,trash,14
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,parking,13
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,other,9
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,streets,6
+nyc,New York,2026-11-19,BK0302,Bedford-Stuyvesant (East),Brooklyn,171,critters,3
+nyc,New York,2026-11-19,BK0301,Bedford-Stuyvesant (West),Brooklyn,112,noise,35
+nyc,New York,2026-11-19,BK0301,Bedford-Stuyvesant (West),Brooklyn,112,housing,22
+nyc,New York,2026-11-19,BK0301,Bedford-Stuyvesant (West),Brooklyn,112,parking,18
+nyc,New York,2026-11-19,BK0301,Bedford-Stuyvesant (West),Brooklyn,112,trash,14
+nyc,New York,2026-11-19,BK0301,Bedford-Stuyvesant (West),Brooklyn,112,other,7
+nyc,New York,2026-11-19,BK0301,Bedford-Stuyvesant (West),Brooklyn,112,heat,7
+nyc,New York,2026-11-19,BK0301,Bedford-Stuyvesant (West),Brooklyn,112,streets,5
+nyc,New York,2026-11-19,QN1302,Bellerose,Queens,18,parking,11
+nyc,New York,2026-11-19,BX0603,Belmont,Bronx,56,housing,27
+nyc,New York,2026-11-19,BX0603,Belmont,Bronx,56,parking,12
+nyc,New York,2026-11-19,BX0603,Belmont,Bronx,56,heat,7
+nyc,New York,2026-11-19,BX0603,Belmont,Bronx,56,noise,4
+nyc,New York,2026-11-19,BK1101,Bensonhurst,Brooklyn,154,parking,72
+nyc,New York,2026-11-19,BK1101,Bensonhurst,Brooklyn,154,noise,45
+nyc,New York,2026-11-19,BK1101,Bensonhurst,Brooklyn,154,housing,20
+nyc,New York,2026-11-19,BK1101,Bensonhurst,Brooklyn,154,other,4
+nyc,New York,2026-11-19,BK1101,Bensonhurst,Brooklyn,154,heat,4
+nyc,New York,2026-11-19,BK1101,Bensonhurst,Brooklyn,154,streets,3
+nyc,New York,2026-11-19,BK1202,Borough Park,Brooklyn,72,parking,26
+nyc,New York,2026-11-19,BK1202,Borough Park,Brooklyn,72,streets,13
+nyc,New York,2026-11-19,BK1202,Borough Park,Brooklyn,72,trash,9
+nyc,New York,2026-11-19,BK1202,Borough Park,Brooklyn,72,housing,7
+nyc,New York,2026-11-19,BK1202,Borough Park,Brooklyn,72,noise,7
+nyc,New York,2026-11-19,BK1202,Borough Park,Brooklyn,72,other,6
+nyc,New York,2026-11-19,BK1202,Borough Park,Brooklyn,72,water,3
+nyc,New York,2026-11-19,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,14,noise,5
+nyc,New York,2026-11-19,BK1303,Brighton Beach,Brooklyn,54,heat,14
+nyc,New York,2026-11-19,BK1303,Brighton Beach,Brooklyn,54,parking,10
+nyc,New York,2026-11-19,BK1303,Brighton Beach,Brooklyn,54,housing,10
+nyc,New York,2026-11-19,BK1303,Brighton Beach,Brooklyn,54,noise,7
+nyc,New York,2026-11-19,BK1303,Brighton Beach,Brooklyn,54,other,5
+nyc,New York,2026-11-19,BK1303,Brighton Beach,Brooklyn,54,streets,4
+nyc,New York,2026-11-19,BK0201,Brooklyn Heights,Brooklyn,14,parking,6
+nyc,New York,2026-11-19,BK0201,Brooklyn Heights,Brooklyn,14,trash,4
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,noise,17
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,housing,15
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,parking,9
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,other,7
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,streets,5
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,heat,4
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,trash,3
+nyc,New York,2026-11-19,BK1602,Brownsville,Brooklyn,65,water,3
+nyc,New York,2026-11-19,BK0402,Bushwick (East),Brooklyn,76,parking,20
+nyc,New York,2026-11-19,BK0402,Bushwick (East),Brooklyn,76,noise,18
+nyc,New York,2026-11-19,BK0402,Bushwick (East),Brooklyn,76,housing,13
+nyc,New York,2026-11-19,BK0402,Bushwick (East),Brooklyn,76,trash,8
+nyc,New York,2026-11-19,BK0402,Bushwick (East),Brooklyn,76,other,6
+nyc,New York,2026-11-19,BK0402,Bushwick (East),Brooklyn,76,heat,6
+nyc,New York,2026-11-19,BK0401,Bushwick (West),Brooklyn,105,housing,43
+nyc,New York,2026-11-19,BK0401,Bushwick (West),Brooklyn,105,parking,22
+nyc,New York,2026-11-19,BK0401,Bushwick (West),Brooklyn,105,noise,19
+nyc,New York,2026-11-19,BK0401,Bushwick (West),Brooklyn,105,heat,7
+nyc,New York,2026-11-19,BK0401,Bushwick (West),Brooklyn,105,other,6
+nyc,New York,2026-11-19,BK0401,Bushwick (West),Brooklyn,105,trash,5
+nyc,New York,2026-11-19,QN1304,Cambria Heights,Queens,12,trees,4
+nyc,New York,2026-11-19,QN1304,Cambria Heights,Queens,12,streets,3
+nyc,New York,2026-11-19,BK1803,Canarsie,Brooklyn,58,parking,23
+nyc,New York,2026-11-19,BK1803,Canarsie,Brooklyn,58,noise,10
+nyc,New York,2026-11-19,BK1803,Canarsie,Brooklyn,58,housing,8
+nyc,New York,2026-11-19,BK1803,Canarsie,Brooklyn,58,streets,6
+nyc,New York,2026-11-19,BK1803,Canarsie,Brooklyn,58,trash,3
+nyc,New York,2026-11-19,BK1803,Canarsie,Brooklyn,58,water,3
+nyc,New York,2026-11-19,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,177,parking,113
+nyc,New York,2026-11-19,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,177,noise,17
+nyc,New York,2026-11-19,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,177,other,11
+nyc,New York,2026-11-19,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,177,trash,10
+nyc,New York,2026-11-19,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,177,streets,10
+nyc,New York,2026-11-19,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,177,housing,9
+nyc,New York,2026-11-19,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,177,trees,3
+nyc,New York,2026-11-19,BX0903,Castle Hill-Unionport,Bronx,46,parking,18
+nyc,New York,2026-11-19,BX0903,Castle Hill-Unionport,Bronx,46,noise,9
+nyc,New York,2026-11-19,BX0903,Castle Hill-Unionport,Bronx,46,housing,8
+nyc,New York,2026-11-19,BX0903,Castle Hill-Unionport,Bronx,46,streets,4
+nyc,New York,2026-11-19,BX0903,Castle Hill-Unionport,Bronx,46,heat,4
+nyc,New York,2026-11-19,MN0401,Chelsea-Hudson Yards,Manhattan,111,other,32
+nyc,New York,2026-11-19,MN0401,Chelsea-Hudson Yards,Manhattan,111,noise,23
+nyc,New York,2026-11-19,MN0401,Chelsea-Hudson Yards,Manhattan,111,trash,18
+nyc,New York,2026-11-19,MN0401,Chelsea-Hudson Yards,Manhattan,111,parking,14
+nyc,New York,2026-11-19,MN0401,Chelsea-Hudson Yards,Manhattan,111,streets,7
+nyc,New York,2026-11-19,MN0401,Chelsea-Hudson Yards,Manhattan,111,housing,7
+nyc,New York,2026-11-19,MN0401,Chelsea-Hudson Yards,Manhattan,111,heat,7
+nyc,New York,2026-11-19,MN0301,Chinatown-Two Bridges,Manhattan,41,other,12
+nyc,New York,2026-11-19,MN0301,Chinatown-Two Bridges,Manhattan,41,heat,12
+nyc,New York,2026-11-19,MN0301,Chinatown-Two Bridges,Manhattan,41,noise,9
+nyc,New York,2026-11-19,MN0301,Chinatown-Two Bridges,Manhattan,41,housing,4
+nyc,New York,2026-11-19,MN0301,Chinatown-Two Bridges,Manhattan,41,trash,3
+nyc,New York,2026-11-19,BX0302,Claremont Village-Claremont (East),Bronx,34,housing,9
+nyc,New York,2026-11-19,BX0302,Claremont Village-Claremont (East),Bronx,34,parking,6
+nyc,New York,2026-11-19,BX0302,Claremont Village-Claremont (East),Bronx,34,heat,5
+nyc,New York,2026-11-19,BX0302,Claremont Village-Claremont (East),Bronx,34,streets,5
+nyc,New York,2026-11-19,BX0302,Claremont Village-Claremont (East),Bronx,34,noise,3
+nyc,New York,2026-11-19,BX0302,Claremont Village-Claremont (East),Bronx,34,other,3
+nyc,New York,2026-11-19,BK0204,Clinton Hill,Brooklyn,47,parking,19
+nyc,New York,2026-11-19,BK0204,Clinton Hill,Brooklyn,47,trash,7
+nyc,New York,2026-11-19,BK0204,Clinton Hill,Brooklyn,47,streets,6
+nyc,New York,2026-11-19,BK0204,Clinton Hill,Brooklyn,47,housing,4
+nyc,New York,2026-11-19,BK0204,Clinton Hill,Brooklyn,47,other,4
+nyc,New York,2026-11-19,BK0204,Clinton Hill,Brooklyn,47,noise,3
+nyc,New York,2026-11-19,BX1004,Co-op City,Bronx,13,parking,5
+nyc,New York,2026-11-19,QN0701,College Point,Queens,21,parking,13
+nyc,New York,2026-11-19,QN0701,College Point,Queens,21,streets,3
+nyc,New York,2026-11-19,QN0701,College Point,Queens,21,noise,3
+nyc,New York,2026-11-19,BX0401,Concourse-Concourse Village,Bronx,129,noise,41
+nyc,New York,2026-11-19,BX0401,Concourse-Concourse Village,Bronx,129,heat,32
+nyc,New York,2026-11-19,BX0401,Concourse-Concourse Village,Bronx,129,housing,25
+nyc,New York,2026-11-19,BX0401,Concourse-Concourse Village,Bronx,129,parking,23
+nyc,New York,2026-11-19,BX0401,Concourse-Concourse Village,Bronx,129,water,5
+nyc,New York,2026-11-19,BK1302,Coney Island-Sea Gate,Brooklyn,54,parking,20
+nyc,New York,2026-11-19,BK1302,Coney Island-Sea Gate,Brooklyn,54,noise,10
+nyc,New York,2026-11-19,BK1302,Coney Island-Sea Gate,Brooklyn,54,other,10
+nyc,New York,2026-11-19,BK1302,Coney Island-Sea Gate,Brooklyn,54,housing,6
+nyc,New York,2026-11-19,BK1302,Coney Island-Sea Gate,Brooklyn,54,heat,4
+nyc,New York,2026-11-19,QN0402,Corona,Queens,35,parking,16
+nyc,New York,2026-11-19,QN0402,Corona,Queens,35,other,7
+nyc,New York,2026-11-19,QN0402,Corona,Queens,35,noise,3
+nyc,New York,2026-11-19,QN0402,Corona,Queens,35,heat,3
+nyc,New York,2026-11-19,BX0303,Crotona Park East,Bronx,61,housing,16
+nyc,New York,2026-11-19,BX0303,Crotona Park East,Bronx,61,heat,12
+nyc,New York,2026-11-19,BX0303,Crotona Park East,Bronx,61,parking,11
+nyc,New York,2026-11-19,BX0303,Crotona Park East,Bronx,61,trash,11
+nyc,New York,2026-11-19,BX0303,Crotona Park East,Bronx,61,other,3
+nyc,New York,2026-11-19,BX0303,Crotona Park East,Bronx,61,noise,3
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,housing,40
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,noise,25
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,heat,23
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,parking,16
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,water,10
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,other,9
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,trash,8
+nyc,New York,2026-11-19,BK0802,Crown Heights (North),Brooklyn,135,critters,3
+nyc,New York,2026-11-19,BK0901,Crown Heights (South),Brooklyn,84,housing,27
+nyc,New York,2026-11-19,BK0901,Crown Heights (South),Brooklyn,84,heat,20
+nyc,New York,2026-11-19,BK0901,Crown Heights (South),Brooklyn,84,noise,14
+nyc,New York,2026-11-19,BK0901,Crown Heights (South),Brooklyn,84,parking,10
+nyc,New York,2026-11-19,BK0901,Crown Heights (South),Brooklyn,84,streets,4
+nyc,New York,2026-11-19,BK0901,Crown Heights (South),Brooklyn,84,other,4
+nyc,New York,2026-11-19,BK0901,Crown Heights (South),Brooklyn,84,trash,3
+nyc,New York,2026-11-19,BK0501,Cypress Hills,Brooklyn,50,parking,30
+nyc,New York,2026-11-19,BK0501,Cypress Hills,Brooklyn,50,noise,6
+nyc,New York,2026-11-19,BK0501,Cypress Hills,Brooklyn,50,heat,4
+nyc,New York,2026-11-19,BK0501,Cypress Hills,Brooklyn,50,housing,3
+nyc,New York,2026-11-19,BK0501,Cypress Hills,Brooklyn,50,other,3
+nyc,New York,2026-11-19,BK0501,Cypress Hills,Brooklyn,50,trash,3
+nyc,New York,2026-11-19,QN1103,Douglaston-Little Neck,Queens,27,parking,11
+nyc,New York,2026-11-19,QN1103,Douglaston-Little Neck,Queens,27,streets,7
+nyc,New York,2026-11-19,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,135,parking,74
+nyc,New York,2026-11-19,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,135,noise,15
+nyc,New York,2026-11-19,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,135,other,15
+nyc,New York,2026-11-19,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,135,housing,11
+nyc,New York,2026-11-19,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,135,heat,9
+nyc,New York,2026-11-19,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,135,streets,7
+nyc,New York,2026-11-19,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,135,trash,3
+nyc,New York,2026-11-19,BK1002,Dyker Heights,Brooklyn,23,parking,11
+nyc,New York,2026-11-19,BK1002,Dyker Heights,Brooklyn,23,streets,4
+nyc,New York,2026-11-19,BK1002,Dyker Heights,Brooklyn,23,housing,4
+nyc,New York,2026-11-19,QN0302,East Elmhurst,Queens,37,parking,21
+nyc,New York,2026-11-19,QN0302,East Elmhurst,Queens,37,other,5
+nyc,New York,2026-11-19,QN0302,East Elmhurst,Queens,37,trash,3
+nyc,New York,2026-11-19,BK1701,East Flatbush-Erasmus,Brooklyn,85,housing,26
+nyc,New York,2026-11-19,BK1701,East Flatbush-Erasmus,Brooklyn,85,heat,20
+nyc,New York,2026-11-19,BK1701,East Flatbush-Erasmus,Brooklyn,85,noise,15
+nyc,New York,2026-11-19,BK1701,East Flatbush-Erasmus,Brooklyn,85,parking,14
+nyc,New York,2026-11-19,BK1701,East Flatbush-Erasmus,Brooklyn,85,trash,5
+nyc,New York,2026-11-19,BK1701,East Flatbush-Erasmus,Brooklyn,85,streets,3
+nyc,New York,2026-11-19,BK1702,East Flatbush-Farragut,Brooklyn,51,housing,20
+nyc,New York,2026-11-19,BK1702,East Flatbush-Farragut,Brooklyn,51,parking,13
+nyc,New York,2026-11-19,BK1702,East Flatbush-Farragut,Brooklyn,51,noise,5
+nyc,New York,2026-11-19,BK1702,East Flatbush-Farragut,Brooklyn,51,heat,5
+nyc,New York,2026-11-19,BK1702,East Flatbush-Farragut,Brooklyn,51,streets,4
+nyc,New York,2026-11-19,BK1704,East Flatbush-Remsen Village,Brooklyn,50,housing,18
+nyc,New York,2026-11-19,BK1704,East Flatbush-Remsen Village,Brooklyn,50,noise,10
+nyc,New York,2026-11-19,BK1704,East Flatbush-Remsen Village,Brooklyn,50,parking,9
+nyc,New York,2026-11-19,BK1704,East Flatbush-Remsen Village,Brooklyn,50,heat,7
+nyc,New York,2026-11-19,BK1704,East Flatbush-Remsen Village,Brooklyn,50,streets,5
+nyc,New York,2026-11-19,BK1703,East Flatbush-Rugby,Brooklyn,32,parking,12
+nyc,New York,2026-11-19,BK1703,East Flatbush-Rugby,Brooklyn,32,heat,4
+nyc,New York,2026-11-19,BK1703,East Flatbush-Rugby,Brooklyn,32,streets,4
+nyc,New York,2026-11-19,BK1703,East Flatbush-Rugby,Brooklyn,32,housing,4
+nyc,New York,2026-11-19,BK1703,East Flatbush-Rugby,Brooklyn,32,noise,3
+nyc,New York,2026-11-19,QN0705,East Flushing,Queens,66,parking,23
+nyc,New York,2026-11-19,QN0705,East Flushing,Queens,66,housing,11
+nyc,New York,2026-11-19,QN0705,East Flushing,Queens,66,trash,10
+nyc,New York,2026-11-19,QN0705,East Flushing,Queens,66,streets,7
+nyc,New York,2026-11-19,QN0705,East Flushing,Queens,66,noise,6
+nyc,New York,2026-11-19,QN0705,East Flushing,Queens,66,heat,4
+nyc,New York,2026-11-19,MN1102,East Harlem (North),Manhattan,101,housing,37
+nyc,New York,2026-11-19,MN1102,East Harlem (North),Manhattan,101,noise,19
+nyc,New York,2026-11-19,MN1102,East Harlem (North),Manhattan,101,other,16
+nyc,New York,2026-11-19,MN1102,East Harlem (North),Manhattan,101,parking,11
+nyc,New York,2026-11-19,MN1102,East Harlem (North),Manhattan,101,streets,8
+nyc,New York,2026-11-19,MN1102,East Harlem (North),Manhattan,101,heat,6
+nyc,New York,2026-11-19,MN1101,East Harlem (South),Manhattan,60,noise,18
+nyc,New York,2026-11-19,MN1101,East Harlem (South),Manhattan,60,housing,15
+nyc,New York,2026-11-19,MN1101,East Harlem (South),Manhattan,60,heat,8
+nyc,New York,2026-11-19,MN1101,East Harlem (South),Manhattan,60,streets,6
+nyc,New York,2026-11-19,MN1101,East Harlem (South),Manhattan,60,other,4
+nyc,New York,2026-11-19,MN1101,East Harlem (South),Manhattan,60,water,4
+nyc,New York,2026-11-19,MN0604,East Midtown-Turtle Bay,Manhattan,44,other,11
+nyc,New York,2026-11-19,MN0604,East Midtown-Turtle Bay,Manhattan,44,streets,8
+nyc,New York,2026-11-19,MN0604,East Midtown-Turtle Bay,Manhattan,44,housing,8
+nyc,New York,2026-11-19,MN0604,East Midtown-Turtle Bay,Manhattan,44,heat,7
+nyc,New York,2026-11-19,MN0604,East Midtown-Turtle Bay,Manhattan,44,noise,4
+nyc,New York,2026-11-19,BK0502,East New York (North),Brooklyn,46,trash,11
+nyc,New York,2026-11-19,BK0502,East New York (North),Brooklyn,46,housing,10
+nyc,New York,2026-11-19,BK0502,East New York (North),Brooklyn,46,parking,6
+nyc,New York,2026-11-19,BK0502,East New York (North),Brooklyn,46,heat,6
+nyc,New York,2026-11-19,BK0502,East New York (North),Brooklyn,46,streets,4
+nyc,New York,2026-11-19,BK0502,East New York (North),Brooklyn,46,noise,3
+nyc,New York,2026-11-19,BK0502,East New York (North),Brooklyn,46,other,3
+nyc,New York,2026-11-19,BK0505,East New York-City Line,Brooklyn,53,housing,17
+nyc,New York,2026-11-19,BK0505,East New York-City Line,Brooklyn,53,parking,15
+nyc,New York,2026-11-19,BK0505,East New York-City Line,Brooklyn,53,heat,12
+nyc,New York,2026-11-19,BK0505,East New York-City Line,Brooklyn,53,noise,5
+nyc,New York,2026-11-19,BK0503,East New York-New Lots,Brooklyn,53,housing,23
+nyc,New York,2026-11-19,BK0503,East New York-New Lots,Brooklyn,53,parking,14
+nyc,New York,2026-11-19,BK0503,East New York-New Lots,Brooklyn,53,heat,5
+nyc,New York,2026-11-19,BK0503,East New York-New Lots,Brooklyn,53,noise,3
+nyc,New York,2026-11-19,BK0503,East New York-New Lots,Brooklyn,53,trash,3
+nyc,New York,2026-11-19,BK0503,East New York-New Lots,Brooklyn,53,other,3
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,other,25
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,noise,20
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,heat,15
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,trash,14
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,parking,10
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,housing,10
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,streets,6
+nyc,New York,2026-11-19,MN0303,East Village,Manhattan,106,critters,4
+nyc,New York,2026-11-19,BK0104,East Williamsburg,Brooklyn,71,parking,17
+nyc,New York,2026-11-19,BK0104,East Williamsburg,Brooklyn,71,noise,14
+nyc,New York,2026-11-19,BK0104,East Williamsburg,Brooklyn,71,housing,14
+nyc,New York,2026-11-19,BK0104,East Williamsburg,Brooklyn,71,trash,7
+nyc,New York,2026-11-19,BK0104,East Williamsburg,Brooklyn,71,heat,6
+nyc,New York,2026-11-19,BK0104,East Williamsburg,Brooklyn,71,other,6
+nyc,New York,2026-11-19,BK0104,East Williamsburg,Brooklyn,71,streets,3
+nyc,New York,2026-11-19,BX1202,Eastchester-Edenwald-Baychester,Bronx,60,housing,18
+nyc,New York,2026-11-19,BX1202,Eastchester-Edenwald-Baychester,Bronx,60,parking,14
+nyc,New York,2026-11-19,BX1202,Eastchester-Edenwald-Baychester,Bronx,60,noise,11
+nyc,New York,2026-11-19,BX1202,Eastchester-Edenwald-Baychester,Bronx,60,other,6
+nyc,New York,2026-11-19,BX1202,Eastchester-Edenwald-Baychester,Bronx,60,trash,5
+nyc,New York,2026-11-19,BX1202,Eastchester-Edenwald-Baychester,Bronx,60,streets,4
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,housing,23
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,parking,21
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,heat,11
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,other,8
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,streets,7
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,noise,5
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,trash,5
+nyc,New York,2026-11-19,QN0401,Elmhurst,Queens,85,trees,3
+nyc,New York,2026-11-19,QN1401,Far Rockaway-Bayswater,Queens,43,noise,14
+nyc,New York,2026-11-19,QN1401,Far Rockaway-Bayswater,Queens,43,parking,11
+nyc,New York,2026-11-19,QN1401,Far Rockaway-Bayswater,Queens,43,housing,9
+nyc,New York,2026-11-19,QN1401,Far Rockaway-Bayswater,Queens,43,other,4
+nyc,New York,2026-11-19,MN0101,Financial District-Battery Park City,Manhattan,91,other,40
+nyc,New York,2026-11-19,MN0101,Financial District-Battery Park City,Manhattan,91,parking,28
+nyc,New York,2026-11-19,MN0101,Financial District-Battery Park City,Manhattan,91,noise,10
+nyc,New York,2026-11-19,MN0101,Financial District-Battery Park City,Manhattan,91,streets,5
+nyc,New York,2026-11-19,MN0101,Financial District-Battery Park City,Manhattan,91,heat,3
+nyc,New York,2026-11-19,MN0101,Financial District-Battery Park City,Manhattan,91,housing,3
+nyc,New York,2026-11-19,BK1401,Flatbush,Brooklyn,148,heat,42
+nyc,New York,2026-11-19,BK1401,Flatbush,Brooklyn,148,housing,37
+nyc,New York,2026-11-19,BK1401,Flatbush,Brooklyn,148,noise,27
+nyc,New York,2026-11-19,BK1401,Flatbush,Brooklyn,148,parking,24
+nyc,New York,2026-11-19,BK1401,Flatbush,Brooklyn,148,other,14
+nyc,New York,2026-11-19,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,66,parking,20
+nyc,New York,2026-11-19,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,66,housing,16
+nyc,New York,2026-11-19,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,66,heat,11
+nyc,New York,2026-11-19,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,66,noise,7
+nyc,New York,2026-11-19,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,66,trash,4
+nyc,New York,2026-11-19,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,66,other,3
+nyc,New York,2026-11-19,BK1801,Flatlands,Brooklyn,44,parking,17
+nyc,New York,2026-11-19,BK1801,Flatlands,Brooklyn,44,housing,7
+nyc,New York,2026-11-19,BK1801,Flatlands,Brooklyn,44,noise,5
+nyc,New York,2026-11-19,BK1801,Flatlands,Brooklyn,44,streets,5
+nyc,New York,2026-11-19,BK1801,Flatlands,Brooklyn,44,trash,4
+nyc,New York,2026-11-19,BK1801,Flatlands,Brooklyn,44,trees,3
+nyc,New York,2026-11-19,QN8191,Flushing Meadows-Corona Park,Queens,8,other,4
+nyc,New York,2026-11-19,QN0707,Flushing-Willets Point,Queens,38,parking,8
+nyc,New York,2026-11-19,QN0707,Flushing-Willets Point,Queens,38,heat,6
+nyc,New York,2026-11-19,QN0707,Flushing-Willets Point,Queens,38,other,6
+nyc,New York,2026-11-19,QN0707,Flushing-Willets Point,Queens,38,noise,6
+nyc,New York,2026-11-19,QN0707,Flushing-Willets Point,Queens,38,trash,4
+nyc,New York,2026-11-19,QN0707,Flushing-Willets Point,Queens,38,housing,4
+nyc,New York,2026-11-19,BX0503,Fordham Heights,Bronx,55,parking,16
+nyc,New York,2026-11-19,BX0503,Fordham Heights,Bronx,55,heat,14
+nyc,New York,2026-11-19,BX0503,Fordham Heights,Bronx,55,housing,11
+nyc,New York,2026-11-19,BX0503,Fordham Heights,Bronx,55,other,6
+nyc,New York,2026-11-19,BX0503,Fordham Heights,Bronx,55,noise,3
+nyc,New York,2026-11-19,QN0602,Forest Hills,Queens,68,heat,19
+nyc,New York,2026-11-19,QN0602,Forest Hills,Queens,68,housing,16
+nyc,New York,2026-11-19,QN0602,Forest Hills,Queens,68,noise,7
+nyc,New York,2026-11-19,QN0602,Forest Hills,Queens,68,trash,6
+nyc,New York,2026-11-19,QN0602,Forest Hills,Queens,68,parking,6
+nyc,New York,2026-11-19,QN0602,Forest Hills,Queens,68,other,5
+nyc,New York,2026-11-19,QN0602,Forest Hills,Queens,68,streets,5
+nyc,New York,2026-11-19,BK0203,Fort Greene,Brooklyn,81,parking,25
+nyc,New York,2026-11-19,BK0203,Fort Greene,Brooklyn,81,noise,18
+nyc,New York,2026-11-19,BK0203,Fort Greene,Brooklyn,81,housing,14
+nyc,New York,2026-11-19,BK0203,Fort Greene,Brooklyn,81,heat,8
+nyc,New York,2026-11-19,BK0203,Fort Greene,Brooklyn,81,other,5
+nyc,New York,2026-11-19,BK0203,Fort Greene,Brooklyn,81,water,5
+nyc,New York,2026-11-19,BK0203,Fort Greene,Brooklyn,81,streets,3
+nyc,New York,2026-11-19,QN0803,Fresh Meadows-Utopia,Queens,18,parking,7
+nyc,New York,2026-11-19,QN0803,Fresh Meadows-Utopia,Queens,18,streets,5
+nyc,New York,2026-11-19,QN0503,Glendale,Queens,43,parking,21
+nyc,New York,2026-11-19,QN0503,Glendale,Queens,43,housing,8
+nyc,New York,2026-11-19,QN0503,Glendale,Queens,43,noise,4
+nyc,New York,2026-11-19,QN0503,Glendale,Queens,43,streets,3
+nyc,New York,2026-11-19,QN0503,Glendale,Queens,43,trash,3
+nyc,New York,2026-11-19,MN0602,Gramercy,Manhattan,55,other,26
+nyc,New York,2026-11-19,MN0602,Gramercy,Manhattan,55,heat,8
+nyc,New York,2026-11-19,MN0602,Gramercy,Manhattan,55,housing,7
+nyc,New York,2026-11-19,MN0602,Gramercy,Manhattan,55,trash,5
+nyc,New York,2026-11-19,MN0602,Gramercy,Manhattan,55,parking,4
+nyc,New York,2026-11-19,MN0602,Gramercy,Manhattan,55,streets,3
+nyc,New York,2026-11-19,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,17,parking,6
+nyc,New York,2026-11-19,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,17,streets,4
+nyc,New York,2026-11-19,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,17,water,3
+nyc,New York,2026-11-19,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,17,noise,3
+nyc,New York,2026-11-19,BK1501,Gravesend (East)-Homecrest,Brooklyn,65,parking,32
+nyc,New York,2026-11-19,BK1501,Gravesend (East)-Homecrest,Brooklyn,65,water,8
+nyc,New York,2026-11-19,BK1501,Gravesend (East)-Homecrest,Brooklyn,65,noise,6
+nyc,New York,2026-11-19,BK1501,Gravesend (East)-Homecrest,Brooklyn,65,other,6
+nyc,New York,2026-11-19,BK1501,Gravesend (East)-Homecrest,Brooklyn,65,housing,4
+nyc,New York,2026-11-19,BK1501,Gravesend (East)-Homecrest,Brooklyn,65,heat,3
+nyc,New York,2026-11-19,BK1301,Gravesend (South),Brooklyn,18,parking,8
+nyc,New York,2026-11-19,BK1301,Gravesend (South),Brooklyn,18,housing,5
+nyc,New York,2026-11-19,BK1103,Gravesend (West),Brooklyn,54,parking,29
+nyc,New York,2026-11-19,BK1103,Gravesend (West),Brooklyn,54,housing,12
+nyc,New York,2026-11-19,BK1103,Gravesend (West),Brooklyn,54,streets,5
+nyc,New York,2026-11-19,BK1103,Gravesend (West),Brooklyn,54,noise,4
+nyc,New York,2026-11-19,SI0302,Great Kills-Eltingville,Staten Island,39,other,7
+nyc,New York,2026-11-19,SI0302,Great Kills-Eltingville,Staten Island,39,parking,7
+nyc,New York,2026-11-19,SI0302,Great Kills-Eltingville,Staten Island,39,water,6
+nyc,New York,2026-11-19,SI0302,Great Kills-Eltingville,Staten Island,39,housing,6
+nyc,New York,2026-11-19,SI0302,Great Kills-Eltingville,Staten Island,39,streets,5
+nyc,New York,2026-11-19,SI0302,Great Kills-Eltingville,Staten Island,39,trash,3
+nyc,New York,2026-11-19,SI0302,Great Kills-Eltingville,Staten Island,39,critters,3
+nyc,New York,2026-11-19,BK0101,Greenpoint,Brooklyn,127,parking,59
+nyc,New York,2026-11-19,BK0101,Greenpoint,Brooklyn,127,noise,36
+nyc,New York,2026-11-19,BK0101,Greenpoint,Brooklyn,127,housing,12
+nyc,New York,2026-11-19,BK0101,Greenpoint,Brooklyn,127,critters,8
+nyc,New York,2026-11-19,BK0101,Greenpoint,Brooklyn,127,other,6
+nyc,New York,2026-11-19,MN0202,Greenwich Village,Manhattan,46,noise,23
+nyc,New York,2026-11-19,MN0202,Greenwich Village,Manhattan,46,other,11
+nyc,New York,2026-11-19,MN0202,Greenwich Village,Manhattan,46,streets,6
+nyc,New York,2026-11-19,MN0202,Greenwich Village,Manhattan,46,housing,4
+nyc,New York,2026-11-19,MN0903,Hamilton Heights-Sugar Hill,Manhattan,103,heat,39
+nyc,New York,2026-11-19,MN0903,Hamilton Heights-Sugar Hill,Manhattan,103,noise,24
+nyc,New York,2026-11-19,MN0903,Hamilton Heights-Sugar Hill,Manhattan,103,housing,22
+nyc,New York,2026-11-19,MN0903,Hamilton Heights-Sugar Hill,Manhattan,103,parking,8
+nyc,New York,2026-11-19,MN0903,Hamilton Heights-Sugar Hill,Manhattan,103,other,7
+nyc,New York,2026-11-19,MN0903,Hamilton Heights-Sugar Hill,Manhattan,103,trash,3
+nyc,New York,2026-11-19,MN1002,Harlem (North),Manhattan,113,housing,37
+nyc,New York,2026-11-19,MN1002,Harlem (North),Manhattan,113,noise,28
+nyc,New York,2026-11-19,MN1002,Harlem (North),Manhattan,113,heat,28
+nyc,New York,2026-11-19,MN1002,Harlem (North),Manhattan,113,other,6
+nyc,New York,2026-11-19,MN1002,Harlem (North),Manhattan,113,parking,6
+nyc,New York,2026-11-19,MN1002,Harlem (North),Manhattan,113,trash,3
+nyc,New York,2026-11-19,MN1002,Harlem (North),Manhattan,113,critters,3
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,heat,25
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,noise,24
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,housing,14
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,parking,12
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,streets,7
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,trash,6
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,critters,5
+nyc,New York,2026-11-19,MN1001,Harlem (South),Manhattan,97,other,4
+nyc,New York,2026-11-19,MN0402,Hell's Kitchen,Manhattan,109,other,32
+nyc,New York,2026-11-19,MN0402,Hell's Kitchen,Manhattan,109,housing,23
+nyc,New York,2026-11-19,MN0402,Hell's Kitchen,Manhattan,109,parking,16
+nyc,New York,2026-11-19,MN0402,Hell's Kitchen,Manhattan,109,noise,13
+nyc,New York,2026-11-19,MN0402,Hell's Kitchen,Manhattan,109,heat,9
+nyc,New York,2026-11-19,MN0402,Hell's Kitchen,Manhattan,109,streets,7
+nyc,New York,2026-11-19,MN0402,Hell's Kitchen,Manhattan,109,trash,6
+nyc,New York,2026-11-19,BX0402,Highbridge,Bronx,73,housing,48
+nyc,New York,2026-11-19,BX0402,Highbridge,Bronx,73,heat,7
+nyc,New York,2026-11-19,BX0402,Highbridge,Bronx,73,noise,6
+nyc,New York,2026-11-19,BX0402,Highbridge,Bronx,73,parking,6
+nyc,New York,2026-11-19,BX0402,Highbridge,Bronx,73,trash,3
+nyc,New York,2026-11-19,QN1206,Hollis,Queens,20,parking,5
+nyc,New York,2026-11-19,QN1206,Hollis,Queens,20,streets,3
+nyc,New York,2026-11-19,QN1206,Hollis,Queens,20,housing,3
+nyc,New York,2026-11-19,QN1206,Hollis,Queens,20,other,3
+nyc,New York,2026-11-19,QN1206,Hollis,Queens,20,trash,3
+nyc,New York,2026-11-19,QN1003,Howard Beach-Lindenwood,Queens,10,noise,3
+nyc,New York,2026-11-19,QN1003,Howard Beach-Lindenwood,Queens,10,parking,3
+nyc,New York,2026-11-19,BX0201,Hunts Point,Bronx,38,housing,11
+nyc,New York,2026-11-19,BX0201,Hunts Point,Bronx,38,noise,8
+nyc,New York,2026-11-19,BX0201,Hunts Point,Bronx,38,streets,8
+nyc,New York,2026-11-19,BX0201,Hunts Point,Bronx,38,parking,5
+nyc,New York,2026-11-19,BX0201,Hunts Point,Bronx,38,heat,4
+nyc,New York,2026-11-19,MN1203,Inwood,Manhattan,51,housing,20
+nyc,New York,2026-11-19,MN1203,Inwood,Manhattan,51,noise,17
+nyc,New York,2026-11-19,MN1203,Inwood,Manhattan,51,streets,5
+nyc,New York,2026-11-19,MN1203,Inwood,Manhattan,51,heat,5
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,parking,19
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,noise,19
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,other,16
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,housing,14
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,heat,10
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,trash,9
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,streets,7
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,water,3
+nyc,New York,2026-11-19,QN0301,Jackson Heights,Queens,101,critters,3
+nyc,New York,2026-11-19,QN1201,Jamaica,Queens,98,housing,40
+nyc,New York,2026-11-19,QN1201,Jamaica,Queens,98,parking,16
+nyc,New York,2026-11-19,QN1201,Jamaica,Queens,98,other,13
+nyc,New York,2026-11-19,QN1201,Jamaica,Queens,98,heat,11
+nyc,New York,2026-11-19,QN1201,Jamaica,Queens,98,streets,7
+nyc,New York,2026-11-19,QN1201,Jamaica,Queens,98,noise,6
+nyc,New York,2026-11-19,QN1201,Jamaica,Queens,98,trash,4
+nyc,New York,2026-11-19,QN0804,Jamaica Estates-Holliswood,Queens,25,heat,8
+nyc,New York,2026-11-19,QN0804,Jamaica Estates-Holliswood,Queens,25,streets,5
+nyc,New York,2026-11-19,QN0804,Jamaica Estates-Holliswood,Queens,25,trash,3
+nyc,New York,2026-11-19,QN0804,Jamaica Estates-Holliswood,Queens,25,parking,3
+nyc,New York,2026-11-19,QN0805,Jamaica Hills-Briarwood,Queens,23,housing,12
+nyc,New York,2026-11-19,QN0805,Jamaica Hills-Briarwood,Queens,23,parking,6
+nyc,New York,2026-11-19,QN0805,Jamaica Hills-Briarwood,Queens,23,heat,4
+nyc,New York,2026-11-19,QN8381,John F. Kennedy International Airport,Queens,10,other,9
+nyc,New York,2026-11-19,BK1203,Kensington,Brooklyn,44,parking,15
+nyc,New York,2026-11-19,BK1203,Kensington,Brooklyn,44,housing,7
+nyc,New York,2026-11-19,BK1203,Kensington,Brooklyn,44,heat,6
+nyc,New York,2026-11-19,BK1203,Kensington,Brooklyn,44,other,6
+nyc,New York,2026-11-19,BK1203,Kensington,Brooklyn,44,noise,5
+nyc,New York,2026-11-19,QN0901,Kew Gardens,Queens,32,noise,12
+nyc,New York,2026-11-19,QN0901,Kew Gardens,Queens,32,parking,6
+nyc,New York,2026-11-19,QN0901,Kew Gardens,Queens,32,streets,4
+nyc,New York,2026-11-19,QN0901,Kew Gardens,Queens,32,housing,3
+nyc,New York,2026-11-19,QN0801,Kew Gardens Hills,Queens,24,parking,9
+nyc,New York,2026-11-19,QN0801,Kew Gardens Hills,Queens,24,streets,3
+nyc,New York,2026-11-19,QN0801,Kew Gardens Hills,Queens,24,noise,3
+nyc,New York,2026-11-19,QN0801,Kew Gardens Hills,Queens,24,housing,3
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,parking,36
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,housing,14
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,heat,10
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,noise,7
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,trash,6
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,other,4
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,streets,4
+nyc,New York,2026-11-19,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,85,water,4
+nyc,New York,2026-11-19,BX0802,Kingsbridge-Marble Hill,Bronx,40,parking,18
+nyc,New York,2026-11-19,BX0802,Kingsbridge-Marble Hill,Bronx,40,noise,7
+nyc,New York,2026-11-19,BX0802,Kingsbridge-Marble Hill,Bronx,40,heat,7
+nyc,New York,2026-11-19,BX0802,Kingsbridge-Marble Hill,Bronx,40,housing,6
+nyc,New York,2026-11-19,QN8081,LaGuardia Airport,Queens,6,other,6
+nyc,New York,2026-11-19,QN1305,Laurelton,Queens,17,parking,6
+nyc,New York,2026-11-19,QN0201,Long Island City-Hunters Point,Queens,70,parking,45
+nyc,New York,2026-11-19,QN0201,Long Island City-Hunters Point,Queens,70,other,11
+nyc,New York,2026-11-19,QN0201,Long Island City-Hunters Point,Queens,70,heat,4
+nyc,New York,2026-11-19,QN0201,Long Island City-Hunters Point,Queens,70,housing,3
+nyc,New York,2026-11-19,QN0201,Long Island City-Hunters Point,Queens,70,streets,3
+nyc,New York,2026-11-19,BX0202,Longwood,Bronx,44,housing,12
+nyc,New York,2026-11-19,BX0202,Longwood,Bronx,44,heat,11
+nyc,New York,2026-11-19,BX0202,Longwood,Bronx,44,parking,9
+nyc,New York,2026-11-19,BX0202,Longwood,Bronx,44,noise,8
+nyc,New York,2026-11-19,BX0202,Longwood,Bronx,44,streets,3
+nyc,New York,2026-11-19,MN0302,Lower East Side,Manhattan,122,streets,69
+nyc,New York,2026-11-19,MN0302,Lower East Side,Manhattan,122,other,15
+nyc,New York,2026-11-19,MN0302,Lower East Side,Manhattan,122,noise,12
+nyc,New York,2026-11-19,MN0302,Lower East Side,Manhattan,122,parking,11
+nyc,New York,2026-11-19,MN0302,Lower East Side,Manhattan,122,heat,6
+nyc,New York,2026-11-19,MN0302,Lower East Side,Manhattan,122,trash,5
+nyc,New York,2026-11-19,MN0302,Lower East Side,Manhattan,122,housing,3
+nyc,New York,2026-11-19,BK1502,Madison,Brooklyn,36,parking,14
+nyc,New York,2026-11-19,BK1502,Madison,Brooklyn,36,housing,5
+nyc,New York,2026-11-19,BK1502,Madison,Brooklyn,36,heat,4
+nyc,New York,2026-11-19,BK1502,Madison,Brooklyn,36,other,4
+nyc,New York,2026-11-19,BK1502,Madison,Brooklyn,36,noise,3
+nyc,New York,2026-11-19,MN0902,Manhattanville-West Harlem,Manhattan,33,housing,11
+nyc,New York,2026-11-19,MN0902,Manhattanville-West Harlem,Manhattan,33,noise,7
+nyc,New York,2026-11-19,MN0902,Manhattanville-West Harlem,Manhattan,33,heat,6
+nyc,New York,2026-11-19,MN0902,Manhattanville-West Harlem,Manhattan,33,parking,5
+nyc,New York,2026-11-19,BK1204,Mapleton-Midwood (West),Brooklyn,45,parking,21
+nyc,New York,2026-11-19,BK1204,Mapleton-Midwood (West),Brooklyn,45,housing,9
+nyc,New York,2026-11-19,BK1204,Mapleton-Midwood (West),Brooklyn,45,heat,5
+nyc,New York,2026-11-19,BK1204,Mapleton-Midwood (West),Brooklyn,45,streets,3
+nyc,New York,2026-11-19,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,65,water,28
+nyc,New York,2026-11-19,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,65,housing,12
+nyc,New York,2026-11-19,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,65,parking,11
+nyc,New York,2026-11-19,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,65,other,4
+nyc,New York,2026-11-19,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,65,critters,3
+nyc,New York,2026-11-19,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,65,streets,3
+nyc,New York,2026-11-19,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,31,parking,8
+nyc,New York,2026-11-19,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,31,noise,7
+nyc,New York,2026-11-19,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,31,streets,6
+nyc,New York,2026-11-19,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,31,other,3
+nyc,New York,2026-11-19,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,31,housing,3
+nyc,New York,2026-11-19,QN0501,Maspeth,Queens,44,parking,26
+nyc,New York,2026-11-19,QN0501,Maspeth,Queens,44,other,5
+nyc,New York,2026-11-19,QN0501,Maspeth,Queens,44,noise,4
+nyc,New York,2026-11-19,QN0501,Maspeth,Queens,44,housing,3
+nyc,New York,2026-11-19,QN0501,Maspeth,Queens,44,heat,3
+nyc,New York,2026-11-19,BX0102,Melrose,Bronx,61,parking,16
+nyc,New York,2026-11-19,BX0102,Melrose,Bronx,61,heat,11
+nyc,New York,2026-11-19,BX0102,Melrose,Bronx,61,noise,10
+nyc,New York,2026-11-19,BX0102,Melrose,Bronx,61,other,9
+nyc,New York,2026-11-19,BX0102,Melrose,Bronx,61,housing,9
+nyc,New York,2026-11-19,QN0504,Middle Village,Queens,37,parking,16
+nyc,New York,2026-11-19,QN0504,Middle Village,Queens,37,housing,11
+nyc,New York,2026-11-19,MN0501,Midtown South-Flatiron-Union Square,Manhattan,80,other,46
+nyc,New York,2026-11-19,MN0501,Midtown South-Flatiron-Union Square,Manhattan,80,noise,14
+nyc,New York,2026-11-19,MN0501,Midtown South-Flatiron-Union Square,Manhattan,80,trash,6
+nyc,New York,2026-11-19,MN0501,Midtown South-Flatiron-Union Square,Manhattan,80,parking,6
+nyc,New York,2026-11-19,MN0501,Midtown South-Flatiron-Union Square,Manhattan,80,housing,3
+nyc,New York,2026-11-19,MN0502,Midtown-Times Square,Manhattan,139,other,81
+nyc,New York,2026-11-19,MN0502,Midtown-Times Square,Manhattan,139,parking,21
+nyc,New York,2026-11-19,MN0502,Midtown-Times Square,Manhattan,139,streets,14
+nyc,New York,2026-11-19,MN0502,Midtown-Times Square,Manhattan,139,noise,11
+nyc,New York,2026-11-19,MN0502,Midtown-Times Square,Manhattan,139,heat,6
+nyc,New York,2026-11-19,MN0502,Midtown-Times Square,Manhattan,139,trash,3
+nyc,New York,2026-11-19,BK1403,Midwood,Brooklyn,69,parking,29
+nyc,New York,2026-11-19,BK1403,Midwood,Brooklyn,69,housing,14
+nyc,New York,2026-11-19,BK1403,Midwood,Brooklyn,69,heat,9
+nyc,New York,2026-11-19,BK1403,Midwood,Brooklyn,69,noise,8
+nyc,New York,2026-11-19,BK1403,Midwood,Brooklyn,69,streets,5
+nyc,New York,2026-11-19,BK1403,Midwood,Brooklyn,69,trash,3
+nyc,New York,2026-11-19,MN0901,Morningside Heights,Manhattan,40,other,13
+nyc,New York,2026-11-19,MN0901,Morningside Heights,Manhattan,40,parking,8
+nyc,New York,2026-11-19,MN0901,Morningside Heights,Manhattan,40,housing,7
+nyc,New York,2026-11-19,MN0901,Morningside Heights,Manhattan,40,noise,4
+nyc,New York,2026-11-19,MN0901,Morningside Heights,Manhattan,40,trash,3
+nyc,New York,2026-11-19,MN0901,Morningside Heights,Manhattan,40,heat,3
+nyc,New York,2026-11-19,BX1102,Morris Park,Bronx,27,parking,12
+nyc,New York,2026-11-19,BX1102,Morris Park,Bronx,27,streets,5
+nyc,New York,2026-11-19,BX1102,Morris Park,Bronx,27,noise,4
+nyc,New York,2026-11-19,BX1102,Morris Park,Bronx,27,housing,4
+nyc,New York,2026-11-19,BX0301,Morrisania,Bronx,57,housing,26
+nyc,New York,2026-11-19,BX0301,Morrisania,Bronx,57,noise,14
+nyc,New York,2026-11-19,BX0301,Morrisania,Bronx,57,heat,8
+nyc,New York,2026-11-19,BX0301,Morrisania,Bronx,57,parking,8
+nyc,New York,2026-11-19,BX0101,Mott Haven-Port Morris,Bronx,68,parking,25
+nyc,New York,2026-11-19,BX0101,Mott Haven-Port Morris,Bronx,68,housing,20
+nyc,New York,2026-11-19,BX0101,Mott Haven-Port Morris,Bronx,68,noise,12
+nyc,New York,2026-11-19,BX0101,Mott Haven-Port Morris,Bronx,68,heat,4
+nyc,New York,2026-11-19,BX0101,Mott Haven-Port Morris,Bronx,68,other,3
+nyc,New York,2026-11-19,BX0101,Mott Haven-Port Morris,Bronx,68,streets,3
+nyc,New York,2026-11-19,BX0403,Mount Eden-Claremont (West),Bronx,115,housing,43
+nyc,New York,2026-11-19,BX0403,Mount Eden-Claremont (West),Bronx,115,heat,28
+nyc,New York,2026-11-19,BX0403,Mount Eden-Claremont (West),Bronx,115,parking,14
+nyc,New York,2026-11-19,BX0403,Mount Eden-Claremont (West),Bronx,115,noise,12
+nyc,New York,2026-11-19,BX0403,Mount Eden-Claremont (West),Bronx,115,other,9
+nyc,New York,2026-11-19,BX0403,Mount Eden-Claremont (West),Bronx,115,trash,5
+nyc,New York,2026-11-19,BX0403,Mount Eden-Claremont (West),Bronx,115,streets,3
+nyc,New York,2026-11-19,BX0502,Mount Hope,Bronx,73,parking,23
+nyc,New York,2026-11-19,BX0502,Mount Hope,Bronx,73,heat,20
+nyc,New York,2026-11-19,BX0502,Mount Hope,Bronx,73,housing,14
+nyc,New York,2026-11-19,BX0502,Mount Hope,Bronx,73,noise,6
+nyc,New York,2026-11-19,BX0502,Mount Hope,Bronx,73,other,4
+nyc,New York,2026-11-19,BX0502,Mount Hope,Bronx,73,trash,3
+nyc,New York,2026-11-19,QN0704,Murray Hill-Broadway Flushing,Queens,41,parking,24
+nyc,New York,2026-11-19,QN0704,Murray Hill-Broadway Flushing,Queens,41,streets,5
+nyc,New York,2026-11-19,QN0704,Murray Hill-Broadway Flushing,Queens,41,noise,4
+nyc,New York,2026-11-19,QN0704,Murray Hill-Broadway Flushing,Queens,41,housing,4
+nyc,New York,2026-11-19,MN0603,Murray Hill-Kips Bay,Manhattan,56,noise,14
+nyc,New York,2026-11-19,MN0603,Murray Hill-Kips Bay,Manhattan,56,housing,10
+nyc,New York,2026-11-19,MN0603,Murray Hill-Kips Bay,Manhattan,56,streets,7
+nyc,New York,2026-11-19,MN0603,Murray Hill-Kips Bay,Manhattan,56,trash,7
+nyc,New York,2026-11-19,MN0603,Murray Hill-Kips Bay,Manhattan,56,parking,6
+nyc,New York,2026-11-19,MN0603,Murray Hill-Kips Bay,Manhattan,56,other,5
+nyc,New York,2026-11-19,MN0603,Murray Hill-Kips Bay,Manhattan,56,heat,3
+nyc,New York,2026-11-19,SI0202,New Dorp-Midland Beach,Staten Island,25,trash,9
+nyc,New York,2026-11-19,SI0202,New Dorp-Midland Beach,Staten Island,25,parking,6
+nyc,New York,2026-11-19,SI0202,New Dorp-Midland Beach,Staten Island,25,streets,4
+nyc,New York,2026-11-19,SI0202,New Dorp-Midland Beach,Staten Island,25,water,3
+nyc,New York,2026-11-19,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,20,streets,7
+nyc,New York,2026-11-19,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,20,parking,6
+nyc,New York,2026-11-19,QN0303,North Corona,Queens,27,parking,14
+nyc,New York,2026-11-19,QN0303,North Corona,Queens,27,noise,4
+nyc,New York,2026-11-19,QN0303,North Corona,Queens,27,housing,4
+nyc,New York,2026-11-19,BX0703,Norwood,Bronx,66,housing,24
+nyc,New York,2026-11-19,BX0703,Norwood,Bronx,66,heat,17
+nyc,New York,2026-11-19,BX0703,Norwood,Bronx,66,parking,12
+nyc,New York,2026-11-19,BX0703,Norwood,Bronx,66,noise,5
+nyc,New York,2026-11-19,BX0703,Norwood,Bronx,66,water,4
+nyc,New York,2026-11-19,QN1104,Oakland Gardens-Hollis Hills,Queens,11,parking,7
+nyc,New York,2026-11-19,QN1104,Oakland Gardens-Hollis Hills,Queens,11,streets,3
+nyc,New York,2026-11-19,SI0301,Oakwood-Richmondtown,Staten Island,18,noise,5
+nyc,New York,2026-11-19,SI0301,Oakwood-Richmondtown,Staten Island,18,housing,5
+nyc,New York,2026-11-19,SI0301,Oakwood-Richmondtown,Staten Island,18,streets,4
+nyc,New York,2026-11-19,SI0301,Oakwood-Richmondtown,Staten Island,18,parking,3
+nyc,New York,2026-11-19,BK1601,Ocean Hill,Brooklyn,43,housing,14
+nyc,New York,2026-11-19,BK1601,Ocean Hill,Brooklyn,43,parking,11
+nyc,New York,2026-11-19,BK1601,Ocean Hill,Brooklyn,43,heat,7
+nyc,New York,2026-11-19,BK1601,Ocean Hill,Brooklyn,43,other,4
+nyc,New York,2026-11-19,BK1601,Ocean Hill,Brooklyn,43,trash,4
+nyc,New York,2026-11-19,QN0102,Old Astoria-Hallets Point,Queens,24,parking,8
+nyc,New York,2026-11-19,QN0102,Old Astoria-Hallets Point,Queens,24,noise,6
+nyc,New York,2026-11-19,QN0102,Old Astoria-Hallets Point,Queens,24,housing,4
+nyc,New York,2026-11-19,QN0102,Old Astoria-Hallets Point,Queens,24,water,3
+nyc,New York,2026-11-19,QN1002,Ozone Park,Queens,25,parking,10
+nyc,New York,2026-11-19,QN1002,Ozone Park,Queens,25,housing,5
+nyc,New York,2026-11-19,QN1002,Ozone Park,Queens,25,trash,5
+nyc,New York,2026-11-19,QN1002,Ozone Park,Queens,25,water,3
+nyc,New York,2026-11-19,QN0904,Ozone Park (North),Queens,30,noise,7
+nyc,New York,2026-11-19,QN0904,Ozone Park (North),Queens,30,parking,6
+nyc,New York,2026-11-19,QN0904,Ozone Park (North),Queens,30,trees,4
+nyc,New York,2026-11-19,QN0904,Ozone Park (North),Queens,30,housing,3
+nyc,New York,2026-11-19,QN0904,Ozone Park (North),Queens,30,trash,3
+nyc,New York,2026-11-19,QN0904,Ozone Park (North),Queens,30,other,3
+nyc,New York,2026-11-19,QN0904,Ozone Park (North),Queens,30,streets,3
+nyc,New York,2026-11-19,BK0602,Park Slope,Brooklyn,156,parking,121
+nyc,New York,2026-11-19,BK0602,Park Slope,Brooklyn,156,other,7
+nyc,New York,2026-11-19,BK0602,Park Slope,Brooklyn,156,housing,7
+nyc,New York,2026-11-19,BK0602,Park Slope,Brooklyn,156,streets,6
+nyc,New York,2026-11-19,BK0602,Park Slope,Brooklyn,156,noise,5
+nyc,New York,2026-11-19,BK0602,Park Slope,Brooklyn,156,heat,5
+nyc,New York,2026-11-19,BK0602,Park Slope,Brooklyn,156,trash,4
+nyc,New York,2026-11-19,BX0904,Parkchester,Bronx,111,heat,73
+nyc,New York,2026-11-19,BX0904,Parkchester,Bronx,111,housing,17
+nyc,New York,2026-11-19,BX0904,Parkchester,Bronx,111,noise,12
+nyc,New York,2026-11-19,BX0904,Parkchester,Bronx,111,streets,5
+nyc,New York,2026-11-19,BX1003,Pelham Bay-Country Club-City Island,Bronx,57,housing,23
+nyc,New York,2026-11-19,BX1003,Pelham Bay-Country Club-City Island,Bronx,57,parking,14
+nyc,New York,2026-11-19,BX1003,Pelham Bay-Country Club-City Island,Bronx,57,heat,7
+nyc,New York,2026-11-19,BX1003,Pelham Bay-Country Club-City Island,Bronx,57,streets,6
+nyc,New York,2026-11-19,BX1003,Pelham Bay-Country Club-City Island,Bronx,57,trash,3
+nyc,New York,2026-11-19,BX1103,Pelham Gardens,Bronx,21,parking,7
+nyc,New York,2026-11-19,BX1103,Pelham Gardens,Bronx,21,trash,4
+nyc,New York,2026-11-19,BX1103,Pelham Gardens,Bronx,21,noise,3
+nyc,New York,2026-11-19,BX1103,Pelham Gardens,Bronx,21,streets,3
+nyc,New York,2026-11-19,BX1101,Pelham Parkway-Van Nest,Bronx,35,heat,11
+nyc,New York,2026-11-19,BX1101,Pelham Parkway-Van Nest,Bronx,35,parking,6
+nyc,New York,2026-11-19,BX1101,Pelham Parkway-Van Nest,Bronx,35,trash,6
+nyc,New York,2026-11-19,BX1101,Pelham Parkway-Van Nest,Bronx,35,housing,4
+nyc,New York,2026-11-19,BX1101,Pelham Parkway-Van Nest,Bronx,35,noise,3
+nyc,New York,2026-11-19,QN0802,Pomonok-Electchester-Hillcrest,Queens,76,noise,46
+nyc,New York,2026-11-19,QN0802,Pomonok-Electchester-Hillcrest,Queens,76,parking,15
+nyc,New York,2026-11-19,QN0802,Pomonok-Electchester-Hillcrest,Queens,76,streets,11
+nyc,New York,2026-11-19,SI0106,Port Richmond,Staten Island,20,noise,6
+nyc,New York,2026-11-19,SI0106,Port Richmond,Staten Island,20,streets,5
+nyc,New York,2026-11-19,SI0106,Port Richmond,Staten Island,20,parking,4
+nyc,New York,2026-11-19,BK0801,Prospect Heights,Brooklyn,38,parking,17
+nyc,New York,2026-11-19,BK0801,Prospect Heights,Brooklyn,38,noise,11
+nyc,New York,2026-11-19,BK0801,Prospect Heights,Brooklyn,38,other,4
+nyc,New York,2026-11-19,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,114,housing,37
+nyc,New York,2026-11-19,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,114,noise,22
+nyc,New York,2026-11-19,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,114,parking,20
+nyc,New York,2026-11-19,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,114,heat,18
+nyc,New York,2026-11-19,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,114,streets,6
+nyc,New York,2026-11-19,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,114,other,5
+nyc,New York,2026-11-19,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,114,trash,3
+nyc,New York,2026-11-19,QN1303,Queens Village,Queens,36,parking,12
+nyc,New York,2026-11-19,QN1303,Queens Village,Queens,36,housing,8
+nyc,New York,2026-11-19,QN1303,Queens Village,Queens,36,trash,5
+nyc,New York,2026-11-19,QN1303,Queens Village,Queens,36,water,4
+nyc,New York,2026-11-19,QN0706,Queensboro Hill,Queens,20,parking,12
+nyc,New York,2026-11-19,QN0706,Queensboro Hill,Queens,20,housing,3
+nyc,New York,2026-11-19,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,55,noise,16
+nyc,New York,2026-11-19,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,55,parking,14
+nyc,New York,2026-11-19,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,55,streets,10
+nyc,New York,2026-11-19,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,55,other,6
+nyc,New York,2026-11-19,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,55,trash,5
+nyc,New York,2026-11-19,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,55,housing,4
+nyc,New York,2026-11-19,MN1191,Randall's Island,Manhattan,6,noise,6
+nyc,New York,2026-11-19,QN0601,Rego Park,Queens,33,parking,15
+nyc,New York,2026-11-19,QN0601,Rego Park,Queens,33,heat,7
+nyc,New York,2026-11-19,QN0601,Rego Park,Queens,33,noise,4
+nyc,New York,2026-11-19,QN0601,Rego Park,Queens,33,other,4
+nyc,New York,2026-11-19,QN0902,Richmond Hill,Queens,43,parking,22
+nyc,New York,2026-11-19,QN0902,Richmond Hill,Queens,43,housing,10
+nyc,New York,2026-11-19,QN0902,Richmond Hill,Queens,43,heat,4
+nyc,New York,2026-11-19,QN0902,Richmond Hill,Queens,43,trash,3
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,parking,30
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,noise,13
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,trash,10
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,housing,7
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,other,7
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,streets,6
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,heat,3
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,trees,3
+nyc,New York,2026-11-19,QN0502,Ridgewood,Queens,84,water,3
+nyc,New York,2026-11-19,BX0803,Riverdale-Spuyten Duyvil,Bronx,47,parking,17
+nyc,New York,2026-11-19,BX0803,Riverdale-Spuyten Duyvil,Bronx,47,housing,6
+nyc,New York,2026-11-19,BX0803,Riverdale-Spuyten Duyvil,Bronx,47,streets,6
+nyc,New York,2026-11-19,BX0803,Riverdale-Spuyten Duyvil,Bronx,47,heat,6
+nyc,New York,2026-11-19,BX0803,Riverdale-Spuyten Duyvil,Bronx,47,other,6
+nyc,New York,2026-11-19,BX0803,Riverdale-Spuyten Duyvil,Bronx,47,noise,5
+nyc,New York,2026-11-19,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,18,housing,5
+nyc,New York,2026-11-19,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,18,parking,4
+nyc,New York,2026-11-19,SI0103,Rosebank-Shore Acres-Park Hill,Staten Island,23,parking,9
+nyc,New York,2026-11-19,SI0103,Rosebank-Shore Acres-Park Hill,Staten Island,23,streets,5
+nyc,New York,2026-11-19,SI0103,Rosebank-Shore Acres-Park Hill,Staten Island,23,trash,3
+nyc,New York,2026-11-19,QN1307,Rosedale,Queens,33,parking,8
+nyc,New York,2026-11-19,QN1307,Rosedale,Queens,33,noise,8
+nyc,New York,2026-11-19,QN1307,Rosedale,Queens,33,housing,5
+nyc,New York,2026-11-19,QN1307,Rosedale,Queens,33,streets,4
+nyc,New York,2026-11-19,QN1307,Rosedale,Queens,33,trash,3
+nyc,New York,2026-11-19,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,77,parking,30
+nyc,New York,2026-11-19,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,77,other,14
+nyc,New York,2026-11-19,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,77,noise,7
+nyc,New York,2026-11-19,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,77,trash,6
+nyc,New York,2026-11-19,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,77,heat,6
+nyc,New York,2026-11-19,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,77,streets,5
+nyc,New York,2026-11-19,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,77,housing,3
+nyc,New York,2026-11-19,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,111,other,42
+nyc,New York,2026-11-19,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,111,housing,20
+nyc,New York,2026-11-19,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,111,parking,14
+nyc,New York,2026-11-19,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,111,noise,13
+nyc,New York,2026-11-19,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,111,trash,13
+nyc,New York,2026-11-19,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,111,streets,6
+nyc,New York,2026-11-19,BX0901,Soundview-Bruckner-Bronx River,Bronx,90,housing,30
+nyc,New York,2026-11-19,BX0901,Soundview-Bruckner-Bronx River,Bronx,90,parking,23
+nyc,New York,2026-11-19,BX0901,Soundview-Bruckner-Bronx River,Bronx,90,noise,14
+nyc,New York,2026-11-19,BX0901,Soundview-Bruckner-Bronx River,Bronx,90,heat,7
+nyc,New York,2026-11-19,BX0901,Soundview-Bruckner-Bronx River,Bronx,90,trash,5
+nyc,New York,2026-11-19,BX0901,Soundview-Bruckner-Bronx River,Bronx,90,streets,5
+nyc,New York,2026-11-19,BX0901,Soundview-Bruckner-Bronx River,Bronx,90,other,5
+nyc,New York,2026-11-19,BX0902,Soundview-Clason Point,Bronx,24,parking,11
+nyc,New York,2026-11-19,BX0902,Soundview-Clason Point,Bronx,24,noise,7
+nyc,New York,2026-11-19,QN1202,South Jamaica,Queens,35,parking,9
+nyc,New York,2026-11-19,QN1202,South Jamaica,Queens,35,housing,7
+nyc,New York,2026-11-19,QN1202,South Jamaica,Queens,35,noise,5
+nyc,New York,2026-11-19,QN1202,South Jamaica,Queens,35,heat,5
+nyc,New York,2026-11-19,QN1202,South Jamaica,Queens,35,streets,3
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,parking,44
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,noise,13
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,streets,9
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,water,6
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,housing,5
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,trash,4
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,heat,3
+nyc,New York,2026-11-19,QN1001,South Ozone Park,Queens,89,trees,3
+nyc,New York,2026-11-19,QN0903,South Richmond Hill,Queens,20,parking,12
+nyc,New York,2026-11-19,BK0103,South Williamsburg,Brooklyn,13,other,4
+nyc,New York,2026-11-19,BK0504,Spring Creek-Starrett City,Brooklyn,76,parking,66
+nyc,New York,2026-11-19,BK0504,Spring Creek-Starrett City,Brooklyn,76,noise,3
+nyc,New York,2026-11-19,BK0504,Spring Creek-Starrett City,Brooklyn,76,housing,3
+nyc,New York,2026-11-19,QN1204,Springfield Gardens (North)-Rochdale Village,Queens,13,parking,7
+nyc,New York,2026-11-19,QN1306,Springfield Gardens (South)-Brookville,Queens,17,parking,6
+nyc,New York,2026-11-19,QN1306,Springfield Gardens (South)-Brookville,Queens,17,trash,3
+nyc,New York,2026-11-19,QN1306,Springfield Gardens (South)-Brookville,Queens,17,streets,3
+nyc,New York,2026-11-19,QN1306,Springfield Gardens (South)-Brookville,Queens,17,housing,3
+nyc,New York,2026-11-19,QN1205,St. Albans,Queens,36,parking,12
+nyc,New York,2026-11-19,QN1205,St. Albans,Queens,36,trash,7
+nyc,New York,2026-11-19,QN1205,St. Albans,Queens,36,housing,6
+nyc,New York,2026-11-19,QN1205,St. Albans,Queens,36,noise,3
+nyc,New York,2026-11-19,QN1205,St. Albans,Queens,36,water,3
+nyc,New York,2026-11-19,SI0101,St. George-New Brighton,Staten Island,28,housing,15
+nyc,New York,2026-11-19,SI0101,St. George-New Brighton,Staten Island,28,streets,6
+nyc,New York,2026-11-19,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,14,noise,4
+nyc,New York,2026-11-19,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,14,housing,4
+nyc,New York,2026-11-19,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,14,other,3
+nyc,New York,2026-11-19,QN0202,Sunnyside,Queens,64,parking,13
+nyc,New York,2026-11-19,QN0202,Sunnyside,Queens,64,noise,12
+nyc,New York,2026-11-19,QN0202,Sunnyside,Queens,64,housing,9
+nyc,New York,2026-11-19,QN0202,Sunnyside,Queens,64,heat,9
+nyc,New York,2026-11-19,QN0202,Sunnyside,Queens,64,other,7
+nyc,New York,2026-11-19,QN0202,Sunnyside,Queens,64,streets,5
+nyc,New York,2026-11-19,QN0202,Sunnyside,Queens,64,trash,5
+nyc,New York,2026-11-19,BK0703,Sunset Park (Central),Brooklyn,32,parking,20
+nyc,New York,2026-11-19,BK0703,Sunset Park (Central),Brooklyn,32,housing,3
+nyc,New York,2026-11-19,BK0703,Sunset Park (Central),Brooklyn,32,streets,3
+nyc,New York,2026-11-19,BK0703,Sunset Park (Central),Brooklyn,32,other,3
+nyc,New York,2026-11-19,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,34,housing,11
+nyc,New York,2026-11-19,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,34,parking,8
+nyc,New York,2026-11-19,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,34,noise,5
+nyc,New York,2026-11-19,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,34,streets,4
+nyc,New York,2026-11-19,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,34,other,3
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,parking,117
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,housing,20
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,noise,7
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,streets,6
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,other,6
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,heat,4
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,critters,4
+nyc,New York,2026-11-19,BK0702,Sunset Park (West),Brooklyn,169,trash,3
+nyc,New York,2026-11-19,BX1002,Throgs Neck-Schuylerville,Bronx,47,parking,18
+nyc,New York,2026-11-19,BX1002,Throgs Neck-Schuylerville,Bronx,47,housing,11
+nyc,New York,2026-11-19,BX1002,Throgs Neck-Schuylerville,Bronx,47,heat,6
+nyc,New York,2026-11-19,BX1002,Throgs Neck-Schuylerville,Bronx,47,noise,4
+nyc,New York,2026-11-19,SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,Staten Island,21,streets,5
+nyc,New York,2026-11-19,SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,Staten Island,21,trash,5
+nyc,New York,2026-11-19,SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,Staten Island,21,housing,4
+nyc,New York,2026-11-19,SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,Staten Island,21,parking,4
+nyc,New York,2026-11-19,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,35,housing,15
+nyc,New York,2026-11-19,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,35,trash,8
+nyc,New York,2026-11-19,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,35,noise,4
+nyc,New York,2026-11-19,SI0305,Tottenville-Charleston,Staten Island,12,parking,3
+nyc,New York,2026-11-19,SI0305,Tottenville-Charleston,Staten Island,12,streets,3
+nyc,New York,2026-11-19,BX0602,Tremont,Bronx,39,housing,12
+nyc,New York,2026-11-19,BX0602,Tremont,Bronx,39,heat,8
+nyc,New York,2026-11-19,BX0602,Tremont,Bronx,39,parking,6
+nyc,New York,2026-11-19,BX0602,Tremont,Bronx,39,trash,5
+nyc,New York,2026-11-19,BX0602,Tremont,Bronx,39,noise,3
+nyc,New York,2026-11-19,MN0102,Tribeca-Civic Center,Manhattan,47,other,14
+nyc,New York,2026-11-19,MN0102,Tribeca-Civic Center,Manhattan,47,parking,11
+nyc,New York,2026-11-19,MN0102,Tribeca-Civic Center,Manhattan,47,noise,6
+nyc,New York,2026-11-19,MN0102,Tribeca-Civic Center,Manhattan,47,housing,5
+nyc,New York,2026-11-19,MN0102,Tribeca-Civic Center,Manhattan,47,trash,5
+nyc,New York,2026-11-19,MN0102,Tribeca-Civic Center,Manhattan,47,streets,4
+nyc,New York,2026-11-19,BX0701,University Heights (North)-Fordham,Bronx,63,housing,21
+nyc,New York,2026-11-19,BX0701,University Heights (North)-Fordham,Bronx,63,noise,13
+nyc,New York,2026-11-19,BX0701,University Heights (North)-Fordham,Bronx,63,heat,10
+nyc,New York,2026-11-19,BX0701,University Heights (North)-Fordham,Bronx,63,other,9
+nyc,New York,2026-11-19,BX0701,University Heights (North)-Fordham,Bronx,63,parking,8
+nyc,New York,2026-11-19,BX0501,University Heights (South)-Morris Heights,Bronx,71,housing,34
+nyc,New York,2026-11-19,BX0501,University Heights (South)-Morris Heights,Bronx,71,heat,12
+nyc,New York,2026-11-19,BX0501,University Heights (South)-Morris Heights,Bronx,71,parking,9
+nyc,New York,2026-11-19,BX0501,University Heights (South)-Morris Heights,Bronx,71,noise,7
+nyc,New York,2026-11-19,BX0501,University Heights (South)-Morris Heights,Bronx,71,streets,5
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,noise,20
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,other,20
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,parking,11
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,housing,10
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,heat,5
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,streets,4
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,trash,3
+nyc,New York,2026-11-19,MN0802,Upper East Side-Carnegie Hill,Manhattan,77,water,3
+nyc,New York,2026-11-19,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,64,parking,14
+nyc,New York,2026-11-19,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,64,other,12
+nyc,New York,2026-11-19,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,64,heat,10
+nyc,New York,2026-11-19,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,64,housing,8
+nyc,New York,2026-11-19,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,64,noise,6
+nyc,New York,2026-11-19,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,64,trash,6
+nyc,New York,2026-11-19,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,64,streets,4
+nyc,New York,2026-11-19,MN0803,Upper East Side-Yorkville,Manhattan,45,housing,14
+nyc,New York,2026-11-19,MN0803,Upper East Side-Yorkville,Manhattan,45,parking,9
+nyc,New York,2026-11-19,MN0803,Upper East Side-Yorkville,Manhattan,45,noise,7
+nyc,New York,2026-11-19,MN0803,Upper East Side-Yorkville,Manhattan,45,other,6
+nyc,New York,2026-11-19,MN0803,Upper East Side-Yorkville,Manhattan,45,heat,3
+nyc,New York,2026-11-19,MN0803,Upper East Side-Yorkville,Manhattan,45,streets,3
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,housing,36
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,other,20
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,heat,15
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,noise,12
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,parking,11
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,trash,7
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,streets,4
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,water,4
+nyc,New York,2026-11-19,MN0702,Upper West Side (Central),Manhattan,112,critters,3
+nyc,New York,2026-11-19,MN0701,Upper West Side-Lincoln Square,Manhattan,56,other,25
+nyc,New York,2026-11-19,MN0701,Upper West Side-Lincoln Square,Manhattan,56,heat,10
+nyc,New York,2026-11-19,MN0701,Upper West Side-Lincoln Square,Manhattan,56,noise,6
+nyc,New York,2026-11-19,MN0701,Upper West Side-Lincoln Square,Manhattan,56,housing,4
+nyc,New York,2026-11-19,MN0701,Upper West Side-Lincoln Square,Manhattan,56,trash,4
+nyc,New York,2026-11-19,MN0701,Upper West Side-Lincoln Square,Manhattan,56,parking,3
+nyc,New York,2026-11-19,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,housing,14
+nyc,New York,2026-11-19,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,noise,11
+nyc,New York,2026-11-19,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,heat,11
+nyc,New York,2026-11-19,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,parking,6
+nyc,New York,2026-11-19,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,other,4
+nyc,New York,2026-11-19,BX1203,Wakefield-Woodlawn,Bronx,66,parking,22
+nyc,New York,2026-11-19,BX1203,Wakefield-Woodlawn,Bronx,66,heat,17
+nyc,New York,2026-11-19,BX1203,Wakefield-Woodlawn,Bronx,66,housing,11
+nyc,New York,2026-11-19,BX1203,Wakefield-Woodlawn,Bronx,66,streets,5
+nyc,New York,2026-11-19,BX1203,Wakefield-Woodlawn,Bronx,66,noise,4
+nyc,New York,2026-11-19,BX1203,Wakefield-Woodlawn,Bronx,66,trash,3
+nyc,New York,2026-11-19,MN1202,Washington Heights (North),Manhattan,125,housing,42
+nyc,New York,2026-11-19,MN1202,Washington Heights (North),Manhattan,125,noise,33
+nyc,New York,2026-11-19,MN1202,Washington Heights (North),Manhattan,125,heat,25
+nyc,New York,2026-11-19,MN1202,Washington Heights (North),Manhattan,125,parking,13
+nyc,New York,2026-11-19,MN1202,Washington Heights (North),Manhattan,125,other,5
+nyc,New York,2026-11-19,MN1202,Washington Heights (North),Manhattan,125,trash,4
+nyc,New York,2026-11-19,MN1201,Washington Heights (South),Manhattan,247,housing,108
+nyc,New York,2026-11-19,MN1201,Washington Heights (South),Manhattan,247,noise,93
+nyc,New York,2026-11-19,MN1201,Washington Heights (South),Manhattan,247,heat,24
+nyc,New York,2026-11-19,MN1201,Washington Heights (South),Manhattan,247,parking,8
+nyc,New York,2026-11-19,MN1201,Washington Heights (South),Manhattan,247,other,7
+nyc,New York,2026-11-19,BX0601,West Farms,Bronx,27,heat,9
+nyc,New York,2026-11-19,BX0601,West Farms,Bronx,27,parking,8
+nyc,New York,2026-11-19,BX0601,West Farms,Bronx,27,streets,3
+nyc,New York,2026-11-19,SI0104,West New Brighton-Silver Lake-Grymes Hill,Staten Island,26,streets,7
+nyc,New York,2026-11-19,SI0104,West New Brighton-Silver Lake-Grymes Hill,Staten Island,26,parking,7
+nyc,New York,2026-11-19,SI0104,West New Brighton-Silver Lake-Grymes Hill,Staten Island,26,trash,5
+nyc,New York,2026-11-19,MN0203,West Village,Manhattan,33,other,11
+nyc,New York,2026-11-19,MN0203,West Village,Manhattan,33,trash,5
+nyc,New York,2026-11-19,MN0203,West Village,Manhattan,33,streets,4
+nyc,New York,2026-11-19,MN0203,West Village,Manhattan,33,housing,3
+nyc,New York,2026-11-19,MN0203,West Village,Manhattan,33,heat,3
+nyc,New York,2026-11-19,MN0203,West Village,Manhattan,33,parking,3
+nyc,New York,2026-11-19,BX1001,Westchester Square,Bronx,12,parking,6
+nyc,New York,2026-11-19,SI0105,Westerleigh-Castleton Corners,Staten Island,25,streets,11
+nyc,New York,2026-11-19,SI0105,Westerleigh-Castleton Corners,Staten Island,25,trash,6
+nyc,New York,2026-11-19,QN0702,Whitestone-Beechhurst,Queens,11,parking,7
+nyc,New York,2026-11-19,BX1201,Williamsbridge-Olinville,Bronx,72,housing,25
+nyc,New York,2026-11-19,BX1201,Williamsbridge-Olinville,Bronx,72,parking,21
+nyc,New York,2026-11-19,BX1201,Williamsbridge-Olinville,Bronx,72,noise,12
+nyc,New York,2026-11-19,BX1201,Williamsbridge-Olinville,Bronx,72,heat,8
+nyc,New York,2026-11-19,BK0102,Williamsburg,Brooklyn,94,housing,23
+nyc,New York,2026-11-19,BK0102,Williamsburg,Brooklyn,94,parking,20
+nyc,New York,2026-11-19,BK0102,Williamsburg,Brooklyn,94,noise,18
+nyc,New York,2026-11-19,BK0102,Williamsburg,Brooklyn,94,other,11
+nyc,New York,2026-11-19,BK0102,Williamsburg,Brooklyn,94,trash,10
+nyc,New York,2026-11-19,BK0102,Williamsburg,Brooklyn,94,heat,4
+nyc,New York,2026-11-19,BK0102,Williamsburg,Brooklyn,94,streets,3
+nyc,New York,2026-11-19,BK0701,Windsor Terrace-South Slope,Brooklyn,38,housing,15
+nyc,New York,2026-11-19,BK0701,Windsor Terrace-South Slope,Brooklyn,38,parking,11
+nyc,New York,2026-11-19,BK0701,Windsor Terrace-South Slope,Brooklyn,38,trash,5
+nyc,New York,2026-11-19,BK0701,Windsor Terrace-South Slope,Brooklyn,38,other,4
+nyc,New York,2026-11-19,QN0905,Woodhaven,Queens,41,parking,27
+nyc,New York,2026-11-19,QN0905,Woodhaven,Queens,41,trash,5
+nyc,New York,2026-11-19,QN0203,Woodside,Queens,48,housing,16
+nyc,New York,2026-11-19,QN0203,Woodside,Queens,48,parking,14
+nyc,New York,2026-11-19,QN0203,Woodside,Queens,48,trash,6
+nyc,New York,2026-11-19,QN0203,Woodside,Queens,48,other,5
+nyc,New York,2026-11-19,QN0203,Woodside,Queens,48,heat,4
 chicago,Chicago,2026-11-09,14,Albany Park,North Side,42,trash,19
 chicago,Chicago,2026-11-09,14,Albany Park,North Side,42,critters,11
 chicago,Chicago,2026-11-09,14,Albany Park,North Side,42,parking,5
@@ -13120,6 +14088,266 @@ chicago,Chicago,2026-11-19,24,West Town,West Side,106,housing,4
 chicago,Chicago,2026-11-19,24,West Town,West Side,106,water,3
 chicago,Chicago,2026-11-19,42,Woodlawn,South Side,13,housing,3
 chicago,Chicago,2026-11-19,42,Woodlawn,South Side,13,parking,3
+chicago,Chicago,2026-11-20,14,Albany Park,North Side,38,critters,14
+chicago,Chicago,2026-11-20,14,Albany Park,North Side,38,trash,14
+chicago,Chicago,2026-11-20,14,Albany Park,North Side,38,trees,3
+chicago,Chicago,2026-11-20,14,Albany Park,North Side,38,streets,3
+chicago,Chicago,2026-11-20,57,Archer Heights,Southwest Side,18,parking,9
+chicago,Chicago,2026-11-20,57,Archer Heights,Southwest Side,18,streets,3
+chicago,Chicago,2026-11-20,57,Archer Heights,Southwest Side,18,trash,3
+chicago,Chicago,2026-11-20,34,Armour Square,South Side,10,trash,7
+chicago,Chicago,2026-11-20,70,Ashburn,Southwest Side,23,trash,8
+chicago,Chicago,2026-11-20,70,Ashburn,Southwest Side,23,streets,4
+chicago,Chicago,2026-11-20,70,Ashburn,Southwest Side,23,water,3
+chicago,Chicago,2026-11-20,70,Ashburn,Southwest Side,23,critters,3
+chicago,Chicago,2026-11-20,71,Auburn Gresham,Southwest Side,39,trash,11
+chicago,Chicago,2026-11-20,71,Auburn Gresham,Southwest Side,39,critters,10
+chicago,Chicago,2026-11-20,71,Auburn Gresham,Southwest Side,39,housing,7
+chicago,Chicago,2026-11-20,71,Auburn Gresham,Southwest Side,39,streets,5
+chicago,Chicago,2026-11-20,71,Auburn Gresham,Southwest Side,39,parking,4
+chicago,Chicago,2026-11-20,25,Austin,West Side,73,trash,32
+chicago,Chicago,2026-11-20,25,Austin,West Side,73,water,10
+chicago,Chicago,2026-11-20,25,Austin,West Side,73,trees,10
+chicago,Chicago,2026-11-20,25,Austin,West Side,73,critters,7
+chicago,Chicago,2026-11-20,25,Austin,West Side,73,parking,6
+chicago,Chicago,2026-11-20,25,Austin,West Side,73,streets,4
+chicago,Chicago,2026-11-20,25,Austin,West Side,73,housing,3
+chicago,Chicago,2026-11-20,45,Avalon Park,South Side,14,trash,5
+chicago,Chicago,2026-11-20,45,Avalon Park,South Side,14,critters,3
+chicago,Chicago,2026-11-20,45,Avalon Park,South Side,14,streets,3
+chicago,Chicago,2026-11-20,21,Avondale,North Side,20,trash,9
+chicago,Chicago,2026-11-20,21,Avondale,North Side,20,streets,3
+chicago,Chicago,2026-11-20,21,Avondale,North Side,20,other,3
+chicago,Chicago,2026-11-20,19,Belmont Cragin,North Side,35,parking,11
+chicago,Chicago,2026-11-20,19,Belmont Cragin,North Side,35,streets,8
+chicago,Chicago,2026-11-20,19,Belmont Cragin,North Side,35,trash,5
+chicago,Chicago,2026-11-20,19,Belmont Cragin,North Side,35,critters,4
+chicago,Chicago,2026-11-20,19,Belmont Cragin,North Side,35,water,3
+chicago,Chicago,2026-11-20,72,Beverly,Southwest Side,31,trash,10
+chicago,Chicago,2026-11-20,72,Beverly,Southwest Side,31,trees,9
+chicago,Chicago,2026-11-20,72,Beverly,Southwest Side,31,water,6
+chicago,Chicago,2026-11-20,72,Beverly,Southwest Side,31,streets,5
+chicago,Chicago,2026-11-20,60,Bridgeport,South Side,30,trash,15
+chicago,Chicago,2026-11-20,60,Bridgeport,South Side,30,trees,6
+chicago,Chicago,2026-11-20,60,Bridgeport,South Side,30,parking,4
+chicago,Chicago,2026-11-20,58,Brighton Park,Southwest Side,25,streets,8
+chicago,Chicago,2026-11-20,58,Brighton Park,Southwest Side,25,parking,8
+chicago,Chicago,2026-11-20,58,Brighton Park,Southwest Side,25,trash,8
+chicago,Chicago,2026-11-20,48,Calumet Heights,South Side,8,parking,3
+chicago,Chicago,2026-11-20,44,Chatham,South Side,22,trash,11
+chicago,Chicago,2026-11-20,44,Chatham,South Side,22,parking,4
+chicago,Chicago,2026-11-20,44,Chatham,South Side,22,critters,3
+chicago,Chicago,2026-11-20,66,Chicago Lawn,Southwest Side,26,trash,8
+chicago,Chicago,2026-11-20,66,Chicago Lawn,Southwest Side,26,parking,5
+chicago,Chicago,2026-11-20,66,Chicago Lawn,Southwest Side,26,streets,5
+chicago,Chicago,2026-11-20,66,Chicago Lawn,Southwest Side,26,water,4
+chicago,Chicago,2026-11-20,64,Clearing,Southwest Side,9,streets,5
+chicago,Chicago,2026-11-20,17,Dunning,North Side,32,trash,12
+chicago,Chicago,2026-11-20,17,Dunning,North Side,32,trees,5
+chicago,Chicago,2026-11-20,17,Dunning,North Side,32,streets,5
+chicago,Chicago,2026-11-20,17,Dunning,North Side,32,parking,4
+chicago,Chicago,2026-11-20,17,Dunning,North Side,32,water,4
+chicago,Chicago,2026-11-20,27,East Garfield Park,West Side,34,trees,17
+chicago,Chicago,2026-11-20,27,East Garfield Park,West Side,34,streets,6
+chicago,Chicago,2026-11-20,27,East Garfield Park,West Side,34,trash,5
+chicago,Chicago,2026-11-20,27,East Garfield Park,West Side,34,parking,3
+chicago,Chicago,2026-11-20,77,Edgewater,North Side,37,trash,12
+chicago,Chicago,2026-11-20,77,Edgewater,North Side,37,critters,7
+chicago,Chicago,2026-11-20,77,Edgewater,North Side,37,streets,6
+chicago,Chicago,2026-11-20,77,Edgewater,North Side,37,housing,5
+chicago,Chicago,2026-11-20,77,Edgewater,North Side,37,parking,3
+chicago,Chicago,2026-11-20,9,Edison Park,North Side,17,trees,14
+chicago,Chicago,2026-11-20,68,Englewood,Southwest Side,33,trash,16
+chicago,Chicago,2026-11-20,68,Englewood,Southwest Side,33,critters,7
+chicago,Chicago,2026-11-20,68,Englewood,Southwest Side,33,housing,4
+chicago,Chicago,2026-11-20,12,Forest Glen,North Side,16,trash,7
+chicago,Chicago,2026-11-20,12,Forest Glen,North Side,16,trees,3
+chicago,Chicago,2026-11-20,12,Forest Glen,North Side,16,streets,3
+chicago,Chicago,2026-11-20,37,Fuller Park,South Side,10,streets,4
+chicago,Chicago,2026-11-20,37,Fuller Park,South Side,10,critters,3
+chicago,Chicago,2026-11-20,63,Gage Park,Southwest Side,33,trash,17
+chicago,Chicago,2026-11-20,63,Gage Park,Southwest Side,33,parking,5
+chicago,Chicago,2026-11-20,63,Gage Park,Southwest Side,33,streets,4
+chicago,Chicago,2026-11-20,63,Gage Park,Southwest Side,33,water,3
+chicago,Chicago,2026-11-20,56,Garfield Ridge,Southwest Side,37,trash,11
+chicago,Chicago,2026-11-20,56,Garfield Ridge,Southwest Side,37,parking,7
+chicago,Chicago,2026-11-20,56,Garfield Ridge,Southwest Side,37,critters,6
+chicago,Chicago,2026-11-20,56,Garfield Ridge,Southwest Side,37,streets,6
+chicago,Chicago,2026-11-20,56,Garfield Ridge,Southwest Side,37,trees,3
+chicago,Chicago,2026-11-20,38,Grand Boulevard,South Side,14,streets,3
+chicago,Chicago,2026-11-20,38,Grand Boulevard,South Side,14,housing,3
+chicago,Chicago,2026-11-20,69,Greater Grand Crossing,South Side,23,trash,8
+chicago,Chicago,2026-11-20,69,Greater Grand Crossing,South Side,23,housing,4
+chicago,Chicago,2026-11-20,69,Greater Grand Crossing,South Side,23,parking,4
+chicago,Chicago,2026-11-20,69,Greater Grand Crossing,South Side,23,trees,3
+chicago,Chicago,2026-11-20,20,Hermosa,North Side,15,trash,6
+chicago,Chicago,2026-11-20,20,Hermosa,North Side,15,parking,5
+chicago,Chicago,2026-11-20,23,Humboldt Park,West Side,54,trash,19
+chicago,Chicago,2026-11-20,23,Humboldt Park,West Side,54,parking,10
+chicago,Chicago,2026-11-20,23,Humboldt Park,West Side,54,critters,7
+chicago,Chicago,2026-11-20,23,Humboldt Park,West Side,54,trees,6
+chicago,Chicago,2026-11-20,23,Humboldt Park,West Side,54,water,4
+chicago,Chicago,2026-11-20,23,Humboldt Park,West Side,54,streets,3
+chicago,Chicago,2026-11-20,23,Humboldt Park,West Side,54,housing,3
+chicago,Chicago,2026-11-20,16,Irving Park,North Side,50,trash,26
+chicago,Chicago,2026-11-20,16,Irving Park,North Side,50,parking,9
+chicago,Chicago,2026-11-20,16,Irving Park,North Side,50,critters,5
+chicago,Chicago,2026-11-20,16,Irving Park,North Side,50,streets,4
+chicago,Chicago,2026-11-20,16,Irving Park,North Side,50,water,4
+chicago,Chicago,2026-11-20,11,Jefferson Park,North Side,27,critters,8
+chicago,Chicago,2026-11-20,11,Jefferson Park,North Side,27,trees,6
+chicago,Chicago,2026-11-20,11,Jefferson Park,North Side,27,trash,6
+chicago,Chicago,2026-11-20,39,Kenwood,South Side,3,streets,3
+chicago,Chicago,2026-11-20,6,Lake View,North Side,92,trash,52
+chicago,Chicago,2026-11-20,6,Lake View,North Side,92,critters,10
+chicago,Chicago,2026-11-20,6,Lake View,North Side,92,parking,9
+chicago,Chicago,2026-11-20,6,Lake View,North Side,92,streets,7
+chicago,Chicago,2026-11-20,6,Lake View,North Side,92,other,5
+chicago,Chicago,2026-11-20,6,Lake View,North Side,92,housing,5
+chicago,Chicago,2026-11-20,6,Lake View,North Side,92,trees,4
+chicago,Chicago,2026-11-20,7,Lincoln Park,North Side,106,trash,72
+chicago,Chicago,2026-11-20,7,Lincoln Park,North Side,106,parking,9
+chicago,Chicago,2026-11-20,7,Lincoln Park,North Side,106,critters,8
+chicago,Chicago,2026-11-20,7,Lincoln Park,North Side,106,water,6
+chicago,Chicago,2026-11-20,7,Lincoln Park,North Side,106,streets,5
+chicago,Chicago,2026-11-20,7,Lincoln Park,North Side,106,trees,4
+chicago,Chicago,2026-11-20,4,Lincoln Square,North Side,42,trash,23
+chicago,Chicago,2026-11-20,4,Lincoln Square,North Side,42,critters,8
+chicago,Chicago,2026-11-20,4,Lincoln Square,North Side,42,streets,4
+chicago,Chicago,2026-11-20,4,Lincoln Square,North Side,42,other,3
+chicago,Chicago,2026-11-20,22,Logan Square,North Side,107,trash,53
+chicago,Chicago,2026-11-20,22,Logan Square,North Side,107,streets,23
+chicago,Chicago,2026-11-20,22,Logan Square,North Side,107,parking,11
+chicago,Chicago,2026-11-20,22,Logan Square,North Side,107,critters,8
+chicago,Chicago,2026-11-20,22,Logan Square,North Side,107,housing,6
+chicago,Chicago,2026-11-20,22,Logan Square,North Side,107,trees,4
+chicago,Chicago,2026-11-20,31,Lower West Side,West Side,43,trash,23
+chicago,Chicago,2026-11-20,31,Lower West Side,West Side,43,parking,5
+chicago,Chicago,2026-11-20,31,Lower West Side,West Side,43,streets,5
+chicago,Chicago,2026-11-20,31,Lower West Side,West Side,43,critters,4
+chicago,Chicago,2026-11-20,31,Lower West Side,West Side,43,water,3
+chicago,Chicago,2026-11-20,59,McKinley Park,Southwest Side,10,trash,4
+chicago,Chicago,2026-11-20,18,Montclare,North Side,9,trash,4
+chicago,Chicago,2026-11-20,75,Morgan Park,Southwest Side,30,trash,10
+chicago,Chicago,2026-11-20,75,Morgan Park,Southwest Side,30,trees,5
+chicago,Chicago,2026-11-20,75,Morgan Park,Southwest Side,30,critters,5
+chicago,Chicago,2026-11-20,75,Morgan Park,Southwest Side,30,streets,4
+chicago,Chicago,2026-11-20,75,Morgan Park,Southwest Side,30,housing,3
+chicago,Chicago,2026-11-20,74,Mount Greenwood,Southwest Side,8,trees,4
+chicago,Chicago,2026-11-20,8,Near North Side,Downtown,45,streets,11
+chicago,Chicago,2026-11-20,8,Near North Side,Downtown,45,parking,8
+chicago,Chicago,2026-11-20,8,Near North Side,Downtown,45,other,7
+chicago,Chicago,2026-11-20,8,Near North Side,Downtown,45,trash,6
+chicago,Chicago,2026-11-20,8,Near North Side,Downtown,45,critters,6
+chicago,Chicago,2026-11-20,8,Near North Side,Downtown,45,trees,4
+chicago,Chicago,2026-11-20,33,Near South Side,Downtown,12,trash,4
+chicago,Chicago,2026-11-20,28,Near West Side,West Side,47,trash,17
+chicago,Chicago,2026-11-20,28,Near West Side,West Side,47,streets,13
+chicago,Chicago,2026-11-20,28,Near West Side,West Side,47,critters,6
+chicago,Chicago,2026-11-20,28,Near West Side,West Side,47,housing,3
+chicago,Chicago,2026-11-20,28,Near West Side,West Side,47,water,3
+chicago,Chicago,2026-11-20,61,New City,Southwest Side,31,critters,9
+chicago,Chicago,2026-11-20,61,New City,Southwest Side,31,parking,7
+chicago,Chicago,2026-11-20,61,New City,Southwest Side,31,trees,6
+chicago,Chicago,2026-11-20,61,New City,Southwest Side,31,streets,5
+chicago,Chicago,2026-11-20,61,New City,Southwest Side,31,water,3
+chicago,Chicago,2026-11-20,5,North Center,North Side,67,trees,28
+chicago,Chicago,2026-11-20,5,North Center,North Side,67,trash,26
+chicago,Chicago,2026-11-20,5,North Center,North Side,67,streets,5
+chicago,Chicago,2026-11-20,5,North Center,North Side,67,parking,4
+chicago,Chicago,2026-11-20,29,North Lawndale,West Side,35,trees,19
+chicago,Chicago,2026-11-20,29,North Lawndale,West Side,35,critters,6
+chicago,Chicago,2026-11-20,29,North Lawndale,West Side,35,parking,4
+chicago,Chicago,2026-11-20,29,North Lawndale,West Side,35,trash,4
+chicago,Chicago,2026-11-20,13,North Park,North Side,18,trees,8
+chicago,Chicago,2026-11-20,13,North Park,North Side,18,trash,7
+chicago,Chicago,2026-11-20,10,Norwood Park,North Side,44,trees,23
+chicago,Chicago,2026-11-20,10,Norwood Park,North Side,44,water,5
+chicago,Chicago,2026-11-20,10,Norwood Park,North Side,44,trash,5
+chicago,Chicago,2026-11-20,10,Norwood Park,North Side,44,streets,4
+chicago,Chicago,2026-11-20,10,Norwood Park,North Side,44,critters,3
+chicago,Chicago,2026-11-20,76,O'Hare,North Side,9,streets,5
+chicago,Chicago,2026-11-20,15,Portage Park,North Side,49,trash,23
+chicago,Chicago,2026-11-20,15,Portage Park,North Side,49,critters,10
+chicago,Chicago,2026-11-20,15,Portage Park,North Side,49,streets,7
+chicago,Chicago,2026-11-20,15,Portage Park,North Side,49,water,5
+chicago,Chicago,2026-11-20,15,Portage Park,North Side,49,parking,3
+chicago,Chicago,2026-11-20,50,Pullman,South Side,7,trash,6
+chicago,Chicago,2026-11-20,1,Rogers Park,North Side,36,trash,12
+chicago,Chicago,2026-11-20,1,Rogers Park,North Side,36,critters,7
+chicago,Chicago,2026-11-20,1,Rogers Park,North Side,36,housing,6
+chicago,Chicago,2026-11-20,1,Rogers Park,North Side,36,parking,4
+chicago,Chicago,2026-11-20,1,Rogers Park,North Side,36,trees,3
+chicago,Chicago,2026-11-20,1,Rogers Park,North Side,36,streets,3
+chicago,Chicago,2026-11-20,49,Roseland,South Side,29,trees,6
+chicago,Chicago,2026-11-20,49,Roseland,South Side,29,critters,5
+chicago,Chicago,2026-11-20,49,Roseland,South Side,29,parking,5
+chicago,Chicago,2026-11-20,49,Roseland,South Side,29,trash,4
+chicago,Chicago,2026-11-20,49,Roseland,South Side,29,housing,3
+chicago,Chicago,2026-11-20,49,Roseland,South Side,29,water,3
+chicago,Chicago,2026-11-20,46,South Chicago,South Side,11,trash,5
+chicago,Chicago,2026-11-20,46,South Chicago,South Side,11,critters,3
+chicago,Chicago,2026-11-20,46,South Chicago,South Side,11,streets,3
+chicago,Chicago,2026-11-20,51,South Deering,South Side,13,trash,4
+chicago,Chicago,2026-11-20,51,South Deering,South Side,13,trees,4
+chicago,Chicago,2026-11-20,51,South Deering,South Side,13,parking,3
+chicago,Chicago,2026-11-20,30,South Lawndale,West Side,52,trash,24
+chicago,Chicago,2026-11-20,30,South Lawndale,West Side,52,critters,9
+chicago,Chicago,2026-11-20,30,South Lawndale,West Side,52,streets,8
+chicago,Chicago,2026-11-20,30,South Lawndale,West Side,52,trees,5
+chicago,Chicago,2026-11-20,43,South Shore,South Side,25,trash,14
+chicago,Chicago,2026-11-20,43,South Shore,South Side,25,housing,3
+chicago,Chicago,2026-11-20,43,South Shore,South Side,25,parking,3
+chicago,Chicago,2026-11-20,43,South Shore,South Side,25,critters,3
+chicago,Chicago,2026-11-20,32,The Loop,Downtown,60,trash,37
+chicago,Chicago,2026-11-20,32,The Loop,Downtown,60,other,10
+chicago,Chicago,2026-11-20,32,The Loop,Downtown,60,streets,4
+chicago,Chicago,2026-11-20,32,The Loop,Downtown,60,housing,4
+chicago,Chicago,2026-11-20,32,The Loop,Downtown,60,parking,3
+chicago,Chicago,2026-11-20,3,Uptown,North Side,37,trash,24
+chicago,Chicago,2026-11-20,3,Uptown,North Side,37,housing,4
+chicago,Chicago,2026-11-20,3,Uptown,North Side,37,critters,3
+chicago,Chicago,2026-11-20,3,Uptown,North Side,37,water,3
+chicago,Chicago,2026-11-20,73,Washington Heights,Southwest Side,23,trash,5
+chicago,Chicago,2026-11-20,73,Washington Heights,Southwest Side,23,critters,5
+chicago,Chicago,2026-11-20,73,Washington Heights,Southwest Side,23,trees,4
+chicago,Chicago,2026-11-20,73,Washington Heights,Southwest Side,23,streets,4
+chicago,Chicago,2026-11-20,73,Washington Heights,Southwest Side,23,parking,3
+chicago,Chicago,2026-11-20,40,Washington Park,South Side,15,parking,9
+chicago,Chicago,2026-11-20,40,Washington Park,South Side,15,housing,4
+chicago,Chicago,2026-11-20,62,West Elsdon,Southwest Side,19,streets,7
+chicago,Chicago,2026-11-20,62,West Elsdon,Southwest Side,19,parking,6
+chicago,Chicago,2026-11-20,67,West Englewood,Southwest Side,40,trash,14
+chicago,Chicago,2026-11-20,67,West Englewood,Southwest Side,40,critters,12
+chicago,Chicago,2026-11-20,67,West Englewood,Southwest Side,40,parking,6
+chicago,Chicago,2026-11-20,67,West Englewood,Southwest Side,40,trees,3
+chicago,Chicago,2026-11-20,26,West Garfield Park,West Side,22,trash,8
+chicago,Chicago,2026-11-20,26,West Garfield Park,West Side,22,critters,5
+chicago,Chicago,2026-11-20,26,West Garfield Park,West Side,22,housing,4
+chicago,Chicago,2026-11-20,26,West Garfield Park,West Side,22,streets,3
+chicago,Chicago,2026-11-20,65,West Lawn,Southwest Side,17,streets,10
+chicago,Chicago,2026-11-20,65,West Lawn,Southwest Side,17,trash,6
+chicago,Chicago,2026-11-20,53,West Pullman,South Side,29,trees,9
+chicago,Chicago,2026-11-20,53,West Pullman,South Side,29,trash,7
+chicago,Chicago,2026-11-20,53,West Pullman,South Side,29,critters,6
+chicago,Chicago,2026-11-20,53,West Pullman,South Side,29,water,4
+chicago,Chicago,2026-11-20,2,West Ridge,North Side,57,water,17
+chicago,Chicago,2026-11-20,2,West Ridge,North Side,57,trees,10
+chicago,Chicago,2026-11-20,2,West Ridge,North Side,57,trash,9
+chicago,Chicago,2026-11-20,2,West Ridge,North Side,57,critters,6
+chicago,Chicago,2026-11-20,2,West Ridge,North Side,57,streets,6
+chicago,Chicago,2026-11-20,2,West Ridge,North Side,57,housing,4
+chicago,Chicago,2026-11-20,2,West Ridge,North Side,57,parking,4
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,trash,40
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,trees,13
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,streets,13
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,parking,10
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,critters,9
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,housing,7
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,water,5
+chicago,Chicago,2026-11-20,24,West Town,West Side,100,other,3
+chicago,Chicago,2026-11-20,42,Woodlawn,South Side,16,parking,6
+chicago,Chicago,2026-11-20,42,Woodlawn,South Side,16,trash,4
 la,Los Angeles,2026-11-09,6,Arleta,East Valley,14,other,5
 la,Los Angeles,2026-11-09,6,Arleta,East Valley,14,trash,3
 la,Los Angeles,2026-11-09,6,Arleta,East Valley,14,trees,3
@@ -15794,6 +17022,242 @@ la,Los Angeles,2026-11-19,16,Woodland Hills-warner Center,West Valley,46,water,3
 la,Los Angeles,2026-11-19,125,Zapata King,South LA,29,trash,17
 la,Los Angeles,2026-11-19,125,Zapata King,South LA,29,other,5
 la,Los Angeles,2026-11-19,125,Zapata King,South LA,29,streets,4
+la,Los Angeles,2026-11-20,6,Arleta,East Valley,28,trash,21
+la,Los Angeles,2026-11-20,6,Arleta,East Valley,28,housing,4
+la,Los Angeles,2026-11-20,42,Arroyo Seco,Eastside,18,streets,6
+la,Los Angeles,2026-11-20,42,Arroyo Seco,Eastside,18,trash,6
+la,Los Angeles,2026-11-20,46,Arts District Little Tokyo,Central LA,12,parking,5
+la,Los Angeles,2026-11-20,46,Arts District Little Tokyo,Central LA,12,streets,4
+la,Los Angeles,2026-11-20,37,Atwater Village,Eastside,15,trash,6
+la,Los Angeles,2026-11-20,37,Atwater Village,Eastside,15,streets,5
+la,Los Angeles,2026-11-20,64,Bel Air-beverly Crest,Westside,25,trash,13
+la,Los Angeles,2026-11-20,64,Bel Air-beverly Crest,Westside,25,streets,8
+la,Los Angeles,2026-11-20,50,Boyle Heights,Eastside,44,trash,26
+la,Los Angeles,2026-11-20,50,Boyle Heights,Eastside,44,streets,9
+la,Los Angeles,2026-11-20,50,Boyle Heights,Eastside,44,trees,4
+la,Los Angeles,2026-11-20,13,Canoga Park,West Valley,33,trash,16
+la,Los Angeles,2026-11-20,13,Canoga Park,West Valley,33,other,10
+la,Los Angeles,2026-11-20,13,Canoga Park,West Valley,33,streets,4
+la,Los Angeles,2026-11-20,110,Central Alameda,South LA,18,trash,12
+la,Los Angeles,2026-11-20,110,Central Alameda,South LA,18,streets,3
+la,Los Angeles,2026-11-20,32,Central Hollywood,Central LA,15,trash,7
+la,Los Angeles,2026-11-20,32,Central Hollywood,Central LA,15,streets,3
+la,Los Angeles,2026-11-20,95,Central San Pedro,Harbor,25,trash,16
+la,Los Angeles,2026-11-20,95,Central San Pedro,Harbor,25,streets,5
+la,Los Angeles,2026-11-20,95,Central San Pedro,Harbor,25,trees,3
+la,Los Angeles,2026-11-20,99,Chatsworth,West Valley,10,trash,5
+la,Los Angeles,2026-11-20,99,Chatsworth,West Valley,10,other,4
+la,Los Angeles,2026-11-20,96,Coastal San Pedro,Harbor,21,trees,10
+la,Los Angeles,2026-11-20,96,Coastal San Pedro,Harbor,21,streets,4
+la,Los Angeles,2026-11-20,96,Coastal San Pedro,Harbor,21,trash,4
+la,Los Angeles,2026-11-20,96,Coastal San Pedro,Harbor,21,critters,3
+la,Los Angeles,2026-11-20,86,Community And Neighbors For Ninth District Unity (canndu),South LA,31,trash,21
+la,Los Angeles,2026-11-20,86,Community And Neighbors For Ninth District Unity (canndu),South LA,31,other,5
+la,Los Angeles,2026-11-20,86,Community And Neighbors For Ninth District Unity (canndu),South LA,31,streets,3
+la,Los Angeles,2026-11-20,70,Del Rey,Westside,21,other,14
+la,Los Angeles,2026-11-20,70,Del Rey,Westside,21,streets,4
+la,Los Angeles,2026-11-20,70,Del Rey,Westside,21,trash,3
+la,Los Angeles,2026-11-20,52,Downtown Los Angeles,Central LA,103,trash,49
+la,Los Angeles,2026-11-20,52,Downtown Los Angeles,Central LA,103,other,29
+la,Los Angeles,2026-11-20,52,Downtown Los Angeles,Central LA,103,streets,15
+la,Los Angeles,2026-11-20,52,Downtown Los Angeles,Central LA,103,water,4
+la,Los Angeles,2026-11-20,34,East Hollywood,Central LA,50,trash,40
+la,Los Angeles,2026-11-20,34,East Hollywood,Central LA,50,streets,4
+la,Los Angeles,2026-11-20,34,East Hollywood,Central LA,50,other,3
+la,Los Angeles,2026-11-20,44,Echo Park,Eastside,48,trash,33
+la,Los Angeles,2026-11-20,44,Echo Park,Eastside,48,streets,7
+la,Los Angeles,2026-11-20,44,Echo Park,Eastside,48,other,4
+la,Los Angeles,2026-11-20,81,Empowerment Congress Central Area,South LA,34,trash,23
+la,Los Angeles,2026-11-20,81,Empowerment Congress Central Area,South LA,34,trees,5
+la,Los Angeles,2026-11-20,81,Empowerment Congress Central Area,South LA,34,other,4
+la,Los Angeles,2026-11-20,77,Empowerment Congress North Area,South LA,18,trash,9
+la,Los Angeles,2026-11-20,77,Empowerment Congress North Area,South LA,18,streets,6
+la,Los Angeles,2026-11-20,87,Empowerment Congress Southeast Area,South LA,61,trash,51
+la,Los Angeles,2026-11-20,87,Empowerment Congress Southeast Area,South LA,61,streets,4
+la,Los Angeles,2026-11-20,87,Empowerment Congress Southeast Area,South LA,61,trees,3
+la,Los Angeles,2026-11-20,84,Empowerment Congress Southwest Area,South LA,29,trash,18
+la,Los Angeles,2026-11-20,84,Empowerment Congress Southwest Area,South LA,29,trees,6
+la,Los Angeles,2026-11-20,79,Empowerment Congress West Area,South LA,41,streets,18
+la,Los Angeles,2026-11-20,79,Empowerment Congress West Area,South LA,41,trash,11
+la,Los Angeles,2026-11-20,79,Empowerment Congress West Area,South LA,41,other,5
+la,Los Angeles,2026-11-20,79,Empowerment Congress West Area,South LA,41,trees,3
+la,Los Angeles,2026-11-20,18,Encino,West Valley,64,trash,43
+la,Los Angeles,2026-11-20,18,Encino,West Valley,64,streets,11
+la,Los Angeles,2026-11-20,18,Encino,West Valley,64,other,6
+la,Los Angeles,2026-11-20,9,Foothill Trails District,East Valley,9,trash,7
+la,Los Angeles,2026-11-20,4,Granada Hills North,West Valley,13,streets,6
+la,Los Angeles,2026-11-20,4,Granada Hills North,West Valley,13,trash,4
+la,Los Angeles,2026-11-20,4,Granada Hills North,West Valley,13,critters,3
+la,Los Angeles,2026-11-20,118,Granada Hills South,West Valley,11,trash,7
+la,Los Angeles,2026-11-20,28,Greater Toluca Lake,East Valley,9,trash,6
+la,Los Angeles,2026-11-20,21,Greater Valley Glen,East Valley,29,trash,23
+la,Los Angeles,2026-11-20,21,Greater Valley Glen,East Valley,29,other,3
+la,Los Angeles,2026-11-20,119,Greater Wilshire,Central LA,38,trash,21
+la,Los Angeles,2026-11-20,119,Greater Wilshire,Central LA,38,streets,10
+la,Los Angeles,2026-11-20,119,Greater Wilshire,Central LA,38,trees,5
+la,Los Angeles,2026-11-20,92,Harbor City,Harbor,16,trash,11
+la,Los Angeles,2026-11-20,90,Harbor Gateway North,Harbor,28,trash,25
+la,Los Angeles,2026-11-20,91,Harbor Gateway South,Harbor,52,trash,52
+la,Los Angeles,2026-11-20,128,Historic Cultural North,Central LA,18,trash,10
+la,Los Angeles,2026-11-20,128,Historic Cultural North,Central LA,18,parking,3
+la,Los Angeles,2026-11-20,41,Historic Highland Park,Eastside,36,trash,25
+la,Los Angeles,2026-11-20,41,Historic Highland Park,Eastside,36,other,5
+la,Los Angeles,2026-11-20,29,Hollywood Hills West,Central LA,59,trash,22
+la,Los Angeles,2026-11-20,29,Hollywood Hills West,Central LA,59,streets,16
+la,Los Angeles,2026-11-20,29,Hollywood Hills West,Central LA,59,parking,8
+la,Los Angeles,2026-11-20,29,Hollywood Hills West,Central LA,59,trees,6
+la,Los Angeles,2026-11-20,29,Hollywood Hills West,Central LA,59,other,4
+la,Los Angeles,2026-11-20,29,Hollywood Hills West,Central LA,59,critters,3
+la,Los Angeles,2026-11-20,33,Hollywood Studio District,Central LA,26,trash,19
+la,Los Angeles,2026-11-20,33,Hollywood Studio District,Central LA,26,streets,4
+la,Los Angeles,2026-11-20,30,Hollywood United,Central LA,36,trash,18
+la,Los Angeles,2026-11-20,30,Hollywood United,Central LA,36,streets,8
+la,Los Angeles,2026-11-20,30,Hollywood United,Central LA,36,other,7
+la,Los Angeles,2026-11-20,48,LA-32,Eastside,28,trash,18
+la,Los Angeles,2026-11-20,48,LA-32,Eastside,28,streets,9
+la,Los Angeles,2026-11-20,19,Lake Balboa,West Valley,51,trash,29
+la,Los Angeles,2026-11-20,19,Lake Balboa,West Valley,51,other,11
+la,Los Angeles,2026-11-20,19,Lake Balboa,West Valley,51,streets,10
+la,Los Angeles,2026-11-20,47,Lincoln Heights,Eastside,32,trash,20
+la,Los Angeles,2026-11-20,47,Lincoln Heights,Eastside,32,trees,7
+la,Los Angeles,2026-11-20,36,Los Feliz,Eastside,28,trash,21
+la,Los Angeles,2026-11-20,36,Los Feliz,Eastside,28,streets,3
+la,Los Angeles,2026-11-20,54,Macarthur Park,Central LA,22,trash,10
+la,Los Angeles,2026-11-20,54,Macarthur Park,Central LA,22,trees,5
+la,Los Angeles,2026-11-20,54,Macarthur Park,Central LA,22,other,3
+la,Los Angeles,2026-11-20,67,Mar Vista,Westside,36,trash,18
+la,Los Angeles,2026-11-20,67,Mar Vista,Westside,36,trees,8
+la,Los Angeles,2026-11-20,67,Mar Vista,Westside,36,streets,6
+la,Los Angeles,2026-11-20,73,Mid City,South LA,30,trash,16
+la,Los Angeles,2026-11-20,73,Mid City,South LA,30,streets,6
+la,Los Angeles,2026-11-20,73,Mid City,South LA,30,critters,4
+la,Los Angeles,2026-11-20,58,Mid City West,Central LA,49,trash,35
+la,Los Angeles,2026-11-20,58,Mid City West,Central LA,49,streets,8
+la,Los Angeles,2026-11-20,58,Mid City West,Central LA,49,other,4
+la,Los Angeles,2026-11-20,101,Mission Hills,East Valley,8,streets,5
+la,Los Angeles,2026-11-20,24,NoHo,East Valley,37,trash,17
+la,Los Angeles,2026-11-20,24,NoHo,East Valley,37,other,9
+la,Los Angeles,2026-11-20,24,NoHo,East Valley,37,parking,6
+la,Los Angeles,2026-11-20,24,NoHo,East Valley,37,streets,3
+la,Los Angeles,2026-11-20,22,NoHo West,East Valley,26,trash,21
+la,Los Angeles,2026-11-20,22,NoHo West,East Valley,26,streets,3
+la,Los Angeles,2026-11-20,112,North Hills East,West Valley,10,trash,8
+la,Los Angeles,2026-11-20,23,North Hollywood Northeast,East Valley,39,trash,28
+la,Los Angeles,2026-11-20,23,North Hollywood Northeast,East Valley,39,streets,6
+la,Los Angeles,2026-11-20,127,North Westwood,Westside,6,trash,3
+la,Los Angeles,2026-11-20,120,Northridge East,West Valley,11,trash,4
+la,Los Angeles,2026-11-20,120,Northridge East,West Valley,11,trees,3
+la,Los Angeles,2026-11-20,124,Northridge South,West Valley,25,trash,13
+la,Los Angeles,2026-11-20,124,Northridge South,West Valley,25,streets,8
+la,Los Angeles,2026-11-20,113,Northridge West,West Valley,9,trash,8
+la,Los Angeles,2026-11-20,94,Northwest San Pedro,Harbor,15,trash,6
+la,Los Angeles,2026-11-20,94,Northwest San Pedro,Harbor,15,streets,3
+la,Los Angeles,2026-11-20,94,Northwest San Pedro,Harbor,15,trees,3
+la,Los Angeles,2026-11-20,104,Olympic Park,Central LA,10,trees,4
+la,Los Angeles,2026-11-20,104,Olympic Park,Central LA,10,trash,3
+la,Los Angeles,2026-11-20,104,Olympic Park,Central LA,10,streets,3
+la,Los Angeles,2026-11-20,60,P.i.c.o.,Central LA,34,trash,23
+la,Los Angeles,2026-11-20,60,P.i.c.o.,Central LA,34,streets,5
+la,Los Angeles,2026-11-20,60,P.i.c.o.,Central LA,34,trees,4
+la,Los Angeles,2026-11-20,7,Pacoima,East Valley,36,trash,25
+la,Los Angeles,2026-11-20,7,Pacoima,East Valley,36,other,7
+la,Los Angeles,2026-11-20,7,Pacoima,East Valley,36,streets,3
+la,Los Angeles,2026-11-20,115,Palms,Westside,31,trash,12
+la,Los Angeles,2026-11-20,115,Palms,Westside,31,other,9
+la,Los Angeles,2026-11-20,115,Palms,Westside,31,parking,6
+la,Los Angeles,2026-11-20,100,Panorama City,East Valley,30,trash,28
+la,Los Angeles,2026-11-20,80,Park Mesa Heights,South LA,35,trash,26
+la,Los Angeles,2026-11-20,80,Park Mesa Heights,South LA,35,trees,6
+la,Los Angeles,2026-11-20,76,Pico Union,Central LA,34,trash,25
+la,Los Angeles,2026-11-20,76,Pico Union,Central LA,34,streets,4
+la,Los Angeles,2026-11-20,76,Pico Union,Central LA,34,other,3
+la,Los Angeles,2026-11-20,53,Rampart Village,Eastside,25,trash,15
+la,Los Angeles,2026-11-20,53,Rampart Village,Eastside,25,streets,6
+la,Los Angeles,2026-11-20,15,Reseda,West Valley,40,trash,22
+la,Los Angeles,2026-11-20,15,Reseda,West Valley,40,streets,8
+la,Los Angeles,2026-11-20,15,Reseda,West Valley,40,other,4
+la,Los Angeles,2026-11-20,15,Reseda,West Valley,40,trees,3
+la,Los Angeles,2026-11-20,26,Sherman Oaks,East Valley,59,trash,24
+la,Los Angeles,2026-11-20,26,Sherman Oaks,East Valley,59,streets,19
+la,Los Angeles,2026-11-20,26,Sherman Oaks,East Valley,59,water,7
+la,Los Angeles,2026-11-20,26,Sherman Oaks,East Valley,59,other,4
+la,Los Angeles,2026-11-20,26,Sherman Oaks,East Valley,59,critters,3
+la,Los Angeles,2026-11-20,38,Silver Lake,Eastside,34,trash,21
+la,Los Angeles,2026-11-20,38,Silver Lake,Eastside,34,streets,8
+la,Los Angeles,2026-11-20,38,Silver Lake,Eastside,34,other,3
+la,Los Angeles,2026-11-20,78,South Central,South LA,53,trash,30
+la,Los Angeles,2026-11-20,78,South Central,South LA,53,streets,15
+la,Los Angeles,2026-11-20,78,South Central,South LA,53,other,5
+la,Los Angeles,2026-11-20,61,South Robertson,Westside,62,trash,38
+la,Los Angeles,2026-11-20,61,South Robertson,Westside,62,streets,10
+la,Los Angeles,2026-11-20,61,South Robertson,Westside,62,trees,5
+la,Los Angeles,2026-11-20,61,South Robertson,Westside,62,parking,5
+la,Los Angeles,2026-11-20,27,Studio City,East Valley,15,streets,5
+la,Los Angeles,2026-11-20,27,Studio City,East Valley,15,water,4
+la,Los Angeles,2026-11-20,27,Studio City,East Valley,15,trash,3
+la,Los Angeles,2026-11-20,8,Sun Valley Area,East Valley,25,trash,18
+la,Los Angeles,2026-11-20,8,Sun Valley Area,East Valley,25,streets,4
+la,Los Angeles,2026-11-20,10,Sunland-tujunga,East Valley,20,trash,15
+la,Los Angeles,2026-11-20,10,Sunland-tujunga,East Valley,20,other,3
+la,Los Angeles,2026-11-20,5,Sylmar,East Valley,40,trash,19
+la,Los Angeles,2026-11-20,5,Sylmar,East Valley,40,other,8
+la,Los Angeles,2026-11-20,5,Sylmar,East Valley,40,streets,6
+la,Los Angeles,2026-11-20,5,Sylmar,East Valley,40,critters,5
+la,Los Angeles,2026-11-20,17,Tarzana,West Valley,29,trash,24
+la,Los Angeles,2026-11-20,17,Tarzana,West Valley,29,other,3
+la,Los Angeles,2026-11-20,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,36,trash,29
+la,Los Angeles,2026-11-20,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,36,critters,3
+la,Los Angeles,2026-11-20,25,Valley Village,East Valley,10,trash,5
+la,Los Angeles,2026-11-20,20,Van Nuys,East Valley,77,trash,64
+la,Los Angeles,2026-11-20,20,Van Nuys,East Valley,77,critters,4
+la,Los Angeles,2026-11-20,20,Van Nuys,East Valley,77,streets,4
+la,Los Angeles,2026-11-20,68,Venice,Westside,43,trash,13
+la,Los Angeles,2026-11-20,68,Venice,Westside,43,streets,9
+la,Los Angeles,2026-11-20,68,Venice,Westside,43,other,8
+la,Los Angeles,2026-11-20,68,Venice,Westside,43,trees,6
+la,Los Angeles,2026-11-20,68,Venice,Westside,43,critters,4
+la,Los Angeles,2026-11-20,68,Venice,Westside,43,water,3
+la,Los Angeles,2026-11-20,109,Voices Of 90037,South LA,23,trash,15
+la,Los Angeles,2026-11-20,109,Voices Of 90037,South LA,23,other,4
+la,Los Angeles,2026-11-20,88,Watts,South LA,13,trash,10
+la,Los Angeles,2026-11-20,88,Watts,South LA,13,critters,3
+la,Los Angeles,2026-11-20,75,West Adams,South LA,13,trash,8
+la,Los Angeles,2026-11-20,75,West Adams,South LA,13,parking,4
+la,Los Angeles,2026-11-20,11,West Hills,West Valley,23,trash,14
+la,Los Angeles,2026-11-20,11,West Hills,West Valley,23,streets,6
+la,Los Angeles,2026-11-20,66,West Los Angeles,Westside,27,trash,8
+la,Los Angeles,2026-11-20,66,West Los Angeles,Westside,27,streets,7
+la,Los Angeles,2026-11-20,66,West Los Angeles,Westside,27,trees,5
+la,Los Angeles,2026-11-20,66,West Los Angeles,Westside,27,parking,3
+la,Los Angeles,2026-11-20,66,West Los Angeles,Westside,27,other,3
+la,Los Angeles,2026-11-20,71,Westchester/playa,Westside,28,streets,15
+la,Los Angeles,2026-11-20,71,Westchester/playa,Westside,28,trash,7
+la,Los Angeles,2026-11-20,71,Westchester/playa,Westside,28,other,3
+la,Los Angeles,2026-11-20,97,Westlake North,Central LA,20,trash,13
+la,Los Angeles,2026-11-20,97,Westlake North,Central LA,20,parking,3
+la,Los Angeles,2026-11-20,121,Westlake South,Central LA,12,trash,5
+la,Los Angeles,2026-11-20,121,Westlake South,Central LA,12,parking,5
+la,Los Angeles,2026-11-20,62,Westside,Westside,35,trash,17
+la,Los Angeles,2026-11-20,62,Westside,Westside,35,other,6
+la,Los Angeles,2026-11-20,62,Westside,Westside,35,trees,5
+la,Los Angeles,2026-11-20,62,Westside,Westside,35,streets,5
+la,Los Angeles,2026-11-20,63,Westwood,Westside,18,trash,7
+la,Los Angeles,2026-11-20,63,Westwood,Westside,18,other,5
+la,Los Angeles,2026-11-20,93,Wilmington,Harbor,33,trash,15
+la,Los Angeles,2026-11-20,93,Wilmington,Harbor,33,streets,12
+la,Los Angeles,2026-11-20,93,Wilmington,Harbor,33,trees,3
+la,Los Angeles,2026-11-20,55,Wilshire Center - Koreatown,Central LA,67,trash,33
+la,Los Angeles,2026-11-20,55,Wilshire Center - Koreatown,Central LA,67,trees,15
+la,Los Angeles,2026-11-20,55,Wilshire Center - Koreatown,Central LA,67,streets,11
+la,Los Angeles,2026-11-20,55,Wilshire Center - Koreatown,Central LA,67,other,6
+la,Los Angeles,2026-11-20,14,Winnetka,West Valley,7,trash,4
+la,Los Angeles,2026-11-20,16,Woodland Hills-warner Center,West Valley,41,trash,13
+la,Los Angeles,2026-11-20,16,Woodland Hills-warner Center,West Valley,41,other,10
+la,Los Angeles,2026-11-20,16,Woodland Hills-warner Center,West Valley,41,trees,8
+la,Los Angeles,2026-11-20,16,Woodland Hills-warner Center,West Valley,41,streets,7
+la,Los Angeles,2026-11-20,125,Zapata King,South LA,18,other,6
+la,Los Angeles,2026-11-20,125,Zapata King,South LA,18,trash,5
+la,Los Angeles,2026-11-20,125,Zapata King,South LA,18,streets,3
 sf,San Francisco,2026-11-09,bayview-hunters-point,Bayview Hunters Point,San Francisco,146,trash,67
 sf,San Francisco,2026-11-09,bayview-hunters-point,Bayview Hunters Point,San Francisco,146,parking,38
 sf,San Francisco,2026-11-09,bayview-hunters-point,Bayview Hunters Point,San Francisco,146,other,32
@@ -17382,6 +18846,144 @@ sf,San Francisco,2026-11-19,western-addition,Western Addition,San Francisco,62,p
 sf,San Francisco,2026-11-19,western-addition,Western Addition,San Francisco,62,other,10
 sf,San Francisco,2026-11-19,western-addition,Western Addition,San Francisco,62,trees,4
 sf,San Francisco,2026-11-19,western-addition,Western Addition,San Francisco,62,housing,3
+sf,San Francisco,2026-11-20,bayview-hunters-point,Bayview Hunters Point,San Francisco,107,trash,41
+sf,San Francisco,2026-11-20,bayview-hunters-point,Bayview Hunters Point,San Francisco,107,parking,34
+sf,San Francisco,2026-11-20,bayview-hunters-point,Bayview Hunters Point,San Francisco,107,streets,10
+sf,San Francisco,2026-11-20,bayview-hunters-point,Bayview Hunters Point,San Francisco,107,water,8
+sf,San Francisco,2026-11-20,bayview-hunters-point,Bayview Hunters Point,San Francisco,107,other,7
+sf,San Francisco,2026-11-20,bayview-hunters-point,Bayview Hunters Point,San Francisco,107,housing,4
+sf,San Francisco,2026-11-20,bernal-heights,Bernal Heights,San Francisco,52,parking,23
+sf,San Francisco,2026-11-20,bernal-heights,Bernal Heights,San Francisco,52,trash,19
+sf,San Francisco,2026-11-20,bernal-heights,Bernal Heights,San Francisco,52,other,6
+sf,San Francisco,2026-11-20,castro-upper-market,Castro/Upper Market,San Francisco,92,trash,35
+sf,San Francisco,2026-11-20,castro-upper-market,Castro/Upper Market,San Francisco,92,parking,29
+sf,San Francisco,2026-11-20,castro-upper-market,Castro/Upper Market,San Francisco,92,other,18
+sf,San Francisco,2026-11-20,castro-upper-market,Castro/Upper Market,San Francisco,92,streets,8
+sf,San Francisco,2026-11-20,chinatown,Chinatown,San Francisco,42,trash,18
+sf,San Francisco,2026-11-20,chinatown,Chinatown,San Francisco,42,parking,15
+sf,San Francisco,2026-11-20,chinatown,Chinatown,San Francisco,42,other,7
+sf,San Francisco,2026-11-20,excelsior,Excelsior,San Francisco,72,trash,39
+sf,San Francisco,2026-11-20,excelsior,Excelsior,San Francisco,72,parking,17
+sf,San Francisco,2026-11-20,excelsior,Excelsior,San Francisco,72,other,5
+sf,San Francisco,2026-11-20,excelsior,Excelsior,San Francisco,72,water,5
+sf,San Francisco,2026-11-20,excelsior,Excelsior,San Francisco,72,streets,4
+sf,San Francisco,2026-11-20,financial-district-south-beach,Financial District/South Beach,San Francisco,91,other,30
+sf,San Francisco,2026-11-20,financial-district-south-beach,Financial District/South Beach,San Francisco,91,parking,29
+sf,San Francisco,2026-11-20,financial-district-south-beach,Financial District/South Beach,San Francisco,91,trash,22
+sf,San Francisco,2026-11-20,financial-district-south-beach,Financial District/South Beach,San Francisco,91,streets,7
+sf,San Francisco,2026-11-20,glen-park,Glen Park,San Francisco,5,trash,3
+sf,San Francisco,2026-11-20,golden-gate-park,Golden Gate Park,San Francisco,28,other,18
+sf,San Francisco,2026-11-20,golden-gate-park,Golden Gate Park,San Francisco,28,streets,7
+sf,San Francisco,2026-11-20,haight-ashbury,Haight Ashbury,San Francisco,52,trash,21
+sf,San Francisco,2026-11-20,haight-ashbury,Haight Ashbury,San Francisco,52,parking,16
+sf,San Francisco,2026-11-20,haight-ashbury,Haight Ashbury,San Francisco,52,other,7
+sf,San Francisco,2026-11-20,haight-ashbury,Haight Ashbury,San Francisco,52,streets,4
+sf,San Francisco,2026-11-20,haight-ashbury,Haight Ashbury,San Francisco,52,water,3
+sf,San Francisco,2026-11-20,hayes-valley,Hayes Valley,San Francisco,82,trash,35
+sf,San Francisco,2026-11-20,hayes-valley,Hayes Valley,San Francisco,82,other,25
+sf,San Francisco,2026-11-20,hayes-valley,Hayes Valley,San Francisco,82,parking,18
+sf,San Francisco,2026-11-20,inner-richmond,Inner Richmond,San Francisco,51,parking,22
+sf,San Francisco,2026-11-20,inner-richmond,Inner Richmond,San Francisco,51,other,13
+sf,San Francisco,2026-11-20,inner-richmond,Inner Richmond,San Francisco,51,trash,12
+sf,San Francisco,2026-11-20,inner-richmond,Inner Richmond,San Francisco,51,streets,3
+sf,San Francisco,2026-11-20,inner-sunset,Inner Sunset,San Francisco,43,parking,21
+sf,San Francisco,2026-11-20,inner-sunset,Inner Sunset,San Francisco,43,trash,7
+sf,San Francisco,2026-11-20,inner-sunset,Inner Sunset,San Francisco,43,other,6
+sf,San Francisco,2026-11-20,inner-sunset,Inner Sunset,San Francisco,43,streets,5
+sf,San Francisco,2026-11-20,inner-sunset,Inner Sunset,San Francisco,43,water,4
+sf,San Francisco,2026-11-20,japantown,Japantown,San Francisco,20,parking,8
+sf,San Francisco,2026-11-20,japantown,Japantown,San Francisco,20,other,6
+sf,San Francisco,2026-11-20,japantown,Japantown,San Francisco,20,trash,5
+sf,San Francisco,2026-11-20,lakeshore,Lakeshore,San Francisco,16,parking,7
+sf,San Francisco,2026-11-20,lakeshore,Lakeshore,San Francisco,16,other,4
+sf,San Francisco,2026-11-20,lakeshore,Lakeshore,San Francisco,16,streets,3
+sf,San Francisco,2026-11-20,lone-mountain-usf,Lone Mountain/USF,San Francisco,31,parking,15
+sf,San Francisco,2026-11-20,lone-mountain-usf,Lone Mountain/USF,San Francisco,31,trash,9
+sf,San Francisco,2026-11-20,lone-mountain-usf,Lone Mountain/USF,San Francisco,31,other,4
+sf,San Francisco,2026-11-20,marina,Marina,San Francisco,62,parking,33
+sf,San Francisco,2026-11-20,marina,Marina,San Francisco,62,trash,16
+sf,San Francisco,2026-11-20,marina,Marina,San Francisco,62,other,7
+sf,San Francisco,2026-11-20,marina,Marina,San Francisco,62,noise,3
+sf,San Francisco,2026-11-20,mclaren-park,McLaren Park,San Francisco,6,trash,3
+sf,San Francisco,2026-11-20,mission,Mission,San Francisco,380,trash,207
+sf,San Francisco,2026-11-20,mission,Mission,San Francisco,380,parking,80
+sf,San Francisco,2026-11-20,mission,Mission,San Francisco,380,other,60
+sf,San Francisco,2026-11-20,mission,Mission,San Francisco,380,streets,20
+sf,San Francisco,2026-11-20,mission,Mission,San Francisco,380,water,5
+sf,San Francisco,2026-11-20,mission,Mission,San Francisco,380,housing,3
+sf,San Francisco,2026-11-20,mission,Mission,San Francisco,380,trees,3
+sf,San Francisco,2026-11-20,mission-bay,Mission Bay,San Francisco,44,parking,20
+sf,San Francisco,2026-11-20,mission-bay,Mission Bay,San Francisco,44,trash,13
+sf,San Francisco,2026-11-20,mission-bay,Mission Bay,San Francisco,44,other,8
+sf,San Francisco,2026-11-20,nob-hill,Nob Hill,San Francisco,107,parking,49
+sf,San Francisco,2026-11-20,nob-hill,Nob Hill,San Francisco,107,trash,31
+sf,San Francisco,2026-11-20,nob-hill,Nob Hill,San Francisco,107,other,21
+sf,San Francisco,2026-11-20,nob-hill,Nob Hill,San Francisco,107,noise,3
+sf,San Francisco,2026-11-20,noe-valley,Noe Valley,San Francisco,38,parking,12
+sf,San Francisco,2026-11-20,noe-valley,Noe Valley,San Francisco,38,other,9
+sf,San Francisco,2026-11-20,noe-valley,Noe Valley,San Francisco,38,trash,8
+sf,San Francisco,2026-11-20,noe-valley,Noe Valley,San Francisco,38,streets,6
+sf,San Francisco,2026-11-20,north-beach,North Beach,San Francisco,55,parking,32
+sf,San Francisco,2026-11-20,north-beach,North Beach,San Francisco,55,other,12
+sf,San Francisco,2026-11-20,north-beach,North Beach,San Francisco,55,trash,10
+sf,San Francisco,2026-11-20,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,38,trash,16
+sf,San Francisco,2026-11-20,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,38,parking,15
+sf,San Francisco,2026-11-20,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,38,other,3
+sf,San Francisco,2026-11-20,outer-mission,Outer Mission,San Francisco,69,parking,26
+sf,San Francisco,2026-11-20,outer-mission,Outer Mission,San Francisco,69,streets,18
+sf,San Francisco,2026-11-20,outer-mission,Outer Mission,San Francisco,69,trash,15
+sf,San Francisco,2026-11-20,outer-mission,Outer Mission,San Francisco,69,water,6
+sf,San Francisco,2026-11-20,outer-richmond,Outer Richmond,San Francisco,58,parking,25
+sf,San Francisco,2026-11-20,outer-richmond,Outer Richmond,San Francisco,58,trash,18
+sf,San Francisco,2026-11-20,outer-richmond,Outer Richmond,San Francisco,58,other,7
+sf,San Francisco,2026-11-20,outer-richmond,Outer Richmond,San Francisco,58,water,3
+sf,San Francisco,2026-11-20,pacific-heights,Pacific Heights,San Francisco,59,parking,32
+sf,San Francisco,2026-11-20,pacific-heights,Pacific Heights,San Francisco,59,trash,13
+sf,San Francisco,2026-11-20,pacific-heights,Pacific Heights,San Francisco,59,other,7
+sf,San Francisco,2026-11-20,pacific-heights,Pacific Heights,San Francisco,59,water,3
+sf,San Francisco,2026-11-20,pacific-heights,Pacific Heights,San Francisco,59,streets,3
+sf,San Francisco,2026-11-20,portola,Portola,San Francisco,31,parking,14
+sf,San Francisco,2026-11-20,portola,Portola,San Francisco,31,trash,9
+sf,San Francisco,2026-11-20,portola,Portola,San Francisco,31,other,6
+sf,San Francisco,2026-11-20,potrero-hill,Potrero Hill,San Francisco,30,trash,15
+sf,San Francisco,2026-11-20,potrero-hill,Potrero Hill,San Francisco,30,other,6
+sf,San Francisco,2026-11-20,potrero-hill,Potrero Hill,San Francisco,30,parking,4
+sf,San Francisco,2026-11-20,potrero-hill,Potrero Hill,San Francisco,30,water,3
+sf,San Francisco,2026-11-20,presidio-heights,Presidio Heights,San Francisco,21,parking,11
+sf,San Francisco,2026-11-20,presidio-heights,Presidio Heights,San Francisco,21,trash,4
+sf,San Francisco,2026-11-20,russian-hill,Russian Hill,San Francisco,65,parking,34
+sf,San Francisco,2026-11-20,russian-hill,Russian Hill,San Francisco,65,trash,15
+sf,San Francisco,2026-11-20,russian-hill,Russian Hill,San Francisco,65,other,11
+sf,San Francisco,2026-11-20,south-of-market,South of Market,San Francisco,158,trash,55
+sf,San Francisco,2026-11-20,south-of-market,South of Market,San Francisco,158,other,51
+sf,San Francisco,2026-11-20,south-of-market,South of Market,San Francisco,158,parking,27
+sf,San Francisco,2026-11-20,south-of-market,South of Market,San Francisco,158,streets,12
+sf,San Francisco,2026-11-20,south-of-market,South of Market,San Francisco,158,water,7
+sf,San Francisco,2026-11-20,south-of-market,South of Market,San Francisco,158,trees,4
+sf,San Francisco,2026-11-20,sunset-parkside,Sunset/Parkside,San Francisco,105,trash,29
+sf,San Francisco,2026-11-20,sunset-parkside,Sunset/Parkside,San Francisco,105,parking,28
+sf,San Francisco,2026-11-20,sunset-parkside,Sunset/Parkside,San Francisco,105,water,17
+sf,San Francisco,2026-11-20,sunset-parkside,Sunset/Parkside,San Francisco,105,other,15
+sf,San Francisco,2026-11-20,sunset-parkside,Sunset/Parkside,San Francisco,105,streets,9
+sf,San Francisco,2026-11-20,sunset-parkside,Sunset/Parkside,San Francisco,105,noise,5
+sf,San Francisco,2026-11-20,tenderloin,Tenderloin,San Francisco,135,other,64
+sf,San Francisco,2026-11-20,tenderloin,Tenderloin,San Francisco,135,trash,50
+sf,San Francisco,2026-11-20,tenderloin,Tenderloin,San Francisco,135,parking,10
+sf,San Francisco,2026-11-20,tenderloin,Tenderloin,San Francisco,135,housing,5
+sf,San Francisco,2026-11-20,tenderloin,Tenderloin,San Francisco,135,streets,3
+sf,San Francisco,2026-11-20,twin-peaks,Twin Peaks,San Francisco,5,parking,3
+sf,San Francisco,2026-11-20,visitacion-valley,Visitacion Valley,San Francisco,11,trash,4
+sf,San Francisco,2026-11-20,visitacion-valley,Visitacion Valley,San Francisco,11,streets,3
+sf,San Francisco,2026-11-20,west-of-twin-peaks,West of Twin Peaks,San Francisco,59,parking,24
+sf,San Francisco,2026-11-20,west-of-twin-peaks,West of Twin Peaks,San Francisco,59,other,13
+sf,San Francisco,2026-11-20,west-of-twin-peaks,West of Twin Peaks,San Francisco,59,trash,8
+sf,San Francisco,2026-11-20,west-of-twin-peaks,West of Twin Peaks,San Francisco,59,streets,6
+sf,San Francisco,2026-11-20,west-of-twin-peaks,West of Twin Peaks,San Francisco,59,water,4
+sf,San Francisco,2026-11-20,west-of-twin-peaks,West of Twin Peaks,San Francisco,59,trees,4
+sf,San Francisco,2026-11-20,western-addition,Western Addition,San Francisco,73,trash,41
+sf,San Francisco,2026-11-20,western-addition,Western Addition,San Francisco,73,other,14
+sf,San Francisco,2026-11-20,western-addition,Western Addition,San Francisco,73,parking,11
+sf,San Francisco,2026-11-20,western-addition,Western Addition,San Francisco,73,streets,4
 boston,Boston,2026-11-08,allston,Allston,Boston,16,critters,6
 boston,Boston,2026-11-08,allston,Allston,Boston,16,streets,3
 boston,Boston,2026-11-08,back-bay,Back Bay,Boston,35,parking,10
@@ -18186,3 +19788,88 @@ boston,Boston,2026-11-18,south-end,South End,Boston,87,critters,8
 boston,Boston,2026-11-18,south-end,South End,Boston,87,housing,4
 boston,Boston,2026-11-18,west-end,West End,Boston,7,parking,4
 boston,Boston,2026-11-18,west-roxbury,West Roxbury,Boston,17,streets,8
+boston,Boston,2026-11-19,allston,Allston,Boston,34,trash,18
+boston,Boston,2026-11-19,allston,Allston,Boston,34,critters,6
+boston,Boston,2026-11-19,allston,Allston,Boston,34,parking,5
+boston,Boston,2026-11-19,allston,Allston,Boston,34,streets,3
+boston,Boston,2026-11-19,back-bay,Back Bay,Boston,39,trash,15
+boston,Boston,2026-11-19,back-bay,Back Bay,Boston,39,streets,11
+boston,Boston,2026-11-19,back-bay,Back Bay,Boston,39,parking,4
+boston,Boston,2026-11-19,back-bay,Back Bay,Boston,39,housing,4
+boston,Boston,2026-11-19,back-bay,Back Bay,Boston,39,critters,4
+boston,Boston,2026-11-19,beacon-hill,Beacon Hill,Boston,18,parking,7
+boston,Boston,2026-11-19,beacon-hill,Beacon Hill,Boston,18,trash,4
+boston,Boston,2026-11-19,beacon-hill,Beacon Hill,Boston,18,other,3
+boston,Boston,2026-11-19,brighton,Brighton,Boston,44,parking,17
+boston,Boston,2026-11-19,brighton,Brighton,Boston,44,streets,9
+boston,Boston,2026-11-19,brighton,Brighton,Boston,44,trash,8
+boston,Boston,2026-11-19,brighton,Brighton,Boston,44,critters,6
+boston,Boston,2026-11-19,charlestown,Charlestown,Boston,33,trash,12
+boston,Boston,2026-11-19,charlestown,Charlestown,Boston,33,parking,11
+boston,Boston,2026-11-19,charlestown,Charlestown,Boston,33,streets,8
+boston,Boston,2026-11-19,chinatown,Chinatown,Boston,12,parking,10
+boston,Boston,2026-11-19,dorchester,Dorchester,Boston,105,trash,36
+boston,Boston,2026-11-19,dorchester,Dorchester,Boston,105,parking,29
+boston,Boston,2026-11-19,dorchester,Dorchester,Boston,105,streets,15
+boston,Boston,2026-11-19,dorchester,Dorchester,Boston,105,housing,8
+boston,Boston,2026-11-19,dorchester,Dorchester,Boston,105,critters,7
+boston,Boston,2026-11-19,dorchester,Dorchester,Boston,105,other,6
+boston,Boston,2026-11-19,dorchester,Dorchester,Boston,105,trees,3
+boston,Boston,2026-11-19,downtown,Downtown,Boston,32,parking,15
+boston,Boston,2026-11-19,downtown,Downtown,Boston,32,streets,8
+boston,Boston,2026-11-19,downtown,Downtown,Boston,32,critters,5
+boston,Boston,2026-11-19,east-boston,East Boston,Boston,39,trash,18
+boston,Boston,2026-11-19,east-boston,East Boston,Boston,39,parking,10
+boston,Boston,2026-11-19,east-boston,East Boston,Boston,39,streets,6
+boston,Boston,2026-11-19,east-boston,East Boston,Boston,39,critters,3
+boston,Boston,2026-11-19,fenway,Fenway,Boston,38,other,10
+boston,Boston,2026-11-19,fenway,Fenway,Boston,38,streets,9
+boston,Boston,2026-11-19,fenway,Fenway,Boston,38,critters,7
+boston,Boston,2026-11-19,fenway,Fenway,Boston,38,trash,6
+boston,Boston,2026-11-19,fenway,Fenway,Boston,38,parking,5
+boston,Boston,2026-11-19,hyde-park,Hyde Park,Boston,28,trash,14
+boston,Boston,2026-11-19,hyde-park,Hyde Park,Boston,28,parking,6
+boston,Boston,2026-11-19,hyde-park,Hyde Park,Boston,28,critters,3
+boston,Boston,2026-11-19,jamaica-plain,Jamaica Plain,Boston,43,streets,13
+boston,Boston,2026-11-19,jamaica-plain,Jamaica Plain,Boston,43,parking,11
+boston,Boston,2026-11-19,jamaica-plain,Jamaica Plain,Boston,43,trash,9
+boston,Boston,2026-11-19,jamaica-plain,Jamaica Plain,Boston,43,housing,4
+boston,Boston,2026-11-19,jamaica-plain,Jamaica Plain,Boston,43,critters,3
+boston,Boston,2026-11-19,longwood,Longwood,Boston,15,parking,12
+boston,Boston,2026-11-19,mattapan,Mattapan,Boston,17,trash,6
+boston,Boston,2026-11-19,mattapan,Mattapan,Boston,17,streets,5
+boston,Boston,2026-11-19,mattapan,Mattapan,Boston,17,parking,4
+boston,Boston,2026-11-19,mission-hill,Mission Hill,Boston,19,streets,6
+boston,Boston,2026-11-19,mission-hill,Mission Hill,Boston,19,parking,5
+boston,Boston,2026-11-19,mission-hill,Mission Hill,Boston,19,trash,4
+boston,Boston,2026-11-19,mission-hill,Mission Hill,Boston,19,critters,3
+boston,Boston,2026-11-19,north-end,North End,Boston,29,trash,13
+boston,Boston,2026-11-19,north-end,North End,Boston,29,streets,10
+boston,Boston,2026-11-19,north-end,North End,Boston,29,parking,3
+boston,Boston,2026-11-19,roslindale,Roslindale,Boston,23,trash,7
+boston,Boston,2026-11-19,roslindale,Roslindale,Boston,23,critters,6
+boston,Boston,2026-11-19,roslindale,Roslindale,Boston,23,parking,5
+boston,Boston,2026-11-19,roslindale,Roslindale,Boston,23,streets,3
+boston,Boston,2026-11-19,roxbury,Roxbury,Boston,53,trash,19
+boston,Boston,2026-11-19,roxbury,Roxbury,Boston,53,parking,9
+boston,Boston,2026-11-19,roxbury,Roxbury,Boston,53,streets,8
+boston,Boston,2026-11-19,roxbury,Roxbury,Boston,53,critters,6
+boston,Boston,2026-11-19,roxbury,Roxbury,Boston,53,other,5
+boston,Boston,2026-11-19,roxbury,Roxbury,Boston,53,trees,3
+boston,Boston,2026-11-19,south-boston,South Boston,Boston,54,parking,32
+boston,Boston,2026-11-19,south-boston,South Boston,Boston,54,trash,10
+boston,Boston,2026-11-19,south-boston,South Boston,Boston,54,streets,8
+boston,Boston,2026-11-19,south-boston,South Boston,Boston,54,critters,4
+boston,Boston,2026-11-19,south-boston-waterfront,South Boston Waterfront,Boston,20,streets,12
+boston,Boston,2026-11-19,south-boston-waterfront,South Boston Waterfront,Boston,20,parking,7
+boston,Boston,2026-11-19,south-end,South End,Boston,47,parking,14
+boston,Boston,2026-11-19,south-end,South End,Boston,47,trash,11
+boston,Boston,2026-11-19,south-end,South End,Boston,47,other,10
+boston,Boston,2026-11-19,south-end,South End,Boston,47,streets,6
+boston,Boston,2026-11-19,south-end,South End,Boston,47,trees,3
+boston,Boston,2026-11-19,south-end,South End,Boston,47,critters,3
+boston,Boston,2026-11-19,west-end,West End,Boston,8,parking,5
+boston,Boston,2026-11-19,west-roxbury,West Roxbury,Boston,30,parking,13
+boston,Boston,2026-11-19,west-roxbury,West Roxbury,Boston,30,streets,8
+boston,Boston,2026-11-19,west-roxbury,West Roxbury,Boston,30,critters,4
+boston,Boston,2026-11-19,west-roxbury,West Roxbury,Boston,30,trash,3

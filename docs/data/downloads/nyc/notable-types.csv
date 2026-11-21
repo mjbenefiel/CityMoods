@@ -324,3 +324,35 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-18,Wednesday,Construction or other noise,noise,257,258,1.0,top
 2026-11-18,Wednesday,Peeling paint or plaster,housing,250,236,1.06,top
 2026-11-18,Wednesday,Broken door or window,housing,215,216,1.0,top
+2026-11-19,Thursday,No water,water,35,6,5.38,spike
+2026-11-19,Thursday,No heat and no hot water (whole building),heat,270,138,1.96,spike
+2026-11-19,Thursday,Compost,trash,33,17,1.94,spike
+2026-11-19,Thursday,Driver complaint - non passenger: unsafe driving,other,64,35,1.84,spike
+2026-11-19,Thursday,Missed trash pickup,trash,119,69,1.73,spike
+2026-11-19,Thursday,For Hire Vehicle Complaint,other,76,46,1.63,spike
+2026-11-19,Thursday,Posted parking sign violation,parking,806,519,1.55,top
+2026-11-19,Thursday,Blocked hydrant,parking,547,469,1.17,top
+2026-11-19,Thursday,No heat (whole building),heat,515,468,1.1,top
+2026-11-19,Thursday,Driveway fully blocked,parking,411,426,0.96,top
+2026-11-19,Thursday,Banging/pounding (next door),noise,397,429,0.93,top
+2026-11-19,Thursday,Blocked sidewalk,parking,307,286,1.07,top
+2026-11-19,Thursday,Loud music/party (next door),noise,290,279,1.04,top
+2026-11-19,Thursday,Loud music/party (on the street),noise,271,206,1.32,top
+2026-11-19,Thursday,No heat (one apartment),heat,262,228,1.15,top
+2026-11-19,Thursday,Abandoned car (with plates),parking,246,232,1.06,top
+2026-11-19,Thursday,Street light out,streets,159,156,1.02,top
+2026-11-19,Thursday,Driveway partly blocked,parking,150,164,0.91,top
+2026-11-19,Thursday,Loud music/party (at a business),noise,142,94,1.51,top
+2026-11-19,Thursday,Commercial overnight parking,parking,124,130,0.95,top
+2026-11-19,Thursday,Illegal parking,parking,2314,1894,1.22,top
+2026-11-19,Thursday,No heat or hot water,heat,1277,1015,1.26,top
+2026-11-19,Thursday,Noisy neighbors,noise,789,816,0.97,top
+2026-11-19,Thursday,Blocked driveway,parking,561,590,0.95,top
+2026-11-19,Thursday,Unsanitary apartment,housing,439,522,0.84,top
+2026-11-19,Thursday,Street noise,noise,369,304,1.21,top
+2026-11-19,Thursday,Plumbing,housing,286,254,1.12,top
+2026-11-19,Thursday,Peeling paint or plaster,housing,265,259,1.02,top
+2026-11-19,Thursday,Abandoned car,parking,246,232,1.06,top
+2026-11-19,Thursday,Construction or other noise,noise,230,227,1.01,top
+2026-11-19,Thursday,Dirty street or sidewalk,trash,198,214,0.93,top
+2026-11-19,Thursday,Potholes and street damage,streets,191,249,0.77,top

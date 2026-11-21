@@ -164,3 +164,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-19,Thursday,Program research,other,33,55,0.6,top
 2026-11-19,Thursday,Obstructions,streets,32,60,0.54,top
 2026-11-19,Thursday,Street tree inspection,trees,32,28,1.15,top
+2026-11-20,Friday,Illegal dumping,trash,796,935,0.85,top
+2026-11-20,Friday,Service not completed (follow-up),trash,405,356,1.14,top
+2026-11-20,Friday,Graffiti,trash,391,554,0.71,top
+2026-11-20,Friday,Potholes and pavement,streets,158,123,1.28,top
+2026-11-20,Friday,Landscape maintenance,trees,92,73,1.26,top
+2026-11-20,Friday,Streetlight repair,streets,74,93,0.8,top
+2026-11-20,Friday,Dead animal,critters,67,103,0.65,top
+2026-11-20,Friday,Badly parked scooter or bike,parking,58,70,0.82,top
+2026-11-20,Friday,Tree emergency,trees,50,39,1.28,top
+2026-11-20,Friday,Obstructions,streets,48,54,0.9,top
+2026-11-20,Friday,Flooding,water,42,29,1.44,top
+2026-11-20,Friday,"Illegal auto repair or construction, and leaf blower violations",other,32,20,1.56,top
+2026-11-20,Friday,Program research,other,30,40,0.74,top
+2026-11-20,Friday,Street sweeping,trash,28,17,1.65,top
+2026-11-20,Friday,Traffic safety,streets,27,30,0.9,top

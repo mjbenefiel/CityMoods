@@ -170,3 +170,19 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-19,Thursday,Sewer cleaning,water,62,42,1.49,top
 2026-11-19,Thursday,Lead test kit,water,46,214,0.21,top
 2026-11-19,Thursday,Tree debris cleanup,trees,46,62,0.74,top
+2026-11-20,Friday,Yard waste pickup,trash,102,46,2.23,spike
+2026-11-20,Friday,Cab feedback,other,26,13,1.96,spike
+2026-11-20,Friday,Graffiti,trash,396,345,1.15,top
+2026-11-20,Friday,Tree trim (no longer accepted),trees,162,198,0.82,top
+2026-11-20,Friday,Abandoned car,parking,161,143,1.13,top
+2026-11-20,Friday,Rats,critters,142,150,0.95,top
+2026-11-20,Friday,Busted garbage cart,trash,135,141,0.96,top
+2026-11-20,Friday,Traffic signal out,streets,74,78,0.95,top
+2026-11-20,Friday,Recycling cart,trash,64,60,1.06,top
+2026-11-20,Friday,Building violation,housing,60,61,0.98,top
+2026-11-20,Friday,Parking enforcement review,parking,59,74,0.8,top
+2026-11-20,Friday,Tree debris cleanup,trees,55,50,1.09,top
+2026-11-20,Friday,Dead animal,critters,48,35,1.37,top
+2026-11-20,Friday,Tree removal,trees,46,41,1.12,top
+2026-11-20,Friday,Public way inspection,streets,46,40,1.15,top
+2026-11-20,Friday,Pothole,streets,45,77,0.59,top

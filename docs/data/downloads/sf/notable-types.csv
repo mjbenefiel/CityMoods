@@ -301,3 +301,30 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-19,Thursday,Sidewalk and curb,streets,36,28,1.3,top
 2026-11-19,Thursday,Litter receptacle maintenance,trash,30,36,0.85,top
 2026-11-19,Thursday,Graffiti (private property),trash,30,50,0.59,top
+2026-11-20,Friday,Spin scooter,parking,51,25,2.04,spike
+2026-11-20,Friday,Graffiti on building commercial,trash,32,18,1.8,spike
+2026-11-20,Friday,Loose garbage,trash,291,287,1.01,top
+2026-11-20,Friday,Illegal parking,parking,200,212,0.95,top
+2026-11-20,Friday,Bagged or boxed garbage,trash,120,149,0.8,top
+2026-11-20,Friday,Furniture,trash,108,93,1.16,top
+2026-11-20,Friday,Parking on the sidewalk,parking,107,114,0.94,top
+2026-11-20,Friday,Blocked driveway,parking,101,116,0.87,top
+2026-11-20,Friday,Blocked driveway (tow requested),parking,71,83,0.85,top
+2026-11-20,Friday,Lime scooter,parking,68,39,1.75,top
+2026-11-20,Friday,Overflowing city trash can,trash,60,67,0.9,top
+2026-11-20,Friday,Abandoned car,parking,58,59,0.99,top
+2026-11-20,Friday,Mattress,trash,40,29,1.37,top
+2026-11-20,Friday,Graffiti on pole,trash,34,72,0.47,top
+2026-11-20,Friday,Scooter with no license plate,parking,32,25,1.28,top
+2026-11-20,Friday,Street cleaning,trash,682,705,0.97,top
+2026-11-20,Friday,Parking enforcement,parking,567,610,0.93,top
+2026-11-20,Friday,Blocked street and sidewalk,parking,188,120,1.56,top
+2026-11-20,Friday,General,other,102,111,0.92,top
+2026-11-20,Friday,Graffiti (public),trash,84,164,0.51,top
+2026-11-20,Friday,Sewer,water,82,80,1.02,top
+2026-11-20,Friday,Graffiti (private property),trash,44,48,0.92,top
+2026-11-20,Friday,Litter receptacle maintenance,trash,43,35,1.22,top
+2026-11-20,Friday,Sidewalk and curb,streets,42,36,1.18,top
+2026-11-20,Friday,Street defect,streets,39,24,1.61,top
+2026-11-20,Friday,Rpd general,other,33,41,0.8,top
+2026-11-20,Friday,Tree maintenance,trees,32,42,0.75,top

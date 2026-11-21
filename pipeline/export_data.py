@@ -150,6 +150,38 @@ def export_all():
     log(f"Exported {len(W.files)} download files")
 
 
+ASK_SCRIPT = """<script>
+(function () {
+  var q = document.getElementById("askq"), p = document.getElementById("askp"),
+      c = document.getElementById("askc"), ok = document.getElementById("asko");
+  function prompt() {
+    var question = q.value.trim() || q.placeholder;
+    return "Use the CityMoods 311 data at https://citymoods311.com/llms.txt (every CSV is listed in " +
+      "https://citymoods311.com/data/downloads/manifest.json). Answer only from that data. Say which files and " +
+      "dates you used, and when you call something a spike, compare 'requests' with the 'usual' column.\\n\\n" +
+      "My question: " + question;
+  }
+  function render() { p.textContent = prompt(); ok.textContent = ""; }
+  q.addEventListener("input", render);
+  document.querySelectorAll(".ask .ex a").forEach(function (a) {
+    a.addEventListener("click", function () { q.value = a.getAttribute("data-q"); render(); q.focus(); });
+  });
+  c.addEventListener("click", function () {
+    var text = prompt();
+    function done() { ok.textContent = "Copied. Paste it into your AI assistant."; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { fallback(text); done(); });
+    } else { fallback(text); done(); }
+  });
+  function fallback(text) {
+    var t = document.createElement("textarea"); t.value = text; document.body.appendChild(t);
+    t.select(); try { document.execCommand("copy"); } catch (e) {} document.body.removeChild(t);
+  }
+  render();
+})();
+</script>"""
+
+
 def write_page(cities: list[dict], files: list[dict]):
     """docs/data/index.html: the Data page (static, so search engines and AI agents can read it)."""
     from html import escape as e
@@ -209,6 +241,13 @@ h1{{font-size:32px}} h2{{margin-top:28px}} main a{{color:var(--ink)}}
 .city h2{{margin:0 0 6px}} .city ul{{padding-left:18px;margin:6px 0}} .city li{{margin:4px 0}}
 .n{{font-size:12px;color:var(--muted)}} .src{{font-size:13px;margin:8px 0 0}}
 code{{font-size:13px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:1px 5px;word-break:break-all}}
+.ask{{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:14px 0}}
+.ask label{{display:block;font-weight:600;margin-bottom:6px}}
+.ask input{{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}}
+.ask pre{{white-space:pre-wrap;font-size:13px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0}}
+.ask button{{font:inherit;font-weight:600;border:0;border-radius:999px;padding:9px 16px;background:var(--accent);color:#fff;cursor:pointer}}
+.ask .ok{{margin-left:10px;font-size:14px;color:var(--muted)}}
+.ask .ex{{font-size:14px;margin:10px 0 0}} .ask .ex a{{cursor:pointer}}
 .lead{{font-size:18px}}
 </style>
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
@@ -234,6 +273,16 @@ code{{font-size:13px;background:var(--panel);border:1px solid var(--line);border
   <li>Filter by <code>mood</code> or <code>neighborhood</code>.</li>
   <li>Compare <code>requests</code> with <code>usual</code>. Anything around 2× or more is a spike worth a look.</li>
 </ol>
+
+<h2>Ask an AI about this data</h2>
+<p>Prefer to just ask? Type a question, copy the prompt, and paste it into Claude, ChatGPT or any AI assistant that can read web pages. It will pull the numbers straight from these files.</p>
+<div class="ask">
+  <label for="askq">Your question</label>
+  <input id="askq" type="text" placeholder="Which Chicago neighborhoods had the most rat complaints this month?" autocomplete="off">
+  <pre id="askp"></pre>
+  <button type="button" id="askc">Copy prompt</button><span class="ok" id="asko" aria-live="polite"></span>
+  <p class="ex">Try: <a data-q="Which city had the biggest spike in water and sewer complaints this week, and how far above usual was it?">biggest water spike</a> · <a data-q="Compare no-heat complaints in New York and Boston over the last two weeks.">NYC vs Boston no heat</a> · <a data-q="What were the five strangest spikes across all five cities this month?">strangest spikes</a></p>
+</div>
 
 <h2>Downloads</h2>
 {f'<p>All five cities in one file: {link(allc, "all-cities-citywide.csv")}</p>' if allc else ""}
@@ -264,10 +313,11 @@ code{{font-size:13px;background:var(--panel);border:1px solid var(--line);border
 <h2>Questions</h2>
 <p>Using this for a story or research? I'd love to hear about it, and I can help with custom pulls: <a href="mailto:admin@citymoods311.com?subject=CityMoods%20data">admin@citymoods311.com</a>.</p>
 </main>
+__ASK_SCRIPT__
 </body>
 </html>
 """
-    (DATA / "index.html").write_text(html)
+    (DATA / "index.html").write_text(html.replace("__ASK_SCRIPT__", ASK_SCRIPT))
 
 
 if __name__ == "__main__":

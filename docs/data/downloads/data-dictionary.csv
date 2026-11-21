@@ -1,0 +1,43 @@
+file,column,meaning
+citywide.csv,date,"The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+citywide.csv,weekday,Day of the week for that date.
+citywide.csv,mood,"CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other."
+citywide.csv,mood_label,"The category's display name, e.g. 'Parking wars'."
+citywide.csv,requests,Number of 311 requests that day.
+citywide.csv,usual,Average requests on the same weekday over the previous 4 weeks. Compare with 'requests' to spot a spike. Blank when there isn't enough history.
+citywide.csv,high_f,"That day's high temperature in °F (Open-Meteo, city center)."
+citywide.csv,low_f,That day's low temperature in °F.
+citywide.csv,rain_in,"Total rain (precipitation) that day, in inches."
+citywide.csv,(mood = all),One row per day with mood 'all' gives the total for every request type.
+all-cities-citywide.csv,city,"City key: nyc, chicago, la, sf or boston."
+all-cities-citywide.csv,city_name,City name.
+all-cities-citywide.csv,(other columns),"Same as citywide.csv, for all five cities in one file."
+notable-types.csv,date,"The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+notable-types.csv,weekday,Day of the week for that date.
+notable-types.csv,request_type,"A specific 311 request type (cleaned-up name), e.g. 'Rats' or 'Flooding: on street'."
+notable-types.csv,mood,The mood that request type counts toward.
+notable-types.csv,requests,Number of 311 requests that day.
+notable-types.csv,usual,Average requests on the same weekday over the previous 4 weeks. Compare with 'requests' to spot a spike. Blank when there isn't enough history.
+notable-types.csv,ratio,requests ÷ usual. 3.0 means three times the usual level.
+notable-types.csv,kind,'spike' = well above its usual level that day; 'top' = one of the day's most common types.
+neighborhoods-YYYY-MM.csv,date,"The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+neighborhoods-YYYY-MM.csv,neighborhood_id,"The city's own code for the neighborhood (NYC NTA code, Chicago community area number, and so on). Stable across days, so use it to join files."
+neighborhoods-YYYY-MM.csv,neighborhood,"Neighborhood name, from the city's official boundaries."
+neighborhoods-YYYY-MM.csv,area / borough,"The larger part of the city the neighborhood sits in: NYC borough, Chicago side, LA region. SF and Boston have just one area. Called 'borough' in New York's own files."
+neighborhoods-YYYY-MM.csv,neighborhood_total,All requests from that neighborhood that day.
+neighborhoods-YYYY-MM.csv,mood,"CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other."
+neighborhoods-YYYY-MM.csv,requests,"Requests in that mood from that neighborhood that day. Only counts of 3 or more are published, so moods can be missing and rows may not add up to neighborhood_total."
+neighborhood-types-YYYY-MM.csv,date,"The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+neighborhood-types-YYYY-MM.csv,neighborhood_id,"The city's own code for the neighborhood (NYC NTA code, Chicago community area number, and so on). Stable across days, so use it to join files."
+neighborhood-types-YYYY-MM.csv,neighborhood,"Neighborhood name, from the city's official boundaries."
+neighborhood-types-YYYY-MM.csv,area / borough,"The larger part of the city the neighborhood sits in: NYC borough, Chicago side, LA region. SF and Boston have just one area. Called 'borough' in New York's own files."
+neighborhood-types-YYYY-MM.csv,request_type,One of that neighborhood's most common request types that day.
+neighborhood-types-YYYY-MM.csv,mood,The mood that request type counts toward.
+neighborhood-types-YYYY-MM.csv,requests,Requests of that type from that neighborhood that day (3 or more).
+all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv,city,"City key: nyc, chicago, la, sf or boston."
+all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv,city_name,City name.
+all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv,(other columns),"Same as the per-city neighborhood files, for all five cities in one file per month; the area column is always called 'area'."
+mood-map.csv,mood,"CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other."
+mood-map.csv,mood_label,"The category's display name, e.g. 'Parking wars'."
+mood-map.csv,match,'exact' = this exact raw type; 'starts with' or 'contains (regex)' = any raw type matching the pattern.
+mood-map.csv,raw_311_type,The request type exactly as the city's open data names it (or the pattern).

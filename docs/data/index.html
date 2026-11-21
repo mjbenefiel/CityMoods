@@ -25,11 +25,16 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
 .ask{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:14px 0}
 .ask label{display:block;font-weight:600;margin-bottom:6px}
 .ask input{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
-.ask pre{white-space:pre-wrap;font-size:13px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0}
+.ask pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0}
 .ask button{font:inherit;font-weight:600;border:0;border-radius:999px;padding:9px 16px;background:var(--accent);color:#fff;cursor:pointer}
 .ask .ok{margin-left:10px;font-size:14px;color:var(--muted)}
 .ask .ex{font-size:14px;margin:10px 0 0} .ask .ex a{cursor:pointer}
 .lead{font-size:18px}
+.dict{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.dict table{border-collapse:collapse;width:100%;font-size:14px}
+.dict th,.dict td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted)}
+.dict th{color:var(--ink);font-weight:600} .dict td:first-child{font-size:12px;min-width:110px}
+.dict code{word-break:normal;white-space:nowrap}
 </style>
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
@@ -50,7 +55,7 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
 
 <h2>How to start</h2>
 <ol>
-  <li>Download a CSV below and open it in Google Sheets or Excel.</li>
+  <li>Download a CSV below and open it in Google Sheets or Excel. Unsure what a column means? See the <a href="#columns">column definitions</a>.</li>
   <li>Filter by <code>mood</code> or <code>neighborhood</code>.</li>
   <li>Compare <code>requests</code> with <code>usual</code>. Anything around 2× or more is a spike worth a look.</li>
 </ol>
@@ -66,7 +71,17 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
 </div>
 
 <h2>Downloads</h2>
-<p>All five cities in one file: <a href="downloads/all-cities-citywide.csv" download>all-cities-citywide.csv</a> <span class="n">605 rows</span></p>
+
+<section class="city">
+  <h2>All five cities</h2>
+  <ul>
+    <li><a href="downloads/all-cities-citywide.csv" download>Citywide by mood, all cities</a> <span class="n">605 rows</span>: every day, with the usual level and weather</li>
+    <li>Every neighborhood in every city, by mood, by month: <a href="downloads/all-cities-neighborhoods-2026-11.csv" download>2026-11</a> <span class="n">18,187 rows</span></li>
+    <li>Every neighborhood's top request types, by month: <a href="downloads/all-cities-neighborhood-types-2026-11.csv" download>2026-11</a> <span class="n">17,721 rows</span></li>
+    <li><a href="downloads/data-dictionary.csv" download>Data dictionary</a> <span class="n">42 rows</span>: every column in every file, explained</li>
+  </ul>
+  <p class="src">This is everything behind the maps. Individual 311 records (with addresses and notes) are never collected or shared here; for those, use each city's official portal below.</p>
+</section>
 
 <section class="city">
   <h2>New York</h2>
@@ -124,14 +139,12 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
   <p class="src">Official source: <a href="https://data.boston.gov/dataset/311-service-requests">Boston 311 Service Requests</a> · <a href="https://data.boston.gov/dataset/bpda-neighborhood-boundaries">BPDA Neighborhood Boundaries</a></p>
 </section>
 
-<h2>What the columns mean</h2>
-<ul>
-  <li><b>requests</b>: 311 requests created that day (local time).</li>
-  <li><b>usual</b>: the average for the same weekday over the previous four weeks. Compare the two to spot a spike.</li>
-  <li><b>mood</b>: one of No heat, Noise, Parking wars, Home repairs, Street fixes, Trash talk, Critters, Water &amp; sewers, Trees, Everything else. The mood map file lists exactly which raw request types go into each.</li>
-  <li><b>neighborhood</b>: each city's own official areas: NYC Neighborhood Tabulation Areas, Chicago Community Areas, LA Neighborhood Councils, SF Analysis Neighborhoods and Boston neighborhoods.</li>
-  <li><b>kind</b> (notable types): <i>spike</i> means well above its usual level that day; <i>top</i> means one of the day's most common types.</li>
-</ul>
+<h2 id="columns">Column definitions</h2>
+<p>Every column in every file. Also available as a <a href="downloads/data-dictionary.csv" download>CSV</a>. Neighborhoods are each city's own official areas: NYC Neighborhood Tabulation Areas, Chicago Community Areas, LA Neighborhood Councils, SF Analysis Neighborhoods and Boston neighborhoods.</p>
+<div class="dict"><table>
+<thead><tr><th>File</th><th>Column</th><th>Meaning</th></tr></thead>
+<tbody><tr><td>citywide.csv</td><td><code>date</code></td><td>The day the 311 requests were created, in the city&#x27;s local time (YYYY-MM-DD).</td></tr><tr><td>citywide.csv</td><td><code>weekday</code></td><td>Day of the week for that date.</td></tr><tr><td>citywide.csv</td><td><code>mood</code></td><td>CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other.</td></tr><tr><td>citywide.csv</td><td><code>mood_label</code></td><td>The category&#x27;s display name, e.g. &#x27;Parking wars&#x27;.</td></tr><tr><td>citywide.csv</td><td><code>requests</code></td><td>Number of 311 requests that day.</td></tr><tr><td>citywide.csv</td><td><code>usual</code></td><td>Average requests on the same weekday over the previous 4 weeks. Compare with &#x27;requests&#x27; to spot a spike. Blank when there isn&#x27;t enough history.</td></tr><tr><td>citywide.csv</td><td><code>high_f</code></td><td>That day&#x27;s high temperature in °F (Open-Meteo, city center).</td></tr><tr><td>citywide.csv</td><td><code>low_f</code></td><td>That day&#x27;s low temperature in °F.</td></tr><tr><td>citywide.csv</td><td><code>rain_in</code></td><td>Total rain (precipitation) that day, in inches.</td></tr><tr><td>citywide.csv</td><td><code>(mood = all)</code></td><td>One row per day with mood &#x27;all&#x27; gives the total for every request type.</td></tr><tr><td>all-cities-citywide.csv</td><td><code>city</code></td><td>City key: nyc, chicago, la, sf or boston.</td></tr><tr><td>all-cities-citywide.csv</td><td><code>city_name</code></td><td>City name.</td></tr><tr><td>all-cities-citywide.csv</td><td><code>(other columns)</code></td><td>Same as citywide.csv, for all five cities in one file.</td></tr><tr><td>notable-types.csv</td><td><code>date</code></td><td>The day the 311 requests were created, in the city&#x27;s local time (YYYY-MM-DD).</td></tr><tr><td>notable-types.csv</td><td><code>weekday</code></td><td>Day of the week for that date.</td></tr><tr><td>notable-types.csv</td><td><code>request_type</code></td><td>A specific 311 request type (cleaned-up name), e.g. &#x27;Rats&#x27; or &#x27;Flooding: on street&#x27;.</td></tr><tr><td>notable-types.csv</td><td><code>mood</code></td><td>The mood that request type counts toward.</td></tr><tr><td>notable-types.csv</td><td><code>requests</code></td><td>Number of 311 requests that day.</td></tr><tr><td>notable-types.csv</td><td><code>usual</code></td><td>Average requests on the same weekday over the previous 4 weeks. Compare with &#x27;requests&#x27; to spot a spike. Blank when there isn&#x27;t enough history.</td></tr><tr><td>notable-types.csv</td><td><code>ratio</code></td><td>requests ÷ usual. 3.0 means three times the usual level.</td></tr><tr><td>notable-types.csv</td><td><code>kind</code></td><td>&#x27;spike&#x27; = well above its usual level that day; &#x27;top&#x27; = one of the day&#x27;s most common types.</td></tr><tr><td>neighborhoods-YYYY-MM.csv</td><td><code>date</code></td><td>The day the 311 requests were created, in the city&#x27;s local time (YYYY-MM-DD).</td></tr><tr><td>neighborhoods-YYYY-MM.csv</td><td><code>neighborhood_id</code></td><td>The city&#x27;s own code for the neighborhood (NYC NTA code, Chicago community area number, and so on). Stable across days, so use it to join files.</td></tr><tr><td>neighborhoods-YYYY-MM.csv</td><td><code>neighborhood</code></td><td>Neighborhood name, from the city&#x27;s official boundaries.</td></tr><tr><td>neighborhoods-YYYY-MM.csv</td><td><code>area / borough</code></td><td>The larger part of the city the neighborhood sits in: NYC borough, Chicago side, LA region. SF and Boston have just one area. Called &#x27;borough&#x27; in New York&#x27;s own files.</td></tr><tr><td>neighborhoods-YYYY-MM.csv</td><td><code>neighborhood_total</code></td><td>All requests from that neighborhood that day.</td></tr><tr><td>neighborhoods-YYYY-MM.csv</td><td><code>mood</code></td><td>CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other.</td></tr><tr><td>neighborhoods-YYYY-MM.csv</td><td><code>requests</code></td><td>Requests in that mood from that neighborhood that day. Only counts of 3 or more are published, so moods can be missing and rows may not add up to neighborhood_total.</td></tr><tr><td>neighborhood-types-YYYY-MM.csv</td><td><code>date</code></td><td>The day the 311 requests were created, in the city&#x27;s local time (YYYY-MM-DD).</td></tr><tr><td>neighborhood-types-YYYY-MM.csv</td><td><code>neighborhood_id</code></td><td>The city&#x27;s own code for the neighborhood (NYC NTA code, Chicago community area number, and so on). Stable across days, so use it to join files.</td></tr><tr><td>neighborhood-types-YYYY-MM.csv</td><td><code>neighborhood</code></td><td>Neighborhood name, from the city&#x27;s official boundaries.</td></tr><tr><td>neighborhood-types-YYYY-MM.csv</td><td><code>area / borough</code></td><td>The larger part of the city the neighborhood sits in: NYC borough, Chicago side, LA region. SF and Boston have just one area. Called &#x27;borough&#x27; in New York&#x27;s own files.</td></tr><tr><td>neighborhood-types-YYYY-MM.csv</td><td><code>request_type</code></td><td>One of that neighborhood&#x27;s most common request types that day.</td></tr><tr><td>neighborhood-types-YYYY-MM.csv</td><td><code>mood</code></td><td>The mood that request type counts toward.</td></tr><tr><td>neighborhood-types-YYYY-MM.csv</td><td><code>requests</code></td><td>Requests of that type from that neighborhood that day (3 or more).</td></tr><tr><td>all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv</td><td><code>city</code></td><td>City key: nyc, chicago, la, sf or boston.</td></tr><tr><td>all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv</td><td><code>city_name</code></td><td>City name.</td></tr><tr><td>all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv</td><td><code>(other columns)</code></td><td>Same as the per-city neighborhood files, for all five cities in one file per month; the area column is always called &#x27;area&#x27;.</td></tr><tr><td>mood-map.csv</td><td><code>mood</code></td><td>CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other.</td></tr><tr><td>mood-map.csv</td><td><code>mood_label</code></td><td>The category&#x27;s display name, e.g. &#x27;Parking wars&#x27;.</td></tr><tr><td>mood-map.csv</td><td><code>match</code></td><td>&#x27;exact&#x27; = this exact raw type; &#x27;starts with&#x27; or &#x27;contains (regex)&#x27; = any raw type matching the pattern.</td></tr><tr><td>mood-map.csv</td><td><code>raw_311_type</code></td><td>The request type exactly as the city&#x27;s open data names it (or the pattern).</td></tr></tbody>
+</table></div>
 
 <h2>How it's made, and what's left out</h2>
 <ul>

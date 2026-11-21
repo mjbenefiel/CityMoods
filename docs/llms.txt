@@ -9,6 +9,8 @@ Data is free to use under CC BY 4.0. Please credit "CityMoods (citymoods311.com)
 - [Data downloads page](https://citymoods311.com/data/): CSV files per city, updated nightly, with column definitions and methodology
 - [Manifest (JSON)](https://citymoods311.com/data/downloads/manifest.json): every download file with URL, row count, sources and license
 - [All cities, citywide by mood (CSV)](https://citymoods311.com/data/downloads/all-cities-citywide.csv): city, date, mood, requests, usual (same weekday, previous 4 weeks), weather
+- All cities, every neighborhood by mood, one CSV per month: https://citymoods311.com/data/downloads/all-cities-neighborhoods-YYYY-MM.csv (and all-cities-neighborhood-types-YYYY-MM.csv for each neighborhood's top request types)
+- [Data dictionary (CSV)](https://citymoods311.com/data/downloads/data-dictionary.csv): every column in every file, explained (also in manifest.json under "columns")
 - Per-day JSON: https://citymoods311.com/data/<city>/days/YYYY-MM-DD.json (list of days: https://citymoods311.com/data/<city>/index.json). City keys: nyc, chicago, la, sf, boston
 
 ## Moods

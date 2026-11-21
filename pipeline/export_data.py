@@ -52,6 +52,61 @@ def mood_rules(key: str) -> list[tuple[str, str, str]]:
     return sorted(set(rows), key=lambda r: (list(MOODS).index(r[0]), r[1], r[2].lower()))
 
 
+# Every column in every download, in plain words (rendered on the Data page and as data-dictionary.csv).
+_CITY = [("city", "City key: nyc, chicago, la, sf or boston."), ("city_name", "City name.")]
+_DAY = [("date", "The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."),
+        ("weekday", "Day of the week for that date.")]
+_HOOD = [("neighborhood_id", "The city's own code for the neighborhood (NYC NTA code, Chicago community area number, "
+                             "and so on). Stable across days, so use it to join files."),
+         ("neighborhood", "Neighborhood name, from the city's official boundaries."),
+         ("area / borough", "The larger part of the city the neighborhood sits in: NYC borough, Chicago side, LA region. "
+                            "SF and Boston have just one area. Called 'borough' in New York's own files.")]
+_MOOD = [("mood", "CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other."),
+         ("mood_label", "The category's display name, e.g. 'Parking wars'.")]
+_REQ = ("requests", "Number of 311 requests that day.")
+_USUAL = ("usual", "Average requests on the same weekday over the previous 4 weeks. Compare with 'requests' to spot a "
+                   "spike. Blank when there isn't enough history.")
+DICTIONARY = (
+    [("citywide.csv", c, m) for c, m in _DAY + _MOOD] + [
+        ("citywide.csv", *_REQ),
+        ("citywide.csv", *_USUAL),
+        ("citywide.csv", "high_f", "That day's high temperature in °F (Open-Meteo, city center)."),
+        ("citywide.csv", "low_f", "That day's low temperature in °F."),
+        ("citywide.csv", "rain_in", "Total rain (precipitation) that day, in inches."),
+        ("citywide.csv", "(mood = all)", "One row per day with mood 'all' gives the total for every request type."),
+    ]
+    + [("all-cities-citywide.csv", c, m) for c, m in _CITY]
+    + [("all-cities-citywide.csv", "(other columns)", "Same as citywide.csv, for all five cities in one file.")]
+    + [("notable-types.csv", c, m) for c, m in _DAY] + [
+        ("notable-types.csv", "request_type", "A specific 311 request type (cleaned-up name), e.g. 'Rats' or 'Flooding: on street'."),
+        ("notable-types.csv", "mood", "The mood that request type counts toward."),
+        ("notable-types.csv", *_REQ),
+        ("notable-types.csv", *_USUAL),
+        ("notable-types.csv", "ratio", "requests ÷ usual. 3.0 means three times the usual level."),
+        ("notable-types.csv", "kind", "'spike' = well above its usual level that day; 'top' = one of the day's most common types."),
+    ]
+    + [("neighborhoods-YYYY-MM.csv", c, m) for c, m in _DAY[:1] + _HOOD] + [
+        ("neighborhoods-YYYY-MM.csv", "neighborhood_total", "All requests from that neighborhood that day."),
+        ("neighborhoods-YYYY-MM.csv", "mood", _MOOD[0][1]),
+        ("neighborhoods-YYYY-MM.csv", "requests", "Requests in that mood from that neighborhood that day. Only counts "
+                                                  "of 3 or more are published, so moods can be missing and rows may "
+                                                  "not add up to neighborhood_total."),
+    ]
+    + [("neighborhood-types-YYYY-MM.csv", c, m) for c, m in _DAY[:1] + _HOOD] + [
+        ("neighborhood-types-YYYY-MM.csv", "request_type", "One of that neighborhood's most common request types that day."),
+        ("neighborhood-types-YYYY-MM.csv", "mood", "The mood that request type counts toward."),
+        ("neighborhood-types-YYYY-MM.csv", "requests", "Requests of that type from that neighborhood that day (3 or more)."),
+    ]
+    + [("all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv", c, m) for c, m in _CITY]
+    + [("all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv", "(other columns)",
+        "Same as the per-city neighborhood files, for all five cities in one file per month; the area column is always called 'area'.")]
+    + [("mood-map.csv", c, m) for c, m in _MOOD] + [
+        ("mood-map.csv", "match", "'exact' = this exact raw type; 'starts with' or 'contains (regex)' = any raw type matching the pattern."),
+        ("mood-map.csv", "raw_311_type", "The request type exactly as the city's open data names it (or the pattern)."),
+    ]
+)
+
+
 class Writer:
     """Collects CSV text, checks it, and only rewrites files whose content changed (keeps the repo small)."""
 
@@ -120,17 +175,30 @@ def export_city(key: str, name: str, W: Writer) -> list[list]:
                                                          "request_type", "mood", "requests"], rows)
     W.write(out / "mood-map.csv", ["mood", "mood_label", "match", "raw_311_type"],
             [[m, MOODS[m]["label"], how, t] for m, how, t in mood_rules(key)])
-    return [[key, name] + r for r in citywide]
+    tag = lambda rows: [[key, name] + r for r in rows]
+    return tag(citywide), {m: tag(r) for m, r in hoods_by_month.items()}, {m: tag(r) for m, r in types_by_month.items()}
 
 
 def export_all():
     cities = json.loads((DATA / "cities.json").read_text())["cities"]
     W = Writer()
-    combined = []
+    combined, all_hoods, all_types = [], defaultdict(list), defaultdict(list)
     for c in cities:
-        combined += export_city(c["key"], c["name"], W)
+        cw, hoods, types = export_city(c["key"], c["name"], W)
+        combined += cw
+        for m, rows in hoods.items():
+            all_hoods[m] += rows
+        for m, rows in types.items():
+            all_types[m] += rows
     W.write(OUT / "all-cities-citywide.csv", ["city", "city_name", "date", "weekday", "mood", "mood_label",
                                              "requests", "usual", "high_f", "low_f", "rain_in"], combined)
+    for m, rows in sorted(all_hoods.items()):
+        W.write(OUT / f"all-cities-neighborhoods-{m}.csv", ["city", "city_name", "date", "neighborhood_id",
+                "neighborhood", "area", "neighborhood_total", "mood", "requests"], rows)
+    for m, rows in sorted(all_types.items()):
+        W.write(OUT / f"all-cities-neighborhood-types-{m}.csv", ["city", "city_name", "date", "neighborhood_id",
+                "neighborhood", "area", "request_type", "mood", "requests"], rows)
+    W.write(OUT / "data-dictionary.csv", ["file", "column", "meaning"], [list(r) for r in DICTIONARY])
     manifest = {
         "name": "CityMoods 311 data",
         "description": "Daily 311 service-request counts by mood and neighborhood for New York City, Chicago, "
@@ -141,6 +209,7 @@ def export_all():
         "docs": f"{SITE}/data/",
         "sources": {c["key"]: c.get("sources", []) for c in cities},
         "moods": {k: v["label"] for k, v in MOODS.items()},
+        "columns": [{"file": f, "column": c, "meaning": m} for f, c, m in DICTIONARY],
         "files": W.files,
     }
     text = json.dumps(manifest, ensure_ascii=False, indent=1)
@@ -215,7 +284,23 @@ def write_page(cities: list[dict], files: list[dict]):
   </ul>
   <p class="src">Official source: {srcs}</p>
 </section>""")
-    allc = by_city["_all"][0] if by_city["_all"] else None
+    alls = {Path(f["path"]).name: f for f in by_city["_all"]}
+    months = sorted({n[-11:-4] for n in alls if n.startswith("all-cities-neighborhoods-")}, reverse=True)
+    all_block = ""
+    if "all-cities-citywide.csv" in alls:
+        all_block = f"""
+<section class="city">
+  <h2>All five cities</h2>
+  <ul>
+    <li>{link(alls["all-cities-citywide.csv"], "Citywide by mood, all cities")}: every day, with the usual level and weather</li>
+    <li>Every neighborhood in every city, by mood, by month: {" · ".join(link(alls[f"all-cities-neighborhoods-{m}.csv"], m) for m in months)}</li>
+    <li>Every neighborhood's top request types, by month: {" · ".join(link(alls[f"all-cities-neighborhood-types-{m}.csv"], m) for m in months if f"all-cities-neighborhood-types-{m}.csv" in alls)}</li>
+    <li>{link(alls["data-dictionary.csv"], "Data dictionary")}: every column in every file, explained</li>
+  </ul>
+  <p class="src">This is everything behind the maps. Individual 311 records (with addresses and notes) are never collected or shared here; for those, use each city's official portal below.</p>
+</section>"""
+    dict_rows = "".join(
+        f"<tr><td>{e(f)}</td><td><code>{e(c)}</code></td><td>{e(m)}</td></tr>" for f, c, m in DICTIONARY)
     updated = max(json.loads((DATA / c["key"] / "index.json").read_text())["days"][0] for c in cities)
     html = f"""<!doctype html>
 <html lang="en">
@@ -244,11 +329,16 @@ code{{font-size:13px;background:var(--panel);border:1px solid var(--line);border
 .ask{{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:14px 0}}
 .ask label{{display:block;font-weight:600;margin-bottom:6px}}
 .ask input{{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}}
-.ask pre{{white-space:pre-wrap;font-size:13px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0}}
+.ask pre{{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0}}
 .ask button{{font:inherit;font-weight:600;border:0;border-radius:999px;padding:9px 16px;background:var(--accent);color:#fff;cursor:pointer}}
 .ask .ok{{margin-left:10px;font-size:14px;color:var(--muted)}}
 .ask .ex{{font-size:14px;margin:10px 0 0}} .ask .ex a{{cursor:pointer}}
 .lead{{font-size:18px}}
+.dict{{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}}
+.dict table{{border-collapse:collapse;width:100%;font-size:14px}}
+.dict th,.dict td{{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted)}}
+.dict th{{color:var(--ink);font-weight:600}} .dict td:first-child{{font-size:12px;min-width:110px}}
+.dict code{{word-break:normal;white-space:nowrap}}
 </style>
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
@@ -269,7 +359,7 @@ code{{font-size:13px;background:var(--panel);border:1px solid var(--line);border
 
 <h2>How to start</h2>
 <ol>
-  <li>Download a CSV below and open it in Google Sheets or Excel.</li>
+  <li>Download a CSV below and open it in Google Sheets or Excel. Unsure what a column means? See the <a href="#columns">column definitions</a>.</li>
   <li>Filter by <code>mood</code> or <code>neighborhood</code>.</li>
   <li>Compare <code>requests</code> with <code>usual</code>. Anything around 2× or more is a spike worth a look.</li>
 </ol>
@@ -285,17 +375,15 @@ code{{font-size:13px;background:var(--panel);border:1px solid var(--line);border
 </div>
 
 <h2>Downloads</h2>
-{f'<p>All five cities in one file: {link(allc, "all-cities-citywide.csv")}</p>' if allc else ""}
+{all_block}
 {"".join(blocks)}
 
-<h2>What the columns mean</h2>
-<ul>
-  <li><b>requests</b>: 311 requests created that day (local time).</li>
-  <li><b>usual</b>: the average for the same weekday over the previous four weeks. Compare the two to spot a spike.</li>
-  <li><b>mood</b>: one of {e(", ".join(v["label"] for v in MOODS.values()))}. The mood map file lists exactly which raw request types go into each.</li>
-  <li><b>neighborhood</b>: each city's own official areas: NYC Neighborhood Tabulation Areas, Chicago Community Areas, LA Neighborhood Councils, SF Analysis Neighborhoods and Boston neighborhoods.</li>
-  <li><b>kind</b> (notable types): <i>spike</i> means well above its usual level that day; <i>top</i> means one of the day's most common types.</li>
-</ul>
+<h2 id="columns">Column definitions</h2>
+<p>Every column in every file. Also available as a <a href="downloads/data-dictionary.csv" download>CSV</a>. Neighborhoods are each city's own official areas: NYC Neighborhood Tabulation Areas, Chicago Community Areas, LA Neighborhood Councils, SF Analysis Neighborhoods and Boston neighborhoods.</p>
+<div class="dict"><table>
+<thead><tr><th>File</th><th>Column</th><th>Meaning</th></tr></thead>
+<tbody>{dict_rows}</tbody>
+</table></div>
 
 <h2>How it's made, and what's left out</h2>
 <ul>

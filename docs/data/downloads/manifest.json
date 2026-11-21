@@ -67,6 +67,218 @@
   "trees": "Trees",
   "other": "Everything else"
  },
+ "columns": [
+  {
+   "file": "citywide.csv",
+   "column": "date",
+   "meaning": "The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "weekday",
+   "meaning": "Day of the week for that date."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "mood",
+   "meaning": "CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "mood_label",
+   "meaning": "The category's display name, e.g. 'Parking wars'."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "requests",
+   "meaning": "Number of 311 requests that day."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "usual",
+   "meaning": "Average requests on the same weekday over the previous 4 weeks. Compare with 'requests' to spot a spike. Blank when there isn't enough history."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "high_f",
+   "meaning": "That day's high temperature in °F (Open-Meteo, city center)."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "low_f",
+   "meaning": "That day's low temperature in °F."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "rain_in",
+   "meaning": "Total rain (precipitation) that day, in inches."
+  },
+  {
+   "file": "citywide.csv",
+   "column": "(mood = all)",
+   "meaning": "One row per day with mood 'all' gives the total for every request type."
+  },
+  {
+   "file": "all-cities-citywide.csv",
+   "column": "city",
+   "meaning": "City key: nyc, chicago, la, sf or boston."
+  },
+  {
+   "file": "all-cities-citywide.csv",
+   "column": "city_name",
+   "meaning": "City name."
+  },
+  {
+   "file": "all-cities-citywide.csv",
+   "column": "(other columns)",
+   "meaning": "Same as citywide.csv, for all five cities in one file."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "date",
+   "meaning": "The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "weekday",
+   "meaning": "Day of the week for that date."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "request_type",
+   "meaning": "A specific 311 request type (cleaned-up name), e.g. 'Rats' or 'Flooding: on street'."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "mood",
+   "meaning": "The mood that request type counts toward."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "requests",
+   "meaning": "Number of 311 requests that day."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "usual",
+   "meaning": "Average requests on the same weekday over the previous 4 weeks. Compare with 'requests' to spot a spike. Blank when there isn't enough history."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "ratio",
+   "meaning": "requests ÷ usual. 3.0 means three times the usual level."
+  },
+  {
+   "file": "notable-types.csv",
+   "column": "kind",
+   "meaning": "'spike' = well above its usual level that day; 'top' = one of the day's most common types."
+  },
+  {
+   "file": "neighborhoods-YYYY-MM.csv",
+   "column": "date",
+   "meaning": "The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+  },
+  {
+   "file": "neighborhoods-YYYY-MM.csv",
+   "column": "neighborhood_id",
+   "meaning": "The city's own code for the neighborhood (NYC NTA code, Chicago community area number, and so on). Stable across days, so use it to join files."
+  },
+  {
+   "file": "neighborhoods-YYYY-MM.csv",
+   "column": "neighborhood",
+   "meaning": "Neighborhood name, from the city's official boundaries."
+  },
+  {
+   "file": "neighborhoods-YYYY-MM.csv",
+   "column": "area / borough",
+   "meaning": "The larger part of the city the neighborhood sits in: NYC borough, Chicago side, LA region. SF and Boston have just one area. Called 'borough' in New York's own files."
+  },
+  {
+   "file": "neighborhoods-YYYY-MM.csv",
+   "column": "neighborhood_total",
+   "meaning": "All requests from that neighborhood that day."
+  },
+  {
+   "file": "neighborhoods-YYYY-MM.csv",
+   "column": "mood",
+   "meaning": "CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other."
+  },
+  {
+   "file": "neighborhoods-YYYY-MM.csv",
+   "column": "requests",
+   "meaning": "Requests in that mood from that neighborhood that day. Only counts of 3 or more are published, so moods can be missing and rows may not add up to neighborhood_total."
+  },
+  {
+   "file": "neighborhood-types-YYYY-MM.csv",
+   "column": "date",
+   "meaning": "The day the 311 requests were created, in the city's local time (YYYY-MM-DD)."
+  },
+  {
+   "file": "neighborhood-types-YYYY-MM.csv",
+   "column": "neighborhood_id",
+   "meaning": "The city's own code for the neighborhood (NYC NTA code, Chicago community area number, and so on). Stable across days, so use it to join files."
+  },
+  {
+   "file": "neighborhood-types-YYYY-MM.csv",
+   "column": "neighborhood",
+   "meaning": "Neighborhood name, from the city's official boundaries."
+  },
+  {
+   "file": "neighborhood-types-YYYY-MM.csv",
+   "column": "area / borough",
+   "meaning": "The larger part of the city the neighborhood sits in: NYC borough, Chicago side, LA region. SF and Boston have just one area. Called 'borough' in New York's own files."
+  },
+  {
+   "file": "neighborhood-types-YYYY-MM.csv",
+   "column": "request_type",
+   "meaning": "One of that neighborhood's most common request types that day."
+  },
+  {
+   "file": "neighborhood-types-YYYY-MM.csv",
+   "column": "mood",
+   "meaning": "The mood that request type counts toward."
+  },
+  {
+   "file": "neighborhood-types-YYYY-MM.csv",
+   "column": "requests",
+   "meaning": "Requests of that type from that neighborhood that day (3 or more)."
+  },
+  {
+   "file": "all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv",
+   "column": "city",
+   "meaning": "City key: nyc, chicago, la, sf or boston."
+  },
+  {
+   "file": "all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv",
+   "column": "city_name",
+   "meaning": "City name."
+  },
+  {
+   "file": "all-cities-neighborhoods-YYYY-MM.csv / all-cities-neighborhood-types-YYYY-MM.csv",
+   "column": "(other columns)",
+   "meaning": "Same as the per-city neighborhood files, for all five cities in one file per month; the area column is always called 'area'."
+  },
+  {
+   "file": "mood-map.csv",
+   "column": "mood",
+   "meaning": "CityMoods category id: heat, noise, parking, housing, streets, trash, critters, water, trees, other."
+  },
+  {
+   "file": "mood-map.csv",
+   "column": "mood_label",
+   "meaning": "The category's display name, e.g. 'Parking wars'."
+  },
+  {
+   "file": "mood-map.csv",
+   "column": "match",
+   "meaning": "'exact' = this exact raw type; 'starts with' or 'contains (regex)' = any raw type matching the pattern."
+  },
+  {
+   "file": "mood-map.csv",
+   "column": "raw_311_type",
+   "meaning": "The request type exactly as the city's open data names it (or the pattern)."
+  }
+ ],
  "files": [
   {
    "path": "data/downloads/nyc/citywide.csv",
@@ -197,6 +409,21 @@
    "path": "data/downloads/all-cities-citywide.csv",
    "rows": 605,
    "url": "https://citymoods311.com/data/downloads/all-cities-citywide.csv"
+  },
+  {
+   "path": "data/downloads/all-cities-neighborhoods-2026-11.csv",
+   "rows": 18187,
+   "url": "https://citymoods311.com/data/downloads/all-cities-neighborhoods-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/all-cities-neighborhood-types-2026-11.csv",
+   "rows": 17721,
+   "url": "https://citymoods311.com/data/downloads/all-cities-neighborhood-types-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/data-dictionary.csv",
+   "rows": 42,
+   "url": "https://citymoods311.com/data/downloads/data-dictionary.csv"
   }
  ]
 }

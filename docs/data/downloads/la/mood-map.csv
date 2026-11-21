@@ -1,0 +1,51 @@
+mood,mood_label,match,raw_311_type
+noise,Noise,exact,"Illegal Auto Repair or Construction, and Leaf Blowers"
+noise,Noise,exact,Nuisance Barking Dogs
+parking,Parking wars,exact,Dockless Mobility Enforcement
+parking,Parking wars,exact,Parking Issues
+parking,Parking wars,exact,Parking Meter Maintenance
+housing,Home repairs,exact,Private Property Violation
+streets,Street fixes,exact,Accessible Bus Stop Issues
+streets,Street fixes,exact,Barricade Removal
+streets,Street fixes,exact,Bicycle Facilities Issues
+streets,Street fixes,exact,Bus Stop Furniture
+streets,Street fixes,exact,Bus Stop Parking Sign & Markings
+streets,Street fixes,exact,Curb Issues
+streets,Street fixes,exact,General Street Inspection
+streets,Street fixes,exact,Guard/Warning Rail Maintenance
+streets,Street fixes,exact,Land/Mud Slide
+streets,Street fixes,exact,Median Island Maintenance
+streets,Street fixes,exact,Obstructions
+streets,Street fixes,exact,Report a Sidewalk Problem
+streets,Street fixes,exact,Sidewalk Repair Access Request Program
+streets,Street fixes,exact,Street Pavement Issues
+streets,Street fixes,exact,Streetlight ADA Repair Services
+streets,Street fixes,exact,Streetlight Non-Repair Services
+streets,Street fixes,exact,Streetlight Repair Services
+streets,Street fixes,exact,Traffic Safety
+streets,Street fixes,exact,Traffic Sign Issues
+streets,Street fixes,exact,Traffic Signal Issues
+trash,Trash talk,exact,Graffiti Removal
+trash,Trash talk,exact,Illegal Dumping Food Waste
+trash,Trash talk,exact,Illegal Dumping Item Pickup
+trash,Trash talk,exact,"Illegal Sign Removal, News Rack Issues"
+trash,Trash talk,exact,"Park Cleanliness, Trash and Ground Maintenance"
+trash,Trash talk,exact,Public Street Receptacles
+trash,Trash talk,exact,Service Not Complete
+trash,Trash talk,exact,Street Sweeping
+critters,Critters,exact,Animal Complaint/Violation
+critters,Critters,exact,Animal Confined
+critters,Critters,exact,Animal Loose
+critters,Critters,exact,Bees or Beehive
+critters,Critters,exact,Dead Animal Removal
+water,Water & sewers,exact,Flooding
+water,Water & sewers,exact,Illegal Discharge of Water
+water,Water & sewers,exact,Report Water Wasting
+water,Water & sewers,exact,Sewer or Sidewalk Rebates
+water,Water & sewers,exact,Watershed Protection Division (WPD) Enforcement
+trees,Trees,exact,Landscape Maintenance
+trees,Trees,exact,Street Tree Inspection
+trees,Trees,exact,Street Tree Violations
+trees,Trees,exact,Tree Emergency
+trees,Trees,exact,Tree Obstruction
+trees,Trees,exact,Trees or Pests in the Park

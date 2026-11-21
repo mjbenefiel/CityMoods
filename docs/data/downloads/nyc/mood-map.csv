@@ -1,0 +1,99 @@
+mood,mood_label,match,raw_311_type
+heat,No heat,exact,Boilers
+heat,No heat,exact,HEAT/HOT WATER
+heat,No heat,exact,Non-Residential Heat
+noise,Noise,exact,Illegal Fireworks
+noise,Noise,starts with,Noise
+parking,Parking wars,exact,Abandoned Vehicle
+parking,Parking wars,exact,Blocked Driveway
+parking,Parking wars,exact,Broken Parking Meter
+parking,Parking wars,exact,Derelict Vehicles
+parking,Parking wars,exact,Illegal Parking
+parking,Parking wars,exact,Municipal Parking Facility
+housing,Home repairs,exact,APPLIANCE
+housing,Home repairs,exact,Asbestos
+housing,Home repairs,exact,BEST/Site Safety
+housing,Home repairs,exact,Building Drinking Water Tank
+housing,Home repairs,exact,Building/Use
+housing,Home repairs,exact,Construction Lead Dust
+housing,Home repairs,exact,Cranes and Derricks
+housing,Home repairs,exact,DOOR/WINDOW
+housing,Home repairs,exact,ELECTRIC
+housing,Home repairs,exact,Electrical
+housing,Home repairs,exact,ELEVATOR
+housing,Home repairs,exact,Elevator
+housing,Home repairs,exact,FLOORING/STAIRS
+housing,Home repairs,exact,GENERAL
+housing,Home repairs,exact,General Construction/Plumbing
+housing,Home repairs,exact,Indoor Air Quality
+housing,Home repairs,exact,Indoor Sewage
+housing,Home repairs,exact,Lead
+housing,Home repairs,exact,Mold
+housing,Home repairs,exact,OUTSIDE BUILDING
+housing,Home repairs,exact,PAINT/PLASTER
+housing,Home repairs,exact,Plumbing
+housing,Home repairs,exact,PLUMBING
+housing,Home repairs,exact,SAFETY
+housing,Home repairs,exact,Scaffold Safety
+housing,Home repairs,exact,UNSANITARY CONDITION
+housing,Home repairs,exact,WATER LEAK
+streets,Street fixes,exact,Bench
+streets,Street fixes,exact,Bike Rack
+streets,Street fixes,exact,Bridge Condition
+streets,Street fixes,exact,Bus Stop Shelter Complaint
+streets,Street fixes,exact,Bus Stop Shelter Placement
+streets,Street fixes,exact,Curb Condition
+streets,Street fixes,exact,LinkNYC
+streets,Street fixes,exact,Obstruction
+streets,Street fixes,exact,Root/Sewer/Sidewalk Condition
+streets,Street fixes,exact,Sidewalk Condition
+streets,Street fixes,exact,Snow or Ice
+streets,Street fixes,exact,Street Condition
+streets,Street fixes,exact,Street Light Condition
+streets,Street fixes,exact,Traffic
+streets,Street fixes,exact,Traffic Signal Condition
+streets,Street fixes,exact,Tunnel Condition
+streets,Street fixes,exact,Wayfinding
+trash,Trash talk,exact,Abandoned Bike
+trash,Trash talk,exact,Commercial Disposal Complaint
+trash,Trash talk,exact,Dirty Condition
+trash,Trash talk,exact,Dumpster Complaint
+trash,Trash talk,exact,Graffiti
+trash,Trash talk,exact,Illegal Dumping
+trash,Trash talk,exact,Illegal Posting
+trash,Trash talk,exact,Institution Disposal Complaint
+trash,Trash talk,exact,Litter Basket Complaint
+trash,Trash talk,exact,Litter Basket Request
+trash,Trash talk,exact,Lot Condition
+trash,Trash talk,exact,Missed Collection
+trash,Trash talk,exact,Posting Advertisement
+trash,Trash talk,exact,Recycling Basket Complaint
+trash,Trash talk,exact,Residential Disposal Complaint
+trash,Trash talk,exact,Sanitation Worker or Vehicle Complaint
+trash,Trash talk,exact,Street Sweeping Complaint
+trash,Trash talk,exact,Wood Pile Remaining
+critters,Critters,exact,Animal in a Park
+critters,Critters,exact,Dead Animal
+critters,Critters,exact,Harboring Bees/Wasps
+critters,Critters,exact,Illegal Animal Kept as Pet
+critters,Critters,exact,Mosquitoes
+critters,Critters,exact,Rodent
+critters,Critters,exact,Standing Water
+critters,Critters,exact,Unleashed Dog
+critters,Critters,exact,Unsanitary Animal Pvt Property
+critters,Critters,exact,Unsanitary Pigeon Condition
+water,Water & sewers,exact,Drinking Water
+water,Water & sewers,exact,Dry Weather Discharge
+water,Water & sewers,exact,Green Infrastructure
+water,Water & sewers,exact,Industrial Waste
+water,Water & sewers,exact,Sewer Maintenance
+water,Water & sewers,exact,Waste Water Treatment Plant
+water,Water & sewers,exact,Water Conservation
+water,Water & sewers,exact,Water Maintenance
+water,Water & sewers,exact,Water Quality
+trees,Trees,exact,Damaged Tree
+trees,Trees,exact,Dead/Dying Tree
+trees,Trees,exact,Illegal Tree Damage
+trees,Trees,exact,New Tree Request
+trees,Trees,exact,Overgrown Tree/Branches
+trees,Trees,exact,Uprooted Stump

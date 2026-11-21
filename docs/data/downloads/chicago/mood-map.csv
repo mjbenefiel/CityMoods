@@ -1,0 +1,73 @@
+mood,mood_label,match,raw_311_type
+parking,Parking wars,exact,Abandoned Vehicle Complaint
+parking,Parking wars,exact,City Vehicle Sticker Violation
+parking,Parking wars,exact,Divvy Bike Parking Complaint
+parking,Parking wars,exact,E-Scooter Parking Complaint
+parking,Parking wars,exact,Finance Parking Code Enforcement Review
+housing,Home repairs,exact,Building Violation
+housing,Home repairs,exact,Buildings - Plumbing Violation
+housing,Home repairs,exact,Lead Inspection Request
+housing,Home repairs,exact,No Air Conditioning
+housing,Home repairs,exact,No Building Permit and Construction Violation
+housing,Home repairs,exact,Porch Inspection Request
+housing,Home repairs,exact,Vacant/Abandoned Building Complaint
+streets,Street fixes,exact,Alley Light Out Complaint
+streets,Street fixes,exact,Alley Pothole Complaint
+streets,Street fixes,exact,Bicycle Request/Complaint
+streets,Street fixes,exact,Inspect Public Way Request
+streets,Street fixes,exact,Pothole in Street Complaint
+streets,Street fixes,exact,Protected Bike Lane - Debris Removal
+streets,Street fixes,exact,Sidewalk Inspection Request
+streets,Street fixes,exact,Sign Repair Request - All Other Signs
+streets,Street fixes,exact,Sign Repair Request - Do Not Enter Sign
+streets,Street fixes,exact,Sign Repair Request - One Way Sign
+streets,Street fixes,exact,Sign Repair Request - Stop Sign
+streets,Street fixes,exact,Snow – Uncleared Sidewalk Complaint
+streets,Street fixes,exact,Street Light On During Day Complaint
+streets,Street fixes,exact,Street Light Out Complaint
+streets,Street fixes,exact,Street Light Pole Damage Complaint
+streets,Street fixes,exact,Street Light Pole Door Missing Complaint
+streets,Street fixes,exact,Traffic Signal Out Complaint
+streets,Street fixes,exact,Viaduct Light Out Complaint
+trash,Trash talk,exact,Blue Recycling Cart
+trash,Trash talk,exact,Clean and Green Program Request
+trash,Trash talk,exact,Clean Vacant Lot Request
+trash,Trash talk,exact,Fly Dumping Complaint
+trash,Trash talk,exact,Garbage Cart Maintenance
+trash,Trash talk,exact,Graffiti Removal Request
+trash,Trash talk,exact,Missed Garbage Pick-Up Complaint
+trash,Trash talk,exact,Recycling Inspection Request
+trash,Trash talk,exact,Recycling Pick Up
+trash,Trash talk,exact,Sanitation Code Violation
+trash,Trash talk,exact,Street Cleaning Request
+trash,Trash talk,exact,Wire Basket Request
+trash,Trash talk,exact,Yard Waste Pick-Up Request
+critters,Critters,exact,Animal In Trap Complaint
+critters,Critters,exact,Bee/Wasp Removal
+critters,Critters,exact,Coyote Interaction Complaint
+critters,Critters,exact,Dead Animal Pick-Up Request
+critters,Critters,exact,Dead Bird
+critters,Critters,exact,Nuisance Animal Complaint
+critters,Critters,exact,Pet Wellness Check Request
+critters,Critters,exact,Report an Injured Animal
+critters,Critters,exact,Rodent Baiting/Rat Complaint
+critters,Critters,exact,Stray Animal Complaint
+critters,Critters,exact,Vicious Animal Complaint
+water,Water & sewers,exact,Alley Sewer Inspection Request
+water,Water & sewers,exact,Check for Leak
+water,Water & sewers,exact,Low Water Pressure Complaint
+water,Water & sewers,exact,No Water Complaint
+water,Water & sewers,exact,Open Fire Hydrant Complaint
+water,Water & sewers,exact,Sewer Cave-In Inspection Request
+water,Water & sewers,exact,Sewer Cleaning Inspection Request
+water,Water & sewers,exact,Water in Basement Complaint
+water,Water & sewers,exact,Water Lead Test Kit Request
+water,Water & sewers,exact,Water Lead Test Visit Request
+water,Water & sewers,exact,Water On Street Complaint
+water,Water & sewers,exact,Water Quality Concern
+trees,Trees,exact,Tree Debris Clean-Up Request
+trees,Trees,exact,Tree Emergency
+trees,Trees,exact,Tree Planting Request
+trees,Trees,exact,Tree Removal Inspection
+trees,Trees,exact,Tree Trim Request (NO LONGER BEING ACCEPTED)
+trees,Trees,exact,Weed Removal Request

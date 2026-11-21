@@ -1,0 +1,326 @@
+date,weekday,request_type,mood,requests,usual,ratio,kind
+2026-11-08,Sunday,Illegal fireworks,noise,294,5,61.89,spike
+2026-11-08,Sunday,Water supply: no water,housing,39,20,1.93,spike
+2026-11-08,Sunday,Restaurant problem,other,56,35,1.61,spike
+2026-11-08,Sunday,Loud music/party (next door),noise,713,960,0.74,top
+2026-11-08,Sunday,Blocked hydrant,parking,692,565,1.22,top
+2026-11-08,Sunday,No heat (whole building),heat,576,694,0.83,top
+2026-11-08,Sunday,Banging/pounding (next door),noise,547,529,1.03,top
+2026-11-08,Sunday,Loud music/party (on the street),noise,534,544,0.98,top
+2026-11-08,Sunday,Driveway fully blocked,parking,447,408,1.1,top
+2026-11-08,Sunday,Posted parking sign violation,parking,344,348,0.99,top
+2026-11-08,Sunday,Blocked sidewalk,parking,248,248,1.0,top
+2026-11-08,Sunday,No heat (one apartment),heat,192,240,0.8,top
+2026-11-08,Sunday,Loud music/party (at a business),noise,175,272,0.64,top
+2026-11-08,Sunday,No heat and no hot water (whole building),heat,167,197,0.85,top
+2026-11-08,Sunday,Commercial overnight parking,parking,165,132,1.25,top
+2026-11-08,Sunday,Abandoned car (with plates),parking,154,128,1.21,top
+2026-11-08,Sunday,Driveway partly blocked,parking,126,149,0.84,top
+2026-11-08,Sunday,Illegal parking,parking,1919,1700,1.13,top
+2026-11-08,Sunday,Noisy neighbors,noise,1373,1628,0.84,top
+2026-11-08,Sunday,No heat or hot water,heat,1090,1322,0.82,top
+2026-11-08,Sunday,Street noise,noise,650,658,0.99,top
+2026-11-08,Sunday,Blocked driveway,parking,573,557,1.03,top
+2026-11-08,Sunday,Unsanitary apartment,housing,242,306,0.79,top
+2026-11-08,Sunday,Noisy business,noise,234,322,0.73,top
+2026-11-08,Sunday,Noisy vehicle,noise,175,189,0.92,top
+2026-11-08,Sunday,Construction or other noise,noise,171,160,1.07,top
+2026-11-08,Sunday,Plumbing,housing,164,140,1.18,top
+2026-11-08,Sunday,Abandoned car,parking,154,128,1.21,top
+2026-11-09,Monday,Illegal fireworks,noise,41,2,23.43,spike
+2026-11-09,Monday,No heat (whole building),heat,1207,472,2.56,spike
+2026-11-09,Monday,No heat (one apartment),heat,468,206,2.27,spike
+2026-11-09,Monday,Street not swept,trash,38,20,1.85,spike
+2026-11-09,Monday,No heat or hot water,heat,2148,1085,1.98,spike
+2026-11-09,Monday,Posted parking sign violation,parking,746,601,1.24,top
+2026-11-09,Monday,Blocked hydrant,parking,542,506,1.07,top
+2026-11-09,Monday,Banging/pounding (next door),noise,422,433,0.97,top
+2026-11-09,Monday,Driveway fully blocked,parking,386,413,0.93,top
+2026-11-09,Monday,Blocked sidewalk,parking,299,293,1.02,top
+2026-11-09,Monday,Loud music/party (next door),noise,272,328,0.83,top
+2026-11-09,Monday,Abandoned car (with plates),parking,255,234,1.09,top
+2026-11-09,Monday,No heat and no hot water (whole building),heat,251,182,1.38,top
+2026-11-09,Monday,Street light out,streets,207,151,1.37,top
+2026-11-09,Monday,Mold,housing,174,158,1.1,top
+2026-11-09,Monday,Driveway partly blocked,parking,165,173,0.95,top
+2026-11-09,Monday,Loud music/party (on the street),noise,160,268,0.6,top
+2026-11-09,Monday,Derelict car,parking,153,113,1.35,top
+2026-11-09,Monday,Illegal parking,parking,2198,1987,1.11,top
+2026-11-09,Monday,Noisy neighbors,noise,765,868,0.88,top
+2026-11-09,Monday,Unsanitary apartment,housing,570,556,1.03,top
+2026-11-09,Monday,Blocked driveway,parking,551,586,0.94,top
+2026-11-09,Monday,Plumbing,housing,336,296,1.13,top
+2026-11-09,Monday,Peeling paint or plaster,housing,283,262,1.08,top
+2026-11-09,Monday,Broken door or window,housing,262,199,1.32,top
+2026-11-09,Monday,Abandoned car,parking,255,234,1.09,top
+2026-11-09,Monday,Street noise,noise,228,362,0.63,top
+2026-11-09,Monday,Potholes and street damage,streets,225,254,0.89,top
+2026-11-10,Tuesday,Multiple street lights out,streets,27,8,3.38,spike
+2026-11-10,Tuesday,No heat (whole building),heat,809,331,2.44,spike
+2026-11-10,Tuesday,No heat (one apartment),heat,346,152,2.28,spike
+2026-11-10,Tuesday,Street not swept,trash,32,15,2.13,spike
+2026-11-10,Tuesday,Compost,trash,33,17,1.91,spike
+2026-11-10,Tuesday,Street Sweeping Complaint,trash,86,41,2.08,spike
+2026-11-10,Tuesday,No heat or hot water,heat,1556,813,1.91,spike
+2026-11-10,Tuesday,Street light out,streets,318,196,1.62,spike
+2026-11-10,Tuesday,Posted parking sign violation,parking,713,526,1.36,top
+2026-11-10,Tuesday,Blocked hydrant,parking,554,519,1.07,top
+2026-11-10,Tuesday,Banging/pounding (next door),noise,451,414,1.09,top
+2026-11-10,Tuesday,Driveway fully blocked,parking,418,400,1.05,top
+2026-11-10,Tuesday,Loud music/party (next door),noise,302,280,1.08,top
+2026-11-10,Tuesday,Blocked sidewalk,parking,301,314,0.96,top
+2026-11-10,Tuesday,Abandoned car (with plates),parking,215,246,0.87,top
+2026-11-10,Tuesday,No heat and no hot water (whole building),heat,189,124,1.52,top
+2026-11-10,Tuesday,Loud music/party (on the street),noise,180,244,0.74,top
+2026-11-10,Tuesday,Driveway partly blocked,parking,177,164,1.08,top
+2026-11-10,Tuesday,Mold,housing,177,155,1.14,top
+2026-11-10,Tuesday,Mice,housing,146,121,1.21,top
+2026-11-10,Tuesday,Illegal parking,parking,2238,1975,1.13,top
+2026-11-10,Tuesday,Noisy neighbors,noise,854,793,1.08,top
+2026-11-10,Tuesday,Blocked driveway,parking,595,563,1.06,top
+2026-11-10,Tuesday,Unsanitary apartment,housing,546,548,1.0,top
+2026-11-10,Tuesday,Plumbing,housing,301,283,1.06,top
+2026-11-10,Tuesday,Street noise,noise,269,361,0.75,top
+2026-11-10,Tuesday,Construction or other noise,noise,251,259,0.97,top
+2026-11-10,Tuesday,Peeling paint or plaster,housing,242,267,0.91,top
+2026-11-10,Tuesday,Potholes and street damage,streets,232,291,0.8,top
+2026-11-10,Tuesday,Abandoned car,parking,215,246,0.87,top
+2026-11-11,Wednesday,Trash,trash,38,20,1.95,spike
+2026-11-11,Wednesday,Missed trash pickup,trash,104,65,1.6,spike
+2026-11-11,Wednesday,No heat (whole building),heat,615,361,1.7,top
+2026-11-11,Wednesday,Banging/pounding (next door),noise,513,424,1.21,top
+2026-11-11,Wednesday,Blocked hydrant,parking,511,505,1.01,top
+2026-11-11,Wednesday,Posted parking sign violation,parking,449,587,0.77,top
+2026-11-11,Wednesday,Driveway fully blocked,parking,380,394,0.97,top
+2026-11-11,Wednesday,Loud music/party (next door),noise,337,285,1.18,top
+2026-11-11,Wednesday,Blocked sidewalk,parking,298,338,0.88,top
+2026-11-11,Wednesday,No heat (one apartment),heat,246,176,1.4,top
+2026-11-11,Wednesday,Abandoned car (with plates),parking,229,241,0.95,top
+2026-11-11,Wednesday,Loud music/party (on the street),noise,218,257,0.85,top
+2026-11-11,Wednesday,No heat and no hot water (whole building),heat,150,144,1.04,top
+2026-11-11,Wednesday,Driveway partly blocked,parking,138,168,0.82,top
+2026-11-11,Wednesday,Littering,trash,125,140,0.89,top
+2026-11-11,Wednesday,Commercial overnight parking,parking,124,141,0.88,top
+2026-11-11,Wednesday,Mold,housing,121,146,0.83,top
+2026-11-11,Wednesday,Illegal parking,parking,1808,2050,0.88,top
+2026-11-11,Wednesday,No heat or hot water,heat,1199,874,1.37,top
+2026-11-11,Wednesday,Noisy neighbors,noise,968,817,1.19,top
+2026-11-11,Wednesday,Blocked driveway,parking,518,562,0.92,top
+2026-11-11,Wednesday,Unsanitary apartment,housing,406,528,0.77,top
+2026-11-11,Wednesday,Street noise,noise,295,374,0.79,top
+2026-11-11,Wednesday,Abandoned car,parking,229,241,0.95,top
+2026-11-11,Wednesday,Plumbing,housing,220,284,0.78,top
+2026-11-11,Wednesday,Construction or other noise,noise,205,273,0.75,top
+2026-11-11,Wednesday,Peeling paint or plaster,housing,202,249,0.81,top
+2026-11-11,Wednesday,Dirty street or sidewalk,trash,193,230,0.84,top
+2026-11-11,Wednesday,Broken door or window,housing,190,222,0.86,top
+2026-11-12,Thursday,Flooded street,water,319,6,58.0,spike
+2026-11-12,Thursday,Clogged storm drain,water,286,14,20.07,spike
+2026-11-12,Thursday,Sewer backup,water,131,16,8.45,spike
+2026-11-12,Thursday,Traffic signal completely out,streets,41,6,7.13,spike
+2026-11-12,Thursday,Building shaking or unstable,housing,60,11,5.33,spike
+2026-11-12,Thursday,No heat (whole building),heat,936,250,3.74,spike
+2026-11-12,Thursday,Sewer problem,water,821,68,12.03,spike
+2026-11-12,Thursday,No heat or hot water,heat,1771,674,2.63,spike
+2026-11-12,Thursday,Water leak,housing,361,155,2.33,spike
+2026-11-12,Thursday,Traffic signal problem,streets,298,131,2.27,spike
+2026-11-12,Thursday,Posted parking sign violation,parking,444,528,0.84,top
+2026-11-12,Thursday,Driveway fully blocked,parking,439,416,1.06,top
+2026-11-12,Thursday,No heat (one apartment),heat,432,131,3.29,top
+2026-11-12,Thursday,Blocked hydrant,parking,429,480,0.89,top
+2026-11-12,Thursday,Banging/pounding (next door),noise,423,430,0.98,top
+2026-11-12,Thursday,Blocked sidewalk,parking,271,298,0.91,top
+2026-11-12,Thursday,No heat and no hot water (whole building),heat,207,103,2.01,top
+2026-11-12,Thursday,Mold,housing,201,150,1.34,top
+2026-11-12,Thursday,Abandoned car (with plates),parking,192,242,0.8,top
+2026-11-12,Thursday,Loud music/party (next door),noise,189,309,0.61,top
+2026-11-12,Thursday,Heavy flow: at wall or ceiling,housing,181,58,3.13,top
+2026-11-12,Thursday,Traffic signal acting up,streets,159,46,3.44,top
+2026-11-12,Thursday,Illegal parking,parking,1738,1946,0.89,top
+2026-11-12,Thursday,Noisy neighbors,noise,706,850,0.83,top
+2026-11-12,Thursday,Unsanitary apartment,housing,618,494,1.25,top
+2026-11-12,Thursday,Blocked driveway,parking,585,586,1.0,top
+2026-11-12,Thursday,Peeling paint or plaster,housing,358,230,1.56,top
+2026-11-12,Thursday,Plumbing,housing,322,239,1.35,top
+2026-11-12,Thursday,Broken door or window,housing,264,191,1.38,top
+2026-11-12,Thursday,Potholes and street damage,streets,230,267,0.86,top
+2026-11-13,Friday,No heat (whole building),heat,1772,288,6.16,spike
+2026-11-13,Friday,No heat (one apartment),heat,842,140,6.04,spike
+2026-11-13,Friday,Building shaking or unstable,housing,44,10,4.29,spike
+2026-11-13,Friday,Flooded street,water,58,14,4.22,spike
+2026-11-13,Friday,No heat and no hot water (whole building),heat,371,103,3.59,spike
+2026-11-13,Friday,Clogged storm drain,water,93,26,3.54,spike
+2026-11-13,Friday,No heat or hot water,heat,3236,720,4.49,spike
+2026-11-13,Friday,Sewer problem,water,250,85,2.94,spike
+2026-11-13,Friday,Water leak,housing,243,147,1.66,spike
+2026-11-13,Friday,Construction or plumbing work,housing,182,114,1.6,spike
+2026-11-13,Friday,Posted parking sign violation,parking,534,577,0.93,top
+2026-11-13,Friday,Blocked hydrant,parking,448,502,0.89,top
+2026-11-13,Friday,Banging/pounding (next door),noise,434,404,1.07,top
+2026-11-13,Friday,Driveway fully blocked,parking,407,410,0.99,top
+2026-11-13,Friday,Loud music/party (next door),noise,352,558,0.63,top
+2026-11-13,Friday,Blocked sidewalk,parking,241,276,0.87,top
+2026-11-13,Friday,Abandoned car (with plates),parking,155,220,0.71,top
+2026-11-13,Friday,Mold,housing,155,142,1.1,top
+2026-11-13,Friday,Driveway partly blocked,parking,145,157,0.92,top
+2026-11-13,Friday,No heat and no hot water (one apartment),heat,123,40,3.11,top
+2026-11-13,Friday,Roaches,housing,120,110,1.09,top
+2026-11-13,Friday,Heavy flow: at wall or ceiling,housing,116,56,2.08,top
+2026-11-13,Friday,Illegal parking,parking,1767,2015,0.88,top
+2026-11-13,Friday,Noisy neighbors,noise,905,1077,0.84,top
+2026-11-13,Friday,Blocked driveway,parking,552,567,0.97,top
+2026-11-13,Friday,Unsanitary apartment,housing,504,474,1.06,top
+2026-11-13,Friday,Plumbing,housing,318,223,1.42,top
+2026-11-13,Friday,Peeling paint or plaster,housing,283,230,1.23,top
+2026-11-13,Friday,Broken door or window,housing,231,176,1.31,top
+2026-11-13,Friday,General repairs,housing,202,178,1.14,top
+2026-11-14,Saturday,No heat and no hot water (one apartment),heat,172,44,3.95,spike
+2026-11-14,Saturday,No heat (one apartment),heat,748,218,3.43,spike
+2026-11-14,Saturday,No heat and no hot water (whole building),heat,470,160,2.94,spike
+2026-11-14,Saturday,No heat (whole building),heat,1549,650,2.38,spike
+2026-11-14,Saturday,Heavy flow: at wall or ceiling,housing,80,42,1.89,spike
+2026-11-14,Saturday,Damp spot: from wall or ceiling,housing,27,14,1.89,spike
+2026-11-14,Saturday,No heat or hot water,heat,3084,1197,2.58,spike
+2026-11-14,Saturday,Water leak,housing,180,105,1.71,spike
+2026-11-14,Saturday,Building safety,housing,51,31,1.65,spike
+2026-11-14,Saturday,Loud music/party (next door),noise,759,1089,0.7,top
+2026-11-14,Saturday,Blocked hydrant,parking,517,580,0.89,top
+2026-11-14,Saturday,Banging/pounding (next door),noise,513,503,1.02,top
+2026-11-14,Saturday,Driveway fully blocked,parking,428,418,1.02,top
+2026-11-14,Saturday,Posted parking sign violation,parking,402,416,0.97,top
+2026-11-14,Saturday,Blocked sidewalk,parking,288,230,1.25,top
+2026-11-14,Saturday,Loud music/party (at a business),noise,251,313,0.8,top
+2026-11-14,Saturday,Loud music/party (on the street),noise,232,550,0.42,top
+2026-11-14,Saturday,Abandoned car (with plates),parking,139,134,1.04,top
+2026-11-14,Saturday,Construction at odd hours,noise,128,129,0.99,top
+2026-11-14,Saturday,Driveway partly blocked,parking,128,144,0.89,top
+2026-11-14,Saturday,Illegal parking,parking,1745,1755,0.99,top
+2026-11-14,Saturday,Noisy neighbors,noise,1382,1731,0.8,top
+2026-11-14,Saturday,Blocked driveway,parking,556,562,0.99,top
+2026-11-14,Saturday,Unsanitary apartment,housing,372,302,1.23,top
+2026-11-14,Saturday,Street noise,noise,328,685,0.48,top
+2026-11-14,Saturday,Noisy business,noise,318,378,0.84,top
+2026-11-14,Saturday,Construction or other noise,noise,229,255,0.9,top
+2026-11-14,Saturday,Plumbing,housing,215,146,1.48,top
+2026-11-14,Saturday,Peeling paint or plaster,housing,179,125,1.43,top
+2026-11-14,Saturday,General repairs,housing,161,115,1.4,top
+2026-11-15,Sunday,Rodent sighting: street tree bed,other,32,5,6.74,spike
+2026-11-15,Sunday,No heat and no hot water (one apartment),heat,132,57,2.33,spike
+2026-11-15,Sunday,No heat and no hot water (whole building),heat,477,230,2.08,spike
+2026-11-15,Sunday,Water supply: no hot water,housing,28,14,2.07,spike
+2026-11-15,Sunday,No heat (one apartment),heat,570,280,2.03,spike
+2026-11-15,Sunday,Illegal Posting,trash,43,21,2.07,spike
+2026-11-15,Sunday,Building safety,housing,51,28,1.82,spike
+2026-11-15,Sunday,No heat or hot water,heat,2526,1528,1.65,spike
+2026-11-15,Sunday,Lead,housing,55,34,1.63,spike
+2026-11-15,Sunday,No heat (whole building),heat,1169,820,1.43,top
+2026-11-15,Sunday,Loud music/party (next door),noise,732,925,0.79,top
+2026-11-15,Sunday,Blocked hydrant,parking,666,621,1.07,top
+2026-11-15,Sunday,Banging/pounding (next door),noise,562,546,1.03,top
+2026-11-15,Sunday,Posted parking sign violation,parking,479,366,1.31,top
+2026-11-15,Sunday,Driveway fully blocked,parking,438,422,1.04,top
+2026-11-15,Sunday,Loud music/party (on the street),noise,401,586,0.68,top
+2026-11-15,Sunday,Blocked sidewalk,parking,262,258,1.01,top
+2026-11-15,Sunday,Loud music/party (at a business),noise,250,248,1.01,top
+2026-11-15,Sunday,Driveway partly blocked,parking,154,150,1.02,top
+2026-11-15,Sunday,Abandoned car (with plates),parking,152,149,1.02,top
+2026-11-15,Sunday,Commercial overnight parking,parking,116,148,0.78,top
+2026-11-15,Sunday,Illegal parking,parking,1922,1820,1.06,top
+2026-11-15,Sunday,Noisy neighbors,noise,1387,1606,0.86,top
+2026-11-15,Sunday,Blocked driveway,parking,592,572,1.03,top
+2026-11-15,Sunday,Street noise,noise,483,705,0.69,top
+2026-11-15,Sunday,Noisy business,noise,303,301,1.01,top
+2026-11-15,Sunday,Unsanitary apartment,housing,273,292,0.94,top
+2026-11-15,Sunday,Plumbing,housing,213,147,1.45,top
+2026-11-15,Sunday,Abandoned car,parking,152,149,1.02,top
+2026-11-15,Sunday,Construction or other noise,noise,145,166,0.87,top
+2026-11-15,Sunday,Peeling paint or plaster,housing,142,110,1.29,top
+2026-11-15,Sunday,Noisy vehicle,noise,130,190,0.68,top
+2026-11-16,Monday,Door: not self-closing,housing,55,12,4.78,spike
+2026-11-16,Monday,Building shaking or unstable,housing,31,12,2.7,spike
+2026-11-16,Monday,No heat and no hot water (one apartment),heat,135,65,2.08,spike
+2026-11-16,Monday,No heat (one apartment),heat,633,312,2.03,spike
+2026-11-16,Monday,No heat (whole building),heat,1031,753,1.37,top
+2026-11-16,Monday,Posted parking sign violation,parking,808,685,1.18,top
+2026-11-16,Monday,Blocked hydrant,parking,545,521,1.05,top
+2026-11-16,Monday,Banging/pounding (next door),noise,486,427,1.14,top
+2026-11-16,Monday,Driveway fully blocked,parking,415,414,1.0,top
+2026-11-16,Monday,No heat and no hot water (whole building),heat,395,232,1.7,top
+2026-11-16,Monday,Blocked sidewalk,parking,298,296,1.01,top
+2026-11-16,Monday,Loud music/party (next door),noise,289,304,0.95,top
+2026-11-16,Monday,Abandoned car (with plates),parking,236,246,0.96,top
+2026-11-16,Monday,Mold,housing,169,168,1.0,top
+2026-11-16,Monday,Driveway partly blocked,parking,159,176,0.91,top
+2026-11-16,Monday,Street light out,streets,150,176,0.85,top
+2026-11-16,Monday,Roaches,housing,144,128,1.13,top
+2026-11-16,Monday,Littering,trash,139,136,1.02,top
+2026-11-16,Monday,No heat or hot water,heat,2355,1524,1.55,top
+2026-11-16,Monday,Illegal parking,parking,2304,2125,1.08,top
+2026-11-16,Monday,Noisy neighbors,noise,862,828,1.04,top
+2026-11-16,Monday,Unsanitary apartment,housing,594,574,1.04,top
+2026-11-16,Monday,Blocked driveway,parking,574,590,0.97,top
+2026-11-16,Monday,Plumbing,housing,367,320,1.15,top
+2026-11-16,Monday,Peeling paint or plaster,housing,342,284,1.21,top
+2026-11-16,Monday,Broken door or window,housing,327,228,1.43,top
+2026-11-16,Monday,Construction or other noise,noise,255,242,1.05,top
+2026-11-16,Monday,General repairs,housing,247,194,1.27,top
+2026-11-16,Monday,Potholes and street damage,streets,238,250,0.95,top
+2026-11-16,Monday,Abandoned car,parking,236,246,0.96,top
+2026-11-17,Tuesday,Building shaking or unstable,housing,32,12,2.56,spike
+2026-11-17,Tuesday,No heat and no hot water (whole building),heat,324,162,1.99,spike
+2026-11-17,Tuesday,No heat and no hot water (one apartment),heat,112,57,1.96,spike
+2026-11-17,Tuesday,No heat (one apartment),heat,442,227,1.94,spike
+2026-11-17,Tuesday,Illegal conversion of residential building/space,housing,76,41,1.84,spike
+2026-11-17,Tuesday,No heat or hot water,heat,1846,1119,1.65,spike
+2026-11-17,Tuesday,No heat (whole building),heat,795,526,1.51,top
+2026-11-17,Tuesday,Posted parking sign violation,parking,560,576,0.97,top
+2026-11-17,Tuesday,Blocked hydrant,parking,539,532,1.01,top
+2026-11-17,Tuesday,Banging/pounding (next door),noise,450,428,1.05,top
+2026-11-17,Tuesday,Driveway fully blocked,parking,379,406,0.93,top
+2026-11-17,Tuesday,Blocked sidewalk,parking,270,306,0.88,top
+2026-11-17,Tuesday,Loud music/party (next door),noise,263,277,0.95,top
+2026-11-17,Tuesday,Abandoned car (with plates),parking,253,243,1.04,top
+2026-11-17,Tuesday,Driveway partly blocked,parking,188,168,1.12,top
+2026-11-17,Tuesday,Street light out,streets,179,190,0.94,top
+2026-11-17,Tuesday,Loud music/party (on the street),noise,175,220,0.79,top
+2026-11-17,Tuesday,Construction at odd hours,noise,173,111,1.56,top
+2026-11-17,Tuesday,Mold,housing,140,155,0.9,top
+2026-11-17,Tuesday,Illegal parking,parking,1938,2038,0.95,top
+2026-11-17,Tuesday,Noisy neighbors,noise,793,802,0.99,top
+2026-11-17,Tuesday,Blocked driveway,parking,567,574,0.99,top
+2026-11-17,Tuesday,Unsanitary apartment,housing,533,543,0.98,top
+2026-11-17,Tuesday,Construction or other noise,noise,329,259,1.27,top
+2026-11-17,Tuesday,Plumbing,housing,316,279,1.13,top
+2026-11-17,Tuesday,Peeling paint or plaster,housing,283,251,1.13,top
+2026-11-17,Tuesday,Abandoned car,parking,253,243,1.04,top
+2026-11-17,Tuesday,Street noise,noise,248,318,0.78,top
+2026-11-17,Tuesday,Potholes and street damage,streets,230,252,0.91,top
+2026-11-17,Tuesday,Broken door or window,housing,224,203,1.1,top
+2026-11-18,Wednesday,Alarm that won't stop,noise,52,17,3.01,spike
+2026-11-18,Wednesday,Street Sweeping Complaint,trash,47,20,2.35,spike
+2026-11-18,Wednesday,No heat (whole building),heat,537,513,1.05,top
+2026-11-18,Wednesday,Posted parking sign violation,parking,496,578,0.86,top
+2026-11-18,Wednesday,Blocked hydrant,parking,478,506,0.95,top
+2026-11-18,Wednesday,Banging/pounding (next door),noise,456,454,1.0,top
+2026-11-18,Wednesday,Driveway fully blocked,parking,352,397,0.89,top
+2026-11-18,Wednesday,Blocked sidewalk,parking,323,338,0.96,top
+2026-11-18,Wednesday,No heat and no hot water (whole building),heat,285,174,1.64,top
+2026-11-18,Wednesday,Loud music/party (next door),noise,270,290,0.93,top
+2026-11-18,Wednesday,Abandoned car (with plates),parking,268,235,1.14,top
+2026-11-18,Wednesday,No heat (one apartment),heat,260,230,1.13,top
+2026-11-18,Wednesday,Loud music/party (on the street),noise,195,228,0.86,top
+2026-11-18,Wednesday,Driveway partly blocked,parking,163,156,1.04,top
+2026-11-18,Wednesday,Street light out,streets,162,159,1.02,top
+2026-11-18,Wednesday,Mold,housing,152,137,1.11,top
+2026-11-18,Wednesday,Commercial overnight parking,parking,127,140,0.91,top
+2026-11-18,Wednesday,Illegal parking,parking,1949,2024,0.96,top
+2026-11-18,Wednesday,No heat or hot water,heat,1368,1109,1.23,top
+2026-11-18,Wednesday,Noisy neighbors,noise,841,853,0.99,top
+2026-11-18,Wednesday,Unsanitary apartment,housing,516,490,1.05,top
+2026-11-18,Wednesday,Blocked driveway,parking,515,553,0.93,top
+2026-11-18,Wednesday,Plumbing,housing,320,271,1.18,top
+2026-11-18,Wednesday,Street noise,noise,277,326,0.85,top
+2026-11-18,Wednesday,Abandoned car,parking,268,235,1.14,top
+2026-11-18,Wednesday,Construction or other noise,noise,257,258,1.0,top
+2026-11-18,Wednesday,Peeling paint or plaster,housing,250,236,1.06,top
+2026-11-18,Wednesday,Broken door or window,housing,215,216,1.0,top

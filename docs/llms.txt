@@ -1,0 +1,22 @@
+# CityMoods
+
+> Nightly maps of what New York City, Chicago, Los Angeles, San Francisco and Boston complain about to 311 (the non-emergency city line), grouped into ten "moods" and mapped by neighborhood. Built from each city's official open data. Privacy-first: neighborhood totals only, counts under 3 never published, no addresses, names or written notes.
+
+Data is free to use under CC BY 4.0. Please credit "CityMoods (citymoods311.com), from [city] 311 open data".
+
+## Data
+
+- [Data downloads page](https://citymoods311.com/data/): CSV files per city, updated nightly, with column definitions and methodology
+- [Manifest (JSON)](https://citymoods311.com/data/downloads/manifest.json): every download file with URL, row count, sources and license
+- [All cities, citywide by mood (CSV)](https://citymoods311.com/data/downloads/all-cities-citywide.csv): city, date, mood, requests, usual (same weekday, previous 4 weeks), weather
+- Per-day JSON: https://citymoods311.com/data/<city>/days/YYYY-MM-DD.json (list of days: https://citymoods311.com/data/<city>/index.json). City keys: nyc, chicago, la, sf, boston
+
+## Moods
+
+No heat, Noise, Parking wars, Home repairs, Street fixes, Trash talk, Critters, Water & sewers, Trees, Everything else. Each city's mood-map.csv lists which raw 311 request types go into each mood.
+
+## Site
+
+- [Home](https://citymoods311.com/): the five cities' latest maps
+- City maps: https://citymoods311.com/nyc/, /chicago/, /la/, /sf/, /boston/
+- [Privacy](https://citymoods311.com/privacy.html): what is and isn't collected

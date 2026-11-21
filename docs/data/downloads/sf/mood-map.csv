@@ -1,0 +1,22 @@
+mood,mood_label,match,raw_311_type
+noise,Noise,exact,Noise
+parking,Parking wars,exact,Abandoned Vehicle
+parking,Parking wars,exact,Blocked Street and Sidewalk
+parking,Parking wars,exact,Parking Enforcement
+housing,Home repairs,exact,Residential Building
+streets,Street fixes,exact,Damage Property
+streets,Street fixes,exact,MTA Parking Traffic Signs Normal Priority
+streets,Street fixes,exact,Muni Service Feedback
+streets,Street fixes,exact,Sidewalk and Curb
+streets,Street fixes,exact,Street Defect
+streets,Street fixes,exact,Streetlights
+trash,Trash talk,contains (regex),graffiti
+trash,Trash talk,exact,Graffiti Private
+trash,Trash talk,exact,Graffiti Public
+trash,Trash talk,exact,Illegal Postings
+trash,Trash talk,exact,Litter Receptacle Maintenance
+trash,Trash talk,exact,Street and Sidewalk Cleaning
+water,Water & sewers,contains (regex),sewer|water
+water,Water & sewers,exact,Sewer
+trees,Trees,contains (regex),tree
+trees,Trees,exact,Tree Maintenance

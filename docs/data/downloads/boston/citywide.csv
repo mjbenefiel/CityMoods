@@ -1,0 +1,122 @@
+date,weekday,mood,mood_label,requests,usual,high_f,low_f,rain_in
+2026-11-08,Sunday,all,All requests,520,430,56,44,0.2
+2026-11-08,Sunday,parking,Parking wars,200,118,56,44,0.2
+2026-11-08,Sunday,trash,Trash talk,101,129,56,44,0.2
+2026-11-08,Sunday,streets,Street fixes,82,74,56,44,0.2
+2026-11-08,Sunday,critters,Critters,74,36,56,44,0.2
+2026-11-08,Sunday,other,Everything else,41,51,56,44,0.2
+2026-11-08,Sunday,housing,Home repairs,11,0,56,44,0.2
+2026-11-08,Sunday,trees,Trees,11,22,56,44,0.2
+2026-11-08,Sunday,heat,No heat,0,0,56,44,0.2
+2026-11-08,Sunday,noise,Noise,0,0,56,44,0.2
+2026-11-08,Sunday,water,Water & sewers,0,0,56,44,0.2
+2026-11-09,Monday,all,All requests,646,618,56,44,0
+2026-11-09,Monday,parking,Parking wars,209,181,56,44,0
+2026-11-09,Monday,trash,Trash talk,172,216,56,44,0
+2026-11-09,Monday,streets,Street fixes,108,113,56,44,0
+2026-11-09,Monday,critters,Critters,59,42,56,44,0
+2026-11-09,Monday,other,Everything else,40,36,56,44,0
+2026-11-09,Monday,housing,Home repairs,30,0,56,44,0
+2026-11-09,Monday,trees,Trees,22,30,56,44,0
+2026-11-09,Monday,heat,No heat,6,0,56,44,0
+2026-11-09,Monday,noise,Noise,0,0,56,44,0
+2026-11-09,Monday,water,Water & sewers,0,0,56,44,0
+2026-11-10,Tuesday,all,All requests,830,666,54,42,0
+2026-11-10,Tuesday,parking,Parking wars,321,192,54,42,0
+2026-11-10,Tuesday,trash,Trash talk,211,223,54,42,0
+2026-11-10,Tuesday,streets,Street fixes,132,145,54,42,0
+2026-11-10,Tuesday,critters,Critters,73,39,54,42,0
+2026-11-10,Tuesday,other,Everything else,43,38,54,42,0
+2026-11-10,Tuesday,housing,Home repairs,26,0,54,42,0
+2026-11-10,Tuesday,trees,Trees,22,28,54,42,0
+2026-11-10,Tuesday,heat,No heat,2,0,54,42,0
+2026-11-10,Tuesday,noise,Noise,0,0,54,42,0
+2026-11-10,Tuesday,water,Water & sewers,0,0,54,42,0
+2026-11-11,Wednesday,all,All requests,630,703,56,41,0
+2026-11-11,Wednesday,parking,Parking wars,204,236,56,41,0
+2026-11-11,Wednesday,trash,Trash talk,155,226,56,41,0
+2026-11-11,Wednesday,streets,Street fixes,112,143,56,41,0
+2026-11-11,Wednesday,critters,Critters,67,36,56,41,0
+2026-11-11,Wednesday,housing,Home repairs,39,0,56,41,0
+2026-11-11,Wednesday,other,Everything else,29,40,56,41,0
+2026-11-11,Wednesday,trees,Trees,20,23,56,41,0
+2026-11-11,Wednesday,heat,No heat,4,0,56,41,0
+2026-11-11,Wednesday,noise,Noise,0,0,56,41,0
+2026-11-11,Wednesday,water,Water & sewers,0,0,56,41,0
+2026-11-12,Thursday,all,All requests,726,773,53,42,0.03
+2026-11-12,Thursday,parking,Parking wars,225,282,53,42,0.03
+2026-11-12,Thursday,trash,Trash talk,222,220,53,42,0.03
+2026-11-12,Thursday,streets,Street fixes,108,130,53,42,0.03
+2026-11-12,Thursday,critters,Critters,72,60,53,42,0.03
+2026-11-12,Thursday,other,Everything else,38,48,53,42,0.03
+2026-11-12,Thursday,housing,Home repairs,33,5,53,42,0.03
+2026-11-12,Thursday,trees,Trees,26,28,53,42,0.03
+2026-11-12,Thursday,heat,No heat,2,0,53,42,0.03
+2026-11-12,Thursday,noise,Noise,0,0,53,42,0.03
+2026-11-12,Thursday,water,Water & sewers,0,0,53,42,0.03
+2026-11-13,Friday,all,All requests,684,684,46,33,0.23
+2026-11-13,Friday,parking,Parking wars,237,269,46,33,0.23
+2026-11-13,Friday,trash,Trash talk,206,194,46,33,0.23
+2026-11-13,Friday,streets,Street fixes,106,115,46,33,0.23
+2026-11-13,Friday,critters,Critters,48,41,46,33,0.23
+2026-11-13,Friday,other,Everything else,36,41,46,33,0.23
+2026-11-13,Friday,housing,Home repairs,27,7,46,33,0.23
+2026-11-13,Friday,trees,Trees,16,17,46,33,0.23
+2026-11-13,Friday,heat,No heat,8,1,46,33,0.23
+2026-11-13,Friday,noise,Noise,0,0,46,33,0.23
+2026-11-13,Friday,water,Water & sewers,0,0,46,33,0.23
+2026-11-14,Saturday,all,All requests,565,515,44,32,0
+2026-11-14,Saturday,trash,Trash talk,184,125,44,32,0
+2026-11-14,Saturday,parking,Parking wars,158,205,44,32,0
+2026-11-14,Saturday,streets,Street fixes,80,77,44,32,0
+2026-11-14,Saturday,critters,Critters,66,45,44,32,0
+2026-11-14,Saturday,other,Everything else,44,44,44,32,0
+2026-11-14,Saturday,housing,Home repairs,19,4,44,32,0
+2026-11-14,Saturday,trees,Trees,13,14,44,32,0
+2026-11-14,Saturday,heat,No heat,1,0,44,32,0
+2026-11-14,Saturday,noise,Noise,0,0,44,32,0
+2026-11-14,Saturday,water,Water & sewers,0,0,44,32,0
+2026-11-15,Sunday,all,All requests,466,490,49,32,0
+2026-11-15,Sunday,parking,Parking wars,162,168,49,32,0
+2026-11-15,Sunday,trash,Trash talk,122,124,49,32,0
+2026-11-15,Sunday,streets,Street fixes,65,82,49,32,0
+2026-11-15,Sunday,critters,Critters,55,46,49,32,0
+2026-11-15,Sunday,other,Everything else,28,48,49,32,0
+2026-11-15,Sunday,housing,Home repairs,16,3,49,32,0
+2026-11-15,Sunday,trees,Trees,13,18,49,32,0
+2026-11-15,Sunday,heat,No heat,5,0,49,32,0
+2026-11-15,Sunday,noise,Noise,0,0,49,32,0
+2026-11-15,Sunday,water,Water & sewers,0,0,49,32,0
+2026-11-16,Monday,all,All requests,872,690,51,32,0
+2026-11-16,Monday,trash,Trash talk,266,220,51,32,0
+2026-11-16,Monday,parking,Parking wars,258,233,51,32,0
+2026-11-16,Monday,streets,Street fixes,149,119,51,32,0
+2026-11-16,Monday,critters,Critters,86,46,51,32,0
+2026-11-16,Monday,other,Everything else,62,37,51,32,0
+2026-11-16,Monday,housing,Home repairs,31,8,51,32,0
+2026-11-16,Monday,trees,Trees,13,26,51,32,0
+2026-11-16,Monday,heat,No heat,7,2,51,32,0
+2026-11-16,Monday,noise,Noise,0,0,51,32,0
+2026-11-16,Monday,water,Water & sewers,0,0,51,32,0
+2026-11-17,Tuesday,all,All requests,853,756,56,31,0
+2026-11-17,Tuesday,trash,Trash talk,274,226,56,31,0
+2026-11-17,Tuesday,parking,Parking wars,245,270,56,31,0
+2026-11-17,Tuesday,streets,Street fixes,172,140,56,31,0
+2026-11-17,Tuesday,critters,Critters,66,48,56,31,0
+2026-11-17,Tuesday,other,Everything else,52,39,56,31,0
+2026-11-17,Tuesday,housing,Home repairs,20,6,56,31,0
+2026-11-17,Tuesday,trees,Trees,17,26,56,31,0
+2026-11-17,Tuesday,heat,No heat,7,0,56,31,0
+2026-11-17,Tuesday,noise,Noise,0,0,56,31,0
+2026-11-17,Tuesday,water,Water & sewers,0,0,56,31,0
+2026-11-18,Wednesday,all,All requests,833,678,65,39,0
+2026-11-18,Wednesday,parking,Parking wars,266,243,65,39,0
+2026-11-18,Wednesday,trash,Trash talk,232,200,65,39,0
+2026-11-18,Wednesday,streets,Street fixes,150,125,65,39,0
+2026-11-18,Wednesday,critters,Critters,88,43,65,39,0
+2026-11-18,Wednesday,other,Everything else,66,36,65,39,0
+2026-11-18,Wednesday,trees,Trees,14,20,65,39,0
+2026-11-18,Wednesday,housing,Home repairs,13,10,65,39,0
+2026-11-18,Wednesday,heat,No heat,4,1,65,39,0
+2026-11-18,Wednesday,noise,Noise,0,0,65,39,0
+2026-11-18,Wednesday,water,Water & sewers,0,0,65,39,0

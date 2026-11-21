@@ -521,6 +521,12 @@ def main():
             log(f"[{C.name}] failed: {type(e).__name__}: {e}")
             failed.append(key)
     write_cities_list()
+    try:   # the Data page's CSV downloads, re-shaped from the day files above
+        from export_data import export_all
+        export_all()
+    except (SystemExit, Exception) as e:
+        log(f"Data downloads not updated: {e}")
+        failed.append("downloads")
     if failed:
         raise SystemExit(f"Some cities failed: {', '.join(failed)}")
 

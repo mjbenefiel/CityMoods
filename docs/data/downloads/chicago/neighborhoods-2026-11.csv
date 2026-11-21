@@ -1,0 +1,2726 @@
+date,neighborhood_id,neighborhood,area,neighborhood_total,mood,requests
+2026-11-09,14,Albany Park,North Side,42,trash,19
+2026-11-09,14,Albany Park,North Side,42,critters,11
+2026-11-09,14,Albany Park,North Side,42,parking,5
+2026-11-09,14,Albany Park,North Side,42,streets,4
+2026-11-09,57,Archer Heights,Southwest Side,27,parking,13
+2026-11-09,57,Archer Heights,Southwest Side,27,trash,10
+2026-11-09,34,Armour Square,South Side,6,trash,3
+2026-11-09,70,Ashburn,Southwest Side,37,critters,11
+2026-11-09,70,Ashburn,Southwest Side,37,streets,8
+2026-11-09,70,Ashburn,Southwest Side,37,trash,6
+2026-11-09,70,Ashburn,Southwest Side,37,parking,5
+2026-11-09,70,Ashburn,Southwest Side,37,water,3
+2026-11-09,71,Auburn Gresham,Southwest Side,63,trash,28
+2026-11-09,71,Auburn Gresham,Southwest Side,63,water,11
+2026-11-09,71,Auburn Gresham,Southwest Side,63,streets,8
+2026-11-09,71,Auburn Gresham,Southwest Side,63,critters,5
+2026-11-09,71,Auburn Gresham,Southwest Side,63,housing,5
+2026-11-09,71,Auburn Gresham,Southwest Side,63,parking,5
+2026-11-09,25,Austin,West Side,82,trash,37
+2026-11-09,25,Austin,West Side,82,parking,14
+2026-11-09,25,Austin,West Side,82,critters,10
+2026-11-09,25,Austin,West Side,82,water,6
+2026-11-09,25,Austin,West Side,82,trees,6
+2026-11-09,25,Austin,West Side,82,housing,6
+2026-11-09,25,Austin,West Side,82,streets,3
+2026-11-09,21,Avondale,North Side,36,trash,15
+2026-11-09,21,Avondale,North Side,36,streets,10
+2026-11-09,21,Avondale,North Side,36,parking,5
+2026-11-09,21,Avondale,North Side,36,critters,5
+2026-11-09,19,Belmont Cragin,North Side,59,trash,17
+2026-11-09,19,Belmont Cragin,North Side,59,critters,11
+2026-11-09,19,Belmont Cragin,North Side,59,streets,10
+2026-11-09,19,Belmont Cragin,North Side,59,water,7
+2026-11-09,19,Belmont Cragin,North Side,59,parking,6
+2026-11-09,19,Belmont Cragin,North Side,59,trees,5
+2026-11-09,72,Beverly,Southwest Side,34,trash,14
+2026-11-09,72,Beverly,Southwest Side,34,streets,9
+2026-11-09,72,Beverly,Southwest Side,34,critters,7
+2026-11-09,72,Beverly,Southwest Side,34,trees,3
+2026-11-09,60,Bridgeport,South Side,31,trash,14
+2026-11-09,60,Bridgeport,South Side,31,parking,6
+2026-11-09,60,Bridgeport,South Side,31,other,4
+2026-11-09,60,Bridgeport,South Side,31,critters,3
+2026-11-09,60,Bridgeport,South Side,31,streets,3
+2026-11-09,58,Brighton Park,Southwest Side,43,trash,19
+2026-11-09,58,Brighton Park,Southwest Side,43,trees,8
+2026-11-09,58,Brighton Park,Southwest Side,43,critters,5
+2026-11-09,58,Brighton Park,Southwest Side,43,parking,4
+2026-11-09,58,Brighton Park,Southwest Side,43,streets,3
+2026-11-09,47,Burnside,South Side,6,critters,5
+2026-11-09,48,Calumet Heights,South Side,15,trash,8
+2026-11-09,44,Chatham,South Side,38,trash,11
+2026-11-09,44,Chatham,South Side,38,critters,6
+2026-11-09,44,Chatham,South Side,38,streets,6
+2026-11-09,44,Chatham,South Side,38,parking,6
+2026-11-09,44,Chatham,South Side,38,housing,5
+2026-11-09,44,Chatham,South Side,38,trees,3
+2026-11-09,66,Chicago Lawn,Southwest Side,56,trash,18
+2026-11-09,66,Chicago Lawn,Southwest Side,56,streets,9
+2026-11-09,66,Chicago Lawn,Southwest Side,56,parking,8
+2026-11-09,66,Chicago Lawn,Southwest Side,56,critters,8
+2026-11-09,66,Chicago Lawn,Southwest Side,56,trees,5
+2026-11-09,66,Chicago Lawn,Southwest Side,56,water,4
+2026-11-09,66,Chicago Lawn,Southwest Side,56,housing,3
+2026-11-09,64,Clearing,Southwest Side,27,trees,14
+2026-11-09,64,Clearing,Southwest Side,27,critters,6
+2026-11-09,64,Clearing,Southwest Side,27,trash,4
+2026-11-09,17,Dunning,North Side,41,trash,12
+2026-11-09,17,Dunning,North Side,41,parking,11
+2026-11-09,17,Dunning,North Side,41,critters,6
+2026-11-09,17,Dunning,North Side,41,streets,6
+2026-11-09,17,Dunning,North Side,41,housing,4
+2026-11-09,27,East Garfield Park,West Side,29,trash,9
+2026-11-09,27,East Garfield Park,West Side,29,water,7
+2026-11-09,27,East Garfield Park,West Side,29,streets,4
+2026-11-09,27,East Garfield Park,West Side,29,critters,3
+2026-11-09,52,East Side,South Side,9,trash,4
+2026-11-09,77,Edgewater,North Side,34,trash,10
+2026-11-09,77,Edgewater,North Side,34,critters,8
+2026-11-09,77,Edgewater,North Side,34,streets,7
+2026-11-09,77,Edgewater,North Side,34,parking,5
+2026-11-09,9,Edison Park,North Side,6,trees,3
+2026-11-09,68,Englewood,Southwest Side,31,trash,15
+2026-11-09,68,Englewood,Southwest Side,31,critters,7
+2026-11-09,68,Englewood,Southwest Side,31,housing,4
+2026-11-09,12,Forest Glen,North Side,58,trash,40
+2026-11-09,12,Forest Glen,North Side,58,critters,7
+2026-11-09,12,Forest Glen,North Side,58,streets,4
+2026-11-09,12,Forest Glen,North Side,58,trees,3
+2026-11-09,63,Gage Park,Southwest Side,48,trash,17
+2026-11-09,63,Gage Park,Southwest Side,48,critters,14
+2026-11-09,63,Gage Park,Southwest Side,48,streets,6
+2026-11-09,63,Gage Park,Southwest Side,48,water,4
+2026-11-09,63,Gage Park,Southwest Side,48,parking,3
+2026-11-09,63,Gage Park,Southwest Side,48,housing,3
+2026-11-09,56,Garfield Ridge,Southwest Side,55,trash,19
+2026-11-09,56,Garfield Ridge,Southwest Side,55,parking,14
+2026-11-09,56,Garfield Ridge,Southwest Side,55,critters,7
+2026-11-09,56,Garfield Ridge,Southwest Side,55,streets,5
+2026-11-09,56,Garfield Ridge,Southwest Side,55,trees,5
+2026-11-09,56,Garfield Ridge,Southwest Side,55,water,4
+2026-11-09,38,Grand Boulevard,South Side,10,housing,5
+2026-11-09,69,Greater Grand Crossing,South Side,24,trash,11
+2026-11-09,69,Greater Grand Crossing,South Side,24,trees,6
+2026-11-09,69,Greater Grand Crossing,South Side,24,housing,4
+2026-11-09,69,Greater Grand Crossing,South Side,24,streets,3
+2026-11-09,55,Hegewisch,South Side,10,water,4
+2026-11-09,55,Hegewisch,South Side,10,trash,3
+2026-11-09,20,Hermosa,North Side,29,trash,12
+2026-11-09,20,Hermosa,North Side,29,critters,8
+2026-11-09,20,Hermosa,North Side,29,trees,3
+2026-11-09,23,Humboldt Park,West Side,53,trash,23
+2026-11-09,23,Humboldt Park,West Side,53,critters,10
+2026-11-09,23,Humboldt Park,West Side,53,housing,9
+2026-11-09,23,Humboldt Park,West Side,53,trees,4
+2026-11-09,23,Humboldt Park,West Side,53,parking,3
+2026-11-09,23,Humboldt Park,West Side,53,streets,3
+2026-11-09,41,Hyde Park,South Side,11,critters,5
+2026-11-09,41,Hyde Park,South Side,11,streets,3
+2026-11-09,16,Irving Park,North Side,60,trash,30
+2026-11-09,16,Irving Park,North Side,60,streets,13
+2026-11-09,16,Irving Park,North Side,60,parking,5
+2026-11-09,16,Irving Park,North Side,60,water,4
+2026-11-09,16,Irving Park,North Side,60,critters,4
+2026-11-09,16,Irving Park,North Side,60,trees,4
+2026-11-09,11,Jefferson Park,North Side,33,trash,17
+2026-11-09,11,Jefferson Park,North Side,33,critters,5
+2026-11-09,11,Jefferson Park,North Side,33,streets,4
+2026-11-09,11,Jefferson Park,North Side,33,parking,3
+2026-11-09,39,Kenwood,South Side,11,trash,3
+2026-11-09,39,Kenwood,South Side,11,streets,3
+2026-11-09,6,Lake View,North Side,70,trash,22
+2026-11-09,6,Lake View,North Side,70,critters,15
+2026-11-09,6,Lake View,North Side,70,trees,8
+2026-11-09,6,Lake View,North Side,70,streets,7
+2026-11-09,6,Lake View,North Side,70,parking,7
+2026-11-09,6,Lake View,North Side,70,housing,5
+2026-11-09,6,Lake View,North Side,70,other,4
+2026-11-09,7,Lincoln Park,North Side,80,trash,30
+2026-11-09,7,Lincoln Park,North Side,80,streets,14
+2026-11-09,7,Lincoln Park,North Side,80,trees,13
+2026-11-09,7,Lincoln Park,North Side,80,parking,11
+2026-11-09,7,Lincoln Park,North Side,80,critters,9
+2026-11-09,4,Lincoln Square,North Side,44,trash,21
+2026-11-09,4,Lincoln Square,North Side,44,parking,6
+2026-11-09,4,Lincoln Square,North Side,44,streets,6
+2026-11-09,4,Lincoln Square,North Side,44,trees,4
+2026-11-09,4,Lincoln Square,North Side,44,critters,4
+2026-11-09,22,Logan Square,North Side,88,trash,39
+2026-11-09,22,Logan Square,North Side,88,streets,13
+2026-11-09,22,Logan Square,North Side,88,critters,12
+2026-11-09,22,Logan Square,North Side,88,parking,8
+2026-11-09,22,Logan Square,North Side,88,housing,5
+2026-11-09,22,Logan Square,North Side,88,trees,5
+2026-11-09,22,Logan Square,North Side,88,other,4
+2026-11-09,31,Lower West Side,West Side,63,trash,36
+2026-11-09,31,Lower West Side,West Side,63,streets,12
+2026-11-09,31,Lower West Side,West Side,63,critters,6
+2026-11-09,31,Lower West Side,West Side,63,parking,5
+2026-11-09,59,McKinley Park,Southwest Side,28,trash,12
+2026-11-09,59,McKinley Park,Southwest Side,28,streets,10
+2026-11-09,59,McKinley Park,Southwest Side,28,trees,4
+2026-11-09,75,Morgan Park,Southwest Side,19,trash,9
+2026-11-09,75,Morgan Park,Southwest Side,19,trees,3
+2026-11-09,75,Morgan Park,Southwest Side,19,critters,3
+2026-11-09,74,Mount Greenwood,Southwest Side,13,trash,5
+2026-11-09,74,Mount Greenwood,Southwest Side,13,critters,3
+2026-11-09,8,Near North Side,Downtown,60,trash,24
+2026-11-09,8,Near North Side,Downtown,60,streets,16
+2026-11-09,8,Near North Side,Downtown,60,other,6
+2026-11-09,8,Near North Side,Downtown,60,parking,5
+2026-11-09,8,Near North Side,Downtown,60,housing,5
+2026-11-09,33,Near South Side,Downtown,11,parking,3
+2026-11-09,33,Near South Side,Downtown,11,trash,3
+2026-11-09,33,Near South Side,Downtown,11,streets,3
+2026-11-09,28,Near West Side,West Side,52,trash,23
+2026-11-09,28,Near West Side,West Side,52,streets,18
+2026-11-09,28,Near West Side,West Side,52,water,3
+2026-11-09,28,Near West Side,West Side,52,parking,3
+2026-11-09,61,New City,Southwest Side,27,trash,10
+2026-11-09,61,New City,Southwest Side,27,critters,4
+2026-11-09,61,New City,Southwest Side,27,water,3
+2026-11-09,61,New City,Southwest Side,27,parking,3
+2026-11-09,61,New City,Southwest Side,27,trees,3
+2026-11-09,5,North Center,North Side,33,trash,16
+2026-11-09,5,North Center,North Side,33,streets,6
+2026-11-09,5,North Center,North Side,33,critters,5
+2026-11-09,5,North Center,North Side,33,parking,3
+2026-11-09,29,North Lawndale,West Side,25,trash,9
+2026-11-09,29,North Lawndale,West Side,25,critters,5
+2026-11-09,29,North Lawndale,West Side,25,trees,3
+2026-11-09,29,North Lawndale,West Side,25,streets,3
+2026-11-09,29,North Lawndale,West Side,25,water,3
+2026-11-09,13,North Park,North Side,14,critters,5
+2026-11-09,13,North Park,North Side,14,trash,4
+2026-11-09,10,Norwood Park,North Side,38,streets,8
+2026-11-09,10,Norwood Park,North Side,38,trash,7
+2026-11-09,10,Norwood Park,North Side,38,parking,7
+2026-11-09,10,Norwood Park,North Side,38,critters,6
+2026-11-09,10,Norwood Park,North Side,38,trees,6
+2026-11-09,10,Norwood Park,North Side,38,water,3
+2026-11-09,76,O'Hare,North Side,10,streets,3
+2026-11-09,76,O'Hare,North Side,10,trash,3
+2026-11-09,15,Portage Park,North Side,68,trash,24
+2026-11-09,15,Portage Park,North Side,68,critters,13
+2026-11-09,15,Portage Park,North Side,68,parking,12
+2026-11-09,15,Portage Park,North Side,68,streets,8
+2026-11-09,15,Portage Park,North Side,68,trees,5
+2026-11-09,15,Portage Park,North Side,68,water,4
+2026-11-09,50,Pullman,South Side,7,parking,3
+2026-11-09,50,Pullman,South Side,7,streets,3
+2026-11-09,1,Rogers Park,North Side,55,trees,21
+2026-11-09,1,Rogers Park,North Side,55,critters,11
+2026-11-09,1,Rogers Park,North Side,55,parking,7
+2026-11-09,1,Rogers Park,North Side,55,trash,7
+2026-11-09,1,Rogers Park,North Side,55,housing,5
+2026-11-09,49,Roseland,South Side,54,trash,17
+2026-11-09,49,Roseland,South Side,54,streets,14
+2026-11-09,49,Roseland,South Side,54,critters,10
+2026-11-09,49,Roseland,South Side,54,parking,5
+2026-11-09,49,Roseland,South Side,54,water,3
+2026-11-09,46,South Chicago,South Side,25,housing,5
+2026-11-09,46,South Chicago,South Side,25,streets,5
+2026-11-09,46,South Chicago,South Side,25,trash,5
+2026-11-09,46,South Chicago,South Side,25,parking,4
+2026-11-09,51,South Deering,South Side,16,streets,6
+2026-11-09,51,South Deering,South Side,16,trash,4
+2026-11-09,51,South Deering,South Side,16,water,3
+2026-11-09,30,South Lawndale,West Side,82,trash,53
+2026-11-09,30,South Lawndale,West Side,82,streets,10
+2026-11-09,30,South Lawndale,West Side,82,critters,5
+2026-11-09,30,South Lawndale,West Side,82,water,4
+2026-11-09,30,South Lawndale,West Side,82,parking,4
+2026-11-09,30,South Lawndale,West Side,82,trees,3
+2026-11-09,43,South Shore,South Side,36,trash,9
+2026-11-09,43,South Shore,South Side,36,trees,9
+2026-11-09,43,South Shore,South Side,36,housing,6
+2026-11-09,43,South Shore,South Side,36,critters,5
+2026-11-09,43,South Shore,South Side,36,streets,4
+2026-11-09,32,The Loop,Downtown,33,trash,17
+2026-11-09,32,The Loop,Downtown,33,streets,7
+2026-11-09,32,The Loop,Downtown,33,other,4
+2026-11-09,3,Uptown,North Side,41,trash,16
+2026-11-09,3,Uptown,North Side,41,streets,13
+2026-11-09,3,Uptown,North Side,41,critters,6
+2026-11-09,73,Washington Heights,Southwest Side,30,trash,15
+2026-11-09,73,Washington Heights,Southwest Side,30,water,6
+2026-11-09,73,Washington Heights,Southwest Side,30,housing,3
+2026-11-09,40,Washington Park,South Side,9,streets,3
+2026-11-09,62,West Elsdon,Southwest Side,15,trees,7
+2026-11-09,62,West Elsdon,Southwest Side,15,trash,3
+2026-11-09,67,West Englewood,Southwest Side,52,trash,26
+2026-11-09,67,West Englewood,Southwest Side,52,parking,7
+2026-11-09,67,West Englewood,Southwest Side,52,critters,5
+2026-11-09,67,West Englewood,Southwest Side,52,housing,5
+2026-11-09,67,West Englewood,Southwest Side,52,streets,4
+2026-11-09,67,West Englewood,Southwest Side,52,water,3
+2026-11-09,26,West Garfield Park,West Side,22,streets,9
+2026-11-09,26,West Garfield Park,West Side,22,trash,8
+2026-11-09,26,West Garfield Park,West Side,22,critters,3
+2026-11-09,65,West Lawn,Southwest Side,24,trash,10
+2026-11-09,65,West Lawn,Southwest Side,24,streets,5
+2026-11-09,53,West Pullman,South Side,52,trash,22
+2026-11-09,53,West Pullman,South Side,52,parking,11
+2026-11-09,53,West Pullman,South Side,52,trees,6
+2026-11-09,53,West Pullman,South Side,52,critters,5
+2026-11-09,53,West Pullman,South Side,52,streets,5
+2026-11-09,53,West Pullman,South Side,52,water,3
+2026-11-09,2,West Ridge,North Side,92,water,51
+2026-11-09,2,West Ridge,North Side,92,trash,23
+2026-11-09,2,West Ridge,North Side,92,streets,6
+2026-11-09,2,West Ridge,North Side,92,trees,3
+2026-11-09,2,West Ridge,North Side,92,critters,3
+2026-11-09,2,West Ridge,North Side,92,housing,3
+2026-11-09,2,West Ridge,North Side,92,parking,3
+2026-11-09,24,West Town,West Side,149,trash,94
+2026-11-09,24,West Town,West Side,149,critters,17
+2026-11-09,24,West Town,West Side,149,trees,16
+2026-11-09,24,West Town,West Side,149,streets,10
+2026-11-09,24,West Town,West Side,149,housing,7
+2026-11-09,24,West Town,West Side,149,parking,3
+2026-11-09,42,Woodlawn,South Side,18,parking,5
+2026-11-09,42,Woodlawn,South Side,18,housing,3
+2026-11-09,42,Woodlawn,South Side,18,trash,3
+2026-11-09,42,Woodlawn,South Side,18,streets,3
+2026-11-10,14,Albany Park,North Side,31,trash,21
+2026-11-10,14,Albany Park,North Side,31,parking,4
+2026-11-10,57,Archer Heights,Southwest Side,19,trash,10
+2026-11-10,57,Archer Heights,Southwest Side,19,parking,5
+2026-11-10,34,Armour Square,South Side,9,trash,5
+2026-11-10,34,Armour Square,South Side,9,streets,3
+2026-11-10,70,Ashburn,Southwest Side,26,trash,10
+2026-11-10,70,Ashburn,Southwest Side,26,streets,7
+2026-11-10,70,Ashburn,Southwest Side,26,critters,4
+2026-11-10,70,Ashburn,Southwest Side,26,trees,3
+2026-11-10,71,Auburn Gresham,Southwest Side,64,streets,14
+2026-11-10,71,Auburn Gresham,Southwest Side,64,trash,14
+2026-11-10,71,Auburn Gresham,Southwest Side,64,water,12
+2026-11-10,71,Auburn Gresham,Southwest Side,64,critters,11
+2026-11-10,71,Auburn Gresham,Southwest Side,64,parking,7
+2026-11-10,71,Auburn Gresham,Southwest Side,64,housing,3
+2026-11-10,71,Auburn Gresham,Southwest Side,64,trees,3
+2026-11-10,25,Austin,West Side,84,trash,31
+2026-11-10,25,Austin,West Side,84,streets,16
+2026-11-10,25,Austin,West Side,84,parking,13
+2026-11-10,25,Austin,West Side,84,critters,12
+2026-11-10,25,Austin,West Side,84,water,7
+2026-11-10,25,Austin,West Side,84,trees,3
+2026-11-10,45,Avalon Park,South Side,8,streets,4
+2026-11-10,45,Avalon Park,South Side,8,trash,3
+2026-11-10,21,Avondale,North Side,67,trees,22
+2026-11-10,21,Avondale,North Side,67,trash,19
+2026-11-10,21,Avondale,North Side,67,streets,8
+2026-11-10,21,Avondale,North Side,67,critters,7
+2026-11-10,21,Avondale,North Side,67,parking,6
+2026-11-10,19,Belmont Cragin,North Side,46,trash,16
+2026-11-10,19,Belmont Cragin,North Side,46,parking,9
+2026-11-10,19,Belmont Cragin,North Side,46,water,7
+2026-11-10,19,Belmont Cragin,North Side,46,critters,7
+2026-11-10,19,Belmont Cragin,North Side,46,streets,5
+2026-11-10,72,Beverly,Southwest Side,25,trash,13
+2026-11-10,72,Beverly,Southwest Side,25,streets,6
+2026-11-10,72,Beverly,Southwest Side,25,water,3
+2026-11-10,60,Bridgeport,South Side,31,trash,13
+2026-11-10,60,Bridgeport,South Side,31,trees,8
+2026-11-10,60,Bridgeport,South Side,31,critters,4
+2026-11-10,60,Bridgeport,South Side,31,parking,3
+2026-11-10,58,Brighton Park,Southwest Side,51,trash,32
+2026-11-10,58,Brighton Park,Southwest Side,51,parking,6
+2026-11-10,58,Brighton Park,Southwest Side,51,trees,4
+2026-11-10,58,Brighton Park,Southwest Side,51,water,3
+2026-11-10,58,Brighton Park,Southwest Side,51,streets,3
+2026-11-10,48,Calumet Heights,South Side,22,trees,14
+2026-11-10,48,Calumet Heights,South Side,22,trash,3
+2026-11-10,48,Calumet Heights,South Side,22,parking,3
+2026-11-10,44,Chatham,South Side,19,streets,5
+2026-11-10,44,Chatham,South Side,19,trash,4
+2026-11-10,44,Chatham,South Side,19,housing,4
+2026-11-10,44,Chatham,South Side,19,trees,3
+2026-11-10,66,Chicago Lawn,Southwest Side,51,trash,20
+2026-11-10,66,Chicago Lawn,Southwest Side,51,parking,10
+2026-11-10,66,Chicago Lawn,Southwest Side,51,critters,5
+2026-11-10,66,Chicago Lawn,Southwest Side,51,water,5
+2026-11-10,66,Chicago Lawn,Southwest Side,51,streets,4
+2026-11-10,66,Chicago Lawn,Southwest Side,51,housing,4
+2026-11-10,64,Clearing,Southwest Side,20,critters,6
+2026-11-10,64,Clearing,Southwest Side,20,trash,5
+2026-11-10,64,Clearing,Southwest Side,20,streets,3
+2026-11-10,35,Douglas,South Side,21,trees,16
+2026-11-10,35,Douglas,South Side,21,streets,3
+2026-11-10,17,Dunning,North Side,56,trash,21
+2026-11-10,17,Dunning,North Side,56,critters,10
+2026-11-10,17,Dunning,North Side,56,streets,8
+2026-11-10,17,Dunning,North Side,56,parking,8
+2026-11-10,17,Dunning,North Side,56,water,5
+2026-11-10,27,East Garfield Park,West Side,20,trash,8
+2026-11-10,27,East Garfield Park,West Side,20,streets,4
+2026-11-10,27,East Garfield Park,West Side,20,parking,3
+2026-11-10,52,East Side,South Side,8,trash,4
+2026-11-10,77,Edgewater,North Side,49,trash,22
+2026-11-10,77,Edgewater,North Side,49,streets,12
+2026-11-10,77,Edgewater,North Side,49,trees,5
+2026-11-10,77,Edgewater,North Side,49,critters,3
+2026-11-10,68,Englewood,Southwest Side,20,critters,8
+2026-11-10,68,Englewood,Southwest Side,20,streets,5
+2026-11-10,68,Englewood,Southwest Side,20,trash,4
+2026-11-10,12,Forest Glen,North Side,34,trash,25
+2026-11-10,12,Forest Glen,North Side,34,water,3
+2026-11-10,37,Fuller Park,South Side,9,trees,5
+2026-11-10,63,Gage Park,Southwest Side,54,trash,26
+2026-11-10,63,Gage Park,Southwest Side,54,trees,14
+2026-11-10,63,Gage Park,Southwest Side,54,streets,5
+2026-11-10,63,Gage Park,Southwest Side,54,parking,4
+2026-11-10,56,Garfield Ridge,Southwest Side,17,trash,5
+2026-11-10,56,Garfield Ridge,Southwest Side,17,parking,4
+2026-11-10,56,Garfield Ridge,Southwest Side,17,other,3
+2026-11-10,38,Grand Boulevard,South Side,21,trash,7
+2026-11-10,38,Grand Boulevard,South Side,21,trees,5
+2026-11-10,38,Grand Boulevard,South Side,21,critters,4
+2026-11-10,38,Grand Boulevard,South Side,21,streets,3
+2026-11-10,69,Greater Grand Crossing,South Side,33,trash,13
+2026-11-10,69,Greater Grand Crossing,South Side,33,critters,4
+2026-11-10,69,Greater Grand Crossing,South Side,33,housing,4
+2026-11-10,69,Greater Grand Crossing,South Side,33,trees,4
+2026-11-10,69,Greater Grand Crossing,South Side,33,parking,4
+2026-11-10,55,Hegewisch,South Side,13,trash,5
+2026-11-10,55,Hegewisch,South Side,13,water,4
+2026-11-10,20,Hermosa,North Side,26,trash,10
+2026-11-10,20,Hermosa,North Side,26,streets,5
+2026-11-10,20,Hermosa,North Side,26,parking,5
+2026-11-10,20,Hermosa,North Side,26,critters,3
+2026-11-10,23,Humboldt Park,West Side,47,trash,15
+2026-11-10,23,Humboldt Park,West Side,47,parking,14
+2026-11-10,23,Humboldt Park,West Side,47,streets,6
+2026-11-10,23,Humboldt Park,West Side,47,water,3
+2026-11-10,23,Humboldt Park,West Side,47,trees,3
+2026-11-10,41,Hyde Park,South Side,13,streets,4
+2026-11-10,41,Hyde Park,South Side,13,parking,3
+2026-11-10,16,Irving Park,North Side,63,trees,20
+2026-11-10,16,Irving Park,North Side,63,trash,12
+2026-11-10,16,Irving Park,North Side,63,streets,10
+2026-11-10,16,Irving Park,North Side,63,critters,7
+2026-11-10,16,Irving Park,North Side,63,water,5
+2026-11-10,16,Irving Park,North Side,63,parking,4
+2026-11-10,16,Irving Park,North Side,63,housing,3
+2026-11-10,11,Jefferson Park,North Side,40,streets,18
+2026-11-10,11,Jefferson Park,North Side,40,trash,13
+2026-11-10,11,Jefferson Park,North Side,40,trees,3
+2026-11-10,11,Jefferson Park,North Side,40,parking,3
+2026-11-10,6,Lake View,North Side,79,trash,43
+2026-11-10,6,Lake View,North Side,79,trees,14
+2026-11-10,6,Lake View,North Side,79,streets,9
+2026-11-10,6,Lake View,North Side,79,parking,5
+2026-11-10,6,Lake View,North Side,79,critters,3
+2026-11-10,6,Lake View,North Side,79,water,3
+2026-11-10,7,Lincoln Park,North Side,58,trash,23
+2026-11-10,7,Lincoln Park,North Side,58,parking,10
+2026-11-10,7,Lincoln Park,North Side,58,streets,8
+2026-11-10,7,Lincoln Park,North Side,58,trees,8
+2026-11-10,7,Lincoln Park,North Side,58,critters,6
+2026-11-10,4,Lincoln Square,North Side,52,trash,16
+2026-11-10,4,Lincoln Square,North Side,52,trees,13
+2026-11-10,4,Lincoln Square,North Side,52,parking,6
+2026-11-10,4,Lincoln Square,North Side,52,streets,5
+2026-11-10,4,Lincoln Square,North Side,52,housing,5
+2026-11-10,4,Lincoln Square,North Side,52,critters,5
+2026-11-10,22,Logan Square,North Side,87,trash,48
+2026-11-10,22,Logan Square,North Side,87,trees,14
+2026-11-10,22,Logan Square,North Side,87,parking,10
+2026-11-10,22,Logan Square,North Side,87,streets,7
+2026-11-10,22,Logan Square,North Side,87,critters,5
+2026-11-10,31,Lower West Side,West Side,41,trash,21
+2026-11-10,31,Lower West Side,West Side,41,parking,5
+2026-11-10,31,Lower West Side,West Side,41,trees,5
+2026-11-10,31,Lower West Side,West Side,41,streets,4
+2026-11-10,31,Lower West Side,West Side,41,critters,3
+2026-11-10,59,McKinley Park,Southwest Side,29,trash,22
+2026-11-10,59,McKinley Park,Southwest Side,29,streets,3
+2026-11-10,18,Montclare,North Side,9,trash,5
+2026-11-10,75,Morgan Park,Southwest Side,16,trash,10
+2026-11-10,74,Mount Greenwood,Southwest Side,9,trees,3
+2026-11-10,8,Near North Side,Downtown,65,streets,22
+2026-11-10,8,Near North Side,Downtown,65,trash,20
+2026-11-10,8,Near North Side,Downtown,65,critters,10
+2026-11-10,8,Near North Side,Downtown,65,parking,6
+2026-11-10,8,Near North Side,Downtown,65,other,5
+2026-11-10,28,Near West Side,West Side,53,trash,21
+2026-11-10,28,Near West Side,West Side,53,streets,12
+2026-11-10,28,Near West Side,West Side,53,parking,8
+2026-11-10,28,Near West Side,West Side,53,housing,5
+2026-11-10,28,Near West Side,West Side,53,water,4
+2026-11-10,28,Near West Side,West Side,53,other,3
+2026-11-10,61,New City,Southwest Side,48,trees,15
+2026-11-10,61,New City,Southwest Side,48,trash,13
+2026-11-10,61,New City,Southwest Side,48,streets,8
+2026-11-10,61,New City,Southwest Side,48,parking,7
+2026-11-10,5,North Center,North Side,46,trash,19
+2026-11-10,5,North Center,North Side,46,streets,9
+2026-11-10,5,North Center,North Side,46,water,6
+2026-11-10,5,North Center,North Side,46,parking,5
+2026-11-10,5,North Center,North Side,46,critters,5
+2026-11-10,29,North Lawndale,West Side,30,trash,10
+2026-11-10,29,North Lawndale,West Side,30,critters,8
+2026-11-10,29,North Lawndale,West Side,30,water,5
+2026-11-10,29,North Lawndale,West Side,30,trees,3
+2026-11-10,13,North Park,North Side,12,trash,3
+2026-11-10,13,North Park,North Side,12,streets,3
+2026-11-10,10,Norwood Park,North Side,41,streets,15
+2026-11-10,10,Norwood Park,North Side,41,critters,8
+2026-11-10,10,Norwood Park,North Side,41,trash,7
+2026-11-10,10,Norwood Park,North Side,41,trees,5
+2026-11-10,10,Norwood Park,North Side,41,parking,4
+2026-11-10,15,Portage Park,North Side,71,trash,18
+2026-11-10,15,Portage Park,North Side,71,parking,15
+2026-11-10,15,Portage Park,North Side,71,streets,14
+2026-11-10,15,Portage Park,North Side,71,critters,12
+2026-11-10,15,Portage Park,North Side,71,water,5
+2026-11-10,15,Portage Park,North Side,71,trees,5
+2026-11-10,50,Pullman,South Side,9,trees,3
+2026-11-10,50,Pullman,South Side,9,critters,3
+2026-11-10,1,Rogers Park,North Side,45,streets,12
+2026-11-10,1,Rogers Park,North Side,45,parking,9
+2026-11-10,1,Rogers Park,North Side,45,critters,9
+2026-11-10,1,Rogers Park,North Side,45,trash,7
+2026-11-10,1,Rogers Park,North Side,45,housing,4
+2026-11-10,1,Rogers Park,North Side,45,trees,3
+2026-11-10,49,Roseland,South Side,27,streets,6
+2026-11-10,49,Roseland,South Side,27,trash,6
+2026-11-10,49,Roseland,South Side,27,trees,5
+2026-11-10,49,Roseland,South Side,27,water,4
+2026-11-10,46,South Chicago,South Side,32,trash,15
+2026-11-10,46,South Chicago,South Side,32,water,5
+2026-11-10,46,South Chicago,South Side,32,streets,5
+2026-11-10,46,South Chicago,South Side,32,housing,4
+2026-11-10,51,South Deering,South Side,12,parking,3
+2026-11-10,51,South Deering,South Side,12,trash,3
+2026-11-10,30,South Lawndale,West Side,60,trash,31
+2026-11-10,30,South Lawndale,West Side,60,critters,8
+2026-11-10,30,South Lawndale,West Side,60,water,6
+2026-11-10,30,South Lawndale,West Side,60,parking,4
+2026-11-10,30,South Lawndale,West Side,60,streets,4
+2026-11-10,30,South Lawndale,West Side,60,housing,3
+2026-11-10,30,South Lawndale,West Side,60,other,3
+2026-11-10,43,South Shore,South Side,33,parking,8
+2026-11-10,43,South Shore,South Side,33,critters,7
+2026-11-10,43,South Shore,South Side,33,streets,5
+2026-11-10,43,South Shore,South Side,33,trash,4
+2026-11-10,43,South Shore,South Side,33,housing,3
+2026-11-10,43,South Shore,South Side,33,water,3
+2026-11-10,32,The Loop,Downtown,39,trash,16
+2026-11-10,32,The Loop,Downtown,39,streets,10
+2026-11-10,32,The Loop,Downtown,39,other,6
+2026-11-10,3,Uptown,North Side,37,trash,13
+2026-11-10,3,Uptown,North Side,37,parking,7
+2026-11-10,3,Uptown,North Side,37,streets,6
+2026-11-10,3,Uptown,North Side,37,other,4
+2026-11-10,3,Uptown,North Side,37,critters,3
+2026-11-10,73,Washington Heights,Southwest Side,19,trash,6
+2026-11-10,73,Washington Heights,Southwest Side,19,parking,5
+2026-11-10,40,Washington Park,South Side,8,streets,3
+2026-11-10,67,West Englewood,Southwest Side,30,trash,9
+2026-11-10,67,West Englewood,Southwest Side,30,critters,8
+2026-11-10,67,West Englewood,Southwest Side,30,housing,6
+2026-11-10,67,West Englewood,Southwest Side,30,trees,3
+2026-11-10,26,West Garfield Park,West Side,35,trash,21
+2026-11-10,26,West Garfield Park,West Side,35,parking,5
+2026-11-10,26,West Garfield Park,West Side,35,streets,4
+2026-11-10,26,West Garfield Park,West Side,35,critters,3
+2026-11-10,65,West Lawn,Southwest Side,22,streets,6
+2026-11-10,65,West Lawn,Southwest Side,22,critters,4
+2026-11-10,65,West Lawn,Southwest Side,22,trees,4
+2026-11-10,65,West Lawn,Southwest Side,22,trash,4
+2026-11-10,53,West Pullman,South Side,25,critters,7
+2026-11-10,53,West Pullman,South Side,25,trash,6
+2026-11-10,53,West Pullman,South Side,25,trees,5
+2026-11-10,53,West Pullman,South Side,25,streets,4
+2026-11-10,53,West Pullman,South Side,25,parking,3
+2026-11-10,2,West Ridge,North Side,89,water,51
+2026-11-10,2,West Ridge,North Side,89,trash,11
+2026-11-10,2,West Ridge,North Side,89,streets,9
+2026-11-10,2,West Ridge,North Side,89,parking,7
+2026-11-10,2,West Ridge,North Side,89,critters,7
+2026-11-10,24,West Town,West Side,134,trash,72
+2026-11-10,24,West Town,West Side,134,streets,17
+2026-11-10,24,West Town,West Side,134,water,16
+2026-11-10,24,West Town,West Side,134,critters,13
+2026-11-10,24,West Town,West Side,134,parking,9
+2026-11-10,24,West Town,West Side,134,housing,3
+2026-11-10,24,West Town,West Side,134,trees,3
+2026-11-10,42,Woodlawn,South Side,7,trash,3
+2026-11-11,14,Albany Park,North Side,32,trash,11
+2026-11-11,14,Albany Park,North Side,32,parking,8
+2026-11-11,14,Albany Park,North Side,32,critters,5
+2026-11-11,14,Albany Park,North Side,32,water,4
+2026-11-11,57,Archer Heights,Southwest Side,13,parking,5
+2026-11-11,57,Archer Heights,Southwest Side,13,streets,3
+2026-11-11,34,Armour Square,South Side,6,parking,3
+2026-11-11,70,Ashburn,Southwest Side,20,trash,8
+2026-11-11,70,Ashburn,Southwest Side,20,streets,4
+2026-11-11,70,Ashburn,Southwest Side,20,critters,3
+2026-11-11,71,Auburn Gresham,Southwest Side,27,trash,10
+2026-11-11,71,Auburn Gresham,Southwest Side,27,critters,5
+2026-11-11,71,Auburn Gresham,Southwest Side,27,water,4
+2026-11-11,71,Auburn Gresham,Southwest Side,27,housing,3
+2026-11-11,71,Auburn Gresham,Southwest Side,27,streets,3
+2026-11-11,25,Austin,West Side,54,trash,16
+2026-11-11,25,Austin,West Side,54,critters,12
+2026-11-11,25,Austin,West Side,54,streets,11
+2026-11-11,25,Austin,West Side,54,parking,6
+2026-11-11,25,Austin,West Side,54,water,3
+2026-11-11,25,Austin,West Side,54,housing,3
+2026-11-11,45,Avalon Park,South Side,5,water,3
+2026-11-11,21,Avondale,North Side,39,parking,23
+2026-11-11,21,Avondale,North Side,39,critters,6
+2026-11-11,21,Avondale,North Side,39,trash,5
+2026-11-11,19,Belmont Cragin,North Side,38,trash,15
+2026-11-11,19,Belmont Cragin,North Side,38,parking,11
+2026-11-11,19,Belmont Cragin,North Side,38,critters,5
+2026-11-11,19,Belmont Cragin,North Side,38,streets,3
+2026-11-11,72,Beverly,Southwest Side,17,trees,8
+2026-11-11,72,Beverly,Southwest Side,17,trash,4
+2026-11-11,72,Beverly,Southwest Side,17,housing,3
+2026-11-11,60,Bridgeport,South Side,19,trash,6
+2026-11-11,60,Bridgeport,South Side,19,streets,5
+2026-11-11,60,Bridgeport,South Side,19,housing,3
+2026-11-11,58,Brighton Park,Southwest Side,20,trash,7
+2026-11-11,58,Brighton Park,Southwest Side,20,parking,6
+2026-11-11,48,Calumet Heights,South Side,10,critters,3
+2026-11-11,48,Calumet Heights,South Side,10,trees,3
+2026-11-11,44,Chatham,South Side,15,housing,5
+2026-11-11,44,Chatham,South Side,15,trash,3
+2026-11-11,44,Chatham,South Side,15,critters,3
+2026-11-11,66,Chicago Lawn,Southwest Side,35,parking,13
+2026-11-11,66,Chicago Lawn,Southwest Side,35,critters,7
+2026-11-11,66,Chicago Lawn,Southwest Side,35,water,6
+2026-11-11,66,Chicago Lawn,Southwest Side,35,trash,5
+2026-11-11,66,Chicago Lawn,Southwest Side,35,housing,4
+2026-11-11,64,Clearing,Southwest Side,17,critters,5
+2026-11-11,64,Clearing,Southwest Side,17,trash,5
+2026-11-11,64,Clearing,Southwest Side,17,streets,3
+2026-11-11,17,Dunning,North Side,29,streets,8
+2026-11-11,17,Dunning,North Side,29,critters,7
+2026-11-11,17,Dunning,North Side,29,trash,7
+2026-11-11,27,East Garfield Park,West Side,6,trash,3
+2026-11-11,77,Edgewater,North Side,28,trash,12
+2026-11-11,77,Edgewater,North Side,28,parking,4
+2026-11-11,77,Edgewater,North Side,28,streets,4
+2026-11-11,9,Edison Park,North Side,9,trash,3
+2026-11-11,9,Edison Park,North Side,9,housing,3
+2026-11-11,68,Englewood,Southwest Side,22,housing,6
+2026-11-11,68,Englewood,Southwest Side,22,trash,5
+2026-11-11,68,Englewood,Southwest Side,22,streets,4
+2026-11-11,68,Englewood,Southwest Side,22,critters,3
+2026-11-11,12,Forest Glen,North Side,31,streets,13
+2026-11-11,12,Forest Glen,North Side,31,trash,7
+2026-11-11,12,Forest Glen,North Side,31,critters,4
+2026-11-11,12,Forest Glen,North Side,31,parking,4
+2026-11-11,63,Gage Park,Southwest Side,19,parking,7
+2026-11-11,63,Gage Park,Southwest Side,19,housing,5
+2026-11-11,63,Gage Park,Southwest Side,19,trash,5
+2026-11-11,56,Garfield Ridge,Southwest Side,20,critters,6
+2026-11-11,56,Garfield Ridge,Southwest Side,20,trash,4
+2026-11-11,56,Garfield Ridge,Southwest Side,20,streets,4
+2026-11-11,38,Grand Boulevard,South Side,18,trash,8
+2026-11-11,38,Grand Boulevard,South Side,18,critters,5
+2026-11-11,38,Grand Boulevard,South Side,18,housing,3
+2026-11-11,69,Greater Grand Crossing,South Side,42,trash,13
+2026-11-11,69,Greater Grand Crossing,South Side,42,critters,11
+2026-11-11,69,Greater Grand Crossing,South Side,42,housing,5
+2026-11-11,69,Greater Grand Crossing,South Side,42,parking,4
+2026-11-11,69,Greater Grand Crossing,South Side,42,streets,4
+2026-11-11,20,Hermosa,North Side,13,parking,4
+2026-11-11,20,Hermosa,North Side,13,trash,4
+2026-11-11,23,Humboldt Park,West Side,46,trash,17
+2026-11-11,23,Humboldt Park,West Side,46,parking,9
+2026-11-11,23,Humboldt Park,West Side,46,water,6
+2026-11-11,23,Humboldt Park,West Side,46,streets,4
+2026-11-11,23,Humboldt Park,West Side,46,housing,4
+2026-11-11,23,Humboldt Park,West Side,46,trees,3
+2026-11-11,41,Hyde Park,South Side,12,critters,4
+2026-11-11,41,Hyde Park,South Side,12,water,3
+2026-11-11,41,Hyde Park,South Side,12,streets,3
+2026-11-11,16,Irving Park,North Side,39,trash,18
+2026-11-11,16,Irving Park,North Side,39,parking,6
+2026-11-11,16,Irving Park,North Side,39,streets,6
+2026-11-11,16,Irving Park,North Side,39,trees,3
+2026-11-11,16,Irving Park,North Side,39,housing,3
+2026-11-11,11,Jefferson Park,North Side,12,trash,5
+2026-11-11,11,Jefferson Park,North Side,12,trees,3
+2026-11-11,6,Lake View,North Side,68,trash,26
+2026-11-11,6,Lake View,North Side,68,critters,14
+2026-11-11,6,Lake View,North Side,68,streets,9
+2026-11-11,6,Lake View,North Side,68,parking,7
+2026-11-11,6,Lake View,North Side,68,water,4
+2026-11-11,6,Lake View,North Side,68,trees,3
+2026-11-11,6,Lake View,North Side,68,other,3
+2026-11-11,7,Lincoln Park,North Side,48,trash,19
+2026-11-11,7,Lincoln Park,North Side,48,critters,11
+2026-11-11,7,Lincoln Park,North Side,48,streets,5
+2026-11-11,7,Lincoln Park,North Side,48,parking,4
+2026-11-11,7,Lincoln Park,North Side,48,water,4
+2026-11-11,7,Lincoln Park,North Side,48,trees,3
+2026-11-11,4,Lincoln Square,North Side,28,trash,13
+2026-11-11,4,Lincoln Square,North Side,28,parking,7
+2026-11-11,4,Lincoln Square,North Side,28,trees,3
+2026-11-11,22,Logan Square,North Side,57,trash,23
+2026-11-11,22,Logan Square,North Side,57,parking,9
+2026-11-11,22,Logan Square,North Side,57,critters,8
+2026-11-11,22,Logan Square,North Side,57,streets,7
+2026-11-11,22,Logan Square,North Side,57,water,4
+2026-11-11,22,Logan Square,North Side,57,housing,4
+2026-11-11,31,Lower West Side,West Side,27,trash,9
+2026-11-11,31,Lower West Side,West Side,27,streets,8
+2026-11-11,31,Lower West Side,West Side,27,parking,6
+2026-11-11,59,McKinley Park,Southwest Side,18,trash,11
+2026-11-11,59,McKinley Park,Southwest Side,18,streets,3
+2026-11-11,59,McKinley Park,Southwest Side,18,critters,3
+2026-11-11,18,Montclare,North Side,8,trash,4
+2026-11-11,75,Morgan Park,Southwest Side,13,critters,3
+2026-11-11,75,Morgan Park,Southwest Side,13,water,3
+2026-11-11,75,Morgan Park,Southwest Side,13,parking,3
+2026-11-11,75,Morgan Park,Southwest Side,13,streets,3
+2026-11-11,8,Near North Side,Downtown,46,streets,12
+2026-11-11,8,Near North Side,Downtown,46,trash,9
+2026-11-11,8,Near North Side,Downtown,46,parking,6
+2026-11-11,8,Near North Side,Downtown,46,other,6
+2026-11-11,8,Near North Side,Downtown,46,housing,6
+2026-11-11,8,Near North Side,Downtown,46,critters,4
+2026-11-11,8,Near North Side,Downtown,46,water,3
+2026-11-11,33,Near South Side,Downtown,11,parking,3
+2026-11-11,33,Near South Side,Downtown,11,other,3
+2026-11-11,28,Near West Side,West Side,27,streets,8
+2026-11-11,28,Near West Side,West Side,27,trash,8
+2026-11-11,28,Near West Side,West Side,27,other,3
+2026-11-11,61,New City,Southwest Side,36,trash,16
+2026-11-11,61,New City,Southwest Side,36,parking,7
+2026-11-11,61,New City,Southwest Side,36,critters,4
+2026-11-11,61,New City,Southwest Side,36,housing,3
+2026-11-11,61,New City,Southwest Side,36,streets,3
+2026-11-11,5,North Center,North Side,19,trash,12
+2026-11-11,5,North Center,North Side,19,critters,3
+2026-11-11,29,North Lawndale,West Side,25,trash,12
+2026-11-11,29,North Lawndale,West Side,25,critters,5
+2026-11-11,29,North Lawndale,West Side,25,parking,3
+2026-11-11,13,North Park,North Side,10,parking,3
+2026-11-11,10,Norwood Park,North Side,28,trash,10
+2026-11-11,10,Norwood Park,North Side,28,streets,9
+2026-11-11,10,Norwood Park,North Side,28,critters,4
+2026-11-11,76,O'Hare,North Side,14,streets,8
+2026-11-11,76,O'Hare,North Side,14,other,3
+2026-11-11,15,Portage Park,North Side,48,streets,19
+2026-11-11,15,Portage Park,North Side,48,trash,9
+2026-11-11,15,Portage Park,North Side,48,parking,6
+2026-11-11,15,Portage Park,North Side,48,critters,6
+2026-11-11,15,Portage Park,North Side,48,water,4
+2026-11-11,1,Rogers Park,North Side,27,trash,8
+2026-11-11,1,Rogers Park,North Side,27,critters,6
+2026-11-11,1,Rogers Park,North Side,27,streets,5
+2026-11-11,1,Rogers Park,North Side,27,parking,4
+2026-11-11,49,Roseland,South Side,27,trash,11
+2026-11-11,49,Roseland,South Side,27,parking,4
+2026-11-11,49,Roseland,South Side,27,trees,4
+2026-11-11,49,Roseland,South Side,27,streets,3
+2026-11-11,46,South Chicago,South Side,15,water,4
+2026-11-11,46,South Chicago,South Side,15,trash,4
+2026-11-11,46,South Chicago,South Side,15,parking,3
+2026-11-11,51,South Deering,South Side,12,trash,7
+2026-11-11,51,South Deering,South Side,12,critters,3
+2026-11-11,30,South Lawndale,West Side,32,trash,13
+2026-11-11,30,South Lawndale,West Side,32,critters,8
+2026-11-11,30,South Lawndale,West Side,32,water,5
+2026-11-11,30,South Lawndale,West Side,32,parking,3
+2026-11-11,43,South Shore,South Side,26,housing,6
+2026-11-11,43,South Shore,South Side,26,critters,5
+2026-11-11,43,South Shore,South Side,26,water,4
+2026-11-11,43,South Shore,South Side,26,trash,4
+2026-11-11,43,South Shore,South Side,26,streets,3
+2026-11-11,43,South Shore,South Side,26,parking,3
+2026-11-11,32,The Loop,Downtown,20,streets,6
+2026-11-11,32,The Loop,Downtown,20,other,5
+2026-11-11,32,The Loop,Downtown,20,trash,3
+2026-11-11,32,The Loop,Downtown,20,critters,3
+2026-11-11,3,Uptown,North Side,39,streets,12
+2026-11-11,3,Uptown,North Side,39,trash,8
+2026-11-11,3,Uptown,North Side,39,parking,6
+2026-11-11,3,Uptown,North Side,39,critters,5
+2026-11-11,3,Uptown,North Side,39,trees,4
+2026-11-11,3,Uptown,North Side,39,housing,3
+2026-11-11,73,Washington Heights,Southwest Side,16,trash,7
+2026-11-11,73,Washington Heights,Southwest Side,16,water,3
+2026-11-11,62,West Elsdon,Southwest Side,8,trash,3
+2026-11-11,67,West Englewood,Southwest Side,22,trash,8
+2026-11-11,67,West Englewood,Southwest Side,22,critters,6
+2026-11-11,67,West Englewood,Southwest Side,22,parking,6
+2026-11-11,26,West Garfield Park,West Side,18,trash,10
+2026-11-11,26,West Garfield Park,West Side,18,housing,3
+2026-11-11,65,West Lawn,Southwest Side,12,trash,4
+2026-11-11,53,West Pullman,South Side,31,critters,10
+2026-11-11,53,West Pullman,South Side,31,trash,8
+2026-11-11,53,West Pullman,South Side,31,trees,4
+2026-11-11,53,West Pullman,South Side,31,streets,3
+2026-11-11,2,West Ridge,North Side,31,trash,7
+2026-11-11,2,West Ridge,North Side,31,critters,7
+2026-11-11,2,West Ridge,North Side,31,streets,4
+2026-11-11,2,West Ridge,North Side,31,housing,4
+2026-11-11,2,West Ridge,North Side,31,parking,3
+2026-11-11,2,West Ridge,North Side,31,water,3
+2026-11-11,24,West Town,West Side,60,trash,23
+2026-11-11,24,West Town,West Side,60,parking,12
+2026-11-11,24,West Town,West Side,60,critters,9
+2026-11-11,24,West Town,West Side,60,streets,7
+2026-11-11,24,West Town,West Side,60,water,3
+2026-11-11,42,Woodlawn,South Side,11,parking,8
+2026-11-12,14,Albany Park,North Side,90,trash,24
+2026-11-12,14,Albany Park,North Side,90,streets,24
+2026-11-12,14,Albany Park,North Side,90,water,15
+2026-11-12,14,Albany Park,North Side,90,trees,11
+2026-11-12,14,Albany Park,North Side,90,housing,8
+2026-11-12,14,Albany Park,North Side,90,parking,4
+2026-11-12,14,Albany Park,North Side,90,critters,4
+2026-11-12,57,Archer Heights,Southwest Side,16,trash,5
+2026-11-12,57,Archer Heights,Southwest Side,16,water,5
+2026-11-12,57,Archer Heights,Southwest Side,16,parking,5
+2026-11-12,34,Armour Square,South Side,28,critters,16
+2026-11-12,34,Armour Square,South Side,28,parking,6
+2026-11-12,70,Ashburn,Southwest Side,33,water,16
+2026-11-12,70,Ashburn,Southwest Side,33,trash,7
+2026-11-12,70,Ashburn,Southwest Side,33,critters,4
+2026-11-12,71,Auburn Gresham,Southwest Side,78,water,45
+2026-11-12,71,Auburn Gresham,Southwest Side,78,trash,19
+2026-11-12,71,Auburn Gresham,Southwest Side,78,housing,4
+2026-11-12,71,Auburn Gresham,Southwest Side,78,critters,4
+2026-11-12,71,Auburn Gresham,Southwest Side,78,parking,3
+2026-11-12,25,Austin,West Side,107,water,36
+2026-11-12,25,Austin,West Side,107,trash,27
+2026-11-12,25,Austin,West Side,107,parking,13
+2026-11-12,25,Austin,West Side,107,trees,10
+2026-11-12,25,Austin,West Side,107,housing,7
+2026-11-12,25,Austin,West Side,107,critters,7
+2026-11-12,25,Austin,West Side,107,streets,5
+2026-11-12,45,Avalon Park,South Side,14,water,6
+2026-11-12,21,Avondale,North Side,33,trash,8
+2026-11-12,21,Avondale,North Side,33,water,8
+2026-11-12,21,Avondale,North Side,33,streets,6
+2026-11-12,21,Avondale,North Side,33,critters,3
+2026-11-12,19,Belmont Cragin,North Side,83,trash,26
+2026-11-12,19,Belmont Cragin,North Side,83,water,26
+2026-11-12,19,Belmont Cragin,North Side,83,streets,11
+2026-11-12,19,Belmont Cragin,North Side,83,parking,9
+2026-11-12,19,Belmont Cragin,North Side,83,trees,6
+2026-11-12,19,Belmont Cragin,North Side,83,housing,3
+2026-11-12,72,Beverly,Southwest Side,28,water,13
+2026-11-12,72,Beverly,Southwest Side,28,streets,5
+2026-11-12,72,Beverly,Southwest Side,28,trash,5
+2026-11-12,72,Beverly,Southwest Side,28,parking,3
+2026-11-12,60,Bridgeport,South Side,54,water,18
+2026-11-12,60,Bridgeport,South Side,54,trash,14
+2026-11-12,60,Bridgeport,South Side,54,critters,11
+2026-11-12,60,Bridgeport,South Side,54,streets,5
+2026-11-12,60,Bridgeport,South Side,54,parking,4
+2026-11-12,58,Brighton Park,Southwest Side,48,trash,23
+2026-11-12,58,Brighton Park,Southwest Side,48,streets,9
+2026-11-12,58,Brighton Park,Southwest Side,48,water,9
+2026-11-12,58,Brighton Park,Southwest Side,48,critters,3
+2026-11-12,48,Calumet Heights,South Side,35,water,15
+2026-11-12,48,Calumet Heights,South Side,35,trees,7
+2026-11-12,48,Calumet Heights,South Side,35,trash,5
+2026-11-12,48,Calumet Heights,South Side,35,parking,4
+2026-11-12,44,Chatham,South Side,41,trash,17
+2026-11-12,44,Chatham,South Side,41,water,11
+2026-11-12,44,Chatham,South Side,41,parking,4
+2026-11-12,44,Chatham,South Side,41,trees,3
+2026-11-12,44,Chatham,South Side,41,housing,3
+2026-11-12,66,Chicago Lawn,Southwest Side,59,water,24
+2026-11-12,66,Chicago Lawn,Southwest Side,59,trash,17
+2026-11-12,66,Chicago Lawn,Southwest Side,59,housing,5
+2026-11-12,66,Chicago Lawn,Southwest Side,59,streets,4
+2026-11-12,66,Chicago Lawn,Southwest Side,59,critters,4
+2026-11-12,64,Clearing,Southwest Side,11,water,4
+2026-11-12,64,Clearing,Southwest Side,11,critters,3
+2026-11-12,35,Douglas,South Side,15,trees,6
+2026-11-12,35,Douglas,South Side,15,streets,5
+2026-11-12,35,Douglas,South Side,15,water,3
+2026-11-12,17,Dunning,North Side,83,water,24
+2026-11-12,17,Dunning,North Side,83,trees,21
+2026-11-12,17,Dunning,North Side,83,trash,19
+2026-11-12,17,Dunning,North Side,83,streets,5
+2026-11-12,17,Dunning,North Side,83,parking,5
+2026-11-12,17,Dunning,North Side,83,critters,5
+2026-11-12,17,Dunning,North Side,83,housing,3
+2026-11-12,27,East Garfield Park,West Side,21,parking,7
+2026-11-12,27,East Garfield Park,West Side,21,housing,5
+2026-11-12,27,East Garfield Park,West Side,21,streets,4
+2026-11-12,27,East Garfield Park,West Side,21,trash,3
+2026-11-12,52,East Side,South Side,19,water,7
+2026-11-12,52,East Side,South Side,19,trash,4
+2026-11-12,52,East Side,South Side,19,streets,4
+2026-11-12,77,Edgewater,North Side,55,trees,18
+2026-11-12,77,Edgewater,North Side,55,water,13
+2026-11-12,77,Edgewater,North Side,55,trash,12
+2026-11-12,77,Edgewater,North Side,55,streets,7
+2026-11-12,9,Edison Park,North Side,15,water,6
+2026-11-12,9,Edison Park,North Side,15,trash,4
+2026-11-12,9,Edison Park,North Side,15,parking,3
+2026-11-12,68,Englewood,Southwest Side,40,water,13
+2026-11-12,68,Englewood,Southwest Side,40,critters,11
+2026-11-12,68,Englewood,Southwest Side,40,trash,8
+2026-11-12,68,Englewood,Southwest Side,40,housing,4
+2026-11-12,68,Englewood,Southwest Side,40,streets,3
+2026-11-12,12,Forest Glen,North Side,35,water,19
+2026-11-12,12,Forest Glen,North Side,35,trash,8
+2026-11-12,12,Forest Glen,North Side,35,housing,3
+2026-11-12,12,Forest Glen,North Side,35,trees,3
+2026-11-12,37,Fuller Park,South Side,7,trash,3
+2026-11-12,63,Gage Park,Southwest Side,45,trash,22
+2026-11-12,63,Gage Park,Southwest Side,45,water,13
+2026-11-12,63,Gage Park,Southwest Side,45,streets,4
+2026-11-12,63,Gage Park,Southwest Side,45,housing,4
+2026-11-12,56,Garfield Ridge,Southwest Side,61,water,18
+2026-11-12,56,Garfield Ridge,Southwest Side,61,trash,12
+2026-11-12,56,Garfield Ridge,Southwest Side,61,critters,11
+2026-11-12,56,Garfield Ridge,Southwest Side,61,streets,10
+2026-11-12,56,Garfield Ridge,Southwest Side,61,trees,7
+2026-11-12,38,Grand Boulevard,South Side,23,water,6
+2026-11-12,38,Grand Boulevard,South Side,23,trash,5
+2026-11-12,38,Grand Boulevard,South Side,23,streets,5
+2026-11-12,38,Grand Boulevard,South Side,23,housing,3
+2026-11-12,69,Greater Grand Crossing,South Side,46,trash,16
+2026-11-12,69,Greater Grand Crossing,South Side,46,water,11
+2026-11-12,69,Greater Grand Crossing,South Side,46,housing,7
+2026-11-12,69,Greater Grand Crossing,South Side,46,streets,6
+2026-11-12,69,Greater Grand Crossing,South Side,46,critters,4
+2026-11-12,55,Hegewisch,South Side,13,trash,5
+2026-11-12,55,Hegewisch,South Side,13,streets,4
+2026-11-12,20,Hermosa,North Side,22,trash,10
+2026-11-12,20,Hermosa,North Side,22,critters,4
+2026-11-12,23,Humboldt Park,West Side,75,water,35
+2026-11-12,23,Humboldt Park,West Side,75,trash,24
+2026-11-12,23,Humboldt Park,West Side,75,critters,5
+2026-11-12,23,Humboldt Park,West Side,75,housing,4
+2026-11-12,23,Humboldt Park,West Side,75,streets,3
+2026-11-12,41,Hyde Park,South Side,8,water,3
+2026-11-12,16,Irving Park,North Side,44,streets,15
+2026-11-12,16,Irving Park,North Side,44,water,11
+2026-11-12,16,Irving Park,North Side,44,trash,9
+2026-11-12,16,Irving Park,North Side,44,parking,3
+2026-11-12,16,Irving Park,North Side,44,critters,3
+2026-11-12,11,Jefferson Park,North Side,38,parking,13
+2026-11-12,11,Jefferson Park,North Side,38,water,11
+2026-11-12,11,Jefferson Park,North Side,38,trash,6
+2026-11-12,11,Jefferson Park,North Side,38,streets,4
+2026-11-12,39,Kenwood,South Side,9,trash,3
+2026-11-12,6,Lake View,North Side,62,trash,17
+2026-11-12,6,Lake View,North Side,62,water,12
+2026-11-12,6,Lake View,North Side,62,trees,11
+2026-11-12,6,Lake View,North Side,62,critters,6
+2026-11-12,6,Lake View,North Side,62,housing,6
+2026-11-12,6,Lake View,North Side,62,parking,5
+2026-11-12,6,Lake View,North Side,62,streets,4
+2026-11-12,7,Lincoln Park,North Side,43,streets,10
+2026-11-12,7,Lincoln Park,North Side,43,trash,9
+2026-11-12,7,Lincoln Park,North Side,43,parking,7
+2026-11-12,7,Lincoln Park,North Side,43,critters,7
+2026-11-12,7,Lincoln Park,North Side,43,water,5
+2026-11-12,7,Lincoln Park,North Side,43,housing,3
+2026-11-12,4,Lincoln Square,North Side,49,trees,20
+2026-11-12,4,Lincoln Square,North Side,49,streets,8
+2026-11-12,4,Lincoln Square,North Side,49,parking,7
+2026-11-12,4,Lincoln Square,North Side,49,critters,5
+2026-11-12,4,Lincoln Square,North Side,49,trash,5
+2026-11-12,22,Logan Square,North Side,104,trash,42
+2026-11-12,22,Logan Square,North Side,104,water,18
+2026-11-12,22,Logan Square,North Side,104,streets,17
+2026-11-12,22,Logan Square,North Side,104,critters,13
+2026-11-12,22,Logan Square,North Side,104,parking,6
+2026-11-12,22,Logan Square,North Side,104,housing,5
+2026-11-12,31,Lower West Side,West Side,62,trash,30
+2026-11-12,31,Lower West Side,West Side,62,water,9
+2026-11-12,31,Lower West Side,West Side,62,streets,8
+2026-11-12,31,Lower West Side,West Side,62,parking,7
+2026-11-12,31,Lower West Side,West Side,62,critters,6
+2026-11-12,59,McKinley Park,Southwest Side,16,trash,6
+2026-11-12,59,McKinley Park,Southwest Side,16,water,6
+2026-11-12,59,McKinley Park,Southwest Side,16,streets,3
+2026-11-12,18,Montclare,North Side,18,water,10
+2026-11-12,18,Montclare,North Side,18,trash,4
+2026-11-12,75,Morgan Park,Southwest Side,36,water,21
+2026-11-12,75,Morgan Park,Southwest Side,36,trash,5
+2026-11-12,75,Morgan Park,Southwest Side,36,critters,4
+2026-11-12,75,Morgan Park,Southwest Side,36,streets,4
+2026-11-12,74,Mount Greenwood,Southwest Side,12,water,5
+2026-11-12,8,Near North Side,Downtown,43,trash,14
+2026-11-12,8,Near North Side,Downtown,43,streets,10
+2026-11-12,8,Near North Side,Downtown,43,other,9
+2026-11-12,8,Near North Side,Downtown,43,parking,5
+2026-11-12,33,Near South Side,Downtown,15,trash,5
+2026-11-12,28,Near West Side,West Side,62,streets,26
+2026-11-12,28,Near West Side,West Side,62,trash,19
+2026-11-12,28,Near West Side,West Side,62,critters,7
+2026-11-12,28,Near West Side,West Side,62,housing,4
+2026-11-12,61,New City,Southwest Side,33,trash,10
+2026-11-12,61,New City,Southwest Side,33,water,9
+2026-11-12,61,New City,Southwest Side,33,streets,8
+2026-11-12,61,New City,Southwest Side,33,trees,3
+2026-11-12,5,North Center,North Side,34,trash,8
+2026-11-12,5,North Center,North Side,34,critters,8
+2026-11-12,5,North Center,North Side,34,parking,8
+2026-11-12,5,North Center,North Side,34,water,6
+2026-11-12,5,North Center,North Side,34,streets,3
+2026-11-12,29,North Lawndale,West Side,61,streets,22
+2026-11-12,29,North Lawndale,West Side,61,trash,19
+2026-11-12,29,North Lawndale,West Side,61,water,8
+2026-11-12,29,North Lawndale,West Side,61,critters,4
+2026-11-12,29,North Lawndale,West Side,61,parking,3
+2026-11-12,29,North Lawndale,West Side,61,trees,3
+2026-11-12,13,North Park,North Side,19,water,8
+2026-11-12,13,North Park,North Side,19,critters,5
+2026-11-12,10,Norwood Park,North Side,66,water,24
+2026-11-12,10,Norwood Park,North Side,66,streets,15
+2026-11-12,10,Norwood Park,North Side,66,trash,11
+2026-11-12,10,Norwood Park,North Side,66,critters,8
+2026-11-12,10,Norwood Park,North Side,66,parking,4
+2026-11-12,10,Norwood Park,North Side,66,trees,3
+2026-11-12,76,O'Hare,North Side,10,other,3
+2026-11-12,36,Oakland,South Side,8,housing,4
+2026-11-12,36,Oakland,South Side,8,parking,3
+2026-11-12,15,Portage Park,North Side,73,water,27
+2026-11-12,15,Portage Park,North Side,73,trash,12
+2026-11-12,15,Portage Park,North Side,73,parking,9
+2026-11-12,15,Portage Park,North Side,73,streets,9
+2026-11-12,15,Portage Park,North Side,73,trees,6
+2026-11-12,15,Portage Park,North Side,73,critters,5
+2026-11-12,15,Portage Park,North Side,73,housing,5
+2026-11-12,50,Pullman,South Side,16,streets,6
+2026-11-12,50,Pullman,South Side,16,trash,5
+2026-11-12,50,Pullman,South Side,16,water,4
+2026-11-12,1,Rogers Park,North Side,55,trees,13
+2026-11-12,1,Rogers Park,North Side,55,streets,9
+2026-11-12,1,Rogers Park,North Side,55,trash,8
+2026-11-12,1,Rogers Park,North Side,55,critters,8
+2026-11-12,1,Rogers Park,North Side,55,parking,6
+2026-11-12,1,Rogers Park,North Side,55,housing,6
+2026-11-12,1,Rogers Park,North Side,55,water,5
+2026-11-12,49,Roseland,South Side,62,water,17
+2026-11-12,49,Roseland,South Side,62,housing,13
+2026-11-12,49,Roseland,South Side,62,trash,11
+2026-11-12,49,Roseland,South Side,62,streets,9
+2026-11-12,49,Roseland,South Side,62,critters,7
+2026-11-12,49,Roseland,South Side,62,parking,3
+2026-11-12,46,South Chicago,South Side,37,water,16
+2026-11-12,46,South Chicago,South Side,37,trash,7
+2026-11-12,46,South Chicago,South Side,37,streets,6
+2026-11-12,46,South Chicago,South Side,37,critters,4
+2026-11-12,51,South Deering,South Side,24,trash,9
+2026-11-12,51,South Deering,South Side,24,water,6
+2026-11-12,51,South Deering,South Side,24,streets,4
+2026-11-12,30,South Lawndale,West Side,80,water,24
+2026-11-12,30,South Lawndale,West Side,80,trash,21
+2026-11-12,30,South Lawndale,West Side,80,trees,18
+2026-11-12,30,South Lawndale,West Side,80,critters,8
+2026-11-12,30,South Lawndale,West Side,80,streets,4
+2026-11-12,30,South Lawndale,West Side,80,parking,3
+2026-11-12,43,South Shore,South Side,47,water,12
+2026-11-12,43,South Shore,South Side,47,critters,8
+2026-11-12,43,South Shore,South Side,47,trash,8
+2026-11-12,43,South Shore,South Side,47,parking,7
+2026-11-12,43,South Shore,South Side,47,housing,5
+2026-11-12,43,South Shore,South Side,47,trees,4
+2026-11-12,43,South Shore,South Side,47,streets,3
+2026-11-12,32,The Loop,Downtown,55,trash,30
+2026-11-12,32,The Loop,Downtown,55,streets,17
+2026-11-12,32,The Loop,Downtown,55,other,3
+2026-11-12,3,Uptown,North Side,32,trash,10
+2026-11-12,3,Uptown,North Side,32,trees,6
+2026-11-12,3,Uptown,North Side,32,water,4
+2026-11-12,3,Uptown,North Side,32,housing,3
+2026-11-12,3,Uptown,North Side,32,other,3
+2026-11-12,73,Washington Heights,Southwest Side,25,trash,9
+2026-11-12,73,Washington Heights,Southwest Side,25,water,9
+2026-11-12,73,Washington Heights,Southwest Side,25,parking,3
+2026-11-12,62,West Elsdon,Southwest Side,33,trees,20
+2026-11-12,62,West Elsdon,Southwest Side,33,water,6
+2026-11-12,62,West Elsdon,Southwest Side,33,parking,4
+2026-11-12,67,West Englewood,Southwest Side,57,trash,31
+2026-11-12,67,West Englewood,Southwest Side,57,water,12
+2026-11-12,67,West Englewood,Southwest Side,57,critters,6
+2026-11-12,26,West Garfield Park,West Side,22,trash,9
+2026-11-12,26,West Garfield Park,West Side,22,water,5
+2026-11-12,65,West Lawn,Southwest Side,26,water,11
+2026-11-12,65,West Lawn,Southwest Side,26,trash,8
+2026-11-12,65,West Lawn,Southwest Side,26,streets,3
+2026-11-12,53,West Pullman,South Side,43,water,12
+2026-11-12,53,West Pullman,South Side,43,trash,9
+2026-11-12,53,West Pullman,South Side,43,streets,7
+2026-11-12,53,West Pullman,South Side,43,parking,5
+2026-11-12,53,West Pullman,South Side,43,trees,4
+2026-11-12,53,West Pullman,South Side,43,critters,4
+2026-11-12,2,West Ridge,North Side,87,water,54
+2026-11-12,2,West Ridge,North Side,87,streets,8
+2026-11-12,2,West Ridge,North Side,87,trash,8
+2026-11-12,2,West Ridge,North Side,87,trees,7
+2026-11-12,2,West Ridge,North Side,87,critters,6
+2026-11-12,2,West Ridge,North Side,87,parking,3
+2026-11-12,24,West Town,West Side,99,trash,47
+2026-11-12,24,West Town,West Side,99,streets,17
+2026-11-12,24,West Town,West Side,99,parking,8
+2026-11-12,24,West Town,West Side,99,critters,8
+2026-11-12,24,West Town,West Side,99,water,7
+2026-11-12,24,West Town,West Side,99,housing,5
+2026-11-12,24,West Town,West Side,99,trees,5
+2026-11-12,42,Woodlawn,South Side,20,streets,5
+2026-11-12,42,Woodlawn,South Side,20,water,5
+2026-11-12,42,Woodlawn,South Side,20,trash,3
+2026-11-12,42,Woodlawn,South Side,20,housing,3
+2026-11-13,14,Albany Park,North Side,28,trash,9
+2026-11-13,14,Albany Park,North Side,28,water,6
+2026-11-13,14,Albany Park,North Side,28,parking,4
+2026-11-13,14,Albany Park,North Side,28,trees,4
+2026-11-13,57,Archer Heights,Southwest Side,16,parking,12
+2026-11-13,34,Armour Square,South Side,9,trash,3
+2026-11-13,34,Armour Square,South Side,9,critters,3
+2026-11-13,70,Ashburn,Southwest Side,25,trees,9
+2026-11-13,70,Ashburn,Southwest Side,25,water,8
+2026-11-13,70,Ashburn,Southwest Side,25,parking,3
+2026-11-13,71,Auburn Gresham,Southwest Side,73,trees,22
+2026-11-13,71,Auburn Gresham,Southwest Side,73,trash,21
+2026-11-13,71,Auburn Gresham,Southwest Side,73,streets,10
+2026-11-13,71,Auburn Gresham,Southwest Side,73,water,10
+2026-11-13,71,Auburn Gresham,Southwest Side,73,parking,6
+2026-11-13,71,Auburn Gresham,Southwest Side,73,critters,4
+2026-11-13,25,Austin,West Side,138,water,72
+2026-11-13,25,Austin,West Side,138,trees,20
+2026-11-13,25,Austin,West Side,138,trash,14
+2026-11-13,25,Austin,West Side,138,critters,13
+2026-11-13,25,Austin,West Side,138,streets,9
+2026-11-13,25,Austin,West Side,138,parking,7
+2026-11-13,45,Avalon Park,South Side,12,trees,6
+2026-11-13,21,Avondale,North Side,19,trash,6
+2026-11-13,21,Avondale,North Side,19,critters,4
+2026-11-13,21,Avondale,North Side,19,water,3
+2026-11-13,19,Belmont Cragin,North Side,43,trash,13
+2026-11-13,19,Belmont Cragin,North Side,43,water,12
+2026-11-13,19,Belmont Cragin,North Side,43,parking,6
+2026-11-13,19,Belmont Cragin,North Side,43,trees,5
+2026-11-13,19,Belmont Cragin,North Side,43,streets,3
+2026-11-13,19,Belmont Cragin,North Side,43,critters,3
+2026-11-13,72,Beverly,Southwest Side,15,trees,11
+2026-11-13,60,Bridgeport,South Side,40,trash,8
+2026-11-13,60,Bridgeport,South Side,40,trees,8
+2026-11-13,60,Bridgeport,South Side,40,water,7
+2026-11-13,60,Bridgeport,South Side,40,critters,6
+2026-11-13,60,Bridgeport,South Side,40,streets,5
+2026-11-13,60,Bridgeport,South Side,40,parking,4
+2026-11-13,58,Brighton Park,Southwest Side,42,trash,20
+2026-11-13,58,Brighton Park,Southwest Side,42,parking,7
+2026-11-13,58,Brighton Park,Southwest Side,42,streets,4
+2026-11-13,58,Brighton Park,Southwest Side,42,critters,4
+2026-11-13,48,Calumet Heights,South Side,17,streets,5
+2026-11-13,48,Calumet Heights,South Side,17,trees,3
+2026-11-13,48,Calumet Heights,South Side,17,water,3
+2026-11-13,44,Chatham,South Side,54,water,19
+2026-11-13,44,Chatham,South Side,54,streets,10
+2026-11-13,44,Chatham,South Side,54,trash,10
+2026-11-13,44,Chatham,South Side,54,critters,5
+2026-11-13,44,Chatham,South Side,54,parking,3
+2026-11-13,44,Chatham,South Side,54,housing,3
+2026-11-13,66,Chicago Lawn,Southwest Side,63,streets,17
+2026-11-13,66,Chicago Lawn,Southwest Side,63,trash,13
+2026-11-13,66,Chicago Lawn,Southwest Side,63,water,11
+2026-11-13,66,Chicago Lawn,Southwest Side,63,critters,5
+2026-11-13,66,Chicago Lawn,Southwest Side,63,parking,5
+2026-11-13,66,Chicago Lawn,Southwest Side,63,housing,5
+2026-11-13,66,Chicago Lawn,Southwest Side,63,other,4
+2026-11-13,66,Chicago Lawn,Southwest Side,63,trees,3
+2026-11-13,64,Clearing,Southwest Side,15,critters,7
+2026-11-13,17,Dunning,North Side,20,critters,5
+2026-11-13,17,Dunning,North Side,20,trash,5
+2026-11-13,17,Dunning,North Side,20,parking,4
+2026-11-13,27,East Garfield Park,West Side,50,trees,25
+2026-11-13,27,East Garfield Park,West Side,50,trash,13
+2026-11-13,27,East Garfield Park,West Side,50,streets,5
+2026-11-13,27,East Garfield Park,West Side,50,housing,3
+2026-11-13,52,East Side,South Side,11,trash,5
+2026-11-13,77,Edgewater,North Side,24,trees,8
+2026-11-13,77,Edgewater,North Side,24,trash,5
+2026-11-13,77,Edgewater,North Side,24,parking,3
+2026-11-13,9,Edison Park,North Side,13,streets,5
+2026-11-13,9,Edison Park,North Side,13,trees,4
+2026-11-13,9,Edison Park,North Side,13,parking,3
+2026-11-13,68,Englewood,Southwest Side,29,trash,8
+2026-11-13,68,Englewood,Southwest Side,29,water,8
+2026-11-13,68,Englewood,Southwest Side,29,critters,5
+2026-11-13,68,Englewood,Southwest Side,29,housing,4
+2026-11-13,12,Forest Glen,North Side,29,trash,8
+2026-11-13,12,Forest Glen,North Side,29,trees,6
+2026-11-13,12,Forest Glen,North Side,29,water,4
+2026-11-13,12,Forest Glen,North Side,29,critters,4
+2026-11-13,12,Forest Glen,North Side,29,parking,3
+2026-11-13,12,Forest Glen,North Side,29,streets,3
+2026-11-13,37,Fuller Park,South Side,5,streets,3
+2026-11-13,63,Gage Park,Southwest Side,33,trash,16
+2026-11-13,63,Gage Park,Southwest Side,33,other,7
+2026-11-13,63,Gage Park,Southwest Side,33,water,4
+2026-11-13,63,Gage Park,Southwest Side,33,parking,3
+2026-11-13,56,Garfield Ridge,Southwest Side,28,critters,6
+2026-11-13,56,Garfield Ridge,Southwest Side,28,water,6
+2026-11-13,56,Garfield Ridge,Southwest Side,28,parking,5
+2026-11-13,56,Garfield Ridge,Southwest Side,28,trash,4
+2026-11-13,56,Garfield Ridge,Southwest Side,28,streets,3
+2026-11-13,38,Grand Boulevard,South Side,13,water,4
+2026-11-13,38,Grand Boulevard,South Side,13,trash,4
+2026-11-13,38,Grand Boulevard,South Side,13,critters,4
+2026-11-13,69,Greater Grand Crossing,South Side,30,housing,7
+2026-11-13,69,Greater Grand Crossing,South Side,30,trash,6
+2026-11-13,69,Greater Grand Crossing,South Side,30,critters,6
+2026-11-13,69,Greater Grand Crossing,South Side,30,streets,6
+2026-11-13,69,Greater Grand Crossing,South Side,30,parking,3
+2026-11-13,55,Hegewisch,South Side,6,trash,5
+2026-11-13,20,Hermosa,North Side,13,trash,5
+2026-11-13,23,Humboldt Park,West Side,63,trees,21
+2026-11-13,23,Humboldt Park,West Side,63,trash,14
+2026-11-13,23,Humboldt Park,West Side,63,water,11
+2026-11-13,23,Humboldt Park,West Side,63,critters,7
+2026-11-13,23,Humboldt Park,West Side,63,housing,5
+2026-11-13,23,Humboldt Park,West Side,63,parking,3
+2026-11-13,41,Hyde Park,South Side,15,streets,5
+2026-11-13,41,Hyde Park,South Side,15,trash,3
+2026-11-13,41,Hyde Park,South Side,15,critters,3
+2026-11-13,16,Irving Park,North Side,33,trash,17
+2026-11-13,16,Irving Park,North Side,33,critters,6
+2026-11-13,16,Irving Park,North Side,33,water,5
+2026-11-13,11,Jefferson Park,North Side,19,trees,5
+2026-11-13,11,Jefferson Park,North Side,19,trash,5
+2026-11-13,11,Jefferson Park,North Side,19,parking,3
+2026-11-13,11,Jefferson Park,North Side,19,water,3
+2026-11-13,39,Kenwood,South Side,8,parking,3
+2026-11-13,6,Lake View,North Side,117,trash,72
+2026-11-13,6,Lake View,North Side,117,streets,13
+2026-11-13,6,Lake View,North Side,117,water,11
+2026-11-13,6,Lake View,North Side,117,critters,6
+2026-11-13,6,Lake View,North Side,117,other,6
+2026-11-13,6,Lake View,North Side,117,parking,5
+2026-11-13,7,Lincoln Park,North Side,50,streets,16
+2026-11-13,7,Lincoln Park,North Side,50,trash,16
+2026-11-13,7,Lincoln Park,North Side,50,critters,5
+2026-11-13,7,Lincoln Park,North Side,50,parking,4
+2026-11-13,7,Lincoln Park,North Side,50,water,4
+2026-11-13,7,Lincoln Park,North Side,50,trees,3
+2026-11-13,4,Lincoln Square,North Side,54,trash,20
+2026-11-13,4,Lincoln Square,North Side,54,trees,12
+2026-11-13,4,Lincoln Square,North Side,54,critters,10
+2026-11-13,4,Lincoln Square,North Side,54,streets,7
+2026-11-13,22,Logan Square,North Side,60,trash,19
+2026-11-13,22,Logan Square,North Side,60,streets,17
+2026-11-13,22,Logan Square,North Side,60,critters,5
+2026-11-13,22,Logan Square,North Side,60,trees,5
+2026-11-13,22,Logan Square,North Side,60,water,5
+2026-11-13,22,Logan Square,North Side,60,housing,4
+2026-11-13,22,Logan Square,North Side,60,parking,4
+2026-11-13,31,Lower West Side,West Side,54,trash,19
+2026-11-13,31,Lower West Side,West Side,54,streets,13
+2026-11-13,31,Lower West Side,West Side,54,trees,8
+2026-11-13,31,Lower West Side,West Side,54,parking,5
+2026-11-13,31,Lower West Side,West Side,54,water,4
+2026-11-13,31,Lower West Side,West Side,54,housing,3
+2026-11-13,59,McKinley Park,Southwest Side,21,trash,12
+2026-11-13,59,McKinley Park,Southwest Side,21,water,5
+2026-11-13,18,Montclare,North Side,9,trash,3
+2026-11-13,75,Morgan Park,Southwest Side,35,trash,10
+2026-11-13,75,Morgan Park,Southwest Side,35,water,8
+2026-11-13,75,Morgan Park,Southwest Side,35,streets,6
+2026-11-13,75,Morgan Park,Southwest Side,35,trees,6
+2026-11-13,75,Morgan Park,Southwest Side,35,parking,3
+2026-11-13,74,Mount Greenwood,Southwest Side,22,trees,8
+2026-11-13,74,Mount Greenwood,Southwest Side,22,trash,7
+2026-11-13,74,Mount Greenwood,Southwest Side,22,streets,4
+2026-11-13,8,Near North Side,Downtown,53,streets,23
+2026-11-13,8,Near North Side,Downtown,53,trash,16
+2026-11-13,8,Near North Side,Downtown,53,parking,6
+2026-11-13,8,Near North Side,Downtown,53,water,3
+2026-11-13,8,Near North Side,Downtown,53,housing,3
+2026-11-13,28,Near West Side,West Side,52,streets,20
+2026-11-13,28,Near West Side,West Side,52,trash,19
+2026-11-13,28,Near West Side,West Side,52,parking,4
+2026-11-13,28,Near West Side,West Side,52,trees,3
+2026-11-13,28,Near West Side,West Side,52,water,3
+2026-11-13,61,New City,Southwest Side,29,critters,8
+2026-11-13,61,New City,Southwest Side,29,trash,6
+2026-11-13,61,New City,Southwest Side,29,streets,6
+2026-11-13,61,New City,Southwest Side,29,other,4
+2026-11-13,5,North Center,North Side,75,trash,44
+2026-11-13,5,North Center,North Side,75,trees,16
+2026-11-13,5,North Center,North Side,75,parking,5
+2026-11-13,5,North Center,North Side,75,water,4
+2026-11-13,29,North Lawndale,West Side,54,water,12
+2026-11-13,29,North Lawndale,West Side,54,trees,11
+2026-11-13,29,North Lawndale,West Side,54,critters,9
+2026-11-13,29,North Lawndale,West Side,54,trash,9
+2026-11-13,29,North Lawndale,West Side,54,streets,5
+2026-11-13,29,North Lawndale,West Side,54,housing,3
+2026-11-13,29,North Lawndale,West Side,54,parking,3
+2026-11-13,13,North Park,North Side,9,critters,3
+2026-11-13,10,Norwood Park,North Side,53,streets,15
+2026-11-13,10,Norwood Park,North Side,53,trees,14
+2026-11-13,10,Norwood Park,North Side,53,trash,8
+2026-11-13,10,Norwood Park,North Side,53,critters,6
+2026-11-13,10,Norwood Park,North Side,53,parking,5
+2026-11-13,10,Norwood Park,North Side,53,water,3
+2026-11-13,76,O'Hare,North Side,7,other,3
+2026-11-13,15,Portage Park,North Side,47,trash,18
+2026-11-13,15,Portage Park,North Side,47,streets,8
+2026-11-13,15,Portage Park,North Side,47,trees,7
+2026-11-13,15,Portage Park,North Side,47,water,7
+2026-11-13,15,Portage Park,North Side,47,other,3
+2026-11-13,1,Rogers Park,North Side,31,parking,7
+2026-11-13,1,Rogers Park,North Side,31,trash,7
+2026-11-13,1,Rogers Park,North Side,31,streets,5
+2026-11-13,1,Rogers Park,North Side,31,critters,5
+2026-11-13,1,Rogers Park,North Side,31,housing,4
+2026-11-13,49,Roseland,South Side,51,water,18
+2026-11-13,49,Roseland,South Side,51,streets,9
+2026-11-13,49,Roseland,South Side,51,critters,9
+2026-11-13,49,Roseland,South Side,51,trash,8
+2026-11-13,49,Roseland,South Side,51,trees,3
+2026-11-13,46,South Chicago,South Side,38,water,11
+2026-11-13,46,South Chicago,South Side,38,trash,10
+2026-11-13,46,South Chicago,South Side,38,critters,6
+2026-11-13,46,South Chicago,South Side,38,streets,5
+2026-11-13,51,South Deering,South Side,35,streets,13
+2026-11-13,51,South Deering,South Side,35,trash,7
+2026-11-13,51,South Deering,South Side,35,water,7
+2026-11-13,51,South Deering,South Side,35,parking,4
+2026-11-13,30,South Lawndale,West Side,53,streets,22
+2026-11-13,30,South Lawndale,West Side,53,trash,17
+2026-11-13,30,South Lawndale,West Side,53,parking,8
+2026-11-13,30,South Lawndale,West Side,53,water,5
+2026-11-13,43,South Shore,South Side,39,parking,9
+2026-11-13,43,South Shore,South Side,39,trees,7
+2026-11-13,43,South Shore,South Side,39,water,6
+2026-11-13,43,South Shore,South Side,39,streets,6
+2026-11-13,43,South Shore,South Side,39,trash,5
+2026-11-13,43,South Shore,South Side,39,critters,3
+2026-11-13,32,The Loop,Downtown,22,streets,7
+2026-11-13,32,The Loop,Downtown,22,trash,6
+2026-11-13,32,The Loop,Downtown,22,other,4
+2026-11-13,3,Uptown,North Side,55,water,10
+2026-11-13,3,Uptown,North Side,55,housing,10
+2026-11-13,3,Uptown,North Side,55,parking,9
+2026-11-13,3,Uptown,North Side,55,trash,8
+2026-11-13,3,Uptown,North Side,55,streets,6
+2026-11-13,3,Uptown,North Side,55,trees,6
+2026-11-13,3,Uptown,North Side,55,other,3
+2026-11-13,3,Uptown,North Side,55,critters,3
+2026-11-13,73,Washington Heights,Southwest Side,29,water,10
+2026-11-13,73,Washington Heights,Southwest Side,29,parking,6
+2026-11-13,73,Washington Heights,Southwest Side,29,streets,4
+2026-11-13,73,Washington Heights,Southwest Side,29,trees,3
+2026-11-13,73,Washington Heights,Southwest Side,29,critters,3
+2026-11-13,62,West Elsdon,Southwest Side,12,water,5
+2026-11-13,62,West Elsdon,Southwest Side,12,trash,4
+2026-11-13,67,West Englewood,Southwest Side,51,trash,17
+2026-11-13,67,West Englewood,Southwest Side,51,water,16
+2026-11-13,67,West Englewood,Southwest Side,51,critters,6
+2026-11-13,67,West Englewood,Southwest Side,51,streets,5
+2026-11-13,67,West Englewood,Southwest Side,51,housing,5
+2026-11-13,26,West Garfield Park,West Side,12,trash,4
+2026-11-13,26,West Garfield Park,West Side,12,water,4
+2026-11-13,26,West Garfield Park,West Side,12,parking,3
+2026-11-13,65,West Lawn,Southwest Side,19,trash,8
+2026-11-13,65,West Lawn,Southwest Side,19,parking,3
+2026-11-13,65,West Lawn,Southwest Side,19,water,3
+2026-11-13,65,West Lawn,Southwest Side,19,critters,3
+2026-11-13,53,West Pullman,South Side,22,water,9
+2026-11-13,53,West Pullman,South Side,22,trash,4
+2026-11-13,53,West Pullman,South Side,22,housing,3
+2026-11-13,53,West Pullman,South Side,22,streets,3
+2026-11-13,2,West Ridge,North Side,122,water,65
+2026-11-13,2,West Ridge,North Side,122,trees,29
+2026-11-13,2,West Ridge,North Side,122,streets,9
+2026-11-13,2,West Ridge,North Side,122,critters,8
+2026-11-13,2,West Ridge,North Side,122,trash,6
+2026-11-13,24,West Town,West Side,112,trash,53
+2026-11-13,24,West Town,West Side,112,streets,18
+2026-11-13,24,West Town,West Side,112,trees,15
+2026-11-13,24,West Town,West Side,112,parking,11
+2026-11-13,24,West Town,West Side,112,critters,5
+2026-11-13,24,West Town,West Side,112,other,4
+2026-11-13,24,West Town,West Side,112,housing,3
+2026-11-13,24,West Town,West Side,112,water,3
+2026-11-13,42,Woodlawn,South Side,12,streets,4
+2026-11-13,42,Woodlawn,South Side,12,critters,3
+2026-11-14,14,Albany Park,North Side,20,trash,9
+2026-11-14,14,Albany Park,North Side,20,parking,6
+2026-11-14,70,Ashburn,Southwest Side,16,streets,12
+2026-11-14,71,Auburn Gresham,Southwest Side,22,streets,13
+2026-11-14,71,Auburn Gresham,Southwest Side,22,trash,6
+2026-11-14,25,Austin,West Side,29,critters,11
+2026-11-14,25,Austin,West Side,29,trash,6
+2026-11-14,25,Austin,West Side,29,parking,6
+2026-11-14,25,Austin,West Side,29,streets,4
+2026-11-14,21,Avondale,North Side,16,trash,5
+2026-11-14,21,Avondale,North Side,16,critters,4
+2026-11-14,21,Avondale,North Side,16,parking,3
+2026-11-14,21,Avondale,North Side,16,streets,3
+2026-11-14,19,Belmont Cragin,North Side,23,critters,8
+2026-11-14,19,Belmont Cragin,North Side,23,trash,6
+2026-11-14,19,Belmont Cragin,North Side,23,parking,5
+2026-11-14,72,Beverly,Southwest Side,10,trash,3
+2026-11-14,60,Bridgeport,South Side,18,streets,9
+2026-11-14,60,Bridgeport,South Side,18,trash,4
+2026-11-14,60,Bridgeport,South Side,18,parking,3
+2026-11-14,58,Brighton Park,Southwest Side,16,parking,10
+2026-11-14,58,Brighton Park,Southwest Side,16,trash,4
+2026-11-14,44,Chatham,South Side,15,critters,6
+2026-11-14,44,Chatham,South Side,15,parking,3
+2026-11-14,44,Chatham,South Side,15,trash,3
+2026-11-14,66,Chicago Lawn,Southwest Side,14,trash,5
+2026-11-14,66,Chicago Lawn,Southwest Side,14,critters,3
+2026-11-14,17,Dunning,North Side,20,parking,6
+2026-11-14,17,Dunning,North Side,20,trash,6
+2026-11-14,17,Dunning,North Side,20,streets,5
+2026-11-14,77,Edgewater,North Side,18,trash,5
+2026-11-14,77,Edgewater,North Side,18,parking,4
+2026-11-14,9,Edison Park,North Side,12,streets,9
+2026-11-14,68,Englewood,Southwest Side,13,housing,5
+2026-11-14,68,Englewood,Southwest Side,13,critters,3
+2026-11-14,68,Englewood,Southwest Side,13,parking,3
+2026-11-14,12,Forest Glen,North Side,12,trash,7
+2026-11-14,63,Gage Park,Southwest Side,13,streets,8
+2026-11-14,63,Gage Park,Southwest Side,13,trash,3
+2026-11-14,56,Garfield Ridge,Southwest Side,25,streets,9
+2026-11-14,56,Garfield Ridge,Southwest Side,25,trash,7
+2026-11-14,56,Garfield Ridge,Southwest Side,25,critters,4
+2026-11-14,56,Garfield Ridge,Southwest Side,25,parking,3
+2026-11-14,38,Grand Boulevard,South Side,7,critters,3
+2026-11-14,69,Greater Grand Crossing,South Side,16,trash,5
+2026-11-14,69,Greater Grand Crossing,South Side,16,streets,4
+2026-11-14,69,Greater Grand Crossing,South Side,16,critters,3
+2026-11-14,23,Humboldt Park,West Side,18,parking,6
+2026-11-14,23,Humboldt Park,West Side,18,trash,5
+2026-11-14,23,Humboldt Park,West Side,18,streets,4
+2026-11-14,41,Hyde Park,South Side,11,trees,4
+2026-11-14,41,Hyde Park,South Side,11,housing,3
+2026-11-14,16,Irving Park,North Side,34,trash,17
+2026-11-14,16,Irving Park,North Side,34,streets,8
+2026-11-14,16,Irving Park,North Side,34,critters,3
+2026-11-14,16,Irving Park,North Side,34,parking,3
+2026-11-14,11,Jefferson Park,North Side,12,trash,4
+2026-11-14,11,Jefferson Park,North Side,12,critters,3
+2026-11-14,11,Jefferson Park,North Side,12,trees,3
+2026-11-14,6,Lake View,North Side,33,trash,19
+2026-11-14,6,Lake View,North Side,33,housing,3
+2026-11-14,6,Lake View,North Side,33,critters,3
+2026-11-14,6,Lake View,North Side,33,streets,3
+2026-11-14,7,Lincoln Park,North Side,22,trash,11
+2026-11-14,7,Lincoln Park,North Side,22,streets,3
+2026-11-14,4,Lincoln Square,North Side,22,trash,14
+2026-11-14,22,Logan Square,North Side,43,trash,12
+2026-11-14,22,Logan Square,North Side,43,parking,7
+2026-11-14,22,Logan Square,North Side,43,streets,7
+2026-11-14,22,Logan Square,North Side,43,critters,6
+2026-11-14,22,Logan Square,North Side,43,other,5
+2026-11-14,22,Logan Square,North Side,43,housing,3
+2026-11-14,31,Lower West Side,West Side,16,trash,5
+2026-11-14,31,Lower West Side,West Side,16,parking,5
+2026-11-14,31,Lower West Side,West Side,16,streets,4
+2026-11-14,75,Morgan Park,Southwest Side,17,trash,5
+2026-11-14,75,Morgan Park,Southwest Side,17,trees,4
+2026-11-14,75,Morgan Park,Southwest Side,17,critters,4
+2026-11-14,74,Mount Greenwood,Southwest Side,6,water,3
+2026-11-14,8,Near North Side,Downtown,35,trash,15
+2026-11-14,8,Near North Side,Downtown,35,streets,9
+2026-11-14,8,Near North Side,Downtown,35,other,3
+2026-11-14,8,Near North Side,Downtown,35,water,3
+2026-11-14,33,Near South Side,Downtown,9,housing,5
+2026-11-14,28,Near West Side,West Side,25,streets,11
+2026-11-14,28,Near West Side,West Side,25,trash,4
+2026-11-14,28,Near West Side,West Side,25,other,4
+2026-11-14,61,New City,Southwest Side,22,trash,5
+2026-11-14,61,New City,Southwest Side,22,parking,5
+2026-11-14,61,New City,Southwest Side,22,streets,5
+2026-11-14,61,New City,Southwest Side,22,water,3
+2026-11-14,61,New City,Southwest Side,22,critters,3
+2026-11-14,5,North Center,North Side,13,trash,6
+2026-11-14,5,North Center,North Side,13,parking,3
+2026-11-14,29,North Lawndale,West Side,12,trash,4
+2026-11-14,29,North Lawndale,West Side,12,streets,3
+2026-11-14,13,North Park,North Side,9,trash,3
+2026-11-14,10,Norwood Park,North Side,29,streets,14
+2026-11-14,10,Norwood Park,North Side,29,trash,5
+2026-11-14,10,Norwood Park,North Side,29,critters,3
+2026-11-14,15,Portage Park,North Side,49,critters,25
+2026-11-14,15,Portage Park,North Side,49,parking,13
+2026-11-14,15,Portage Park,North Side,49,trash,6
+2026-11-14,50,Pullman,South Side,5,housing,3
+2026-11-14,54,Riverdale,South Side,3,critters,3
+2026-11-14,1,Rogers Park,North Side,17,critters,6
+2026-11-14,1,Rogers Park,North Side,17,streets,5
+2026-11-14,1,Rogers Park,North Side,17,trash,5
+2026-11-14,49,Roseland,South Side,27,streets,15
+2026-11-14,49,Roseland,South Side,27,critters,6
+2026-11-14,49,Roseland,South Side,27,trash,3
+2026-11-14,46,South Chicago,South Side,16,trash,5
+2026-11-14,46,South Chicago,South Side,16,critters,5
+2026-11-14,46,South Chicago,South Side,16,streets,4
+2026-11-14,51,South Deering,South Side,10,critters,6
+2026-11-14,30,South Lawndale,West Side,32,streets,10
+2026-11-14,30,South Lawndale,West Side,32,trash,9
+2026-11-14,30,South Lawndale,West Side,32,parking,4
+2026-11-14,30,South Lawndale,West Side,32,trees,3
+2026-11-14,30,South Lawndale,West Side,32,critters,3
+2026-11-14,43,South Shore,South Side,18,housing,8
+2026-11-14,43,South Shore,South Side,18,critters,6
+2026-11-14,32,The Loop,Downtown,22,streets,8
+2026-11-14,32,The Loop,Downtown,22,trash,6
+2026-11-14,32,The Loop,Downtown,22,other,3
+2026-11-14,3,Uptown,North Side,18,trash,5
+2026-11-14,3,Uptown,North Side,18,critters,5
+2026-11-14,3,Uptown,North Side,18,housing,4
+2026-11-14,73,Washington Heights,Southwest Side,9,streets,8
+2026-11-14,40,Washington Park,South Side,6,streets,3
+2026-11-14,62,West Elsdon,Southwest Side,3,trash,3
+2026-11-14,67,West Englewood,Southwest Side,15,trash,5
+2026-11-14,67,West Englewood,Southwest Side,15,critters,3
+2026-11-14,53,West Pullman,South Side,6,streets,3
+2026-11-14,53,West Pullman,South Side,6,critters,3
+2026-11-14,2,West Ridge,North Side,15,streets,5
+2026-11-14,2,West Ridge,North Side,15,critters,4
+2026-11-14,24,West Town,West Side,54,trash,22
+2026-11-14,24,West Town,West Side,54,streets,13
+2026-11-14,24,West Town,West Side,54,critters,6
+2026-11-14,24,West Town,West Side,54,parking,4
+2026-11-14,24,West Town,West Side,54,other,3
+2026-11-14,42,Woodlawn,South Side,12,trees,3
+2026-11-15,14,Albany Park,North Side,26,trash,11
+2026-11-15,14,Albany Park,North Side,26,streets,6
+2026-11-15,14,Albany Park,North Side,26,parking,4
+2026-11-15,57,Archer Heights,Southwest Side,9,trash,4
+2026-11-15,57,Archer Heights,Southwest Side,9,critters,3
+2026-11-15,70,Ashburn,Southwest Side,7,parking,3
+2026-11-15,71,Auburn Gresham,Southwest Side,18,critters,7
+2026-11-15,71,Auburn Gresham,Southwest Side,18,streets,5
+2026-11-15,71,Auburn Gresham,Southwest Side,18,parking,3
+2026-11-15,71,Auburn Gresham,Southwest Side,18,trash,3
+2026-11-15,25,Austin,West Side,18,critters,6
+2026-11-15,25,Austin,West Side,18,trash,5
+2026-11-15,25,Austin,West Side,18,parking,4
+2026-11-15,25,Austin,West Side,18,housing,3
+2026-11-15,45,Avalon Park,South Side,3,critters,3
+2026-11-15,21,Avondale,North Side,18,trash,13
+2026-11-15,19,Belmont Cragin,North Side,32,trash,10
+2026-11-15,19,Belmont Cragin,North Side,32,parking,8
+2026-11-15,19,Belmont Cragin,North Side,32,critters,5
+2026-11-15,19,Belmont Cragin,North Side,32,streets,5
+2026-11-15,19,Belmont Cragin,North Side,32,other,3
+2026-11-15,60,Bridgeport,South Side,16,trash,6
+2026-11-15,60,Bridgeport,South Side,16,streets,5
+2026-11-15,58,Brighton Park,Southwest Side,20,trash,10
+2026-11-15,58,Brighton Park,Southwest Side,20,critters,4
+2026-11-15,44,Chatham,South Side,17,critters,5
+2026-11-15,44,Chatham,South Side,17,housing,5
+2026-11-15,66,Chicago Lawn,Southwest Side,15,critters,3
+2026-11-15,66,Chicago Lawn,Southwest Side,15,other,3
+2026-11-15,66,Chicago Lawn,Southwest Side,15,parking,3
+2026-11-15,66,Chicago Lawn,Southwest Side,15,trash,3
+2026-11-15,66,Chicago Lawn,Southwest Side,15,streets,3
+2026-11-15,64,Clearing,Southwest Side,4,critters,3
+2026-11-15,17,Dunning,North Side,20,parking,7
+2026-11-15,17,Dunning,North Side,20,trash,5
+2026-11-15,17,Dunning,North Side,20,critters,4
+2026-11-15,27,East Garfield Park,West Side,9,streets,4
+2026-11-15,27,East Garfield Park,West Side,9,trash,3
+2026-11-15,77,Edgewater,North Side,13,trash,7
+2026-11-15,68,Englewood,Southwest Side,12,streets,4
+2026-11-15,68,Englewood,Southwest Side,12,trash,3
+2026-11-15,68,Englewood,Southwest Side,12,critters,3
+2026-11-15,12,Forest Glen,North Side,14,trash,7
+2026-11-15,63,Gage Park,Southwest Side,15,trash,8
+2026-11-15,63,Gage Park,Southwest Side,15,critters,3
+2026-11-15,63,Gage Park,Southwest Side,15,parking,3
+2026-11-15,56,Garfield Ridge,Southwest Side,13,parking,4
+2026-11-15,56,Garfield Ridge,Southwest Side,13,trash,4
+2026-11-15,56,Garfield Ridge,Southwest Side,13,critters,3
+2026-11-15,69,Greater Grand Crossing,South Side,18,trash,6
+2026-11-15,69,Greater Grand Crossing,South Side,18,critters,5
+2026-11-15,69,Greater Grand Crossing,South Side,18,streets,4
+2026-11-15,69,Greater Grand Crossing,South Side,18,parking,3
+2026-11-15,20,Hermosa,North Side,14,parking,4
+2026-11-15,20,Hermosa,North Side,14,trash,3
+2026-11-15,20,Hermosa,North Side,14,critters,3
+2026-11-15,23,Humboldt Park,West Side,22,trash,13
+2026-11-15,41,Hyde Park,South Side,15,critters,5
+2026-11-15,41,Hyde Park,South Side,15,housing,3
+2026-11-15,16,Irving Park,North Side,35,trash,20
+2026-11-15,16,Irving Park,North Side,35,streets,5
+2026-11-15,16,Irving Park,North Side,35,critters,4
+2026-11-15,16,Irving Park,North Side,35,parking,3
+2026-11-15,11,Jefferson Park,North Side,9,trash,5
+2026-11-15,39,Kenwood,South Side,6,parking,3
+2026-11-15,6,Lake View,North Side,58,trash,25
+2026-11-15,6,Lake View,North Side,58,critters,13
+2026-11-15,6,Lake View,North Side,58,streets,7
+2026-11-15,6,Lake View,North Side,58,parking,4
+2026-11-15,6,Lake View,North Side,58,trees,3
+2026-11-15,6,Lake View,North Side,58,other,3
+2026-11-15,7,Lincoln Park,North Side,46,trash,25
+2026-11-15,7,Lincoln Park,North Side,46,critters,6
+2026-11-15,7,Lincoln Park,North Side,46,streets,5
+2026-11-15,7,Lincoln Park,North Side,46,trees,3
+2026-11-15,7,Lincoln Park,North Side,46,parking,3
+2026-11-15,4,Lincoln Square,North Side,46,trash,17
+2026-11-15,4,Lincoln Square,North Side,46,critters,13
+2026-11-15,4,Lincoln Square,North Side,46,parking,6
+2026-11-15,4,Lincoln Square,North Side,46,streets,6
+2026-11-15,22,Logan Square,North Side,43,trash,26
+2026-11-15,22,Logan Square,North Side,43,critters,6
+2026-11-15,22,Logan Square,North Side,43,parking,3
+2026-11-15,22,Logan Square,North Side,43,streets,3
+2026-11-15,31,Lower West Side,West Side,11,trash,4
+2026-11-15,59,McKinley Park,Southwest Side,21,trash,19
+2026-11-15,75,Morgan Park,Southwest Side,8,streets,5
+2026-11-15,8,Near North Side,Downtown,15,trash,6
+2026-11-15,8,Near North Side,Downtown,15,other,4
+2026-11-15,33,Near South Side,Downtown,7,trash,3
+2026-11-15,28,Near West Side,West Side,31,streets,14
+2026-11-15,28,Near West Side,West Side,31,trash,6
+2026-11-15,28,Near West Side,West Side,31,other,4
+2026-11-15,61,New City,Southwest Side,40,trash,25
+2026-11-15,61,New City,Southwest Side,40,streets,4
+2026-11-15,61,New City,Southwest Side,40,critters,4
+2026-11-15,61,New City,Southwest Side,40,parking,4
+2026-11-15,5,North Center,North Side,36,streets,16
+2026-11-15,5,North Center,North Side,36,trash,9
+2026-11-15,5,North Center,North Side,36,parking,7
+2026-11-15,29,North Lawndale,West Side,13,critters,7
+2026-11-15,13,North Park,North Side,10,trash,4
+2026-11-15,10,Norwood Park,North Side,16,streets,5
+2026-11-15,10,Norwood Park,North Side,16,trash,4
+2026-11-15,10,Norwood Park,North Side,16,critters,3
+2026-11-15,10,Norwood Park,North Side,16,parking,3
+2026-11-15,76,O'Hare,North Side,9,other,5
+2026-11-15,15,Portage Park,North Side,28,trash,12
+2026-11-15,15,Portage Park,North Side,28,parking,8
+2026-11-15,15,Portage Park,North Side,28,critters,6
+2026-11-15,54,Riverdale,South Side,4,critters,3
+2026-11-15,1,Rogers Park,North Side,25,trash,6
+2026-11-15,1,Rogers Park,North Side,25,parking,6
+2026-11-15,1,Rogers Park,North Side,25,critters,5
+2026-11-15,1,Rogers Park,North Side,25,streets,4
+2026-11-15,49,Roseland,South Side,19,streets,5
+2026-11-15,49,Roseland,South Side,19,trees,3
+2026-11-15,49,Roseland,South Side,19,critters,3
+2026-11-15,49,Roseland,South Side,19,parking,3
+2026-11-15,30,South Lawndale,West Side,12,streets,3
+2026-11-15,30,South Lawndale,West Side,12,trash,3
+2026-11-15,30,South Lawndale,West Side,12,parking,3
+2026-11-15,43,South Shore,South Side,11,housing,4
+2026-11-15,43,South Shore,South Side,11,critters,3
+2026-11-15,32,The Loop,Downtown,13,streets,6
+2026-11-15,32,The Loop,Downtown,13,parking,3
+2026-11-15,3,Uptown,North Side,27,trash,19
+2026-11-15,3,Uptown,North Side,27,critters,3
+2026-11-15,73,Washington Heights,Southwest Side,14,trash,4
+2026-11-15,73,Washington Heights,Southwest Side,14,streets,4
+2026-11-15,73,Washington Heights,Southwest Side,14,critters,3
+2026-11-15,73,Washington Heights,Southwest Side,14,parking,3
+2026-11-15,40,Washington Park,South Side,10,streets,5
+2026-11-15,62,West Elsdon,Southwest Side,9,parking,4
+2026-11-15,67,West Englewood,Southwest Side,15,trash,6
+2026-11-15,67,West Englewood,Southwest Side,15,critters,4
+2026-11-15,67,West Englewood,Southwest Side,15,parking,3
+2026-11-15,65,West Lawn,Southwest Side,8,trash,3
+2026-11-15,53,West Pullman,South Side,20,streets,7
+2026-11-15,53,West Pullman,South Side,20,critters,5
+2026-11-15,53,West Pullman,South Side,20,trash,4
+2026-11-15,2,West Ridge,North Side,15,trash,6
+2026-11-15,2,West Ridge,North Side,15,parking,4
+2026-11-15,2,West Ridge,North Side,15,streets,3
+2026-11-15,24,West Town,West Side,47,trash,24
+2026-11-15,24,West Town,West Side,47,parking,9
+2026-11-15,24,West Town,West Side,47,critters,5
+2026-11-15,24,West Town,West Side,47,streets,4
+2026-11-15,24,West Town,West Side,47,housing,3
+2026-11-15,42,Woodlawn,South Side,6,critters,3
+2026-11-16,14,Albany Park,North Side,49,trash,22
+2026-11-16,14,Albany Park,North Side,49,critters,8
+2026-11-16,14,Albany Park,North Side,49,parking,7
+2026-11-16,14,Albany Park,North Side,49,streets,5
+2026-11-16,14,Albany Park,North Side,49,water,4
+2026-11-16,57,Archer Heights,Southwest Side,12,parking,6
+2026-11-16,34,Armour Square,South Side,10,critters,3
+2026-11-16,34,Armour Square,South Side,10,trash,3
+2026-11-16,34,Armour Square,South Side,10,streets,3
+2026-11-16,70,Ashburn,Southwest Side,34,trash,11
+2026-11-16,70,Ashburn,Southwest Side,34,streets,7
+2026-11-16,70,Ashburn,Southwest Side,34,critters,7
+2026-11-16,70,Ashburn,Southwest Side,34,parking,4
+2026-11-16,70,Ashburn,Southwest Side,34,water,3
+2026-11-16,71,Auburn Gresham,Southwest Side,48,trash,22
+2026-11-16,71,Auburn Gresham,Southwest Side,48,critters,9
+2026-11-16,71,Auburn Gresham,Southwest Side,48,parking,4
+2026-11-16,71,Auburn Gresham,Southwest Side,48,trees,4
+2026-11-16,71,Auburn Gresham,Southwest Side,48,water,3
+2026-11-16,71,Auburn Gresham,Southwest Side,48,streets,3
+2026-11-16,25,Austin,West Side,79,trash,32
+2026-11-16,25,Austin,West Side,79,streets,16
+2026-11-16,25,Austin,West Side,79,parking,14
+2026-11-16,25,Austin,West Side,79,critters,10
+2026-11-16,25,Austin,West Side,79,trees,3
+2026-11-16,21,Avondale,North Side,36,trash,18
+2026-11-16,21,Avondale,North Side,36,streets,8
+2026-11-16,21,Avondale,North Side,36,critters,5
+2026-11-16,19,Belmont Cragin,North Side,47,trash,15
+2026-11-16,19,Belmont Cragin,North Side,47,trees,7
+2026-11-16,19,Belmont Cragin,North Side,47,parking,7
+2026-11-16,19,Belmont Cragin,North Side,47,critters,6
+2026-11-16,19,Belmont Cragin,North Side,47,streets,4
+2026-11-16,19,Belmont Cragin,North Side,47,housing,3
+2026-11-16,19,Belmont Cragin,North Side,47,water,3
+2026-11-16,72,Beverly,Southwest Side,27,trash,14
+2026-11-16,72,Beverly,Southwest Side,27,streets,3
+2026-11-16,72,Beverly,Southwest Side,27,trees,3
+2026-11-16,72,Beverly,Southwest Side,27,housing,3
+2026-11-16,60,Bridgeport,South Side,27,trash,13
+2026-11-16,60,Bridgeport,South Side,27,parking,6
+2026-11-16,60,Bridgeport,South Side,27,critters,6
+2026-11-16,58,Brighton Park,Southwest Side,29,trash,10
+2026-11-16,58,Brighton Park,Southwest Side,29,streets,5
+2026-11-16,58,Brighton Park,Southwest Side,29,trees,5
+2026-11-16,58,Brighton Park,Southwest Side,29,other,4
+2026-11-16,58,Brighton Park,Southwest Side,29,parking,3
+2026-11-16,48,Calumet Heights,South Side,18,trash,9
+2026-11-16,48,Calumet Heights,South Side,18,critters,3
+2026-11-16,44,Chatham,South Side,42,trash,13
+2026-11-16,44,Chatham,South Side,42,critters,10
+2026-11-16,44,Chatham,South Side,42,parking,7
+2026-11-16,44,Chatham,South Side,42,streets,5
+2026-11-16,44,Chatham,South Side,42,housing,4
+2026-11-16,66,Chicago Lawn,Southwest Side,50,trash,19
+2026-11-16,66,Chicago Lawn,Southwest Side,50,parking,18
+2026-11-16,66,Chicago Lawn,Southwest Side,50,housing,3
+2026-11-16,66,Chicago Lawn,Southwest Side,50,trees,3
+2026-11-16,66,Chicago Lawn,Southwest Side,50,critters,3
+2026-11-16,64,Clearing,Southwest Side,28,trees,14
+2026-11-16,64,Clearing,Southwest Side,28,streets,6
+2026-11-16,64,Clearing,Southwest Side,28,critters,3
+2026-11-16,17,Dunning,North Side,49,trash,13
+2026-11-16,17,Dunning,North Side,49,critters,11
+2026-11-16,17,Dunning,North Side,49,trees,10
+2026-11-16,17,Dunning,North Side,49,streets,9
+2026-11-16,17,Dunning,North Side,49,water,3
+2026-11-16,27,East Garfield Park,West Side,9,trash,4
+2026-11-16,52,East Side,South Side,18,trash,7
+2026-11-16,52,East Side,South Side,18,streets,7
+2026-11-16,77,Edgewater,North Side,35,streets,11
+2026-11-16,77,Edgewater,North Side,35,trash,10
+2026-11-16,77,Edgewater,North Side,35,critters,7
+2026-11-16,77,Edgewater,North Side,35,parking,3
+2026-11-16,9,Edison Park,North Side,8,trash,5
+2026-11-16,68,Englewood,Southwest Side,31,streets,9
+2026-11-16,68,Englewood,Southwest Side,31,critters,8
+2026-11-16,68,Englewood,Southwest Side,31,trash,5
+2026-11-16,68,Englewood,Southwest Side,31,trees,4
+2026-11-16,68,Englewood,Southwest Side,31,parking,3
+2026-11-16,12,Forest Glen,North Side,17,trash,6
+2026-11-16,12,Forest Glen,North Side,17,critters,5
+2026-11-16,37,Fuller Park,South Side,8,trees,3
+2026-11-16,63,Gage Park,Southwest Side,45,trash,26
+2026-11-16,63,Gage Park,Southwest Side,45,parking,7
+2026-11-16,63,Gage Park,Southwest Side,45,streets,6
+2026-11-16,56,Garfield Ridge,Southwest Side,34,trash,12
+2026-11-16,56,Garfield Ridge,Southwest Side,34,critters,7
+2026-11-16,56,Garfield Ridge,Southwest Side,34,streets,6
+2026-11-16,56,Garfield Ridge,Southwest Side,34,trees,5
+2026-11-16,56,Garfield Ridge,Southwest Side,34,parking,3
+2026-11-16,38,Grand Boulevard,South Side,17,streets,6
+2026-11-16,38,Grand Boulevard,South Side,17,trash,4
+2026-11-16,69,Greater Grand Crossing,South Side,43,trash,15
+2026-11-16,69,Greater Grand Crossing,South Side,43,streets,11
+2026-11-16,69,Greater Grand Crossing,South Side,43,trees,5
+2026-11-16,69,Greater Grand Crossing,South Side,43,housing,4
+2026-11-16,69,Greater Grand Crossing,South Side,43,critters,4
+2026-11-16,55,Hegewisch,South Side,13,parking,5
+2026-11-16,55,Hegewisch,South Side,13,trash,4
+2026-11-16,55,Hegewisch,South Side,13,critters,3
+2026-11-16,20,Hermosa,North Side,24,trees,9
+2026-11-16,20,Hermosa,North Side,24,trash,5
+2026-11-16,20,Hermosa,North Side,24,parking,5
+2026-11-16,23,Humboldt Park,West Side,43,trash,12
+2026-11-16,23,Humboldt Park,West Side,43,streets,12
+2026-11-16,23,Humboldt Park,West Side,43,parking,8
+2026-11-16,23,Humboldt Park,West Side,43,housing,4
+2026-11-16,23,Humboldt Park,West Side,43,critters,3
+2026-11-16,41,Hyde Park,South Side,22,streets,6
+2026-11-16,41,Hyde Park,South Side,22,housing,4
+2026-11-16,41,Hyde Park,South Side,22,parking,4
+2026-11-16,41,Hyde Park,South Side,22,trees,4
+2026-11-16,16,Irving Park,North Side,47,trash,18
+2026-11-16,16,Irving Park,North Side,47,critters,9
+2026-11-16,16,Irving Park,North Side,47,parking,7
+2026-11-16,16,Irving Park,North Side,47,streets,6
+2026-11-16,16,Irving Park,North Side,47,trees,4
+2026-11-16,11,Jefferson Park,North Side,29,trash,15
+2026-11-16,11,Jefferson Park,North Side,29,streets,5
+2026-11-16,11,Jefferson Park,North Side,29,parking,3
+2026-11-16,11,Jefferson Park,North Side,29,trees,3
+2026-11-16,39,Kenwood,South Side,7,critters,7
+2026-11-16,6,Lake View,North Side,78,trash,46
+2026-11-16,6,Lake View,North Side,78,parking,11
+2026-11-16,6,Lake View,North Side,78,critters,9
+2026-11-16,6,Lake View,North Side,78,streets,7
+2026-11-16,7,Lincoln Park,North Side,86,trees,29
+2026-11-16,7,Lincoln Park,North Side,86,trash,25
+2026-11-16,7,Lincoln Park,North Side,86,parking,12
+2026-11-16,7,Lincoln Park,North Side,86,critters,11
+2026-11-16,7,Lincoln Park,North Side,86,streets,7
+2026-11-16,4,Lincoln Square,North Side,36,trash,16
+2026-11-16,4,Lincoln Square,North Side,36,critters,9
+2026-11-16,4,Lincoln Square,North Side,36,streets,6
+2026-11-16,22,Logan Square,North Side,81,trash,42
+2026-11-16,22,Logan Square,North Side,81,streets,14
+2026-11-16,22,Logan Square,North Side,81,housing,7
+2026-11-16,22,Logan Square,North Side,81,parking,6
+2026-11-16,22,Logan Square,North Side,81,critters,5
+2026-11-16,22,Logan Square,North Side,81,trees,4
+2026-11-16,22,Logan Square,North Side,81,water,3
+2026-11-16,31,Lower West Side,West Side,81,trees,43
+2026-11-16,31,Lower West Side,West Side,81,trash,19
+2026-11-16,31,Lower West Side,West Side,81,streets,6
+2026-11-16,31,Lower West Side,West Side,81,critters,4
+2026-11-16,31,Lower West Side,West Side,81,parking,4
+2026-11-16,31,Lower West Side,West Side,81,housing,3
+2026-11-16,59,McKinley Park,Southwest Side,18,trash,11
+2026-11-16,59,McKinley Park,Southwest Side,18,trees,4
+2026-11-16,18,Montclare,North Side,12,trash,8
+2026-11-16,18,Montclare,North Side,12,parking,3
+2026-11-16,75,Morgan Park,Southwest Side,28,trash,13
+2026-11-16,75,Morgan Park,Southwest Side,28,streets,7
+2026-11-16,75,Morgan Park,Southwest Side,28,critters,4
+2026-11-16,75,Morgan Park,Southwest Side,28,trees,3
+2026-11-16,74,Mount Greenwood,Southwest Side,12,trash,3
+2026-11-16,74,Mount Greenwood,Southwest Side,12,streets,3
+2026-11-16,8,Near North Side,Downtown,42,trash,16
+2026-11-16,8,Near North Side,Downtown,42,streets,10
+2026-11-16,8,Near North Side,Downtown,42,other,6
+2026-11-16,8,Near North Side,Downtown,42,parking,3
+2026-11-16,33,Near South Side,Downtown,22,trees,10
+2026-11-16,33,Near South Side,Downtown,22,streets,4
+2026-11-16,33,Near South Side,Downtown,22,critters,3
+2026-11-16,28,Near West Side,West Side,61,streets,34
+2026-11-16,28,Near West Side,West Side,61,trash,12
+2026-11-16,28,Near West Side,West Side,61,other,4
+2026-11-16,28,Near West Side,West Side,61,parking,4
+2026-11-16,61,New City,Southwest Side,59,trash,17
+2026-11-16,61,New City,Southwest Side,59,parking,10
+2026-11-16,61,New City,Southwest Side,59,streets,9
+2026-11-16,61,New City,Southwest Side,59,critters,9
+2026-11-16,61,New City,Southwest Side,59,housing,5
+2026-11-16,61,New City,Southwest Side,59,trees,4
+2026-11-16,61,New City,Southwest Side,59,water,4
+2026-11-16,5,North Center,North Side,49,streets,18
+2026-11-16,5,North Center,North Side,49,trash,17
+2026-11-16,5,North Center,North Side,49,critters,5
+2026-11-16,5,North Center,North Side,49,parking,5
+2026-11-16,29,North Lawndale,West Side,45,trash,22
+2026-11-16,29,North Lawndale,West Side,45,housing,12
+2026-11-16,29,North Lawndale,West Side,45,critters,5
+2026-11-16,13,North Park,North Side,15,trash,6
+2026-11-16,13,North Park,North Side,15,streets,5
+2026-11-16,10,Norwood Park,North Side,46,streets,13
+2026-11-16,10,Norwood Park,North Side,46,parking,8
+2026-11-16,10,Norwood Park,North Side,46,trash,8
+2026-11-16,10,Norwood Park,North Side,46,critters,8
+2026-11-16,10,Norwood Park,North Side,46,trees,5
+2026-11-16,10,Norwood Park,North Side,46,water,4
+2026-11-16,76,O'Hare,North Side,11,other,3
+2026-11-16,76,O'Hare,North Side,11,water,3
+2026-11-16,76,O'Hare,North Side,11,parking,3
+2026-11-16,15,Portage Park,North Side,63,trash,24
+2026-11-16,15,Portage Park,North Side,63,parking,13
+2026-11-16,15,Portage Park,North Side,63,streets,9
+2026-11-16,15,Portage Park,North Side,63,critters,5
+2026-11-16,15,Portage Park,North Side,63,housing,4
+2026-11-16,15,Portage Park,North Side,63,trees,4
+2026-11-16,1,Rogers Park,North Side,56,trash,15
+2026-11-16,1,Rogers Park,North Side,56,trees,11
+2026-11-16,1,Rogers Park,North Side,56,critters,10
+2026-11-16,1,Rogers Park,North Side,56,parking,8
+2026-11-16,1,Rogers Park,North Side,56,streets,8
+2026-11-16,1,Rogers Park,North Side,56,water,3
+2026-11-16,49,Roseland,South Side,31,trash,9
+2026-11-16,49,Roseland,South Side,31,water,7
+2026-11-16,49,Roseland,South Side,31,parking,4
+2026-11-16,49,Roseland,South Side,31,trees,4
+2026-11-16,49,Roseland,South Side,31,streets,3
+2026-11-16,46,South Chicago,South Side,27,trees,10
+2026-11-16,46,South Chicago,South Side,27,trash,4
+2026-11-16,46,South Chicago,South Side,27,water,3
+2026-11-16,46,South Chicago,South Side,27,housing,3
+2026-11-16,51,South Deering,South Side,8,trash,3
+2026-11-16,51,South Deering,South Side,8,critters,3
+2026-11-16,30,South Lawndale,West Side,71,streets,31
+2026-11-16,30,South Lawndale,West Side,71,trash,20
+2026-11-16,30,South Lawndale,West Side,71,critters,7
+2026-11-16,30,South Lawndale,West Side,71,parking,5
+2026-11-16,30,South Lawndale,West Side,71,water,5
+2026-11-16,43,South Shore,South Side,33,trash,10
+2026-11-16,43,South Shore,South Side,33,critters,7
+2026-11-16,43,South Shore,South Side,33,housing,7
+2026-11-16,43,South Shore,South Side,33,streets,5
+2026-11-16,32,The Loop,Downtown,57,streets,30
+2026-11-16,32,The Loop,Downtown,57,trash,12
+2026-11-16,32,The Loop,Downtown,57,other,5
+2026-11-16,32,The Loop,Downtown,57,critters,5
+2026-11-16,3,Uptown,North Side,49,trash,24
+2026-11-16,3,Uptown,North Side,49,parking,6
+2026-11-16,3,Uptown,North Side,49,water,5
+2026-11-16,3,Uptown,North Side,49,streets,5
+2026-11-16,3,Uptown,North Side,49,critters,4
+2026-11-16,3,Uptown,North Side,49,other,3
+2026-11-16,73,Washington Heights,Southwest Side,23,trash,5
+2026-11-16,73,Washington Heights,Southwest Side,23,streets,5
+2026-11-16,73,Washington Heights,Southwest Side,23,critters,4
+2026-11-16,73,Washington Heights,Southwest Side,23,trees,3
+2026-11-16,40,Washington Park,South Side,9,trash,3
+2026-11-16,40,Washington Park,South Side,9,critters,3
+2026-11-16,62,West Elsdon,Southwest Side,20,trash,11
+2026-11-16,62,West Elsdon,Southwest Side,20,streets,3
+2026-11-16,62,West Elsdon,Southwest Side,20,parking,3
+2026-11-16,67,West Englewood,Southwest Side,37,trash,19
+2026-11-16,67,West Englewood,Southwest Side,37,parking,5
+2026-11-16,67,West Englewood,Southwest Side,37,housing,5
+2026-11-16,67,West Englewood,Southwest Side,37,critters,3
+2026-11-16,26,West Garfield Park,West Side,15,housing,3
+2026-11-16,26,West Garfield Park,West Side,15,streets,3
+2026-11-16,26,West Garfield Park,West Side,15,trash,3
+2026-11-16,65,West Lawn,Southwest Side,13,streets,8
+2026-11-16,53,West Pullman,South Side,23,critters,7
+2026-11-16,53,West Pullman,South Side,23,trash,6
+2026-11-16,53,West Pullman,South Side,23,trees,5
+2026-11-16,53,West Pullman,South Side,23,housing,3
+2026-11-16,2,West Ridge,North Side,86,water,43
+2026-11-16,2,West Ridge,North Side,86,streets,11
+2026-11-16,2,West Ridge,North Side,86,trash,11
+2026-11-16,2,West Ridge,North Side,86,parking,8
+2026-11-16,2,West Ridge,North Side,86,critters,8
+2026-11-16,2,West Ridge,North Side,86,trees,3
+2026-11-16,24,West Town,West Side,121,trash,71
+2026-11-16,24,West Town,West Side,121,parking,10
+2026-11-16,24,West Town,West Side,121,streets,8
+2026-11-16,24,West Town,West Side,121,critters,8
+2026-11-16,24,West Town,West Side,121,trees,7
+2026-11-16,24,West Town,West Side,121,housing,6
+2026-11-16,24,West Town,West Side,121,other,6
+2026-11-16,24,West Town,West Side,121,water,5
+2026-11-16,42,Woodlawn,South Side,25,parking,6
+2026-11-16,42,Woodlawn,South Side,25,trash,5
+2026-11-16,42,Woodlawn,South Side,25,housing,4
+2026-11-16,42,Woodlawn,South Side,25,streets,4
+2026-11-16,42,Woodlawn,South Side,25,critters,3
+2026-11-17,14,Albany Park,North Side,44,trees,19
+2026-11-17,14,Albany Park,North Side,44,trash,12
+2026-11-17,14,Albany Park,North Side,44,parking,11
+2026-11-17,57,Archer Heights,Southwest Side,12,trash,4
+2026-11-17,34,Armour Square,South Side,8,parking,3
+2026-11-17,34,Armour Square,South Side,8,trash,3
+2026-11-17,70,Ashburn,Southwest Side,33,streets,8
+2026-11-17,70,Ashburn,Southwest Side,33,parking,6
+2026-11-17,70,Ashburn,Southwest Side,33,trash,6
+2026-11-17,70,Ashburn,Southwest Side,33,critters,3
+2026-11-17,70,Ashburn,Southwest Side,33,housing,3
+2026-11-17,70,Ashburn,Southwest Side,33,water,3
+2026-11-17,70,Ashburn,Southwest Side,33,other,3
+2026-11-17,71,Auburn Gresham,Southwest Side,22,trash,6
+2026-11-17,71,Auburn Gresham,Southwest Side,22,parking,4
+2026-11-17,71,Auburn Gresham,Southwest Side,22,critters,4
+2026-11-17,71,Auburn Gresham,Southwest Side,22,housing,3
+2026-11-17,71,Auburn Gresham,Southwest Side,22,streets,3
+2026-11-17,25,Austin,West Side,86,trash,33
+2026-11-17,25,Austin,West Side,86,parking,15
+2026-11-17,25,Austin,West Side,86,streets,11
+2026-11-17,25,Austin,West Side,86,critters,8
+2026-11-17,25,Austin,West Side,86,trees,7
+2026-11-17,25,Austin,West Side,86,housing,6
+2026-11-17,25,Austin,West Side,86,other,3
+2026-11-17,25,Austin,West Side,86,water,3
+2026-11-17,45,Avalon Park,South Side,10,trash,3
+2026-11-17,21,Avondale,North Side,34,trees,9
+2026-11-17,21,Avondale,North Side,34,streets,8
+2026-11-17,21,Avondale,North Side,34,trash,7
+2026-11-17,21,Avondale,North Side,34,water,3
+2026-11-17,21,Avondale,North Side,34,critters,3
+2026-11-17,19,Belmont Cragin,North Side,72,trash,24
+2026-11-17,19,Belmont Cragin,North Side,72,parking,18
+2026-11-17,19,Belmont Cragin,North Side,72,streets,9
+2026-11-17,19,Belmont Cragin,North Side,72,critters,7
+2026-11-17,19,Belmont Cragin,North Side,72,housing,6
+2026-11-17,19,Belmont Cragin,North Side,72,water,3
+2026-11-17,19,Belmont Cragin,North Side,72,trees,3
+2026-11-17,72,Beverly,Southwest Side,16,streets,7
+2026-11-17,72,Beverly,Southwest Side,16,trees,3
+2026-11-17,72,Beverly,Southwest Side,16,trash,3
+2026-11-17,72,Beverly,Southwest Side,16,water,3
+2026-11-17,60,Bridgeport,South Side,32,trees,15
+2026-11-17,60,Bridgeport,South Side,32,trash,6
+2026-11-17,60,Bridgeport,South Side,32,streets,4
+2026-11-17,60,Bridgeport,South Side,32,critters,4
+2026-11-17,60,Bridgeport,South Side,32,parking,3
+2026-11-17,58,Brighton Park,Southwest Side,34,trash,21
+2026-11-17,58,Brighton Park,Southwest Side,34,streets,6
+2026-11-17,58,Brighton Park,Southwest Side,34,parking,5
+2026-11-17,48,Calumet Heights,South Side,21,streets,8
+2026-11-17,48,Calumet Heights,South Side,21,trash,5
+2026-11-17,48,Calumet Heights,South Side,21,critters,4
+2026-11-17,44,Chatham,South Side,23,trash,7
+2026-11-17,44,Chatham,South Side,23,parking,5
+2026-11-17,44,Chatham,South Side,23,housing,3
+2026-11-17,44,Chatham,South Side,23,streets,3
+2026-11-17,66,Chicago Lawn,Southwest Side,44,parking,14
+2026-11-17,66,Chicago Lawn,Southwest Side,44,trash,12
+2026-11-17,66,Chicago Lawn,Southwest Side,44,trees,8
+2026-11-17,66,Chicago Lawn,Southwest Side,44,critters,3
+2026-11-17,66,Chicago Lawn,Southwest Side,44,streets,3
+2026-11-17,64,Clearing,Southwest Side,19,critters,7
+2026-11-17,64,Clearing,Southwest Side,19,parking,6
+2026-11-17,64,Clearing,Southwest Side,19,trash,4
+2026-11-17,35,Douglas,South Side,7,trash,3
+2026-11-17,17,Dunning,North Side,53,trees,23
+2026-11-17,17,Dunning,North Side,53,trash,14
+2026-11-17,17,Dunning,North Side,53,streets,7
+2026-11-17,17,Dunning,North Side,53,parking,7
+2026-11-17,27,East Garfield Park,West Side,15,trash,8
+2026-11-17,27,East Garfield Park,West Side,15,critters,4
+2026-11-17,52,East Side,South Side,18,streets,9
+2026-11-17,52,East Side,South Side,18,trash,4
+2026-11-17,52,East Side,South Side,18,parking,3
+2026-11-17,77,Edgewater,North Side,34,trash,13
+2026-11-17,77,Edgewater,North Side,34,streets,7
+2026-11-17,77,Edgewater,North Side,34,housing,4
+2026-11-17,77,Edgewater,North Side,34,water,4
+2026-11-17,77,Edgewater,North Side,34,parking,3
+2026-11-17,68,Englewood,Southwest Side,24,trash,12
+2026-11-17,68,Englewood,Southwest Side,24,critters,4
+2026-11-17,68,Englewood,Southwest Side,24,streets,4
+2026-11-17,12,Forest Glen,North Side,32,trash,16
+2026-11-17,12,Forest Glen,North Side,32,parking,6
+2026-11-17,12,Forest Glen,North Side,32,critters,4
+2026-11-17,12,Forest Glen,North Side,32,trees,3
+2026-11-17,63,Gage Park,Southwest Side,20,trash,11
+2026-11-17,63,Gage Park,Southwest Side,20,streets,4
+2026-11-17,56,Garfield Ridge,Southwest Side,29,trash,13
+2026-11-17,56,Garfield Ridge,Southwest Side,29,critters,6
+2026-11-17,56,Garfield Ridge,Southwest Side,29,streets,3
+2026-11-17,56,Garfield Ridge,Southwest Side,29,trees,3
+2026-11-17,38,Grand Boulevard,South Side,14,trash,5
+2026-11-17,38,Grand Boulevard,South Side,14,streets,4
+2026-11-17,69,Greater Grand Crossing,South Side,37,trash,12
+2026-11-17,69,Greater Grand Crossing,South Side,37,trees,9
+2026-11-17,69,Greater Grand Crossing,South Side,37,streets,7
+2026-11-17,69,Greater Grand Crossing,South Side,37,housing,5
+2026-11-17,69,Greater Grand Crossing,South Side,37,parking,3
+2026-11-17,55,Hegewisch,South Side,11,streets,3
+2026-11-17,55,Hegewisch,South Side,11,trash,3
+2026-11-17,20,Hermosa,North Side,23,trash,13
+2026-11-17,20,Hermosa,North Side,23,parking,4
+2026-11-17,20,Hermosa,North Side,23,water,3
+2026-11-17,23,Humboldt Park,West Side,31,trash,11
+2026-11-17,23,Humboldt Park,West Side,31,parking,8
+2026-11-17,23,Humboldt Park,West Side,31,critters,4
+2026-11-17,23,Humboldt Park,West Side,31,streets,4
+2026-11-17,41,Hyde Park,South Side,17,streets,5
+2026-11-17,41,Hyde Park,South Side,17,critters,4
+2026-11-17,41,Hyde Park,South Side,17,trash,3
+2026-11-17,16,Irving Park,North Side,67,trash,22
+2026-11-17,16,Irving Park,North Side,67,trees,19
+2026-11-17,16,Irving Park,North Side,67,streets,13
+2026-11-17,16,Irving Park,North Side,67,parking,7
+2026-11-17,16,Irving Park,North Side,67,critters,3
+2026-11-17,11,Jefferson Park,North Side,26,streets,11
+2026-11-17,11,Jefferson Park,North Side,26,trash,5
+2026-11-17,11,Jefferson Park,North Side,26,trees,5
+2026-11-17,11,Jefferson Park,North Side,26,parking,4
+2026-11-17,39,Kenwood,South Side,8,critters,3
+2026-11-17,6,Lake View,North Side,70,trash,28
+2026-11-17,6,Lake View,North Side,70,streets,11
+2026-11-17,6,Lake View,North Side,70,critters,9
+2026-11-17,6,Lake View,North Side,70,parking,8
+2026-11-17,6,Lake View,North Side,70,other,5
+2026-11-17,6,Lake View,North Side,70,water,3
+2026-11-17,6,Lake View,North Side,70,trees,3
+2026-11-17,6,Lake View,North Side,70,housing,3
+2026-11-17,7,Lincoln Park,North Side,53,trees,23
+2026-11-17,7,Lincoln Park,North Side,53,trash,10
+2026-11-17,7,Lincoln Park,North Side,53,critters,10
+2026-11-17,7,Lincoln Park,North Side,53,streets,5
+2026-11-17,4,Lincoln Square,North Side,55,trees,21
+2026-11-17,4,Lincoln Square,North Side,55,trash,17
+2026-11-17,4,Lincoln Square,North Side,55,critters,4
+2026-11-17,4,Lincoln Square,North Side,55,parking,4
+2026-11-17,4,Lincoln Square,North Side,55,water,4
+2026-11-17,4,Lincoln Square,North Side,55,streets,3
+2026-11-17,22,Logan Square,North Side,74,trash,26
+2026-11-17,22,Logan Square,North Side,74,streets,21
+2026-11-17,22,Logan Square,North Side,74,parking,11
+2026-11-17,22,Logan Square,North Side,74,critters,10
+2026-11-17,31,Lower West Side,West Side,34,trash,12
+2026-11-17,31,Lower West Side,West Side,34,parking,9
+2026-11-17,31,Lower West Side,West Side,34,streets,9
+2026-11-17,59,McKinley Park,Southwest Side,13,trash,10
+2026-11-17,18,Montclare,North Side,30,streets,27
+2026-11-17,18,Montclare,North Side,30,trash,3
+2026-11-17,75,Morgan Park,Southwest Side,30,trash,6
+2026-11-17,75,Morgan Park,Southwest Side,30,housing,6
+2026-11-17,75,Morgan Park,Southwest Side,30,trees,6
+2026-11-17,75,Morgan Park,Southwest Side,30,streets,5
+2026-11-17,75,Morgan Park,Southwest Side,30,critters,4
+2026-11-17,74,Mount Greenwood,Southwest Side,12,trash,5
+2026-11-17,74,Mount Greenwood,Southwest Side,12,critters,3
+2026-11-17,8,Near North Side,Downtown,55,streets,19
+2026-11-17,8,Near North Side,Downtown,55,trash,16
+2026-11-17,8,Near North Side,Downtown,55,other,9
+2026-11-17,8,Near North Side,Downtown,55,parking,5
+2026-11-17,8,Near North Side,Downtown,55,critters,4
+2026-11-17,33,Near South Side,Downtown,20,streets,7
+2026-11-17,33,Near South Side,Downtown,20,critters,3
+2026-11-17,33,Near South Side,Downtown,20,trash,3
+2026-11-17,33,Near South Side,Downtown,20,other,3
+2026-11-17,28,Near West Side,West Side,79,streets,33
+2026-11-17,28,Near West Side,West Side,79,trash,20
+2026-11-17,28,Near West Side,West Side,79,parking,7
+2026-11-17,28,Near West Side,West Side,79,other,6
+2026-11-17,28,Near West Side,West Side,79,critters,4
+2026-11-17,28,Near West Side,West Side,79,water,4
+2026-11-17,28,Near West Side,West Side,79,housing,3
+2026-11-17,61,New City,Southwest Side,41,trees,18
+2026-11-17,61,New City,Southwest Side,41,trash,9
+2026-11-17,61,New City,Southwest Side,41,critters,6
+2026-11-17,61,New City,Southwest Side,41,streets,5
+2026-11-17,5,North Center,North Side,60,streets,33
+2026-11-17,5,North Center,North Side,60,trash,10
+2026-11-17,5,North Center,North Side,60,critters,5
+2026-11-17,5,North Center,North Side,60,parking,4
+2026-11-17,5,North Center,North Side,60,trees,3
+2026-11-17,29,North Lawndale,West Side,15,streets,4
+2026-11-17,29,North Lawndale,West Side,15,critters,3
+2026-11-17,29,North Lawndale,West Side,15,trash,3
+2026-11-17,13,North Park,North Side,5,streets,3
+2026-11-17,10,Norwood Park,North Side,44,parking,10
+2026-11-17,10,Norwood Park,North Side,44,critters,9
+2026-11-17,10,Norwood Park,North Side,44,trash,9
+2026-11-17,10,Norwood Park,North Side,44,streets,7
+2026-11-17,10,Norwood Park,North Side,44,trees,5
+2026-11-17,10,Norwood Park,North Side,44,water,4
+2026-11-17,76,O'Hare,North Side,11,parking,5
+2026-11-17,76,O'Hare,North Side,11,other,3
+2026-11-17,15,Portage Park,North Side,60,trash,23
+2026-11-17,15,Portage Park,North Side,60,parking,18
+2026-11-17,15,Portage Park,North Side,60,streets,8
+2026-11-17,15,Portage Park,North Side,60,critters,8
+2026-11-17,1,Rogers Park,North Side,33,trash,17
+2026-11-17,1,Rogers Park,North Side,33,critters,9
+2026-11-17,1,Rogers Park,North Side,33,parking,5
+2026-11-17,49,Roseland,South Side,35,trash,10
+2026-11-17,49,Roseland,South Side,35,parking,8
+2026-11-17,49,Roseland,South Side,35,streets,6
+2026-11-17,49,Roseland,South Side,35,water,3
+2026-11-17,49,Roseland,South Side,35,housing,3
+2026-11-17,49,Roseland,South Side,35,critters,3
+2026-11-17,46,South Chicago,South Side,25,streets,11
+2026-11-17,46,South Chicago,South Side,25,housing,4
+2026-11-17,46,South Chicago,South Side,25,parking,3
+2026-11-17,46,South Chicago,South Side,25,trees,3
+2026-11-17,46,South Chicago,South Side,25,trash,3
+2026-11-17,51,South Deering,South Side,17,trash,6
+2026-11-17,51,South Deering,South Side,17,critters,5
+2026-11-17,51,South Deering,South Side,17,streets,4
+2026-11-17,30,South Lawndale,West Side,59,trash,33
+2026-11-17,30,South Lawndale,West Side,59,critters,10
+2026-11-17,30,South Lawndale,West Side,59,streets,9
+2026-11-17,30,South Lawndale,West Side,59,housing,3
+2026-11-17,30,South Lawndale,West Side,59,parking,3
+2026-11-17,43,South Shore,South Side,45,trees,10
+2026-11-17,43,South Shore,South Side,45,streets,10
+2026-11-17,43,South Shore,South Side,45,housing,8
+2026-11-17,43,South Shore,South Side,45,trash,7
+2026-11-17,43,South Shore,South Side,45,critters,6
+2026-11-17,32,The Loop,Downtown,66,trash,28
+2026-11-17,32,The Loop,Downtown,66,streets,18
+2026-11-17,32,The Loop,Downtown,66,other,9
+2026-11-17,32,The Loop,Downtown,66,parking,4
+2026-11-17,32,The Loop,Downtown,66,housing,3
+2026-11-17,32,The Loop,Downtown,66,critters,3
+2026-11-17,3,Uptown,North Side,33,trash,12
+2026-11-17,3,Uptown,North Side,33,critters,6
+2026-11-17,3,Uptown,North Side,33,parking,5
+2026-11-17,3,Uptown,North Side,33,streets,5
+2026-11-17,73,Washington Heights,Southwest Side,26,trash,9
+2026-11-17,73,Washington Heights,Southwest Side,26,critters,4
+2026-11-17,73,Washington Heights,Southwest Side,26,streets,4
+2026-11-17,73,Washington Heights,Southwest Side,26,water,3
+2026-11-17,40,Washington Park,South Side,8,housing,3
+2026-11-17,62,West Elsdon,Southwest Side,12,trash,5
+2026-11-17,62,West Elsdon,Southwest Side,12,streets,3
+2026-11-17,67,West Englewood,Southwest Side,35,trash,11
+2026-11-17,67,West Englewood,Southwest Side,35,parking,6
+2026-11-17,67,West Englewood,Southwest Side,35,streets,6
+2026-11-17,67,West Englewood,Southwest Side,35,critters,6
+2026-11-17,67,West Englewood,Southwest Side,35,housing,3
+2026-11-17,67,West Englewood,Southwest Side,35,water,3
+2026-11-17,26,West Garfield Park,West Side,41,trash,21
+2026-11-17,26,West Garfield Park,West Side,41,parking,9
+2026-11-17,26,West Garfield Park,West Side,41,streets,4
+2026-11-17,26,West Garfield Park,West Side,41,critters,3
+2026-11-17,65,West Lawn,Southwest Side,26,streets,10
+2026-11-17,65,West Lawn,Southwest Side,26,trash,7
+2026-11-17,65,West Lawn,Southwest Side,26,parking,4
+2026-11-17,65,West Lawn,Southwest Side,26,water,3
+2026-11-17,53,West Pullman,South Side,28,trash,13
+2026-11-17,53,West Pullman,South Side,28,critters,6
+2026-11-17,53,West Pullman,South Side,28,trees,4
+2026-11-17,2,West Ridge,North Side,85,water,30
+2026-11-17,2,West Ridge,North Side,85,streets,20
+2026-11-17,2,West Ridge,North Side,85,critters,9
+2026-11-17,2,West Ridge,North Side,85,trees,7
+2026-11-17,2,West Ridge,North Side,85,parking,6
+2026-11-17,2,West Ridge,North Side,85,trash,6
+2026-11-17,2,West Ridge,North Side,85,housing,5
+2026-11-17,24,West Town,West Side,72,trash,28
+2026-11-17,24,West Town,West Side,72,streets,24
+2026-11-17,24,West Town,West Side,72,critters,8
+2026-11-17,24,West Town,West Side,72,parking,6
+2026-11-17,24,West Town,West Side,72,housing,4
+2026-11-17,42,Woodlawn,South Side,9,parking,3
+2026-11-18,14,Albany Park,North Side,29,trash,11
+2026-11-18,14,Albany Park,North Side,29,critters,4
+2026-11-18,14,Albany Park,North Side,29,water,4
+2026-11-18,14,Albany Park,North Side,29,parking,4
+2026-11-18,14,Albany Park,North Side,29,streets,3
+2026-11-18,57,Archer Heights,Southwest Side,12,streets,5
+2026-11-18,34,Armour Square,South Side,17,trash,6
+2026-11-18,34,Armour Square,South Side,17,streets,4
+2026-11-18,34,Armour Square,South Side,17,critters,3
+2026-11-18,70,Ashburn,Southwest Side,37,trash,11
+2026-11-18,70,Ashburn,Southwest Side,37,streets,8
+2026-11-18,70,Ashburn,Southwest Side,37,water,7
+2026-11-18,70,Ashburn,Southwest Side,37,critters,6
+2026-11-18,70,Ashburn,Southwest Side,37,trees,4
+2026-11-18,71,Auburn Gresham,Southwest Side,44,trash,16
+2026-11-18,71,Auburn Gresham,Southwest Side,44,critters,10
+2026-11-18,71,Auburn Gresham,Southwest Side,44,streets,7
+2026-11-18,71,Auburn Gresham,Southwest Side,44,parking,4
+2026-11-18,71,Auburn Gresham,Southwest Side,44,water,3
+2026-11-18,25,Austin,West Side,92,trash,33
+2026-11-18,25,Austin,West Side,92,streets,21
+2026-11-18,25,Austin,West Side,92,trees,14
+2026-11-18,25,Austin,West Side,92,parking,9
+2026-11-18,25,Austin,West Side,92,critters,8
+2026-11-18,25,Austin,West Side,92,water,3
+2026-11-18,45,Avalon Park,South Side,15,trees,7
+2026-11-18,45,Avalon Park,South Side,15,trash,3
+2026-11-18,21,Avondale,North Side,34,trash,14
+2026-11-18,21,Avondale,North Side,34,parking,6
+2026-11-18,21,Avondale,North Side,34,critters,5
+2026-11-18,21,Avondale,North Side,34,streets,4
+2026-11-18,21,Avondale,North Side,34,housing,4
+2026-11-18,19,Belmont Cragin,North Side,71,trees,27
+2026-11-18,19,Belmont Cragin,North Side,71,trash,13
+2026-11-18,19,Belmont Cragin,North Side,71,parking,12
+2026-11-18,19,Belmont Cragin,North Side,71,streets,7
+2026-11-18,19,Belmont Cragin,North Side,71,critters,5
+2026-11-18,19,Belmont Cragin,North Side,71,other,3
+2026-11-18,72,Beverly,Southwest Side,25,streets,7
+2026-11-18,72,Beverly,Southwest Side,25,water,5
+2026-11-18,72,Beverly,Southwest Side,25,trees,4
+2026-11-18,72,Beverly,Southwest Side,25,critters,4
+2026-11-18,72,Beverly,Southwest Side,25,trash,3
+2026-11-18,60,Bridgeport,South Side,47,trees,17
+2026-11-18,60,Bridgeport,South Side,47,trash,16
+2026-11-18,60,Bridgeport,South Side,47,streets,4
+2026-11-18,60,Bridgeport,South Side,47,parking,4
+2026-11-18,60,Bridgeport,South Side,47,critters,4
+2026-11-18,58,Brighton Park,Southwest Side,41,trash,20
+2026-11-18,58,Brighton Park,Southwest Side,41,streets,10
+2026-11-18,58,Brighton Park,Southwest Side,41,housing,3
+2026-11-18,58,Brighton Park,Southwest Side,41,critters,3
+2026-11-18,48,Calumet Heights,South Side,23,trees,12
+2026-11-18,48,Calumet Heights,South Side,23,streets,5
+2026-11-18,48,Calumet Heights,South Side,23,trash,5
+2026-11-18,44,Chatham,South Side,33,trash,9
+2026-11-18,44,Chatham,South Side,33,parking,8
+2026-11-18,44,Chatham,South Side,33,critters,7
+2026-11-18,44,Chatham,South Side,33,trees,5
+2026-11-18,66,Chicago Lawn,Southwest Side,43,trash,12
+2026-11-18,66,Chicago Lawn,Southwest Side,43,parking,8
+2026-11-18,66,Chicago Lawn,Southwest Side,43,critters,7
+2026-11-18,66,Chicago Lawn,Southwest Side,43,trees,5
+2026-11-18,66,Chicago Lawn,Southwest Side,43,streets,5
+2026-11-18,66,Chicago Lawn,Southwest Side,43,water,3
+2026-11-18,64,Clearing,Southwest Side,22,critters,10
+2026-11-18,64,Clearing,Southwest Side,22,water,5
+2026-11-18,64,Clearing,Southwest Side,22,streets,4
+2026-11-18,17,Dunning,North Side,36,trees,16
+2026-11-18,17,Dunning,North Side,36,streets,6
+2026-11-18,17,Dunning,North Side,36,critters,5
+2026-11-18,17,Dunning,North Side,36,parking,5
+2026-11-18,27,East Garfield Park,West Side,25,trash,10
+2026-11-18,27,East Garfield Park,West Side,25,streets,9
+2026-11-18,27,East Garfield Park,West Side,25,critters,3
+2026-11-18,52,East Side,South Side,12,streets,5
+2026-11-18,52,East Side,South Side,12,trash,4
+2026-11-18,77,Edgewater,North Side,25,parking,9
+2026-11-18,77,Edgewater,North Side,25,trash,8
+2026-11-18,77,Edgewater,North Side,25,streets,5
+2026-11-18,77,Edgewater,North Side,25,water,3
+2026-11-18,68,Englewood,Southwest Side,28,trash,16
+2026-11-18,68,Englewood,Southwest Side,28,trees,5
+2026-11-18,68,Englewood,Southwest Side,28,streets,3
+2026-11-18,12,Forest Glen,North Side,13,trash,9
+2026-11-18,12,Forest Glen,North Side,13,trees,3
+2026-11-18,63,Gage Park,Southwest Side,38,trash,26
+2026-11-18,63,Gage Park,Southwest Side,38,critters,3
+2026-11-18,63,Gage Park,Southwest Side,38,housing,3
+2026-11-18,63,Gage Park,Southwest Side,38,streets,3
+2026-11-18,56,Garfield Ridge,Southwest Side,38,trash,12
+2026-11-18,56,Garfield Ridge,Southwest Side,38,critters,8
+2026-11-18,56,Garfield Ridge,Southwest Side,38,parking,7
+2026-11-18,56,Garfield Ridge,Southwest Side,38,streets,5
+2026-11-18,56,Garfield Ridge,Southwest Side,38,water,4
+2026-11-18,38,Grand Boulevard,South Side,16,critters,4
+2026-11-18,38,Grand Boulevard,South Side,16,trash,4
+2026-11-18,38,Grand Boulevard,South Side,16,housing,4
+2026-11-18,38,Grand Boulevard,South Side,16,streets,3
+2026-11-18,69,Greater Grand Crossing,South Side,28,trash,7
+2026-11-18,69,Greater Grand Crossing,South Side,28,housing,6
+2026-11-18,69,Greater Grand Crossing,South Side,28,critters,5
+2026-11-18,69,Greater Grand Crossing,South Side,28,streets,4
+2026-11-18,23,Humboldt Park,West Side,57,trash,17
+2026-11-18,23,Humboldt Park,West Side,57,parking,10
+2026-11-18,23,Humboldt Park,West Side,57,critters,8
+2026-11-18,23,Humboldt Park,West Side,57,streets,8
+2026-11-18,23,Humboldt Park,West Side,57,trees,8
+2026-11-18,23,Humboldt Park,West Side,57,water,4
+2026-11-18,41,Hyde Park,South Side,13,trees,8
+2026-11-18,16,Irving Park,North Side,62,trash,25
+2026-11-18,16,Irving Park,North Side,62,streets,13
+2026-11-18,16,Irving Park,North Side,62,critters,9
+2026-11-18,16,Irving Park,North Side,62,parking,9
+2026-11-18,16,Irving Park,North Side,62,water,4
+2026-11-18,11,Jefferson Park,North Side,28,parking,8
+2026-11-18,11,Jefferson Park,North Side,28,streets,8
+2026-11-18,11,Jefferson Park,North Side,28,trash,7
+2026-11-18,39,Kenwood,South Side,21,trees,16
+2026-11-18,39,Kenwood,South Side,21,parking,3
+2026-11-18,6,Lake View,North Side,92,trash,25
+2026-11-18,6,Lake View,North Side,92,trees,25
+2026-11-18,6,Lake View,North Side,92,streets,22
+2026-11-18,6,Lake View,North Side,92,parking,6
+2026-11-18,6,Lake View,North Side,92,critters,5
+2026-11-18,6,Lake View,North Side,92,water,5
+2026-11-18,6,Lake View,North Side,92,housing,4
+2026-11-18,7,Lincoln Park,North Side,57,trash,25
+2026-11-18,7,Lincoln Park,North Side,57,streets,11
+2026-11-18,7,Lincoln Park,North Side,57,parking,9
+2026-11-18,7,Lincoln Park,North Side,57,critters,5
+2026-11-18,7,Lincoln Park,North Side,57,trees,4
+2026-11-18,4,Lincoln Square,North Side,36,trash,20
+2026-11-18,4,Lincoln Square,North Side,36,streets,7
+2026-11-18,22,Logan Square,North Side,64,trash,36
+2026-11-18,22,Logan Square,North Side,64,critters,9
+2026-11-18,22,Logan Square,North Side,64,parking,6
+2026-11-18,22,Logan Square,North Side,64,water,6
+2026-11-18,22,Logan Square,North Side,64,streets,3
+2026-11-18,31,Lower West Side,West Side,69,trash,32
+2026-11-18,31,Lower West Side,West Side,69,critters,15
+2026-11-18,31,Lower West Side,West Side,69,streets,8
+2026-11-18,31,Lower West Side,West Side,69,parking,8
+2026-11-18,31,Lower West Side,West Side,69,trees,4
+2026-11-18,59,McKinley Park,Southwest Side,13,trash,6
+2026-11-18,59,McKinley Park,Southwest Side,13,critters,5
+2026-11-18,75,Morgan Park,Southwest Side,21,streets,11
+2026-11-18,75,Morgan Park,Southwest Side,21,trees,5
+2026-11-18,74,Mount Greenwood,Southwest Side,14,parking,3
+2026-11-18,74,Mount Greenwood,Southwest Side,14,critters,3
+2026-11-18,74,Mount Greenwood,Southwest Side,14,trees,3
+2026-11-18,74,Mount Greenwood,Southwest Side,14,streets,3
+2026-11-18,8,Near North Side,Downtown,39,streets,12
+2026-11-18,8,Near North Side,Downtown,39,trash,11
+2026-11-18,8,Near North Side,Downtown,39,other,7
+2026-11-18,8,Near North Side,Downtown,39,water,4
+2026-11-18,8,Near North Side,Downtown,39,parking,3
+2026-11-18,33,Near South Side,Downtown,9,housing,4
+2026-11-18,33,Near South Side,Downtown,9,trash,3
+2026-11-18,28,Near West Side,West Side,58,trash,27
+2026-11-18,28,Near West Side,West Side,58,streets,13
+2026-11-18,28,Near West Side,West Side,58,parking,6
+2026-11-18,28,Near West Side,West Side,58,trees,6
+2026-11-18,28,Near West Side,West Side,58,housing,5
+2026-11-18,61,New City,Southwest Side,58,trees,20
+2026-11-18,61,New City,Southwest Side,58,trash,14
+2026-11-18,61,New City,Southwest Side,58,streets,9
+2026-11-18,61,New City,Southwest Side,58,critters,5
+2026-11-18,61,New City,Southwest Side,58,water,3
+2026-11-18,61,New City,Southwest Side,58,parking,3
+2026-11-18,5,North Center,North Side,36,trash,25
+2026-11-18,5,North Center,North Side,36,critters,4
+2026-11-18,5,North Center,North Side,36,streets,3
+2026-11-18,29,North Lawndale,West Side,33,streets,13
+2026-11-18,29,North Lawndale,West Side,33,trash,8
+2026-11-18,29,North Lawndale,West Side,33,trees,3
+2026-11-18,29,North Lawndale,West Side,33,parking,3
+2026-11-18,10,Norwood Park,North Side,30,critters,10
+2026-11-18,10,Norwood Park,North Side,30,trash,6
+2026-11-18,10,Norwood Park,North Side,30,water,4
+2026-11-18,10,Norwood Park,North Side,30,streets,4
+2026-11-18,10,Norwood Park,North Side,30,trees,3
+2026-11-18,76,O'Hare,North Side,22,streets,18
+2026-11-18,36,Oakland,South Side,8,parking,3
+2026-11-18,15,Portage Park,North Side,70,trash,27
+2026-11-18,15,Portage Park,North Side,70,parking,20
+2026-11-18,15,Portage Park,North Side,70,critters,12
+2026-11-18,15,Portage Park,North Side,70,streets,8
+2026-11-18,54,Riverdale,South Side,6,critters,3
+2026-11-18,1,Rogers Park,North Side,32,trash,22
+2026-11-18,1,Rogers Park,North Side,32,parking,5
+2026-11-18,49,Roseland,South Side,40,streets,12
+2026-11-18,49,Roseland,South Side,40,trash,11
+2026-11-18,49,Roseland,South Side,40,trees,8
+2026-11-18,49,Roseland,South Side,40,critters,4
+2026-11-18,49,Roseland,South Side,40,parking,3
+2026-11-18,46,South Chicago,South Side,22,trash,7
+2026-11-18,46,South Chicago,South Side,22,parking,4
+2026-11-18,46,South Chicago,South Side,22,trees,3
+2026-11-18,46,South Chicago,South Side,22,critters,3
+2026-11-18,46,South Chicago,South Side,22,water,3
+2026-11-18,51,South Deering,South Side,39,trees,26
+2026-11-18,51,South Deering,South Side,39,streets,5
+2026-11-18,51,South Deering,South Side,39,critters,4
+2026-11-18,51,South Deering,South Side,39,trash,4
+2026-11-18,30,South Lawndale,West Side,47,trash,24
+2026-11-18,30,South Lawndale,West Side,47,streets,8
+2026-11-18,30,South Lawndale,West Side,47,critters,5
+2026-11-18,30,South Lawndale,West Side,47,other,3
+2026-11-18,30,South Lawndale,West Side,47,parking,3
+2026-11-18,30,South Lawndale,West Side,47,trees,3
+2026-11-18,43,South Shore,South Side,32,trash,7
+2026-11-18,43,South Shore,South Side,32,streets,6
+2026-11-18,43,South Shore,South Side,32,trees,5
+2026-11-18,43,South Shore,South Side,32,critters,5
+2026-11-18,43,South Shore,South Side,32,parking,4
+2026-11-18,43,South Shore,South Side,32,housing,4
+2026-11-18,32,The Loop,Downtown,34,streets,14
+2026-11-18,32,The Loop,Downtown,34,trash,13
+2026-11-18,3,Uptown,North Side,54,trees,26
+2026-11-18,3,Uptown,North Side,54,trash,13
+2026-11-18,3,Uptown,North Side,54,streets,4
+2026-11-18,3,Uptown,North Side,54,critters,4
+2026-11-18,3,Uptown,North Side,54,parking,3
+2026-11-18,73,Washington Heights,Southwest Side,23,critters,6
+2026-11-18,73,Washington Heights,Southwest Side,23,streets,6
+2026-11-18,73,Washington Heights,Southwest Side,23,parking,4
+2026-11-18,73,Washington Heights,Southwest Side,23,trash,4
+2026-11-18,40,Washington Park,South Side,9,trash,3
+2026-11-18,62,West Elsdon,Southwest Side,11,streets,4
+2026-11-18,62,West Elsdon,Southwest Side,11,parking,4
+2026-11-18,67,West Englewood,Southwest Side,54,trees,26
+2026-11-18,67,West Englewood,Southwest Side,54,trash,10
+2026-11-18,67,West Englewood,Southwest Side,54,critters,5
+2026-11-18,67,West Englewood,Southwest Side,54,housing,5
+2026-11-18,67,West Englewood,Southwest Side,54,water,4
+2026-11-18,67,West Englewood,Southwest Side,54,parking,3
+2026-11-18,26,West Garfield Park,West Side,17,trash,7
+2026-11-18,26,West Garfield Park,West Side,17,housing,5
+2026-11-18,26,West Garfield Park,West Side,17,parking,3
+2026-11-18,65,West Lawn,Southwest Side,14,streets,6
+2026-11-18,65,West Lawn,Southwest Side,14,trash,5
+2026-11-18,53,West Pullman,South Side,48,trees,18
+2026-11-18,53,West Pullman,South Side,48,trash,12
+2026-11-18,53,West Pullman,South Side,48,streets,7
+2026-11-18,53,West Pullman,South Side,48,critters,4
+2026-11-18,53,West Pullman,South Side,48,parking,3
+2026-11-18,2,West Ridge,North Side,92,water,44
+2026-11-18,2,West Ridge,North Side,92,trash,15
+2026-11-18,2,West Ridge,North Side,92,critters,10
+2026-11-18,2,West Ridge,North Side,92,housing,8
+2026-11-18,2,West Ridge,North Side,92,parking,6
+2026-11-18,2,West Ridge,North Side,92,streets,5
+2026-11-18,2,West Ridge,North Side,92,trees,3
+2026-11-18,24,West Town,West Side,121,trash,82
+2026-11-18,24,West Town,West Side,121,critters,12
+2026-11-18,24,West Town,West Side,121,streets,9
+2026-11-18,24,West Town,West Side,121,parking,7
+2026-11-18,24,West Town,West Side,121,housing,4
+2026-11-18,24,West Town,West Side,121,trees,4
+2026-11-18,24,West Town,West Side,121,water,3
+2026-11-18,42,Woodlawn,South Side,12,critters,4
+2026-11-18,42,Woodlawn,South Side,12,trash,3
+2026-11-19,14,Albany Park,North Side,53,streets,10
+2026-11-19,14,Albany Park,North Side,53,trees,10
+2026-11-19,14,Albany Park,North Side,53,critters,9
+2026-11-19,14,Albany Park,North Side,53,trash,8
+2026-11-19,14,Albany Park,North Side,53,parking,7
+2026-11-19,14,Albany Park,North Side,53,water,4
+2026-11-19,14,Albany Park,North Side,53,housing,3
+2026-11-19,57,Archer Heights,Southwest Side,6,streets,3
+2026-11-19,34,Armour Square,South Side,13,trash,10
+2026-11-19,70,Ashburn,Southwest Side,30,trash,13
+2026-11-19,70,Ashburn,Southwest Side,30,streets,6
+2026-11-19,70,Ashburn,Southwest Side,30,parking,4
+2026-11-19,70,Ashburn,Southwest Side,30,trees,4
+2026-11-19,71,Auburn Gresham,Southwest Side,49,trash,16
+2026-11-19,71,Auburn Gresham,Southwest Side,49,trees,14
+2026-11-19,71,Auburn Gresham,Southwest Side,49,critters,5
+2026-11-19,71,Auburn Gresham,Southwest Side,49,water,5
+2026-11-19,71,Auburn Gresham,Southwest Side,49,housing,4
+2026-11-19,25,Austin,West Side,70,trash,18
+2026-11-19,25,Austin,West Side,70,parking,15
+2026-11-19,25,Austin,West Side,70,housing,11
+2026-11-19,25,Austin,West Side,70,streets,11
+2026-11-19,25,Austin,West Side,70,critters,6
+2026-11-19,25,Austin,West Side,70,water,5
+2026-11-19,25,Austin,West Side,70,trees,3
+2026-11-19,45,Avalon Park,South Side,9,trash,3
+2026-11-19,21,Avondale,North Side,34,trash,11
+2026-11-19,21,Avondale,North Side,34,streets,6
+2026-11-19,21,Avondale,North Side,34,critters,6
+2026-11-19,21,Avondale,North Side,34,parking,4
+2026-11-19,21,Avondale,North Side,34,trees,3
+2026-11-19,19,Belmont Cragin,North Side,52,trash,22
+2026-11-19,19,Belmont Cragin,North Side,52,critters,9
+2026-11-19,19,Belmont Cragin,North Side,52,water,6
+2026-11-19,19,Belmont Cragin,North Side,52,parking,5
+2026-11-19,19,Belmont Cragin,North Side,52,trees,4
+2026-11-19,19,Belmont Cragin,North Side,52,streets,3
+2026-11-19,72,Beverly,Southwest Side,12,streets,5
+2026-11-19,72,Beverly,Southwest Side,12,trash,3
+2026-11-19,72,Beverly,Southwest Side,12,critters,3
+2026-11-19,60,Bridgeport,South Side,19,trash,8
+2026-11-19,60,Bridgeport,South Side,19,parking,6
+2026-11-19,58,Brighton Park,Southwest Side,36,trash,12
+2026-11-19,58,Brighton Park,Southwest Side,36,parking,9
+2026-11-19,58,Brighton Park,Southwest Side,36,streets,9
+2026-11-19,58,Brighton Park,Southwest Side,36,critters,3
+2026-11-19,48,Calumet Heights,South Side,11,trash,6
+2026-11-19,48,Calumet Heights,South Side,11,streets,4
+2026-11-19,44,Chatham,South Side,25,trash,6
+2026-11-19,44,Chatham,South Side,25,parking,4
+2026-11-19,44,Chatham,South Side,25,streets,3
+2026-11-19,44,Chatham,South Side,25,water,3
+2026-11-19,44,Chatham,South Side,25,housing,3
+2026-11-19,44,Chatham,South Side,25,critters,3
+2026-11-19,66,Chicago Lawn,Southwest Side,39,trash,11
+2026-11-19,66,Chicago Lawn,Southwest Side,39,critters,7
+2026-11-19,66,Chicago Lawn,Southwest Side,39,parking,6
+2026-11-19,66,Chicago Lawn,Southwest Side,39,trees,6
+2026-11-19,66,Chicago Lawn,Southwest Side,39,streets,4
+2026-11-19,66,Chicago Lawn,Southwest Side,39,housing,3
+2026-11-19,64,Clearing,Southwest Side,29,critters,16
+2026-11-19,64,Clearing,Southwest Side,29,streets,4
+2026-11-19,64,Clearing,Southwest Side,29,trash,4
+2026-11-19,64,Clearing,Southwest Side,29,parking,3
+2026-11-19,35,Douglas,South Side,8,parking,3
+2026-11-19,17,Dunning,North Side,59,trees,26
+2026-11-19,17,Dunning,North Side,59,parking,14
+2026-11-19,17,Dunning,North Side,59,trash,11
+2026-11-19,17,Dunning,North Side,59,critters,6
+2026-11-19,27,East Garfield Park,West Side,24,trees,12
+2026-11-19,27,East Garfield Park,West Side,24,critters,4
+2026-11-19,27,East Garfield Park,West Side,24,streets,3
+2026-11-19,52,East Side,South Side,8,trash,5
+2026-11-19,77,Edgewater,North Side,40,trees,14
+2026-11-19,77,Edgewater,North Side,40,trash,9
+2026-11-19,77,Edgewater,North Side,40,parking,5
+2026-11-19,77,Edgewater,North Side,40,streets,5
+2026-11-19,77,Edgewater,North Side,40,housing,3
+2026-11-19,77,Edgewater,North Side,40,water,3
+2026-11-19,68,Englewood,Southwest Side,21,trash,7
+2026-11-19,68,Englewood,Southwest Side,21,critters,3
+2026-11-19,68,Englewood,Southwest Side,21,housing,3
+2026-11-19,68,Englewood,Southwest Side,21,water,3
+2026-11-19,68,Englewood,Southwest Side,21,trees,3
+2026-11-19,12,Forest Glen,North Side,15,trash,6
+2026-11-19,12,Forest Glen,North Side,15,streets,4
+2026-11-19,63,Gage Park,Southwest Side,20,parking,7
+2026-11-19,63,Gage Park,Southwest Side,20,trash,5
+2026-11-19,63,Gage Park,Southwest Side,20,water,3
+2026-11-19,56,Garfield Ridge,Southwest Side,49,critters,17
+2026-11-19,56,Garfield Ridge,Southwest Side,49,water,7
+2026-11-19,56,Garfield Ridge,Southwest Side,49,trees,7
+2026-11-19,56,Garfield Ridge,Southwest Side,49,streets,6
+2026-11-19,56,Garfield Ridge,Southwest Side,49,trash,6
+2026-11-19,56,Garfield Ridge,Southwest Side,49,parking,4
+2026-11-19,38,Grand Boulevard,South Side,10,streets,3
+2026-11-19,69,Greater Grand Crossing,South Side,23,housing,6
+2026-11-19,69,Greater Grand Crossing,South Side,23,trash,6
+2026-11-19,69,Greater Grand Crossing,South Side,23,streets,5
+2026-11-19,69,Greater Grand Crossing,South Side,23,critters,3
+2026-11-19,55,Hegewisch,South Side,6,housing,4
+2026-11-19,20,Hermosa,North Side,19,trash,5
+2026-11-19,20,Hermosa,North Side,19,streets,5
+2026-11-19,20,Hermosa,North Side,19,trees,3
+2026-11-19,20,Hermosa,North Side,19,critters,3
+2026-11-19,23,Humboldt Park,West Side,63,trash,22
+2026-11-19,23,Humboldt Park,West Side,63,trees,22
+2026-11-19,23,Humboldt Park,West Side,63,critters,7
+2026-11-19,23,Humboldt Park,West Side,63,parking,7
+2026-11-19,23,Humboldt Park,West Side,63,streets,3
+2026-11-19,41,Hyde Park,South Side,14,critters,11
+2026-11-19,16,Irving Park,North Side,38,trash,13
+2026-11-19,16,Irving Park,North Side,38,critters,6
+2026-11-19,16,Irving Park,North Side,38,streets,6
+2026-11-19,16,Irving Park,North Side,38,trees,6
+2026-11-19,16,Irving Park,North Side,38,parking,4
+2026-11-19,16,Irving Park,North Side,38,housing,3
+2026-11-19,11,Jefferson Park,North Side,16,streets,6
+2026-11-19,11,Jefferson Park,North Side,16,trash,3
+2026-11-19,11,Jefferson Park,North Side,16,critters,3
+2026-11-19,39,Kenwood,South Side,5,streets,3
+2026-11-19,6,Lake View,North Side,61,trash,25
+2026-11-19,6,Lake View,North Side,61,streets,10
+2026-11-19,6,Lake View,North Side,61,parking,7
+2026-11-19,6,Lake View,North Side,61,housing,6
+2026-11-19,6,Lake View,North Side,61,critters,6
+2026-11-19,6,Lake View,North Side,61,other,4
+2026-11-19,7,Lincoln Park,North Side,73,trash,25
+2026-11-19,7,Lincoln Park,North Side,73,parking,24
+2026-11-19,7,Lincoln Park,North Side,73,streets,13
+2026-11-19,7,Lincoln Park,North Side,73,critters,6
+2026-11-19,4,Lincoln Square,North Side,66,trees,27
+2026-11-19,4,Lincoln Square,North Side,66,trash,17
+2026-11-19,4,Lincoln Square,North Side,66,streets,8
+2026-11-19,4,Lincoln Square,North Side,66,critters,7
+2026-11-19,4,Lincoln Square,North Side,66,parking,4
+2026-11-19,22,Logan Square,North Side,74,trash,31
+2026-11-19,22,Logan Square,North Side,74,streets,14
+2026-11-19,22,Logan Square,North Side,74,parking,10
+2026-11-19,22,Logan Square,North Side,74,critters,8
+2026-11-19,22,Logan Square,North Side,74,water,4
+2026-11-19,22,Logan Square,North Side,74,housing,3
+2026-11-19,22,Logan Square,North Side,74,trees,3
+2026-11-19,31,Lower West Side,West Side,95,trash,37
+2026-11-19,31,Lower West Side,West Side,95,trees,35
+2026-11-19,31,Lower West Side,West Side,95,parking,8
+2026-11-19,31,Lower West Side,West Side,95,critters,7
+2026-11-19,31,Lower West Side,West Side,95,streets,3
+2026-11-19,59,McKinley Park,Southwest Side,8,trash,4
+2026-11-19,75,Morgan Park,Southwest Side,22,trash,8
+2026-11-19,75,Morgan Park,Southwest Side,22,streets,7
+2026-11-19,75,Morgan Park,Southwest Side,22,water,5
+2026-11-19,74,Mount Greenwood,Southwest Side,24,streets,11
+2026-11-19,74,Mount Greenwood,Southwest Side,24,trees,6
+2026-11-19,74,Mount Greenwood,Southwest Side,24,trash,3
+2026-11-19,74,Mount Greenwood,Southwest Side,24,water,3
+2026-11-19,8,Near North Side,Downtown,59,streets,13
+2026-11-19,8,Near North Side,Downtown,59,parking,12
+2026-11-19,8,Near North Side,Downtown,59,trash,11
+2026-11-19,8,Near North Side,Downtown,59,other,7
+2026-11-19,8,Near North Side,Downtown,59,trees,7
+2026-11-19,8,Near North Side,Downtown,59,water,6
+2026-11-19,33,Near South Side,Downtown,8,housing,4
+2026-11-19,28,Near West Side,West Side,52,streets,22
+2026-11-19,28,Near West Side,West Side,52,parking,9
+2026-11-19,28,Near West Side,West Side,52,trash,5
+2026-11-19,28,Near West Side,West Side,52,critters,5
+2026-11-19,28,Near West Side,West Side,52,other,4
+2026-11-19,28,Near West Side,West Side,52,housing,3
+2026-11-19,28,Near West Side,West Side,52,water,3
+2026-11-19,61,New City,Southwest Side,46,trash,15
+2026-11-19,61,New City,Southwest Side,46,streets,11
+2026-11-19,61,New City,Southwest Side,46,parking,10
+2026-11-19,61,New City,Southwest Side,46,housing,3
+2026-11-19,61,New City,Southwest Side,46,trees,3
+2026-11-19,5,North Center,North Side,39,trash,18
+2026-11-19,5,North Center,North Side,39,parking,10
+2026-11-19,5,North Center,North Side,39,streets,5
+2026-11-19,29,North Lawndale,West Side,26,trash,10
+2026-11-19,29,North Lawndale,West Side,26,streets,5
+2026-11-19,29,North Lawndale,West Side,26,housing,4
+2026-11-19,29,North Lawndale,West Side,26,water,4
+2026-11-19,13,North Park,North Side,9,critters,3
+2026-11-19,10,Norwood Park,North Side,35,streets,8
+2026-11-19,10,Norwood Park,North Side,35,trash,7
+2026-11-19,10,Norwood Park,North Side,35,critters,6
+2026-11-19,10,Norwood Park,North Side,35,parking,5
+2026-11-19,10,Norwood Park,North Side,35,trees,5
+2026-11-19,76,O'Hare,North Side,8,streets,3
+2026-11-19,15,Portage Park,North Side,47,trash,16
+2026-11-19,15,Portage Park,North Side,47,streets,10
+2026-11-19,15,Portage Park,North Side,47,critters,9
+2026-11-19,15,Portage Park,North Side,47,parking,7
+2026-11-19,15,Portage Park,North Side,47,trees,3
+2026-11-19,1,Rogers Park,North Side,29,streets,9
+2026-11-19,1,Rogers Park,North Side,29,parking,6
+2026-11-19,1,Rogers Park,North Side,29,critters,6
+2026-11-19,1,Rogers Park,North Side,29,trash,5
+2026-11-19,49,Roseland,South Side,31,critters,8
+2026-11-19,49,Roseland,South Side,31,trash,6
+2026-11-19,49,Roseland,South Side,31,streets,5
+2026-11-19,49,Roseland,South Side,31,water,4
+2026-11-19,49,Roseland,South Side,31,parking,4
+2026-11-19,49,Roseland,South Side,31,trees,3
+2026-11-19,46,South Chicago,South Side,26,trash,9
+2026-11-19,46,South Chicago,South Side,26,streets,5
+2026-11-19,46,South Chicago,South Side,26,trees,4
+2026-11-19,51,South Deering,South Side,17,streets,6
+2026-11-19,51,South Deering,South Side,17,critters,5
+2026-11-19,51,South Deering,South Side,17,trash,3
+2026-11-19,30,South Lawndale,West Side,82,trees,34
+2026-11-19,30,South Lawndale,West Side,82,trash,24
+2026-11-19,30,South Lawndale,West Side,82,streets,7
+2026-11-19,30,South Lawndale,West Side,82,parking,7
+2026-11-19,30,South Lawndale,West Side,82,critters,4
+2026-11-19,30,South Lawndale,West Side,82,other,3
+2026-11-19,43,South Shore,South Side,43,streets,18
+2026-11-19,43,South Shore,South Side,43,trash,8
+2026-11-19,43,South Shore,South Side,43,critters,6
+2026-11-19,43,South Shore,South Side,43,housing,6
+2026-11-19,43,South Shore,South Side,43,parking,3
+2026-11-19,32,The Loop,Downtown,28,trash,9
+2026-11-19,32,The Loop,Downtown,28,other,8
+2026-11-19,32,The Loop,Downtown,28,streets,4
+2026-11-19,32,The Loop,Downtown,28,parking,3
+2026-11-19,3,Uptown,North Side,30,trash,12
+2026-11-19,3,Uptown,North Side,30,water,5
+2026-11-19,3,Uptown,North Side,30,other,3
+2026-11-19,3,Uptown,North Side,30,critters,3
+2026-11-19,3,Uptown,North Side,30,parking,3
+2026-11-19,73,Washington Heights,Southwest Side,19,critters,7
+2026-11-19,73,Washington Heights,Southwest Side,19,streets,5
+2026-11-19,73,Washington Heights,Southwest Side,19,trash,4
+2026-11-19,40,Washington Park,South Side,11,housing,4
+2026-11-19,62,West Elsdon,Southwest Side,29,parking,7
+2026-11-19,62,West Elsdon,Southwest Side,29,streets,7
+2026-11-19,62,West Elsdon,Southwest Side,29,trees,7
+2026-11-19,62,West Elsdon,Southwest Side,29,trash,4
+2026-11-19,67,West Englewood,Southwest Side,25,trash,8
+2026-11-19,67,West Englewood,Southwest Side,25,critters,4
+2026-11-19,67,West Englewood,Southwest Side,25,parking,3
+2026-11-19,67,West Englewood,Southwest Side,25,streets,3
+2026-11-19,67,West Englewood,Southwest Side,25,housing,3
+2026-11-19,26,West Garfield Park,West Side,21,trees,11
+2026-11-19,26,West Garfield Park,West Side,21,critters,3
+2026-11-19,26,West Garfield Park,West Side,21,streets,3
+2026-11-19,26,West Garfield Park,West Side,21,trash,3
+2026-11-19,65,West Lawn,Southwest Side,19,trash,4
+2026-11-19,65,West Lawn,Southwest Side,19,critters,4
+2026-11-19,65,West Lawn,Southwest Side,19,parking,3
+2026-11-19,53,West Pullman,South Side,23,trash,7
+2026-11-19,53,West Pullman,South Side,23,critters,5
+2026-11-19,53,West Pullman,South Side,23,trees,4
+2026-11-19,53,West Pullman,South Side,23,water,3
+2026-11-19,2,West Ridge,North Side,82,water,44
+2026-11-19,2,West Ridge,North Side,82,trash,16
+2026-11-19,2,West Ridge,North Side,82,streets,10
+2026-11-19,2,West Ridge,North Side,82,parking,5
+2026-11-19,2,West Ridge,North Side,82,trees,3
+2026-11-19,24,West Town,West Side,106,trash,32
+2026-11-19,24,West Town,West Side,106,critters,25
+2026-11-19,24,West Town,West Side,106,streets,24
+2026-11-19,24,West Town,West Side,106,parking,9
+2026-11-19,24,West Town,West Side,106,trees,5
+2026-11-19,24,West Town,West Side,106,other,4
+2026-11-19,24,West Town,West Side,106,housing,4
+2026-11-19,24,West Town,West Side,106,water,3
+2026-11-19,42,Woodlawn,South Side,13,housing,3
+2026-11-19,42,Woodlawn,South Side,13,parking,3

@@ -1,0 +1,64 @@
+mood,mood_label,match,raw_311_type
+heat,No heat,exact,Insufficient Heat
+parking,Parking wars,exact,Abandoned Bicycles
+parking,Parking wars,exact,Abandoned Vehicles
+parking,Parking wars,exact,Illegal Parking
+parking,Parking wars,exact,Illegal Yard Parking
+parking,Parking wars,exact,Parking Meter Repairs
+parking,Parking wars,exact,Sticker Request
+housing,Home repairs,exact,Adjoining Property Construction
+housing,Home repairs,exact,Building Contractor Complaint
+housing,Home repairs,exact,Building Maintenance Violations
+housing,Home repairs,exact,No Building Permit or Violation of Permit
+housing,Home repairs,exact,Unsafe Structure
+housing,Home repairs,exact,Unsatisfactory Living Conditions
+housing,Home repairs,exact,"Unsatisfactory Utilities - (Electrical, Plumbing)"
+streets,Street fixes,contains (regex),street light|signal|sign|sidewalk|crosswalk
+streets,Street fixes,exact,Bicycle Racks / Bicycle Parking
+streets,Street fixes,exact,Crosswalk Maintenance
+streets,Street fixes,exact,Damaged/Faded Sign
+streets,Street fixes,exact,Fences/Guardrails/Bollards
+streets,Street fixes,exact,Illegally Blocked Sidewalk
+streets,Street fixes,exact,Install New Signal
+streets,Street fixes,exact,Lane Divider
+streets,Street fixes,exact,Missing / Knocked Down Sign
+streets,Street fixes,exact,New / Modified Sign Request
+streets,Street fixes,exact,Pothole
+streets,Street fixes,exact,Request New Crosswalk
+streets,Street fixes,exact,Request New Markings
+streets,Street fixes,exact,Road Marking Maintenance
+streets,Street fixes,exact,Sidewalk Repair
+streets,Street fixes,exact,Street Light Electrical Safety
+streets,Street fixes,exact,Street Light Knockdown
+streets,Street fixes,exact,Street Light Other
+streets,Street fixes,exact,Street Light Outage
+streets,Street fixes,exact,Traffic Signal Knockdown
+streets,Street fixes,exact,Traffic Signal Request
+streets,Street fixes,exact,Utility Contractor Complaints
+trash,Trash talk,contains (regex),trash|litter|dumping|graffiti
+trash,Trash talk,exact,Broken Public Waste Receptacle
+trash,Trash talk,exact,Code Enforcement Collection
+trash,Trash talk,exact,Construction Debris
+trash,Trash talk,exact,Illegal Dumping or Disposal
+trash,Trash talk,exact,Illegal Graffiti
+trash,Trash talk,exact,Improper Trash Storage
+trash,Trash talk,exact,Litter & Debris
+trash,Trash talk,exact,Missed Waste Pick-up
+trash,Trash talk,exact,Overflowing Trash
+trash,Trash talk,exact,Overgrown Weeds
+trash,Trash talk,exact,Request New Public Waste Receptacle
+trash,Trash talk,exact,Trash Placed Out Early
+trash,Trash talk,exact,Unauthorized Signage
+critters,Critters,contains (regex),animal|rat|pest
+critters,Critters,exact,Dead Animal General
+critters,Critters,exact,Domestic Animal Issue
+critters,Critters,exact,Lost Pet
+critters,Critters,exact,Pest Infestation - Residential
+critters,Critters,exact,Rat Activity
+critters,Critters,exact,Wild Animal Issue
+trees,Trees,contains (regex),tree|prun|park 
+trees,Trees,exact,Fallen Tree or Branches
+trees,Trees,exact,Park Groundskeeping
+trees,Trees,exact,Planting Request
+trees,Trees,exact,Pruning Request
+trees,Trees,exact,Tree or Stump Removal

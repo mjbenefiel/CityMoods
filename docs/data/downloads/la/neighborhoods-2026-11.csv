@@ -1,0 +1,2675 @@
+date,neighborhood_id,neighborhood,area,neighborhood_total,mood,requests
+2026-11-09,6,Arleta,East Valley,14,other,5
+2026-11-09,6,Arleta,East Valley,14,trash,3
+2026-11-09,6,Arleta,East Valley,14,trees,3
+2026-11-09,42,Arroyo Seco,Eastside,13,trash,8
+2026-11-09,42,Arroyo Seco,Eastside,13,streets,3
+2026-11-09,46,Arts District Little Tokyo,Central LA,22,parking,18
+2026-11-09,37,Atwater Village,Eastside,11,trash,6
+2026-11-09,64,Bel Air-beverly Crest,Westside,29,other,11
+2026-11-09,64,Bel Air-beverly Crest,Westside,29,streets,8
+2026-11-09,64,Bel Air-beverly Crest,Westside,29,trash,6
+2026-11-09,50,Boyle Heights,Eastside,86,trash,69
+2026-11-09,50,Boyle Heights,Eastside,86,streets,6
+2026-11-09,50,Boyle Heights,Eastside,86,trees,6
+2026-11-09,50,Boyle Heights,Eastside,86,other,5
+2026-11-09,13,Canoga Park,West Valley,40,trash,26
+2026-11-09,13,Canoga Park,West Valley,40,other,11
+2026-11-09,110,Central Alameda,South LA,31,trash,17
+2026-11-09,110,Central Alameda,South LA,31,other,6
+2026-11-09,110,Central Alameda,South LA,31,streets,4
+2026-11-09,110,Central Alameda,South LA,31,critters,3
+2026-11-09,32,Central Hollywood,Central LA,39,trash,27
+2026-11-09,32,Central Hollywood,Central LA,39,streets,9
+2026-11-09,95,Central San Pedro,Harbor,23,trash,18
+2026-11-09,99,Chatsworth,West Valley,54,trash,42
+2026-11-09,99,Chatsworth,West Valley,54,streets,7
+2026-11-09,99,Chatsworth,West Valley,54,other,4
+2026-11-09,96,Coastal San Pedro,Harbor,24,trash,16
+2026-11-09,96,Coastal San Pedro,Harbor,24,streets,5
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,68,trash,37
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,68,streets,16
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,68,other,10
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,68,trees,3
+2026-11-09,70,Del Rey,Westside,31,trash,21
+2026-11-09,70,Del Rey,Westside,31,other,5
+2026-11-09,52,Downtown Los Angeles,Central LA,120,trash,50
+2026-11-09,52,Downtown Los Angeles,Central LA,120,other,32
+2026-11-09,52,Downtown Los Angeles,Central LA,120,streets,22
+2026-11-09,52,Downtown Los Angeles,Central LA,120,parking,16
+2026-11-09,40,Eagle Rock,Eastside,16,trash,8
+2026-11-09,40,Eagle Rock,Eastside,16,trees,3
+2026-11-09,34,East Hollywood,Central LA,46,trash,37
+2026-11-09,34,East Hollywood,Central LA,46,other,4
+2026-11-09,34,East Hollywood,Central LA,46,trees,3
+2026-11-09,44,Echo Park,Eastside,73,trash,56
+2026-11-09,44,Echo Park,Eastside,73,streets,8
+2026-11-09,44,Echo Park,Eastside,73,other,5
+2026-11-09,44,Echo Park,Eastside,73,trees,3
+2026-11-09,43,Elysian Valley Riverside,Eastside,6,trash,5
+2026-11-09,81,Empowerment Congress Central Area,South LA,93,trash,51
+2026-11-09,81,Empowerment Congress Central Area,South LA,93,trees,17
+2026-11-09,81,Empowerment Congress Central Area,South LA,93,other,8
+2026-11-09,81,Empowerment Congress Central Area,South LA,93,streets,7
+2026-11-09,81,Empowerment Congress Central Area,South LA,93,critters,7
+2026-11-09,77,Empowerment Congress North Area,South LA,117,trash,91
+2026-11-09,77,Empowerment Congress North Area,South LA,117,streets,9
+2026-11-09,77,Empowerment Congress North Area,South LA,117,other,7
+2026-11-09,77,Empowerment Congress North Area,South LA,117,trees,5
+2026-11-09,77,Empowerment Congress North Area,South LA,117,critters,4
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,80,trash,53
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,80,other,11
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,80,trees,7
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,80,critters,5
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,80,streets,4
+2026-11-09,84,Empowerment Congress Southwest Area,South LA,17,trash,8
+2026-11-09,84,Empowerment Congress Southwest Area,South LA,17,streets,4
+2026-11-09,84,Empowerment Congress Southwest Area,South LA,17,other,3
+2026-11-09,79,Empowerment Congress West Area,South LA,102,trash,83
+2026-11-09,79,Empowerment Congress West Area,South LA,102,other,6
+2026-11-09,79,Empowerment Congress West Area,South LA,102,streets,5
+2026-11-09,79,Empowerment Congress West Area,South LA,102,trees,4
+2026-11-09,18,Encino,West Valley,104,trash,80
+2026-11-09,18,Encino,West Valley,104,streets,12
+2026-11-09,18,Encino,West Valley,104,other,8
+2026-11-09,18,Encino,West Valley,104,trees,3
+2026-11-09,9,Foothill Trails District,East Valley,17,trash,7
+2026-11-09,9,Foothill Trails District,East Valley,17,other,4
+2026-11-09,9,Foothill Trails District,East Valley,17,streets,3
+2026-11-09,9,Foothill Trails District,East Valley,17,trees,3
+2026-11-09,39,Glassell Park,Eastside,28,trash,18
+2026-11-09,39,Glassell Park,Eastside,28,streets,4
+2026-11-09,39,Glassell Park,Eastside,28,trees,4
+2026-11-09,4,Granada Hills North,West Valley,19,trees,7
+2026-11-09,4,Granada Hills North,West Valley,19,trash,5
+2026-11-09,4,Granada Hills North,West Valley,19,streets,4
+2026-11-09,4,Granada Hills North,West Valley,19,critters,3
+2026-11-09,118,Granada Hills South,West Valley,32,trash,12
+2026-11-09,118,Granada Hills South,West Valley,32,streets,10
+2026-11-09,118,Granada Hills South,West Valley,32,other,3
+2026-11-09,118,Granada Hills South,West Valley,32,trees,3
+2026-11-09,102,Greater Cypress Park,Eastside,22,trash,16
+2026-11-09,102,Greater Cypress Park,Eastside,22,other,3
+2026-11-09,28,Greater Toluca Lake,East Valley,8,trash,7
+2026-11-09,21,Greater Valley Glen,East Valley,55,trash,50
+2026-11-09,119,Greater Wilshire,Central LA,41,trash,19
+2026-11-09,119,Greater Wilshire,Central LA,41,trees,9
+2026-11-09,119,Greater Wilshire,Central LA,41,streets,6
+2026-11-09,119,Greater Wilshire,Central LA,41,other,3
+2026-11-09,92,Harbor City,Harbor,25,trash,24
+2026-11-09,90,Harbor Gateway North,Harbor,32,trash,21
+2026-11-09,90,Harbor Gateway North,Harbor,32,critters,6
+2026-11-09,90,Harbor Gateway North,Harbor,32,trees,3
+2026-11-09,91,Harbor Gateway South,Harbor,13,trash,9
+2026-11-09,126,Hermon,Eastside,7,trash,4
+2026-11-09,128,Historic Cultural North,Central LA,42,trash,31
+2026-11-09,128,Historic Cultural North,Central LA,42,streets,7
+2026-11-09,128,Historic Cultural North,Central LA,42,trees,3
+2026-11-09,41,Historic Highland Park,Eastside,59,trash,51
+2026-11-09,41,Historic Highland Park,Eastside,59,other,4
+2026-11-09,29,Hollywood Hills West,Central LA,40,trash,20
+2026-11-09,29,Hollywood Hills West,Central LA,40,streets,8
+2026-11-09,29,Hollywood Hills West,Central LA,40,parking,6
+2026-11-09,29,Hollywood Hills West,Central LA,40,other,5
+2026-11-09,33,Hollywood Studio District,Central LA,33,trash,26
+2026-11-09,33,Hollywood Studio District,Central LA,33,streets,5
+2026-11-09,30,Hollywood United,Central LA,22,streets,9
+2026-11-09,30,Hollywood United,Central LA,22,other,6
+2026-11-09,30,Hollywood United,Central LA,22,trash,5
+2026-11-09,48,LA-32,Eastside,43,trash,29
+2026-11-09,48,LA-32,Eastside,43,streets,7
+2026-11-09,48,LA-32,Eastside,43,critters,3
+2026-11-09,48,LA-32,Eastside,43,other,3
+2026-11-09,19,Lake Balboa,West Valley,79,trash,62
+2026-11-09,19,Lake Balboa,West Valley,79,streets,8
+2026-11-09,19,Lake Balboa,West Valley,79,other,5
+2026-11-09,47,Lincoln Heights,Eastside,38,trash,27
+2026-11-09,36,Los Feliz,Eastside,30,trash,17
+2026-11-09,36,Los Feliz,Eastside,30,critters,3
+2026-11-09,36,Los Feliz,Eastside,30,trees,3
+2026-11-09,54,Macarthur Park,Central LA,486,trash,474
+2026-11-09,54,Macarthur Park,Central LA,486,parking,5
+2026-11-09,54,Macarthur Park,Central LA,486,other,3
+2026-11-09,67,Mar Vista,Westside,28,trash,15
+2026-11-09,67,Mar Vista,Westside,28,critters,5
+2026-11-09,67,Mar Vista,Westside,28,streets,4
+2026-11-09,73,Mid City,South LA,38,trash,27
+2026-11-09,73,Mid City,South LA,38,streets,6
+2026-11-09,58,Mid City West,Central LA,43,trash,21
+2026-11-09,58,Mid City West,Central LA,43,streets,11
+2026-11-09,58,Mid City West,Central LA,43,other,5
+2026-11-09,58,Mid City West,Central LA,43,trees,3
+2026-11-09,101,Mission Hills,East Valley,18,trash,14
+2026-11-09,101,Mission Hills,East Valley,18,critters,3
+2026-11-09,24,NoHo,East Valley,98,trash,77
+2026-11-09,24,NoHo,East Valley,98,streets,10
+2026-11-09,24,NoHo,East Valley,98,other,5
+2026-11-09,24,NoHo,East Valley,98,parking,3
+2026-11-09,24,NoHo,East Valley,98,trees,3
+2026-11-09,22,NoHo West,East Valley,21,trash,18
+2026-11-09,112,North Hills East,West Valley,37,trash,32
+2026-11-09,112,North Hills East,West Valley,37,streets,3
+2026-11-09,111,North Hills West,East Valley,8,trash,4
+2026-11-09,23,North Hollywood Northeast,East Valley,85,trash,70
+2026-11-09,23,North Hollywood Northeast,East Valley,85,streets,8
+2026-11-09,120,Northridge East,West Valley,31,streets,14
+2026-11-09,120,Northridge East,West Valley,31,housing,9
+2026-11-09,120,Northridge East,West Valley,31,trash,7
+2026-11-09,124,Northridge South,West Valley,47,trash,38
+2026-11-09,124,Northridge South,West Valley,47,trees,3
+2026-11-09,113,Northridge West,West Valley,22,trash,15
+2026-11-09,113,Northridge West,West Valley,22,trees,4
+2026-11-09,94,Northwest San Pedro,Harbor,15,trash,12
+2026-11-09,94,Northwest San Pedro,Harbor,15,trees,3
+2026-11-09,104,Olympic Park,Central LA,13,streets,7
+2026-11-09,104,Olympic Park,Central LA,13,trash,5
+2026-11-09,60,P.i.c.o.,Central LA,22,trash,13
+2026-11-09,60,P.i.c.o.,Central LA,22,critters,5
+2026-11-09,7,Pacoima,East Valley,50,trash,30
+2026-11-09,7,Pacoima,East Valley,50,streets,6
+2026-11-09,7,Pacoima,East Valley,50,trees,5
+2026-11-09,7,Pacoima,East Valley,50,critters,4
+2026-11-09,7,Pacoima,East Valley,50,other,4
+2026-11-09,115,Palms,Westside,27,trees,13
+2026-11-09,115,Palms,Westside,27,trash,6
+2026-11-09,115,Palms,Westside,27,other,4
+2026-11-09,115,Palms,Westside,27,critters,3
+2026-11-09,100,Panorama City,East Valley,51,trash,35
+2026-11-09,100,Panorama City,East Valley,51,other,6
+2026-11-09,100,Panorama City,East Valley,51,streets,5
+2026-11-09,80,Park Mesa Heights,South LA,59,trash,41
+2026-11-09,80,Park Mesa Heights,South LA,59,streets,13
+2026-11-09,80,Park Mesa Heights,South LA,59,critters,3
+2026-11-09,76,Pico Union,Central LA,39,trash,24
+2026-11-09,76,Pico Union,Central LA,39,other,8
+2026-11-09,76,Pico Union,Central LA,39,streets,4
+2026-11-09,114,Porter Ranch,West Valley,12,trash,8
+2026-11-09,114,Porter Ranch,West Valley,12,trees,3
+2026-11-09,53,Rampart Village,Eastside,19,trash,9
+2026-11-09,53,Rampart Village,Eastside,19,other,8
+2026-11-09,15,Reseda,West Valley,46,trash,27
+2026-11-09,15,Reseda,West Valley,46,streets,6
+2026-11-09,15,Reseda,West Valley,46,parking,5
+2026-11-09,15,Reseda,West Valley,46,critters,3
+2026-11-09,15,Reseda,West Valley,46,other,3
+2026-11-09,26,Sherman Oaks,East Valley,62,trash,35
+2026-11-09,26,Sherman Oaks,East Valley,62,streets,14
+2026-11-09,26,Sherman Oaks,East Valley,62,trees,5
+2026-11-09,26,Sherman Oaks,East Valley,62,other,5
+2026-11-09,38,Silver Lake,Eastside,53,trash,21
+2026-11-09,38,Silver Lake,Eastside,53,streets,14
+2026-11-09,38,Silver Lake,Eastside,53,other,4
+2026-11-09,38,Silver Lake,Eastside,53,critters,4
+2026-11-09,38,Silver Lake,Eastside,53,parking,3
+2026-11-09,38,Silver Lake,Eastside,53,water,3
+2026-11-09,38,Silver Lake,Eastside,53,trees,3
+2026-11-09,78,South Central,South LA,45,trash,27
+2026-11-09,78,South Central,South LA,45,other,12
+2026-11-09,78,South Central,South LA,45,streets,3
+2026-11-09,61,South Robertson,Westside,52,trash,31
+2026-11-09,61,South Robertson,Westside,52,streets,8
+2026-11-09,61,South Robertson,Westside,52,other,7
+2026-11-09,61,South Robertson,Westside,52,trees,4
+2026-11-09,27,Studio City,East Valley,38,trash,13
+2026-11-09,27,Studio City,East Valley,38,other,13
+2026-11-09,27,Studio City,East Valley,38,streets,6
+2026-11-09,27,Studio City,East Valley,38,water,4
+2026-11-09,8,Sun Valley Area,East Valley,69,trash,48
+2026-11-09,8,Sun Valley Area,East Valley,69,streets,10
+2026-11-09,8,Sun Valley Area,East Valley,69,critters,5
+2026-11-09,8,Sun Valley Area,East Valley,69,other,4
+2026-11-09,10,Sunland-tujunga,East Valley,31,trash,20
+2026-11-09,10,Sunland-tujunga,East Valley,31,streets,5
+2026-11-09,10,Sunland-tujunga,East Valley,31,other,3
+2026-11-09,5,Sylmar,East Valley,46,trash,25
+2026-11-09,5,Sylmar,East Valley,46,other,8
+2026-11-09,5,Sylmar,East Valley,46,streets,5
+2026-11-09,5,Sylmar,East Valley,46,trees,5
+2026-11-09,5,Sylmar,East Valley,46,critters,3
+2026-11-09,17,Tarzana,West Valley,18,trash,10
+2026-11-09,17,Tarzana,West Valley,18,streets,5
+2026-11-09,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,28,trash,20
+2026-11-09,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,28,streets,3
+2026-11-09,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,28,other,3
+2026-11-09,25,Valley Village,East Valley,30,trash,26
+2026-11-09,25,Valley Village,East Valley,30,other,3
+2026-11-09,20,Van Nuys,East Valley,97,trash,63
+2026-11-09,20,Van Nuys,East Valley,97,streets,12
+2026-11-09,20,Van Nuys,East Valley,97,other,7
+2026-11-09,20,Van Nuys,East Valley,97,critters,6
+2026-11-09,20,Van Nuys,East Valley,97,trees,5
+2026-11-09,20,Van Nuys,East Valley,97,housing,4
+2026-11-09,68,Venice,Westside,49,trash,29
+2026-11-09,68,Venice,Westside,49,other,8
+2026-11-09,68,Venice,Westside,49,parking,6
+2026-11-09,68,Venice,Westside,49,trees,4
+2026-11-09,109,Voices Of 90037,South LA,56,trash,43
+2026-11-09,109,Voices Of 90037,South LA,56,other,5
+2026-11-09,109,Voices Of 90037,South LA,56,streets,4
+2026-11-09,109,Voices Of 90037,South LA,56,critters,3
+2026-11-09,88,Watts,South LA,25,trash,13
+2026-11-09,88,Watts,South LA,25,streets,7
+2026-11-09,88,Watts,South LA,25,other,3
+2026-11-09,75,West Adams,South LA,30,trash,15
+2026-11-09,75,West Adams,South LA,30,other,5
+2026-11-09,75,West Adams,South LA,30,streets,5
+2026-11-09,11,West Hills,West Valley,35,trash,22
+2026-11-09,11,West Hills,West Valley,35,streets,6
+2026-11-09,11,West Hills,West Valley,35,other,5
+2026-11-09,66,West Los Angeles,Westside,37,trash,26
+2026-11-09,66,West Los Angeles,Westside,37,streets,6
+2026-11-09,66,West Los Angeles,Westside,37,trees,4
+2026-11-09,71,Westchester/playa,Westside,45,trash,32
+2026-11-09,71,Westchester/playa,Westside,45,streets,5
+2026-11-09,71,Westchester/playa,Westside,45,critters,5
+2026-11-09,97,Westlake North,Central LA,29,trash,27
+2026-11-09,121,Westlake South,Central LA,47,trash,40
+2026-11-09,121,Westlake South,Central LA,47,other,4
+2026-11-09,62,Westside,Westside,19,streets,8
+2026-11-09,62,Westside,Westside,19,trees,4
+2026-11-09,62,Westside,Westside,19,trash,3
+2026-11-09,63,Westwood,Westside,15,trash,6
+2026-11-09,63,Westwood,Westside,15,streets,5
+2026-11-09,93,Wilmington,Harbor,37,trash,19
+2026-11-09,93,Wilmington,Harbor,37,streets,10
+2026-11-09,93,Wilmington,Harbor,37,parking,4
+2026-11-09,93,Wilmington,Harbor,37,other,3
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,108,trash,72
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,108,streets,15
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,108,other,13
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,108,trees,5
+2026-11-09,14,Winnetka,West Valley,39,trash,32
+2026-11-09,14,Winnetka,West Valley,39,other,4
+2026-11-09,16,Woodland Hills-warner Center,West Valley,48,trash,21
+2026-11-09,16,Woodland Hills-warner Center,West Valley,48,streets,9
+2026-11-09,16,Woodland Hills-warner Center,West Valley,48,housing,8
+2026-11-09,16,Woodland Hills-warner Center,West Valley,48,other,7
+2026-11-09,125,Zapata King,South LA,43,trash,29
+2026-11-09,125,Zapata King,South LA,43,critters,5
+2026-11-09,125,Zapata King,South LA,43,other,4
+2026-11-09,125,Zapata King,South LA,43,trees,3
+2026-11-10,6,Arleta,East Valley,18,trash,12
+2026-11-10,6,Arleta,East Valley,18,critters,3
+2026-11-10,42,Arroyo Seco,Eastside,10,trash,5
+2026-11-10,46,Arts District Little Tokyo,Central LA,11,parking,9
+2026-11-10,37,Atwater Village,Eastside,15,trash,8
+2026-11-10,37,Atwater Village,Eastside,15,trees,3
+2026-11-10,64,Bel Air-beverly Crest,Westside,22,trash,8
+2026-11-10,64,Bel Air-beverly Crest,Westside,22,streets,6
+2026-11-10,64,Bel Air-beverly Crest,Westside,22,trees,4
+2026-11-10,50,Boyle Heights,Eastside,120,trash,82
+2026-11-10,50,Boyle Heights,Eastside,120,streets,16
+2026-11-10,50,Boyle Heights,Eastside,120,trees,10
+2026-11-10,50,Boyle Heights,Eastside,120,other,7
+2026-11-10,50,Boyle Heights,Eastside,120,critters,3
+2026-11-10,13,Canoga Park,West Valley,29,trash,22
+2026-11-10,13,Canoga Park,West Valley,29,other,5
+2026-11-10,110,Central Alameda,South LA,36,trash,31
+2026-11-10,110,Central Alameda,South LA,36,critters,3
+2026-11-10,32,Central Hollywood,Central LA,28,trash,18
+2026-11-10,32,Central Hollywood,Central LA,28,other,5
+2026-11-10,95,Central San Pedro,Harbor,28,trash,17
+2026-11-10,95,Central San Pedro,Harbor,28,other,3
+2026-11-10,95,Central San Pedro,Harbor,28,streets,3
+2026-11-10,95,Central San Pedro,Harbor,28,critters,3
+2026-11-10,99,Chatsworth,West Valley,36,trash,20
+2026-11-10,99,Chatsworth,West Valley,36,streets,8
+2026-11-10,99,Chatsworth,West Valley,36,other,5
+2026-11-10,96,Coastal San Pedro,Harbor,46,trash,37
+2026-11-10,96,Coastal San Pedro,Harbor,46,critters,3
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,125,trash,95
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,125,streets,15
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,125,other,6
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,125,critters,5
+2026-11-10,70,Del Rey,Westside,15,trash,7
+2026-11-10,70,Del Rey,Westside,15,other,6
+2026-11-10,52,Downtown Los Angeles,Central LA,167,trash,86
+2026-11-10,52,Downtown Los Angeles,Central LA,167,other,39
+2026-11-10,52,Downtown Los Angeles,Central LA,167,parking,19
+2026-11-10,52,Downtown Los Angeles,Central LA,167,streets,17
+2026-11-10,52,Downtown Los Angeles,Central LA,167,water,3
+2026-11-10,40,Eagle Rock,Eastside,20,trash,9
+2026-11-10,40,Eagle Rock,Eastside,20,streets,5
+2026-11-10,34,East Hollywood,Central LA,67,trash,53
+2026-11-10,34,East Hollywood,Central LA,67,other,7
+2026-11-10,34,East Hollywood,Central LA,67,streets,3
+2026-11-10,34,East Hollywood,Central LA,67,trees,3
+2026-11-10,44,Echo Park,Eastside,95,trash,71
+2026-11-10,44,Echo Park,Eastside,95,streets,13
+2026-11-10,44,Echo Park,Eastside,95,other,9
+2026-11-10,81,Empowerment Congress Central Area,South LA,78,trash,49
+2026-11-10,81,Empowerment Congress Central Area,South LA,78,streets,9
+2026-11-10,81,Empowerment Congress Central Area,South LA,78,other,7
+2026-11-10,81,Empowerment Congress Central Area,South LA,78,trees,6
+2026-11-10,81,Empowerment Congress Central Area,South LA,78,critters,6
+2026-11-10,77,Empowerment Congress North Area,South LA,55,trash,35
+2026-11-10,77,Empowerment Congress North Area,South LA,55,critters,6
+2026-11-10,77,Empowerment Congress North Area,South LA,55,streets,6
+2026-11-10,77,Empowerment Congress North Area,South LA,55,trees,4
+2026-11-10,77,Empowerment Congress North Area,South LA,55,other,3
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,121,trash,86
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,121,other,11
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,121,streets,9
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,121,trees,9
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,121,critters,3
+2026-11-10,84,Empowerment Congress Southwest Area,South LA,18,trash,11
+2026-11-10,84,Empowerment Congress Southwest Area,South LA,18,streets,5
+2026-11-10,79,Empowerment Congress West Area,South LA,25,trash,13
+2026-11-10,79,Empowerment Congress West Area,South LA,25,streets,4
+2026-11-10,79,Empowerment Congress West Area,South LA,25,trees,3
+2026-11-10,18,Encino,West Valley,27,trash,11
+2026-11-10,18,Encino,West Valley,27,streets,8
+2026-11-10,18,Encino,West Valley,27,other,4
+2026-11-10,9,Foothill Trails District,East Valley,10,trash,6
+2026-11-10,9,Foothill Trails District,East Valley,10,streets,3
+2026-11-10,39,Glassell Park,Eastside,19,trash,18
+2026-11-10,4,Granada Hills North,West Valley,15,trash,10
+2026-11-10,118,Granada Hills South,West Valley,46,trash,18
+2026-11-10,118,Granada Hills South,West Valley,46,housing,10
+2026-11-10,118,Granada Hills South,West Valley,46,streets,9
+2026-11-10,118,Granada Hills South,West Valley,46,critters,3
+2026-11-10,118,Granada Hills South,West Valley,46,trees,3
+2026-11-10,102,Greater Cypress Park,Eastside,14,trash,7
+2026-11-10,102,Greater Cypress Park,Eastside,14,other,3
+2026-11-10,28,Greater Toluca Lake,East Valley,15,trash,8
+2026-11-10,28,Greater Toluca Lake,East Valley,15,other,4
+2026-11-10,21,Greater Valley Glen,East Valley,44,trash,29
+2026-11-10,21,Greater Valley Glen,East Valley,44,streets,6
+2026-11-10,21,Greater Valley Glen,East Valley,44,other,4
+2026-11-10,119,Greater Wilshire,Central LA,60,trash,27
+2026-11-10,119,Greater Wilshire,Central LA,60,streets,22
+2026-11-10,119,Greater Wilshire,Central LA,60,water,5
+2026-11-10,119,Greater Wilshire,Central LA,60,trees,3
+2026-11-10,92,Harbor City,Harbor,9,trash,6
+2026-11-10,90,Harbor Gateway North,Harbor,34,trash,25
+2026-11-10,90,Harbor Gateway North,Harbor,34,other,3
+2026-11-10,91,Harbor Gateway South,Harbor,12,trash,11
+2026-11-10,128,Historic Cultural North,Central LA,7,trash,5
+2026-11-10,41,Historic Highland Park,Eastside,42,trash,30
+2026-11-10,41,Historic Highland Park,Eastside,42,streets,5
+2026-11-10,41,Historic Highland Park,Eastside,42,other,4
+2026-11-10,41,Historic Highland Park,Eastside,42,trees,3
+2026-11-10,29,Hollywood Hills West,Central LA,48,trash,21
+2026-11-10,29,Hollywood Hills West,Central LA,48,streets,9
+2026-11-10,29,Hollywood Hills West,Central LA,48,other,7
+2026-11-10,29,Hollywood Hills West,Central LA,48,parking,7
+2026-11-10,33,Hollywood Studio District,Central LA,35,trash,18
+2026-11-10,33,Hollywood Studio District,Central LA,35,streets,8
+2026-11-10,33,Hollywood Studio District,Central LA,35,other,5
+2026-11-10,30,Hollywood United,Central LA,32,trash,17
+2026-11-10,30,Hollywood United,Central LA,32,streets,10
+2026-11-10,48,LA-32,Eastside,40,trash,26
+2026-11-10,48,LA-32,Eastside,40,streets,5
+2026-11-10,48,LA-32,Eastside,40,other,4
+2026-11-10,48,LA-32,Eastside,40,critters,3
+2026-11-10,19,Lake Balboa,West Valley,116,trash,84
+2026-11-10,19,Lake Balboa,West Valley,116,other,13
+2026-11-10,19,Lake Balboa,West Valley,116,streets,13
+2026-11-10,19,Lake Balboa,West Valley,116,trees,4
+2026-11-10,47,Lincoln Heights,Eastside,26,trash,11
+2026-11-10,47,Lincoln Heights,Eastside,26,other,7
+2026-11-10,47,Lincoln Heights,Eastside,26,streets,4
+2026-11-10,36,Los Feliz,Eastside,40,trash,23
+2026-11-10,36,Los Feliz,Eastside,40,other,6
+2026-11-10,36,Los Feliz,Eastside,40,streets,5
+2026-11-10,36,Los Feliz,Eastside,40,critters,4
+2026-11-10,54,Macarthur Park,Central LA,256,trash,249
+2026-11-10,67,Mar Vista,Westside,42,trash,24
+2026-11-10,67,Mar Vista,Westside,42,streets,9
+2026-11-10,67,Mar Vista,Westside,42,other,4
+2026-11-10,73,Mid City,South LA,45,trash,25
+2026-11-10,73,Mid City,South LA,45,streets,14
+2026-11-10,73,Mid City,South LA,45,other,4
+2026-11-10,58,Mid City West,Central LA,74,trash,37
+2026-11-10,58,Mid City West,Central LA,74,streets,17
+2026-11-10,58,Mid City West,Central LA,74,other,12
+2026-11-10,58,Mid City West,Central LA,74,trees,3
+2026-11-10,58,Mid City West,Central LA,74,critters,3
+2026-11-10,101,Mission Hills,East Valley,8,trash,5
+2026-11-10,24,NoHo,East Valley,101,trash,50
+2026-11-10,24,NoHo,East Valley,101,streets,31
+2026-11-10,24,NoHo,East Valley,101,other,13
+2026-11-10,24,NoHo,East Valley,101,parking,5
+2026-11-10,22,NoHo West,East Valley,15,trash,7
+2026-11-10,22,NoHo West,East Valley,15,other,5
+2026-11-10,112,North Hills East,West Valley,18,trash,16
+2026-11-10,111,North Hills West,East Valley,8,trash,4
+2026-11-10,23,North Hollywood Northeast,East Valley,53,trash,40
+2026-11-10,23,North Hollywood Northeast,East Valley,53,other,5
+2026-11-10,23,North Hollywood Northeast,East Valley,53,streets,4
+2026-11-10,127,North Westwood,Westside,13,trash,7
+2026-11-10,127,North Westwood,Westside,13,streets,3
+2026-11-10,120,Northridge East,West Valley,27,trash,11
+2026-11-10,120,Northridge East,West Valley,27,streets,6
+2026-11-10,120,Northridge East,West Valley,27,housing,6
+2026-11-10,120,Northridge East,West Valley,27,critters,3
+2026-11-10,124,Northridge South,West Valley,38,trash,27
+2026-11-10,124,Northridge South,West Valley,38,trees,5
+2026-11-10,124,Northridge South,West Valley,38,streets,3
+2026-11-10,113,Northridge West,West Valley,16,trash,12
+2026-11-10,94,Northwest San Pedro,Harbor,9,trash,4
+2026-11-10,94,Northwest San Pedro,Harbor,9,trees,3
+2026-11-10,104,Olympic Park,Central LA,16,trash,8
+2026-11-10,104,Olympic Park,Central LA,16,streets,5
+2026-11-10,60,P.i.c.o.,Central LA,36,trash,26
+2026-11-10,60,P.i.c.o.,Central LA,36,other,3
+2026-11-10,60,P.i.c.o.,Central LA,36,streets,3
+2026-11-10,7,Pacoima,East Valley,44,trash,30
+2026-11-10,7,Pacoima,East Valley,44,critters,5
+2026-11-10,7,Pacoima,East Valley,44,streets,5
+2026-11-10,115,Palms,Westside,44,other,20
+2026-11-10,115,Palms,Westside,44,trash,17
+2026-11-10,115,Palms,Westside,44,streets,4
+2026-11-10,100,Panorama City,East Valley,33,trash,23
+2026-11-10,100,Panorama City,East Valley,33,streets,6
+2026-11-10,100,Panorama City,East Valley,33,other,4
+2026-11-10,80,Park Mesa Heights,South LA,34,trash,17
+2026-11-10,80,Park Mesa Heights,South LA,34,streets,7
+2026-11-10,80,Park Mesa Heights,South LA,34,critters,4
+2026-11-10,80,Park Mesa Heights,South LA,34,trees,3
+2026-11-10,76,Pico Union,Central LA,42,trash,28
+2026-11-10,76,Pico Union,Central LA,42,other,7
+2026-11-10,76,Pico Union,Central LA,42,critters,3
+2026-11-10,76,Pico Union,Central LA,42,streets,3
+2026-11-10,114,Porter Ranch,West Valley,9,trash,5
+2026-11-10,53,Rampart Village,Eastside,22,trash,13
+2026-11-10,53,Rampart Village,Eastside,22,other,7
+2026-11-10,15,Reseda,West Valley,48,trash,31
+2026-11-10,15,Reseda,West Valley,48,trees,6
+2026-11-10,15,Reseda,West Valley,48,streets,5
+2026-11-10,26,Sherman Oaks,East Valley,80,trash,44
+2026-11-10,26,Sherman Oaks,East Valley,80,streets,24
+2026-11-10,26,Sherman Oaks,East Valley,80,trees,6
+2026-11-10,38,Silver Lake,Eastside,24,trash,16
+2026-11-10,38,Silver Lake,Eastside,24,other,5
+2026-11-10,38,Silver Lake,Eastside,24,streets,3
+2026-11-10,78,South Central,South LA,117,trash,90
+2026-11-10,78,South Central,South LA,117,other,11
+2026-11-10,78,South Central,South LA,117,streets,7
+2026-11-10,78,South Central,South LA,117,critters,4
+2026-11-10,61,South Robertson,Westside,58,trash,31
+2026-11-10,61,South Robertson,Westside,58,other,12
+2026-11-10,61,South Robertson,Westside,58,trees,5
+2026-11-10,61,South Robertson,Westside,58,streets,5
+2026-11-10,61,South Robertson,Westside,58,parking,3
+2026-11-10,27,Studio City,East Valley,38,trash,21
+2026-11-10,27,Studio City,East Valley,38,streets,7
+2026-11-10,27,Studio City,East Valley,38,trees,5
+2026-11-10,27,Studio City,East Valley,38,other,3
+2026-11-10,8,Sun Valley Area,East Valley,54,trash,45
+2026-11-10,8,Sun Valley Area,East Valley,54,streets,4
+2026-11-10,8,Sun Valley Area,East Valley,54,other,4
+2026-11-10,10,Sunland-tujunga,East Valley,18,trash,10
+2026-11-10,10,Sunland-tujunga,East Valley,18,streets,3
+2026-11-10,5,Sylmar,East Valley,37,trash,27
+2026-11-10,5,Sylmar,East Valley,37,other,6
+2026-11-10,5,Sylmar,East Valley,37,streets,3
+2026-11-10,17,Tarzana,West Valley,19,trash,11
+2026-11-10,17,Tarzana,West Valley,19,streets,5
+2026-11-10,17,Tarzana,West Valley,19,parking,3
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,60,trash,38
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,60,streets,7
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,60,trees,4
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,60,water,3
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,60,critters,3
+2026-11-10,25,Valley Village,East Valley,25,trash,18
+2026-11-10,25,Valley Village,East Valley,25,other,4
+2026-11-10,20,Van Nuys,East Valley,94,trash,62
+2026-11-10,20,Van Nuys,East Valley,94,streets,17
+2026-11-10,20,Van Nuys,East Valley,94,other,5
+2026-11-10,20,Van Nuys,East Valley,94,critters,4
+2026-11-10,20,Van Nuys,East Valley,94,trees,3
+2026-11-10,68,Venice,Westside,125,parking,85
+2026-11-10,68,Venice,Westside,125,trash,22
+2026-11-10,68,Venice,Westside,125,streets,6
+2026-11-10,68,Venice,Westside,125,other,6
+2026-11-10,68,Venice,Westside,125,water,3
+2026-11-10,109,Voices Of 90037,South LA,64,trash,41
+2026-11-10,109,Voices Of 90037,South LA,64,other,11
+2026-11-10,109,Voices Of 90037,South LA,64,streets,7
+2026-11-10,109,Voices Of 90037,South LA,64,critters,3
+2026-11-10,88,Watts,South LA,23,trash,19
+2026-11-10,75,West Adams,South LA,48,trash,33
+2026-11-10,75,West Adams,South LA,48,streets,8
+2026-11-10,75,West Adams,South LA,48,other,3
+2026-11-10,11,West Hills,West Valley,29,trash,17
+2026-11-10,11,West Hills,West Valley,29,streets,6
+2026-11-10,66,West Los Angeles,Westside,43,trash,25
+2026-11-10,66,West Los Angeles,Westside,43,streets,6
+2026-11-10,66,West Los Angeles,Westside,43,parking,5
+2026-11-10,66,West Los Angeles,Westside,43,other,4
+2026-11-10,71,Westchester/playa,Westside,40,trash,25
+2026-11-10,71,Westchester/playa,Westside,40,streets,5
+2026-11-10,71,Westchester/playa,Westside,40,other,3
+2026-11-10,97,Westlake North,Central LA,31,trash,28
+2026-11-10,121,Westlake South,Central LA,47,trash,31
+2026-11-10,121,Westlake South,Central LA,47,other,6
+2026-11-10,121,Westlake South,Central LA,47,streets,6
+2026-11-10,62,Westside,Westside,30,trash,15
+2026-11-10,62,Westside,Westside,30,streets,6
+2026-11-10,62,Westside,Westside,30,trees,4
+2026-11-10,62,Westside,Westside,30,other,3
+2026-11-10,63,Westwood,Westside,19,trash,9
+2026-11-10,63,Westwood,Westside,19,streets,5
+2026-11-10,93,Wilmington,Harbor,63,trash,33
+2026-11-10,93,Wilmington,Harbor,63,streets,24
+2026-11-10,93,Wilmington,Harbor,63,trees,3
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,113,trash,77
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,113,streets,14
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,113,trees,9
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,113,other,7
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,113,critters,4
+2026-11-10,14,Winnetka,West Valley,35,trash,19
+2026-11-10,14,Winnetka,West Valley,35,other,8
+2026-11-10,14,Winnetka,West Valley,35,streets,4
+2026-11-10,16,Woodland Hills-warner Center,West Valley,50,trash,24
+2026-11-10,16,Woodland Hills-warner Center,West Valley,50,other,10
+2026-11-10,16,Woodland Hills-warner Center,West Valley,50,trees,6
+2026-11-10,16,Woodland Hills-warner Center,West Valley,50,streets,5
+2026-11-10,16,Woodland Hills-warner Center,West Valley,50,parking,4
+2026-11-10,125,Zapata King,South LA,64,trash,45
+2026-11-10,125,Zapata King,South LA,64,other,12
+2026-11-10,125,Zapata King,South LA,64,critters,3
+2026-11-10,125,Zapata King,South LA,64,trees,3
+2026-11-11,6,Arleta,East Valley,22,trash,10
+2026-11-11,6,Arleta,East Valley,22,critters,6
+2026-11-11,6,Arleta,East Valley,22,streets,3
+2026-11-11,42,Arroyo Seco,Eastside,14,trash,11
+2026-11-11,37,Atwater Village,Eastside,25,trash,19
+2026-11-11,64,Bel Air-beverly Crest,Westside,14,trees,6
+2026-11-11,64,Bel Air-beverly Crest,Westside,14,trash,5
+2026-11-11,50,Boyle Heights,Eastside,38,trash,28
+2026-11-11,50,Boyle Heights,Eastside,38,critters,5
+2026-11-11,13,Canoga Park,West Valley,60,trash,34
+2026-11-11,13,Canoga Park,West Valley,60,streets,11
+2026-11-11,13,Canoga Park,West Valley,60,other,8
+2026-11-11,13,Canoga Park,West Valley,60,critters,3
+2026-11-11,13,Canoga Park,West Valley,60,trees,3
+2026-11-11,110,Central Alameda,South LA,26,trash,10
+2026-11-11,110,Central Alameda,South LA,26,streets,8
+2026-11-11,110,Central Alameda,South LA,26,other,3
+2026-11-11,32,Central Hollywood,Central LA,20,trash,10
+2026-11-11,32,Central Hollywood,Central LA,20,streets,8
+2026-11-11,95,Central San Pedro,Harbor,14,trash,6
+2026-11-11,95,Central San Pedro,Harbor,14,critters,4
+2026-11-11,99,Chatsworth,West Valley,25,trash,14
+2026-11-11,99,Chatsworth,West Valley,25,streets,7
+2026-11-11,99,Chatsworth,West Valley,25,other,3
+2026-11-11,96,Coastal San Pedro,Harbor,23,trash,17
+2026-11-11,96,Coastal San Pedro,Harbor,23,trees,3
+2026-11-11,86,Community And Neighbors For Ninth District Unity (canndu),South LA,72,trash,58
+2026-11-11,86,Community And Neighbors For Ninth District Unity (canndu),South LA,72,other,8
+2026-11-11,70,Del Rey,Westside,15,other,6
+2026-11-11,70,Del Rey,Westside,15,trash,4
+2026-11-11,52,Downtown Los Angeles,Central LA,63,other,29
+2026-11-11,52,Downtown Los Angeles,Central LA,63,trash,24
+2026-11-11,52,Downtown Los Angeles,Central LA,63,streets,6
+2026-11-11,40,Eagle Rock,Eastside,28,trash,18
+2026-11-11,40,Eagle Rock,Eastside,28,other,5
+2026-11-11,34,East Hollywood,Central LA,114,trash,98
+2026-11-11,34,East Hollywood,Central LA,114,other,6
+2026-11-11,34,East Hollywood,Central LA,114,streets,4
+2026-11-11,34,East Hollywood,Central LA,114,critters,3
+2026-11-11,44,Echo Park,Eastside,40,trash,27
+2026-11-11,44,Echo Park,Eastside,40,streets,4
+2026-11-11,44,Echo Park,Eastside,40,trees,3
+2026-11-11,44,Echo Park,Eastside,40,other,3
+2026-11-11,43,Elysian Valley Riverside,Eastside,3,trash,3
+2026-11-11,81,Empowerment Congress Central Area,South LA,71,trash,56
+2026-11-11,81,Empowerment Congress Central Area,South LA,71,critters,4
+2026-11-11,81,Empowerment Congress Central Area,South LA,71,trees,4
+2026-11-11,81,Empowerment Congress Central Area,South LA,71,other,3
+2026-11-11,77,Empowerment Congress North Area,South LA,27,trash,14
+2026-11-11,77,Empowerment Congress North Area,South LA,27,streets,8
+2026-11-11,77,Empowerment Congress North Area,South LA,27,critters,3
+2026-11-11,87,Empowerment Congress Southeast Area,South LA,39,trash,23
+2026-11-11,87,Empowerment Congress Southeast Area,South LA,39,streets,6
+2026-11-11,87,Empowerment Congress Southeast Area,South LA,39,other,4
+2026-11-11,87,Empowerment Congress Southeast Area,South LA,39,critters,3
+2026-11-11,87,Empowerment Congress Southeast Area,South LA,39,trees,3
+2026-11-11,84,Empowerment Congress Southwest Area,South LA,28,trash,21
+2026-11-11,84,Empowerment Congress Southwest Area,South LA,28,streets,3
+2026-11-11,79,Empowerment Congress West Area,South LA,19,trash,13
+2026-11-11,79,Empowerment Congress West Area,South LA,19,streets,4
+2026-11-11,18,Encino,West Valley,35,trash,24
+2026-11-11,18,Encino,West Valley,35,streets,4
+2026-11-11,18,Encino,West Valley,35,other,3
+2026-11-11,9,Foothill Trails District,East Valley,9,other,3
+2026-11-11,39,Glassell Park,Eastside,11,trash,9
+2026-11-11,4,Granada Hills North,West Valley,6,trash,4
+2026-11-11,118,Granada Hills South,West Valley,11,trash,7
+2026-11-11,102,Greater Cypress Park,Eastside,12,trash,6
+2026-11-11,102,Greater Cypress Park,Eastside,12,streets,4
+2026-11-11,28,Greater Toluca Lake,East Valley,6,trash,4
+2026-11-11,21,Greater Valley Glen,East Valley,62,housing,31
+2026-11-11,21,Greater Valley Glen,East Valley,62,trash,24
+2026-11-11,21,Greater Valley Glen,East Valley,62,streets,4
+2026-11-11,119,Greater Wilshire,Central LA,34,trash,17
+2026-11-11,119,Greater Wilshire,Central LA,34,streets,11
+2026-11-11,119,Greater Wilshire,Central LA,34,other,3
+2026-11-11,92,Harbor City,Harbor,9,trash,6
+2026-11-11,90,Harbor Gateway North,Harbor,17,trash,10
+2026-11-11,90,Harbor Gateway North,Harbor,17,streets,4
+2026-11-11,91,Harbor Gateway South,Harbor,12,trash,6
+2026-11-11,91,Harbor Gateway South,Harbor,12,streets,4
+2026-11-11,128,Historic Cultural North,Central LA,13,trash,10
+2026-11-11,128,Historic Cultural North,Central LA,13,other,3
+2026-11-11,41,Historic Highland Park,Eastside,27,trash,19
+2026-11-11,41,Historic Highland Park,Eastside,27,streets,3
+2026-11-11,29,Hollywood Hills West,Central LA,58,trash,21
+2026-11-11,29,Hollywood Hills West,Central LA,58,parking,14
+2026-11-11,29,Hollywood Hills West,Central LA,58,other,10
+2026-11-11,29,Hollywood Hills West,Central LA,58,streets,5
+2026-11-11,29,Hollywood Hills West,Central LA,58,critters,5
+2026-11-11,33,Hollywood Studio District,Central LA,40,trash,24
+2026-11-11,33,Hollywood Studio District,Central LA,40,streets,13
+2026-11-11,30,Hollywood United,Central LA,17,trash,9
+2026-11-11,30,Hollywood United,Central LA,17,streets,7
+2026-11-11,48,LA-32,Eastside,18,trash,10
+2026-11-11,48,LA-32,Eastside,18,other,3
+2026-11-11,19,Lake Balboa,West Valley,60,trash,46
+2026-11-11,19,Lake Balboa,West Valley,60,other,6
+2026-11-11,19,Lake Balboa,West Valley,60,streets,5
+2026-11-11,47,Lincoln Heights,Eastside,14,trash,11
+2026-11-11,36,Los Feliz,Eastside,50,trash,38
+2026-11-11,36,Los Feliz,Eastside,50,streets,7
+2026-11-11,36,Los Feliz,Eastside,50,other,3
+2026-11-11,54,Macarthur Park,Central LA,260,trash,256
+2026-11-11,54,Macarthur Park,Central LA,260,other,4
+2026-11-11,67,Mar Vista,Westside,27,trash,13
+2026-11-11,67,Mar Vista,Westside,27,streets,5
+2026-11-11,67,Mar Vista,Westside,27,critters,5
+2026-11-11,67,Mar Vista,Westside,27,other,3
+2026-11-11,73,Mid City,South LA,17,trash,12
+2026-11-11,58,Mid City West,Central LA,69,trash,41
+2026-11-11,58,Mid City West,Central LA,69,other,10
+2026-11-11,58,Mid City West,Central LA,69,streets,7
+2026-11-11,58,Mid City West,Central LA,69,trees,5
+2026-11-11,101,Mission Hills,East Valley,5,trash,3
+2026-11-11,24,NoHo,East Valley,57,trash,38
+2026-11-11,24,NoHo,East Valley,57,parking,5
+2026-11-11,24,NoHo,East Valley,57,trees,5
+2026-11-11,24,NoHo,East Valley,57,critters,5
+2026-11-11,22,NoHo West,East Valley,11,trash,7
+2026-11-11,22,NoHo West,East Valley,11,other,4
+2026-11-11,112,North Hills East,West Valley,40,trash,38
+2026-11-11,111,North Hills West,East Valley,10,trash,6
+2026-11-11,111,North Hills West,East Valley,10,streets,4
+2026-11-11,23,North Hollywood Northeast,East Valley,40,trash,31
+2026-11-11,23,North Hollywood Northeast,East Valley,40,critters,4
+2026-11-11,23,North Hollywood Northeast,East Valley,40,other,4
+2026-11-11,120,Northridge East,West Valley,11,streets,6
+2026-11-11,120,Northridge East,West Valley,11,trash,4
+2026-11-11,124,Northridge South,West Valley,23,trash,18
+2026-11-11,124,Northridge South,West Valley,23,streets,3
+2026-11-11,113,Northridge West,West Valley,18,streets,11
+2026-11-11,113,Northridge West,West Valley,18,trash,4
+2026-11-11,113,Northridge West,West Valley,18,critters,3
+2026-11-11,104,Olympic Park,Central LA,10,trash,7
+2026-11-11,60,P.i.c.o.,Central LA,19,trash,18
+2026-11-11,7,Pacoima,East Valley,19,trash,12
+2026-11-11,7,Pacoima,East Valley,19,critters,3
+2026-11-11,115,Palms,Westside,31,trash,17
+2026-11-11,115,Palms,Westside,31,other,5
+2026-11-11,115,Palms,Westside,31,parking,5
+2026-11-11,100,Panorama City,East Valley,44,trash,37
+2026-11-11,100,Panorama City,East Valley,44,critters,3
+2026-11-11,100,Panorama City,East Valley,44,other,3
+2026-11-11,80,Park Mesa Heights,South LA,80,trash,71
+2026-11-11,80,Park Mesa Heights,South LA,80,streets,7
+2026-11-11,76,Pico Union,Central LA,40,trash,29
+2026-11-11,76,Pico Union,Central LA,40,streets,5
+2026-11-11,76,Pico Union,Central LA,40,other,4
+2026-11-11,114,Porter Ranch,West Valley,6,trash,3
+2026-11-11,53,Rampart Village,Eastside,10,trash,8
+2026-11-11,15,Reseda,West Valley,42,trash,26
+2026-11-11,15,Reseda,West Valley,42,critters,7
+2026-11-11,15,Reseda,West Valley,42,streets,4
+2026-11-11,15,Reseda,West Valley,42,other,3
+2026-11-11,26,Sherman Oaks,East Valley,47,trash,31
+2026-11-11,26,Sherman Oaks,East Valley,47,streets,5
+2026-11-11,26,Sherman Oaks,East Valley,47,parking,4
+2026-11-11,26,Sherman Oaks,East Valley,47,other,3
+2026-11-11,38,Silver Lake,Eastside,26,trash,17
+2026-11-11,38,Silver Lake,Eastside,26,streets,5
+2026-11-11,38,Silver Lake,Eastside,26,other,3
+2026-11-11,78,South Central,South LA,39,trash,30
+2026-11-11,78,South Central,South LA,39,other,6
+2026-11-11,61,South Robertson,Westside,42,trash,26
+2026-11-11,61,South Robertson,Westside,42,streets,10
+2026-11-11,61,South Robertson,Westside,42,other,5
+2026-11-11,27,Studio City,East Valley,24,trash,14
+2026-11-11,27,Studio City,East Valley,24,other,4
+2026-11-11,8,Sun Valley Area,East Valley,28,trash,19
+2026-11-11,8,Sun Valley Area,East Valley,28,other,6
+2026-11-11,10,Sunland-tujunga,East Valley,21,trash,10
+2026-11-11,10,Sunland-tujunga,East Valley,21,streets,5
+2026-11-11,10,Sunland-tujunga,East Valley,21,critters,4
+2026-11-11,5,Sylmar,East Valley,25,trash,10
+2026-11-11,5,Sylmar,East Valley,25,critters,6
+2026-11-11,5,Sylmar,East Valley,25,other,4
+2026-11-11,5,Sylmar,East Valley,25,streets,3
+2026-11-11,17,Tarzana,West Valley,38,trash,31
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,34,trash,19
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,34,trees,5
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,34,other,4
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,34,water,3
+2026-11-11,25,Valley Village,East Valley,8,trash,8
+2026-11-11,20,Van Nuys,East Valley,123,trash,78
+2026-11-11,20,Van Nuys,East Valley,123,housing,22
+2026-11-11,20,Van Nuys,East Valley,123,streets,12
+2026-11-11,20,Van Nuys,East Valley,123,other,4
+2026-11-11,68,Venice,Westside,23,trash,14
+2026-11-11,68,Venice,Westside,23,streets,5
+2026-11-11,109,Voices Of 90037,South LA,30,trash,25
+2026-11-11,88,Watts,South LA,19,trash,13
+2026-11-11,88,Watts,South LA,19,streets,4
+2026-11-11,75,West Adams,South LA,13,trash,8
+2026-11-11,11,West Hills,West Valley,18,streets,6
+2026-11-11,11,West Hills,West Valley,18,trash,4
+2026-11-11,11,West Hills,West Valley,18,critters,4
+2026-11-11,11,West Hills,West Valley,18,other,3
+2026-11-11,66,West Los Angeles,Westside,24,trash,11
+2026-11-11,66,West Los Angeles,Westside,24,streets,7
+2026-11-11,71,Westchester/playa,Westside,21,trash,13
+2026-11-11,71,Westchester/playa,Westside,21,streets,3
+2026-11-11,97,Westlake North,Central LA,10,trash,10
+2026-11-11,121,Westlake South,Central LA,17,trash,9
+2026-11-11,121,Westlake South,Central LA,17,other,3
+2026-11-11,62,Westside,Westside,23,trash,11
+2026-11-11,62,Westside,Westside,23,streets,6
+2026-11-11,63,Westwood,Westside,15,streets,6
+2026-11-11,63,Westwood,Westside,15,trees,3
+2026-11-11,93,Wilmington,Harbor,35,trash,28
+2026-11-11,93,Wilmington,Harbor,35,streets,3
+2026-11-11,55,Wilshire Center - Koreatown,Central LA,140,trash,120
+2026-11-11,55,Wilshire Center - Koreatown,Central LA,140,other,9
+2026-11-11,55,Wilshire Center - Koreatown,Central LA,140,streets,6
+2026-11-11,55,Wilshire Center - Koreatown,Central LA,140,critters,3
+2026-11-11,14,Winnetka,West Valley,35,trash,20
+2026-11-11,14,Winnetka,West Valley,35,trees,5
+2026-11-11,14,Winnetka,West Valley,35,other,4
+2026-11-11,14,Winnetka,West Valley,35,critters,4
+2026-11-11,16,Woodland Hills-warner Center,West Valley,29,streets,9
+2026-11-11,16,Woodland Hills-warner Center,West Valley,29,other,8
+2026-11-11,16,Woodland Hills-warner Center,West Valley,29,trash,8
+2026-11-11,125,Zapata King,South LA,43,trash,32
+2026-11-11,125,Zapata King,South LA,43,other,6
+2026-11-11,125,Zapata King,South LA,43,streets,4
+2026-11-12,6,Arleta,East Valley,32,trash,25
+2026-11-12,6,Arleta,East Valley,32,other,3
+2026-11-12,42,Arroyo Seco,Eastside,16,trash,13
+2026-11-12,37,Atwater Village,Eastside,13,trash,6
+2026-11-12,37,Atwater Village,Eastside,13,streets,3
+2026-11-12,64,Bel Air-beverly Crest,Westside,25,streets,11
+2026-11-12,64,Bel Air-beverly Crest,Westside,25,trash,9
+2026-11-12,50,Boyle Heights,Eastside,90,trash,71
+2026-11-12,50,Boyle Heights,Eastside,90,streets,6
+2026-11-12,50,Boyle Heights,Eastside,90,critters,6
+2026-11-12,50,Boyle Heights,Eastside,90,trees,4
+2026-11-12,13,Canoga Park,West Valley,60,trash,41
+2026-11-12,13,Canoga Park,West Valley,60,other,11
+2026-11-12,13,Canoga Park,West Valley,60,streets,4
+2026-11-12,13,Canoga Park,West Valley,60,critters,3
+2026-11-12,110,Central Alameda,South LA,33,trash,19
+2026-11-12,110,Central Alameda,South LA,33,critters,6
+2026-11-12,110,Central Alameda,South LA,33,streets,4
+2026-11-12,110,Central Alameda,South LA,33,other,3
+2026-11-12,32,Central Hollywood,Central LA,37,streets,17
+2026-11-12,32,Central Hollywood,Central LA,37,trash,11
+2026-11-12,32,Central Hollywood,Central LA,37,parking,6
+2026-11-12,32,Central Hollywood,Central LA,37,other,3
+2026-11-12,95,Central San Pedro,Harbor,45,trash,39
+2026-11-12,99,Chatsworth,West Valley,30,trash,15
+2026-11-12,99,Chatsworth,West Valley,30,streets,11
+2026-11-12,99,Chatsworth,West Valley,30,other,3
+2026-11-12,96,Coastal San Pedro,Harbor,35,trash,29
+2026-11-12,96,Coastal San Pedro,Harbor,35,critters,3
+2026-11-12,86,Community And Neighbors For Ninth District Unity (canndu),South LA,49,trash,38
+2026-11-12,86,Community And Neighbors For Ninth District Unity (canndu),South LA,49,streets,6
+2026-11-12,86,Community And Neighbors For Ninth District Unity (canndu),South LA,49,other,3
+2026-11-12,70,Del Rey,Westside,9,streets,3
+2026-11-12,70,Del Rey,Westside,9,trash,3
+2026-11-12,52,Downtown Los Angeles,Central LA,115,trash,49
+2026-11-12,52,Downtown Los Angeles,Central LA,115,other,34
+2026-11-12,52,Downtown Los Angeles,Central LA,115,streets,21
+2026-11-12,52,Downtown Los Angeles,Central LA,115,parking,8
+2026-11-12,40,Eagle Rock,Eastside,23,trash,16
+2026-11-12,40,Eagle Rock,Eastside,23,streets,5
+2026-11-12,34,East Hollywood,Central LA,34,trash,25
+2026-11-12,34,East Hollywood,Central LA,34,other,5
+2026-11-12,44,Echo Park,Eastside,71,trash,53
+2026-11-12,44,Echo Park,Eastside,71,trees,4
+2026-11-12,44,Echo Park,Eastside,71,other,4
+2026-11-12,44,Echo Park,Eastside,71,streets,4
+2026-11-12,44,Echo Park,Eastside,71,water,3
+2026-11-12,43,Elysian Valley Riverside,Eastside,9,trash,5
+2026-11-12,81,Empowerment Congress Central Area,South LA,59,trash,39
+2026-11-12,81,Empowerment Congress Central Area,South LA,59,other,7
+2026-11-12,81,Empowerment Congress Central Area,South LA,59,streets,7
+2026-11-12,81,Empowerment Congress Central Area,South LA,59,trees,3
+2026-11-12,77,Empowerment Congress North Area,South LA,49,trash,23
+2026-11-12,77,Empowerment Congress North Area,South LA,49,critters,9
+2026-11-12,77,Empowerment Congress North Area,South LA,49,other,7
+2026-11-12,77,Empowerment Congress North Area,South LA,49,streets,4
+2026-11-12,77,Empowerment Congress North Area,South LA,49,trees,4
+2026-11-12,87,Empowerment Congress Southeast Area,South LA,170,trash,144
+2026-11-12,87,Empowerment Congress Southeast Area,South LA,170,critters,11
+2026-11-12,87,Empowerment Congress Southeast Area,South LA,170,other,9
+2026-11-12,84,Empowerment Congress Southwest Area,South LA,39,trash,20
+2026-11-12,84,Empowerment Congress Southwest Area,South LA,39,streets,11
+2026-11-12,84,Empowerment Congress Southwest Area,South LA,39,trees,6
+2026-11-12,79,Empowerment Congress West Area,South LA,38,trash,24
+2026-11-12,79,Empowerment Congress West Area,South LA,38,streets,7
+2026-11-12,79,Empowerment Congress West Area,South LA,38,other,6
+2026-11-12,18,Encino,West Valley,30,trash,18
+2026-11-12,18,Encino,West Valley,30,streets,6
+2026-11-12,18,Encino,West Valley,30,trees,4
+2026-11-12,9,Foothill Trails District,East Valley,19,trash,8
+2026-11-12,9,Foothill Trails District,East Valley,19,other,6
+2026-11-12,9,Foothill Trails District,East Valley,19,streets,5
+2026-11-12,39,Glassell Park,Eastside,14,trash,11
+2026-11-12,4,Granada Hills North,West Valley,10,trash,5
+2026-11-12,4,Granada Hills North,West Valley,10,streets,3
+2026-11-12,118,Granada Hills South,West Valley,20,trash,14
+2026-11-12,118,Granada Hills South,West Valley,20,streets,4
+2026-11-12,102,Greater Cypress Park,Eastside,9,trash,8
+2026-11-12,28,Greater Toluca Lake,East Valley,13,trash,7
+2026-11-12,28,Greater Toluca Lake,East Valley,13,other,3
+2026-11-12,21,Greater Valley Glen,East Valley,34,trash,21
+2026-11-12,21,Greater Valley Glen,East Valley,34,streets,10
+2026-11-12,119,Greater Wilshire,Central LA,67,trash,38
+2026-11-12,119,Greater Wilshire,Central LA,67,streets,20
+2026-11-12,119,Greater Wilshire,Central LA,67,critters,4
+2026-11-12,119,Greater Wilshire,Central LA,67,trees,3
+2026-11-12,92,Harbor City,Harbor,16,trash,9
+2026-11-12,90,Harbor Gateway North,Harbor,114,trash,105
+2026-11-12,90,Harbor Gateway North,Harbor,114,water,4
+2026-11-12,90,Harbor Gateway North,Harbor,114,streets,3
+2026-11-12,91,Harbor Gateway South,Harbor,8,trash,6
+2026-11-12,128,Historic Cultural North,Central LA,39,trash,34
+2026-11-12,128,Historic Cultural North,Central LA,39,streets,4
+2026-11-12,41,Historic Highland Park,Eastside,32,trash,23
+2026-11-12,41,Historic Highland Park,Eastside,32,other,3
+2026-11-12,29,Hollywood Hills West,Central LA,62,trash,22
+2026-11-12,29,Hollywood Hills West,Central LA,62,streets,17
+2026-11-12,29,Hollywood Hills West,Central LA,62,parking,15
+2026-11-12,29,Hollywood Hills West,Central LA,62,trees,4
+2026-11-12,29,Hollywood Hills West,Central LA,62,other,4
+2026-11-12,33,Hollywood Studio District,Central LA,31,trash,26
+2026-11-12,30,Hollywood United,Central LA,35,trash,16
+2026-11-12,30,Hollywood United,Central LA,35,streets,9
+2026-11-12,30,Hollywood United,Central LA,35,other,5
+2026-11-12,30,Hollywood United,Central LA,35,parking,3
+2026-11-12,48,LA-32,Eastside,22,trash,12
+2026-11-12,48,LA-32,Eastside,22,streets,4
+2026-11-12,48,LA-32,Eastside,22,other,3
+2026-11-12,19,Lake Balboa,West Valley,34,trash,23
+2026-11-12,19,Lake Balboa,West Valley,34,critters,3
+2026-11-12,47,Lincoln Heights,Eastside,27,trash,16
+2026-11-12,47,Lincoln Heights,Eastside,27,trees,3
+2026-11-12,36,Los Feliz,Eastside,24,trash,9
+2026-11-12,36,Los Feliz,Eastside,24,other,6
+2026-11-12,36,Los Feliz,Eastside,24,streets,5
+2026-11-12,54,Macarthur Park,Central LA,262,trash,257
+2026-11-12,54,Macarthur Park,Central LA,262,streets,4
+2026-11-12,67,Mar Vista,Westside,30,trash,17
+2026-11-12,67,Mar Vista,Westside,30,other,7
+2026-11-12,73,Mid City,South LA,31,trash,23
+2026-11-12,73,Mid City,South LA,31,critters,4
+2026-11-12,58,Mid City West,Central LA,48,trash,29
+2026-11-12,58,Mid City West,Central LA,48,trees,5
+2026-11-12,58,Mid City West,Central LA,48,streets,5
+2026-11-12,58,Mid City West,Central LA,48,water,4
+2026-11-12,101,Mission Hills,East Valley,23,trash,13
+2026-11-12,101,Mission Hills,East Valley,23,streets,5
+2026-11-12,24,NoHo,East Valley,59,trash,41
+2026-11-12,24,NoHo,East Valley,59,parking,6
+2026-11-12,24,NoHo,East Valley,59,other,6
+2026-11-12,24,NoHo,East Valley,59,streets,4
+2026-11-12,22,NoHo West,East Valley,26,trash,20
+2026-11-12,22,NoHo West,East Valley,26,streets,3
+2026-11-12,112,North Hills East,West Valley,26,trash,16
+2026-11-12,112,North Hills East,West Valley,26,streets,5
+2026-11-12,112,North Hills East,West Valley,26,other,3
+2026-11-12,111,North Hills West,East Valley,14,trash,9
+2026-11-12,23,North Hollywood Northeast,East Valley,45,trash,33
+2026-11-12,23,North Hollywood Northeast,East Valley,45,streets,6
+2026-11-12,23,North Hollywood Northeast,East Valley,45,trees,4
+2026-11-12,127,North Westwood,Westside,11,trash,6
+2026-11-12,127,North Westwood,Westside,11,streets,3
+2026-11-12,120,Northridge East,West Valley,27,trash,18
+2026-11-12,120,Northridge East,West Valley,27,streets,5
+2026-11-12,124,Northridge South,West Valley,32,trash,20
+2026-11-12,124,Northridge South,West Valley,32,streets,6
+2026-11-12,124,Northridge South,West Valley,32,other,3
+2026-11-12,113,Northridge West,West Valley,13,streets,6
+2026-11-12,113,Northridge West,West Valley,13,trees,4
+2026-11-12,94,Northwest San Pedro,Harbor,10,trash,6
+2026-11-12,94,Northwest San Pedro,Harbor,10,critters,3
+2026-11-12,104,Olympic Park,Central LA,14,trash,7
+2026-11-12,104,Olympic Park,Central LA,14,streets,3
+2026-11-12,60,P.i.c.o.,Central LA,33,trash,28
+2026-11-12,60,P.i.c.o.,Central LA,33,trees,3
+2026-11-12,7,Pacoima,East Valley,72,trash,59
+2026-11-12,7,Pacoima,East Valley,72,critters,7
+2026-11-12,7,Pacoima,East Valley,72,other,4
+2026-11-12,115,Palms,Westside,57,trash,25
+2026-11-12,115,Palms,Westside,57,critters,14
+2026-11-12,115,Palms,Westside,57,other,10
+2026-11-12,115,Palms,Westside,57,streets,3
+2026-11-12,100,Panorama City,East Valley,37,trash,25
+2026-11-12,100,Panorama City,East Valley,37,other,5
+2026-11-12,100,Panorama City,East Valley,37,streets,5
+2026-11-12,80,Park Mesa Heights,South LA,23,trash,14
+2026-11-12,80,Park Mesa Heights,South LA,23,streets,4
+2026-11-12,80,Park Mesa Heights,South LA,23,critters,3
+2026-11-12,76,Pico Union,Central LA,41,trash,24
+2026-11-12,76,Pico Union,Central LA,41,trees,6
+2026-11-12,76,Pico Union,Central LA,41,other,6
+2026-11-12,76,Pico Union,Central LA,41,streets,3
+2026-11-12,114,Porter Ranch,West Valley,6,trash,3
+2026-11-12,114,Porter Ranch,West Valley,6,streets,3
+2026-11-12,53,Rampart Village,Eastside,35,trash,21
+2026-11-12,53,Rampart Village,Eastside,35,streets,6
+2026-11-12,53,Rampart Village,Eastside,35,other,5
+2026-11-12,15,Reseda,West Valley,58,trash,46
+2026-11-12,15,Reseda,West Valley,58,streets,8
+2026-11-12,26,Sherman Oaks,East Valley,49,trash,25
+2026-11-12,26,Sherman Oaks,East Valley,49,streets,13
+2026-11-12,26,Sherman Oaks,East Valley,49,other,6
+2026-11-12,38,Silver Lake,Eastside,30,trash,20
+2026-11-12,38,Silver Lake,Eastside,30,streets,7
+2026-11-12,78,South Central,South LA,55,trash,33
+2026-11-12,78,South Central,South LA,55,trees,8
+2026-11-12,78,South Central,South LA,55,streets,5
+2026-11-12,78,South Central,South LA,55,critters,4
+2026-11-12,78,South Central,South LA,55,other,3
+2026-11-12,61,South Robertson,Westside,67,trash,52
+2026-11-12,61,South Robertson,Westside,67,streets,8
+2026-11-12,61,South Robertson,Westside,67,other,6
+2026-11-12,27,Studio City,East Valley,44,trash,22
+2026-11-12,27,Studio City,East Valley,44,streets,15
+2026-11-12,8,Sun Valley Area,East Valley,43,trash,28
+2026-11-12,8,Sun Valley Area,East Valley,43,streets,5
+2026-11-12,8,Sun Valley Area,East Valley,43,water,3
+2026-11-12,8,Sun Valley Area,East Valley,43,other,3
+2026-11-12,8,Sun Valley Area,East Valley,43,trees,3
+2026-11-12,10,Sunland-tujunga,East Valley,24,trash,20
+2026-11-12,5,Sylmar,East Valley,50,trash,32
+2026-11-12,5,Sylmar,East Valley,50,other,7
+2026-11-12,5,Sylmar,East Valley,50,streets,7
+2026-11-12,17,Tarzana,West Valley,22,trash,8
+2026-11-12,17,Tarzana,West Valley,22,streets,5
+2026-11-12,17,Tarzana,West Valley,22,trees,5
+2026-11-12,17,Tarzana,West Valley,22,other,4
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,44,trash,18
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,44,streets,15
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,44,trees,3
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,44,critters,3
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,44,other,3
+2026-11-12,20,Van Nuys,East Valley,78,trash,47
+2026-11-12,20,Van Nuys,East Valley,78,other,11
+2026-11-12,20,Van Nuys,East Valley,78,streets,9
+2026-11-12,20,Van Nuys,East Valley,78,critters,6
+2026-11-12,20,Van Nuys,East Valley,78,parking,3
+2026-11-12,68,Venice,Westside,38,trash,18
+2026-11-12,68,Venice,Westside,38,other,8
+2026-11-12,68,Venice,Westside,38,streets,4
+2026-11-12,68,Venice,Westside,38,parking,3
+2026-11-12,109,Voices Of 90037,South LA,42,trash,25
+2026-11-12,109,Voices Of 90037,South LA,42,critters,6
+2026-11-12,109,Voices Of 90037,South LA,42,other,4
+2026-11-12,109,Voices Of 90037,South LA,42,streets,4
+2026-11-12,88,Watts,South LA,17,trash,13
+2026-11-12,75,West Adams,South LA,32,trash,22
+2026-11-12,75,West Adams,South LA,32,trees,4
+2026-11-12,75,West Adams,South LA,32,streets,3
+2026-11-12,11,West Hills,West Valley,37,trash,14
+2026-11-12,11,West Hills,West Valley,37,streets,9
+2026-11-12,11,West Hills,West Valley,37,other,6
+2026-11-12,11,West Hills,West Valley,37,critters,3
+2026-11-12,11,West Hills,West Valley,37,trees,3
+2026-11-12,66,West Los Angeles,Westside,28,trash,19
+2026-11-12,66,West Los Angeles,Westside,28,other,5
+2026-11-12,71,Westchester/playa,Westside,19,trash,12
+2026-11-12,71,Westchester/playa,Westside,19,streets,6
+2026-11-12,97,Westlake North,Central LA,26,trash,19
+2026-11-12,97,Westlake North,Central LA,26,streets,4
+2026-11-12,121,Westlake South,Central LA,32,trash,18
+2026-11-12,121,Westlake South,Central LA,32,other,5
+2026-11-12,121,Westlake South,Central LA,32,streets,5
+2026-11-12,62,Westside,Westside,33,trash,18
+2026-11-12,62,Westside,Westside,33,streets,12
+2026-11-12,62,Westside,Westside,33,trees,3
+2026-11-12,63,Westwood,Westside,19,trees,5
+2026-11-12,63,Westwood,Westside,19,streets,4
+2026-11-12,63,Westwood,Westside,19,trash,4
+2026-11-12,63,Westwood,Westside,19,parking,3
+2026-11-12,93,Wilmington,Harbor,48,trash,34
+2026-11-12,93,Wilmington,Harbor,48,streets,7
+2026-11-12,93,Wilmington,Harbor,48,critters,5
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,154,trash,97
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,154,streets,42
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,154,other,9
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,154,trees,3
+2026-11-12,14,Winnetka,West Valley,45,trash,29
+2026-11-12,14,Winnetka,West Valley,45,other,6
+2026-11-12,14,Winnetka,West Valley,45,streets,6
+2026-11-12,16,Woodland Hills-warner Center,West Valley,84,housing,38
+2026-11-12,16,Woodland Hills-warner Center,West Valley,84,trash,22
+2026-11-12,16,Woodland Hills-warner Center,West Valley,84,other,11
+2026-11-12,16,Woodland Hills-warner Center,West Valley,84,streets,8
+2026-11-12,125,Zapata King,South LA,43,trash,28
+2026-11-12,125,Zapata King,South LA,43,critters,7
+2026-11-12,125,Zapata King,South LA,43,other,3
+2026-11-13,6,Arleta,East Valley,16,trash,8
+2026-11-13,6,Arleta,East Valley,16,other,4
+2026-11-13,42,Arroyo Seco,Eastside,9,trash,7
+2026-11-13,37,Atwater Village,Eastside,14,trash,11
+2026-11-13,64,Bel Air-beverly Crest,Westside,21,trash,10
+2026-11-13,64,Bel Air-beverly Crest,Westside,21,streets,8
+2026-11-13,50,Boyle Heights,Eastside,47,trash,27
+2026-11-13,50,Boyle Heights,Eastside,47,streets,11
+2026-11-13,50,Boyle Heights,Eastside,47,other,3
+2026-11-13,50,Boyle Heights,Eastside,47,critters,3
+2026-11-13,13,Canoga Park,West Valley,34,trash,22
+2026-11-13,13,Canoga Park,West Valley,34,other,6
+2026-11-13,13,Canoga Park,West Valley,34,streets,4
+2026-11-13,110,Central Alameda,South LA,15,trash,6
+2026-11-13,110,Central Alameda,South LA,15,other,4
+2026-11-13,32,Central Hollywood,Central LA,14,trash,7
+2026-11-13,32,Central Hollywood,Central LA,14,other,4
+2026-11-13,95,Central San Pedro,Harbor,27,trash,18
+2026-11-13,95,Central San Pedro,Harbor,27,streets,6
+2026-11-13,99,Chatsworth,West Valley,11,streets,6
+2026-11-13,96,Coastal San Pedro,Harbor,16,trash,11
+2026-11-13,86,Community And Neighbors For Ninth District Unity (canndu),South LA,42,trash,24
+2026-11-13,86,Community And Neighbors For Ninth District Unity (canndu),South LA,42,streets,6
+2026-11-13,86,Community And Neighbors For Ninth District Unity (canndu),South LA,42,other,6
+2026-11-13,70,Del Rey,Westside,16,trash,9
+2026-11-13,70,Del Rey,Westside,16,other,3
+2026-11-13,52,Downtown Los Angeles,Central LA,110,trash,44
+2026-11-13,52,Downtown Los Angeles,Central LA,110,other,30
+2026-11-13,52,Downtown Los Angeles,Central LA,110,streets,29
+2026-11-13,52,Downtown Los Angeles,Central LA,110,water,4
+2026-11-13,40,Eagle Rock,Eastside,19,trash,8
+2026-11-13,40,Eagle Rock,Eastside,19,other,4
+2026-11-13,40,Eagle Rock,Eastside,19,trees,4
+2026-11-13,40,Eagle Rock,Eastside,19,streets,3
+2026-11-13,34,East Hollywood,Central LA,58,trash,42
+2026-11-13,34,East Hollywood,Central LA,58,other,9
+2026-11-13,34,East Hollywood,Central LA,58,trees,4
+2026-11-13,44,Echo Park,Eastside,44,trash,29
+2026-11-13,44,Echo Park,Eastside,44,streets,5
+2026-11-13,44,Echo Park,Eastside,44,other,4
+2026-11-13,44,Echo Park,Eastside,44,parking,4
+2026-11-13,81,Empowerment Congress Central Area,South LA,49,trash,33
+2026-11-13,81,Empowerment Congress Central Area,South LA,49,trees,11
+2026-11-13,77,Empowerment Congress North Area,South LA,56,trash,40
+2026-11-13,77,Empowerment Congress North Area,South LA,56,streets,5
+2026-11-13,77,Empowerment Congress North Area,South LA,56,other,4
+2026-11-13,77,Empowerment Congress North Area,South LA,56,trees,3
+2026-11-13,77,Empowerment Congress North Area,South LA,56,critters,3
+2026-11-13,87,Empowerment Congress Southeast Area,South LA,83,trash,67
+2026-11-13,87,Empowerment Congress Southeast Area,South LA,83,streets,5
+2026-11-13,87,Empowerment Congress Southeast Area,South LA,83,other,5
+2026-11-13,87,Empowerment Congress Southeast Area,South LA,83,critters,3
+2026-11-13,84,Empowerment Congress Southwest Area,South LA,33,trash,23
+2026-11-13,84,Empowerment Congress Southwest Area,South LA,33,trees,5
+2026-11-13,84,Empowerment Congress Southwest Area,South LA,33,streets,3
+2026-11-13,79,Empowerment Congress West Area,South LA,33,trash,26
+2026-11-13,79,Empowerment Congress West Area,South LA,33,streets,3
+2026-11-13,18,Encino,West Valley,21,trash,16
+2026-11-13,9,Foothill Trails District,East Valley,11,streets,4
+2026-11-13,39,Glassell Park,Eastside,23,trash,19
+2026-11-13,4,Granada Hills North,West Valley,9,trash,7
+2026-11-13,118,Granada Hills South,West Valley,21,streets,10
+2026-11-13,118,Granada Hills South,West Valley,21,critters,6
+2026-11-13,118,Granada Hills South,West Valley,21,trash,4
+2026-11-13,102,Greater Cypress Park,Eastside,6,trash,5
+2026-11-13,21,Greater Valley Glen,East Valley,27,trash,21
+2026-11-13,21,Greater Valley Glen,East Valley,27,other,3
+2026-11-13,119,Greater Wilshire,Central LA,41,trash,23
+2026-11-13,119,Greater Wilshire,Central LA,41,streets,11
+2026-11-13,119,Greater Wilshire,Central LA,41,trees,3
+2026-11-13,92,Harbor City,Harbor,22,trees,9
+2026-11-13,92,Harbor City,Harbor,22,streets,5
+2026-11-13,92,Harbor City,Harbor,22,trash,4
+2026-11-13,92,Harbor City,Harbor,22,other,3
+2026-11-13,90,Harbor Gateway North,Harbor,30,trash,25
+2026-11-13,91,Harbor Gateway South,Harbor,7,trash,3
+2026-11-13,128,Historic Cultural North,Central LA,11,trash,5
+2026-11-13,128,Historic Cultural North,Central LA,11,streets,4
+2026-11-13,41,Historic Highland Park,Eastside,84,streets,41
+2026-11-13,41,Historic Highland Park,Eastside,84,trash,29
+2026-11-13,41,Historic Highland Park,Eastside,84,other,12
+2026-11-13,29,Hollywood Hills West,Central LA,27,streets,14
+2026-11-13,29,Hollywood Hills West,Central LA,27,trash,7
+2026-11-13,29,Hollywood Hills West,Central LA,27,parking,4
+2026-11-13,33,Hollywood Studio District,Central LA,30,trash,24
+2026-11-13,30,Hollywood United,Central LA,13,streets,6
+2026-11-13,30,Hollywood United,Central LA,13,trash,5
+2026-11-13,48,LA-32,Eastside,25,trash,17
+2026-11-13,19,Lake Balboa,West Valley,31,trash,24
+2026-11-13,19,Lake Balboa,West Valley,31,other,4
+2026-11-13,47,Lincoln Heights,Eastside,15,trash,10
+2026-11-13,47,Lincoln Heights,Eastside,15,streets,4
+2026-11-13,36,Los Feliz,Eastside,36,trash,25
+2026-11-13,36,Los Feliz,Eastside,36,streets,7
+2026-11-13,36,Los Feliz,Eastside,36,other,3
+2026-11-13,54,Macarthur Park,Central LA,237,trash,229
+2026-11-13,54,Macarthur Park,Central LA,237,other,3
+2026-11-13,54,Macarthur Park,Central LA,237,streets,3
+2026-11-13,67,Mar Vista,Westside,23,trash,10
+2026-11-13,67,Mar Vista,Westside,23,other,5
+2026-11-13,67,Mar Vista,Westside,23,streets,4
+2026-11-13,67,Mar Vista,Westside,23,trees,3
+2026-11-13,73,Mid City,South LA,27,trash,20
+2026-11-13,58,Mid City West,Central LA,43,trash,22
+2026-11-13,58,Mid City West,Central LA,43,streets,9
+2026-11-13,58,Mid City West,Central LA,43,trees,4
+2026-11-13,58,Mid City West,Central LA,43,other,3
+2026-11-13,58,Mid City West,Central LA,43,water,3
+2026-11-13,101,Mission Hills,East Valley,6,trash,4
+2026-11-13,24,NoHo,East Valley,40,trash,22
+2026-11-13,24,NoHo,East Valley,40,streets,9
+2026-11-13,24,NoHo,East Valley,40,other,5
+2026-11-13,24,NoHo,East Valley,40,parking,4
+2026-11-13,22,NoHo West,East Valley,13,trash,9
+2026-11-13,22,NoHo West,East Valley,13,streets,3
+2026-11-13,112,North Hills East,West Valley,18,trash,11
+2026-11-13,111,North Hills West,East Valley,11,trash,6
+2026-11-13,111,North Hills West,East Valley,11,streets,3
+2026-11-13,23,North Hollywood Northeast,East Valley,30,trash,19
+2026-11-13,23,North Hollywood Northeast,East Valley,30,streets,5
+2026-11-13,23,North Hollywood Northeast,East Valley,30,trees,3
+2026-11-13,120,Northridge East,West Valley,16,trash,10
+2026-11-13,120,Northridge East,West Valley,16,streets,3
+2026-11-13,124,Northridge South,West Valley,23,trash,17
+2026-11-13,124,Northridge South,West Valley,23,housing,5
+2026-11-13,113,Northridge West,West Valley,9,trash,5
+2026-11-13,113,Northridge West,West Valley,9,streets,3
+2026-11-13,94,Northwest San Pedro,Harbor,9,trash,5
+2026-11-13,94,Northwest San Pedro,Harbor,9,other,3
+2026-11-13,104,Olympic Park,Central LA,12,trash,7
+2026-11-13,60,P.i.c.o.,Central LA,22,trash,21
+2026-11-13,7,Pacoima,East Valley,42,trash,26
+2026-11-13,7,Pacoima,East Valley,42,other,5
+2026-11-13,7,Pacoima,East Valley,42,streets,4
+2026-11-13,7,Pacoima,East Valley,42,parking,3
+2026-11-13,7,Pacoima,East Valley,42,critters,3
+2026-11-13,115,Palms,Westside,15,other,5
+2026-11-13,115,Palms,Westside,15,trash,5
+2026-11-13,100,Panorama City,East Valley,26,trash,16
+2026-11-13,100,Panorama City,East Valley,26,other,4
+2026-11-13,100,Panorama City,East Valley,26,trees,4
+2026-11-13,80,Park Mesa Heights,South LA,43,trash,22
+2026-11-13,80,Park Mesa Heights,South LA,43,trees,16
+2026-11-13,80,Park Mesa Heights,South LA,43,streets,5
+2026-11-13,76,Pico Union,Central LA,29,trash,22
+2026-11-13,53,Rampart Village,Eastside,16,trash,10
+2026-11-13,53,Rampart Village,Eastside,16,other,4
+2026-11-13,15,Reseda,West Valley,42,trash,33
+2026-11-13,15,Reseda,West Valley,42,streets,3
+2026-11-13,26,Sherman Oaks,East Valley,31,trash,15
+2026-11-13,26,Sherman Oaks,East Valley,31,streets,5
+2026-11-13,26,Sherman Oaks,East Valley,31,other,4
+2026-11-13,26,Sherman Oaks,East Valley,31,critters,3
+2026-11-13,38,Silver Lake,Eastside,20,trash,11
+2026-11-13,38,Silver Lake,Eastside,20,critters,3
+2026-11-13,38,Silver Lake,Eastside,20,streets,3
+2026-11-13,78,South Central,South LA,36,trash,26
+2026-11-13,78,South Central,South LA,36,other,5
+2026-11-13,61,South Robertson,Westside,40,trash,20
+2026-11-13,61,South Robertson,Westside,40,other,8
+2026-11-13,61,South Robertson,Westside,40,trees,5
+2026-11-13,61,South Robertson,Westside,40,streets,5
+2026-11-13,27,Studio City,East Valley,22,trash,16
+2026-11-13,8,Sun Valley Area,East Valley,39,trash,23
+2026-11-13,8,Sun Valley Area,East Valley,39,other,8
+2026-11-13,8,Sun Valley Area,East Valley,39,trees,4
+2026-11-13,8,Sun Valley Area,East Valley,39,streets,3
+2026-11-13,10,Sunland-tujunga,East Valley,15,trash,8
+2026-11-13,10,Sunland-tujunga,East Valley,15,other,3
+2026-11-13,5,Sylmar,East Valley,26,trash,14
+2026-11-13,5,Sylmar,East Valley,26,streets,4
+2026-11-13,5,Sylmar,East Valley,26,trees,3
+2026-11-13,5,Sylmar,East Valley,26,other,3
+2026-11-13,17,Tarzana,West Valley,9,trash,9
+2026-11-13,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,31,trash,23
+2026-11-13,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,31,streets,4
+2026-11-13,20,Van Nuys,East Valley,65,trash,43
+2026-11-13,20,Van Nuys,East Valley,65,streets,12
+2026-11-13,20,Van Nuys,East Valley,65,other,6
+2026-11-13,68,Venice,Westside,30,trash,15
+2026-11-13,68,Venice,Westside,30,streets,4
+2026-11-13,68,Venice,Westside,30,critters,3
+2026-11-13,68,Venice,Westside,30,other,3
+2026-11-13,109,Voices Of 90037,South LA,41,trash,25
+2026-11-13,109,Voices Of 90037,South LA,41,other,8
+2026-11-13,109,Voices Of 90037,South LA,41,trees,3
+2026-11-13,88,Watts,South LA,18,trash,12
+2026-11-13,88,Watts,South LA,18,other,4
+2026-11-13,75,West Adams,South LA,29,trash,13
+2026-11-13,75,West Adams,South LA,29,streets,9
+2026-11-13,75,West Adams,South LA,29,trees,3
+2026-11-13,11,West Hills,West Valley,18,trash,9
+2026-11-13,11,West Hills,West Valley,18,streets,6
+2026-11-13,11,West Hills,West Valley,18,other,3
+2026-11-13,66,West Los Angeles,Westside,31,trash,15
+2026-11-13,66,West Los Angeles,Westside,31,water,5
+2026-11-13,66,West Los Angeles,Westside,31,streets,3
+2026-11-13,66,West Los Angeles,Westside,31,trees,3
+2026-11-13,71,Westchester/playa,Westside,20,trash,9
+2026-11-13,71,Westchester/playa,Westside,20,streets,6
+2026-11-13,97,Westlake North,Central LA,14,trash,10
+2026-11-13,121,Westlake South,Central LA,40,trash,26
+2026-11-13,121,Westlake South,Central LA,40,other,10
+2026-11-13,62,Westside,Westside,26,trash,19
+2026-11-13,62,Westside,Westside,26,streets,4
+2026-11-13,63,Westwood,Westside,16,trash,9
+2026-11-13,63,Westwood,Westside,16,streets,5
+2026-11-13,93,Wilmington,Harbor,33,trash,20
+2026-11-13,93,Wilmington,Harbor,33,streets,6
+2026-11-13,93,Wilmington,Harbor,33,water,4
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,77,trash,48
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,77,streets,17
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,77,other,8
+2026-11-13,14,Winnetka,West Valley,15,trash,12
+2026-11-13,16,Woodland Hills-warner Center,West Valley,33,trash,18
+2026-11-13,16,Woodland Hills-warner Center,West Valley,33,other,13
+2026-11-13,125,Zapata King,South LA,16,trash,10
+2026-11-14,6,Arleta,East Valley,19,trash,13
+2026-11-14,6,Arleta,East Valley,19,streets,4
+2026-11-14,37,Atwater Village,Eastside,10,trash,4
+2026-11-14,37,Atwater Village,Eastside,10,streets,3
+2026-11-14,64,Bel Air-beverly Crest,Westside,7,streets,4
+2026-11-14,50,Boyle Heights,Eastside,25,trash,14
+2026-11-14,50,Boyle Heights,Eastside,25,trees,5
+2026-11-14,13,Canoga Park,West Valley,20,trash,17
+2026-11-14,110,Central Alameda,South LA,10,streets,5
+2026-11-14,110,Central Alameda,South LA,10,trash,4
+2026-11-14,32,Central Hollywood,Central LA,12,trash,6
+2026-11-14,95,Central San Pedro,Harbor,10,trash,9
+2026-11-14,96,Coastal San Pedro,Harbor,11,trash,9
+2026-11-14,86,Community And Neighbors For Ninth District Unity (canndu),South LA,40,trash,28
+2026-11-14,86,Community And Neighbors For Ninth District Unity (canndu),South LA,40,other,5
+2026-11-14,86,Community And Neighbors For Ninth District Unity (canndu),South LA,40,streets,4
+2026-11-14,86,Community And Neighbors For Ninth District Unity (canndu),South LA,40,critters,3
+2026-11-14,70,Del Rey,Westside,8,other,3
+2026-11-14,52,Downtown Los Angeles,Central LA,88,trash,34
+2026-11-14,52,Downtown Los Angeles,Central LA,88,other,21
+2026-11-14,52,Downtown Los Angeles,Central LA,88,streets,19
+2026-11-14,52,Downtown Los Angeles,Central LA,88,parking,7
+2026-11-14,52,Downtown Los Angeles,Central LA,88,trees,3
+2026-11-14,52,Downtown Los Angeles,Central LA,88,critters,3
+2026-11-14,40,Eagle Rock,Eastside,12,trash,7
+2026-11-14,34,East Hollywood,Central LA,79,trash,70
+2026-11-14,34,East Hollywood,Central LA,79,other,7
+2026-11-14,44,Echo Park,Eastside,36,trash,20
+2026-11-14,44,Echo Park,Eastside,36,streets,7
+2026-11-14,44,Echo Park,Eastside,36,other,6
+2026-11-14,81,Empowerment Congress Central Area,South LA,22,trash,17
+2026-11-14,81,Empowerment Congress Central Area,South LA,22,streets,4
+2026-11-14,77,Empowerment Congress North Area,South LA,14,trash,10
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,54,trash,30
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,54,streets,13
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,54,other,7
+2026-11-14,84,Empowerment Congress Southwest Area,South LA,16,trash,7
+2026-11-14,84,Empowerment Congress Southwest Area,South LA,16,streets,3
+2026-11-14,84,Empowerment Congress Southwest Area,South LA,16,trees,3
+2026-11-14,79,Empowerment Congress West Area,South LA,13,trash,9
+2026-11-14,18,Encino,West Valley,18,streets,14
+2026-11-14,9,Foothill Trails District,East Valley,5,trash,4
+2026-11-14,39,Glassell Park,Eastside,8,trash,6
+2026-11-14,118,Granada Hills South,West Valley,12,trash,3
+2026-11-14,102,Greater Cypress Park,Eastside,5,trash,5
+2026-11-14,28,Greater Toluca Lake,East Valley,7,trash,4
+2026-11-14,21,Greater Valley Glen,East Valley,21,trash,18
+2026-11-14,119,Greater Wilshire,Central LA,41,trash,18
+2026-11-14,119,Greater Wilshire,Central LA,41,streets,12
+2026-11-14,119,Greater Wilshire,Central LA,41,trees,5
+2026-11-14,119,Greater Wilshire,Central LA,41,critters,3
+2026-11-14,90,Harbor Gateway North,Harbor,7,trash,4
+2026-11-14,91,Harbor Gateway South,Harbor,5,trash,5
+2026-11-14,128,Historic Cultural North,Central LA,7,trash,5
+2026-11-14,41,Historic Highland Park,Eastside,25,trash,17
+2026-11-14,41,Historic Highland Park,Eastside,25,other,4
+2026-11-14,29,Hollywood Hills West,Central LA,23,parking,11
+2026-11-14,29,Hollywood Hills West,Central LA,23,trash,4
+2026-11-14,29,Hollywood Hills West,Central LA,23,streets,4
+2026-11-14,30,Hollywood United,Central LA,8,trash,6
+2026-11-14,48,LA-32,Eastside,20,trash,8
+2026-11-14,48,LA-32,Eastside,20,streets,5
+2026-11-14,48,LA-32,Eastside,20,trees,4
+2026-11-14,19,Lake Balboa,West Valley,14,trash,9
+2026-11-14,47,Lincoln Heights,Eastside,35,trash,26
+2026-11-14,47,Lincoln Heights,Eastside,35,other,5
+2026-11-14,47,Lincoln Heights,Eastside,35,streets,3
+2026-11-14,36,Los Feliz,Eastside,38,trash,31
+2026-11-14,36,Los Feliz,Eastside,38,streets,3
+2026-11-14,54,Macarthur Park,Central LA,231,trash,225
+2026-11-14,54,Macarthur Park,Central LA,231,streets,4
+2026-11-14,67,Mar Vista,Westside,23,trash,16
+2026-11-14,67,Mar Vista,Westside,23,streets,3
+2026-11-14,73,Mid City,South LA,17,trash,11
+2026-11-14,73,Mid City,South LA,17,streets,4
+2026-11-14,58,Mid City West,Central LA,36,trash,13
+2026-11-14,58,Mid City West,Central LA,36,streets,12
+2026-11-14,58,Mid City West,Central LA,36,trees,7
+2026-11-14,58,Mid City West,Central LA,36,other,3
+2026-11-14,101,Mission Hills,East Valley,8,trash,5
+2026-11-14,24,NoHo,East Valley,52,trash,44
+2026-11-14,24,NoHo,East Valley,52,parking,3
+2026-11-14,24,NoHo,East Valley,52,other,3
+2026-11-14,22,NoHo West,East Valley,7,trash,7
+2026-11-14,112,North Hills East,West Valley,6,trash,5
+2026-11-14,23,North Hollywood Northeast,East Valley,32,trash,28
+2026-11-14,120,Northridge East,West Valley,32,housing,21
+2026-11-14,120,Northridge East,West Valley,32,trash,5
+2026-11-14,120,Northridge East,West Valley,32,critters,3
+2026-11-14,124,Northridge South,West Valley,9,trash,5
+2026-11-14,94,Northwest San Pedro,Harbor,9,trash,8
+2026-11-14,104,Olympic Park,Central LA,10,trees,5
+2026-11-14,104,Olympic Park,Central LA,10,trash,3
+2026-11-14,60,P.i.c.o.,Central LA,15,trash,10
+2026-11-14,7,Pacoima,East Valley,23,trash,19
+2026-11-14,115,Palms,Westside,14,trash,12
+2026-11-14,100,Panorama City,East Valley,17,trash,12
+2026-11-14,100,Panorama City,East Valley,17,streets,4
+2026-11-14,80,Park Mesa Heights,South LA,11,trash,5
+2026-11-14,76,Pico Union,Central LA,13,trash,8
+2026-11-14,53,Rampart Village,Eastside,13,other,7
+2026-11-14,53,Rampart Village,Eastside,13,trash,3
+2026-11-14,15,Reseda,West Valley,26,trash,17
+2026-11-14,15,Reseda,West Valley,26,trees,3
+2026-11-14,26,Sherman Oaks,East Valley,23,trash,12
+2026-11-14,26,Sherman Oaks,East Valley,23,trees,5
+2026-11-14,26,Sherman Oaks,East Valley,23,streets,3
+2026-11-14,38,Silver Lake,Eastside,40,trash,24
+2026-11-14,38,Silver Lake,Eastside,40,streets,11
+2026-11-14,78,South Central,South LA,22,trash,16
+2026-11-14,61,South Robertson,Westside,29,trash,16
+2026-11-14,61,South Robertson,Westside,29,other,11
+2026-11-14,27,Studio City,East Valley,4,trash,3
+2026-11-14,8,Sun Valley Area,East Valley,18,trash,12
+2026-11-14,8,Sun Valley Area,East Valley,18,streets,4
+2026-11-14,10,Sunland-tujunga,East Valley,5,trash,3
+2026-11-14,5,Sylmar,East Valley,23,other,8
+2026-11-14,5,Sylmar,East Valley,23,trash,8
+2026-11-14,5,Sylmar,East Valley,23,trees,3
+2026-11-14,17,Tarzana,West Valley,12,trash,7
+2026-11-14,17,Tarzana,West Valley,12,streets,4
+2026-11-14,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,21,trash,14
+2026-11-14,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,21,streets,4
+2026-11-14,20,Van Nuys,East Valley,41,trash,28
+2026-11-14,20,Van Nuys,East Valley,41,streets,6
+2026-11-14,20,Van Nuys,East Valley,41,other,4
+2026-11-14,20,Van Nuys,East Valley,41,critters,3
+2026-11-14,68,Venice,Westside,41,parking,23
+2026-11-14,68,Venice,Westside,41,trash,10
+2026-11-14,68,Venice,Westside,41,other,6
+2026-11-14,88,Watts,South LA,9,trash,6
+2026-11-14,88,Watts,South LA,9,critters,3
+2026-11-14,75,West Adams,South LA,33,trash,26
+2026-11-14,11,West Hills,West Valley,15,trash,7
+2026-11-14,11,West Hills,West Valley,15,trees,3
+2026-11-14,66,West Los Angeles,Westside,16,trash,13
+2026-11-14,71,Westchester/playa,Westside,20,trash,17
+2026-11-14,97,Westlake North,Central LA,7,trash,5
+2026-11-14,121,Westlake South,Central LA,7,trash,6
+2026-11-14,62,Westside,Westside,24,streets,9
+2026-11-14,62,Westside,Westside,24,trash,8
+2026-11-14,62,Westside,Westside,24,trees,3
+2026-11-14,62,Westside,Westside,24,critters,3
+2026-11-14,93,Wilmington,Harbor,14,trash,9
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,76,trash,51
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,76,streets,12
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,76,other,5
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,76,trees,4
+2026-11-14,14,Winnetka,West Valley,16,trash,10
+2026-11-14,16,Woodland Hills-warner Center,West Valley,26,trash,11
+2026-11-14,16,Woodland Hills-warner Center,West Valley,26,other,7
+2026-11-14,16,Woodland Hills-warner Center,West Valley,26,streets,6
+2026-11-14,125,Zapata King,South LA,16,trash,8
+2026-11-14,125,Zapata King,South LA,16,streets,4
+2026-11-15,42,Arroyo Seco,Eastside,9,trash,5
+2026-11-15,42,Arroyo Seco,Eastside,9,streets,3
+2026-11-15,50,Boyle Heights,Eastside,78,trash,65
+2026-11-15,50,Boyle Heights,Eastside,78,streets,6
+2026-11-15,50,Boyle Heights,Eastside,78,critters,3
+2026-11-15,13,Canoga Park,West Valley,17,trash,9
+2026-11-15,13,Canoga Park,West Valley,17,streets,4
+2026-11-15,13,Canoga Park,West Valley,17,other,3
+2026-11-15,110,Central Alameda,South LA,7,trash,4
+2026-11-15,32,Central Hollywood,Central LA,15,trash,8
+2026-11-15,32,Central Hollywood,Central LA,15,streets,4
+2026-11-15,95,Central San Pedro,Harbor,11,trash,8
+2026-11-15,99,Chatsworth,West Valley,10,trash,4
+2026-11-15,96,Coastal San Pedro,Harbor,11,trash,4
+2026-11-15,96,Coastal San Pedro,Harbor,11,critters,4
+2026-11-15,86,Community And Neighbors For Ninth District Unity (canndu),South LA,20,trash,14
+2026-11-15,86,Community And Neighbors For Ninth District Unity (canndu),South LA,20,streets,3
+2026-11-15,70,Del Rey,Westside,11,trash,6
+2026-11-15,70,Del Rey,Westside,11,other,4
+2026-11-15,52,Downtown Los Angeles,Central LA,114,trash,53
+2026-11-15,52,Downtown Los Angeles,Central LA,114,streets,32
+2026-11-15,52,Downtown Los Angeles,Central LA,114,other,14
+2026-11-15,52,Downtown Los Angeles,Central LA,114,parking,10
+2026-11-15,40,Eagle Rock,Eastside,10,trash,8
+2026-11-15,34,East Hollywood,Central LA,62,trash,56
+2026-11-15,34,East Hollywood,Central LA,62,other,3
+2026-11-15,44,Echo Park,Eastside,36,trash,30
+2026-11-15,43,Elysian Valley Riverside,Eastside,4,other,3
+2026-11-15,81,Empowerment Congress Central Area,South LA,28,trash,20
+2026-11-15,81,Empowerment Congress Central Area,South LA,28,critters,5
+2026-11-15,77,Empowerment Congress North Area,South LA,62,trash,50
+2026-11-15,77,Empowerment Congress North Area,South LA,62,streets,7
+2026-11-15,77,Empowerment Congress North Area,South LA,62,critters,3
+2026-11-15,87,Empowerment Congress Southeast Area,South LA,32,trash,20
+2026-11-15,87,Empowerment Congress Southeast Area,South LA,32,other,6
+2026-11-15,87,Empowerment Congress Southeast Area,South LA,32,critters,4
+2026-11-15,84,Empowerment Congress Southwest Area,South LA,11,trash,8
+2026-11-15,79,Empowerment Congress West Area,South LA,22,trash,16
+2026-11-15,79,Empowerment Congress West Area,South LA,22,trees,3
+2026-11-15,18,Encino,West Valley,20,trash,13
+2026-11-15,18,Encino,West Valley,20,other,3
+2026-11-15,9,Foothill Trails District,East Valley,7,trash,5
+2026-11-15,39,Glassell Park,Eastside,7,trash,4
+2026-11-15,118,Granada Hills South,West Valley,10,trash,6
+2026-11-15,28,Greater Toluca Lake,East Valley,5,other,3
+2026-11-15,21,Greater Valley Glen,East Valley,27,trash,18
+2026-11-15,21,Greater Valley Glen,East Valley,27,other,3
+2026-11-15,119,Greater Wilshire,Central LA,28,streets,11
+2026-11-15,119,Greater Wilshire,Central LA,28,trash,10
+2026-11-15,119,Greater Wilshire,Central LA,28,other,3
+2026-11-15,119,Greater Wilshire,Central LA,28,trees,3
+2026-11-15,92,Harbor City,Harbor,4,trash,4
+2026-11-15,90,Harbor Gateway North,Harbor,17,trash,15
+2026-11-15,91,Harbor Gateway South,Harbor,26,trash,24
+2026-11-15,128,Historic Cultural North,Central LA,11,trash,8
+2026-11-15,41,Historic Highland Park,Eastside,33,trash,24
+2026-11-15,41,Historic Highland Park,Eastside,33,other,5
+2026-11-15,41,Historic Highland Park,Eastside,33,streets,4
+2026-11-15,29,Hollywood Hills West,Central LA,25,parking,10
+2026-11-15,29,Hollywood Hills West,Central LA,25,streets,6
+2026-11-15,29,Hollywood Hills West,Central LA,25,trash,3
+2026-11-15,33,Hollywood Studio District,Central LA,27,trash,18
+2026-11-15,33,Hollywood Studio District,Central LA,27,other,4
+2026-11-15,33,Hollywood Studio District,Central LA,27,streets,3
+2026-11-15,30,Hollywood United,Central LA,12,trash,5
+2026-11-15,30,Hollywood United,Central LA,12,streets,3
+2026-11-15,48,LA-32,Eastside,43,trash,26
+2026-11-15,48,LA-32,Eastside,43,other,9
+2026-11-15,48,LA-32,Eastside,43,streets,5
+2026-11-15,19,Lake Balboa,West Valley,30,trash,14
+2026-11-15,19,Lake Balboa,West Valley,30,other,12
+2026-11-15,19,Lake Balboa,West Valley,30,streets,4
+2026-11-15,47,Lincoln Heights,Eastside,29,trash,22
+2026-11-15,47,Lincoln Heights,Eastside,29,other,3
+2026-11-15,36,Los Feliz,Eastside,23,trash,11
+2026-11-15,36,Los Feliz,Eastside,23,streets,8
+2026-11-15,54,Macarthur Park,Central LA,104,trash,101
+2026-11-15,67,Mar Vista,Westside,28,trash,17
+2026-11-15,67,Mar Vista,Westside,28,trees,4
+2026-11-15,67,Mar Vista,Westside,28,other,3
+2026-11-15,73,Mid City,South LA,33,trash,26
+2026-11-15,73,Mid City,South LA,33,streets,4
+2026-11-15,58,Mid City West,Central LA,35,trash,15
+2026-11-15,58,Mid City West,Central LA,35,streets,7
+2026-11-15,58,Mid City West,Central LA,35,trees,5
+2026-11-15,58,Mid City West,Central LA,35,parking,4
+2026-11-15,58,Mid City West,Central LA,35,critters,4
+2026-11-15,101,Mission Hills,East Valley,5,trash,3
+2026-11-15,24,NoHo,East Valley,43,trash,29
+2026-11-15,24,NoHo,East Valley,43,other,9
+2026-11-15,24,NoHo,East Valley,43,streets,3
+2026-11-15,112,North Hills East,West Valley,5,trash,4
+2026-11-15,23,North Hollywood Northeast,East Valley,28,trash,20
+2026-11-15,23,North Hollywood Northeast,East Valley,28,streets,4
+2026-11-15,127,North Westwood,Westside,6,trash,3
+2026-11-15,120,Northridge East,West Valley,28,housing,20
+2026-11-15,120,Northridge East,West Valley,28,trash,6
+2026-11-15,124,Northridge South,West Valley,40,trash,30
+2026-11-15,124,Northridge South,West Valley,40,housing,7
+2026-11-15,113,Northridge West,West Valley,8,trash,4
+2026-11-15,94,Northwest San Pedro,Harbor,9,trash,5
+2026-11-15,104,Olympic Park,Central LA,6,trash,3
+2026-11-15,60,P.i.c.o.,Central LA,11,trash,7
+2026-11-15,60,P.i.c.o.,Central LA,11,streets,3
+2026-11-15,7,Pacoima,East Valley,24,trash,15
+2026-11-15,7,Pacoima,East Valley,24,streets,5
+2026-11-15,115,Palms,Westside,15,other,6
+2026-11-15,115,Palms,Westside,15,trash,6
+2026-11-15,100,Panorama City,East Valley,17,trash,5
+2026-11-15,100,Panorama City,East Valley,17,streets,4
+2026-11-15,100,Panorama City,East Valley,17,critters,3
+2026-11-15,100,Panorama City,East Valley,17,other,3
+2026-11-15,80,Park Mesa Heights,South LA,5,trash,4
+2026-11-15,76,Pico Union,Central LA,17,trash,14
+2026-11-15,53,Rampart Village,Eastside,10,trash,5
+2026-11-15,53,Rampart Village,Eastside,10,other,3
+2026-11-15,15,Reseda,West Valley,51,trash,41
+2026-11-15,15,Reseda,West Valley,51,streets,3
+2026-11-15,15,Reseda,West Valley,51,housing,3
+2026-11-15,15,Reseda,West Valley,51,trees,3
+2026-11-15,26,Sherman Oaks,East Valley,32,trash,19
+2026-11-15,26,Sherman Oaks,East Valley,32,streets,7
+2026-11-15,26,Sherman Oaks,East Valley,32,water,3
+2026-11-15,38,Silver Lake,Eastside,13,trash,9
+2026-11-15,38,Silver Lake,Eastside,13,streets,3
+2026-11-15,78,South Central,South LA,27,trash,15
+2026-11-15,78,South Central,South LA,27,streets,6
+2026-11-15,78,South Central,South LA,27,other,4
+2026-11-15,61,South Robertson,Westside,35,trash,23
+2026-11-15,61,South Robertson,Westside,35,other,7
+2026-11-15,27,Studio City,East Valley,25,trash,20
+2026-11-15,8,Sun Valley Area,East Valley,27,trash,15
+2026-11-15,8,Sun Valley Area,East Valley,27,streets,7
+2026-11-15,10,Sunland-tujunga,East Valley,58,trash,53
+2026-11-15,10,Sunland-tujunga,East Valley,58,other,5
+2026-11-15,5,Sylmar,East Valley,34,trash,23
+2026-11-15,5,Sylmar,East Valley,34,streets,4
+2026-11-15,17,Tarzana,West Valley,11,trash,7
+2026-11-15,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,72,trash,61
+2026-11-15,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,72,critters,4
+2026-11-15,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,72,other,4
+2026-11-15,25,Valley Village,East Valley,5,trash,3
+2026-11-15,20,Van Nuys,East Valley,44,trash,32
+2026-11-15,20,Van Nuys,East Valley,44,streets,7
+2026-11-15,20,Van Nuys,East Valley,44,critters,4
+2026-11-15,68,Venice,Westside,19,trash,13
+2026-11-15,109,Voices Of 90037,South LA,25,trash,18
+2026-11-15,109,Voices Of 90037,South LA,25,other,3
+2026-11-15,109,Voices Of 90037,South LA,25,streets,3
+2026-11-15,75,West Adams,South LA,48,trash,45
+2026-11-15,11,West Hills,West Valley,11,trash,5
+2026-11-15,66,West Los Angeles,Westside,15,trash,7
+2026-11-15,71,Westchester/playa,Westside,21,trash,14
+2026-11-15,71,Westchester/playa,Westside,21,streets,3
+2026-11-15,97,Westlake North,Central LA,7,trash,6
+2026-11-15,121,Westlake South,Central LA,7,other,3
+2026-11-15,62,Westside,Westside,23,streets,10
+2026-11-15,62,Westside,Westside,23,trash,6
+2026-11-15,62,Westside,Westside,23,critters,3
+2026-11-15,63,Westwood,Westside,6,streets,3
+2026-11-15,93,Wilmington,Harbor,11,trash,6
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,73,trash,54
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,73,streets,8
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,73,other,5
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,73,trees,4
+2026-11-15,14,Winnetka,West Valley,21,trash,16
+2026-11-15,14,Winnetka,West Valley,21,streets,4
+2026-11-15,16,Woodland Hills-warner Center,West Valley,32,other,13
+2026-11-15,16,Woodland Hills-warner Center,West Valley,32,trash,9
+2026-11-15,16,Woodland Hills-warner Center,West Valley,32,streets,5
+2026-11-15,16,Woodland Hills-warner Center,West Valley,32,parking,4
+2026-11-15,125,Zapata King,South LA,15,trash,5
+2026-11-15,125,Zapata King,South LA,15,streets,4
+2026-11-15,125,Zapata King,South LA,15,other,3
+2026-11-16,6,Arleta,East Valley,19,trash,14
+2026-11-16,42,Arroyo Seco,Eastside,10,trash,4
+2026-11-16,42,Arroyo Seco,Eastside,10,other,4
+2026-11-16,46,Arts District Little Tokyo,Central LA,33,parking,29
+2026-11-16,37,Atwater Village,Eastside,10,trash,6
+2026-11-16,64,Bel Air-beverly Crest,Westside,19,trash,11
+2026-11-16,64,Bel Air-beverly Crest,Westside,19,streets,7
+2026-11-16,50,Boyle Heights,Eastside,75,trash,54
+2026-11-16,50,Boyle Heights,Eastside,75,streets,8
+2026-11-16,50,Boyle Heights,Eastside,75,other,5
+2026-11-16,50,Boyle Heights,Eastside,75,critters,3
+2026-11-16,13,Canoga Park,West Valley,51,trash,27
+2026-11-16,13,Canoga Park,West Valley,51,other,12
+2026-11-16,13,Canoga Park,West Valley,51,streets,8
+2026-11-16,110,Central Alameda,South LA,22,trash,13
+2026-11-16,110,Central Alameda,South LA,22,critters,4
+2026-11-16,110,Central Alameda,South LA,22,other,3
+2026-11-16,32,Central Hollywood,Central LA,24,trash,16
+2026-11-16,32,Central Hollywood,Central LA,24,streets,6
+2026-11-16,95,Central San Pedro,Harbor,38,trash,23
+2026-11-16,95,Central San Pedro,Harbor,38,trees,4
+2026-11-16,95,Central San Pedro,Harbor,38,other,3
+2026-11-16,95,Central San Pedro,Harbor,38,streets,3
+2026-11-16,95,Central San Pedro,Harbor,38,parking,3
+2026-11-16,99,Chatsworth,West Valley,44,trash,33
+2026-11-16,99,Chatsworth,West Valley,44,streets,5
+2026-11-16,99,Chatsworth,West Valley,44,other,5
+2026-11-16,96,Coastal San Pedro,Harbor,37,trash,27
+2026-11-16,96,Coastal San Pedro,Harbor,37,streets,5
+2026-11-16,86,Community And Neighbors For Ninth District Unity (canndu),South LA,86,trash,62
+2026-11-16,86,Community And Neighbors For Ninth District Unity (canndu),South LA,86,other,11
+2026-11-16,86,Community And Neighbors For Ninth District Unity (canndu),South LA,86,streets,6
+2026-11-16,86,Community And Neighbors For Ninth District Unity (canndu),South LA,86,critters,5
+2026-11-16,70,Del Rey,Westside,43,other,30
+2026-11-16,70,Del Rey,Westside,43,trash,9
+2026-11-16,52,Downtown Los Angeles,Central LA,130,trash,60
+2026-11-16,52,Downtown Los Angeles,Central LA,130,other,28
+2026-11-16,52,Downtown Los Angeles,Central LA,130,streets,25
+2026-11-16,52,Downtown Los Angeles,Central LA,130,parking,8
+2026-11-16,52,Downtown Los Angeles,Central LA,130,critters,6
+2026-11-16,40,Eagle Rock,Eastside,26,trash,17
+2026-11-16,40,Eagle Rock,Eastside,26,trees,4
+2026-11-16,40,Eagle Rock,Eastside,26,streets,3
+2026-11-16,34,East Hollywood,Central LA,104,trash,89
+2026-11-16,34,East Hollywood,Central LA,104,other,7
+2026-11-16,34,East Hollywood,Central LA,104,trees,4
+2026-11-16,34,East Hollywood,Central LA,104,streets,3
+2026-11-16,44,Echo Park,Eastside,111,trash,93
+2026-11-16,44,Echo Park,Eastside,111,streets,7
+2026-11-16,44,Echo Park,Eastside,111,other,4
+2026-11-16,44,Echo Park,Eastside,111,critters,3
+2026-11-16,81,Empowerment Congress Central Area,South LA,87,trash,54
+2026-11-16,81,Empowerment Congress Central Area,South LA,87,trees,13
+2026-11-16,81,Empowerment Congress Central Area,South LA,87,other,9
+2026-11-16,81,Empowerment Congress Central Area,South LA,87,streets,6
+2026-11-16,81,Empowerment Congress Central Area,South LA,87,critters,4
+2026-11-16,77,Empowerment Congress North Area,South LA,79,trash,59
+2026-11-16,77,Empowerment Congress North Area,South LA,79,other,7
+2026-11-16,77,Empowerment Congress North Area,South LA,79,parking,6
+2026-11-16,77,Empowerment Congress North Area,South LA,79,streets,4
+2026-11-16,77,Empowerment Congress North Area,South LA,79,critters,3
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,103,trash,80
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,103,other,8
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,103,streets,7
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,103,critters,4
+2026-11-16,84,Empowerment Congress Southwest Area,South LA,33,trash,21
+2026-11-16,84,Empowerment Congress Southwest Area,South LA,33,other,4
+2026-11-16,84,Empowerment Congress Southwest Area,South LA,33,trees,3
+2026-11-16,84,Empowerment Congress Southwest Area,South LA,33,critters,3
+2026-11-16,79,Empowerment Congress West Area,South LA,97,trash,81
+2026-11-16,79,Empowerment Congress West Area,South LA,97,streets,7
+2026-11-16,79,Empowerment Congress West Area,South LA,97,other,4
+2026-11-16,79,Empowerment Congress West Area,South LA,97,trees,3
+2026-11-16,18,Encino,West Valley,53,trash,41
+2026-11-16,18,Encino,West Valley,53,critters,4
+2026-11-16,18,Encino,West Valley,53,trees,4
+2026-11-16,18,Encino,West Valley,53,streets,3
+2026-11-16,9,Foothill Trails District,East Valley,14,trash,9
+2026-11-16,39,Glassell Park,Eastside,45,trash,27
+2026-11-16,39,Glassell Park,Eastside,45,streets,12
+2026-11-16,39,Glassell Park,Eastside,45,other,4
+2026-11-16,4,Granada Hills North,West Valley,11,trash,6
+2026-11-16,118,Granada Hills South,West Valley,34,trash,20
+2026-11-16,118,Granada Hills South,West Valley,34,streets,9
+2026-11-16,118,Granada Hills South,West Valley,34,trees,3
+2026-11-16,102,Greater Cypress Park,Eastside,14,trash,11
+2026-11-16,102,Greater Cypress Park,Eastside,14,streets,3
+2026-11-16,28,Greater Toluca Lake,East Valley,20,trash,11
+2026-11-16,28,Greater Toluca Lake,East Valley,20,streets,3
+2026-11-16,28,Greater Toluca Lake,East Valley,20,other,3
+2026-11-16,21,Greater Valley Glen,East Valley,60,trash,45
+2026-11-16,21,Greater Valley Glen,East Valley,60,streets,9
+2026-11-16,119,Greater Wilshire,Central LA,61,trash,27
+2026-11-16,119,Greater Wilshire,Central LA,61,streets,19
+2026-11-16,119,Greater Wilshire,Central LA,61,trees,10
+2026-11-16,92,Harbor City,Harbor,24,trash,20
+2026-11-16,90,Harbor Gateway North,Harbor,30,trash,23
+2026-11-16,91,Harbor Gateway South,Harbor,13,trash,6
+2026-11-16,91,Harbor Gateway South,Harbor,13,streets,5
+2026-11-16,128,Historic Cultural North,Central LA,36,parking,21
+2026-11-16,128,Historic Cultural North,Central LA,36,trash,8
+2026-11-16,128,Historic Cultural North,Central LA,36,streets,6
+2026-11-16,41,Historic Highland Park,Eastside,66,trash,51
+2026-11-16,41,Historic Highland Park,Eastside,66,other,4
+2026-11-16,41,Historic Highland Park,Eastside,66,critters,3
+2026-11-16,41,Historic Highland Park,Eastside,66,trees,3
+2026-11-16,29,Hollywood Hills West,Central LA,31,trash,10
+2026-11-16,29,Hollywood Hills West,Central LA,31,streets,9
+2026-11-16,29,Hollywood Hills West,Central LA,31,other,5
+2026-11-16,29,Hollywood Hills West,Central LA,31,parking,5
+2026-11-16,33,Hollywood Studio District,Central LA,43,trash,30
+2026-11-16,33,Hollywood Studio District,Central LA,43,streets,5
+2026-11-16,33,Hollywood Studio District,Central LA,43,critters,4
+2026-11-16,33,Hollywood Studio District,Central LA,43,trees,3
+2026-11-16,30,Hollywood United,Central LA,23,streets,11
+2026-11-16,30,Hollywood United,Central LA,23,trash,7
+2026-11-16,30,Hollywood United,Central LA,23,other,3
+2026-11-16,48,LA-32,Eastside,46,trash,30
+2026-11-16,48,LA-32,Eastside,46,streets,5
+2026-11-16,48,LA-32,Eastside,46,trees,4
+2026-11-16,48,LA-32,Eastside,46,other,3
+2026-11-16,19,Lake Balboa,West Valley,55,trash,24
+2026-11-16,19,Lake Balboa,West Valley,55,streets,15
+2026-11-16,19,Lake Balboa,West Valley,55,other,11
+2026-11-16,47,Lincoln Heights,Eastside,37,trash,26
+2026-11-16,47,Lincoln Heights,Eastside,37,water,4
+2026-11-16,36,Los Feliz,Eastside,30,trash,18
+2026-11-16,36,Los Feliz,Eastside,30,other,5
+2026-11-16,36,Los Feliz,Eastside,30,trees,4
+2026-11-16,36,Los Feliz,Eastside,30,streets,3
+2026-11-16,54,Macarthur Park,Central LA,387,trash,384
+2026-11-16,54,Macarthur Park,Central LA,387,other,3
+2026-11-16,67,Mar Vista,Westside,34,trash,15
+2026-11-16,67,Mar Vista,Westside,34,trees,8
+2026-11-16,67,Mar Vista,Westside,34,other,7
+2026-11-16,67,Mar Vista,Westside,34,streets,3
+2026-11-16,73,Mid City,South LA,22,trash,15
+2026-11-16,73,Mid City,South LA,22,other,3
+2026-11-16,58,Mid City West,Central LA,71,trash,38
+2026-11-16,58,Mid City West,Central LA,71,streets,21
+2026-11-16,58,Mid City West,Central LA,71,other,5
+2026-11-16,58,Mid City West,Central LA,71,trees,3
+2026-11-16,58,Mid City West,Central LA,71,critters,3
+2026-11-16,101,Mission Hills,East Valley,25,trash,11
+2026-11-16,101,Mission Hills,East Valley,25,trees,6
+2026-11-16,101,Mission Hills,East Valley,25,streets,4
+2026-11-16,24,NoHo,East Valley,123,trash,97
+2026-11-16,24,NoHo,East Valley,123,streets,12
+2026-11-16,24,NoHo,East Valley,123,other,6
+2026-11-16,24,NoHo,East Valley,123,parking,4
+2026-11-16,24,NoHo,East Valley,123,trees,3
+2026-11-16,22,NoHo West,East Valley,15,trash,11
+2026-11-16,22,NoHo West,East Valley,15,streets,3
+2026-11-16,112,North Hills East,West Valley,15,trash,9
+2026-11-16,111,North Hills West,East Valley,14,trash,7
+2026-11-16,111,North Hills West,East Valley,14,streets,5
+2026-11-16,23,North Hollywood Northeast,East Valley,76,trash,63
+2026-11-16,23,North Hollywood Northeast,East Valley,76,streets,6
+2026-11-16,23,North Hollywood Northeast,East Valley,76,critters,3
+2026-11-16,23,North Hollywood Northeast,East Valley,76,other,3
+2026-11-16,120,Northridge East,West Valley,65,housing,46
+2026-11-16,120,Northridge East,West Valley,65,trash,12
+2026-11-16,120,Northridge East,West Valley,65,critters,4
+2026-11-16,124,Northridge South,West Valley,28,trash,22
+2026-11-16,113,Northridge West,West Valley,17,trash,10
+2026-11-16,113,Northridge West,West Valley,17,other,4
+2026-11-16,94,Northwest San Pedro,Harbor,9,trash,6
+2026-11-16,104,Olympic Park,Central LA,10,streets,5
+2026-11-16,104,Olympic Park,Central LA,10,trash,3
+2026-11-16,60,P.i.c.o.,Central LA,18,trash,14
+2026-11-16,60,P.i.c.o.,Central LA,18,streets,3
+2026-11-16,7,Pacoima,East Valley,46,trash,34
+2026-11-16,7,Pacoima,East Valley,46,streets,5
+2026-11-16,7,Pacoima,East Valley,46,critters,4
+2026-11-16,115,Palms,Westside,30,trash,15
+2026-11-16,115,Palms,Westside,30,other,8
+2026-11-16,115,Palms,Westside,30,streets,4
+2026-11-16,115,Palms,Westside,30,parking,3
+2026-11-16,100,Panorama City,East Valley,34,trash,25
+2026-11-16,100,Panorama City,East Valley,34,streets,6
+2026-11-16,80,Park Mesa Heights,South LA,35,trash,26
+2026-11-16,80,Park Mesa Heights,South LA,35,streets,4
+2026-11-16,76,Pico Union,Central LA,27,trash,18
+2026-11-16,76,Pico Union,Central LA,27,other,5
+2026-11-16,114,Porter Ranch,West Valley,8,trash,6
+2026-11-16,53,Rampart Village,Eastside,22,trash,15
+2026-11-16,53,Rampart Village,Eastside,22,other,4
+2026-11-16,15,Reseda,West Valley,49,trash,35
+2026-11-16,15,Reseda,West Valley,49,trees,4
+2026-11-16,15,Reseda,West Valley,49,other,4
+2026-11-16,15,Reseda,West Valley,49,streets,3
+2026-11-16,26,Sherman Oaks,East Valley,54,trash,24
+2026-11-16,26,Sherman Oaks,East Valley,54,streets,12
+2026-11-16,26,Sherman Oaks,East Valley,54,critters,5
+2026-11-16,26,Sherman Oaks,East Valley,54,other,4
+2026-11-16,26,Sherman Oaks,East Valley,54,trees,4
+2026-11-16,38,Silver Lake,Eastside,28,trash,23
+2026-11-16,78,South Central,South LA,60,trash,50
+2026-11-16,78,South Central,South LA,60,other,6
+2026-11-16,61,South Robertson,Westside,63,trash,42
+2026-11-16,61,South Robertson,Westside,63,streets,8
+2026-11-16,61,South Robertson,Westside,63,other,8
+2026-11-16,61,South Robertson,Westside,63,trees,3
+2026-11-16,27,Studio City,East Valley,41,other,14
+2026-11-16,27,Studio City,East Valley,41,streets,11
+2026-11-16,27,Studio City,East Valley,41,trash,10
+2026-11-16,27,Studio City,East Valley,41,trees,3
+2026-11-16,8,Sun Valley Area,East Valley,35,trash,29
+2026-11-16,10,Sunland-tujunga,East Valley,39,trash,28
+2026-11-16,10,Sunland-tujunga,East Valley,39,other,5
+2026-11-16,5,Sylmar,East Valley,48,trash,25
+2026-11-16,5,Sylmar,East Valley,48,streets,9
+2026-11-16,5,Sylmar,East Valley,48,other,7
+2026-11-16,5,Sylmar,East Valley,48,trees,5
+2026-11-16,17,Tarzana,West Valley,22,trash,12
+2026-11-16,17,Tarzana,West Valley,22,streets,6
+2026-11-16,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,57,trash,43
+2026-11-16,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,57,streets,6
+2026-11-16,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,57,trees,4
+2026-11-16,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,57,other,4
+2026-11-16,25,Valley Village,East Valley,23,trash,16
+2026-11-16,25,Valley Village,East Valley,23,streets,3
+2026-11-16,25,Valley Village,East Valley,23,trees,3
+2026-11-16,20,Van Nuys,East Valley,76,trash,58
+2026-11-16,20,Van Nuys,East Valley,76,streets,11
+2026-11-16,20,Van Nuys,East Valley,76,other,5
+2026-11-16,68,Venice,Westside,44,trash,22
+2026-11-16,68,Venice,Westside,44,streets,12
+2026-11-16,68,Venice,Westside,44,critters,3
+2026-11-16,68,Venice,Westside,44,trees,3
+2026-11-16,109,Voices Of 90037,South LA,64,trash,51
+2026-11-16,109,Voices Of 90037,South LA,64,other,5
+2026-11-16,109,Voices Of 90037,South LA,64,trees,3
+2026-11-16,109,Voices Of 90037,South LA,64,streets,3
+2026-11-16,88,Watts,South LA,18,trash,11
+2026-11-16,88,Watts,South LA,18,other,3
+2026-11-16,75,West Adams,South LA,16,trash,8
+2026-11-16,75,West Adams,South LA,16,streets,5
+2026-11-16,75,West Adams,South LA,16,other,3
+2026-11-16,11,West Hills,West Valley,18,trash,11
+2026-11-16,11,West Hills,West Valley,18,other,4
+2026-11-16,66,West Los Angeles,Westside,32,trash,19
+2026-11-16,66,West Los Angeles,Westside,32,streets,6
+2026-11-16,66,West Los Angeles,Westside,32,parking,3
+2026-11-16,66,West Los Angeles,Westside,32,trees,3
+2026-11-16,71,Westchester/playa,Westside,32,streets,11
+2026-11-16,71,Westchester/playa,Westside,32,trash,11
+2026-11-16,71,Westchester/playa,Westside,32,parking,3
+2026-11-16,71,Westchester/playa,Westside,32,other,3
+2026-11-16,97,Westlake North,Central LA,36,trash,32
+2026-11-16,97,Westlake North,Central LA,36,other,3
+2026-11-16,121,Westlake South,Central LA,28,trash,18
+2026-11-16,121,Westlake South,Central LA,28,other,8
+2026-11-16,62,Westside,Westside,51,streets,28
+2026-11-16,62,Westside,Westside,51,trash,12
+2026-11-16,62,Westside,Westside,51,trees,6
+2026-11-16,62,Westside,Westside,51,other,4
+2026-11-16,63,Westwood,Westside,16,trash,9
+2026-11-16,63,Westwood,Westside,16,other,6
+2026-11-16,93,Wilmington,Harbor,39,trash,21
+2026-11-16,93,Wilmington,Harbor,39,streets,10
+2026-11-16,93,Wilmington,Harbor,39,other,3
+2026-11-16,93,Wilmington,Harbor,39,critters,3
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,112,trash,79
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,112,streets,17
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,112,other,8
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,112,trees,7
+2026-11-16,14,Winnetka,West Valley,58,trash,46
+2026-11-16,14,Winnetka,West Valley,58,streets,9
+2026-11-16,16,Woodland Hills-warner Center,West Valley,59,trash,21
+2026-11-16,16,Woodland Hills-warner Center,West Valley,59,other,17
+2026-11-16,16,Woodland Hills-warner Center,West Valley,59,streets,11
+2026-11-16,16,Woodland Hills-warner Center,West Valley,59,trees,6
+2026-11-16,125,Zapata King,South LA,56,trash,45
+2026-11-16,125,Zapata King,South LA,56,streets,6
+2026-11-17,6,Arleta,East Valley,16,trash,10
+2026-11-17,6,Arleta,East Valley,16,streets,3
+2026-11-17,42,Arroyo Seco,Eastside,22,trash,18
+2026-11-17,46,Arts District Little Tokyo,Central LA,48,parking,45
+2026-11-17,37,Atwater Village,Eastside,11,trash,5
+2026-11-17,64,Bel Air-beverly Crest,Westside,29,streets,19
+2026-11-17,64,Bel Air-beverly Crest,Westside,29,trash,9
+2026-11-17,50,Boyle Heights,Eastside,121,trash,93
+2026-11-17,50,Boyle Heights,Eastside,121,streets,10
+2026-11-17,50,Boyle Heights,Eastside,121,other,6
+2026-11-17,50,Boyle Heights,Eastside,121,parking,5
+2026-11-17,50,Boyle Heights,Eastside,121,trees,3
+2026-11-17,13,Canoga Park,West Valley,31,trash,20
+2026-11-17,13,Canoga Park,West Valley,31,other,6
+2026-11-17,13,Canoga Park,West Valley,31,critters,3
+2026-11-17,110,Central Alameda,South LA,31,trash,25
+2026-11-17,32,Central Hollywood,Central LA,26,trash,15
+2026-11-17,32,Central Hollywood,Central LA,26,streets,5
+2026-11-17,32,Central Hollywood,Central LA,26,parking,3
+2026-11-17,32,Central Hollywood,Central LA,26,other,3
+2026-11-17,95,Central San Pedro,Harbor,24,trash,15
+2026-11-17,95,Central San Pedro,Harbor,24,other,4
+2026-11-17,95,Central San Pedro,Harbor,24,trees,4
+2026-11-17,99,Chatsworth,West Valley,23,trash,13
+2026-11-17,99,Chatsworth,West Valley,23,streets,4
+2026-11-17,99,Chatsworth,West Valley,23,other,3
+2026-11-17,99,Chatsworth,West Valley,23,trees,3
+2026-11-17,96,Coastal San Pedro,Harbor,29,trash,22
+2026-11-17,86,Community And Neighbors For Ninth District Unity (canndu),South LA,82,trash,65
+2026-11-17,86,Community And Neighbors For Ninth District Unity (canndu),South LA,82,other,8
+2026-11-17,86,Community And Neighbors For Ninth District Unity (canndu),South LA,82,streets,5
+2026-11-17,70,Del Rey,Westside,26,trash,12
+2026-11-17,70,Del Rey,Westside,26,other,7
+2026-11-17,70,Del Rey,Westside,26,streets,3
+2026-11-17,52,Downtown Los Angeles,Central LA,161,trash,65
+2026-11-17,52,Downtown Los Angeles,Central LA,161,parking,44
+2026-11-17,52,Downtown Los Angeles,Central LA,161,other,29
+2026-11-17,52,Downtown Los Angeles,Central LA,161,streets,19
+2026-11-17,40,Eagle Rock,Eastside,20,trash,10
+2026-11-17,40,Eagle Rock,Eastside,20,streets,3
+2026-11-17,34,East Hollywood,Central LA,77,trash,52
+2026-11-17,34,East Hollywood,Central LA,77,trees,8
+2026-11-17,34,East Hollywood,Central LA,77,streets,7
+2026-11-17,34,East Hollywood,Central LA,77,other,5
+2026-11-17,34,East Hollywood,Central LA,77,water,4
+2026-11-17,44,Echo Park,Eastside,123,trash,109
+2026-11-17,44,Echo Park,Eastside,123,streets,4
+2026-11-17,44,Echo Park,Eastside,123,parking,4
+2026-11-17,44,Echo Park,Eastside,123,trees,3
+2026-11-17,81,Empowerment Congress Central Area,South LA,64,trash,39
+2026-11-17,81,Empowerment Congress Central Area,South LA,64,other,9
+2026-11-17,81,Empowerment Congress Central Area,South LA,64,streets,8
+2026-11-17,81,Empowerment Congress Central Area,South LA,64,critters,4
+2026-11-17,81,Empowerment Congress Central Area,South LA,64,trees,3
+2026-11-17,77,Empowerment Congress North Area,South LA,45,trash,30
+2026-11-17,77,Empowerment Congress North Area,South LA,45,trees,5
+2026-11-17,77,Empowerment Congress North Area,South LA,45,streets,4
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,120,trash,81
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,120,streets,14
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,120,other,14
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,120,critters,8
+2026-11-17,84,Empowerment Congress Southwest Area,South LA,25,trash,16
+2026-11-17,84,Empowerment Congress Southwest Area,South LA,25,streets,3
+2026-11-17,84,Empowerment Congress Southwest Area,South LA,25,other,3
+2026-11-17,79,Empowerment Congress West Area,South LA,40,trash,24
+2026-11-17,79,Empowerment Congress West Area,South LA,40,streets,8
+2026-11-17,79,Empowerment Congress West Area,South LA,40,other,6
+2026-11-17,18,Encino,West Valley,25,trash,10
+2026-11-17,18,Encino,West Valley,25,streets,8
+2026-11-17,18,Encino,West Valley,25,other,5
+2026-11-17,9,Foothill Trails District,East Valley,20,trash,14
+2026-11-17,9,Foothill Trails District,East Valley,20,other,3
+2026-11-17,39,Glassell Park,Eastside,11,trash,5
+2026-11-17,39,Glassell Park,Eastside,11,other,4
+2026-11-17,4,Granada Hills North,West Valley,15,trash,13
+2026-11-17,118,Granada Hills South,West Valley,31,trash,21
+2026-11-17,118,Granada Hills South,West Valley,31,streets,5
+2026-11-17,102,Greater Cypress Park,Eastside,10,trash,8
+2026-11-17,28,Greater Toluca Lake,East Valley,12,trash,7
+2026-11-17,28,Greater Toluca Lake,East Valley,12,other,3
+2026-11-17,21,Greater Valley Glen,East Valley,29,trash,24
+2026-11-17,21,Greater Valley Glen,East Valley,29,other,3
+2026-11-17,119,Greater Wilshire,Central LA,42,trash,21
+2026-11-17,119,Greater Wilshire,Central LA,42,streets,11
+2026-11-17,119,Greater Wilshire,Central LA,42,trees,4
+2026-11-17,92,Harbor City,Harbor,16,trash,7
+2026-11-17,92,Harbor City,Harbor,16,streets,5
+2026-11-17,90,Harbor Gateway North,Harbor,27,trash,20
+2026-11-17,90,Harbor Gateway North,Harbor,27,streets,4
+2026-11-17,91,Harbor Gateway South,Harbor,20,trash,13
+2026-11-17,91,Harbor Gateway South,Harbor,20,streets,4
+2026-11-17,91,Harbor Gateway South,Harbor,20,trees,3
+2026-11-17,128,Historic Cultural North,Central LA,37,trash,22
+2026-11-17,128,Historic Cultural North,Central LA,37,other,6
+2026-11-17,128,Historic Cultural North,Central LA,37,parking,6
+2026-11-17,41,Historic Highland Park,Eastside,49,trash,31
+2026-11-17,41,Historic Highland Park,Eastside,49,streets,8
+2026-11-17,41,Historic Highland Park,Eastside,49,other,6
+2026-11-17,41,Historic Highland Park,Eastside,49,critters,3
+2026-11-17,29,Hollywood Hills West,Central LA,41,trash,20
+2026-11-17,29,Hollywood Hills West,Central LA,41,other,8
+2026-11-17,29,Hollywood Hills West,Central LA,41,streets,7
+2026-11-17,29,Hollywood Hills West,Central LA,41,parking,4
+2026-11-17,33,Hollywood Studio District,Central LA,40,trash,27
+2026-11-17,33,Hollywood Studio District,Central LA,40,streets,5
+2026-11-17,30,Hollywood United,Central LA,23,trash,17
+2026-11-17,48,LA-32,Eastside,34,trash,19
+2026-11-17,48,LA-32,Eastside,34,other,5
+2026-11-17,48,LA-32,Eastside,34,streets,4
+2026-11-17,19,Lake Balboa,West Valley,114,trash,97
+2026-11-17,19,Lake Balboa,West Valley,114,streets,8
+2026-11-17,19,Lake Balboa,West Valley,114,other,6
+2026-11-17,47,Lincoln Heights,Eastside,28,trash,19
+2026-11-17,47,Lincoln Heights,Eastside,28,other,5
+2026-11-17,47,Lincoln Heights,Eastside,28,streets,3
+2026-11-17,36,Los Feliz,Eastside,39,trash,25
+2026-11-17,36,Los Feliz,Eastside,39,streets,8
+2026-11-17,36,Los Feliz,Eastside,39,critters,3
+2026-11-17,54,Macarthur Park,Central LA,197,trash,191
+2026-11-17,54,Macarthur Park,Central LA,197,other,3
+2026-11-17,67,Mar Vista,Westside,26,trash,13
+2026-11-17,67,Mar Vista,Westside,26,other,7
+2026-11-17,67,Mar Vista,Westside,26,streets,3
+2026-11-17,73,Mid City,South LA,30,trash,21
+2026-11-17,73,Mid City,South LA,30,trees,5
+2026-11-17,58,Mid City West,Central LA,54,trash,33
+2026-11-17,58,Mid City West,Central LA,54,streets,7
+2026-11-17,58,Mid City West,Central LA,54,other,6
+2026-11-17,58,Mid City West,Central LA,54,trees,4
+2026-11-17,101,Mission Hills,East Valley,9,trash,5
+2026-11-17,24,NoHo,East Valley,64,trash,35
+2026-11-17,24,NoHo,East Valley,64,other,10
+2026-11-17,24,NoHo,East Valley,64,streets,7
+2026-11-17,24,NoHo,East Valley,64,critters,6
+2026-11-17,24,NoHo,East Valley,64,parking,5
+2026-11-17,22,NoHo West,East Valley,11,trash,7
+2026-11-17,112,North Hills East,West Valley,26,trash,12
+2026-11-17,112,North Hills East,West Valley,26,streets,9
+2026-11-17,112,North Hills East,West Valley,26,other,4
+2026-11-17,111,North Hills West,East Valley,7,streets,7
+2026-11-17,23,North Hollywood Northeast,East Valley,36,trash,27
+2026-11-17,23,North Hollywood Northeast,East Valley,36,streets,3
+2026-11-17,127,North Westwood,Westside,21,trash,15
+2026-11-17,127,North Westwood,Westside,21,streets,3
+2026-11-17,127,North Westwood,Westside,21,trees,3
+2026-11-17,120,Northridge East,West Valley,37,trash,17
+2026-11-17,120,Northridge East,West Valley,37,housing,17
+2026-11-17,124,Northridge South,West Valley,23,trash,20
+2026-11-17,113,Northridge West,West Valley,26,trash,18
+2026-11-17,94,Northwest San Pedro,Harbor,20,trees,8
+2026-11-17,94,Northwest San Pedro,Harbor,20,trash,7
+2026-11-17,94,Northwest San Pedro,Harbor,20,streets,4
+2026-11-17,104,Olympic Park,Central LA,9,trash,5
+2026-11-17,60,P.i.c.o.,Central LA,19,trash,13
+2026-11-17,60,P.i.c.o.,Central LA,19,trees,3
+2026-11-17,7,Pacoima,East Valley,59,trash,47
+2026-11-17,7,Pacoima,East Valley,59,streets,3
+2026-11-17,7,Pacoima,East Valley,59,trees,3
+2026-11-17,7,Pacoima,East Valley,59,other,3
+2026-11-17,115,Palms,Westside,32,trash,17
+2026-11-17,115,Palms,Westside,32,other,9
+2026-11-17,115,Palms,Westside,32,parking,3
+2026-11-17,100,Panorama City,East Valley,20,trash,13
+2026-11-17,100,Panorama City,East Valley,20,other,3
+2026-11-17,80,Park Mesa Heights,South LA,43,trash,32
+2026-11-17,80,Park Mesa Heights,South LA,43,trees,5
+2026-11-17,80,Park Mesa Heights,South LA,43,streets,4
+2026-11-17,76,Pico Union,Central LA,46,trash,34
+2026-11-17,76,Pico Union,Central LA,46,streets,6
+2026-11-17,76,Pico Union,Central LA,46,other,3
+2026-11-17,114,Porter Ranch,West Valley,8,trash,7
+2026-11-17,53,Rampart Village,Eastside,35,trash,23
+2026-11-17,53,Rampart Village,Eastside,35,streets,7
+2026-11-17,15,Reseda,West Valley,38,trash,26
+2026-11-17,15,Reseda,West Valley,38,streets,7
+2026-11-17,26,Sherman Oaks,East Valley,52,trash,40
+2026-11-17,26,Sherman Oaks,East Valley,52,streets,6
+2026-11-17,26,Sherman Oaks,East Valley,52,other,4
+2026-11-17,38,Silver Lake,Eastside,41,trash,27
+2026-11-17,38,Silver Lake,Eastside,41,other,7
+2026-11-17,38,Silver Lake,Eastside,41,streets,5
+2026-11-17,78,South Central,South LA,77,trash,62
+2026-11-17,78,South Central,South LA,77,other,7
+2026-11-17,78,South Central,South LA,77,streets,4
+2026-11-17,61,South Robertson,Westside,31,trash,17
+2026-11-17,61,South Robertson,Westside,31,other,5
+2026-11-17,61,South Robertson,Westside,31,trees,5
+2026-11-17,61,South Robertson,Westside,31,streets,3
+2026-11-17,27,Studio City,East Valley,34,trash,15
+2026-11-17,27,Studio City,East Valley,34,other,8
+2026-11-17,27,Studio City,East Valley,34,streets,7
+2026-11-17,27,Studio City,East Valley,34,critters,3
+2026-11-17,8,Sun Valley Area,East Valley,54,trash,37
+2026-11-17,8,Sun Valley Area,East Valley,54,trees,6
+2026-11-17,8,Sun Valley Area,East Valley,54,streets,5
+2026-11-17,10,Sunland-tujunga,East Valley,26,trash,21
+2026-11-17,5,Sylmar,East Valley,27,trash,15
+2026-11-17,5,Sylmar,East Valley,27,other,5
+2026-11-17,5,Sylmar,East Valley,27,streets,3
+2026-11-17,17,Tarzana,West Valley,21,trash,14
+2026-11-17,17,Tarzana,West Valley,21,other,3
+2026-11-17,17,Tarzana,West Valley,21,streets,3
+2026-11-17,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,42,trash,33
+2026-11-17,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,42,other,5
+2026-11-17,25,Valley Village,East Valley,9,trash,7
+2026-11-17,20,Van Nuys,East Valley,83,trash,59
+2026-11-17,20,Van Nuys,East Valley,83,streets,12
+2026-11-17,20,Van Nuys,East Valley,83,other,9
+2026-11-17,68,Venice,Westside,42,trash,27
+2026-11-17,68,Venice,Westside,42,other,6
+2026-11-17,68,Venice,Westside,42,streets,4
+2026-11-17,109,Voices Of 90037,South LA,40,trash,29
+2026-11-17,109,Voices Of 90037,South LA,40,streets,3
+2026-11-17,109,Voices Of 90037,South LA,40,critters,3
+2026-11-17,109,Voices Of 90037,South LA,40,other,3
+2026-11-17,88,Watts,South LA,13,trash,8
+2026-11-17,75,West Adams,South LA,46,trash,33
+2026-11-17,75,West Adams,South LA,46,streets,4
+2026-11-17,75,West Adams,South LA,46,other,4
+2026-11-17,75,West Adams,South LA,46,trees,3
+2026-11-17,11,West Hills,West Valley,17,streets,7
+2026-11-17,11,West Hills,West Valley,17,critters,4
+2026-11-17,11,West Hills,West Valley,17,trash,4
+2026-11-17,66,West Los Angeles,Westside,23,trash,12
+2026-11-17,66,West Los Angeles,Westside,23,parking,5
+2026-11-17,66,West Los Angeles,Westside,23,streets,4
+2026-11-17,71,Westchester/playa,Westside,74,streets,42
+2026-11-17,71,Westchester/playa,Westside,74,trash,21
+2026-11-17,71,Westchester/playa,Westside,74,critters,5
+2026-11-17,71,Westchester/playa,Westside,74,parking,3
+2026-11-17,97,Westlake North,Central LA,43,trash,40
+2026-11-17,121,Westlake South,Central LA,23,trash,15
+2026-11-17,121,Westlake South,Central LA,23,other,5
+2026-11-17,62,Westside,Westside,33,trash,20
+2026-11-17,62,Westside,Westside,33,other,5
+2026-11-17,62,Westside,Westside,33,streets,4
+2026-11-17,63,Westwood,Westside,24,trash,14
+2026-11-17,63,Westwood,Westside,24,streets,7
+2026-11-17,93,Wilmington,Harbor,54,trash,39
+2026-11-17,93,Wilmington,Harbor,54,streets,6
+2026-11-17,93,Wilmington,Harbor,54,other,4
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,83,trash,38
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,83,streets,14
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,83,other,13
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,83,water,8
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,83,critters,5
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,83,trees,4
+2026-11-17,14,Winnetka,West Valley,34,trash,19
+2026-11-17,14,Winnetka,West Valley,34,streets,6
+2026-11-17,14,Winnetka,West Valley,34,other,6
+2026-11-17,16,Woodland Hills-warner Center,West Valley,56,other,23
+2026-11-17,16,Woodland Hills-warner Center,West Valley,56,trash,19
+2026-11-17,16,Woodland Hills-warner Center,West Valley,56,streets,13
+2026-11-17,125,Zapata King,South LA,91,trash,55
+2026-11-17,125,Zapata King,South LA,91,streets,18
+2026-11-17,125,Zapata King,South LA,91,other,6
+2026-11-17,125,Zapata King,South LA,91,trees,6
+2026-11-17,125,Zapata King,South LA,91,critters,4
+2026-11-18,6,Arleta,East Valley,31,trash,23
+2026-11-18,6,Arleta,East Valley,31,other,4
+2026-11-18,42,Arroyo Seco,Eastside,18,trash,12
+2026-11-18,37,Atwater Village,Eastside,17,trash,10
+2026-11-18,37,Atwater Village,Eastside,17,other,4
+2026-11-18,37,Atwater Village,Eastside,17,streets,3
+2026-11-18,64,Bel Air-beverly Crest,Westside,20,streets,9
+2026-11-18,64,Bel Air-beverly Crest,Westside,20,trash,6
+2026-11-18,64,Bel Air-beverly Crest,Westside,20,other,3
+2026-11-18,50,Boyle Heights,Eastside,96,trash,80
+2026-11-18,50,Boyle Heights,Eastside,96,streets,5
+2026-11-18,50,Boyle Heights,Eastside,96,trees,5
+2026-11-18,50,Boyle Heights,Eastside,96,critters,3
+2026-11-18,13,Canoga Park,West Valley,61,trash,42
+2026-11-18,13,Canoga Park,West Valley,61,other,11
+2026-11-18,13,Canoga Park,West Valley,61,streets,4
+2026-11-18,13,Canoga Park,West Valley,61,trees,3
+2026-11-18,110,Central Alameda,South LA,39,trash,28
+2026-11-18,110,Central Alameda,South LA,39,other,4
+2026-11-18,110,Central Alameda,South LA,39,trees,3
+2026-11-18,32,Central Hollywood,Central LA,25,trash,11
+2026-11-18,32,Central Hollywood,Central LA,25,streets,6
+2026-11-18,32,Central Hollywood,Central LA,25,parking,4
+2026-11-18,95,Central San Pedro,Harbor,26,trash,13
+2026-11-18,95,Central San Pedro,Harbor,26,streets,5
+2026-11-18,95,Central San Pedro,Harbor,26,trees,4
+2026-11-18,99,Chatsworth,West Valley,23,trash,15
+2026-11-18,99,Chatsworth,West Valley,23,other,3
+2026-11-18,99,Chatsworth,West Valley,23,critters,3
+2026-11-18,96,Coastal San Pedro,Harbor,16,trash,11
+2026-11-18,96,Coastal San Pedro,Harbor,16,critters,3
+2026-11-18,86,Community And Neighbors For Ninth District Unity (canndu),South LA,36,trash,18
+2026-11-18,86,Community And Neighbors For Ninth District Unity (canndu),South LA,36,other,9
+2026-11-18,86,Community And Neighbors For Ninth District Unity (canndu),South LA,36,streets,4
+2026-11-18,86,Community And Neighbors For Ninth District Unity (canndu),South LA,36,critters,3
+2026-11-18,70,Del Rey,Westside,39,trash,15
+2026-11-18,70,Del Rey,Westside,39,trees,15
+2026-11-18,70,Del Rey,Westside,39,other,5
+2026-11-18,70,Del Rey,Westside,39,streets,3
+2026-11-18,52,Downtown Los Angeles,Central LA,162,trash,56
+2026-11-18,52,Downtown Los Angeles,Central LA,162,parking,47
+2026-11-18,52,Downtown Los Angeles,Central LA,162,other,29
+2026-11-18,52,Downtown Los Angeles,Central LA,162,streets,29
+2026-11-18,40,Eagle Rock,Eastside,29,trash,19
+2026-11-18,40,Eagle Rock,Eastside,29,trees,3
+2026-11-18,40,Eagle Rock,Eastside,29,streets,3
+2026-11-18,34,East Hollywood,Central LA,95,trash,76
+2026-11-18,34,East Hollywood,Central LA,95,parking,6
+2026-11-18,34,East Hollywood,Central LA,95,streets,4
+2026-11-18,34,East Hollywood,Central LA,95,critters,4
+2026-11-18,44,Echo Park,Eastside,45,trash,35
+2026-11-18,44,Echo Park,Eastside,45,trees,4
+2026-11-18,44,Echo Park,Eastside,45,parking,3
+2026-11-18,43,Elysian Valley Riverside,Eastside,7,other,4
+2026-11-18,81,Empowerment Congress Central Area,South LA,90,trash,60
+2026-11-18,81,Empowerment Congress Central Area,South LA,90,trees,9
+2026-11-18,81,Empowerment Congress Central Area,South LA,90,other,7
+2026-11-18,81,Empowerment Congress Central Area,South LA,90,streets,7
+2026-11-18,81,Empowerment Congress Central Area,South LA,90,critters,4
+2026-11-18,77,Empowerment Congress North Area,South LA,104,parking,40
+2026-11-18,77,Empowerment Congress North Area,South LA,104,trash,36
+2026-11-18,77,Empowerment Congress North Area,South LA,104,streets,10
+2026-11-18,77,Empowerment Congress North Area,South LA,104,trees,7
+2026-11-18,77,Empowerment Congress North Area,South LA,104,critters,6
+2026-11-18,77,Empowerment Congress North Area,South LA,104,other,4
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,126,trash,99
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,126,streets,10
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,126,critters,7
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,126,other,7
+2026-11-18,84,Empowerment Congress Southwest Area,South LA,22,trash,21
+2026-11-18,79,Empowerment Congress West Area,South LA,42,trash,26
+2026-11-18,79,Empowerment Congress West Area,South LA,42,trees,8
+2026-11-18,79,Empowerment Congress West Area,South LA,42,critters,5
+2026-11-18,79,Empowerment Congress West Area,South LA,42,streets,3
+2026-11-18,18,Encino,West Valley,85,trash,76
+2026-11-18,18,Encino,West Valley,85,streets,5
+2026-11-18,39,Glassell Park,Eastside,10,trash,6
+2026-11-18,118,Granada Hills South,West Valley,13,trash,8
+2026-11-18,118,Granada Hills South,West Valley,13,streets,3
+2026-11-18,102,Greater Cypress Park,Eastside,10,trash,5
+2026-11-18,102,Greater Cypress Park,Eastside,10,streets,3
+2026-11-18,28,Greater Toluca Lake,East Valley,10,trash,8
+2026-11-18,21,Greater Valley Glen,East Valley,71,trash,63
+2026-11-18,21,Greater Valley Glen,East Valley,71,streets,3
+2026-11-18,21,Greater Valley Glen,East Valley,71,other,3
+2026-11-18,119,Greater Wilshire,Central LA,50,trash,26
+2026-11-18,119,Greater Wilshire,Central LA,50,streets,9
+2026-11-18,119,Greater Wilshire,Central LA,50,trees,7
+2026-11-18,119,Greater Wilshire,Central LA,50,parking,5
+2026-11-18,119,Greater Wilshire,Central LA,50,other,3
+2026-11-18,92,Harbor City,Harbor,16,trash,10
+2026-11-18,92,Harbor City,Harbor,16,streets,3
+2026-11-18,90,Harbor Gateway North,Harbor,23,trash,20
+2026-11-18,91,Harbor Gateway South,Harbor,12,trash,5
+2026-11-18,91,Harbor Gateway South,Harbor,12,critters,3
+2026-11-18,128,Historic Cultural North,Central LA,24,trash,15
+2026-11-18,128,Historic Cultural North,Central LA,24,other,3
+2026-11-18,128,Historic Cultural North,Central LA,24,parking,3
+2026-11-18,41,Historic Highland Park,Eastside,38,trash,30
+2026-11-18,41,Historic Highland Park,Eastside,38,other,3
+2026-11-18,29,Hollywood Hills West,Central LA,60,trash,25
+2026-11-18,29,Hollywood Hills West,Central LA,60,streets,18
+2026-11-18,29,Hollywood Hills West,Central LA,60,parking,13
+2026-11-18,29,Hollywood Hills West,Central LA,60,other,4
+2026-11-18,33,Hollywood Studio District,Central LA,55,trash,41
+2026-11-18,33,Hollywood Studio District,Central LA,55,streets,7
+2026-11-18,33,Hollywood Studio District,Central LA,55,critters,3
+2026-11-18,30,Hollywood United,Central LA,29,trash,17
+2026-11-18,30,Hollywood United,Central LA,29,streets,11
+2026-11-18,48,LA-32,Eastside,40,trash,28
+2026-11-18,48,LA-32,Eastside,40,trees,4
+2026-11-18,48,LA-32,Eastside,40,streets,4
+2026-11-18,48,LA-32,Eastside,40,other,4
+2026-11-18,19,Lake Balboa,West Valley,71,trash,45
+2026-11-18,19,Lake Balboa,West Valley,71,other,10
+2026-11-18,19,Lake Balboa,West Valley,71,streets,9
+2026-11-18,19,Lake Balboa,West Valley,71,trees,6
+2026-11-18,47,Lincoln Heights,Eastside,39,trash,28
+2026-11-18,47,Lincoln Heights,Eastside,39,other,6
+2026-11-18,47,Lincoln Heights,Eastside,39,trees,3
+2026-11-18,36,Los Feliz,Eastside,36,trash,24
+2026-11-18,36,Los Feliz,Eastside,36,other,6
+2026-11-18,36,Los Feliz,Eastside,36,streets,5
+2026-11-18,54,Macarthur Park,Central LA,193,trash,183
+2026-11-18,54,Macarthur Park,Central LA,193,streets,6
+2026-11-18,54,Macarthur Park,Central LA,193,other,4
+2026-11-18,67,Mar Vista,Westside,31,trash,20
+2026-11-18,67,Mar Vista,Westside,31,streets,5
+2026-11-18,67,Mar Vista,Westside,31,other,3
+2026-11-18,73,Mid City,South LA,42,trash,24
+2026-11-18,73,Mid City,South LA,42,trees,5
+2026-11-18,73,Mid City,South LA,42,other,5
+2026-11-18,73,Mid City,South LA,42,streets,4
+2026-11-18,58,Mid City West,Central LA,89,trash,60
+2026-11-18,58,Mid City West,Central LA,89,streets,20
+2026-11-18,58,Mid City West,Central LA,89,other,4
+2026-11-18,58,Mid City West,Central LA,89,trees,3
+2026-11-18,101,Mission Hills,East Valley,7,trash,3
+2026-11-18,24,NoHo,East Valley,66,trash,35
+2026-11-18,24,NoHo,East Valley,66,streets,21
+2026-11-18,24,NoHo,East Valley,66,other,5
+2026-11-18,22,NoHo West,East Valley,17,trash,10
+2026-11-18,22,NoHo West,East Valley,17,other,4
+2026-11-18,22,NoHo West,East Valley,17,critters,3
+2026-11-18,112,North Hills East,West Valley,50,trash,47
+2026-11-18,111,North Hills West,East Valley,26,streets,10
+2026-11-18,111,North Hills West,East Valley,26,trash,8
+2026-11-18,111,North Hills West,East Valley,26,housing,6
+2026-11-18,23,North Hollywood Northeast,East Valley,44,trash,34
+2026-11-18,23,North Hollywood Northeast,East Valley,44,critters,4
+2026-11-18,127,North Westwood,Westside,5,trash,3
+2026-11-18,120,Northridge East,West Valley,18,housing,7
+2026-11-18,120,Northridge East,West Valley,18,trash,6
+2026-11-18,120,Northridge East,West Valley,18,streets,3
+2026-11-18,124,Northridge South,West Valley,16,trash,8
+2026-11-18,124,Northridge South,West Valley,16,streets,8
+2026-11-18,113,Northridge West,West Valley,14,trash,5
+2026-11-18,113,Northridge West,West Valley,14,critters,3
+2026-11-18,113,Northridge West,West Valley,14,streets,3
+2026-11-18,94,Northwest San Pedro,Harbor,22,trash,17
+2026-11-18,94,Northwest San Pedro,Harbor,22,streets,4
+2026-11-18,104,Olympic Park,Central LA,13,trash,11
+2026-11-18,60,P.i.c.o.,Central LA,24,trash,19
+2026-11-18,7,Pacoima,East Valley,50,trash,33
+2026-11-18,7,Pacoima,East Valley,50,other,6
+2026-11-18,7,Pacoima,East Valley,50,streets,6
+2026-11-18,115,Palms,Westside,37,trash,28
+2026-11-18,115,Palms,Westside,37,parking,4
+2026-11-18,115,Palms,Westside,37,other,3
+2026-11-18,100,Panorama City,East Valley,53,trash,41
+2026-11-18,100,Panorama City,East Valley,53,streets,4
+2026-11-18,100,Panorama City,East Valley,53,other,4
+2026-11-18,100,Panorama City,East Valley,53,water,3
+2026-11-18,80,Park Mesa Heights,South LA,73,trash,59
+2026-11-18,80,Park Mesa Heights,South LA,73,trees,7
+2026-11-18,80,Park Mesa Heights,South LA,73,streets,3
+2026-11-18,80,Park Mesa Heights,South LA,73,critters,3
+2026-11-18,76,Pico Union,Central LA,51,trash,32
+2026-11-18,76,Pico Union,Central LA,51,streets,5
+2026-11-18,76,Pico Union,Central LA,51,trees,5
+2026-11-18,76,Pico Union,Central LA,51,critters,4
+2026-11-18,76,Pico Union,Central LA,51,other,4
+2026-11-18,114,Porter Ranch,West Valley,8,trash,5
+2026-11-18,53,Rampart Village,Eastside,16,trash,9
+2026-11-18,15,Reseda,West Valley,56,trash,44
+2026-11-18,15,Reseda,West Valley,56,other,6
+2026-11-18,26,Sherman Oaks,East Valley,64,trash,31
+2026-11-18,26,Sherman Oaks,East Valley,64,streets,21
+2026-11-18,26,Sherman Oaks,East Valley,64,other,5
+2026-11-18,26,Sherman Oaks,East Valley,64,critters,3
+2026-11-18,38,Silver Lake,Eastside,22,trash,9
+2026-11-18,38,Silver Lake,Eastside,22,critters,3
+2026-11-18,38,Silver Lake,Eastside,22,other,3
+2026-11-18,78,South Central,South LA,72,trash,46
+2026-11-18,78,South Central,South LA,72,streets,12
+2026-11-18,78,South Central,South LA,72,other,11
+2026-11-18,61,South Robertson,Westside,42,trash,19
+2026-11-18,61,South Robertson,Westside,42,other,9
+2026-11-18,61,South Robertson,Westside,42,trees,6
+2026-11-18,61,South Robertson,Westside,42,streets,6
+2026-11-18,27,Studio City,East Valley,34,trash,19
+2026-11-18,27,Studio City,East Valley,34,other,6
+2026-11-18,27,Studio City,East Valley,34,streets,3
+2026-11-18,27,Studio City,East Valley,34,water,3
+2026-11-18,8,Sun Valley Area,East Valley,75,trash,45
+2026-11-18,8,Sun Valley Area,East Valley,75,streets,23
+2026-11-18,8,Sun Valley Area,East Valley,75,trees,4
+2026-11-18,10,Sunland-tujunga,East Valley,19,trash,12
+2026-11-18,5,Sylmar,East Valley,36,other,14
+2026-11-18,5,Sylmar,East Valley,36,trash,11
+2026-11-18,5,Sylmar,East Valley,36,streets,5
+2026-11-18,5,Sylmar,East Valley,36,parking,3
+2026-11-18,17,Tarzana,West Valley,36,trash,23
+2026-11-18,17,Tarzana,West Valley,36,streets,8
+2026-11-18,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,39,trash,22
+2026-11-18,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,39,other,7
+2026-11-18,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,39,trees,4
+2026-11-18,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,39,streets,3
+2026-11-18,25,Valley Village,East Valley,12,trash,7
+2026-11-18,25,Valley Village,East Valley,12,streets,3
+2026-11-18,20,Van Nuys,East Valley,234,trash,197
+2026-11-18,20,Van Nuys,East Valley,234,streets,16
+2026-11-18,20,Van Nuys,East Valley,234,other,15
+2026-11-18,20,Van Nuys,East Valley,234,critters,5
+2026-11-18,68,Venice,Westside,35,trash,19
+2026-11-18,68,Venice,Westside,35,trees,8
+2026-11-18,68,Venice,Westside,35,other,4
+2026-11-18,68,Venice,Westside,35,streets,3
+2026-11-18,109,Voices Of 90037,South LA,45,trash,34
+2026-11-18,109,Voices Of 90037,South LA,45,streets,5
+2026-11-18,88,Watts,South LA,24,trash,20
+2026-11-18,75,West Adams,South LA,24,trash,15
+2026-11-18,75,West Adams,South LA,24,streets,3
+2026-11-18,11,West Hills,West Valley,18,trash,12
+2026-11-18,66,West Los Angeles,Westside,27,trash,15
+2026-11-18,66,West Los Angeles,Westside,27,streets,6
+2026-11-18,66,West Los Angeles,Westside,27,other,4
+2026-11-18,71,Westchester/playa,Westside,57,streets,38
+2026-11-18,71,Westchester/playa,Westside,57,trash,15
+2026-11-18,97,Westlake North,Central LA,29,trash,17
+2026-11-18,97,Westlake North,Central LA,29,parking,11
+2026-11-18,121,Westlake South,Central LA,17,trash,15
+2026-11-18,62,Westside,Westside,30,streets,17
+2026-11-18,62,Westside,Westside,30,trash,10
+2026-11-18,63,Westwood,Westside,21,trash,13
+2026-11-18,63,Westwood,Westside,21,streets,6
+2026-11-18,93,Wilmington,Harbor,40,trash,28
+2026-11-18,93,Wilmington,Harbor,40,streets,8
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,102,trash,68
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,102,streets,14
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,102,other,9
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,102,water,7
+2026-11-18,14,Winnetka,West Valley,29,trash,18
+2026-11-18,14,Winnetka,West Valley,29,streets,6
+2026-11-18,14,Winnetka,West Valley,29,other,4
+2026-11-18,16,Woodland Hills-warner Center,West Valley,51,trash,19
+2026-11-18,16,Woodland Hills-warner Center,West Valley,51,other,14
+2026-11-18,16,Woodland Hills-warner Center,West Valley,51,streets,12
+2026-11-18,125,Zapata King,South LA,38,trash,26
+2026-11-18,125,Zapata King,South LA,38,other,5
+2026-11-18,125,Zapata King,South LA,38,critters,4
+2026-11-19,6,Arleta,East Valley,25,trash,14
+2026-11-19,6,Arleta,East Valley,25,other,5
+2026-11-19,6,Arleta,East Valley,25,trees,3
+2026-11-19,42,Arroyo Seco,Eastside,13,streets,9
+2026-11-19,42,Arroyo Seco,Eastside,13,water,3
+2026-11-19,46,Arts District Little Tokyo,Central LA,7,parking,4
+2026-11-19,37,Atwater Village,Eastside,8,trash,4
+2026-11-19,37,Atwater Village,Eastside,8,trees,3
+2026-11-19,64,Bel Air-beverly Crest,Westside,36,trash,12
+2026-11-19,64,Bel Air-beverly Crest,Westside,36,streets,9
+2026-11-19,64,Bel Air-beverly Crest,Westside,36,water,7
+2026-11-19,64,Bel Air-beverly Crest,Westside,36,trees,5
+2026-11-19,50,Boyle Heights,Eastside,52,trash,29
+2026-11-19,50,Boyle Heights,Eastside,52,other,5
+2026-11-19,50,Boyle Heights,Eastside,52,streets,5
+2026-11-19,50,Boyle Heights,Eastside,52,water,5
+2026-11-19,50,Boyle Heights,Eastside,52,trees,4
+2026-11-19,50,Boyle Heights,Eastside,52,housing,3
+2026-11-19,13,Canoga Park,West Valley,47,trash,35
+2026-11-19,13,Canoga Park,West Valley,47,other,5
+2026-11-19,110,Central Alameda,South LA,12,trash,7
+2026-11-19,32,Central Hollywood,Central LA,23,trash,8
+2026-11-19,32,Central Hollywood,Central LA,23,streets,7
+2026-11-19,32,Central Hollywood,Central LA,23,trees,3
+2026-11-19,32,Central Hollywood,Central LA,23,water,3
+2026-11-19,95,Central San Pedro,Harbor,35,trash,29
+2026-11-19,95,Central San Pedro,Harbor,35,trees,3
+2026-11-19,99,Chatsworth,West Valley,25,streets,14
+2026-11-19,99,Chatsworth,West Valley,25,trash,5
+2026-11-19,99,Chatsworth,West Valley,25,trees,3
+2026-11-19,96,Coastal San Pedro,Harbor,26,trees,12
+2026-11-19,96,Coastal San Pedro,Harbor,26,trash,10
+2026-11-19,96,Coastal San Pedro,Harbor,26,streets,4
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,41,trash,22
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,41,critters,7
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,41,other,4
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,41,water,4
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,41,streets,4
+2026-11-19,70,Del Rey,Westside,12,trash,7
+2026-11-19,70,Del Rey,Westside,12,other,3
+2026-11-19,52,Downtown Los Angeles,Central LA,82,other,36
+2026-11-19,52,Downtown Los Angeles,Central LA,82,water,22
+2026-11-19,52,Downtown Los Angeles,Central LA,82,trash,13
+2026-11-19,52,Downtown Los Angeles,Central LA,82,streets,7
+2026-11-19,40,Eagle Rock,Eastside,18,trash,14
+2026-11-19,34,East Hollywood,Central LA,28,trash,19
+2026-11-19,34,East Hollywood,Central LA,28,water,4
+2026-11-19,44,Echo Park,Eastside,37,trash,25
+2026-11-19,44,Echo Park,Eastside,37,streets,8
+2026-11-19,43,Elysian Valley Riverside,Eastside,3,trash,3
+2026-11-19,81,Empowerment Congress Central Area,South LA,35,trash,22
+2026-11-19,81,Empowerment Congress Central Area,South LA,35,water,5
+2026-11-19,81,Empowerment Congress Central Area,South LA,35,trees,4
+2026-11-19,77,Empowerment Congress North Area,South LA,28,trash,10
+2026-11-19,77,Empowerment Congress North Area,South LA,28,trees,6
+2026-11-19,77,Empowerment Congress North Area,South LA,28,streets,5
+2026-11-19,77,Empowerment Congress North Area,South LA,28,critters,5
+2026-11-19,87,Empowerment Congress Southeast Area,South LA,70,trash,51
+2026-11-19,87,Empowerment Congress Southeast Area,South LA,70,streets,9
+2026-11-19,87,Empowerment Congress Southeast Area,South LA,70,other,3
+2026-11-19,84,Empowerment Congress Southwest Area,South LA,35,trash,16
+2026-11-19,84,Empowerment Congress Southwest Area,South LA,35,trees,11
+2026-11-19,84,Empowerment Congress Southwest Area,South LA,35,streets,4
+2026-11-19,79,Empowerment Congress West Area,South LA,25,trees,6
+2026-11-19,79,Empowerment Congress West Area,South LA,25,water,5
+2026-11-19,79,Empowerment Congress West Area,South LA,25,trash,5
+2026-11-19,79,Empowerment Congress West Area,South LA,25,critters,3
+2026-11-19,18,Encino,West Valley,65,trash,32
+2026-11-19,18,Encino,West Valley,65,streets,12
+2026-11-19,18,Encino,West Valley,65,water,8
+2026-11-19,18,Encino,West Valley,65,other,6
+2026-11-19,18,Encino,West Valley,65,trees,4
+2026-11-19,9,Foothill Trails District,East Valley,8,water,4
+2026-11-19,39,Glassell Park,Eastside,10,trash,5
+2026-11-19,4,Granada Hills North,West Valley,9,trash,6
+2026-11-19,4,Granada Hills North,West Valley,9,streets,3
+2026-11-19,118,Granada Hills South,West Valley,23,trash,11
+2026-11-19,118,Granada Hills South,West Valley,23,streets,6
+2026-11-19,102,Greater Cypress Park,Eastside,8,trash,3
+2026-11-19,102,Greater Cypress Park,Eastside,8,streets,3
+2026-11-19,28,Greater Toluca Lake,East Valley,12,other,5
+2026-11-19,28,Greater Toluca Lake,East Valley,12,water,4
+2026-11-19,21,Greater Valley Glen,East Valley,28,water,9
+2026-11-19,21,Greater Valley Glen,East Valley,28,trash,8
+2026-11-19,21,Greater Valley Glen,East Valley,28,streets,6
+2026-11-19,119,Greater Wilshire,Central LA,45,trash,21
+2026-11-19,119,Greater Wilshire,Central LA,45,streets,9
+2026-11-19,119,Greater Wilshire,Central LA,45,water,8
+2026-11-19,119,Greater Wilshire,Central LA,45,trees,6
+2026-11-19,92,Harbor City,Harbor,13,trash,7
+2026-11-19,92,Harbor City,Harbor,13,trees,5
+2026-11-19,90,Harbor Gateway North,Harbor,71,trash,63
+2026-11-19,90,Harbor Gateway North,Harbor,71,streets,3
+2026-11-19,90,Harbor Gateway North,Harbor,71,trees,3
+2026-11-19,128,Historic Cultural North,Central LA,11,trash,10
+2026-11-19,41,Historic Highland Park,Eastside,18,trash,10
+2026-11-19,41,Historic Highland Park,Eastside,18,other,4
+2026-11-19,29,Hollywood Hills West,Central LA,39,trash,14
+2026-11-19,29,Hollywood Hills West,Central LA,39,parking,11
+2026-11-19,29,Hollywood Hills West,Central LA,39,streets,6
+2026-11-19,29,Hollywood Hills West,Central LA,39,water,4
+2026-11-19,33,Hollywood Studio District,Central LA,23,trash,17
+2026-11-19,33,Hollywood Studio District,Central LA,23,water,5
+2026-11-19,30,Hollywood United,Central LA,19,streets,10
+2026-11-19,30,Hollywood United,Central LA,19,trees,4
+2026-11-19,48,LA-32,Eastside,29,trash,13
+2026-11-19,48,LA-32,Eastside,29,other,10
+2026-11-19,48,LA-32,Eastside,29,streets,3
+2026-11-19,19,Lake Balboa,West Valley,35,trash,16
+2026-11-19,19,Lake Balboa,West Valley,35,streets,9
+2026-11-19,19,Lake Balboa,West Valley,35,other,3
+2026-11-19,47,Lincoln Heights,Eastside,24,trash,15
+2026-11-19,47,Lincoln Heights,Eastside,24,streets,5
+2026-11-19,36,Los Feliz,Eastside,27,trash,16
+2026-11-19,36,Los Feliz,Eastside,27,streets,5
+2026-11-19,36,Los Feliz,Eastside,27,water,3
+2026-11-19,54,Macarthur Park,Central LA,233,trash,229
+2026-11-19,67,Mar Vista,Westside,40,trash,23
+2026-11-19,67,Mar Vista,Westside,40,trees,5
+2026-11-19,67,Mar Vista,Westside,40,streets,4
+2026-11-19,67,Mar Vista,Westside,40,other,4
+2026-11-19,67,Mar Vista,Westside,40,water,3
+2026-11-19,73,Mid City,South LA,50,trash,19
+2026-11-19,73,Mid City,South LA,50,trees,17
+2026-11-19,73,Mid City,South LA,50,streets,6
+2026-11-19,73,Mid City,South LA,50,water,4
+2026-11-19,73,Mid City,South LA,50,critters,3
+2026-11-19,58,Mid City West,Central LA,62,trash,36
+2026-11-19,58,Mid City West,Central LA,62,water,9
+2026-11-19,58,Mid City West,Central LA,62,trees,8
+2026-11-19,58,Mid City West,Central LA,62,streets,8
+2026-11-19,101,Mission Hills,East Valley,24,trash,16
+2026-11-19,101,Mission Hills,East Valley,24,streets,3
+2026-11-19,24,NoHo,East Valley,36,trash,18
+2026-11-19,24,NoHo,East Valley,36,water,6
+2026-11-19,24,NoHo,East Valley,36,other,6
+2026-11-19,24,NoHo,East Valley,36,streets,4
+2026-11-19,22,NoHo West,East Valley,26,streets,11
+2026-11-19,22,NoHo West,East Valley,26,trash,10
+2026-11-19,112,North Hills East,West Valley,24,trash,12
+2026-11-19,112,North Hills East,West Valley,24,water,4
+2026-11-19,112,North Hills East,West Valley,24,streets,4
+2026-11-19,111,North Hills West,East Valley,17,housing,9
+2026-11-19,111,North Hills West,East Valley,17,trash,6
+2026-11-19,23,North Hollywood Northeast,East Valley,42,trash,19
+2026-11-19,23,North Hollywood Northeast,East Valley,42,water,13
+2026-11-19,23,North Hollywood Northeast,East Valley,42,streets,6
+2026-11-19,127,North Westwood,Westside,6,streets,4
+2026-11-19,120,Northridge East,West Valley,8,housing,4
+2026-11-19,124,Northridge South,West Valley,15,trash,8
+2026-11-19,124,Northridge South,West Valley,15,trees,3
+2026-11-19,124,Northridge South,West Valley,15,streets,3
+2026-11-19,113,Northridge West,West Valley,9,streets,5
+2026-11-19,94,Northwest San Pedro,Harbor,6,trash,4
+2026-11-19,104,Olympic Park,Central LA,21,trash,10
+2026-11-19,104,Olympic Park,Central LA,21,streets,4
+2026-11-19,104,Olympic Park,Central LA,21,water,3
+2026-11-19,60,P.i.c.o.,Central LA,32,trash,22
+2026-11-19,60,P.i.c.o.,Central LA,32,streets,3
+2026-11-19,7,Pacoima,East Valley,41,trash,33
+2026-11-19,7,Pacoima,East Valley,41,critters,4
+2026-11-19,7,Pacoima,East Valley,41,streets,3
+2026-11-19,115,Palms,Westside,27,trash,21
+2026-11-19,100,Panorama City,East Valley,38,trash,18
+2026-11-19,100,Panorama City,East Valley,38,water,5
+2026-11-19,100,Panorama City,East Valley,38,critters,4
+2026-11-19,100,Panorama City,East Valley,38,other,4
+2026-11-19,100,Panorama City,East Valley,38,trees,3
+2026-11-19,80,Park Mesa Heights,South LA,34,trash,19
+2026-11-19,80,Park Mesa Heights,South LA,34,trees,11
+2026-11-19,80,Park Mesa Heights,South LA,34,streets,3
+2026-11-19,76,Pico Union,Central LA,25,trash,9
+2026-11-19,76,Pico Union,Central LA,25,water,7
+2026-11-19,76,Pico Union,Central LA,25,streets,5
+2026-11-19,76,Pico Union,Central LA,25,critters,3
+2026-11-19,53,Rampart Village,Eastside,16,trash,10
+2026-11-19,53,Rampart Village,Eastside,16,other,3
+2026-11-19,15,Reseda,West Valley,40,trash,27
+2026-11-19,15,Reseda,West Valley,40,trees,5
+2026-11-19,15,Reseda,West Valley,40,streets,5
+2026-11-19,26,Sherman Oaks,East Valley,67,trash,22
+2026-11-19,26,Sherman Oaks,East Valley,67,water,20
+2026-11-19,26,Sherman Oaks,East Valley,67,streets,16
+2026-11-19,26,Sherman Oaks,East Valley,67,trees,7
+2026-11-19,38,Silver Lake,Eastside,29,trash,16
+2026-11-19,38,Silver Lake,Eastside,29,water,4
+2026-11-19,38,Silver Lake,Eastside,29,streets,4
+2026-11-19,38,Silver Lake,Eastside,29,critters,3
+2026-11-19,78,South Central,South LA,32,trash,17
+2026-11-19,78,South Central,South LA,32,other,5
+2026-11-19,78,South Central,South LA,32,water,5
+2026-11-19,78,South Central,South LA,32,trees,3
+2026-11-19,61,South Robertson,Westside,37,trash,22
+2026-11-19,61,South Robertson,Westside,37,streets,8
+2026-11-19,61,South Robertson,Westside,37,other,3
+2026-11-19,27,Studio City,East Valley,31,water,16
+2026-11-19,27,Studio City,East Valley,31,trash,7
+2026-11-19,27,Studio City,East Valley,31,trees,5
+2026-11-19,27,Studio City,East Valley,31,streets,3
+2026-11-19,8,Sun Valley Area,East Valley,27,trash,12
+2026-11-19,8,Sun Valley Area,East Valley,27,water,7
+2026-11-19,8,Sun Valley Area,East Valley,27,streets,6
+2026-11-19,10,Sunland-tujunga,East Valley,14,trash,7
+2026-11-19,10,Sunland-tujunga,East Valley,14,trees,3
+2026-11-19,5,Sylmar,East Valley,27,trash,11
+2026-11-19,5,Sylmar,East Valley,27,streets,4
+2026-11-19,5,Sylmar,East Valley,27,critters,4
+2026-11-19,5,Sylmar,East Valley,27,other,4
+2026-11-19,17,Tarzana,West Valley,18,trash,13
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,32,trash,17
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,32,trees,5
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,32,streets,5
+2026-11-19,25,Valley Village,East Valley,14,water,6
+2026-11-19,25,Valley Village,East Valley,14,trash,4
+2026-11-19,25,Valley Village,East Valley,14,streets,3
+2026-11-19,20,Van Nuys,East Valley,87,trash,54
+2026-11-19,20,Van Nuys,East Valley,87,housing,9
+2026-11-19,20,Van Nuys,East Valley,87,streets,7
+2026-11-19,20,Van Nuys,East Valley,87,other,7
+2026-11-19,20,Van Nuys,East Valley,87,water,6
+2026-11-19,20,Van Nuys,East Valley,87,trees,4
+2026-11-19,68,Venice,Westside,26,trash,11
+2026-11-19,68,Venice,Westside,26,water,7
+2026-11-19,109,Voices Of 90037,South LA,29,trash,17
+2026-11-19,109,Voices Of 90037,South LA,29,trees,7
+2026-11-19,88,Watts,South LA,25,trash,15
+2026-11-19,88,Watts,South LA,25,critters,5
+2026-11-19,88,Watts,South LA,25,housing,4
+2026-11-19,75,West Adams,South LA,24,trash,14
+2026-11-19,75,West Adams,South LA,24,water,6
+2026-11-19,75,West Adams,South LA,24,streets,3
+2026-11-19,11,West Hills,West Valley,32,trash,21
+2026-11-19,11,West Hills,West Valley,32,trees,3
+2026-11-19,11,West Hills,West Valley,32,parking,3
+2026-11-19,66,West Los Angeles,Westside,29,trees,11
+2026-11-19,66,West Los Angeles,Westside,29,trash,11
+2026-11-19,71,Westchester/playa,Westside,47,streets,31
+2026-11-19,71,Westchester/playa,Westside,47,trash,9
+2026-11-19,71,Westchester/playa,Westside,47,trees,3
+2026-11-19,97,Westlake North,Central LA,12,trash,6
+2026-11-19,97,Westlake North,Central LA,12,other,3
+2026-11-19,121,Westlake South,Central LA,17,trash,11
+2026-11-19,121,Westlake South,Central LA,17,other,3
+2026-11-19,121,Westlake South,Central LA,17,water,3
+2026-11-19,62,Westside,Westside,35,trash,17
+2026-11-19,62,Westside,Westside,35,streets,7
+2026-11-19,62,Westside,Westside,35,trees,6
+2026-11-19,62,Westside,Westside,35,other,3
+2026-11-19,63,Westwood,Westside,34,trash,15
+2026-11-19,63,Westwood,Westside,34,streets,8
+2026-11-19,63,Westwood,Westside,34,trees,6
+2026-11-19,63,Westwood,Westside,34,other,3
+2026-11-19,93,Wilmington,Harbor,38,trash,25
+2026-11-19,93,Wilmington,Harbor,38,streets,5
+2026-11-19,93,Wilmington,Harbor,38,critters,4
+2026-11-19,93,Wilmington,Harbor,38,water,3
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,72,trash,39
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,72,water,12
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,72,streets,10
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,72,other,6
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,72,trees,3
+2026-11-19,14,Winnetka,West Valley,27,trash,18
+2026-11-19,14,Winnetka,West Valley,27,water,3
+2026-11-19,16,Woodland Hills-warner Center,West Valley,46,trash,18
+2026-11-19,16,Woodland Hills-warner Center,West Valley,46,streets,9
+2026-11-19,16,Woodland Hills-warner Center,West Valley,46,other,8
+2026-11-19,16,Woodland Hills-warner Center,West Valley,46,trees,4
+2026-11-19,16,Woodland Hills-warner Center,West Valley,46,water,3
+2026-11-19,125,Zapata King,South LA,29,trash,17
+2026-11-19,125,Zapata King,South LA,29,other,5
+2026-11-19,125,Zapata King,South LA,29,streets,4

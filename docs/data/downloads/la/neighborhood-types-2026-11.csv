@@ -1,0 +1,2643 @@
+date,neighborhood_id,neighborhood,area,request_type,mood,requests
+2026-11-09,42,Arroyo Seco,Eastside,Illegal dumping,trash,7
+2026-11-09,46,Arts District Little Tokyo,Central LA,Badly parked scooter or bike,parking,16
+2026-11-09,37,Atwater Village,Eastside,Illegal dumping,trash,5
+2026-11-09,64,Bel Air-beverly Crest,Westside,Illegal signs or news racks,trash,4
+2026-11-09,64,Bel Air-beverly Crest,Westside,Potholes and pavement,streets,3
+2026-11-09,50,Boyle Heights,Eastside,Graffiti,trash,54
+2026-11-09,50,Boyle Heights,Eastside,Illegal dumping,trash,13
+2026-11-09,50,Boyle Heights,Eastside,Landscape maintenance,trees,3
+2026-11-09,13,Canoga Park,West Valley,Illegal dumping,trash,21
+2026-11-09,13,Canoga Park,West Valley,Graffiti,trash,3
+2026-11-09,110,Central Alameda,South LA,Illegal dumping,trash,15
+2026-11-09,110,Central Alameda,South LA,Dead animal,critters,3
+2026-11-09,110,Central Alameda,South LA,Streetlight repair,streets,3
+2026-11-09,32,Central Hollywood,Central LA,Illegal dumping,trash,18
+2026-11-09,32,Central Hollywood,Central LA,Service not completed (follow-up),trash,5
+2026-11-09,32,Central Hollywood,Central LA,Graffiti,trash,4
+2026-11-09,32,Central Hollywood,Central LA,Bus stop furniture,streets,3
+2026-11-09,95,Central San Pedro,Harbor,Illegal dumping,trash,17
+2026-11-09,99,Chatsworth,West Valley,Illegal dumping,trash,39
+2026-11-09,99,Chatsworth,West Valley,Streetlight repair,streets,6
+2026-11-09,99,Chatsworth,West Valley,Graffiti,trash,3
+2026-11-09,96,Coastal San Pedro,Harbor,Illegal dumping,trash,13
+2026-11-09,96,Coastal San Pedro,Harbor,Potholes and pavement,streets,3
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,31
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Streetlight repair,streets,9
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,4
+2026-11-09,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Potholes and pavement,streets,3
+2026-11-09,70,Del Rey,Westside,Service not completed (follow-up),trash,9
+2026-11-09,70,Del Rey,Westside,Illegal dumping,trash,8
+2026-11-09,70,Del Rey,Westside,Graffiti,trash,3
+2026-11-09,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,26
+2026-11-09,52,Downtown Los Angeles,Central LA,Graffiti,trash,23
+2026-11-09,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,15
+2026-11-09,52,Downtown Los Angeles,Central LA,Barricade removal,streets,8
+2026-11-09,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,7
+2026-11-09,52,Downtown Los Angeles,Central LA,Obstructions,streets,3
+2026-11-09,40,Eagle Rock,Eastside,Illegal dumping,trash,8
+2026-11-09,34,East Hollywood,Central LA,Illegal dumping,trash,31
+2026-11-09,34,East Hollywood,Central LA,Graffiti,trash,3
+2026-11-09,34,East Hollywood,Central LA,Service not completed (follow-up),trash,3
+2026-11-09,44,Echo Park,Eastside,Graffiti,trash,35
+2026-11-09,44,Echo Park,Eastside,Illegal dumping,trash,15
+2026-11-09,44,Echo Park,Eastside,Service not completed (follow-up),trash,6
+2026-11-09,44,Echo Park,Eastside,Landscape maintenance,trees,3
+2026-11-09,44,Echo Park,Eastside,Potholes and pavement,streets,3
+2026-11-09,43,Elysian Valley Riverside,Eastside,Graffiti,trash,3
+2026-11-09,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,42
+2026-11-09,81,Empowerment Congress Central Area,South LA,Landscape maintenance,trees,11
+2026-11-09,81,Empowerment Congress Central Area,South LA,Graffiti,trash,5
+2026-11-09,81,Empowerment Congress Central Area,South LA,Dead animal,critters,5
+2026-11-09,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,4
+2026-11-09,81,Empowerment Congress Central Area,South LA,Streetlight repair,streets,3
+2026-11-09,81,Empowerment Congress Central Area,South LA,Tree obstruction,trees,3
+2026-11-09,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,64
+2026-11-09,77,Empowerment Congress North Area,South LA,Graffiti,trash,16
+2026-11-09,77,Empowerment Congress North Area,South LA,Service not completed (follow-up),trash,11
+2026-11-09,77,Empowerment Congress North Area,South LA,Streetlight repair,streets,4
+2026-11-09,77,Empowerment Congress North Area,South LA,Dead animal,critters,3
+2026-11-09,77,Empowerment Congress North Area,South LA,Barricade removal,streets,3
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,27
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,13
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,11
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,Potholes and pavement,streets,3
+2026-11-09,87,Empowerment Congress Southeast Area,South LA,Tree obstruction,trees,3
+2026-11-09,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,5
+2026-11-09,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,79
+2026-11-09,79,Empowerment Congress West Area,South LA,Service not completed (follow-up),trash,4
+2026-11-09,18,Encino,West Valley,Illegal dumping,trash,44
+2026-11-09,18,Encino,West Valley,Graffiti,trash,32
+2026-11-09,18,Encino,West Valley,Service not completed (follow-up),trash,3
+2026-11-09,18,Encino,West Valley,Streetlight repair,streets,3
+2026-11-09,9,Foothill Trails District,East Valley,Service not completed (follow-up),trash,4
+2026-11-09,9,Foothill Trails District,East Valley,Illegal dumping,trash,3
+2026-11-09,39,Glassell Park,Eastside,Illegal dumping,trash,14
+2026-11-09,39,Glassell Park,Eastside,Graffiti,trash,3
+2026-11-09,4,Granada Hills North,West Valley,Landscape maintenance,trees,6
+2026-11-09,4,Granada Hills North,West Valley,Streetlight repair,streets,3
+2026-11-09,4,Granada Hills North,West Valley,Service not completed (follow-up),trash,3
+2026-11-09,118,Granada Hills South,West Valley,Illegal dumping,trash,7
+2026-11-09,118,Granada Hills South,West Valley,Streetlight repair,streets,4
+2026-11-09,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,3
+2026-11-09,118,Granada Hills South,West Valley,Guard/warning rail maintenance,streets,3
+2026-11-09,102,Greater Cypress Park,Eastside,Illegal dumping,trash,11
+2026-11-09,102,Greater Cypress Park,Eastside,Service not completed (follow-up),trash,5
+2026-11-09,28,Greater Toluca Lake,East Valley,Illegal dumping,trash,4
+2026-11-09,21,Greater Valley Glen,East Valley,Illegal dumping,trash,44
+2026-11-09,21,Greater Valley Glen,East Valley,Graffiti,trash,6
+2026-11-09,119,Greater Wilshire,Central LA,Illegal dumping,trash,10
+2026-11-09,119,Greater Wilshire,Central LA,Landscape maintenance,trees,9
+2026-11-09,119,Greater Wilshire,Central LA,Service not completed (follow-up),trash,7
+2026-11-09,119,Greater Wilshire,Central LA,Streetlight repair,streets,3
+2026-11-09,92,Harbor City,Harbor,Illegal dumping,trash,23
+2026-11-09,90,Harbor Gateway North,Harbor,Illegal dumping,trash,16
+2026-11-09,90,Harbor Gateway North,Harbor,Service not completed (follow-up),trash,3
+2026-11-09,91,Harbor Gateway South,Harbor,Illegal dumping,trash,6
+2026-11-09,128,Historic Cultural North,Central LA,Graffiti,trash,25
+2026-11-09,128,Historic Cultural North,Central LA,Service not completed (follow-up),trash,4
+2026-11-09,128,Historic Cultural North,Central LA,Barricade removal,streets,3
+2026-11-09,41,Historic Highland Park,Eastside,Illegal dumping,trash,39
+2026-11-09,41,Historic Highland Park,Eastside,Graffiti,trash,8
+2026-11-09,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,3
+2026-11-09,29,Hollywood Hills West,Central LA,Illegal dumping,trash,13
+2026-11-09,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,6
+2026-11-09,29,Hollywood Hills West,Central LA,Graffiti,trash,4
+2026-11-09,29,Hollywood Hills West,Central LA,Obstructions,streets,3
+2026-11-09,33,Hollywood Studio District,Central LA,Graffiti,trash,14
+2026-11-09,33,Hollywood Studio District,Central LA,Illegal dumping,trash,12
+2026-11-09,33,Hollywood Studio District,Central LA,Streetlight repair,streets,3
+2026-11-09,30,Hollywood United,Central LA,Streetlight repair,streets,8
+2026-11-09,30,Hollywood United,Central LA,Illegal dumping,trash,3
+2026-11-09,48,LA-32,Eastside,Illegal dumping,trash,17
+2026-11-09,48,LA-32,Eastside,Service not completed (follow-up),trash,11
+2026-11-09,48,LA-32,Eastside,Dead animal,critters,3
+2026-11-09,19,Lake Balboa,West Valley,Illegal dumping,trash,51
+2026-11-09,19,Lake Balboa,West Valley,Graffiti,trash,9
+2026-11-09,19,Lake Balboa,West Valley,Streetlight repair,streets,4
+2026-11-09,19,Lake Balboa,West Valley,Obstructions,streets,3
+2026-11-09,47,Lincoln Heights,Eastside,Graffiti,trash,12
+2026-11-09,47,Lincoln Heights,Eastside,Illegal dumping,trash,8
+2026-11-09,47,Lincoln Heights,Eastside,Service not completed (follow-up),trash,7
+2026-11-09,36,Los Feliz,Eastside,Illegal dumping,trash,12
+2026-11-09,36,Los Feliz,Eastside,Service not completed (follow-up),trash,4
+2026-11-09,54,Macarthur Park,Central LA,Graffiti,trash,470
+2026-11-09,54,Macarthur Park,Central LA,Badly parked scooter or bike,parking,5
+2026-11-09,54,Macarthur Park,Central LA,Illegal dumping,trash,4
+2026-11-09,67,Mar Vista,Westside,Illegal dumping,trash,13
+2026-11-09,67,Mar Vista,Westside,Dead animal,critters,5
+2026-11-09,73,Mid City,South LA,Illegal dumping,trash,15
+2026-11-09,73,Mid City,South LA,Graffiti,trash,8
+2026-11-09,73,Mid City,South LA,Service not completed (follow-up),trash,4
+2026-11-09,73,Mid City,South LA,Streetlight repair,streets,3
+2026-11-09,58,Mid City West,Central LA,Illegal dumping,trash,18
+2026-11-09,58,Mid City West,Central LA,Potholes and pavement,streets,5
+2026-11-09,101,Mission Hills,East Valley,Illegal dumping,trash,7
+2026-11-09,101,Mission Hills,East Valley,Graffiti,trash,6
+2026-11-09,101,Mission Hills,East Valley,Dead animal,critters,3
+2026-11-09,24,NoHo,East Valley,Illegal dumping,trash,73
+2026-11-09,24,NoHo,East Valley,Sidewalk problem,streets,9
+2026-11-09,24,NoHo,East Valley,Graffiti,trash,4
+2026-11-09,22,NoHo West,East Valley,Illegal dumping,trash,10
+2026-11-09,22,NoHo West,East Valley,Graffiti,trash,5
+2026-11-09,112,North Hills East,West Valley,Illegal dumping,trash,23
+2026-11-09,112,North Hills East,West Valley,Graffiti,trash,8
+2026-11-09,111,North Hills West,East Valley,Illegal dumping,trash,3
+2026-11-09,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,61
+2026-11-09,23,North Hollywood Northeast,East Valley,Graffiti,trash,8
+2026-11-09,23,North Hollywood Northeast,East Valley,Potholes and pavement,streets,3
+2026-11-09,23,North Hollywood Northeast,East Valley,Streetlight repair,streets,3
+2026-11-09,120,Northridge East,West Valley,Potholes and pavement,streets,10
+2026-11-09,120,Northridge East,West Valley,Property violation,housing,9
+2026-11-09,120,Northridge East,West Valley,Illegal dumping,trash,4
+2026-11-09,124,Northridge South,West Valley,Illegal dumping,trash,24
+2026-11-09,124,Northridge South,West Valley,Service not completed (follow-up),trash,9
+2026-11-09,124,Northridge South,West Valley,Graffiti,trash,5
+2026-11-09,113,Northridge West,West Valley,Illegal dumping,trash,8
+2026-11-09,113,Northridge West,West Valley,Service not completed (follow-up),trash,5
+2026-11-09,113,Northridge West,West Valley,Tree obstruction,trees,3
+2026-11-09,94,Northwest San Pedro,Harbor,Illegal dumping,trash,11
+2026-11-09,104,Olympic Park,Central LA,Streetlight repair,streets,4
+2026-11-09,104,Olympic Park,Central LA,Illegal dumping,trash,3
+2026-11-09,60,P.i.c.o.,Central LA,Illegal dumping,trash,7
+2026-11-09,60,P.i.c.o.,Central LA,Dead animal,critters,5
+2026-11-09,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,3
+2026-11-09,7,Pacoima,East Valley,Illegal dumping,trash,22
+2026-11-09,7,Pacoima,East Valley,Graffiti,trash,5
+2026-11-09,7,Pacoima,East Valley,Dead animal,critters,4
+2026-11-09,7,Pacoima,East Valley,Potholes and pavement,streets,3
+2026-11-09,7,Pacoima,East Valley,Service not completed (follow-up),trash,3
+2026-11-09,115,Palms,Westside,Landscape maintenance,trees,13
+2026-11-09,115,Palms,Westside,Illegal dumping,trash,6
+2026-11-09,115,Palms,Westside,Dead animal,critters,3
+2026-11-09,100,Panorama City,East Valley,Illegal dumping,trash,22
+2026-11-09,100,Panorama City,East Valley,Service not completed (follow-up),trash,6
+2026-11-09,100,Panorama City,East Valley,Graffiti,trash,5
+2026-11-09,100,Panorama City,East Valley,Traffic signal,streets,4
+2026-11-09,80,Park Mesa Heights,South LA,Illegal dumping,trash,40
+2026-11-09,80,Park Mesa Heights,South LA,Streetlight repair,streets,9
+2026-11-09,80,Park Mesa Heights,South LA,Dead animal,critters,3
+2026-11-09,76,Pico Union,Central LA,Illegal dumping,trash,11
+2026-11-09,76,Pico Union,Central LA,Graffiti,trash,8
+2026-11-09,76,Pico Union,Central LA,Service not completed (follow-up),trash,5
+2026-11-09,114,Porter Ranch,West Valley,Service not completed (follow-up),trash,6
+2026-11-09,53,Rampart Village,Eastside,Illegal dumping,trash,6
+2026-11-09,15,Reseda,West Valley,Illegal dumping,trash,14
+2026-11-09,15,Reseda,West Valley,Graffiti,trash,8
+2026-11-09,15,Reseda,West Valley,Parking,parking,5
+2026-11-09,15,Reseda,West Valley,Service not completed (follow-up),trash,5
+2026-11-09,15,Reseda,West Valley,Potholes and pavement,streets,4
+2026-11-09,15,Reseda,West Valley,Dead animal,critters,3
+2026-11-09,26,Sherman Oaks,East Valley,Illegal dumping,trash,28
+2026-11-09,26,Sherman Oaks,East Valley,Potholes and pavement,streets,9
+2026-11-09,26,Sherman Oaks,East Valley,Graffiti,trash,5
+2026-11-09,26,Sherman Oaks,East Valley,Landscape maintenance,trees,3
+2026-11-09,38,Silver Lake,Eastside,Illegal dumping,trash,11
+2026-11-09,38,Silver Lake,Eastside,Graffiti,trash,8
+2026-11-09,38,Silver Lake,Eastside,Streetlight repair,streets,7
+2026-11-09,38,Silver Lake,Eastside,Potholes and pavement,streets,4
+2026-11-09,38,Silver Lake,Eastside,Parking,parking,3
+2026-11-09,38,Silver Lake,Eastside,Dead animal,critters,3
+2026-11-09,78,South Central,South LA,Graffiti,trash,14
+2026-11-09,78,South Central,South LA,Illegal dumping,trash,13
+2026-11-09,78,South Central,South LA,Obstructions,streets,3
+2026-11-09,61,South Robertson,Westside,Illegal dumping,trash,16
+2026-11-09,61,South Robertson,Westside,Street sweeping,trash,8
+2026-11-09,61,South Robertson,Westside,Service not completed (follow-up),trash,5
+2026-11-09,61,South Robertson,Westside,Streetlight repair,streets,3
+2026-11-09,27,Studio City,East Valley,Illegal dumping,trash,7
+2026-11-09,27,Studio City,East Valley,Graffiti,trash,6
+2026-11-09,8,Sun Valley Area,East Valley,Illegal dumping,trash,34
+2026-11-09,8,Sun Valley Area,East Valley,Graffiti,trash,9
+2026-11-09,8,Sun Valley Area,East Valley,Streetlight repair,streets,6
+2026-11-09,8,Sun Valley Area,East Valley,Service not completed (follow-up),trash,5
+2026-11-09,8,Sun Valley Area,East Valley,Dead animal,critters,4
+2026-11-09,10,Sunland-tujunga,East Valley,Illegal dumping,trash,10
+2026-11-09,10,Sunland-tujunga,East Valley,Service not completed (follow-up),trash,5
+2026-11-09,10,Sunland-tujunga,East Valley,Potholes and pavement,streets,3
+2026-11-09,10,Sunland-tujunga,East Valley,Graffiti,trash,3
+2026-11-09,5,Sylmar,East Valley,Illegal dumping,trash,19
+2026-11-09,5,Sylmar,East Valley,Service not completed (follow-up),trash,5
+2026-11-09,5,Sylmar,East Valley,Dead animal,critters,3
+2026-11-09,5,Sylmar,East Valley,Tree obstruction,trees,3
+2026-11-09,17,Tarzana,West Valley,Illegal dumping,trash,7
+2026-11-09,17,Tarzana,West Valley,Potholes and pavement,streets,3
+2026-11-09,17,Tarzana,West Valley,Service not completed (follow-up),trash,3
+2026-11-09,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,11
+2026-11-09,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Service not completed (follow-up),trash,7
+2026-11-09,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Potholes and pavement,streets,3
+2026-11-09,25,Valley Village,East Valley,Illegal dumping,trash,25
+2026-11-09,20,Van Nuys,East Valley,Illegal dumping,trash,52
+2026-11-09,20,Van Nuys,East Valley,Graffiti,trash,9
+2026-11-09,20,Van Nuys,East Valley,Potholes and pavement,streets,5
+2026-11-09,20,Van Nuys,East Valley,Dead animal,critters,4
+2026-11-09,20,Van Nuys,East Valley,Property violation,housing,4
+2026-11-09,20,Van Nuys,East Valley,Obstructions,streets,3
+2026-11-09,68,Venice,Westside,Illegal dumping,trash,18
+2026-11-09,68,Venice,Westside,Graffiti,trash,8
+2026-11-09,68,Venice,Westside,Badly parked scooter or bike,parking,6
+2026-11-09,68,Venice,Westside,Landscape maintenance,trees,3
+2026-11-09,109,Voices Of 90037,South LA,Illegal dumping,trash,41
+2026-11-09,109,Voices Of 90037,South LA,Dead animal,critters,3
+2026-11-09,88,Watts,South LA,Illegal dumping,trash,7
+2026-11-09,88,Watts,South LA,Curb,streets,5
+2026-11-09,88,Watts,South LA,Service not completed (follow-up),trash,3
+2026-11-09,75,West Adams,South LA,Illegal dumping,trash,7
+2026-11-09,75,West Adams,South LA,Service not completed (follow-up),trash,6
+2026-11-09,75,West Adams,South LA,Streetlight repair,streets,5
+2026-11-09,11,West Hills,West Valley,Illegal dumping,trash,14
+2026-11-09,11,West Hills,West Valley,Service not completed (follow-up),trash,8
+2026-11-09,66,West Los Angeles,Westside,Illegal dumping,trash,21
+2026-11-09,66,West Los Angeles,Westside,Graffiti,trash,3
+2026-11-09,66,West Los Angeles,Westside,Traffic sign,streets,3
+2026-11-09,71,Westchester/playa,Westside,Illegal dumping,trash,20
+2026-11-09,71,Westchester/playa,Westside,Service not completed (follow-up),trash,9
+2026-11-09,71,Westchester/playa,Westside,Dead animal,critters,5
+2026-11-09,71,Westchester/playa,Westside,Graffiti,trash,3
+2026-11-09,97,Westlake North,Central LA,Graffiti,trash,13
+2026-11-09,97,Westlake North,Central LA,Illegal dumping,trash,11
+2026-11-09,121,Westlake South,Central LA,Graffiti,trash,33
+2026-11-09,121,Westlake South,Central LA,Illegal dumping,trash,7
+2026-11-09,62,Westside,Westside,Streetlight repair,streets,4
+2026-11-09,62,Westside,Westside,Illegal dumping,trash,3
+2026-11-09,63,Westwood,Westside,Illegal dumping,trash,5
+2026-11-09,63,Westwood,Westside,Streetlight repair,streets,3
+2026-11-09,93,Wilmington,Harbor,Illegal dumping,trash,14
+2026-11-09,93,Wilmington,Harbor,Streetlight repair,streets,9
+2026-11-09,93,Wilmington,Harbor,Parking,parking,4
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,62
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,8
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,Obstructions,streets,6
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,Streetlight repair,streets,6
+2026-11-09,55,Wilshire Center - Koreatown,Central LA,Landscape maintenance,trees,5
+2026-11-09,14,Winnetka,West Valley,Illegal dumping,trash,32
+2026-11-09,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,13
+2026-11-09,16,Woodland Hills-warner Center,West Valley,Property violation,housing,8
+2026-11-09,16,Woodland Hills-warner Center,West Valley,Service not completed (follow-up),trash,5
+2026-11-09,16,Woodland Hills-warner Center,West Valley,Streetlight repair,streets,3
+2026-11-09,125,Zapata King,South LA,Illegal dumping,trash,26
+2026-11-09,125,Zapata King,South LA,Dead animal,critters,3
+2026-11-09,125,Zapata King,South LA,Graffiti,trash,3
+2026-11-10,6,Arleta,East Valley,Illegal dumping,trash,9
+2026-11-10,42,Arroyo Seco,Eastside,Illegal dumping,trash,4
+2026-11-10,46,Arts District Little Tokyo,Central LA,Badly parked scooter or bike,parking,9
+2026-11-10,37,Atwater Village,Eastside,Illegal dumping,trash,3
+2026-11-10,37,Atwater Village,Eastside,Service not completed (follow-up),trash,3
+2026-11-10,64,Bel Air-beverly Crest,Westside,Landscape maintenance,trees,3
+2026-11-10,50,Boyle Heights,Eastside,Graffiti,trash,56
+2026-11-10,50,Boyle Heights,Eastside,Illegal dumping,trash,17
+2026-11-10,50,Boyle Heights,Eastside,Landscape maintenance,trees,9
+2026-11-10,50,Boyle Heights,Eastside,Service not completed (follow-up),trash,6
+2026-11-10,50,Boyle Heights,Eastside,Streetlight repair,streets,4
+2026-11-10,50,Boyle Heights,Eastside,Traffic safety,streets,3
+2026-11-10,50,Boyle Heights,Eastside,Obstructions,streets,3
+2026-11-10,50,Boyle Heights,Eastside,Dead animal,critters,3
+2026-11-10,13,Canoga Park,West Valley,Illegal dumping,trash,15
+2026-11-10,13,Canoga Park,West Valley,Service not completed (follow-up),trash,4
+2026-11-10,110,Central Alameda,South LA,Illegal dumping,trash,23
+2026-11-10,110,Central Alameda,South LA,Graffiti,trash,8
+2026-11-10,32,Central Hollywood,Central LA,Illegal dumping,trash,15
+2026-11-10,95,Central San Pedro,Harbor,Illegal dumping,trash,9
+2026-11-10,95,Central San Pedro,Harbor,Dead animal,critters,3
+2026-11-10,95,Central San Pedro,Harbor,Service not completed (follow-up),trash,3
+2026-11-10,95,Central San Pedro,Harbor,Graffiti,trash,3
+2026-11-10,99,Chatsworth,West Valley,Illegal dumping,trash,12
+2026-11-10,99,Chatsworth,West Valley,Graffiti,trash,6
+2026-11-10,99,Chatsworth,West Valley,Streetlight repair,streets,4
+2026-11-10,96,Coastal San Pedro,Harbor,Illegal dumping,trash,32
+2026-11-10,96,Coastal San Pedro,Harbor,Graffiti,trash,4
+2026-11-10,96,Coastal San Pedro,Harbor,Dead animal,critters,3
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,78
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,12
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Streetlight repair,streets,8
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Dead animal,critters,5
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Service not completed (follow-up),trash,5
+2026-11-10,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Potholes and pavement,streets,4
+2026-11-10,70,Del Rey,Westside,Illegal dumping,trash,4
+2026-11-10,52,Downtown Los Angeles,Central LA,Graffiti,trash,59
+2026-11-10,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,24
+2026-11-10,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,18
+2026-11-10,52,Downtown Los Angeles,Central LA,Barricade removal,streets,7
+2026-11-10,52,Downtown Los Angeles,Central LA,Potholes and pavement,streets,4
+2026-11-10,40,Eagle Rock,Eastside,Service not completed (follow-up),trash,3
+2026-11-10,34,East Hollywood,Central LA,Illegal dumping,trash,37
+2026-11-10,34,East Hollywood,Central LA,Graffiti,trash,10
+2026-11-10,34,East Hollywood,Central LA,Service not completed (follow-up),trash,5
+2026-11-10,44,Echo Park,Eastside,Graffiti,trash,36
+2026-11-10,44,Echo Park,Eastside,Illegal dumping,trash,34
+2026-11-10,44,Echo Park,Eastside,Barricade removal,streets,3
+2026-11-10,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,32
+2026-11-10,81,Empowerment Congress Central Area,South LA,Graffiti,trash,10
+2026-11-10,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,7
+2026-11-10,81,Empowerment Congress Central Area,South LA,Dead animal,critters,6
+2026-11-10,81,Empowerment Congress Central Area,South LA,Tree obstruction,trees,4
+2026-11-10,81,Empowerment Congress Central Area,South LA,Traffic safety,streets,3
+2026-11-10,81,Empowerment Congress Central Area,South LA,Streetlight repair,streets,3
+2026-11-10,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,17
+2026-11-10,77,Empowerment Congress North Area,South LA,Graffiti,trash,11
+2026-11-10,77,Empowerment Congress North Area,South LA,Service not completed (follow-up),trash,7
+2026-11-10,77,Empowerment Congress North Area,South LA,Dead animal,critters,5
+2026-11-10,77,Empowerment Congress North Area,South LA,Streetlight repair,streets,4
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,73
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,9
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,Landscape maintenance,trees,4
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,Street tree inspection,trees,4
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,Curb,streets,3
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,3
+2026-11-10,87,Empowerment Congress Southeast Area,South LA,Dead animal,critters,3
+2026-11-10,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,9
+2026-11-10,84,Empowerment Congress Southwest Area,South LA,Streetlight repair,streets,5
+2026-11-10,79,Empowerment Congress West Area,South LA,Graffiti,trash,5
+2026-11-10,79,Empowerment Congress West Area,South LA,Service not completed (follow-up),trash,4
+2026-11-10,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,4
+2026-11-10,79,Empowerment Congress West Area,South LA,Potholes and pavement,streets,3
+2026-11-10,18,Encino,West Valley,Potholes and pavement,streets,8
+2026-11-10,18,Encino,West Valley,Illegal dumping,trash,7
+2026-11-10,18,Encino,West Valley,Graffiti,trash,4
+2026-11-10,9,Foothill Trails District,East Valley,Illegal dumping,trash,5
+2026-11-10,39,Glassell Park,Eastside,Illegal dumping,trash,15
+2026-11-10,4,Granada Hills North,West Valley,Service not completed (follow-up),trash,6
+2026-11-10,118,Granada Hills South,West Valley,Illegal dumping,trash,10
+2026-11-10,118,Granada Hills South,West Valley,Property violation,housing,10
+2026-11-10,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,6
+2026-11-10,118,Granada Hills South,West Valley,Streetlight repair,streets,4
+2026-11-10,102,Greater Cypress Park,Eastside,Illegal dumping,trash,4
+2026-11-10,102,Greater Cypress Park,Eastside,Graffiti,trash,3
+2026-11-10,28,Greater Toluca Lake,East Valley,Illegal dumping,trash,4
+2026-11-10,28,Greater Toluca Lake,East Valley,Graffiti,trash,3
+2026-11-10,21,Greater Valley Glen,East Valley,Graffiti,trash,10
+2026-11-10,21,Greater Valley Glen,East Valley,Service not completed (follow-up),trash,10
+2026-11-10,21,Greater Valley Glen,East Valley,Illegal dumping,trash,8
+2026-11-10,119,Greater Wilshire,Central LA,Illegal dumping,trash,20
+2026-11-10,119,Greater Wilshire,Central LA,Streetlight repair,streets,11
+2026-11-10,119,Greater Wilshire,Central LA,Traffic safety,streets,5
+2026-11-10,119,Greater Wilshire,Central LA,Service not completed (follow-up),trash,5
+2026-11-10,119,Greater Wilshire,Central LA,Potholes and pavement,streets,3
+2026-11-10,119,Greater Wilshire,Central LA,Stormwater violation,water,3
+2026-11-10,92,Harbor City,Harbor,Illegal dumping,trash,5
+2026-11-10,90,Harbor Gateway North,Harbor,Illegal dumping,trash,22
+2026-11-10,91,Harbor Gateway South,Harbor,Illegal dumping,trash,6
+2026-11-10,91,Harbor Gateway South,Harbor,Service not completed (follow-up),trash,5
+2026-11-10,128,Historic Cultural North,Central LA,Illegal dumping,trash,4
+2026-11-10,41,Historic Highland Park,Eastside,Illegal dumping,trash,13
+2026-11-10,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,11
+2026-11-10,41,Historic Highland Park,Eastside,Graffiti,trash,6
+2026-11-10,29,Hollywood Hills West,Central LA,Illegal dumping,trash,17
+2026-11-10,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,7
+2026-11-10,29,Hollywood Hills West,Central LA,Potholes and pavement,streets,4
+2026-11-10,29,Hollywood Hills West,Central LA,Service not completed (follow-up),trash,3
+2026-11-10,33,Hollywood Studio District,Central LA,Illegal dumping,trash,10
+2026-11-10,33,Hollywood Studio District,Central LA,Service not completed (follow-up),trash,4
+2026-11-10,33,Hollywood Studio District,Central LA,Obstructions,streets,3
+2026-11-10,33,Hollywood Studio District,Central LA,Graffiti,trash,3
+2026-11-10,30,Hollywood United,Central LA,Illegal dumping,trash,11
+2026-11-10,30,Hollywood United,Central LA,Service not completed (follow-up),trash,4
+2026-11-10,30,Hollywood United,Central LA,Streetlight repair,streets,3
+2026-11-10,30,Hollywood United,Central LA,Obstructions,streets,3
+2026-11-10,48,LA-32,Eastside,Service not completed (follow-up),trash,18
+2026-11-10,48,LA-32,Eastside,Illegal dumping,trash,7
+2026-11-10,19,Lake Balboa,West Valley,Illegal dumping,trash,72
+2026-11-10,19,Lake Balboa,West Valley,Graffiti,trash,12
+2026-11-10,19,Lake Balboa,West Valley,Potholes and pavement,streets,9
+2026-11-10,19,Lake Balboa,West Valley,Streetlight repair,streets,3
+2026-11-10,47,Lincoln Heights,Eastside,Illegal dumping,trash,5
+2026-11-10,47,Lincoln Heights,Eastside,Graffiti,trash,3
+2026-11-10,47,Lincoln Heights,Eastside,Service not completed (follow-up),trash,3
+2026-11-10,36,Los Feliz,Eastside,Illegal dumping,trash,20
+2026-11-10,36,Los Feliz,Eastside,Dead animal,critters,4
+2026-11-10,54,Macarthur Park,Central LA,Graffiti,trash,238
+2026-11-10,54,Macarthur Park,Central LA,Illegal dumping,trash,10
+2026-11-10,67,Mar Vista,Westside,Illegal dumping,trash,21
+2026-11-10,67,Mar Vista,Westside,Sidewalk problem,streets,3
+2026-11-10,73,Mid City,South LA,Illegal dumping,trash,22
+2026-11-10,73,Mid City,South LA,Streetlight repair,streets,7
+2026-11-10,58,Mid City West,Central LA,Illegal dumping,trash,27
+2026-11-10,58,Mid City West,Central LA,Streetlight repair,streets,9
+2026-11-10,58,Mid City West,Central LA,Graffiti,trash,8
+2026-11-10,58,Mid City West,Central LA,Dead animal,critters,3
+2026-11-10,58,Mid City West,Central LA,Potholes and pavement,streets,3
+2026-11-10,101,Mission Hills,East Valley,Illegal dumping,trash,4
+2026-11-10,24,NoHo,East Valley,Illegal dumping,trash,25
+2026-11-10,24,NoHo,East Valley,Sidewalk problem,streets,18
+2026-11-10,24,NoHo,East Valley,Graffiti,trash,15
+2026-11-10,24,NoHo,East Valley,Service not completed (follow-up),trash,9
+2026-11-10,24,NoHo,East Valley,Streetlight repair,streets,6
+2026-11-10,24,NoHo,East Valley,Potholes and pavement,streets,4
+2026-11-10,24,NoHo,East Valley,Parking,parking,3
+2026-11-10,22,NoHo West,East Valley,Illegal dumping,trash,7
+2026-11-10,112,North Hills East,West Valley,Illegal dumping,trash,8
+2026-11-10,112,North Hills East,West Valley,Service not completed (follow-up),trash,4
+2026-11-10,112,North Hills East,West Valley,Graffiti,trash,3
+2026-11-10,111,North Hills West,East Valley,Illegal dumping,trash,4
+2026-11-10,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,21
+2026-11-10,23,North Hollywood Northeast,East Valley,Graffiti,trash,12
+2026-11-10,23,North Hollywood Northeast,East Valley,Service not completed (follow-up),trash,7
+2026-11-10,127,North Westwood,Westside,Illegal dumping,trash,7
+2026-11-10,120,Northridge East,West Valley,Illegal dumping,trash,10
+2026-11-10,120,Northridge East,West Valley,Property violation,housing,6
+2026-11-10,120,Northridge East,West Valley,Potholes and pavement,streets,4
+2026-11-10,124,Northridge South,West Valley,Graffiti,trash,11
+2026-11-10,124,Northridge South,West Valley,Illegal dumping,trash,10
+2026-11-10,124,Northridge South,West Valley,Service not completed (follow-up),trash,5
+2026-11-10,124,Northridge South,West Valley,Landscape maintenance,trees,5
+2026-11-10,113,Northridge West,West Valley,Service not completed (follow-up),trash,9
+2026-11-10,94,Northwest San Pedro,Harbor,Illegal dumping,trash,3
+2026-11-10,104,Olympic Park,Central LA,Illegal dumping,trash,5
+2026-11-10,60,P.i.c.o.,Central LA,Illegal dumping,trash,20
+2026-11-10,60,P.i.c.o.,Central LA,Graffiti,trash,4
+2026-11-10,7,Pacoima,East Valley,Illegal dumping,trash,20
+2026-11-10,7,Pacoima,East Valley,Graffiti,trash,6
+2026-11-10,7,Pacoima,East Valley,Dead animal,critters,5
+2026-11-10,7,Pacoima,East Valley,Service not completed (follow-up),trash,4
+2026-11-10,115,Palms,Westside,Illegal dumping,trash,13
+2026-11-10,115,Palms,Westside,Service not completed (follow-up),trash,3
+2026-11-10,100,Panorama City,East Valley,Illegal dumping,trash,19
+2026-11-10,100,Panorama City,East Valley,Streetlight repair,streets,3
+2026-11-10,80,Park Mesa Heights,South LA,Illegal dumping,trash,13
+2026-11-10,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,3
+2026-11-10,80,Park Mesa Heights,South LA,Dead animal,critters,3
+2026-11-10,76,Pico Union,Central LA,Illegal dumping,trash,13
+2026-11-10,76,Pico Union,Central LA,Graffiti,trash,13
+2026-11-10,76,Pico Union,Central LA,Dead animal,critters,3
+2026-11-10,114,Porter Ranch,West Valley,Service not completed (follow-up),trash,5
+2026-11-10,53,Rampart Village,Eastside,Illegal dumping,trash,10
+2026-11-10,15,Reseda,West Valley,Illegal dumping,trash,15
+2026-11-10,15,Reseda,West Valley,Graffiti,trash,11
+2026-11-10,15,Reseda,West Valley,Service not completed (follow-up),trash,5
+2026-11-10,15,Reseda,West Valley,Tree emergency,trees,3
+2026-11-10,26,Sherman Oaks,East Valley,Illegal dumping,trash,41
+2026-11-10,26,Sherman Oaks,East Valley,Potholes and pavement,streets,11
+2026-11-10,26,Sherman Oaks,East Valley,Traffic sign,streets,4
+2026-11-10,38,Silver Lake,Eastside,Illegal dumping,trash,14
+2026-11-10,78,South Central,South LA,Illegal dumping,trash,50
+2026-11-10,78,South Central,South LA,Graffiti,trash,38
+2026-11-10,61,South Robertson,Westside,Illegal dumping,trash,15
+2026-11-10,61,South Robertson,Westside,Service not completed (follow-up),trash,10
+2026-11-10,61,South Robertson,Westside,Graffiti,trash,5
+2026-11-10,61,South Robertson,Westside,Streetlight repair,streets,4
+2026-11-10,61,South Robertson,Westside,Parking,parking,3
+2026-11-10,27,Studio City,East Valley,Illegal dumping,trash,17
+2026-11-10,27,Studio City,East Valley,Graffiti,trash,4
+2026-11-10,27,Studio City,East Valley,Tree emergency,trees,3
+2026-11-10,27,Studio City,East Valley,Potholes and pavement,streets,3
+2026-11-10,8,Sun Valley Area,East Valley,Illegal dumping,trash,32
+2026-11-10,8,Sun Valley Area,East Valley,Graffiti,trash,9
+2026-11-10,8,Sun Valley Area,East Valley,Service not completed (follow-up),trash,4
+2026-11-10,10,Sunland-tujunga,East Valley,Illegal dumping,trash,5
+2026-11-10,10,Sunland-tujunga,East Valley,Service not completed (follow-up),trash,5
+2026-11-10,10,Sunland-tujunga,East Valley,Streetlight repair,streets,3
+2026-11-10,5,Sylmar,East Valley,Illegal dumping,trash,14
+2026-11-10,5,Sylmar,East Valley,Service not completed (follow-up),trash,12
+2026-11-10,17,Tarzana,West Valley,Illegal dumping,trash,6
+2026-11-10,17,Tarzana,West Valley,Graffiti,trash,5
+2026-11-10,17,Tarzana,West Valley,Parking,parking,3
+2026-11-10,17,Tarzana,West Valley,Streetlight repair,streets,3
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Service not completed (follow-up),trash,18
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,14
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Streetlight repair,streets,6
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Graffiti,trash,5
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Stormwater violation,water,3
+2026-11-10,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Landscape maintenance,trees,3
+2026-11-10,25,Valley Village,East Valley,Illegal dumping,trash,13
+2026-11-10,25,Valley Village,East Valley,Graffiti,trash,3
+2026-11-10,20,Van Nuys,East Valley,Illegal dumping,trash,34
+2026-11-10,20,Van Nuys,East Valley,Graffiti,trash,18
+2026-11-10,20,Van Nuys,East Valley,Potholes and pavement,streets,6
+2026-11-10,20,Van Nuys,East Valley,Service not completed (follow-up),trash,6
+2026-11-10,20,Van Nuys,East Valley,Obstructions,streets,4
+2026-11-10,20,Van Nuys,East Valley,Dead animal,critters,4
+2026-11-10,20,Van Nuys,East Valley,Traffic sign,streets,3
+2026-11-10,20,Van Nuys,East Valley,Public street receptacles,trash,3
+2026-11-10,68,Venice,Westside,Badly parked scooter or bike,parking,85
+2026-11-10,68,Venice,Westside,Illegal dumping,trash,10
+2026-11-10,68,Venice,Westside,Service not completed (follow-up),trash,9
+2026-11-10,68,Venice,Westside,Graffiti,trash,3
+2026-11-10,109,Voices Of 90037,South LA,Illegal dumping,trash,23
+2026-11-10,109,Voices Of 90037,South LA,Graffiti,trash,12
+2026-11-10,109,Voices Of 90037,South LA,Service not completed (follow-up),trash,6
+2026-11-10,109,Voices Of 90037,South LA,Streetlight repair,streets,5
+2026-11-10,109,Voices Of 90037,South LA,Dead animal,critters,3
+2026-11-10,88,Watts,South LA,Illegal dumping,trash,18
+2026-11-10,75,West Adams,South LA,Graffiti,trash,17
+2026-11-10,75,West Adams,South LA,Illegal dumping,trash,14
+2026-11-10,75,West Adams,South LA,Potholes and pavement,streets,4
+2026-11-10,11,West Hills,West Valley,Illegal dumping,trash,7
+2026-11-10,11,West Hills,West Valley,Service not completed (follow-up),trash,6
+2026-11-10,11,West Hills,West Valley,Street sweeping,trash,4
+2026-11-10,11,West Hills,West Valley,Streetlight repair,streets,4
+2026-11-10,66,West Los Angeles,Westside,Illegal dumping,trash,25
+2026-11-10,66,West Los Angeles,Westside,Streetlight repair,streets,5
+2026-11-10,66,West Los Angeles,Westside,Parking,parking,3
+2026-11-10,71,Westchester/playa,Westside,Service not completed (follow-up),trash,19
+2026-11-10,71,Westchester/playa,Westside,Illegal dumping,trash,4
+2026-11-10,97,Westlake North,Central LA,Graffiti,trash,15
+2026-11-10,97,Westlake North,Central LA,Illegal dumping,trash,10
+2026-11-10,97,Westlake North,Central LA,Service not completed (follow-up),trash,3
+2026-11-10,121,Westlake South,Central LA,Graffiti,trash,20
+2026-11-10,121,Westlake South,Central LA,Illegal dumping,trash,11
+2026-11-10,62,Westside,Westside,Illegal dumping,trash,14
+2026-11-10,62,Westside,Westside,Streetlight repair,streets,3
+2026-11-10,63,Westwood,Westside,Illegal dumping,trash,6
+2026-11-10,93,Wilmington,Harbor,Illegal dumping,trash,25
+2026-11-10,93,Wilmington,Harbor,Traffic safety,streets,12
+2026-11-10,93,Wilmington,Harbor,Street sweeping,trash,5
+2026-11-10,93,Wilmington,Harbor,Potholes and pavement,streets,5
+2026-11-10,93,Wilmington,Harbor,Sidewalk problem,streets,3
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,53
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,20
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,Landscape maintenance,trees,7
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,Dead animal,critters,4
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,Streetlight repair,streets,3
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,Sidewalk problem,streets,3
+2026-11-10,55,Wilshire Center - Koreatown,Central LA,Obstructions,streets,3
+2026-11-10,14,Winnetka,West Valley,Illegal dumping,trash,9
+2026-11-10,14,Winnetka,West Valley,Service not completed (follow-up),trash,5
+2026-11-10,14,Winnetka,West Valley,Graffiti,trash,5
+2026-11-10,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,11
+2026-11-10,16,Woodland Hills-warner Center,West Valley,Graffiti,trash,11
+2026-11-10,16,Woodland Hills-warner Center,West Valley,Landscape maintenance,trees,4
+2026-11-10,16,Woodland Hills-warner Center,West Valley,Parking,parking,4
+2026-11-10,125,Zapata King,South LA,Illegal dumping,trash,33
+2026-11-10,125,Zapata King,South LA,Graffiti,trash,10
+2026-11-10,125,Zapata King,South LA,Dead animal,critters,3
+2026-11-10,125,Zapata King,South LA,Landscape maintenance,trees,3
+2026-11-11,6,Arleta,East Valley,Illegal dumping,trash,10
+2026-11-11,6,Arleta,East Valley,Dead animal,critters,4
+2026-11-11,6,Arleta,East Valley,Streetlight repair,streets,3
+2026-11-11,42,Arroyo Seco,Eastside,Service not completed (follow-up),trash,8
+2026-11-11,37,Atwater Village,Eastside,Graffiti,trash,9
+2026-11-11,37,Atwater Village,Eastside,Service not completed (follow-up),trash,5
+2026-11-11,37,Atwater Village,Eastside,Illegal dumping,trash,5
+2026-11-11,64,Bel Air-beverly Crest,Westside,Tree emergency,trees,4
+2026-11-11,64,Bel Air-beverly Crest,Westside,Service not completed (follow-up),trash,3
+2026-11-11,50,Boyle Heights,Eastside,Graffiti,trash,14
+2026-11-11,50,Boyle Heights,Eastside,Illegal dumping,trash,7
+2026-11-11,50,Boyle Heights,Eastside,Service not completed (follow-up),trash,6
+2026-11-11,50,Boyle Heights,Eastside,Dead animal,critters,4
+2026-11-11,13,Canoga Park,West Valley,Illegal dumping,trash,27
+2026-11-11,13,Canoga Park,West Valley,Service not completed (follow-up),trash,4
+2026-11-11,13,Canoga Park,West Valley,Curb,streets,4
+2026-11-11,13,Canoga Park,West Valley,Graffiti,trash,3
+2026-11-11,13,Canoga Park,West Valley,Landscape maintenance,trees,3
+2026-11-11,110,Central Alameda,South LA,Illegal dumping,trash,8
+2026-11-11,110,Central Alameda,South LA,Streetlight repair,streets,5
+2026-11-11,32,Central Hollywood,Central LA,Streetlight repair,streets,8
+2026-11-11,32,Central Hollywood,Central LA,Illegal dumping,trash,7
+2026-11-11,95,Central San Pedro,Harbor,Illegal dumping,trash,4
+2026-11-11,99,Chatsworth,West Valley,Illegal dumping,trash,7
+2026-11-11,99,Chatsworth,West Valley,Service not completed (follow-up),trash,7
+2026-11-11,99,Chatsworth,West Valley,Streetlight repair,streets,4
+2026-11-11,99,Chatsworth,West Valley,Potholes and pavement,streets,3
+2026-11-11,96,Coastal San Pedro,Harbor,Service not completed (follow-up),trash,10
+2026-11-11,96,Coastal San Pedro,Harbor,Illegal dumping,trash,5
+2026-11-11,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,43
+2026-11-11,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Service not completed (follow-up),trash,11
+2026-11-11,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,4
+2026-11-11,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,11
+2026-11-11,52,Downtown Los Angeles,Central LA,Graffiti,trash,9
+2026-11-11,52,Downtown Los Angeles,Central LA,Service not completed (follow-up),trash,3
+2026-11-11,40,Eagle Rock,Eastside,Service not completed (follow-up),trash,9
+2026-11-11,40,Eagle Rock,Eastside,Illegal dumping,trash,9
+2026-11-11,34,East Hollywood,Central LA,Illegal dumping,trash,87
+2026-11-11,34,East Hollywood,Central LA,Service not completed (follow-up),trash,6
+2026-11-11,34,East Hollywood,Central LA,Dead animal,critters,3
+2026-11-11,34,East Hollywood,Central LA,Graffiti,trash,3
+2026-11-11,44,Echo Park,Eastside,Graffiti,trash,13
+2026-11-11,44,Echo Park,Eastside,Illegal dumping,trash,7
+2026-11-11,44,Echo Park,Eastside,Service not completed (follow-up),trash,7
+2026-11-11,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,42
+2026-11-11,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,10
+2026-11-11,81,Empowerment Congress Central Area,South LA,Landscape maintenance,trees,4
+2026-11-11,81,Empowerment Congress Central Area,South LA,Graffiti,trash,3
+2026-11-11,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,8
+2026-11-11,77,Empowerment Congress North Area,South LA,Streetlight repair,streets,5
+2026-11-11,77,Empowerment Congress North Area,South LA,Service not completed (follow-up),trash,4
+2026-11-11,77,Empowerment Congress North Area,South LA,Dead animal,critters,3
+2026-11-11,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,20
+2026-11-11,87,Empowerment Congress Southeast Area,South LA,General street inspection,streets,3
+2026-11-11,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,18
+2026-11-11,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,11
+2026-11-11,18,Encino,West Valley,Illegal dumping,trash,19
+2026-11-11,18,Encino,West Valley,Graffiti,trash,5
+2026-11-11,18,Encino,West Valley,Potholes and pavement,streets,3
+2026-11-11,39,Glassell Park,Eastside,Illegal dumping,trash,7
+2026-11-11,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,6
+2026-11-11,102,Greater Cypress Park,Eastside,Illegal dumping,trash,3
+2026-11-11,21,Greater Valley Glen,East Valley,Property violation,housing,31
+2026-11-11,21,Greater Valley Glen,East Valley,Illegal dumping,trash,21
+2026-11-11,119,Greater Wilshire,Central LA,Illegal dumping,trash,14
+2026-11-11,119,Greater Wilshire,Central LA,Streetlight repair,streets,5
+2026-11-11,92,Harbor City,Harbor,Illegal dumping,trash,3
+2026-11-11,90,Harbor Gateway North,Harbor,Illegal dumping,trash,7
+2026-11-11,90,Harbor Gateway North,Harbor,Streetlight repair,streets,3
+2026-11-11,91,Harbor Gateway South,Harbor,Service not completed (follow-up),trash,3
+2026-11-11,128,Historic Cultural North,Central LA,Graffiti,trash,7
+2026-11-11,41,Historic Highland Park,Eastside,Illegal dumping,trash,12
+2026-11-11,41,Historic Highland Park,Eastside,Graffiti,trash,4
+2026-11-11,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,3
+2026-11-11,29,Hollywood Hills West,Central LA,Illegal dumping,trash,18
+2026-11-11,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,14
+2026-11-11,29,Hollywood Hills West,Central LA,Service not completed (follow-up),trash,3
+2026-11-11,29,Hollywood Hills West,Central LA,Animal complaint/violation,critters,3
+2026-11-11,33,Hollywood Studio District,Central LA,Illegal dumping,trash,21
+2026-11-11,33,Hollywood Studio District,Central LA,Streetlight repair,streets,13
+2026-11-11,33,Hollywood Studio District,Central LA,Graffiti,trash,3
+2026-11-11,30,Hollywood United,Central LA,Illegal dumping,trash,9
+2026-11-11,30,Hollywood United,Central LA,Streetlight repair,streets,6
+2026-11-11,48,LA-32,Eastside,Service not completed (follow-up),trash,4
+2026-11-11,48,LA-32,Eastside,Graffiti,trash,3
+2026-11-11,48,LA-32,Eastside,Illegal dumping,trash,3
+2026-11-11,19,Lake Balboa,West Valley,Illegal dumping,trash,33
+2026-11-11,19,Lake Balboa,West Valley,Service not completed (follow-up),trash,7
+2026-11-11,19,Lake Balboa,West Valley,Graffiti,trash,6
+2026-11-11,47,Lincoln Heights,Eastside,Graffiti,trash,5
+2026-11-11,47,Lincoln Heights,Eastside,Illegal dumping,trash,4
+2026-11-11,36,Los Feliz,Eastside,Illegal dumping,trash,31
+2026-11-11,36,Los Feliz,Eastside,Graffiti,trash,4
+2026-11-11,36,Los Feliz,Eastside,Potholes and pavement,streets,4
+2026-11-11,54,Macarthur Park,Central LA,Graffiti,trash,250
+2026-11-11,54,Macarthur Park,Central LA,Service not completed (follow-up),trash,4
+2026-11-11,67,Mar Vista,Westside,Illegal dumping,trash,9
+2026-11-11,67,Mar Vista,Westside,Dead animal,critters,5
+2026-11-11,67,Mar Vista,Westside,Service not completed (follow-up),trash,3
+2026-11-11,73,Mid City,South LA,Illegal dumping,trash,8
+2026-11-11,73,Mid City,South LA,Service not completed (follow-up),trash,3
+2026-11-11,58,Mid City West,Central LA,Illegal dumping,trash,33
+2026-11-11,58,Mid City West,Central LA,Graffiti,trash,5
+2026-11-11,58,Mid City West,Central LA,Streetlight repair,streets,4
+2026-11-11,58,Mid City West,Central LA,Landscape maintenance,trees,3
+2026-11-11,24,NoHo,East Valley,Illegal dumping,trash,24
+2026-11-11,24,NoHo,East Valley,Service not completed (follow-up),trash,7
+2026-11-11,24,NoHo,East Valley,Graffiti,trash,6
+2026-11-11,24,NoHo,East Valley,Dead animal,critters,4
+2026-11-11,24,NoHo,East Valley,Badly parked scooter or bike,parking,3
+2026-11-11,24,NoHo,East Valley,Tree emergency,trees,3
+2026-11-11,22,NoHo West,East Valley,Illegal dumping,trash,7
+2026-11-11,112,North Hills East,West Valley,Illegal dumping,trash,37
+2026-11-11,111,North Hills West,East Valley,Service not completed (follow-up),trash,6
+2026-11-11,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,20
+2026-11-11,23,North Hollywood Northeast,East Valley,Graffiti,trash,8
+2026-11-11,23,North Hollywood Northeast,East Valley,Dead animal,critters,3
+2026-11-11,23,North Hollywood Northeast,East Valley,Service not completed (follow-up),trash,3
+2026-11-11,124,Northridge South,West Valley,Illegal dumping,trash,8
+2026-11-11,124,Northridge South,West Valley,Graffiti,trash,6
+2026-11-11,124,Northridge South,West Valley,Service not completed (follow-up),trash,4
+2026-11-11,113,Northridge West,West Valley,Streetlight repair,streets,9
+2026-11-11,113,Northridge West,West Valley,Dead animal,critters,3
+2026-11-11,113,Northridge West,West Valley,Service not completed (follow-up),trash,3
+2026-11-11,104,Olympic Park,Central LA,Illegal dumping,trash,6
+2026-11-11,60,P.i.c.o.,Central LA,Illegal dumping,trash,14
+2026-11-11,7,Pacoima,East Valley,Illegal dumping,trash,11
+2026-11-11,115,Palms,Westside,Illegal dumping,trash,17
+2026-11-11,115,Palms,Westside,Badly parked scooter or bike,parking,5
+2026-11-11,100,Panorama City,East Valley,Illegal dumping,trash,27
+2026-11-11,100,Panorama City,East Valley,Graffiti,trash,9
+2026-11-11,80,Park Mesa Heights,South LA,Illegal dumping,trash,65
+2026-11-11,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,5
+2026-11-11,80,Park Mesa Heights,South LA,Streetlight repair,streets,4
+2026-11-11,76,Pico Union,Central LA,Illegal dumping,trash,19
+2026-11-11,76,Pico Union,Central LA,Graffiti,trash,8
+2026-11-11,53,Rampart Village,Eastside,Illegal dumping,trash,6
+2026-11-11,15,Reseda,West Valley,Illegal dumping,trash,14
+2026-11-11,15,Reseda,West Valley,Service not completed (follow-up),trash,9
+2026-11-11,15,Reseda,West Valley,Dead animal,critters,6
+2026-11-11,15,Reseda,West Valley,Graffiti,trash,3
+2026-11-11,26,Sherman Oaks,East Valley,Service not completed (follow-up),trash,15
+2026-11-11,26,Sherman Oaks,East Valley,Illegal dumping,trash,8
+2026-11-11,26,Sherman Oaks,East Valley,Graffiti,trash,7
+2026-11-11,26,Sherman Oaks,East Valley,Streetlight repair,streets,3
+2026-11-11,38,Silver Lake,Eastside,Illegal dumping,trash,12
+2026-11-11,38,Silver Lake,Eastside,Service not completed (follow-up),trash,5
+2026-11-11,78,South Central,South LA,Illegal dumping,trash,27
+2026-11-11,78,South Central,South LA,Service not completed (follow-up),trash,3
+2026-11-11,61,South Robertson,Westside,Illegal dumping,trash,23
+2026-11-11,61,South Robertson,Westside,Streetlight repair,streets,6
+2026-11-11,27,Studio City,East Valley,Service not completed (follow-up),trash,8
+2026-11-11,27,Studio City,East Valley,Illegal dumping,trash,3
+2026-11-11,27,Studio City,East Valley,Graffiti,trash,3
+2026-11-11,8,Sun Valley Area,East Valley,Illegal dumping,trash,15
+2026-11-11,10,Sunland-tujunga,East Valley,Illegal dumping,trash,8
+2026-11-11,10,Sunland-tujunga,East Valley,Dead animal,critters,3
+2026-11-11,10,Sunland-tujunga,East Valley,Obstructions,streets,3
+2026-11-11,5,Sylmar,East Valley,Illegal dumping,trash,7
+2026-11-11,5,Sylmar,East Valley,Dead animal,critters,6
+2026-11-11,17,Tarzana,West Valley,Illegal dumping,trash,30
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,16
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Landscape maintenance,trees,3
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Stormwater violation,water,3
+2026-11-11,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Service not completed (follow-up),trash,3
+2026-11-11,25,Valley Village,East Valley,Service not completed (follow-up),trash,5
+2026-11-11,25,Valley Village,East Valley,Illegal dumping,trash,3
+2026-11-11,20,Van Nuys,East Valley,Illegal dumping,trash,67
+2026-11-11,20,Van Nuys,East Valley,Property violation,housing,22
+2026-11-11,20,Van Nuys,East Valley,Potholes and pavement,streets,8
+2026-11-11,20,Van Nuys,East Valley,Graffiti,trash,7
+2026-11-11,20,Van Nuys,East Valley,Service not completed (follow-up),trash,3
+2026-11-11,68,Venice,Westside,Illegal dumping,trash,6
+2026-11-11,68,Venice,Westside,Graffiti,trash,4
+2026-11-11,68,Venice,Westside,Service not completed (follow-up),trash,4
+2026-11-11,109,Voices Of 90037,South LA,Illegal dumping,trash,18
+2026-11-11,109,Voices Of 90037,South LA,Service not completed (follow-up),trash,5
+2026-11-11,88,Watts,South LA,Illegal dumping,trash,10
+2026-11-11,88,Watts,South LA,Graffiti,trash,3
+2026-11-11,75,West Adams,South LA,Graffiti,trash,4
+2026-11-11,75,West Adams,South LA,Illegal dumping,trash,3
+2026-11-11,11,West Hills,West Valley,Dead animal,critters,4
+2026-11-11,11,West Hills,West Valley,Illegal dumping,trash,3
+2026-11-11,11,West Hills,West Valley,Streetlight repair,streets,3
+2026-11-11,66,West Los Angeles,Westside,Illegal dumping,trash,8
+2026-11-11,66,West Los Angeles,Westside,Sidewalk problem,streets,3
+2026-11-11,71,Westchester/playa,Westside,Illegal dumping,trash,6
+2026-11-11,71,Westchester/playa,Westside,Service not completed (follow-up),trash,4
+2026-11-11,97,Westlake North,Central LA,Illegal dumping,trash,5
+2026-11-11,97,Westlake North,Central LA,Graffiti,trash,4
+2026-11-11,121,Westlake South,Central LA,Graffiti,trash,4
+2026-11-11,121,Westlake South,Central LA,Illegal dumping,trash,4
+2026-11-11,62,Westside,Westside,Illegal dumping,trash,8
+2026-11-11,62,Westside,Westside,Service not completed (follow-up),trash,3
+2026-11-11,63,Westwood,Westside,Streetlight repair,streets,3
+2026-11-11,93,Wilmington,Harbor,Illegal dumping,trash,24
+2026-11-11,93,Wilmington,Harbor,Illegal signs or news racks,trash,4
+2026-11-11,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,106
+2026-11-11,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,13
+2026-11-11,14,Winnetka,West Valley,Illegal dumping,trash,10
+2026-11-11,14,Winnetka,West Valley,Service not completed (follow-up),trash,8
+2026-11-11,14,Winnetka,West Valley,Dead animal,critters,3
+2026-11-11,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,5
+2026-11-11,16,Woodland Hills-warner Center,West Valley,Potholes and pavement,streets,5
+2026-11-11,16,Woodland Hills-warner Center,West Valley,Streetlight repair,streets,3
+2026-11-11,125,Zapata King,South LA,Illegal dumping,trash,25
+2026-11-11,125,Zapata King,South LA,Service not completed (follow-up),trash,4
+2026-11-11,125,Zapata King,South LA,Graffiti,trash,3
+2026-11-12,6,Arleta,East Valley,Illegal dumping,trash,20
+2026-11-12,6,Arleta,East Valley,Service not completed (follow-up),trash,4
+2026-11-12,42,Arroyo Seco,Eastside,Illegal dumping,trash,9
+2026-11-12,42,Arroyo Seco,Eastside,Graffiti,trash,3
+2026-11-12,37,Atwater Village,Eastside,Service not completed (follow-up),trash,3
+2026-11-12,37,Atwater Village,Eastside,Graffiti,trash,3
+2026-11-12,64,Bel Air-beverly Crest,Westside,Service not completed (follow-up),trash,8
+2026-11-12,64,Bel Air-beverly Crest,Westside,Potholes and pavement,streets,3
+2026-11-12,50,Boyle Heights,Eastside,Graffiti,trash,47
+2026-11-12,50,Boyle Heights,Eastside,Illegal dumping,trash,12
+2026-11-12,50,Boyle Heights,Eastside,Service not completed (follow-up),trash,10
+2026-11-12,50,Boyle Heights,Eastside,Dead animal,critters,4
+2026-11-12,13,Canoga Park,West Valley,Illegal dumping,trash,34
+2026-11-12,13,Canoga Park,West Valley,Graffiti,trash,5
+2026-11-12,13,Canoga Park,West Valley,Curb,streets,3
+2026-11-12,13,Canoga Park,West Valley,Dead animal,critters,3
+2026-11-12,110,Central Alameda,South LA,Illegal dumping,trash,11
+2026-11-12,110,Central Alameda,South LA,Graffiti,trash,5
+2026-11-12,110,Central Alameda,South LA,Potholes and pavement,streets,3
+2026-11-12,110,Central Alameda,South LA,Dead animal,critters,3
+2026-11-12,32,Central Hollywood,Central LA,Streetlight repair,streets,10
+2026-11-12,32,Central Hollywood,Central LA,Illegal dumping,trash,9
+2026-11-12,32,Central Hollywood,Central LA,Badly parked scooter or bike,parking,6
+2026-11-12,95,Central San Pedro,Harbor,Illegal dumping,trash,37
+2026-11-12,99,Chatsworth,West Valley,Service not completed (follow-up),trash,6
+2026-11-12,99,Chatsworth,West Valley,Graffiti,trash,5
+2026-11-12,99,Chatsworth,West Valley,Potholes and pavement,streets,4
+2026-11-12,99,Chatsworth,West Valley,Streetlight repair,streets,4
+2026-11-12,99,Chatsworth,West Valley,Illegal dumping,trash,3
+2026-11-12,96,Coastal San Pedro,Harbor,Service not completed (follow-up),trash,13
+2026-11-12,96,Coastal San Pedro,Harbor,Illegal dumping,trash,13
+2026-11-12,96,Coastal San Pedro,Harbor,Graffiti,trash,3
+2026-11-12,96,Coastal San Pedro,Harbor,Dead animal,critters,3
+2026-11-12,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,30
+2026-11-12,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Service not completed (follow-up),trash,3
+2026-11-12,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Potholes and pavement,streets,3
+2026-11-12,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal signs or news racks,trash,3
+2026-11-12,70,Del Rey,Westside,Illegal dumping,trash,3
+2026-11-12,52,Downtown Los Angeles,Central LA,Graffiti,trash,26
+2026-11-12,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,21
+2026-11-12,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,8
+2026-11-12,52,Downtown Los Angeles,Central LA,Traffic safety,streets,7
+2026-11-12,52,Downtown Los Angeles,Central LA,Obstructions,streets,6
+2026-11-12,40,Eagle Rock,Eastside,Service not completed (follow-up),trash,8
+2026-11-12,40,Eagle Rock,Eastside,Illegal dumping,trash,6
+2026-11-12,34,East Hollywood,Central LA,Illegal dumping,trash,18
+2026-11-12,34,East Hollywood,Central LA,Service not completed (follow-up),trash,5
+2026-11-12,44,Echo Park,Eastside,Graffiti,trash,30
+2026-11-12,44,Echo Park,Eastside,Illegal dumping,trash,13
+2026-11-12,44,Echo Park,Eastside,Service not completed (follow-up),trash,9
+2026-11-12,44,Echo Park,Eastside,Barricade removal,streets,3
+2026-11-12,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,19
+2026-11-12,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,15
+2026-11-12,81,Empowerment Congress Central Area,South LA,Streetlight repair,streets,5
+2026-11-12,81,Empowerment Congress Central Area,South LA,Graffiti,trash,4
+2026-11-12,81,Empowerment Congress Central Area,South LA,Landscape maintenance,trees,3
+2026-11-12,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,15
+2026-11-12,77,Empowerment Congress North Area,South LA,Dead animal,critters,7
+2026-11-12,77,Empowerment Congress North Area,South LA,Service not completed (follow-up),trash,5
+2026-11-12,77,Empowerment Congress North Area,South LA,Tree emergency,trees,3
+2026-11-12,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,122
+2026-11-12,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,14
+2026-11-12,87,Empowerment Congress Southeast Area,South LA,Dead animal,critters,7
+2026-11-12,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,7
+2026-11-12,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,16
+2026-11-12,84,Empowerment Congress Southwest Area,South LA,Obstructions,streets,6
+2026-11-12,84,Empowerment Congress Southwest Area,South LA,Service not completed (follow-up),trash,3
+2026-11-12,84,Empowerment Congress Southwest Area,South LA,Tree obstruction,trees,3
+2026-11-12,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,20
+2026-11-12,18,Encino,West Valley,Service not completed (follow-up),trash,11
+2026-11-12,18,Encino,West Valley,Illegal dumping,trash,4
+2026-11-12,18,Encino,West Valley,Graffiti,trash,3
+2026-11-12,18,Encino,West Valley,Landscape maintenance,trees,3
+2026-11-12,9,Foothill Trails District,East Valley,Illegal dumping,trash,8
+2026-11-12,39,Glassell Park,Eastside,Illegal dumping,trash,5
+2026-11-12,39,Glassell Park,Eastside,Graffiti,trash,3
+2026-11-12,39,Glassell Park,Eastside,Service not completed (follow-up),trash,3
+2026-11-12,4,Granada Hills North,West Valley,Service not completed (follow-up),trash,4
+2026-11-12,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,9
+2026-11-12,118,Granada Hills South,West Valley,Potholes and pavement,streets,4
+2026-11-12,118,Granada Hills South,West Valley,Illegal dumping,trash,4
+2026-11-12,102,Greater Cypress Park,Eastside,Illegal dumping,trash,6
+2026-11-12,28,Greater Toluca Lake,East Valley,Service not completed (follow-up),trash,5
+2026-11-12,21,Greater Valley Glen,East Valley,Illegal dumping,trash,13
+2026-11-12,21,Greater Valley Glen,East Valley,Traffic signal,streets,3
+2026-11-12,21,Greater Valley Glen,East Valley,Graffiti,trash,3
+2026-11-12,21,Greater Valley Glen,East Valley,Service not completed (follow-up),trash,3
+2026-11-12,119,Greater Wilshire,Central LA,Illegal dumping,trash,29
+2026-11-12,119,Greater Wilshire,Central LA,Traffic safety,streets,9
+2026-11-12,119,Greater Wilshire,Central LA,Graffiti,trash,6
+2026-11-12,119,Greater Wilshire,Central LA,Streetlight repair,streets,5
+2026-11-12,119,Greater Wilshire,Central LA,Obstructions,streets,3
+2026-11-12,119,Greater Wilshire,Central LA,Bus stop furniture,streets,3
+2026-11-12,119,Greater Wilshire,Central LA,Dead animal,critters,3
+2026-11-12,119,Greater Wilshire,Central LA,Service not completed (follow-up),trash,3
+2026-11-12,92,Harbor City,Harbor,Service not completed (follow-up),trash,4
+2026-11-12,92,Harbor City,Harbor,Illegal dumping,trash,3
+2026-11-12,90,Harbor Gateway North,Harbor,Illegal dumping,trash,98
+2026-11-12,90,Harbor Gateway North,Harbor,Graffiti,trash,4
+2026-11-12,90,Harbor Gateway North,Harbor,Stormwater violation,water,3
+2026-11-12,91,Harbor Gateway South,Harbor,Illegal dumping,trash,6
+2026-11-12,128,Historic Cultural North,Central LA,Graffiti,trash,29
+2026-11-12,128,Historic Cultural North,Central LA,Service not completed (follow-up),trash,3
+2026-11-12,41,Historic Highland Park,Eastside,Graffiti,trash,13
+2026-11-12,41,Historic Highland Park,Eastside,Illegal dumping,trash,5
+2026-11-12,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,4
+2026-11-12,29,Hollywood Hills West,Central LA,Illegal dumping,trash,16
+2026-11-12,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,15
+2026-11-12,29,Hollywood Hills West,Central LA,Streetlight repair,streets,8
+2026-11-12,29,Hollywood Hills West,Central LA,Potholes and pavement,streets,5
+2026-11-12,29,Hollywood Hills West,Central LA,Landscape maintenance,trees,3
+2026-11-12,33,Hollywood Studio District,Central LA,Illegal dumping,trash,19
+2026-11-12,33,Hollywood Studio District,Central LA,Graffiti,trash,4
+2026-11-12,33,Hollywood Studio District,Central LA,Service not completed (follow-up),trash,3
+2026-11-12,30,Hollywood United,Central LA,Illegal dumping,trash,15
+2026-11-12,30,Hollywood United,Central LA,Traffic sign,streets,4
+2026-11-12,30,Hollywood United,Central LA,Badly parked scooter or bike,parking,3
+2026-11-12,48,LA-32,Eastside,Illegal dumping,trash,4
+2026-11-12,48,LA-32,Eastside,Service not completed (follow-up),trash,4
+2026-11-12,19,Lake Balboa,West Valley,Service not completed (follow-up),trash,13
+2026-11-12,19,Lake Balboa,West Valley,Illegal dumping,trash,7
+2026-11-12,19,Lake Balboa,West Valley,Graffiti,trash,3
+2026-11-12,47,Lincoln Heights,Eastside,Illegal dumping,trash,10
+2026-11-12,47,Lincoln Heights,Eastside,Graffiti,trash,4
+2026-11-12,36,Los Feliz,Eastside,Illegal dumping,trash,5
+2026-11-12,36,Los Feliz,Eastside,Graffiti,trash,3
+2026-11-12,54,Macarthur Park,Central LA,Graffiti,trash,249
+2026-11-12,54,Macarthur Park,Central LA,Illegal dumping,trash,5
+2026-11-12,54,Macarthur Park,Central LA,Service not completed (follow-up),trash,3
+2026-11-12,67,Mar Vista,Westside,Illegal dumping,trash,15
+2026-11-12,73,Mid City,South LA,Illegal dumping,trash,21
+2026-11-12,73,Mid City,South LA,Dead animal,critters,3
+2026-11-12,58,Mid City West,Central LA,Service not completed (follow-up),trash,11
+2026-11-12,58,Mid City West,Central LA,Illegal dumping,trash,10
+2026-11-12,58,Mid City West,Central LA,Graffiti,trash,6
+2026-11-12,58,Mid City West,Central LA,Landscape maintenance,trees,4
+2026-11-12,101,Mission Hills,East Valley,Illegal dumping,trash,10
+2026-11-12,24,NoHo,East Valley,Illegal dumping,trash,32
+2026-11-12,24,NoHo,East Valley,Badly parked scooter or bike,parking,6
+2026-11-12,24,NoHo,East Valley,Graffiti,trash,6
+2026-11-12,24,NoHo,East Valley,Service not completed (follow-up),trash,3
+2026-11-12,22,NoHo West,East Valley,Illegal dumping,trash,10
+2026-11-12,22,NoHo West,East Valley,Service not completed (follow-up),trash,6
+2026-11-12,22,NoHo West,East Valley,Graffiti,trash,4
+2026-11-12,112,North Hills East,West Valley,Illegal dumping,trash,11
+2026-11-12,112,North Hills East,West Valley,Service not completed (follow-up),trash,3
+2026-11-12,111,North Hills West,East Valley,Service not completed (follow-up),trash,4
+2026-11-12,111,North Hills West,East Valley,Illegal dumping,trash,4
+2026-11-12,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,22
+2026-11-12,23,North Hollywood Northeast,East Valley,Graffiti,trash,9
+2026-11-12,23,North Hollywood Northeast,East Valley,Potholes and pavement,streets,3
+2026-11-12,127,North Westwood,Westside,Service not completed (follow-up),trash,4
+2026-11-12,120,Northridge East,West Valley,Illegal dumping,trash,9
+2026-11-12,120,Northridge East,West Valley,Service not completed (follow-up),trash,8
+2026-11-12,120,Northridge East,West Valley,Traffic sign,streets,3
+2026-11-12,124,Northridge South,West Valley,Service not completed (follow-up),trash,8
+2026-11-12,124,Northridge South,West Valley,Illegal dumping,trash,8
+2026-11-12,124,Northridge South,West Valley,Graffiti,trash,4
+2026-11-12,94,Northwest San Pedro,Harbor,Illegal dumping,trash,6
+2026-11-12,94,Northwest San Pedro,Harbor,Dead animal,critters,3
+2026-11-12,104,Olympic Park,Central LA,Illegal dumping,trash,6
+2026-11-12,104,Olympic Park,Central LA,Streetlight repair,streets,3
+2026-11-12,60,P.i.c.o.,Central LA,Illegal dumping,trash,19
+2026-11-12,60,P.i.c.o.,Central LA,Graffiti,trash,5
+2026-11-12,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,4
+2026-11-12,7,Pacoima,East Valley,Illegal dumping,trash,50
+2026-11-12,7,Pacoima,East Valley,Graffiti,trash,6
+2026-11-12,7,Pacoima,East Valley,Dead animal,critters,5
+2026-11-12,115,Palms,Westside,Illegal dumping,trash,24
+2026-11-12,115,Palms,Westside,Dead animal,critters,13
+2026-11-12,100,Panorama City,East Valley,Illegal dumping,trash,15
+2026-11-12,100,Panorama City,East Valley,Graffiti,trash,8
+2026-11-12,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,9
+2026-11-12,80,Park Mesa Heights,South LA,Illegal dumping,trash,4
+2026-11-12,80,Park Mesa Heights,South LA,Dead animal,critters,3
+2026-11-12,80,Park Mesa Heights,South LA,Streetlight repair,streets,3
+2026-11-12,76,Pico Union,Central LA,Illegal dumping,trash,12
+2026-11-12,76,Pico Union,Central LA,Graffiti,trash,7
+2026-11-12,76,Pico Union,Central LA,Service not completed (follow-up),trash,5
+2026-11-12,76,Pico Union,Central LA,Tree obstruction,trees,3
+2026-11-12,76,Pico Union,Central LA,Landscape maintenance,trees,3
+2026-11-12,114,Porter Ranch,West Valley,Streetlight repair,streets,3
+2026-11-12,53,Rampart Village,Eastside,Illegal dumping,trash,10
+2026-11-12,53,Rampart Village,Eastside,Service not completed (follow-up),trash,4
+2026-11-12,53,Rampart Village,Eastside,Graffiti,trash,3
+2026-11-12,53,Rampart Village,Eastside,Street sweeping,trash,3
+2026-11-12,15,Reseda,West Valley,Illegal dumping,trash,23
+2026-11-12,15,Reseda,West Valley,Graffiti,trash,12
+2026-11-12,15,Reseda,West Valley,Service not completed (follow-up),trash,11
+2026-11-12,15,Reseda,West Valley,Streetlight repair,streets,5
+2026-11-12,26,Sherman Oaks,East Valley,Illegal dumping,trash,10
+2026-11-12,26,Sherman Oaks,East Valley,Service not completed (follow-up),trash,9
+2026-11-12,26,Sherman Oaks,East Valley,Graffiti,trash,6
+2026-11-12,26,Sherman Oaks,East Valley,Potholes and pavement,streets,6
+2026-11-12,26,Sherman Oaks,East Valley,Sidewalk problem,streets,3
+2026-11-12,38,Silver Lake,Eastside,Service not completed (follow-up),trash,14
+2026-11-12,38,Silver Lake,Eastside,Illegal dumping,trash,4
+2026-11-12,78,South Central,South LA,Graffiti,trash,17
+2026-11-12,78,South Central,South LA,Illegal dumping,trash,16
+2026-11-12,78,South Central,South LA,Street tree violations,trees,4
+2026-11-12,78,South Central,South LA,Dead animal,critters,3
+2026-11-12,61,South Robertson,Westside,Illegal dumping,trash,44
+2026-11-12,61,South Robertson,Westside,Graffiti,trash,4
+2026-11-12,61,South Robertson,Westside,Potholes and pavement,streets,4
+2026-11-12,61,South Robertson,Westside,Service not completed (follow-up),trash,3
+2026-11-12,27,Studio City,East Valley,Service not completed (follow-up),trash,10
+2026-11-12,27,Studio City,East Valley,Illegal dumping,trash,8
+2026-11-12,27,Studio City,East Valley,Potholes and pavement,streets,6
+2026-11-12,27,Studio City,East Valley,Curb,streets,3
+2026-11-12,8,Sun Valley Area,East Valley,Illegal dumping,trash,17
+2026-11-12,8,Sun Valley Area,East Valley,Graffiti,trash,7
+2026-11-12,8,Sun Valley Area,East Valley,Service not completed (follow-up),trash,4
+2026-11-12,8,Sun Valley Area,East Valley,Flooding,water,3
+2026-11-12,10,Sunland-tujunga,East Valley,Illegal dumping,trash,17
+2026-11-12,5,Sylmar,East Valley,Illegal dumping,trash,29
+2026-11-12,5,Sylmar,East Valley,Curb,streets,3
+2026-11-12,17,Tarzana,West Valley,Illegal dumping,trash,5
+2026-11-12,17,Tarzana,West Valley,Landscape maintenance,trees,3
+2026-11-12,17,Tarzana,West Valley,Service not completed (follow-up),trash,3
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,12
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Potholes and pavement,streets,10
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Service not completed (follow-up),trash,4
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Landscape maintenance,trees,3
+2026-11-12,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Dead animal,critters,3
+2026-11-12,20,Van Nuys,East Valley,Illegal dumping,trash,28
+2026-11-12,20,Van Nuys,East Valley,Service not completed (follow-up),trash,11
+2026-11-12,20,Van Nuys,East Valley,Graffiti,trash,8
+2026-11-12,20,Van Nuys,East Valley,Potholes and pavement,streets,6
+2026-11-12,20,Van Nuys,East Valley,Parking,parking,3
+2026-11-12,20,Van Nuys,East Valley,Dead animal,critters,3
+2026-11-12,68,Venice,Westside,Illegal dumping,trash,8
+2026-11-12,68,Venice,Westside,Graffiti,trash,7
+2026-11-12,68,Venice,Westside,Badly parked scooter or bike,parking,3
+2026-11-12,68,Venice,Westside,Service not completed (follow-up),trash,3
+2026-11-12,109,Voices Of 90037,South LA,Illegal dumping,trash,14
+2026-11-12,109,Voices Of 90037,South LA,Graffiti,trash,8
+2026-11-12,109,Voices Of 90037,South LA,Dead animal,critters,5
+2026-11-12,109,Voices Of 90037,South LA,Service not completed (follow-up),trash,3
+2026-11-12,88,Watts,South LA,Illegal dumping,trash,12
+2026-11-12,75,West Adams,South LA,Illegal dumping,trash,16
+2026-11-12,75,West Adams,South LA,Graffiti,trash,5
+2026-11-12,11,West Hills,West Valley,Illegal dumping,trash,12
+2026-11-12,11,West Hills,West Valley,Streetlight repair,streets,6
+2026-11-12,66,West Los Angeles,Westside,Illegal dumping,trash,13
+2026-11-12,66,West Los Angeles,Westside,Service not completed (follow-up),trash,5
+2026-11-12,71,Westchester/playa,Westside,Illegal dumping,trash,6
+2026-11-12,71,Westchester/playa,Westside,Graffiti,trash,3
+2026-11-12,71,Westchester/playa,Westside,Service not completed (follow-up),trash,3
+2026-11-12,97,Westlake North,Central LA,Graffiti,trash,11
+2026-11-12,97,Westlake North,Central LA,Illegal dumping,trash,6
+2026-11-12,97,Westlake North,Central LA,Traffic safety,streets,3
+2026-11-12,121,Westlake South,Central LA,Graffiti,trash,12
+2026-11-12,121,Westlake South,Central LA,Illegal dumping,trash,6
+2026-11-12,121,Westlake South,Central LA,Traffic safety,streets,4
+2026-11-12,62,Westside,Westside,Illegal dumping,trash,8
+2026-11-12,62,Westside,Westside,Service not completed (follow-up),trash,5
+2026-11-12,62,Westside,Westside,Barricade removal,streets,4
+2026-11-12,62,Westside,Westside,Graffiti,trash,3
+2026-11-12,63,Westwood,Westside,Tree obstruction,trees,3
+2026-11-12,93,Wilmington,Harbor,Illegal dumping,trash,19
+2026-11-12,93,Wilmington,Harbor,Graffiti,trash,8
+2026-11-12,93,Wilmington,Harbor,Service not completed (follow-up),trash,7
+2026-11-12,93,Wilmington,Harbor,Potholes and pavement,streets,5
+2026-11-12,93,Wilmington,Harbor,Dead animal,critters,3
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,69
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,22
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Traffic safety,streets,15
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Streetlight repair,streets,11
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Obstructions,streets,5
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Service not completed (follow-up),trash,4
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Sidewalk problem,streets,4
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,Landscape maintenance,trees,3
+2026-11-12,55,Wilshire Center - Koreatown,Central LA,General street inspection,streets,3
+2026-11-12,14,Winnetka,West Valley,Illegal dumping,trash,23
+2026-11-12,14,Winnetka,West Valley,Graffiti,trash,6
+2026-11-12,14,Winnetka,West Valley,Curb,streets,4
+2026-11-12,16,Woodland Hills-warner Center,West Valley,Property violation,housing,38
+2026-11-12,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,19
+2026-11-12,16,Woodland Hills-warner Center,West Valley,Traffic signal,streets,3
+2026-11-12,125,Zapata King,South LA,Illegal dumping,trash,20
+2026-11-12,125,Zapata King,South LA,Service not completed (follow-up),trash,6
+2026-11-12,125,Zapata King,South LA,Dead animal,critters,5
+2026-11-13,6,Arleta,East Valley,Illegal dumping,trash,4
+2026-11-13,6,Arleta,East Valley,Service not completed (follow-up),trash,3
+2026-11-13,42,Arroyo Seco,Eastside,Illegal dumping,trash,4
+2026-11-13,37,Atwater Village,Eastside,Illegal dumping,trash,9
+2026-11-13,64,Bel Air-beverly Crest,Westside,Service not completed (follow-up),trash,9
+2026-11-13,64,Bel Air-beverly Crest,Westside,Potholes and pavement,streets,3
+2026-11-13,50,Boyle Heights,Eastside,Illegal dumping,trash,15
+2026-11-13,50,Boyle Heights,Eastside,Graffiti,trash,7
+2026-11-13,50,Boyle Heights,Eastside,Obstructions,streets,4
+2026-11-13,50,Boyle Heights,Eastside,Illegal signs or news racks,trash,3
+2026-11-13,50,Boyle Heights,Eastside,Streetlight repair,streets,3
+2026-11-13,13,Canoga Park,West Valley,Graffiti,trash,8
+2026-11-13,13,Canoga Park,West Valley,Illegal dumping,trash,7
+2026-11-13,13,Canoga Park,West Valley,Service not completed (follow-up),trash,6
+2026-11-13,110,Central Alameda,South LA,Illegal dumping,trash,5
+2026-11-13,32,Central Hollywood,Central LA,Illegal dumping,trash,5
+2026-11-13,95,Central San Pedro,Harbor,Illegal dumping,trash,16
+2026-11-13,95,Central San Pedro,Harbor,Barricade removal,streets,4
+2026-11-13,99,Chatsworth,West Valley,Streetlight repair,streets,4
+2026-11-13,96,Coastal San Pedro,Harbor,Service not completed (follow-up),trash,9
+2026-11-13,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,14
+2026-11-13,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,8
+2026-11-13,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Potholes and pavement,streets,3
+2026-11-13,70,Del Rey,Westside,Illegal dumping,trash,6
+2026-11-13,70,Del Rey,Westside,Graffiti,trash,3
+2026-11-13,52,Downtown Los Angeles,Central LA,Graffiti,trash,27
+2026-11-13,52,Downtown Los Angeles,Central LA,Barricade removal,streets,15
+2026-11-13,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,14
+2026-11-13,52,Downtown Los Angeles,Central LA,Traffic safety,streets,5
+2026-11-13,52,Downtown Los Angeles,Central LA,Potholes and pavement,streets,4
+2026-11-13,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,4
+2026-11-13,40,Eagle Rock,Eastside,Graffiti,trash,6
+2026-11-13,40,Eagle Rock,Eastside,Tree emergency,trees,3
+2026-11-13,34,East Hollywood,Central LA,Illegal dumping,trash,33
+2026-11-13,34,East Hollywood,Central LA,Graffiti,trash,7
+2026-11-13,44,Echo Park,Eastside,Graffiti,trash,13
+2026-11-13,44,Echo Park,Eastside,Illegal dumping,trash,11
+2026-11-13,44,Echo Park,Eastside,Service not completed (follow-up),trash,5
+2026-11-13,44,Echo Park,Eastside,Badly parked scooter or bike,parking,4
+2026-11-13,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,19
+2026-11-13,81,Empowerment Congress Central Area,South LA,Landscape maintenance,trees,9
+2026-11-13,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,7
+2026-11-13,81,Empowerment Congress Central Area,South LA,Graffiti,trash,5
+2026-11-13,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,26
+2026-11-13,77,Empowerment Congress North Area,South LA,Graffiti,trash,10
+2026-11-13,77,Empowerment Congress North Area,South LA,Service not completed (follow-up),trash,4
+2026-11-13,77,Empowerment Congress North Area,South LA,Sidewalk problem,streets,4
+2026-11-13,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,34
+2026-11-13,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,23
+2026-11-13,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,10
+2026-11-13,84,Empowerment Congress Southwest Area,South LA,Service not completed (follow-up),trash,10
+2026-11-13,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,10
+2026-11-13,84,Empowerment Congress Southwest Area,South LA,Tree emergency,trees,3
+2026-11-13,84,Empowerment Congress Southwest Area,South LA,Graffiti,trash,3
+2026-11-13,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,22
+2026-11-13,79,Empowerment Congress West Area,South LA,Graffiti,trash,3
+2026-11-13,18,Encino,West Valley,Service not completed (follow-up),trash,12
+2026-11-13,18,Encino,West Valley,Graffiti,trash,3
+2026-11-13,39,Glassell Park,Eastside,Illegal dumping,trash,13
+2026-11-13,39,Glassell Park,Eastside,Graffiti,trash,4
+2026-11-13,4,Granada Hills North,West Valley,Illegal dumping,trash,5
+2026-11-13,118,Granada Hills South,West Valley,Dead animal,critters,6
+2026-11-13,118,Granada Hills South,West Valley,Potholes and pavement,streets,6
+2026-11-13,118,Granada Hills South,West Valley,Illegal dumping,trash,3
+2026-11-13,102,Greater Cypress Park,Eastside,Illegal dumping,trash,4
+2026-11-13,21,Greater Valley Glen,East Valley,Illegal dumping,trash,16
+2026-11-13,21,Greater Valley Glen,East Valley,Service not completed (follow-up),trash,3
+2026-11-13,119,Greater Wilshire,Central LA,Illegal dumping,trash,16
+2026-11-13,119,Greater Wilshire,Central LA,Streetlight repair,streets,8
+2026-11-13,119,Greater Wilshire,Central LA,Service not completed (follow-up),trash,7
+2026-11-13,119,Greater Wilshire,Central LA,Tree emergency,trees,3
+2026-11-13,92,Harbor City,Harbor,Landscape maintenance,trees,9
+2026-11-13,92,Harbor City,Harbor,Illegal dumping,trash,4
+2026-11-13,90,Harbor Gateway North,Harbor,Illegal dumping,trash,16
+2026-11-13,90,Harbor Gateway North,Harbor,Graffiti,trash,9
+2026-11-13,91,Harbor Gateway South,Harbor,Illegal dumping,trash,3
+2026-11-13,128,Historic Cultural North,Central LA,Illegal dumping,trash,4
+2026-11-13,41,Historic Highland Park,Eastside,Streetlight repair,streets,31
+2026-11-13,41,Historic Highland Park,Eastside,Graffiti,trash,15
+2026-11-13,41,Historic Highland Park,Eastside,Illegal dumping,trash,11
+2026-11-13,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,3
+2026-11-13,41,Historic Highland Park,Eastside,Potholes and pavement,streets,3
+2026-11-13,41,Historic Highland Park,Eastside,Streetlight non-repair,streets,3
+2026-11-13,29,Hollywood Hills West,Central LA,Streetlight repair,streets,10
+2026-11-13,29,Hollywood Hills West,Central LA,Service not completed (follow-up),trash,5
+2026-11-13,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,4
+2026-11-13,33,Hollywood Studio District,Central LA,Illegal dumping,trash,15
+2026-11-13,33,Hollywood Studio District,Central LA,Graffiti,trash,6
+2026-11-13,30,Hollywood United,Central LA,Illegal dumping,trash,3
+2026-11-13,30,Hollywood United,Central LA,Potholes and pavement,streets,3
+2026-11-13,48,LA-32,Eastside,Illegal dumping,trash,7
+2026-11-13,48,LA-32,Eastside,Service not completed (follow-up),trash,5
+2026-11-13,48,LA-32,Eastside,Graffiti,trash,5
+2026-11-13,19,Lake Balboa,West Valley,Illegal dumping,trash,12
+2026-11-13,19,Lake Balboa,West Valley,Service not completed (follow-up),trash,6
+2026-11-13,19,Lake Balboa,West Valley,Graffiti,trash,6
+2026-11-13,47,Lincoln Heights,Eastside,Illegal dumping,trash,6
+2026-11-13,47,Lincoln Heights,Eastside,Graffiti,trash,4
+2026-11-13,36,Los Feliz,Eastside,Illegal dumping,trash,13
+2026-11-13,36,Los Feliz,Eastside,Service not completed (follow-up),trash,10
+2026-11-13,36,Los Feliz,Eastside,Obstructions,streets,3
+2026-11-13,54,Macarthur Park,Central LA,Graffiti,trash,218
+2026-11-13,54,Macarthur Park,Central LA,Illegal dumping,trash,10
+2026-11-13,67,Mar Vista,Westside,Service not completed (follow-up),trash,6
+2026-11-13,67,Mar Vista,Westside,Potholes and pavement,streets,3
+2026-11-13,67,Mar Vista,Westside,Illegal dumping,trash,3
+2026-11-13,73,Mid City,South LA,Illegal dumping,trash,10
+2026-11-13,73,Mid City,South LA,Graffiti,trash,4
+2026-11-13,73,Mid City,South LA,Service not completed (follow-up),trash,3
+2026-11-13,58,Mid City West,Central LA,Service not completed (follow-up),trash,11
+2026-11-13,58,Mid City West,Central LA,Illegal dumping,trash,7
+2026-11-13,58,Mid City West,Central LA,Graffiti,trash,4
+2026-11-13,58,Mid City West,Central LA,Landscape maintenance,trees,4
+2026-11-13,58,Mid City West,Central LA,Obstructions,streets,3
+2026-11-13,58,Mid City West,Central LA,Flooding,water,3
+2026-11-13,101,Mission Hills,East Valley,Illegal dumping,trash,4
+2026-11-13,24,NoHo,East Valley,Illegal dumping,trash,17
+2026-11-13,24,NoHo,East Valley,Potholes and pavement,streets,7
+2026-11-13,24,NoHo,East Valley,Graffiti,trash,4
+2026-11-13,24,NoHo,East Valley,Badly parked scooter or bike,parking,3
+2026-11-13,22,NoHo West,East Valley,Illegal dumping,trash,4
+2026-11-13,22,NoHo West,East Valley,Graffiti,trash,3
+2026-11-13,112,North Hills East,West Valley,Illegal dumping,trash,9
+2026-11-13,111,North Hills West,East Valley,Service not completed (follow-up),trash,5
+2026-11-13,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,16
+2026-11-13,23,North Hollywood Northeast,East Valley,Potholes and pavement,streets,5
+2026-11-13,120,Northridge East,West Valley,Illegal dumping,trash,7
+2026-11-13,120,Northridge East,West Valley,Service not completed (follow-up),trash,3
+2026-11-13,124,Northridge South,West Valley,Graffiti,trash,9
+2026-11-13,124,Northridge South,West Valley,Illegal dumping,trash,7
+2026-11-13,124,Northridge South,West Valley,Property violation,housing,5
+2026-11-13,113,Northridge West,West Valley,Illegal dumping,trash,4
+2026-11-13,94,Northwest San Pedro,Harbor,Service not completed (follow-up),trash,3
+2026-11-13,104,Olympic Park,Central LA,Illegal dumping,trash,5
+2026-11-13,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,13
+2026-11-13,60,P.i.c.o.,Central LA,Illegal dumping,trash,6
+2026-11-13,7,Pacoima,East Valley,Illegal dumping,trash,13
+2026-11-13,7,Pacoima,East Valley,Service not completed (follow-up),trash,7
+2026-11-13,7,Pacoima,East Valley,Graffiti,trash,6
+2026-11-13,7,Pacoima,East Valley,Parking,parking,3
+2026-11-13,7,Pacoima,East Valley,Dead animal,critters,3
+2026-11-13,115,Palms,Westside,Illegal dumping,trash,4
+2026-11-13,100,Panorama City,East Valley,Illegal dumping,trash,9
+2026-11-13,100,Panorama City,East Valley,Service not completed (follow-up),trash,7
+2026-11-13,80,Park Mesa Heights,South LA,Landscape maintenance,trees,15
+2026-11-13,80,Park Mesa Heights,South LA,Illegal dumping,trash,10
+2026-11-13,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,6
+2026-11-13,80,Park Mesa Heights,South LA,Graffiti,trash,6
+2026-11-13,76,Pico Union,Central LA,Illegal dumping,trash,14
+2026-11-13,76,Pico Union,Central LA,Graffiti,trash,5
+2026-11-13,76,Pico Union,Central LA,Service not completed (follow-up),trash,3
+2026-11-13,53,Rampart Village,Eastside,Graffiti,trash,7
+2026-11-13,53,Rampart Village,Eastside,Illegal dumping,trash,3
+2026-11-13,15,Reseda,West Valley,Illegal dumping,trash,22
+2026-11-13,15,Reseda,West Valley,Graffiti,trash,10
+2026-11-13,26,Sherman Oaks,East Valley,Illegal dumping,trash,9
+2026-11-13,26,Sherman Oaks,East Valley,Service not completed (follow-up),trash,5
+2026-11-13,38,Silver Lake,Eastside,Service not completed (follow-up),trash,4
+2026-11-13,38,Silver Lake,Eastside,Illegal dumping,trash,4
+2026-11-13,38,Silver Lake,Eastside,Dead animal,critters,3
+2026-11-13,38,Silver Lake,Eastside,Obstructions,streets,3
+2026-11-13,38,Silver Lake,Eastside,Graffiti,trash,3
+2026-11-13,78,South Central,South LA,Graffiti,trash,13
+2026-11-13,78,South Central,South LA,Illegal dumping,trash,12
+2026-11-13,61,South Robertson,Westside,Illegal dumping,trash,13
+2026-11-13,61,South Robertson,Westside,Service not completed (follow-up),trash,6
+2026-11-13,27,Studio City,East Valley,Graffiti,trash,6
+2026-11-13,27,Studio City,East Valley,Illegal dumping,trash,5
+2026-11-13,27,Studio City,East Valley,Service not completed (follow-up),trash,4
+2026-11-13,8,Sun Valley Area,East Valley,Illegal dumping,trash,12
+2026-11-13,8,Sun Valley Area,East Valley,Service not completed (follow-up),trash,6
+2026-11-13,8,Sun Valley Area,East Valley,Graffiti,trash,5
+2026-11-13,10,Sunland-tujunga,East Valley,Illegal dumping,trash,6
+2026-11-13,5,Sylmar,East Valley,Illegal dumping,trash,12
+2026-11-13,17,Tarzana,West Valley,Service not completed (follow-up),trash,8
+2026-11-13,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,16
+2026-11-13,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal signs or news racks,trash,4
+2026-11-13,20,Van Nuys,East Valley,Graffiti,trash,19
+2026-11-13,20,Van Nuys,East Valley,Illegal dumping,trash,17
+2026-11-13,20,Van Nuys,East Valley,Potholes and pavement,streets,8
+2026-11-13,20,Van Nuys,East Valley,Service not completed (follow-up),trash,6
+2026-11-13,20,Van Nuys,East Valley,Traffic safety,streets,3
+2026-11-13,68,Venice,Westside,Illegal dumping,trash,12
+2026-11-13,68,Venice,Westside,Dead animal,critters,3
+2026-11-13,109,Voices Of 90037,South LA,Illegal dumping,trash,14
+2026-11-13,109,Voices Of 90037,South LA,Graffiti,trash,8
+2026-11-13,109,Voices Of 90037,South LA,Service not completed (follow-up),trash,3
+2026-11-13,88,Watts,South LA,Illegal dumping,trash,8
+2026-11-13,88,Watts,South LA,Graffiti,trash,3
+2026-11-13,75,West Adams,South LA,Illegal dumping,trash,8
+2026-11-13,75,West Adams,South LA,Potholes and pavement,streets,8
+2026-11-13,75,West Adams,South LA,Graffiti,trash,5
+2026-11-13,11,West Hills,West Valley,Service not completed (follow-up),trash,6
+2026-11-13,11,West Hills,West Valley,Illegal dumping,trash,3
+2026-11-13,11,West Hills,West Valley,Streetlight repair,streets,3
+2026-11-13,66,West Los Angeles,Westside,Illegal dumping,trash,12
+2026-11-13,66,West Los Angeles,Westside,Flooding,water,4
+2026-11-13,71,Westchester/playa,Westside,Illegal dumping,trash,9
+2026-11-13,97,Westlake North,Central LA,Graffiti,trash,5
+2026-11-13,97,Westlake North,Central LA,Illegal dumping,trash,4
+2026-11-13,121,Westlake South,Central LA,Graffiti,trash,22
+2026-11-13,121,Westlake South,Central LA,Illegal dumping,trash,3
+2026-11-13,62,Westside,Westside,Illegal dumping,trash,17
+2026-11-13,63,Westwood,Westside,Illegal dumping,trash,5
+2026-11-13,63,Westwood,Westside,Illegal signs or news racks,trash,3
+2026-11-13,63,Westwood,Westside,Traffic safety,streets,3
+2026-11-13,93,Wilmington,Harbor,Service not completed (follow-up),trash,11
+2026-11-13,93,Wilmington,Harbor,Illegal dumping,trash,8
+2026-11-13,93,Wilmington,Harbor,Streetlight repair,streets,5
+2026-11-13,93,Wilmington,Harbor,Flooding,water,4
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,31
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,10
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,Curb,streets,4
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,Service not completed (follow-up),trash,4
+2026-11-13,55,Wilshire Center - Koreatown,Central LA,Streetlight repair,streets,4
+2026-11-13,14,Winnetka,West Valley,Illegal dumping,trash,6
+2026-11-13,14,Winnetka,West Valley,Graffiti,trash,5
+2026-11-13,16,Woodland Hills-warner Center,West Valley,Service not completed (follow-up),trash,8
+2026-11-13,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,8
+2026-11-13,125,Zapata King,South LA,Illegal dumping,trash,5
+2026-11-13,125,Zapata King,South LA,Graffiti,trash,4
+2026-11-14,6,Arleta,East Valley,Service not completed (follow-up),trash,6
+2026-11-14,6,Arleta,East Valley,Illegal dumping,trash,5
+2026-11-14,6,Arleta,East Valley,Streetlight repair,streets,4
+2026-11-14,37,Atwater Village,Eastside,Graffiti,trash,3
+2026-11-14,50,Boyle Heights,Eastside,Graffiti,trash,9
+2026-11-14,50,Boyle Heights,Eastside,Illegal dumping,trash,4
+2026-11-14,50,Boyle Heights,Eastside,Tree emergency,trees,3
+2026-11-14,13,Canoga Park,West Valley,Illegal dumping,trash,10
+2026-11-14,13,Canoga Park,West Valley,Graffiti,trash,6
+2026-11-14,110,Central Alameda,South LA,Illegal dumping,trash,3
+2026-11-14,110,Central Alameda,South LA,Potholes and pavement,streets,3
+2026-11-14,32,Central Hollywood,Central LA,Illegal dumping,trash,5
+2026-11-14,95,Central San Pedro,Harbor,Illegal dumping,trash,7
+2026-11-14,96,Coastal San Pedro,Harbor,Illegal dumping,trash,7
+2026-11-14,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,14
+2026-11-14,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,11
+2026-11-14,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Dead animal,critters,3
+2026-11-14,52,Downtown Los Angeles,Central LA,Graffiti,trash,25
+2026-11-14,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,11
+2026-11-14,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,6
+2026-11-14,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,5
+2026-11-14,52,Downtown Los Angeles,Central LA,Bus stop furniture,streets,3
+2026-11-14,40,Eagle Rock,Eastside,Illegal dumping,trash,7
+2026-11-14,34,East Hollywood,Central LA,Graffiti,trash,43
+2026-11-14,34,East Hollywood,Central LA,Illegal dumping,trash,27
+2026-11-14,44,Echo Park,Eastside,Graffiti,trash,10
+2026-11-14,44,Echo Park,Eastside,Illegal dumping,trash,8
+2026-11-14,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,11
+2026-11-14,81,Empowerment Congress Central Area,South LA,Graffiti,trash,4
+2026-11-14,77,Empowerment Congress North Area,South LA,Graffiti,trash,5
+2026-11-14,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,4
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,19
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,7
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,4
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,Traffic safety,streets,4
+2026-11-14,87,Empowerment Congress Southeast Area,South LA,Sidewalk problem,streets,3
+2026-11-14,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,5
+2026-11-14,84,Empowerment Congress Southwest Area,South LA,Street tree inspection,trees,3
+2026-11-14,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,7
+2026-11-14,18,Encino,West Valley,Streetlight repair,streets,7
+2026-11-14,18,Encino,West Valley,Potholes and pavement,streets,4
+2026-11-14,9,Foothill Trails District,East Valley,Illegal dumping,trash,4
+2026-11-14,39,Glassell Park,Eastside,Illegal dumping,trash,6
+2026-11-14,102,Greater Cypress Park,Eastside,Illegal dumping,trash,3
+2026-11-14,28,Greater Toluca Lake,East Valley,Illegal dumping,trash,4
+2026-11-14,21,Greater Valley Glen,East Valley,Illegal dumping,trash,15
+2026-11-14,21,Greater Valley Glen,East Valley,Graffiti,trash,3
+2026-11-14,119,Greater Wilshire,Central LA,Illegal dumping,trash,11
+2026-11-14,119,Greater Wilshire,Central LA,Streetlight repair,streets,11
+2026-11-14,119,Greater Wilshire,Central LA,Service not completed (follow-up),trash,7
+2026-11-14,119,Greater Wilshire,Central LA,Tree emergency,trees,4
+2026-11-14,119,Greater Wilshire,Central LA,Dead animal,critters,3
+2026-11-14,91,Harbor Gateway South,Harbor,Illegal dumping,trash,5
+2026-11-14,128,Historic Cultural North,Central LA,Graffiti,trash,4
+2026-11-14,41,Historic Highland Park,Eastside,Illegal dumping,trash,8
+2026-11-14,41,Historic Highland Park,Eastside,Graffiti,trash,5
+2026-11-14,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,4
+2026-11-14,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,11
+2026-11-14,29,Hollywood Hills West,Central LA,Service not completed (follow-up),trash,3
+2026-11-14,30,Hollywood United,Central LA,Service not completed (follow-up),trash,3
+2026-11-14,30,Hollywood United,Central LA,Illegal dumping,trash,3
+2026-11-14,48,LA-32,Eastside,Illegal dumping,trash,4
+2026-11-14,48,LA-32,Eastside,Tree emergency,trees,3
+2026-11-14,48,LA-32,Eastside,Graffiti,trash,3
+2026-11-14,19,Lake Balboa,West Valley,Illegal dumping,trash,4
+2026-11-14,19,Lake Balboa,West Valley,Service not completed (follow-up),trash,3
+2026-11-14,47,Lincoln Heights,Eastside,Graffiti,trash,17
+2026-11-14,47,Lincoln Heights,Eastside,Illegal dumping,trash,7
+2026-11-14,47,Lincoln Heights,Eastside,Sidewalk problem,streets,3
+2026-11-14,36,Los Feliz,Eastside,Illegal dumping,trash,16
+2026-11-14,36,Los Feliz,Eastside,Graffiti,trash,15
+2026-11-14,54,Macarthur Park,Central LA,Graffiti,trash,220
+2026-11-14,54,Macarthur Park,Central LA,Illegal dumping,trash,5
+2026-11-14,67,Mar Vista,Westside,Illegal dumping,trash,6
+2026-11-14,67,Mar Vista,Westside,Service not completed (follow-up),trash,5
+2026-11-14,67,Mar Vista,Westside,Graffiti,trash,5
+2026-11-14,73,Mid City,South LA,Illegal dumping,trash,7
+2026-11-14,73,Mid City,South LA,Potholes and pavement,streets,4
+2026-11-14,73,Mid City,South LA,Graffiti,trash,3
+2026-11-14,58,Mid City West,Central LA,Illegal dumping,trash,9
+2026-11-14,58,Mid City West,Central LA,Tree emergency,trees,5
+2026-11-14,58,Mid City West,Central LA,Service not completed (follow-up),trash,3
+2026-11-14,58,Mid City West,Central LA,Streetlight repair,streets,3
+2026-11-14,101,Mission Hills,East Valley,Service not completed (follow-up),trash,3
+2026-11-14,24,NoHo,East Valley,Illegal dumping,trash,38
+2026-11-14,24,NoHo,East Valley,Graffiti,trash,5
+2026-11-14,24,NoHo,East Valley,Badly parked scooter or bike,parking,3
+2026-11-14,22,NoHo West,East Valley,Illegal dumping,trash,5
+2026-11-14,112,North Hills East,West Valley,Illegal dumping,trash,5
+2026-11-14,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,14
+2026-11-14,23,North Hollywood Northeast,East Valley,Graffiti,trash,13
+2026-11-14,120,Northridge East,West Valley,Property violation,housing,21
+2026-11-14,120,Northridge East,West Valley,Graffiti,trash,4
+2026-11-14,120,Northridge East,West Valley,Dead animal,critters,3
+2026-11-14,124,Northridge South,West Valley,Illegal dumping,trash,4
+2026-11-14,94,Northwest San Pedro,Harbor,Service not completed (follow-up),trash,5
+2026-11-14,94,Northwest San Pedro,Harbor,Illegal dumping,trash,3
+2026-11-14,104,Olympic Park,Central LA,Service not completed (follow-up),trash,3
+2026-11-14,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,8
+2026-11-14,7,Pacoima,East Valley,Service not completed (follow-up),trash,11
+2026-11-14,7,Pacoima,East Valley,Illegal dumping,trash,6
+2026-11-14,115,Palms,Westside,Illegal dumping,trash,5
+2026-11-14,115,Palms,Westside,Service not completed (follow-up),trash,4
+2026-11-14,115,Palms,Westside,Graffiti,trash,3
+2026-11-14,100,Panorama City,East Valley,Illegal dumping,trash,6
+2026-11-14,100,Panorama City,East Valley,Graffiti,trash,5
+2026-11-14,100,Panorama City,East Valley,Obstructions,streets,4
+2026-11-14,80,Park Mesa Heights,South LA,Illegal dumping,trash,3
+2026-11-14,76,Pico Union,Central LA,Graffiti,trash,6
+2026-11-14,53,Rampart Village,Eastside,Illegal dumping,trash,3
+2026-11-14,15,Reseda,West Valley,Graffiti,trash,9
+2026-11-14,15,Reseda,West Valley,Illegal dumping,trash,8
+2026-11-14,26,Sherman Oaks,East Valley,Illegal dumping,trash,9
+2026-11-14,38,Silver Lake,Eastside,Graffiti,trash,19
+2026-11-14,38,Silver Lake,Eastside,Streetlight repair,streets,4
+2026-11-14,38,Silver Lake,Eastside,Illegal dumping,trash,4
+2026-11-14,38,Silver Lake,Eastside,Obstructions,streets,3
+2026-11-14,78,South Central,South LA,Graffiti,trash,13
+2026-11-14,61,South Robertson,Westside,Service not completed (follow-up),trash,11
+2026-11-14,61,South Robertson,Westside,Illegal dumping,trash,5
+2026-11-14,8,Sun Valley Area,East Valley,Graffiti,trash,10
+2026-11-14,10,Sunland-tujunga,East Valley,Illegal dumping,trash,3
+2026-11-14,5,Sylmar,East Valley,Illegal dumping,trash,8
+2026-11-14,17,Tarzana,West Valley,Service not completed (follow-up),trash,3
+2026-11-14,17,Tarzana,West Valley,Illegal dumping,trash,3
+2026-11-14,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,10
+2026-11-14,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Graffiti,trash,4
+2026-11-14,20,Van Nuys,East Valley,Illegal dumping,trash,19
+2026-11-14,20,Van Nuys,East Valley,Graffiti,trash,9
+2026-11-14,20,Van Nuys,East Valley,Dead animal,critters,3
+2026-11-14,68,Venice,Westside,Badly parked scooter or bike,parking,22
+2026-11-14,68,Venice,Westside,Illegal dumping,trash,5
+2026-11-14,68,Venice,Westside,Graffiti,trash,5
+2026-11-14,88,Watts,South LA,Dead animal,critters,3
+2026-11-14,88,Watts,South LA,Service not completed (follow-up),trash,3
+2026-11-14,75,West Adams,South LA,Illegal dumping,trash,15
+2026-11-14,75,West Adams,South LA,Graffiti,trash,10
+2026-11-14,11,West Hills,West Valley,Service not completed (follow-up),trash,4
+2026-11-14,11,West Hills,West Valley,Illegal dumping,trash,3
+2026-11-14,66,West Los Angeles,Westside,Illegal dumping,trash,11
+2026-11-14,71,Westchester/playa,Westside,Illegal dumping,trash,15
+2026-11-14,97,Westlake North,Central LA,Illegal dumping,trash,3
+2026-11-14,121,Westlake South,Central LA,Graffiti,trash,6
+2026-11-14,62,Westside,Westside,Streetlight repair,streets,5
+2026-11-14,62,Westside,Westside,Landscape maintenance,trees,3
+2026-11-14,62,Westside,Westside,Illegal dumping,trash,3
+2026-11-14,62,Westside,Westside,Graffiti,trash,3
+2026-11-14,93,Wilmington,Harbor,Illegal dumping,trash,7
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,28
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,21
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,Streetlight repair,streets,5
+2026-11-14,55,Wilshire Center - Koreatown,Central LA,Landscape maintenance,trees,4
+2026-11-14,14,Winnetka,West Valley,Illegal dumping,trash,7
+2026-11-14,16,Woodland Hills-warner Center,West Valley,Service not completed (follow-up),trash,6
+2026-11-14,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,4
+2026-11-14,125,Zapata King,South LA,Illegal dumping,trash,7
+2026-11-14,125,Zapata King,South LA,Obstructions,streets,4
+2026-11-15,42,Arroyo Seco,Eastside,Graffiti,trash,4
+2026-11-15,50,Boyle Heights,Eastside,Graffiti,trash,49
+2026-11-15,50,Boyle Heights,Eastside,Illegal dumping,trash,15
+2026-11-15,50,Boyle Heights,Eastside,Potholes and pavement,streets,3
+2026-11-15,50,Boyle Heights,Eastside,Dead animal,critters,3
+2026-11-15,13,Canoga Park,West Valley,Illegal dumping,trash,6
+2026-11-15,13,Canoga Park,West Valley,Potholes and pavement,streets,4
+2026-11-15,110,Central Alameda,South LA,Illegal dumping,trash,4
+2026-11-15,32,Central Hollywood,Central LA,Graffiti,trash,5
+2026-11-15,32,Central Hollywood,Central LA,Illegal dumping,trash,3
+2026-11-15,95,Central San Pedro,Harbor,Illegal dumping,trash,6
+2026-11-15,99,Chatsworth,West Valley,Illegal dumping,trash,4
+2026-11-15,96,Coastal San Pedro,Harbor,Dead animal,critters,3
+2026-11-15,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,8
+2026-11-15,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,5
+2026-11-15,70,Del Rey,Westside,Illegal dumping,trash,6
+2026-11-15,52,Downtown Los Angeles,Central LA,Graffiti,trash,30
+2026-11-15,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,22
+2026-11-15,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,18
+2026-11-15,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,10
+2026-11-15,52,Downtown Los Angeles,Central LA,Obstructions,streets,7
+2026-11-15,52,Downtown Los Angeles,Central LA,Bus stop furniture,streets,4
+2026-11-15,40,Eagle Rock,Eastside,Illegal dumping,trash,4
+2026-11-15,34,East Hollywood,Central LA,Illegal dumping,trash,37
+2026-11-15,34,East Hollywood,Central LA,Graffiti,trash,14
+2026-11-15,34,East Hollywood,Central LA,Public street receptacles,trash,5
+2026-11-15,44,Echo Park,Eastside,Graffiti,trash,16
+2026-11-15,44,Echo Park,Eastside,Illegal dumping,trash,13
+2026-11-15,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,20
+2026-11-15,81,Empowerment Congress Central Area,South LA,Dead animal,critters,4
+2026-11-15,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,49
+2026-11-15,77,Empowerment Congress North Area,South LA,Streetlight repair,streets,5
+2026-11-15,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,12
+2026-11-15,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,7
+2026-11-15,87,Empowerment Congress Southeast Area,South LA,Dead animal,critters,3
+2026-11-15,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,7
+2026-11-15,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,15
+2026-11-15,18,Encino,West Valley,Illegal dumping,trash,8
+2026-11-15,18,Encino,West Valley,Graffiti,trash,4
+2026-11-15,9,Foothill Trails District,East Valley,Illegal dumping,trash,5
+2026-11-15,118,Granada Hills South,West Valley,Illegal dumping,trash,5
+2026-11-15,21,Greater Valley Glen,East Valley,Illegal dumping,trash,11
+2026-11-15,21,Greater Valley Glen,East Valley,Graffiti,trash,6
+2026-11-15,119,Greater Wilshire,Central LA,Streetlight repair,streets,10
+2026-11-15,119,Greater Wilshire,Central LA,Illegal dumping,trash,6
+2026-11-15,92,Harbor City,Harbor,Illegal dumping,trash,4
+2026-11-15,90,Harbor Gateway North,Harbor,Illegal dumping,trash,13
+2026-11-15,91,Harbor Gateway South,Harbor,Illegal dumping,trash,22
+2026-11-15,128,Historic Cultural North,Central LA,Illegal dumping,trash,4
+2026-11-15,128,Historic Cultural North,Central LA,Graffiti,trash,4
+2026-11-15,41,Historic Highland Park,Eastside,Illegal dumping,trash,14
+2026-11-15,41,Historic Highland Park,Eastside,Graffiti,trash,10
+2026-11-15,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,10
+2026-11-15,33,Hollywood Studio District,Central LA,Illegal dumping,trash,9
+2026-11-15,33,Hollywood Studio District,Central LA,Graffiti,trash,6
+2026-11-15,33,Hollywood Studio District,Central LA,Public street receptacles,trash,3
+2026-11-15,30,Hollywood United,Central LA,Service not completed (follow-up),trash,4
+2026-11-15,30,Hollywood United,Central LA,Streetlight repair,streets,3
+2026-11-15,48,LA-32,Eastside,Illegal dumping,trash,18
+2026-11-15,48,LA-32,Eastside,Graffiti,trash,8
+2026-11-15,19,Lake Balboa,West Valley,Illegal dumping,trash,9
+2026-11-15,19,Lake Balboa,West Valley,Graffiti,trash,4
+2026-11-15,47,Lincoln Heights,Eastside,Illegal dumping,trash,18
+2026-11-15,47,Lincoln Heights,Eastside,Graffiti,trash,4
+2026-11-15,36,Los Feliz,Eastside,Illegal dumping,trash,7
+2026-11-15,36,Los Feliz,Eastside,Potholes and pavement,streets,5
+2026-11-15,36,Los Feliz,Eastside,Graffiti,trash,3
+2026-11-15,54,Macarthur Park,Central LA,Graffiti,trash,100
+2026-11-15,67,Mar Vista,Westside,Illegal dumping,trash,16
+2026-11-15,73,Mid City,South LA,Illegal dumping,trash,18
+2026-11-15,73,Mid City,South LA,Graffiti,trash,5
+2026-11-15,73,Mid City,South LA,Service not completed (follow-up),trash,3
+2026-11-15,58,Mid City West,Central LA,Illegal dumping,trash,15
+2026-11-15,58,Mid City West,Central LA,Tree obstruction,trees,3
+2026-11-15,58,Mid City West,Central LA,Badly parked scooter or bike,parking,3
+2026-11-15,58,Mid City West,Central LA,Dead animal,critters,3
+2026-11-15,24,NoHo,East Valley,Illegal dumping,trash,22
+2026-11-15,24,NoHo,East Valley,Graffiti,trash,7
+2026-11-15,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,15
+2026-11-15,23,North Hollywood Northeast,East Valley,Graffiti,trash,4
+2026-11-15,23,North Hollywood Northeast,East Valley,Obstructions,streets,3
+2026-11-15,127,North Westwood,Westside,Illegal dumping,trash,3
+2026-11-15,120,Northridge East,West Valley,Property violation,housing,20
+2026-11-15,120,Northridge East,West Valley,Graffiti,trash,4
+2026-11-15,124,Northridge South,West Valley,Illegal dumping,trash,24
+2026-11-15,124,Northridge South,West Valley,Property violation,housing,7
+2026-11-15,124,Northridge South,West Valley,Graffiti,trash,5
+2026-11-15,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,3
+2026-11-15,60,P.i.c.o.,Central LA,Illegal dumping,trash,3
+2026-11-15,60,P.i.c.o.,Central LA,Streetlight repair,streets,3
+2026-11-15,7,Pacoima,East Valley,Service not completed (follow-up),trash,6
+2026-11-15,7,Pacoima,East Valley,Illegal dumping,trash,6
+2026-11-15,7,Pacoima,East Valley,Traffic safety,streets,3
+2026-11-15,7,Pacoima,East Valley,Graffiti,trash,3
+2026-11-15,115,Palms,Westside,Illegal dumping,trash,3
+2026-11-15,100,Panorama City,East Valley,Dead animal,critters,3
+2026-11-15,100,Panorama City,East Valley,Graffiti,trash,3
+2026-11-15,80,Park Mesa Heights,South LA,Illegal dumping,trash,3
+2026-11-15,76,Pico Union,Central LA,Illegal dumping,trash,8
+2026-11-15,76,Pico Union,Central LA,Graffiti,trash,6
+2026-11-15,53,Rampart Village,Eastside,Illegal dumping,trash,5
+2026-11-15,15,Reseda,West Valley,Illegal dumping,trash,32
+2026-11-15,15,Reseda,West Valley,Graffiti,trash,6
+2026-11-15,15,Reseda,West Valley,Street sweeping,trash,3
+2026-11-15,15,Reseda,West Valley,Property violation,housing,3
+2026-11-15,26,Sherman Oaks,East Valley,Illegal dumping,trash,15
+2026-11-15,26,Sherman Oaks,East Valley,Potholes and pavement,streets,4
+2026-11-15,38,Silver Lake,Eastside,Illegal dumping,trash,6
+2026-11-15,38,Silver Lake,Eastside,Service not completed (follow-up),trash,3
+2026-11-15,78,South Central,South LA,Illegal dumping,trash,13
+2026-11-15,78,South Central,South LA,Streetlight repair,streets,5
+2026-11-15,61,South Robertson,Westside,Illegal dumping,trash,13
+2026-11-15,61,South Robertson,Westside,Service not completed (follow-up),trash,7
+2026-11-15,61,South Robertson,Westside,Graffiti,trash,3
+2026-11-15,27,Studio City,East Valley,Graffiti,trash,12
+2026-11-15,27,Studio City,East Valley,Illegal dumping,trash,7
+2026-11-15,8,Sun Valley Area,East Valley,Graffiti,trash,8
+2026-11-15,8,Sun Valley Area,East Valley,Illegal dumping,trash,7
+2026-11-15,8,Sun Valley Area,East Valley,Streetlight repair,streets,5
+2026-11-15,10,Sunland-tujunga,East Valley,Illegal dumping,trash,52
+2026-11-15,5,Sylmar,East Valley,Illegal dumping,trash,22
+2026-11-15,17,Tarzana,West Valley,Illegal dumping,trash,4
+2026-11-15,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,48
+2026-11-15,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Graffiti,trash,12
+2026-11-15,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Dead animal,critters,3
+2026-11-15,25,Valley Village,East Valley,Illegal dumping,trash,3
+2026-11-15,20,Van Nuys,East Valley,Illegal dumping,trash,18
+2026-11-15,20,Van Nuys,East Valley,Graffiti,trash,12
+2026-11-15,20,Van Nuys,East Valley,Dead animal,critters,4
+2026-11-15,20,Van Nuys,East Valley,Potholes and pavement,streets,4
+2026-11-15,68,Venice,Westside,Illegal dumping,trash,12
+2026-11-15,109,Voices Of 90037,South LA,Illegal dumping,trash,17
+2026-11-15,109,Voices Of 90037,South LA,Streetlight repair,streets,3
+2026-11-15,75,West Adams,South LA,Illegal dumping,trash,39
+2026-11-15,75,West Adams,South LA,Graffiti,trash,5
+2026-11-15,11,West Hills,West Valley,Service not completed (follow-up),trash,4
+2026-11-15,66,West Los Angeles,Westside,Illegal dumping,trash,7
+2026-11-15,71,Westchester/playa,Westside,Illegal dumping,trash,14
+2026-11-15,97,Westlake North,Central LA,Illegal dumping,trash,4
+2026-11-15,62,Westside,Westside,Streetlight repair,streets,6
+2026-11-15,62,Westside,Westside,Illegal dumping,trash,6
+2026-11-15,62,Westside,Westside,Dead animal,critters,3
+2026-11-15,63,Westwood,Westside,Streetlight repair,streets,3
+2026-11-15,93,Wilmington,Harbor,Illegal dumping,trash,6
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,27
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,25
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,Obstructions,streets,3
+2026-11-15,55,Wilshire Center - Koreatown,Central LA,Landscape maintenance,trees,3
+2026-11-15,14,Winnetka,West Valley,Illegal dumping,trash,14
+2026-11-15,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,7
+2026-11-15,16,Woodland Hills-warner Center,West Valley,Parking,parking,4
+2026-11-15,16,Woodland Hills-warner Center,West Valley,Potholes and pavement,streets,3
+2026-11-15,125,Zapata King,South LA,Illegal dumping,trash,5
+2026-11-15,125,Zapata King,South LA,Obstructions,streets,4
+2026-11-16,6,Arleta,East Valley,Illegal dumping,trash,11
+2026-11-16,46,Arts District Little Tokyo,Central LA,Badly parked scooter or bike,parking,29
+2026-11-16,64,Bel Air-beverly Crest,Westside,Service not completed (follow-up),trash,9
+2026-11-16,64,Bel Air-beverly Crest,Westside,Traffic sign,streets,3
+2026-11-16,50,Boyle Heights,Eastside,Graffiti,trash,45
+2026-11-16,50,Boyle Heights,Eastside,Illegal dumping,trash,7
+2026-11-16,50,Boyle Heights,Eastside,Streetlight repair,streets,3
+2026-11-16,50,Boyle Heights,Eastside,Dead animal,critters,3
+2026-11-16,13,Canoga Park,West Valley,Illegal dumping,trash,26
+2026-11-16,13,Canoga Park,West Valley,Streetlight repair,streets,3
+2026-11-16,110,Central Alameda,South LA,Illegal dumping,trash,10
+2026-11-16,110,Central Alameda,South LA,Graffiti,trash,3
+2026-11-16,32,Central Hollywood,Central LA,Illegal dumping,trash,8
+2026-11-16,32,Central Hollywood,Central LA,Service not completed (follow-up),trash,4
+2026-11-16,32,Central Hollywood,Central LA,Streetlight repair,streets,4
+2026-11-16,32,Central Hollywood,Central LA,Graffiti,trash,3
+2026-11-16,95,Central San Pedro,Harbor,Illegal dumping,trash,21
+2026-11-16,95,Central San Pedro,Harbor,Parking,parking,3
+2026-11-16,99,Chatsworth,West Valley,Illegal dumping,trash,27
+2026-11-16,99,Chatsworth,West Valley,Graffiti,trash,5
+2026-11-16,96,Coastal San Pedro,Harbor,Illegal dumping,trash,14
+2026-11-16,96,Coastal San Pedro,Harbor,Graffiti,trash,13
+2026-11-16,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,47
+2026-11-16,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,11
+2026-11-16,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Dead animal,critters,5
+2026-11-16,70,Del Rey,Westside,Illegal dumping,trash,5
+2026-11-16,70,Del Rey,Westside,Service not completed (follow-up),trash,3
+2026-11-16,52,Downtown Los Angeles,Central LA,Graffiti,trash,31
+2026-11-16,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,27
+2026-11-16,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,14
+2026-11-16,52,Downtown Los Angeles,Central LA,Dead animal,critters,6
+2026-11-16,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,6
+2026-11-16,52,Downtown Los Angeles,Central LA,Barricade removal,streets,4
+2026-11-16,40,Eagle Rock,Eastside,Illegal dumping,trash,14
+2026-11-16,34,East Hollywood,Central LA,Illegal dumping,trash,66
+2026-11-16,34,East Hollywood,Central LA,Graffiti,trash,22
+2026-11-16,44,Echo Park,Eastside,Graffiti,trash,63
+2026-11-16,44,Echo Park,Eastside,Illegal dumping,trash,28
+2026-11-16,44,Echo Park,Eastside,Potholes and pavement,streets,5
+2026-11-16,44,Echo Park,Eastside,Dead animal,critters,3
+2026-11-16,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,44
+2026-11-16,81,Empowerment Congress Central Area,South LA,Landscape maintenance,trees,9
+2026-11-16,81,Empowerment Congress Central Area,South LA,Graffiti,trash,8
+2026-11-16,81,Empowerment Congress Central Area,South LA,Tree obstruction,trees,3
+2026-11-16,81,Empowerment Congress Central Area,South LA,Streetlight repair,streets,3
+2026-11-16,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,43
+2026-11-16,77,Empowerment Congress North Area,South LA,Service not completed (follow-up),trash,9
+2026-11-16,77,Empowerment Congress North Area,South LA,Graffiti,trash,7
+2026-11-16,77,Empowerment Congress North Area,South LA,Parking,parking,6
+2026-11-16,77,Empowerment Congress North Area,South LA,Dead animal,critters,3
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,52
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,20
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,6
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,Dead animal,critters,3
+2026-11-16,87,Empowerment Congress Southeast Area,South LA,Potholes and pavement,streets,3
+2026-11-16,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,12
+2026-11-16,84,Empowerment Congress Southwest Area,South LA,Graffiti,trash,6
+2026-11-16,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,75
+2026-11-16,79,Empowerment Congress West Area,South LA,Potholes and pavement,streets,4
+2026-11-16,79,Empowerment Congress West Area,South LA,Service not completed (follow-up),trash,4
+2026-11-16,18,Encino,West Valley,Illegal dumping,trash,25
+2026-11-16,18,Encino,West Valley,Graffiti,trash,13
+2026-11-16,18,Encino,West Valley,Dead animal,critters,4
+2026-11-16,18,Encino,West Valley,Service not completed (follow-up),trash,3
+2026-11-16,9,Foothill Trails District,East Valley,Illegal dumping,trash,4
+2026-11-16,9,Foothill Trails District,East Valley,Service not completed (follow-up),trash,4
+2026-11-16,39,Glassell Park,Eastside,Illegal dumping,trash,25
+2026-11-16,39,Glassell Park,Eastside,Traffic sign,streets,4
+2026-11-16,4,Granada Hills North,West Valley,Service not completed (follow-up),trash,5
+2026-11-16,118,Granada Hills South,West Valley,Illegal dumping,trash,16
+2026-11-16,118,Granada Hills South,West Valley,Potholes and pavement,streets,8
+2026-11-16,118,Granada Hills South,West Valley,Tree emergency,trees,3
+2026-11-16,102,Greater Cypress Park,Eastside,Illegal dumping,trash,7
+2026-11-16,28,Greater Toluca Lake,East Valley,Illegal dumping,trash,9
+2026-11-16,21,Greater Valley Glen,East Valley,Illegal dumping,trash,34
+2026-11-16,21,Greater Valley Glen,East Valley,Graffiti,trash,9
+2026-11-16,21,Greater Valley Glen,East Valley,Potholes and pavement,streets,3
+2026-11-16,119,Greater Wilshire,Central LA,Illegal dumping,trash,17
+2026-11-16,119,Greater Wilshire,Central LA,Service not completed (follow-up),trash,8
+2026-11-16,119,Greater Wilshire,Central LA,Streetlight repair,streets,5
+2026-11-16,119,Greater Wilshire,Central LA,Obstructions,streets,5
+2026-11-16,119,Greater Wilshire,Central LA,Tree emergency,trees,3
+2026-11-16,119,Greater Wilshire,Central LA,Tree obstruction,trees,3
+2026-11-16,119,Greater Wilshire,Central LA,Sidewalk problem,streets,3
+2026-11-16,92,Harbor City,Harbor,Illegal dumping,trash,19
+2026-11-16,90,Harbor Gateway North,Harbor,Illegal dumping,trash,13
+2026-11-16,90,Harbor Gateway North,Harbor,Graffiti,trash,7
+2026-11-16,90,Harbor Gateway North,Harbor,Service not completed (follow-up),trash,3
+2026-11-16,91,Harbor Gateway South,Harbor,Illegal dumping,trash,3
+2026-11-16,91,Harbor Gateway South,Harbor,Service not completed (follow-up),trash,3
+2026-11-16,128,Historic Cultural North,Central LA,Badly parked scooter or bike,parking,21
+2026-11-16,128,Historic Cultural North,Central LA,Barricade removal,streets,3
+2026-11-16,128,Historic Cultural North,Central LA,Illegal signs or news racks,trash,3
+2026-11-16,41,Historic Highland Park,Eastside,Illegal dumping,trash,37
+2026-11-16,41,Historic Highland Park,Eastside,Graffiti,trash,10
+2026-11-16,41,Historic Highland Park,Eastside,Dead animal,critters,3
+2026-11-16,29,Hollywood Hills West,Central LA,Illegal dumping,trash,8
+2026-11-16,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,5
+2026-11-16,29,Hollywood Hills West,Central LA,Streetlight repair,streets,4
+2026-11-16,33,Hollywood Studio District,Central LA,Illegal dumping,trash,22
+2026-11-16,33,Hollywood Studio District,Central LA,Graffiti,trash,6
+2026-11-16,33,Hollywood Studio District,Central LA,Dead animal,critters,4
+2026-11-16,33,Hollywood Studio District,Central LA,Tree emergency,trees,3
+2026-11-16,30,Hollywood United,Central LA,Streetlight repair,streets,9
+2026-11-16,30,Hollywood United,Central LA,Illegal dumping,trash,4
+2026-11-16,30,Hollywood United,Central LA,Service not completed (follow-up),trash,3
+2026-11-16,48,LA-32,Eastside,Illegal dumping,trash,14
+2026-11-16,48,LA-32,Eastside,Service not completed (follow-up),trash,8
+2026-11-16,48,LA-32,Eastside,Graffiti,trash,7
+2026-11-16,19,Lake Balboa,West Valley,Illegal dumping,trash,20
+2026-11-16,19,Lake Balboa,West Valley,Potholes and pavement,streets,6
+2026-11-16,19,Lake Balboa,West Valley,Streetlight repair,streets,4
+2026-11-16,19,Lake Balboa,West Valley,Obstructions,streets,3
+2026-11-16,19,Lake Balboa,West Valley,Graffiti,trash,3
+2026-11-16,47,Lincoln Heights,Eastside,Illegal dumping,trash,16
+2026-11-16,47,Lincoln Heights,Eastside,Graffiti,trash,6
+2026-11-16,47,Lincoln Heights,Eastside,Flooding,water,4
+2026-11-16,47,Lincoln Heights,Eastside,Service not completed (follow-up),trash,3
+2026-11-16,36,Los Feliz,Eastside,Illegal dumping,trash,10
+2026-11-16,36,Los Feliz,Eastside,Graffiti,trash,6
+2026-11-16,36,Los Feliz,Eastside,Tree emergency,trees,3
+2026-11-16,54,Macarthur Park,Central LA,Graffiti,trash,370
+2026-11-16,54,Macarthur Park,Central LA,Illegal dumping,trash,13
+2026-11-16,67,Mar Vista,Westside,Illegal dumping,trash,12
+2026-11-16,67,Mar Vista,Westside,Street tree inspection,trees,3
+2026-11-16,67,Mar Vista,Westside,Tree emergency,trees,3
+2026-11-16,67,Mar Vista,Westside,Service not completed (follow-up),trash,3
+2026-11-16,73,Mid City,South LA,Illegal dumping,trash,8
+2026-11-16,73,Mid City,South LA,Service not completed (follow-up),trash,4
+2026-11-16,73,Mid City,South LA,Graffiti,trash,3
+2026-11-16,58,Mid City West,Central LA,Illegal dumping,trash,29
+2026-11-16,58,Mid City West,Central LA,Service not completed (follow-up),trash,6
+2026-11-16,58,Mid City West,Central LA,Obstructions,streets,6
+2026-11-16,58,Mid City West,Central LA,Traffic safety,streets,4
+2026-11-16,58,Mid City West,Central LA,Streetlight repair,streets,3
+2026-11-16,58,Mid City West,Central LA,Dead animal,critters,3
+2026-11-16,58,Mid City West,Central LA,Sidewalk problem,streets,3
+2026-11-16,101,Mission Hills,East Valley,Tree obstruction,trees,6
+2026-11-16,101,Mission Hills,East Valley,Illegal dumping,trash,5
+2026-11-16,101,Mission Hills,East Valley,Service not completed (follow-up),trash,5
+2026-11-16,24,NoHo,East Valley,Illegal dumping,trash,87
+2026-11-16,24,NoHo,East Valley,Graffiti,trash,7
+2026-11-16,24,NoHo,East Valley,Potholes and pavement,streets,6
+2026-11-16,24,NoHo,East Valley,Badly parked scooter or bike,parking,3
+2026-11-16,22,NoHo West,East Valley,Illegal dumping,trash,10
+2026-11-16,112,North Hills East,West Valley,Illegal dumping,trash,7
+2026-11-16,111,North Hills West,East Valley,Graffiti,trash,4
+2026-11-16,111,North Hills West,East Valley,Streetlight repair,streets,3
+2026-11-16,111,North Hills West,East Valley,Illegal dumping,trash,3
+2026-11-16,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,55
+2026-11-16,23,North Hollywood Northeast,East Valley,Graffiti,trash,6
+2026-11-16,23,North Hollywood Northeast,East Valley,Dead animal,critters,3
+2026-11-16,120,Northridge East,West Valley,Property violation,housing,46
+2026-11-16,120,Northridge East,West Valley,Illegal dumping,trash,8
+2026-11-16,120,Northridge East,West Valley,Graffiti,trash,4
+2026-11-16,120,Northridge East,West Valley,Dead animal,critters,3
+2026-11-16,124,Northridge South,West Valley,Illegal dumping,trash,14
+2026-11-16,124,Northridge South,West Valley,Graffiti,trash,5
+2026-11-16,124,Northridge South,West Valley,Service not completed (follow-up),trash,3
+2026-11-16,113,Northridge West,West Valley,Service not completed (follow-up),trash,5
+2026-11-16,94,Northwest San Pedro,Harbor,Illegal dumping,trash,5
+2026-11-16,104,Olympic Park,Central LA,Streetlight repair,streets,4
+2026-11-16,60,P.i.c.o.,Central LA,Illegal dumping,trash,9
+2026-11-16,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,4
+2026-11-16,7,Pacoima,East Valley,Illegal dumping,trash,17
+2026-11-16,7,Pacoima,East Valley,Service not completed (follow-up),trash,11
+2026-11-16,7,Pacoima,East Valley,Graffiti,trash,5
+2026-11-16,7,Pacoima,East Valley,Dead animal,critters,4
+2026-11-16,115,Palms,Westside,Illegal dumping,trash,10
+2026-11-16,115,Palms,Westside,Service not completed (follow-up),trash,5
+2026-11-16,115,Palms,Westside,Potholes and pavement,streets,4
+2026-11-16,115,Palms,Westside,Badly parked scooter or bike,parking,3
+2026-11-16,100,Panorama City,East Valley,Illegal dumping,trash,21
+2026-11-16,100,Panorama City,East Valley,General street inspection,streets,4
+2026-11-16,100,Panorama City,East Valley,Graffiti,trash,3
+2026-11-16,80,Park Mesa Heights,South LA,Illegal dumping,trash,16
+2026-11-16,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,5
+2026-11-16,80,Park Mesa Heights,South LA,Graffiti,trash,4
+2026-11-16,76,Pico Union,Central LA,Illegal dumping,trash,9
+2026-11-16,76,Pico Union,Central LA,Graffiti,trash,9
+2026-11-16,114,Porter Ranch,West Valley,Service not completed (follow-up),trash,4
+2026-11-16,53,Rampart Village,Eastside,Illegal dumping,trash,7
+2026-11-16,53,Rampart Village,Eastside,Graffiti,trash,6
+2026-11-16,15,Reseda,West Valley,Illegal dumping,trash,28
+2026-11-16,15,Reseda,West Valley,Graffiti,trash,4
+2026-11-16,15,Reseda,West Valley,Landscape maintenance,trees,3
+2026-11-16,26,Sherman Oaks,East Valley,Illegal dumping,trash,22
+2026-11-16,26,Sherman Oaks,East Valley,Potholes and pavement,streets,8
+2026-11-16,26,Sherman Oaks,East Valley,Dead animal,critters,5
+2026-11-16,38,Silver Lake,Eastside,Illegal dumping,trash,16
+2026-11-16,38,Silver Lake,Eastside,Graffiti,trash,6
+2026-11-16,78,South Central,South LA,Illegal dumping,trash,31
+2026-11-16,78,South Central,South LA,Graffiti,trash,19
+2026-11-16,61,South Robertson,Westside,Illegal dumping,trash,22
+2026-11-16,61,South Robertson,Westside,Service not completed (follow-up),trash,10
+2026-11-16,61,South Robertson,Westside,Street sweeping,trash,7
+2026-11-16,61,South Robertson,Westside,Streetlight repair,streets,3
+2026-11-16,27,Studio City,East Valley,Illegal dumping,trash,8
+2026-11-16,27,Studio City,East Valley,Potholes and pavement,streets,5
+2026-11-16,8,Sun Valley Area,East Valley,Illegal dumping,trash,22
+2026-11-16,8,Sun Valley Area,East Valley,Service not completed (follow-up),trash,3
+2026-11-16,8,Sun Valley Area,East Valley,Graffiti,trash,3
+2026-11-16,10,Sunland-tujunga,East Valley,Illegal dumping,trash,14
+2026-11-16,10,Sunland-tujunga,East Valley,Service not completed (follow-up),trash,9
+2026-11-16,10,Sunland-tujunga,East Valley,Public street receptacles,trash,5
+2026-11-16,5,Sylmar,East Valley,Illegal dumping,trash,13
+2026-11-16,5,Sylmar,East Valley,Service not completed (follow-up),trash,9
+2026-11-16,5,Sylmar,East Valley,Street tree inspection,trees,3
+2026-11-16,5,Sylmar,East Valley,Sidewalk problem,streets,3
+2026-11-16,17,Tarzana,West Valley,Illegal dumping,trash,9
+2026-11-16,17,Tarzana,West Valley,Potholes and pavement,streets,3
+2026-11-16,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,27
+2026-11-16,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Graffiti,trash,8
+2026-11-16,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Service not completed (follow-up),trash,8
+2026-11-16,25,Valley Village,East Valley,Illegal dumping,trash,10
+2026-11-16,25,Valley Village,East Valley,Graffiti,trash,4
+2026-11-16,20,Van Nuys,East Valley,Illegal dumping,trash,46
+2026-11-16,20,Van Nuys,East Valley,Graffiti,trash,8
+2026-11-16,20,Van Nuys,East Valley,Potholes and pavement,streets,7
+2026-11-16,20,Van Nuys,East Valley,Service not completed (follow-up),trash,4
+2026-11-16,68,Venice,Westside,Illegal dumping,trash,19
+2026-11-16,68,Venice,Westside,Potholes and pavement,streets,6
+2026-11-16,68,Venice,Westside,Obstructions,streets,3
+2026-11-16,109,Voices Of 90037,South LA,Illegal dumping,trash,45
+2026-11-16,109,Voices Of 90037,South LA,Graffiti,trash,6
+2026-11-16,88,Watts,South LA,Illegal dumping,trash,10
+2026-11-16,75,West Adams,South LA,Illegal dumping,trash,3
+2026-11-16,75,West Adams,South LA,Streetlight repair,streets,3
+2026-11-16,75,West Adams,South LA,Service not completed (follow-up),trash,3
+2026-11-16,11,West Hills,West Valley,Service not completed (follow-up),trash,6
+2026-11-16,11,West Hills,West Valley,Illegal dumping,trash,5
+2026-11-16,66,West Los Angeles,Westside,Illegal dumping,trash,19
+2026-11-16,66,West Los Angeles,Westside,Potholes and pavement,streets,5
+2026-11-16,66,West Los Angeles,Westside,Badly parked scooter or bike,parking,3
+2026-11-16,71,Westchester/playa,Westside,Service not completed (follow-up),trash,8
+2026-11-16,71,Westchester/playa,Westside,Potholes and pavement,streets,7
+2026-11-16,71,Westchester/playa,Westside,Parking,parking,3
+2026-11-16,97,Westlake North,Central LA,Graffiti,trash,20
+2026-11-16,97,Westlake North,Central LA,Illegal dumping,trash,10
+2026-11-16,121,Westlake South,Central LA,Graffiti,trash,14
+2026-11-16,121,Westlake South,Central LA,Illegal dumping,trash,4
+2026-11-16,62,Westside,Westside,Streetlight repair,streets,26
+2026-11-16,62,Westside,Westside,Illegal dumping,trash,9
+2026-11-16,62,Westside,Westside,Street tree inspection,trees,4
+2026-11-16,63,Westwood,Westside,Illegal dumping,trash,7
+2026-11-16,93,Wilmington,Harbor,Illegal dumping,trash,11
+2026-11-16,93,Wilmington,Harbor,Graffiti,trash,6
+2026-11-16,93,Wilmington,Harbor,Dead animal,critters,3
+2026-11-16,93,Wilmington,Harbor,Streetlight repair,streets,3
+2026-11-16,93,Wilmington,Harbor,Illegal signs or news racks,trash,3
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,56
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,16
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,Streetlight repair,streets,12
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,Tree emergency,trees,6
+2026-11-16,55,Wilshire Center - Koreatown,Central LA,Service not completed (follow-up),trash,5
+2026-11-16,14,Winnetka,West Valley,Illegal dumping,trash,35
+2026-11-16,14,Winnetka,West Valley,Graffiti,trash,11
+2026-11-16,14,Winnetka,West Valley,Potholes and pavement,streets,4
+2026-11-16,16,Woodland Hills-warner Center,West Valley,Service not completed (follow-up),trash,9
+2026-11-16,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,8
+2026-11-16,16,Woodland Hills-warner Center,West Valley,Graffiti,trash,4
+2026-11-16,16,Woodland Hills-warner Center,West Valley,Streetlight repair,streets,3
+2026-11-16,16,Woodland Hills-warner Center,West Valley,Street tree inspection,trees,3
+2026-11-16,125,Zapata King,South LA,Illegal dumping,trash,24
+2026-11-16,125,Zapata King,South LA,Graffiti,trash,19
+2026-11-17,6,Arleta,East Valley,Graffiti,trash,6
+2026-11-17,6,Arleta,East Valley,Illegal dumping,trash,4
+2026-11-17,42,Arroyo Seco,Eastside,Service not completed (follow-up),trash,8
+2026-11-17,42,Arroyo Seco,Eastside,Graffiti,trash,7
+2026-11-17,42,Arroyo Seco,Eastside,Illegal dumping,trash,3
+2026-11-17,46,Arts District Little Tokyo,Central LA,Badly parked scooter or bike,parking,45
+2026-11-17,37,Atwater Village,Eastside,Illegal dumping,trash,4
+2026-11-17,64,Bel Air-beverly Crest,Westside,Potholes and pavement,streets,12
+2026-11-17,64,Bel Air-beverly Crest,Westside,Illegal dumping,trash,5
+2026-11-17,50,Boyle Heights,Eastside,Graffiti,trash,74
+2026-11-17,50,Boyle Heights,Eastside,Illegal dumping,trash,13
+2026-11-17,50,Boyle Heights,Eastside,Service not completed (follow-up),trash,5
+2026-11-17,50,Boyle Heights,Eastside,Streetlight repair,streets,4
+2026-11-17,50,Boyle Heights,Eastside,Parking,parking,4
+2026-11-17,50,Boyle Heights,Eastside,Tree obstruction,trees,3
+2026-11-17,13,Canoga Park,West Valley,Illegal dumping,trash,11
+2026-11-17,13,Canoga Park,West Valley,Graffiti,trash,6
+2026-11-17,110,Central Alameda,South LA,Illegal dumping,trash,13
+2026-11-17,110,Central Alameda,South LA,Graffiti,trash,11
+2026-11-17,32,Central Hollywood,Central LA,Illegal dumping,trash,12
+2026-11-17,32,Central Hollywood,Central LA,Graffiti,trash,3
+2026-11-17,95,Central San Pedro,Harbor,Illegal dumping,trash,12
+2026-11-17,95,Central San Pedro,Harbor,Landscape maintenance,trees,3
+2026-11-17,99,Chatsworth,West Valley,Illegal dumping,trash,8
+2026-11-17,99,Chatsworth,West Valley,Service not completed (follow-up),trash,3
+2026-11-17,96,Coastal San Pedro,Harbor,Illegal dumping,trash,21
+2026-11-17,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,51
+2026-11-17,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,13
+2026-11-17,70,Del Rey,Westside,Service not completed (follow-up),trash,10
+2026-11-17,52,Downtown Los Angeles,Central LA,Graffiti,trash,50
+2026-11-17,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,43
+2026-11-17,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,14
+2026-11-17,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,10
+2026-11-17,52,Downtown Los Angeles,Central LA,Bus stop furniture,streets,3
+2026-11-17,40,Eagle Rock,Eastside,Service not completed (follow-up),trash,8
+2026-11-17,40,Eagle Rock,Eastside,Potholes and pavement,streets,3
+2026-11-17,34,East Hollywood,Central LA,Illegal dumping,trash,39
+2026-11-17,34,East Hollywood,Central LA,Graffiti,trash,9
+2026-11-17,34,East Hollywood,Central LA,Landscape maintenance,trees,7
+2026-11-17,34,East Hollywood,Central LA,Stormwater violation,water,4
+2026-11-17,34,East Hollywood,Central LA,Curb,streets,4
+2026-11-17,44,Echo Park,Eastside,Graffiti,trash,66
+2026-11-17,44,Echo Park,Eastside,Illegal dumping,trash,41
+2026-11-17,44,Echo Park,Eastside,Badly parked scooter or bike,parking,3
+2026-11-17,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,28
+2026-11-17,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,6
+2026-11-17,81,Empowerment Congress Central Area,South LA,Graffiti,trash,5
+2026-11-17,81,Empowerment Congress Central Area,South LA,Dead animal,critters,3
+2026-11-17,81,Empowerment Congress Central Area,South LA,Streetlight repair,streets,3
+2026-11-17,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,18
+2026-11-17,77,Empowerment Congress North Area,South LA,Graffiti,trash,10
+2026-11-17,77,Empowerment Congress North Area,South LA,Streetlight repair,streets,3
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,64
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,11
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,Dead animal,critters,8
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,5
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,Streetlight repair,streets,4
+2026-11-17,87,Empowerment Congress Southeast Area,South LA,Bus stop furniture,streets,3
+2026-11-17,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,11
+2026-11-17,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,15
+2026-11-17,79,Empowerment Congress West Area,South LA,Service not completed (follow-up),trash,6
+2026-11-17,79,Empowerment Congress West Area,South LA,Obstructions,streets,3
+2026-11-17,79,Empowerment Congress West Area,South LA,Graffiti,trash,3
+2026-11-17,18,Encino,West Valley,Illegal dumping,trash,7
+2026-11-17,18,Encino,West Valley,Potholes and pavement,streets,6
+2026-11-17,9,Foothill Trails District,East Valley,Illegal dumping,trash,7
+2026-11-17,9,Foothill Trails District,East Valley,Service not completed (follow-up),trash,5
+2026-11-17,39,Glassell Park,Eastside,Illegal dumping,trash,4
+2026-11-17,4,Granada Hills North,West Valley,Service not completed (follow-up),trash,10
+2026-11-17,4,Granada Hills North,West Valley,Illegal dumping,trash,3
+2026-11-17,118,Granada Hills South,West Valley,Illegal dumping,trash,15
+2026-11-17,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,4
+2026-11-17,102,Greater Cypress Park,Eastside,Graffiti,trash,4
+2026-11-17,102,Greater Cypress Park,Eastside,Illegal dumping,trash,3
+2026-11-17,28,Greater Toluca Lake,East Valley,Illegal dumping,trash,5
+2026-11-17,21,Greater Valley Glen,East Valley,Illegal dumping,trash,19
+2026-11-17,21,Greater Valley Glen,East Valley,Service not completed (follow-up),trash,4
+2026-11-17,119,Greater Wilshire,Central LA,Illegal dumping,trash,18
+2026-11-17,119,Greater Wilshire,Central LA,Streetlight repair,streets,7
+2026-11-17,92,Harbor City,Harbor,Illegal dumping,trash,4
+2026-11-17,92,Harbor City,Harbor,Potholes and pavement,streets,3
+2026-11-17,92,Harbor City,Harbor,Service not completed (follow-up),trash,3
+2026-11-17,90,Harbor Gateway North,Harbor,Graffiti,trash,9
+2026-11-17,90,Harbor Gateway North,Harbor,Illegal dumping,trash,8
+2026-11-17,90,Harbor Gateway North,Harbor,Service not completed (follow-up),trash,3
+2026-11-17,90,Harbor Gateway North,Harbor,Streetlight repair,streets,3
+2026-11-17,91,Harbor Gateway South,Harbor,Service not completed (follow-up),trash,7
+2026-11-17,91,Harbor Gateway South,Harbor,Graffiti,trash,3
+2026-11-17,91,Harbor Gateway South,Harbor,Illegal dumping,trash,3
+2026-11-17,91,Harbor Gateway South,Harbor,Streetlight repair,streets,3
+2026-11-17,128,Historic Cultural North,Central LA,Graffiti,trash,14
+2026-11-17,128,Historic Cultural North,Central LA,Badly parked scooter or bike,parking,6
+2026-11-17,128,Historic Cultural North,Central LA,Illegal dumping,trash,5
+2026-11-17,128,Historic Cultural North,Central LA,Service not completed (follow-up),trash,3
+2026-11-17,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,14
+2026-11-17,41,Historic Highland Park,Eastside,Graffiti,trash,7
+2026-11-17,41,Historic Highland Park,Eastside,Illegal dumping,trash,7
+2026-11-17,41,Historic Highland Park,Eastside,Potholes and pavement,streets,5
+2026-11-17,41,Historic Highland Park,Eastside,Dead animal,critters,3
+2026-11-17,29,Hollywood Hills West,Central LA,Illegal dumping,trash,19
+2026-11-17,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,4
+2026-11-17,33,Hollywood Studio District,Central LA,Illegal dumping,trash,17
+2026-11-17,33,Hollywood Studio District,Central LA,Graffiti,trash,8
+2026-11-17,30,Hollywood United,Central LA,Illegal dumping,trash,9
+2026-11-17,30,Hollywood United,Central LA,Service not completed (follow-up),trash,7
+2026-11-17,48,LA-32,Eastside,Service not completed (follow-up),trash,10
+2026-11-17,48,LA-32,Eastside,Illegal dumping,trash,8
+2026-11-17,19,Lake Balboa,West Valley,Illegal dumping,trash,90
+2026-11-17,19,Lake Balboa,West Valley,Potholes and pavement,streets,6
+2026-11-17,19,Lake Balboa,West Valley,Graffiti,trash,5
+2026-11-17,47,Lincoln Heights,Eastside,Illegal dumping,trash,12
+2026-11-17,47,Lincoln Heights,Eastside,Graffiti,trash,6
+2026-11-17,36,Los Feliz,Eastside,Illegal dumping,trash,17
+2026-11-17,36,Los Feliz,Eastside,Graffiti,trash,4
+2026-11-17,36,Los Feliz,Eastside,Traffic sign,streets,4
+2026-11-17,36,Los Feliz,Eastside,Dead animal,critters,3
+2026-11-17,54,Macarthur Park,Central LA,Graffiti,trash,179
+2026-11-17,54,Macarthur Park,Central LA,Illegal dumping,trash,12
+2026-11-17,67,Mar Vista,Westside,Illegal dumping,trash,8
+2026-11-17,67,Mar Vista,Westside,Service not completed (follow-up),trash,3
+2026-11-17,73,Mid City,South LA,Illegal dumping,trash,8
+2026-11-17,73,Mid City,South LA,Graffiti,trash,8
+2026-11-17,73,Mid City,South LA,Service not completed (follow-up),trash,5
+2026-11-17,73,Mid City,South LA,Landscape maintenance,trees,3
+2026-11-17,58,Mid City West,Central LA,Illegal dumping,trash,22
+2026-11-17,58,Mid City West,Central LA,Graffiti,trash,6
+2026-11-17,58,Mid City West,Central LA,Streetlight repair,streets,5
+2026-11-17,58,Mid City West,Central LA,Service not completed (follow-up),trash,4
+2026-11-17,101,Mission Hills,East Valley,Illegal dumping,trash,5
+2026-11-17,24,NoHo,East Valley,Illegal dumping,trash,16
+2026-11-17,24,NoHo,East Valley,Graffiti,trash,9
+2026-11-17,24,NoHo,East Valley,Service not completed (follow-up),trash,8
+2026-11-17,24,NoHo,East Valley,Dead animal,critters,6
+2026-11-17,24,NoHo,East Valley,Badly parked scooter or bike,parking,5
+2026-11-17,24,NoHo,East Valley,Streetlight repair,streets,3
+2026-11-17,22,NoHo West,East Valley,Graffiti,trash,3
+2026-11-17,112,North Hills East,West Valley,Illegal dumping,trash,7
+2026-11-17,112,North Hills East,West Valley,Graffiti,trash,5
+2026-11-17,112,North Hills East,West Valley,Potholes and pavement,streets,4
+2026-11-17,111,North Hills West,East Valley,Potholes and pavement,streets,6
+2026-11-17,23,North Hollywood Northeast,East Valley,Graffiti,trash,13
+2026-11-17,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,9
+2026-11-17,23,North Hollywood Northeast,East Valley,Service not completed (follow-up),trash,5
+2026-11-17,127,North Westwood,Westside,Illegal dumping,trash,14
+2026-11-17,120,Northridge East,West Valley,Property violation,housing,17
+2026-11-17,120,Northridge East,West Valley,Illegal dumping,trash,12
+2026-11-17,120,Northridge East,West Valley,Graffiti,trash,5
+2026-11-17,124,Northridge South,West Valley,Illegal dumping,trash,16
+2026-11-17,113,Northridge West,West Valley,Service not completed (follow-up),trash,13
+2026-11-17,113,Northridge West,West Valley,Graffiti,trash,4
+2026-11-17,94,Northwest San Pedro,Harbor,Landscape maintenance,trees,8
+2026-11-17,94,Northwest San Pedro,Harbor,Service not completed (follow-up),trash,5
+2026-11-17,94,Northwest San Pedro,Harbor,Potholes and pavement,streets,3
+2026-11-17,104,Olympic Park,Central LA,Illegal dumping,trash,4
+2026-11-17,60,P.i.c.o.,Central LA,Illegal dumping,trash,7
+2026-11-17,60,P.i.c.o.,Central LA,Graffiti,trash,4
+2026-11-17,7,Pacoima,East Valley,Graffiti,trash,21
+2026-11-17,7,Pacoima,East Valley,Illegal dumping,trash,19
+2026-11-17,7,Pacoima,East Valley,Service not completed (follow-up),trash,7
+2026-11-17,115,Palms,Westside,Illegal dumping,trash,15
+2026-11-17,115,Palms,Westside,Badly parked scooter or bike,parking,3
+2026-11-17,100,Panorama City,East Valley,Illegal dumping,trash,8
+2026-11-17,100,Panorama City,East Valley,Graffiti,trash,4
+2026-11-17,80,Park Mesa Heights,South LA,Illegal dumping,trash,23
+2026-11-17,80,Park Mesa Heights,South LA,Graffiti,trash,5
+2026-11-17,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,4
+2026-11-17,80,Park Mesa Heights,South LA,Landscape maintenance,trees,3
+2026-11-17,76,Pico Union,Central LA,Illegal dumping,trash,16
+2026-11-17,76,Pico Union,Central LA,Graffiti,trash,12
+2026-11-17,76,Pico Union,Central LA,Service not completed (follow-up),trash,6
+2026-11-17,76,Pico Union,Central LA,Streetlight repair,streets,3
+2026-11-17,114,Porter Ranch,West Valley,Service not completed (follow-up),trash,5
+2026-11-17,53,Rampart Village,Eastside,Illegal dumping,trash,13
+2026-11-17,53,Rampart Village,Eastside,Graffiti,trash,7
+2026-11-17,53,Rampart Village,Eastside,Service not completed (follow-up),trash,3
+2026-11-17,53,Rampart Village,Eastside,Potholes and pavement,streets,3
+2026-11-17,15,Reseda,West Valley,Illegal dumping,trash,15
+2026-11-17,15,Reseda,West Valley,Graffiti,trash,8
+2026-11-17,15,Reseda,West Valley,Obstructions,streets,3
+2026-11-17,26,Sherman Oaks,East Valley,Illegal dumping,trash,35
+2026-11-17,26,Sherman Oaks,East Valley,Potholes and pavement,streets,4
+2026-11-17,26,Sherman Oaks,East Valley,Public street receptacles,trash,3
+2026-11-17,38,Silver Lake,Eastside,Illegal dumping,trash,20
+2026-11-17,38,Silver Lake,Eastside,Graffiti,trash,6
+2026-11-17,38,Silver Lake,Eastside,Obstructions,streets,3
+2026-11-17,78,South Central,South LA,Graffiti,trash,36
+2026-11-17,78,South Central,South LA,Illegal dumping,trash,26
+2026-11-17,61,South Robertson,Westside,Illegal dumping,trash,8
+2026-11-17,61,South Robertson,Westside,Service not completed (follow-up),trash,7
+2026-11-17,27,Studio City,East Valley,Illegal dumping,trash,11
+2026-11-17,27,Studio City,East Valley,Dead animal,critters,3
+2026-11-17,27,Studio City,East Valley,Potholes and pavement,streets,3
+2026-11-17,8,Sun Valley Area,East Valley,Illegal dumping,trash,21
+2026-11-17,8,Sun Valley Area,East Valley,Service not completed (follow-up),trash,9
+2026-11-17,8,Sun Valley Area,East Valley,Graffiti,trash,7
+2026-11-17,8,Sun Valley Area,East Valley,Landscape maintenance,trees,4
+2026-11-17,10,Sunland-tujunga,East Valley,Service not completed (follow-up),trash,11
+2026-11-17,10,Sunland-tujunga,East Valley,Illegal dumping,trash,9
+2026-11-17,5,Sylmar,East Valley,Service not completed (follow-up),trash,8
+2026-11-17,5,Sylmar,East Valley,Illegal dumping,trash,6
+2026-11-17,17,Tarzana,West Valley,Illegal dumping,trash,13
+2026-11-17,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,17
+2026-11-17,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Graffiti,trash,10
+2026-11-17,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Service not completed (follow-up),trash,6
+2026-11-17,25,Valley Village,East Valley,Illegal dumping,trash,5
+2026-11-17,20,Van Nuys,East Valley,Illegal dumping,trash,45
+2026-11-17,20,Van Nuys,East Valley,Graffiti,trash,10
+2026-11-17,20,Van Nuys,East Valley,Potholes and pavement,streets,7
+2026-11-17,20,Van Nuys,East Valley,Service not completed (follow-up),trash,4
+2026-11-17,68,Venice,Westside,Illegal dumping,trash,15
+2026-11-17,68,Venice,Westside,Service not completed (follow-up),trash,11
+2026-11-17,109,Voices Of 90037,South LA,Illegal dumping,trash,18
+2026-11-17,109,Voices Of 90037,South LA,Graffiti,trash,6
+2026-11-17,109,Voices Of 90037,South LA,Service not completed (follow-up),trash,5
+2026-11-17,109,Voices Of 90037,South LA,Dead animal,critters,3
+2026-11-17,88,Watts,South LA,Illegal dumping,trash,7
+2026-11-17,75,West Adams,South LA,Illegal dumping,trash,19
+2026-11-17,75,West Adams,South LA,Graffiti,trash,8
+2026-11-17,75,West Adams,South LA,Service not completed (follow-up),trash,6
+2026-11-17,11,West Hills,West Valley,Dead animal,critters,4
+2026-11-17,11,West Hills,West Valley,Potholes and pavement,streets,3
+2026-11-17,66,West Los Angeles,Westside,Illegal dumping,trash,11
+2026-11-17,66,West Los Angeles,Westside,Badly parked scooter or bike,parking,5
+2026-11-17,66,West Los Angeles,Westside,Streetlight repair,streets,3
+2026-11-17,71,Westchester/playa,Westside,Potholes and pavement,streets,39
+2026-11-17,71,Westchester/playa,Westside,Service not completed (follow-up),trash,17
+2026-11-17,71,Westchester/playa,Westside,Dead animal,critters,5
+2026-11-17,97,Westlake North,Central LA,Graffiti,trash,24
+2026-11-17,97,Westlake North,Central LA,Illegal dumping,trash,15
+2026-11-17,121,Westlake South,Central LA,Illegal dumping,trash,11
+2026-11-17,121,Westlake South,Central LA,Graffiti,trash,3
+2026-11-17,62,Westside,Westside,Illegal dumping,trash,18
+2026-11-17,63,Westwood,Westside,Illegal dumping,trash,14
+2026-11-17,63,Westwood,Westside,Streetlight repair,streets,4
+2026-11-17,93,Wilmington,Harbor,Illegal dumping,trash,31
+2026-11-17,93,Wilmington,Harbor,Service not completed (follow-up),trash,4
+2026-11-17,93,Wilmington,Harbor,Graffiti,trash,3
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,27
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,9
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,Flooding,water,8
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,Streetlight repair,streets,7
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,Landscape maintenance,trees,4
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,Dead animal,critters,4
+2026-11-17,55,Wilshire Center - Koreatown,Central LA,Potholes and pavement,streets,3
+2026-11-17,14,Winnetka,West Valley,Service not completed (follow-up),trash,8
+2026-11-17,14,Winnetka,West Valley,Illegal dumping,trash,7
+2026-11-17,14,Winnetka,West Valley,Graffiti,trash,4
+2026-11-17,14,Winnetka,West Valley,Potholes and pavement,streets,3
+2026-11-17,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,10
+2026-11-17,16,Woodland Hills-warner Center,West Valley,Potholes and pavement,streets,8
+2026-11-17,16,Woodland Hills-warner Center,West Valley,Graffiti,trash,6
+2026-11-17,125,Zapata King,South LA,Illegal dumping,trash,48
+2026-11-17,125,Zapata King,South LA,Streetlight repair,streets,8
+2026-11-17,125,Zapata King,South LA,Potholes and pavement,streets,7
+2026-11-17,125,Zapata King,South LA,Graffiti,trash,5
+2026-11-17,125,Zapata King,South LA,Dead animal,critters,4
+2026-11-17,125,Zapata King,South LA,Landscape maintenance,trees,3
+2026-11-18,6,Arleta,East Valley,Illegal dumping,trash,19
+2026-11-18,6,Arleta,East Valley,Graffiti,trash,4
+2026-11-18,42,Arroyo Seco,Eastside,Graffiti,trash,6
+2026-11-18,42,Arroyo Seco,Eastside,Service not completed (follow-up),trash,6
+2026-11-18,37,Atwater Village,Eastside,Illegal dumping,trash,9
+2026-11-18,64,Bel Air-beverly Crest,Westside,Potholes and pavement,streets,3
+2026-11-18,64,Bel Air-beverly Crest,Westside,Streetlight repair,streets,3
+2026-11-18,64,Bel Air-beverly Crest,Westside,Service not completed (follow-up),trash,3
+2026-11-18,50,Boyle Heights,Eastside,Graffiti,trash,64
+2026-11-18,50,Boyle Heights,Eastside,Illegal dumping,trash,12
+2026-11-18,13,Canoga Park,West Valley,Illegal dumping,trash,27
+2026-11-18,13,Canoga Park,West Valley,Graffiti,trash,15
+2026-11-18,110,Central Alameda,South LA,Graffiti,trash,15
+2026-11-18,110,Central Alameda,South LA,Illegal dumping,trash,9
+2026-11-18,110,Central Alameda,South LA,Service not completed (follow-up),trash,4
+2026-11-18,32,Central Hollywood,Central LA,Illegal dumping,trash,10
+2026-11-18,32,Central Hollywood,Central LA,Barricade removal,streets,4
+2026-11-18,32,Central Hollywood,Central LA,Badly parked scooter or bike,parking,4
+2026-11-18,95,Central San Pedro,Harbor,Illegal dumping,trash,10
+2026-11-18,95,Central San Pedro,Harbor,Landscape maintenance,trees,4
+2026-11-18,95,Central San Pedro,Harbor,Service not completed (follow-up),trash,3
+2026-11-18,95,Central San Pedro,Harbor,Sidewalk repair access request program,streets,3
+2026-11-18,99,Chatsworth,West Valley,Service not completed (follow-up),trash,11
+2026-11-18,99,Chatsworth,West Valley,Dead animal,critters,3
+2026-11-18,96,Coastal San Pedro,Harbor,Illegal dumping,trash,7
+2026-11-18,96,Coastal San Pedro,Harbor,Service not completed (follow-up),trash,4
+2026-11-18,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,13
+2026-11-18,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Streetlight repair,streets,3
+2026-11-18,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Service not completed (follow-up),trash,3
+2026-11-18,70,Del Rey,Westside,Illegal dumping,trash,12
+2026-11-18,70,Del Rey,Westside,Landscape maintenance,trees,11
+2026-11-18,70,Del Rey,Westside,Tree emergency,trees,3
+2026-11-18,52,Downtown Los Angeles,Central LA,Badly parked scooter or bike,parking,46
+2026-11-18,52,Downtown Los Angeles,Central LA,Graffiti,trash,35
+2026-11-18,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,18
+2026-11-18,52,Downtown Los Angeles,Central LA,Barricade removal,streets,7
+2026-11-18,52,Downtown Los Angeles,Central LA,Sidewalk problem,streets,5
+2026-11-18,52,Downtown Los Angeles,Central LA,Potholes and pavement,streets,5
+2026-11-18,52,Downtown Los Angeles,Central LA,General street inspection,streets,3
+2026-11-18,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,3
+2026-11-18,40,Eagle Rock,Eastside,Service not completed (follow-up),trash,12
+2026-11-18,40,Eagle Rock,Eastside,Illegal dumping,trash,4
+2026-11-18,40,Eagle Rock,Eastside,Graffiti,trash,3
+2026-11-18,34,East Hollywood,Central LA,Illegal dumping,trash,68
+2026-11-18,34,East Hollywood,Central LA,Graffiti,trash,6
+2026-11-18,34,East Hollywood,Central LA,Badly parked scooter or bike,parking,5
+2026-11-18,34,East Hollywood,Central LA,Dead animal,critters,3
+2026-11-18,44,Echo Park,Eastside,Graffiti,trash,13
+2026-11-18,44,Echo Park,Eastside,Service not completed (follow-up),trash,12
+2026-11-18,44,Echo Park,Eastside,Illegal dumping,trash,8
+2026-11-18,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,43
+2026-11-18,81,Empowerment Congress Central Area,South LA,Graffiti,trash,10
+2026-11-18,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,7
+2026-11-18,81,Empowerment Congress Central Area,South LA,Landscape maintenance,trees,7
+2026-11-18,81,Empowerment Congress Central Area,South LA,Dead animal,critters,3
+2026-11-18,77,Empowerment Congress North Area,South LA,Badly parked scooter or bike,parking,38
+2026-11-18,77,Empowerment Congress North Area,South LA,Graffiti,trash,15
+2026-11-18,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,12
+2026-11-18,77,Empowerment Congress North Area,South LA,Service not completed (follow-up),trash,8
+2026-11-18,77,Empowerment Congress North Area,South LA,Dead animal,critters,5
+2026-11-18,77,Empowerment Congress North Area,South LA,Tree obstruction,trees,4
+2026-11-18,77,Empowerment Congress North Area,South LA,Sidewalk problem,streets,3
+2026-11-18,77,Empowerment Congress North Area,South LA,Streetlight repair,streets,3
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,70
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,21
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,Dead animal,critters,6
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,Service not completed (follow-up),trash,6
+2026-11-18,87,Empowerment Congress Southeast Area,South LA,Potholes and pavement,streets,4
+2026-11-18,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,20
+2026-11-18,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,13
+2026-11-18,79,Empowerment Congress West Area,South LA,Service not completed (follow-up),trash,8
+2026-11-18,79,Empowerment Congress West Area,South LA,Dead animal,critters,5
+2026-11-18,79,Empowerment Congress West Area,South LA,Graffiti,trash,4
+2026-11-18,79,Empowerment Congress West Area,South LA,Street tree inspection,trees,3
+2026-11-18,18,Encino,West Valley,Illegal dumping,trash,66
+2026-11-18,18,Encino,West Valley,Graffiti,trash,9
+2026-11-18,18,Encino,West Valley,Potholes and pavement,streets,4
+2026-11-18,39,Glassell Park,Eastside,Illegal dumping,trash,5
+2026-11-18,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,5
+2026-11-18,118,Granada Hills South,West Valley,Graffiti,trash,3
+2026-11-18,28,Greater Toluca Lake,East Valley,Service not completed (follow-up),trash,4
+2026-11-18,21,Greater Valley Glen,East Valley,Illegal dumping,trash,44
+2026-11-18,21,Greater Valley Glen,East Valley,Graffiti,trash,13
+2026-11-18,21,Greater Valley Glen,East Valley,Service not completed (follow-up),trash,6
+2026-11-18,119,Greater Wilshire,Central LA,Illegal dumping,trash,22
+2026-11-18,119,Greater Wilshire,Central LA,Streetlight repair,streets,6
+2026-11-18,119,Greater Wilshire,Central LA,Badly parked scooter or bike,parking,5
+2026-11-18,119,Greater Wilshire,Central LA,Landscape maintenance,trees,5
+2026-11-18,92,Harbor City,Harbor,Illegal dumping,trash,8
+2026-11-18,92,Harbor City,Harbor,Potholes and pavement,streets,3
+2026-11-18,90,Harbor Gateway North,Harbor,Illegal dumping,trash,17
+2026-11-18,91,Harbor Gateway South,Harbor,Dead animal,critters,3
+2026-11-18,128,Historic Cultural North,Central LA,Graffiti,trash,15
+2026-11-18,128,Historic Cultural North,Central LA,Badly parked scooter or bike,parking,3
+2026-11-18,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,16
+2026-11-18,41,Historic Highland Park,Eastside,Graffiti,trash,8
+2026-11-18,41,Historic Highland Park,Eastside,Illegal dumping,trash,6
+2026-11-18,29,Hollywood Hills West,Central LA,Illegal dumping,trash,22
+2026-11-18,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,13
+2026-11-18,29,Hollywood Hills West,Central LA,Potholes and pavement,streets,5
+2026-11-18,29,Hollywood Hills West,Central LA,Barricade removal,streets,4
+2026-11-18,29,Hollywood Hills West,Central LA,Obstructions,streets,3
+2026-11-18,33,Hollywood Studio District,Central LA,Illegal dumping,trash,37
+2026-11-18,33,Hollywood Studio District,Central LA,Graffiti,trash,4
+2026-11-18,30,Hollywood United,Central LA,Illegal dumping,trash,15
+2026-11-18,30,Hollywood United,Central LA,Streetlight repair,streets,10
+2026-11-18,48,LA-32,Eastside,Graffiti,trash,11
+2026-11-18,48,LA-32,Eastside,Illegal dumping,trash,9
+2026-11-18,48,LA-32,Eastside,Service not completed (follow-up),trash,7
+2026-11-18,19,Lake Balboa,West Valley,Illegal dumping,trash,31
+2026-11-18,19,Lake Balboa,West Valley,Potholes and pavement,streets,6
+2026-11-18,19,Lake Balboa,West Valley,Service not completed (follow-up),trash,6
+2026-11-18,19,Lake Balboa,West Valley,Graffiti,trash,6
+2026-11-18,19,Lake Balboa,West Valley,Landscape maintenance,trees,4
+2026-11-18,47,Lincoln Heights,Eastside,Illegal dumping,trash,14
+2026-11-18,47,Lincoln Heights,Eastside,Graffiti,trash,12
+2026-11-18,36,Los Feliz,Eastside,Illegal dumping,trash,20
+2026-11-18,36,Los Feliz,Eastside,Graffiti,trash,4
+2026-11-18,54,Macarthur Park,Central LA,Graffiti,trash,170
+2026-11-18,54,Macarthur Park,Central LA,Illegal dumping,trash,12
+2026-11-18,67,Mar Vista,Westside,Illegal dumping,trash,10
+2026-11-18,67,Mar Vista,Westside,Service not completed (follow-up),trash,8
+2026-11-18,73,Mid City,South LA,Illegal dumping,trash,14
+2026-11-18,73,Mid City,South LA,Service not completed (follow-up),trash,5
+2026-11-18,73,Mid City,South LA,Landscape maintenance,trees,4
+2026-11-18,73,Mid City,South LA,Graffiti,trash,3
+2026-11-18,58,Mid City West,Central LA,Illegal dumping,trash,49
+2026-11-18,58,Mid City West,Central LA,Graffiti,trash,10
+2026-11-18,58,Mid City West,Central LA,Streetlight repair,streets,7
+2026-11-18,58,Mid City West,Central LA,Potholes and pavement,streets,5
+2026-11-18,58,Mid City West,Central LA,General street inspection,streets,4
+2026-11-18,101,Mission Hills,East Valley,Illegal dumping,trash,3
+2026-11-18,24,NoHo,East Valley,Illegal dumping,trash,16
+2026-11-18,24,NoHo,East Valley,Sidewalk problem,streets,12
+2026-11-18,24,NoHo,East Valley,Service not completed (follow-up),trash,10
+2026-11-18,24,NoHo,East Valley,Potholes and pavement,streets,8
+2026-11-18,24,NoHo,East Valley,Graffiti,trash,8
+2026-11-18,22,NoHo West,East Valley,Graffiti,trash,6
+2026-11-18,22,NoHo West,East Valley,Dead animal,critters,3
+2026-11-18,112,North Hills East,West Valley,Illegal dumping,trash,33
+2026-11-18,112,North Hills East,West Valley,Graffiti,trash,13
+2026-11-18,111,North Hills West,East Valley,Potholes and pavement,streets,8
+2026-11-18,111,North Hills West,East Valley,Property violation,housing,6
+2026-11-18,111,North Hills West,East Valley,Service not completed (follow-up),trash,5
+2026-11-18,111,North Hills West,East Valley,Graffiti,trash,3
+2026-11-18,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,16
+2026-11-18,23,North Hollywood Northeast,East Valley,Graffiti,trash,13
+2026-11-18,23,North Hollywood Northeast,East Valley,Service not completed (follow-up),trash,5
+2026-11-18,23,North Hollywood Northeast,East Valley,Dead animal,critters,4
+2026-11-18,127,North Westwood,Westside,Illegal dumping,trash,3
+2026-11-18,120,Northridge East,West Valley,Property violation,housing,7
+2026-11-18,120,Northridge East,West Valley,Service not completed (follow-up),trash,3
+2026-11-18,124,Northridge South,West Valley,Potholes and pavement,streets,5
+2026-11-18,124,Northridge South,West Valley,Illegal dumping,trash,4
+2026-11-18,113,Northridge West,West Valley,Dead animal,critters,3
+2026-11-18,113,Northridge West,West Valley,Illegal dumping,trash,3
+2026-11-18,94,Northwest San Pedro,Harbor,Graffiti,trash,13
+2026-11-18,94,Northwest San Pedro,Harbor,Service not completed (follow-up),trash,3
+2026-11-18,104,Olympic Park,Central LA,Graffiti,trash,5
+2026-11-18,104,Olympic Park,Central LA,Illegal dumping,trash,5
+2026-11-18,60,P.i.c.o.,Central LA,Illegal dumping,trash,13
+2026-11-18,60,P.i.c.o.,Central LA,Graffiti,trash,4
+2026-11-18,7,Pacoima,East Valley,Illegal dumping,trash,22
+2026-11-18,7,Pacoima,East Valley,Graffiti,trash,10
+2026-11-18,7,Pacoima,East Valley,Streetlight repair,streets,3
+2026-11-18,115,Palms,Westside,Illegal dumping,trash,23
+2026-11-18,115,Palms,Westside,Graffiti,trash,5
+2026-11-18,115,Palms,Westside,Badly parked scooter or bike,parking,4
+2026-11-18,100,Panorama City,East Valley,Illegal dumping,trash,35
+2026-11-18,100,Panorama City,East Valley,Graffiti,trash,5
+2026-11-18,80,Park Mesa Heights,South LA,Illegal dumping,trash,56
+2026-11-18,80,Park Mesa Heights,South LA,Landscape maintenance,trees,4
+2026-11-18,80,Park Mesa Heights,South LA,Streetlight repair,streets,3
+2026-11-18,76,Pico Union,Central LA,Illegal dumping,trash,20
+2026-11-18,76,Pico Union,Central LA,Graffiti,trash,11
+2026-11-18,76,Pico Union,Central LA,Landscape maintenance,trees,5
+2026-11-18,76,Pico Union,Central LA,Dead animal,critters,3
+2026-11-18,114,Porter Ranch,West Valley,Service not completed (follow-up),trash,4
+2026-11-18,53,Rampart Village,Eastside,Graffiti,trash,4
+2026-11-18,53,Rampart Village,Eastside,Illegal dumping,trash,3
+2026-11-18,15,Reseda,West Valley,Illegal dumping,trash,25
+2026-11-18,15,Reseda,West Valley,Graffiti,trash,11
+2026-11-18,15,Reseda,West Valley,Service not completed (follow-up),trash,6
+2026-11-18,26,Sherman Oaks,East Valley,Service not completed (follow-up),trash,15
+2026-11-18,26,Sherman Oaks,East Valley,Illegal dumping,trash,14
+2026-11-18,26,Sherman Oaks,East Valley,Potholes and pavement,streets,13
+2026-11-18,26,Sherman Oaks,East Valley,Traffic safety,streets,5
+2026-11-18,26,Sherman Oaks,East Valley,Dead animal,critters,3
+2026-11-18,38,Silver Lake,Eastside,Illegal dumping,trash,7
+2026-11-18,78,South Central,South LA,Graffiti,trash,24
+2026-11-18,78,South Central,South LA,Illegal dumping,trash,17
+2026-11-18,78,South Central,South LA,Service not completed (follow-up),trash,4
+2026-11-18,78,South Central,South LA,Potholes and pavement,streets,4
+2026-11-18,78,South Central,South LA,Barricade removal,streets,3
+2026-11-18,78,South Central,South LA,Obstructions,streets,3
+2026-11-18,61,South Robertson,Westside,Illegal dumping,trash,17
+2026-11-18,61,South Robertson,Westside,Tree emergency,trees,3
+2026-11-18,27,Studio City,East Valley,Service not completed (follow-up),trash,12
+2026-11-18,27,Studio City,East Valley,Illegal dumping,trash,5
+2026-11-18,27,Studio City,East Valley,Flooding,water,3
+2026-11-18,8,Sun Valley Area,East Valley,Illegal dumping,trash,27
+2026-11-18,8,Sun Valley Area,East Valley,Streetlight repair,streets,22
+2026-11-18,8,Sun Valley Area,East Valley,Graffiti,trash,11
+2026-11-18,8,Sun Valley Area,East Valley,Service not completed (follow-up),trash,6
+2026-11-18,10,Sunland-tujunga,East Valley,Illegal dumping,trash,9
+2026-11-18,10,Sunland-tujunga,East Valley,Graffiti,trash,3
+2026-11-18,5,Sylmar,East Valley,Illegal dumping,trash,8
+2026-11-18,5,Sylmar,East Valley,Service not completed (follow-up),trash,3
+2026-11-18,5,Sylmar,East Valley,Parking,parking,3
+2026-11-18,17,Tarzana,West Valley,Illegal dumping,trash,22
+2026-11-18,17,Tarzana,West Valley,Potholes and pavement,streets,4
+2026-11-18,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,14
+2026-11-18,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Graffiti,trash,5
+2026-11-18,25,Valley Village,East Valley,Illegal dumping,trash,4
+2026-11-18,25,Valley Village,East Valley,Service not completed (follow-up),trash,3
+2026-11-18,20,Van Nuys,East Valley,Illegal dumping,trash,181
+2026-11-18,20,Van Nuys,East Valley,Potholes and pavement,streets,12
+2026-11-18,20,Van Nuys,East Valley,Graffiti,trash,10
+2026-11-18,20,Van Nuys,East Valley,Dead animal,critters,5
+2026-11-18,20,Van Nuys,East Valley,Service not completed (follow-up),trash,3
+2026-11-18,20,Van Nuys,East Valley,Public street receptacles,trash,3
+2026-11-18,68,Venice,Westside,Illegal dumping,trash,13
+2026-11-18,68,Venice,Westside,Service not completed (follow-up),trash,6
+2026-11-18,68,Venice,Westside,Landscape maintenance,trees,4
+2026-11-18,68,Venice,Westside,Tree emergency,trees,3
+2026-11-18,109,Voices Of 90037,South LA,Graffiti,trash,16
+2026-11-18,109,Voices Of 90037,South LA,Illegal dumping,trash,14
+2026-11-18,109,Voices Of 90037,South LA,Service not completed (follow-up),trash,4
+2026-11-18,109,Voices Of 90037,South LA,Potholes and pavement,streets,3
+2026-11-18,88,Watts,South LA,Illegal dumping,trash,17
+2026-11-18,75,West Adams,South LA,Illegal dumping,trash,6
+2026-11-18,75,West Adams,South LA,Graffiti,trash,4
+2026-11-18,75,West Adams,South LA,Illegal signs or news racks,trash,3
+2026-11-18,11,West Hills,West Valley,Illegal dumping,trash,10
+2026-11-18,66,West Los Angeles,Westside,Illegal dumping,trash,8
+2026-11-18,66,West Los Angeles,Westside,Potholes and pavement,streets,5
+2026-11-18,66,West Los Angeles,Westside,Service not completed (follow-up),trash,5
+2026-11-18,71,Westchester/playa,Westside,Potholes and pavement,streets,36
+2026-11-18,71,Westchester/playa,Westside,Illegal dumping,trash,8
+2026-11-18,71,Westchester/playa,Westside,Service not completed (follow-up),trash,5
+2026-11-18,97,Westlake North,Central LA,Badly parked scooter or bike,parking,11
+2026-11-18,97,Westlake North,Central LA,Graffiti,trash,9
+2026-11-18,97,Westlake North,Central LA,Illegal dumping,trash,6
+2026-11-18,121,Westlake South,Central LA,Graffiti,trash,10
+2026-11-18,121,Westlake South,Central LA,Illegal dumping,trash,4
+2026-11-18,62,Westside,Westside,Streetlight repair,streets,10
+2026-11-18,62,Westside,Westside,Service not completed (follow-up),trash,5
+2026-11-18,62,Westside,Westside,Illegal dumping,trash,5
+2026-11-18,62,Westside,Westside,Potholes and pavement,streets,4
+2026-11-18,63,Westwood,Westside,Service not completed (follow-up),trash,7
+2026-11-18,63,Westwood,Westside,Illegal dumping,trash,4
+2026-11-18,63,Westwood,Westside,Potholes and pavement,streets,3
+2026-11-18,93,Wilmington,Harbor,Illegal dumping,trash,26
+2026-11-18,93,Wilmington,Harbor,Streetlight repair,streets,5
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,50
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,15
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,Flooding,water,6
+2026-11-18,55,Wilshire Center - Koreatown,Central LA,Curb,streets,6
+2026-11-18,14,Winnetka,West Valley,Graffiti,trash,10
+2026-11-18,14,Winnetka,West Valley,Service not completed (follow-up),trash,5
+2026-11-18,14,Winnetka,West Valley,Illegal dumping,trash,3
+2026-11-18,14,Winnetka,West Valley,Potholes and pavement,streets,3
+2026-11-18,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,10
+2026-11-18,16,Woodland Hills-warner Center,West Valley,Potholes and pavement,streets,6
+2026-11-18,16,Woodland Hills-warner Center,West Valley,Graffiti,trash,5
+2026-11-18,16,Woodland Hills-warner Center,West Valley,Service not completed (follow-up),trash,4
+2026-11-18,16,Woodland Hills-warner Center,West Valley,Traffic sign,streets,3
+2026-11-18,125,Zapata King,South LA,Illegal dumping,trash,14
+2026-11-18,125,Zapata King,South LA,Graffiti,trash,9
+2026-11-18,125,Zapata King,South LA,Dead animal,critters,3
+2026-11-18,125,Zapata King,South LA,Service not completed (follow-up),trash,3
+2026-11-19,6,Arleta,East Valley,Illegal dumping,trash,9
+2026-11-19,6,Arleta,East Valley,Service not completed (follow-up),trash,3
+2026-11-19,42,Arroyo Seco,Eastside,Mudslide,streets,5
+2026-11-19,42,Arroyo Seco,Eastside,Potholes and pavement,streets,3
+2026-11-19,42,Arroyo Seco,Eastside,Flooding,water,3
+2026-11-19,46,Arts District Little Tokyo,Central LA,Badly parked scooter or bike,parking,4
+2026-11-19,37,Atwater Village,Eastside,Tree emergency,trees,3
+2026-11-19,64,Bel Air-beverly Crest,Westside,Service not completed (follow-up),trash,7
+2026-11-19,64,Bel Air-beverly Crest,Westside,Flooding,water,6
+2026-11-19,64,Bel Air-beverly Crest,Westside,Illegal dumping,trash,4
+2026-11-19,64,Bel Air-beverly Crest,Westside,Mudslide,streets,4
+2026-11-19,64,Bel Air-beverly Crest,Westside,Tree emergency,trees,3
+2026-11-19,50,Boyle Heights,Eastside,Graffiti,trash,22
+2026-11-19,50,Boyle Heights,Eastside,Flooding,water,5
+2026-11-19,50,Boyle Heights,Eastside,Illegal dumping,trash,5
+2026-11-19,50,Boyle Heights,Eastside,Property violation,housing,3
+2026-11-19,13,Canoga Park,West Valley,Illegal dumping,trash,29
+2026-11-19,13,Canoga Park,West Valley,Graffiti,trash,6
+2026-11-19,110,Central Alameda,South LA,Illegal dumping,trash,5
+2026-11-19,32,Central Hollywood,Central LA,Illegal dumping,trash,7
+2026-11-19,32,Central Hollywood,Central LA,Streetlight repair,streets,3
+2026-11-19,32,Central Hollywood,Central LA,Flooding,water,3
+2026-11-19,32,Central Hollywood,Central LA,Potholes and pavement,streets,3
+2026-11-19,95,Central San Pedro,Harbor,Illegal dumping,trash,26
+2026-11-19,95,Central San Pedro,Harbor,Landscape maintenance,trees,3
+2026-11-19,99,Chatsworth,West Valley,General street inspection,streets,5
+2026-11-19,99,Chatsworth,West Valley,Potholes and pavement,streets,3
+2026-11-19,99,Chatsworth,West Valley,Streetlight repair,streets,3
+2026-11-19,96,Coastal San Pedro,Harbor,Landscape maintenance,trees,10
+2026-11-19,96,Coastal San Pedro,Harbor,Illegal dumping,trash,6
+2026-11-19,96,Coastal San Pedro,Harbor,Service not completed (follow-up),trash,3
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,12
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Graffiti,trash,9
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Dead animal,critters,6
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Flooding,water,4
+2026-11-19,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Streetlight repair,streets,3
+2026-11-19,70,Del Rey,Westside,Illegal dumping,trash,3
+2026-11-19,52,Downtown Los Angeles,Central LA,Flooding,water,22
+2026-11-19,52,Downtown Los Angeles,Central LA,Graffiti,trash,8
+2026-11-19,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,5
+2026-11-19,52,Downtown Los Angeles,Central LA,Streetlight repair,streets,4
+2026-11-19,40,Eagle Rock,Eastside,Illegal dumping,trash,8
+2026-11-19,40,Eagle Rock,Eastside,Service not completed (follow-up),trash,4
+2026-11-19,34,East Hollywood,Central LA,Illegal dumping,trash,10
+2026-11-19,34,East Hollywood,Central LA,Service not completed (follow-up),trash,6
+2026-11-19,34,East Hollywood,Central LA,Flooding,water,4
+2026-11-19,34,East Hollywood,Central LA,Graffiti,trash,3
+2026-11-19,44,Echo Park,Eastside,Graffiti,trash,16
+2026-11-19,44,Echo Park,Eastside,Service not completed (follow-up),trash,8
+2026-11-19,44,Echo Park,Eastside,Traffic safety,streets,3
+2026-11-19,44,Echo Park,Eastside,Streetlight repair,streets,3
+2026-11-19,43,Elysian Valley Riverside,Eastside,Graffiti,trash,3
+2026-11-19,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,12
+2026-11-19,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,7
+2026-11-19,81,Empowerment Congress Central Area,South LA,Tree emergency,trees,3
+2026-11-19,81,Empowerment Congress Central Area,South LA,Flooding,water,3
+2026-11-19,81,Empowerment Congress Central Area,South LA,Graffiti,trash,3
+2026-11-19,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,4
+2026-11-19,77,Empowerment Congress North Area,South LA,Tree obstruction,trees,3
+2026-11-19,77,Empowerment Congress North Area,South LA,Graffiti,trash,3
+2026-11-19,77,Empowerment Congress North Area,South LA,Dead animal,critters,3
+2026-11-19,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,42
+2026-11-19,87,Empowerment Congress Southeast Area,South LA,Graffiti,trash,6
+2026-11-19,87,Empowerment Congress Southeast Area,South LA,Streetlight repair,streets,4
+2026-11-19,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,9
+2026-11-19,84,Empowerment Congress Southwest Area,South LA,Tree emergency,trees,7
+2026-11-19,84,Empowerment Congress Southwest Area,South LA,Service not completed (follow-up),trash,6
+2026-11-19,84,Empowerment Congress Southwest Area,South LA,Landscape maintenance,trees,3
+2026-11-19,79,Empowerment Congress West Area,South LA,Landscape maintenance,trees,5
+2026-11-19,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,5
+2026-11-19,79,Empowerment Congress West Area,South LA,Flooding,water,3
+2026-11-19,18,Encino,West Valley,Service not completed (follow-up),trash,19
+2026-11-19,18,Encino,West Valley,Illegal dumping,trash,10
+2026-11-19,18,Encino,West Valley,Flooding,water,8
+2026-11-19,18,Encino,West Valley,General street inspection,streets,4
+2026-11-19,18,Encino,West Valley,Tree emergency,trees,4
+2026-11-19,18,Encino,West Valley,Potholes and pavement,streets,3
+2026-11-19,18,Encino,West Valley,Graffiti,trash,3
+2026-11-19,18,Encino,West Valley,Mudslide,streets,3
+2026-11-19,9,Foothill Trails District,East Valley,Flooding,water,4
+2026-11-19,39,Glassell Park,Eastside,Illegal dumping,trash,5
+2026-11-19,4,Granada Hills North,West Valley,Service not completed (follow-up),trash,6
+2026-11-19,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,7
+2026-11-19,118,Granada Hills South,West Valley,Illegal dumping,trash,3
+2026-11-19,28,Greater Toluca Lake,East Valley,Flooding,water,4
+2026-11-19,21,Greater Valley Glen,East Valley,Flooding,water,9
+2026-11-19,21,Greater Valley Glen,East Valley,Illegal dumping,trash,3
+2026-11-19,21,Greater Valley Glen,East Valley,Service not completed (follow-up),trash,3
+2026-11-19,21,Greater Valley Glen,East Valley,Potholes and pavement,streets,3
+2026-11-19,119,Greater Wilshire,Central LA,Illegal dumping,trash,16
+2026-11-19,119,Greater Wilshire,Central LA,Flooding,water,8
+2026-11-19,119,Greater Wilshire,Central LA,Streetlight repair,streets,7
+2026-11-19,119,Greater Wilshire,Central LA,Tree emergency,trees,3
+2026-11-19,119,Greater Wilshire,Central LA,Landscape maintenance,trees,3
+2026-11-19,119,Greater Wilshire,Central LA,Service not completed (follow-up),trash,3
+2026-11-19,92,Harbor City,Harbor,Illegal dumping,trash,6
+2026-11-19,92,Harbor City,Harbor,Landscape maintenance,trees,5
+2026-11-19,90,Harbor Gateway North,Harbor,Illegal dumping,trash,63
+2026-11-19,128,Historic Cultural North,Central LA,Graffiti,trash,8
+2026-11-19,41,Historic Highland Park,Eastside,Illegal dumping,trash,6
+2026-11-19,41,Historic Highland Park,Eastside,Service not completed (follow-up),trash,3
+2026-11-19,29,Hollywood Hills West,Central LA,Badly parked scooter or bike,parking,11
+2026-11-19,29,Hollywood Hills West,Central LA,Illegal dumping,trash,10
+2026-11-19,29,Hollywood Hills West,Central LA,Streetlight repair,streets,5
+2026-11-19,29,Hollywood Hills West,Central LA,Flooding,water,4
+2026-11-19,29,Hollywood Hills West,Central LA,Service not completed (follow-up),trash,3
+2026-11-19,33,Hollywood Studio District,Central LA,Illegal dumping,trash,15
+2026-11-19,33,Hollywood Studio District,Central LA,Flooding,water,5
+2026-11-19,30,Hollywood United,Central LA,Mudslide,streets,5
+2026-11-19,30,Hollywood United,Central LA,Streetlight repair,streets,4
+2026-11-19,30,Hollywood United,Central LA,Tree emergency,trees,3
+2026-11-19,48,LA-32,Eastside,Graffiti,trash,6
+2026-11-19,48,LA-32,Eastside,Illegal dumping,trash,4
+2026-11-19,19,Lake Balboa,West Valley,Service not completed (follow-up),trash,7
+2026-11-19,19,Lake Balboa,West Valley,Potholes and pavement,streets,6
+2026-11-19,19,Lake Balboa,West Valley,Illegal dumping,trash,5
+2026-11-19,19,Lake Balboa,West Valley,Graffiti,trash,4
+2026-11-19,47,Lincoln Heights,Eastside,Illegal dumping,trash,11
+2026-11-19,47,Lincoln Heights,Eastside,Graffiti,trash,3
+2026-11-19,36,Los Feliz,Eastside,Illegal dumping,trash,8
+2026-11-19,36,Los Feliz,Eastside,Service not completed (follow-up),trash,8
+2026-11-19,36,Los Feliz,Eastside,Flooding,water,3
+2026-11-19,54,Macarthur Park,Central LA,Graffiti,trash,224
+2026-11-19,54,Macarthur Park,Central LA,Illegal dumping,trash,4
+2026-11-19,67,Mar Vista,Westside,Illegal dumping,trash,15
+2026-11-19,67,Mar Vista,Westside,Service not completed (follow-up),trash,8
+2026-11-19,67,Mar Vista,Westside,Tree emergency,trees,5
+2026-11-19,67,Mar Vista,Westside,Flooding,water,3
+2026-11-19,73,Mid City,South LA,Illegal dumping,trash,18
+2026-11-19,73,Mid City,South LA,Landscape maintenance,trees,17
+2026-11-19,73,Mid City,South LA,Flooding,water,4
+2026-11-19,73,Mid City,South LA,Dead animal,critters,3
+2026-11-19,58,Mid City West,Central LA,Service not completed (follow-up),trash,21
+2026-11-19,58,Mid City West,Central LA,Flooding,water,9
+2026-11-19,58,Mid City West,Central LA,Illegal dumping,trash,8
+2026-11-19,58,Mid City West,Central LA,Graffiti,trash,7
+2026-11-19,58,Mid City West,Central LA,Street tree inspection,trees,3
+2026-11-19,58,Mid City West,Central LA,Streetlight repair,streets,3
+2026-11-19,101,Mission Hills,East Valley,Illegal dumping,trash,13
+2026-11-19,24,NoHo,East Valley,Illegal dumping,trash,13
+2026-11-19,24,NoHo,East Valley,Flooding,water,6
+2026-11-19,24,NoHo,East Valley,Service not completed (follow-up),trash,5
+2026-11-19,22,NoHo West,East Valley,Potholes and pavement,streets,11
+2026-11-19,22,NoHo West,East Valley,Illegal dumping,trash,7
+2026-11-19,112,North Hills East,West Valley,Illegal dumping,trash,8
+2026-11-19,112,North Hills East,West Valley,Flooding,water,4
+2026-11-19,112,North Hills East,West Valley,Service not completed (follow-up),trash,3
+2026-11-19,111,North Hills West,East Valley,Property violation,housing,9
+2026-11-19,23,North Hollywood Northeast,East Valley,Flooding,water,13
+2026-11-19,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,10
+2026-11-19,23,North Hollywood Northeast,East Valley,Graffiti,trash,5
+2026-11-19,23,North Hollywood Northeast,East Valley,Service not completed (follow-up),trash,3
+2026-11-19,120,Northridge East,West Valley,Property violation,housing,4
+2026-11-19,124,Northridge South,West Valley,Service not completed (follow-up),trash,3
+2026-11-19,124,Northridge South,West Valley,Graffiti,trash,3
+2026-11-19,94,Northwest San Pedro,Harbor,Illegal dumping,trash,3
+2026-11-19,104,Olympic Park,Central LA,Illegal dumping,trash,8
+2026-11-19,104,Olympic Park,Central LA,Flooding,water,3
+2026-11-19,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,17
+2026-11-19,60,P.i.c.o.,Central LA,Illegal dumping,trash,5
+2026-11-19,7,Pacoima,East Valley,Illegal dumping,trash,30
+2026-11-19,115,Palms,Westside,Illegal dumping,trash,20
+2026-11-19,100,Panorama City,East Valley,Service not completed (follow-up),trash,9
+2026-11-19,100,Panorama City,East Valley,Illegal dumping,trash,8
+2026-11-19,100,Panorama City,East Valley,Flooding,water,5
+2026-11-19,100,Panorama City,East Valley,Dead animal,critters,4
+2026-11-19,80,Park Mesa Heights,South LA,Illegal dumping,trash,13
+2026-11-19,80,Park Mesa Heights,South LA,Landscape maintenance,trees,8
+2026-11-19,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,4
+2026-11-19,76,Pico Union,Central LA,Flooding,water,7
+2026-11-19,76,Pico Union,Central LA,Illegal dumping,trash,5
+2026-11-19,76,Pico Union,Central LA,Curb,streets,3
+2026-11-19,53,Rampart Village,Eastside,Service not completed (follow-up),trash,4
+2026-11-19,53,Rampart Village,Eastside,Graffiti,trash,3
+2026-11-19,53,Rampart Village,Eastside,Illegal dumping,trash,3
+2026-11-19,15,Reseda,West Valley,Illegal dumping,trash,19
+2026-11-19,15,Reseda,West Valley,Graffiti,trash,6
+2026-11-19,26,Sherman Oaks,East Valley,Flooding,water,20
+2026-11-19,26,Sherman Oaks,East Valley,Service not completed (follow-up),trash,10
+2026-11-19,26,Sherman Oaks,East Valley,Illegal dumping,trash,7
+2026-11-19,26,Sherman Oaks,East Valley,Potholes and pavement,streets,6
+2026-11-19,26,Sherman Oaks,East Valley,Graffiti,trash,5
+2026-11-19,26,Sherman Oaks,East Valley,General street inspection,streets,3
+2026-11-19,26,Sherman Oaks,East Valley,Tree emergency,trees,3
+2026-11-19,26,Sherman Oaks,East Valley,Street tree inspection,trees,3
+2026-11-19,38,Silver Lake,Eastside,Service not completed (follow-up),trash,11
+2026-11-19,38,Silver Lake,Eastside,Flooding,water,4
+2026-11-19,38,Silver Lake,Eastside,Illegal dumping,trash,4
+2026-11-19,38,Silver Lake,Eastside,Potholes and pavement,streets,3
+2026-11-19,38,Silver Lake,Eastside,Dead animal,critters,3
+2026-11-19,78,South Central,South LA,Illegal dumping,trash,14
+2026-11-19,78,South Central,South LA,Flooding,water,5
+2026-11-19,78,South Central,South LA,Tree emergency,trees,3
+2026-11-19,61,South Robertson,Westside,Illegal dumping,trash,19
+2026-11-19,27,Studio City,East Valley,Flooding,water,16
+2026-11-19,27,Studio City,East Valley,Service not completed (follow-up),trash,7
+2026-11-19,27,Studio City,East Valley,Tree emergency,trees,4
+2026-11-19,8,Sun Valley Area,East Valley,Illegal dumping,trash,10
+2026-11-19,8,Sun Valley Area,East Valley,Flooding,water,7
+2026-11-19,8,Sun Valley Area,East Valley,Mudslide,streets,5
+2026-11-19,10,Sunland-tujunga,East Valley,Illegal dumping,trash,7
+2026-11-19,5,Sylmar,East Valley,Illegal dumping,trash,8
+2026-11-19,17,Tarzana,West Valley,Service not completed (follow-up),trash,6
+2026-11-19,17,Tarzana,West Valley,Illegal dumping,trash,5
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,11
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Landscape maintenance,trees,3
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Streetlight repair,streets,3
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Service not completed (follow-up),trash,3
+2026-11-19,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Graffiti,trash,3
+2026-11-19,25,Valley Village,East Valley,Flooding,water,6
+2026-11-19,20,Van Nuys,East Valley,Illegal dumping,trash,24
+2026-11-19,20,Van Nuys,East Valley,Service not completed (follow-up),trash,19
+2026-11-19,20,Van Nuys,East Valley,Property violation,housing,9
+2026-11-19,20,Van Nuys,East Valley,Graffiti,trash,9
+2026-11-19,20,Van Nuys,East Valley,Flooding,water,6
+2026-11-19,20,Van Nuys,East Valley,Potholes and pavement,streets,5
+2026-11-19,68,Venice,Westside,Illegal dumping,trash,8
+2026-11-19,68,Venice,Westside,Flooding,water,5
+2026-11-19,109,Voices Of 90037,South LA,Illegal dumping,trash,11
+2026-11-19,109,Voices Of 90037,South LA,Graffiti,trash,5
+2026-11-19,109,Voices Of 90037,South LA,Tree emergency,trees,3
+2026-11-19,88,Watts,South LA,Illegal dumping,trash,14
+2026-11-19,88,Watts,South LA,Property violation,housing,4
+2026-11-19,88,Watts,South LA,Dead animal,critters,4
+2026-11-19,75,West Adams,South LA,Illegal dumping,trash,10
+2026-11-19,75,West Adams,South LA,Flooding,water,5
+2026-11-19,11,West Hills,West Valley,Illegal dumping,trash,21
+2026-11-19,11,West Hills,West Valley,Badly parked scooter or bike,parking,3
+2026-11-19,66,West Los Angeles,Westside,Tree emergency,trees,10
+2026-11-19,66,West Los Angeles,Westside,Illegal dumping,trash,8
+2026-11-19,71,Westchester/playa,Westside,Potholes and pavement,streets,28
+2026-11-19,71,Westchester/playa,Westside,Illegal dumping,trash,5
+2026-11-19,71,Westchester/playa,Westside,Landscape maintenance,trees,3
+2026-11-19,97,Westlake North,Central LA,Graffiti,trash,3
+2026-11-19,121,Westlake South,Central LA,Illegal dumping,trash,5
+2026-11-19,121,Westlake South,Central LA,Graffiti,trash,4
+2026-11-19,121,Westlake South,Central LA,Flooding,water,3
+2026-11-19,62,Westside,Westside,Illegal dumping,trash,13
+2026-11-19,62,Westside,Westside,Landscape maintenance,trees,5
+2026-11-19,62,Westside,Westside,Service not completed (follow-up),trash,3
+2026-11-19,63,Westwood,Westside,Service not completed (follow-up),trash,10
+2026-11-19,63,Westwood,Westside,Tree emergency,trees,3
+2026-11-19,63,Westwood,Westside,Streetlight repair,streets,3
+2026-11-19,63,Westwood,Westside,Illegal dumping,trash,3
+2026-11-19,93,Wilmington,Harbor,Graffiti,trash,9
+2026-11-19,93,Wilmington,Harbor,Illegal dumping,trash,8
+2026-11-19,93,Wilmington,Harbor,Service not completed (follow-up),trash,7
+2026-11-19,93,Wilmington,Harbor,Streetlight repair,streets,4
+2026-11-19,93,Wilmington,Harbor,Dead animal,critters,3
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,31
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,Flooding,water,12
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,5
+2026-11-19,55,Wilshire Center - Koreatown,Central LA,Potholes and pavement,streets,3
+2026-11-19,14,Winnetka,West Valley,Illegal dumping,trash,9
+2026-11-19,14,Winnetka,West Valley,Graffiti,trash,6
+2026-11-19,14,Winnetka,West Valley,Flooding,water,3
+2026-11-19,14,Winnetka,West Valley,Service not completed (follow-up),trash,3
+2026-11-19,16,Woodland Hills-warner Center,West Valley,Service not completed (follow-up),trash,7
+2026-11-19,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,7
+2026-11-19,16,Woodland Hills-warner Center,West Valley,Potholes and pavement,streets,5
+2026-11-19,16,Woodland Hills-warner Center,West Valley,Flooding,water,3
+2026-11-19,16,Woodland Hills-warner Center,West Valley,Graffiti,trash,3
+2026-11-19,16,Woodland Hills-warner Center,West Valley,Tree emergency,trees,3
+2026-11-19,125,Zapata King,South LA,Illegal dumping,trash,13
+2026-11-19,125,Zapata King,South LA,Service not completed (follow-up),trash,3

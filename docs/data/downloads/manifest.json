@@ -1,0 +1,202 @@
+{
+ "name": "CityMoods 311 data",
+ "description": "Daily 311 service-request counts by mood and neighborhood for New York City, Chicago, Los Angeles, San Francisco and Boston, from each city's open data portal. Neighborhood counts under 3 are not published; requests about people are grouped into 'other' and never named. 'usual' is the average for the same weekday over the previous 4 weeks.",
+ "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Credit: CityMoods (citymoods311.com)",
+ "docs": "https://citymoods311.com/data/",
+ "sources": {
+  "nyc": [
+   [
+    "NYC 311 Service Requests",
+    "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9/about_data"
+   ],
+   [
+    "2020 Neighborhood Tabulation Areas",
+    "https://data.cityofnewyork.us/City-Government/2020-Neighborhood-Tabulation-Areas-NTAs-/9nt8-h7nd"
+   ]
+  ],
+  "chicago": [
+   [
+    "Chicago 311 Service Requests",
+    "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy"
+   ],
+   [
+    "Community Area Boundaries",
+    "https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas/igwz-8jzy"
+   ]
+  ],
+  "la": [
+   [
+    "MyLA311 Cases",
+    "https://data.lacity.org/browse?q=MyLA311%20Cases"
+   ],
+   [
+    "Neighborhood Council Boundaries",
+    "https://geohub.lacity.org/datasets/neighborhood-council-boundaries"
+   ]
+  ],
+  "sf": [
+   [
+    "SF 311 Cases",
+    "https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6"
+   ],
+   [
+    "Analysis Neighborhoods",
+    "https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/j2bu-swwd"
+   ]
+  ],
+  "boston": [
+   [
+    "Boston 311 Service Requests",
+    "https://data.boston.gov/dataset/311-service-requests"
+   ],
+   [
+    "BPDA Neighborhood Boundaries",
+    "https://data.boston.gov/dataset/bpda-neighborhood-boundaries"
+   ]
+  ]
+ },
+ "moods": {
+  "heat": "No heat",
+  "noise": "Noise",
+  "parking": "Parking wars",
+  "housing": "Home repairs",
+  "streets": "Street fixes",
+  "trash": "Trash talk",
+  "critters": "Critters",
+  "water": "Water & sewers",
+  "trees": "Trees",
+  "other": "Everything else"
+ },
+ "files": [
+  {
+   "path": "data/downloads/nyc/citywide.csv",
+   "rows": 121,
+   "url": "https://citymoods311.com/data/downloads/nyc/citywide.csv"
+  },
+  {
+   "path": "data/downloads/nyc/notable-types.csv",
+   "rows": 325,
+   "url": "https://citymoods311.com/data/downloads/nyc/notable-types.csv"
+  },
+  {
+   "path": "data/downloads/nyc/neighborhoods-2026-11.csv",
+   "rows": 10396,
+   "url": "https://citymoods311.com/data/downloads/nyc/neighborhoods-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/nyc/neighborhood-types-2026-11.csv",
+   "rows": 9801,
+   "url": "https://citymoods311.com/data/downloads/nyc/neighborhood-types-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/nyc/mood-map.csv",
+   "rows": 98,
+   "url": "https://citymoods311.com/data/downloads/nyc/mood-map.csv"
+  },
+  {
+   "path": "data/downloads/chicago/citywide.csv",
+   "rows": 121,
+   "url": "https://citymoods311.com/data/downloads/chicago/citywide.csv"
+  },
+  {
+   "path": "data/downloads/chicago/notable-types.csv",
+   "rows": 171,
+   "url": "https://citymoods311.com/data/downloads/chicago/notable-types.csv"
+  },
+  {
+   "path": "data/downloads/chicago/neighborhoods-2026-11.csv",
+   "rows": 2725,
+   "url": "https://citymoods311.com/data/downloads/chicago/neighborhoods-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/chicago/neighborhood-types-2026-11.csv",
+   "rows": 2323,
+   "url": "https://citymoods311.com/data/downloads/chicago/neighborhood-types-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/chicago/mood-map.csv",
+   "rows": 72,
+   "url": "https://citymoods311.com/data/downloads/chicago/mood-map.csv"
+  },
+  {
+   "path": "data/downloads/la/citywide.csv",
+   "rows": 121,
+   "url": "https://citymoods311.com/data/downloads/la/citywide.csv"
+  },
+  {
+   "path": "data/downloads/la/notable-types.csv",
+   "rows": 165,
+   "url": "https://citymoods311.com/data/downloads/la/notable-types.csv"
+  },
+  {
+   "path": "data/downloads/la/neighborhoods-2026-11.csv",
+   "rows": 2674,
+   "url": "https://citymoods311.com/data/downloads/la/neighborhoods-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/la/neighborhood-types-2026-11.csv",
+   "rows": 2642,
+   "url": "https://citymoods311.com/data/downloads/la/neighborhood-types-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/la/mood-map.csv",
+   "rows": 50,
+   "url": "https://citymoods311.com/data/downloads/la/mood-map.csv"
+  },
+  {
+   "path": "data/downloads/sf/citywide.csv",
+   "rows": 121,
+   "url": "https://citymoods311.com/data/downloads/sf/citywide.csv"
+  },
+  {
+   "path": "data/downloads/sf/notable-types.csv",
+   "rows": 302,
+   "url": "https://citymoods311.com/data/downloads/sf/notable-types.csv"
+  },
+  {
+   "path": "data/downloads/sf/neighborhoods-2026-11.csv",
+   "rows": 1588,
+   "url": "https://citymoods311.com/data/downloads/sf/neighborhoods-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/sf/neighborhood-types-2026-11.csv",
+   "rows": 2272,
+   "url": "https://citymoods311.com/data/downloads/sf/neighborhood-types-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/sf/mood-map.csv",
+   "rows": 21,
+   "url": "https://citymoods311.com/data/downloads/sf/mood-map.csv"
+  },
+  {
+   "path": "data/downloads/boston/citywide.csv",
+   "rows": 121,
+   "url": "https://citymoods311.com/data/downloads/boston/citywide.csv"
+  },
+  {
+   "path": "data/downloads/boston/notable-types.csv",
+   "rows": 156,
+   "url": "https://citymoods311.com/data/downloads/boston/notable-types.csv"
+  },
+  {
+   "path": "data/downloads/boston/neighborhoods-2026-11.csv",
+   "rows": 804,
+   "url": "https://citymoods311.com/data/downloads/boston/neighborhoods-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/boston/neighborhood-types-2026-11.csv",
+   "rows": 683,
+   "url": "https://citymoods311.com/data/downloads/boston/neighborhood-types-2026-11.csv"
+  },
+  {
+   "path": "data/downloads/boston/mood-map.csv",
+   "rows": 63,
+   "url": "https://citymoods311.com/data/downloads/boston/mood-map.csv"
+  },
+  {
+   "path": "data/downloads/all-cities-citywide.csv",
+   "rows": 605,
+   "url": "https://citymoods311.com/data/downloads/all-cities-citywide.csv"
+  }
+ ]
+}

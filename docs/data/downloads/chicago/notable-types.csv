@@ -1,0 +1,172 @@
+date,weekday,request_type,mood,requests,usual,ratio,kind
+2026-11-09,Monday,Sewer cleaning,water,72,22,3.24,spike
+2026-11-09,Monday,Yard waste pickup,trash,205,90,2.27,spike
+2026-11-09,Monday,Plumbing violation,housing,45,22,2.09,spike
+2026-11-09,Monday,Graffiti,trash,424,277,1.53,top
+2026-11-09,Monday,Rats,critters,193,187,1.03,top
+2026-11-09,Monday,Busted garbage cart,trash,180,170,1.06,top
+2026-11-09,Monday,Abandoned car,parking,173,159,1.09,top
+2026-11-09,Monday,Parking enforcement review,parking,84,75,1.12,top
+2026-11-09,Monday,Traffic signal out,streets,83,80,1.04,top
+2026-11-09,Monday,Illegal dumping,trash,82,65,1.26,top
+2026-11-09,Monday,Tree trim (no longer accepted),trees,82,72,1.13,top
+2026-11-09,Monday,Street light out,streets,71,79,0.9,top
+2026-11-09,Monday,Recycling cart,trash,70,66,1.06,top
+2026-11-09,Monday,Pothole,streets,68,60,1.13,top
+2026-11-09,Monday,Tree debris cleanup,trees,61,74,0.82,top
+2026-11-09,Monday,Building violation,housing,61,58,1.06,top
+2026-11-10,Tuesday,Missed garbage pickup,trash,60,23,2.64,spike
+2026-11-10,Tuesday,Sewer cleaning,water,75,34,2.21,spike
+2026-11-10,Tuesday,Tree trim (no longer accepted),trees,153,94,1.63,spike
+2026-11-10,Tuesday,Graffiti,trash,359,335,1.07,top
+2026-11-10,Tuesday,Abandoned car,parking,177,163,1.09,top
+2026-11-10,Tuesday,Busted garbage cart,trash,159,181,0.88,top
+2026-11-10,Tuesday,Yard waste pickup,trash,135,90,1.49,top
+2026-11-10,Tuesday,Rats,critters,131,194,0.68,top
+2026-11-10,Tuesday,Traffic signal out,streets,83,80,1.04,top
+2026-11-10,Tuesday,Street light out,streets,77,77,1.0,top
+2026-11-10,Tuesday,Recycling cart,trash,71,84,0.85,top
+2026-11-10,Tuesday,Parking enforcement review,parking,68,80,0.85,top
+2026-11-10,Tuesday,Illegal dumping,trash,68,71,0.96,top
+2026-11-10,Tuesday,Pothole,streets,68,66,1.03,top
+2026-11-10,Tuesday,Lead test kit,water,60,59,1.02,top
+2026-11-11,Wednesday,Missed garbage pickup,trash,62,26,2.41,spike
+2026-11-11,Wednesday,Yard waste pickup,trash,106,62,1.71,spike
+2026-11-11,Wednesday,Abandoned car,parking,123,187,0.66,top
+2026-11-11,Wednesday,Graffiti,trash,114,336,0.34,top
+2026-11-11,Wednesday,Rats,critters,103,159,0.65,top
+2026-11-11,Wednesday,Busted garbage cart,trash,98,184,0.53,top
+2026-11-11,Wednesday,Parking enforcement review,parking,97,75,1.29,top
+2026-11-11,Wednesday,Street light out,streets,81,98,0.82,top
+2026-11-11,Wednesday,Building violation,housing,66,81,0.82,top
+2026-11-11,Wednesday,Lead test kit,water,65,50,1.29,top
+2026-11-11,Wednesday,Illegal dumping,trash,57,73,0.78,top
+2026-11-11,Wednesday,Pothole,streets,39,72,0.54,top
+2026-11-11,Wednesday,Dead animal,critters,38,55,0.69,top
+2026-11-11,Wednesday,Traffic signal out,streets,38,83,0.46,top
+2026-11-11,Wednesday,Recycling cart,trash,38,72,0.53,top
+2026-11-12,Thursday,Lead test kit,water,729,42,17.36,spike
+2026-11-12,Thursday,Missed garbage pickup,trash,99,23,4.3,spike
+2026-11-12,Thursday,Graffiti,trash,319,318,1.0,top
+2026-11-12,Thursday,Busted garbage cart,trash,153,156,0.98,top
+2026-11-12,Thursday,Abandoned car,parking,146,162,0.9,top
+2026-11-12,Thursday,Rats,critters,132,160,0.83,top
+2026-11-12,Thursday,Tree trim (no longer accepted),trees,128,104,1.23,top
+2026-11-12,Thursday,Street light out,streets,84,89,0.95,top
+2026-11-12,Thursday,Building violation,housing,76,72,1.06,top
+2026-11-12,Thursday,Traffic signal out,streets,73,84,0.87,top
+2026-11-12,Thursday,Pothole,streets,70,66,1.07,top
+2026-11-12,Thursday,Parking enforcement review,parking,67,74,0.9,top
+2026-11-12,Thursday,Recycling cart,trash,61,56,1.09,top
+2026-11-12,Thursday,Yard waste pickup,trash,60,53,1.14,top
+2026-11-12,Thursday,Sewer cleaning,water,58,36,1.59,top
+2026-11-13,Friday,Lead test kit,water,346,28,12.47,spike
+2026-11-13,Friday,Missed garbage pickup,trash,71,16,4.51,spike
+2026-11-13,Friday,Sewer cleaning,water,64,26,2.44,spike
+2026-11-13,Friday,Tree trim (no longer accepted),trees,234,145,1.61,spike
+2026-11-13,Friday,Graffiti,trash,305,331,0.92,top
+2026-11-13,Friday,Busted garbage cart,trash,148,140,1.06,top
+2026-11-13,Friday,Abandoned car,parking,128,144,0.89,top
+2026-11-13,Friday,Rats,critters,122,150,0.82,top
+2026-11-13,Friday,Traffic signal out,streets,78,83,0.94,top
+2026-11-13,Friday,Street light out,streets,70,73,0.96,top
+2026-11-13,Friday,Pothole,streets,62,79,0.78,top
+2026-11-13,Friday,Parking enforcement review,parking,61,80,0.77,top
+2026-11-13,Friday,Building violation,housing,52,63,0.82,top
+2026-11-13,Friday,Public way inspection,streets,50,38,1.32,top
+2026-11-13,Friday,Recycling cart,trash,46,64,0.72,top
+2026-11-14,Saturday,Alley light out,streets,27,5,5.14,spike
+2026-11-14,Saturday,Street light out,streets,83,46,1.82,spike
+2026-11-14,Saturday,Yard waste pickup,trash,90,66,1.36,top
+2026-11-14,Saturday,Graffiti,trash,76,89,0.85,top
+2026-11-14,Saturday,Rats,critters,75,70,1.07,top
+2026-11-14,Saturday,Abandoned car,parking,71,80,0.88,top
+2026-11-14,Saturday,Busted garbage cart,trash,46,52,0.89,top
+2026-11-14,Saturday,Parking enforcement review,parking,44,66,0.67,top
+2026-11-14,Saturday,Traffic signal out,streets,44,34,1.29,top
+2026-11-14,Saturday,Building violation,housing,38,35,1.08,top
+2026-11-14,Saturday,Stray animal,critters,32,28,1.13,top
+2026-11-14,Saturday,Recycling cart,trash,28,24,1.17,top
+2026-11-14,Saturday,Pothole,streets,27,36,0.74,top
+2026-11-14,Saturday,Dead animal,critters,27,42,0.64,top
+2026-11-14,Saturday,Tree debris cleanup,trees,26,28,0.92,top
+2026-11-15,Sunday,Yard waste pickup,trash,169,119,1.42,top
+2026-11-15,Sunday,Graffiti,trash,119,193,0.62,top
+2026-11-15,Sunday,Abandoned car,parking,81,76,1.07,top
+2026-11-15,Sunday,Rats,critters,76,85,0.89,top
+2026-11-15,Sunday,Street light out,streets,58,70,0.83,top
+2026-11-15,Sunday,Parking enforcement review,parking,51,68,0.76,top
+2026-11-15,Sunday,Busted garbage cart,trash,49,68,0.72,top
+2026-11-15,Sunday,Traffic signal out,streets,46,36,1.29,top
+2026-11-15,Sunday,Building violation,housing,38,26,1.49,top
+2026-11-15,Sunday,Dead animal,critters,34,46,0.74,top
+2026-11-15,Sunday,Stray animal,critters,31,24,1.27,top
+2026-11-15,Sunday,Illegal dumping,trash,26,30,0.87,top
+2026-11-15,Sunday,Pothole,streets,21,35,0.6,top
+2026-11-15,Sunday,Recycling cart,trash,21,26,0.79,top
+2026-11-15,Sunday,Injured animal,critters,20,19,1.07,top
+2026-11-16,Monday,Tree planting,trees,43,17,2.57,spike
+2026-11-16,Monday,Missed garbage pickup,trash,47,19,2.47,spike
+2026-11-16,Monday,Graffiti,trash,330,355,0.93,top
+2026-11-16,Monday,Abandoned car,parking,172,169,1.02,top
+2026-11-16,Monday,Busted garbage cart,trash,170,186,0.91,top
+2026-11-16,Monday,Rats,critters,164,199,0.82,top
+2026-11-16,Monday,Yard waste pickup,trash,143,122,1.18,top
+2026-11-16,Monday,Tree trim (no longer accepted),trees,115,93,1.24,top
+2026-11-16,Monday,Street light out,streets,93,81,1.15,top
+2026-11-16,Monday,Pothole,streets,88,66,1.33,top
+2026-11-16,Monday,Traffic signal out,streets,82,85,0.96,top
+2026-11-16,Monday,Parking enforcement review,parking,70,78,0.89,top
+2026-11-16,Monday,Building violation,housing,69,60,1.15,top
+2026-11-16,Monday,Illegal dumping,trash,63,72,0.88,top
+2026-11-16,Monday,Recycling cart,trash,62,72,0.87,top
+2026-11-16,Monday,Sewer cleaning,water,54,39,1.38,top
+2026-11-16,Monday,Dead animal,critters,51,60,0.86,top
+2026-11-17,Tuesday,Graffiti,trash,297,363,0.82,top
+2026-11-17,Tuesday,Abandoned car,parking,181,166,1.09,top
+2026-11-17,Tuesday,Tree trim (no longer accepted),trees,164,132,1.25,top
+2026-11-17,Tuesday,Busted garbage cart,trash,147,167,0.88,top
+2026-11-17,Tuesday,Rats,critters,131,179,0.73,top
+2026-11-17,Tuesday,Street light out,streets,114,73,1.57,top
+2026-11-17,Tuesday,Yard waste pickup,trash,104,101,1.03,top
+2026-11-17,Tuesday,Traffic signal out,streets,88,83,1.06,top
+2026-11-17,Tuesday,Pothole,streets,83,66,1.26,top
+2026-11-17,Tuesday,Parking enforcement review,parking,78,81,0.96,top
+2026-11-17,Tuesday,Building violation,housing,66,62,1.06,top
+2026-11-17,Tuesday,Recycling cart,trash,56,74,0.75,top
+2026-11-17,Tuesday,Public way inspection,streets,55,37,1.48,top
+2026-11-17,Tuesday,Illegal dumping,trash,54,67,0.81,top
+2026-11-17,Tuesday,Sign repair,streets,52,37,1.41,top
+2026-11-18,Wednesday,Tree trim (no longer accepted),trees,264,80,3.29,spike
+2026-11-18,Wednesday,Sewer cleaning,water,58,24,2.42,spike
+2026-11-18,Wednesday,Graffiti,trash,359,292,1.23,top
+2026-11-18,Wednesday,Busted garbage cart,trash,179,153,1.17,top
+2026-11-18,Wednesday,Abandoned car,parking,153,172,0.89,top
+2026-11-18,Wednesday,Rats,critters,143,137,1.04,top
+2026-11-18,Wednesday,Traffic signal out,streets,87,74,1.18,top
+2026-11-18,Wednesday,Pothole,streets,85,66,1.28,top
+2026-11-18,Wednesday,Yard waste pickup,trash,85,70,1.21,top
+2026-11-18,Wednesday,Parking enforcement review,parking,69,85,0.81,top
+2026-11-18,Wednesday,Recycling cart,trash,68,60,1.12,top
+2026-11-18,Wednesday,Building violation,housing,60,80,0.75,top
+2026-11-18,Wednesday,Sign repair,streets,55,41,1.33,top
+2026-11-18,Wednesday,Tree debris cleanup,trees,54,69,0.79,top
+2026-11-18,Wednesday,Street light out,streets,53,92,0.57,top
+2026-11-19,Thursday,Coyote encounter,critters,33,11,3.07,spike
+2026-11-19,Thursday,Badly parked e-scooter,parking,42,16,2.58,spike
+2026-11-19,Thursday,Tree planting,trees,40,16,2.54,spike
+2026-11-19,Thursday,Graffiti,trash,198,336,0.59,top
+2026-11-19,Thursday,Tree trim (no longer accepted),trees,189,131,1.44,top
+2026-11-19,Thursday,Abandoned car,parking,171,160,1.07,top
+2026-11-19,Thursday,Rats,critters,149,154,0.96,top
+2026-11-19,Thursday,Busted garbage cart,trash,143,156,0.92,top
+2026-11-19,Thursday,Traffic signal out,streets,89,80,1.11,top
+2026-11-19,Thursday,Yard waste pickup,trash,87,60,1.46,top
+2026-11-19,Thursday,Building violation,housing,73,74,0.98,top
+2026-11-19,Thursday,Street light out,streets,72,87,0.83,top
+2026-11-19,Thursday,Pothole,streets,72,62,1.16,top
+2026-11-19,Thursday,Recycling cart,trash,68,56,1.22,top
+2026-11-19,Thursday,Parking enforcement review,parking,67,70,0.95,top
+2026-11-19,Thursday,Sewer cleaning,water,62,42,1.49,top
+2026-11-19,Thursday,Lead test kit,water,46,214,0.21,top
+2026-11-19,Thursday,Tree debris cleanup,trees,46,62,0.74,top

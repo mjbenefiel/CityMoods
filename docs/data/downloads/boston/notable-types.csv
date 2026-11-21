@@ -1,0 +1,157 @@
+date,weekday,request_type,mood,requests,usual,ratio,kind
+2026-11-08,Sunday,Illegal parking,parking,188,112,1.67,spike
+2026-11-08,Sunday,Litter and debris,trash,35,46,0.76,top
+2026-11-08,Sunday,Dead animal,critters,30,21,1.43,top
+2026-11-08,Sunday,Rats,critters,25,0,,top
+2026-11-08,Sunday,Trash put out too early,trash,17,24,0.7,top
+2026-11-08,Sunday,Street light outage,streets,16,12,1.33,top
+2026-11-08,Sunday,Sidewalk repair,streets,15,9,1.67,top
+2026-11-08,Sunday,Pothole,streets,14,6,2.33,top
+2026-11-08,Sunday,Improper trash storage,trash,14,10,1.47,top
+2026-11-08,Sunday,Overflowing trash,trash,13,17,0.78,top
+2026-11-08,Sunday,Illegal dumping or disposal,trash,12,12,1.0,top
+2026-11-08,Sunday,Illegally blocked sidewalk,streets,10,9,1.08,top
+2026-11-09,Monday,Illegal parking,parking,176,159,1.11,top
+2026-11-09,Monday,Litter and debris,trash,64,70,0.91,top
+2026-11-09,Monday,Missed trash pickup,trash,30,40,0.76,top
+2026-11-09,Monday,Rats,critters,26,0,,top
+2026-11-09,Monday,Street light outage,streets,23,20,1.12,top
+2026-11-09,Monday,Sidewalk repair,streets,21,23,0.9,top
+2026-11-09,Monday,Improper trash storage,trash,20,28,0.7,top
+2026-11-09,Monday,Abandoned vehicles,parking,18,12,1.53,top
+2026-11-09,Monday,Illegal dumping or disposal,trash,17,19,0.88,top
+2026-11-09,Monday,Utility contractor complaints,streets,14,12,1.12,top
+2026-11-09,Monday,Unsatisfactory living conditions,housing,14,0,,top
+2026-11-09,Monday,Sticker,parking,14,10,1.47,top
+2026-11-09,Monday,Overflowing trash,trash,12,22,0.54,top
+2026-11-09,Monday,Trash put out too early,trash,12,16,0.74,top
+2026-11-09,Monday,Missing or knocked-down sign,streets,11,12,0.96,top
+2026-11-10,Tuesday,Illegal parking,parking,297,170,1.75,spike
+2026-11-10,Tuesday,Litter and debris,trash,74,72,1.02,top
+2026-11-10,Tuesday,Missed trash pickup,trash,55,40,1.39,top
+2026-11-10,Tuesday,Rats,critters,30,0,,top
+2026-11-10,Tuesday,Street light outage,streets,27,26,1.04,top
+2026-11-10,Tuesday,Sidewalk repair,streets,26,23,1.14,top
+2026-11-10,Tuesday,Dead animal,critters,24,22,1.09,top
+2026-11-10,Tuesday,Improper trash storage,trash,22,22,1.01,top
+2026-11-10,Tuesday,Pothole,streets,17,14,1.24,top
+2026-11-10,Tuesday,Utility contractor complaints,streets,15,13,1.15,top
+2026-11-10,Tuesday,Overflowing trash,trash,14,19,0.73,top
+2026-11-10,Tuesday,Trash put out too early,trash,14,18,0.8,top
+2026-11-10,Tuesday,Unsatisfactory living conditions,housing,13,0,,top
+2026-11-10,Tuesday,Illegal dumping or disposal,trash,13,25,0.53,top
+2026-11-10,Tuesday,Missing or knocked-down sign,streets,12,14,0.89,top
+2026-11-11,Wednesday,Pothole,streets,30,14,2.18,spike
+2026-11-11,Wednesday,Illegal parking,parking,192,216,0.89,top
+2026-11-11,Wednesday,Litter and debris,trash,61,66,0.92,top
+2026-11-11,Wednesday,Street light outage,streets,29,20,1.43,top
+2026-11-11,Wednesday,Rats,critters,23,0,,top
+2026-11-11,Wednesday,Trash put out too early,trash,20,29,0.69,top
+2026-11-11,Wednesday,Dead animal,critters,18,18,0.97,top
+2026-11-11,Wednesday,Missed trash pickup,trash,18,44,0.41,top
+2026-11-11,Wednesday,No building permit or violation of permit,housing,17,0,,top
+2026-11-11,Wednesday,Illegal dumping or disposal,trash,15,22,0.69,top
+2026-11-11,Wednesday,Overflowing trash,trash,14,16,0.89,top
+2026-11-11,Wednesday,Improper trash storage,trash,13,18,0.73,top
+2026-11-11,Wednesday,Domestic animal,critters,12,11,1.09,top
+2026-11-11,Wednesday,Wild animal,critters,12,6,1.92,top
+2026-11-11,Wednesday,Sidewalk repair,streets,11,23,0.48,top
+2026-11-12,Thursday,Rats,critters,25,9,2.86,spike
+2026-11-12,Thursday,Illegal parking,parking,203,261,0.78,top
+2026-11-12,Thursday,Litter and debris,trash,85,73,1.17,top
+2026-11-12,Thursday,Missed trash pickup,trash,40,42,0.95,top
+2026-11-12,Thursday,Trash put out too early,trash,27,20,1.38,top
+2026-11-12,Thursday,Dead animal,critters,24,25,0.97,top
+2026-11-12,Thursday,Street light outage,streets,23,18,1.26,top
+2026-11-12,Thursday,Sidewalk repair,streets,20,24,0.82,top
+2026-11-12,Thursday,Illegal dumping or disposal,trash,18,20,0.9,top
+2026-11-12,Thursday,Improper trash storage,trash,18,21,0.87,top
+2026-11-12,Thursday,Overflowing trash,trash,15,17,0.9,top
+2026-11-12,Thursday,Utility contractor complaints,streets,14,12,1.14,top
+2026-11-12,Thursday,Park groundskeeping,trees,13,7,1.79,top
+2026-11-12,Thursday,Unsatisfactory living conditions,housing,11,1,11.0,top
+2026-11-12,Thursday,Abandoned vehicles,parking,10,12,0.82,top
+2026-11-13,Friday,Illegal parking,parking,218,218,1.0,top
+2026-11-13,Friday,Litter and debris,trash,64,70,0.92,top
+2026-11-13,Friday,Missed trash pickup,trash,53,42,1.25,top
+2026-11-13,Friday,Illegal dumping or disposal,trash,27,18,1.54,top
+2026-11-13,Friday,Rats,critters,24,4,6.0,top
+2026-11-13,Friday,Street light outage,streets,22,18,1.24,top
+2026-11-13,Friday,Trash put out too early,trash,20,16,1.25,top
+2026-11-13,Friday,Overflowing trash,trash,14,11,1.24,top
+2026-11-13,Friday,Improper trash storage,trash,14,16,0.9,top
+2026-11-13,Friday,Unsatisfactory living conditions,housing,14,3,4.67,top
+2026-11-13,Friday,Sidewalk repair,streets,12,13,0.92,top
+2026-11-13,Friday,Traffic signal,streets,11,16,0.71,top
+2026-11-13,Friday,New / modified sign,streets,10,8,1.25,top
+2026-11-13,Friday,Utility contractor complaints,streets,10,10,1.03,top
+2026-11-14,Saturday,Rats,critters,26,4,6.93,spike
+2026-11-14,Saturday,Missed trash pickup,trash,28,9,3.03,spike
+2026-11-14,Saturday,Litter and debris,trash,79,44,1.8,spike
+2026-11-14,Saturday,Illegal parking,parking,150,195,0.77,top
+2026-11-14,Saturday,Street light outage,streets,25,16,1.61,top
+2026-11-14,Saturday,Dead animal,critters,22,20,1.11,top
+2026-11-14,Saturday,Trash put out too early,trash,17,23,0.73,top
+2026-11-14,Saturday,Illegal dumping or disposal,trash,17,10,1.7,top
+2026-11-14,Saturday,Improper trash storage,trash,14,12,1.12,top
+2026-11-14,Saturday,Overflowing trash,trash,12,13,0.91,top
+2026-11-14,Saturday,No building permit or violation of permit,housing,12,2,8.0,top
+2026-11-14,Saturday,Pothole,streets,11,7,1.52,top
+2026-11-14,Saturday,Domestic animal,critters,10,12,0.8,top
+2026-11-15,Sunday,Illegal parking,parking,148,160,0.93,top
+2026-11-15,Sunday,Litter and debris,trash,49,42,1.15,top
+2026-11-15,Sunday,Wild animal,critters,16,6,2.78,top
+2026-11-15,Sunday,Trash put out too early,trash,16,21,0.77,top
+2026-11-15,Sunday,Graffiti,trash,16,9,1.78,top
+2026-11-15,Sunday,Dead animal,critters,15,24,0.63,top
+2026-11-15,Sunday,Rats,critters,14,6,2.24,top
+2026-11-15,Sunday,Street light outage,streets,13,13,0.98,top
+2026-11-15,Sunday,Abandoned vehicles,parking,12,4,3.0,top
+2026-11-15,Sunday,Overflowing trash,trash,11,16,0.69,top
+2026-11-15,Sunday,Illegal dumping or disposal,trash,10,13,0.78,top
+2026-11-15,Sunday,Sidewalk repair,streets,9,11,0.84,top
+2026-11-16,Monday,Rats,critters,33,6,5.08,spike
+2026-11-16,Monday,Missed trash pickup,trash,77,44,1.75,spike
+2026-11-16,Monday,Illegal parking,parking,235,203,1.16,top
+2026-11-16,Monday,Litter and debris,trash,75,76,0.99,top
+2026-11-16,Monday,Street light outage,streets,37,24,1.57,top
+2026-11-16,Monday,Illegal dumping or disposal,trash,27,20,1.35,top
+2026-11-16,Monday,Improper trash storage,trash,27,24,1.1,top
+2026-11-16,Monday,Dead animal,critters,26,22,1.2,top
+2026-11-16,Monday,Overflowing trash,trash,20,20,1.01,top
+2026-11-16,Monday,Other,other,18,10,1.89,top
+2026-11-16,Monday,Utility contractor complaints,streets,18,14,1.33,top
+2026-11-16,Monday,Trash put out too early,trash,15,15,1.0,top
+2026-11-16,Monday,Unsatisfactory living conditions,housing,15,4,4.29,top
+2026-11-16,Monday,Traffic signal,streets,13,5,2.48,top
+2026-11-16,Monday,Sidewalk repair,streets,13,24,0.54,top
+2026-11-17,Tuesday,Rats,critters,25,8,3.33,spike
+2026-11-17,Tuesday,Missed trash pickup,trash,80,49,1.63,spike
+2026-11-17,Tuesday,Illegal parking,parking,222,244,0.91,top
+2026-11-17,Tuesday,Litter and debris,trash,82,73,1.12,top
+2026-11-17,Tuesday,Street light outage,streets,39,28,1.41,top
+2026-11-17,Tuesday,Illegal dumping or disposal,trash,30,22,1.38,top
+2026-11-17,Tuesday,Traffic signal,streets,24,12,1.92,top
+2026-11-17,Tuesday,Trash put out too early,trash,20,14,1.4,top
+2026-11-17,Tuesday,Dead animal,critters,20,23,0.88,top
+2026-11-17,Tuesday,Utility contractor complaints,streets,20,10,1.9,top
+2026-11-17,Tuesday,Overflowing trash,trash,18,19,0.95,top
+2026-11-17,Tuesday,Improper trash storage,trash,16,22,0.71,top
+2026-11-17,Tuesday,Graffiti,trash,14,12,1.17,top
+2026-11-17,Tuesday,Sidewalk repair,streets,14,24,0.6,top
+2026-11-17,Tuesday,Illegally blocked sidewalk,streets,13,13,0.98,top
+2026-11-18,Wednesday,Rats,critters,50,5,9.52,spike
+2026-11-18,Wednesday,Illegal parking,parking,233,225,1.04,top
+2026-11-18,Wednesday,Litter and debris,trash,88,64,1.36,top
+2026-11-18,Wednesday,Missed trash pickup,trash,38,41,0.93,top
+2026-11-18,Wednesday,Street light outage,streets,25,20,1.22,top
+2026-11-18,Wednesday,Trash put out too early,trash,24,24,1.0,top
+2026-11-18,Wednesday,Graffiti,trash,23,11,2.09,top
+2026-11-18,Wednesday,Sidewalk repair,streets,23,17,1.33,top
+2026-11-18,Wednesday,Illegal dumping or disposal,trash,22,18,1.26,top
+2026-11-18,Wednesday,Dead animal,critters,21,18,1.15,top
+2026-11-18,Wednesday,Illegally blocked sidewalk,streets,18,14,1.31,top
+2026-11-18,Wednesday,Pothole,streets,15,16,0.97,top
+2026-11-18,Wednesday,Abandoned vehicles,parking,14,10,1.33,top
+2026-11-18,Wednesday,Overflowing trash,trash,13,16,0.84,top
+2026-11-18,Wednesday,Utility contractor complaints,streets,12,10,1.17,top

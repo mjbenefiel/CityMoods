@@ -369,5 +369,11 @@ a.brand img { display: block; }
 .ask-text { flex: 1; font-size: 15px; line-height: 1.4; }
 .ask-text small { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
 .ask-go { color: var(--accent); font-size: 20px; font-weight: 600; }
-.data-card { margin-top: 12px; }
-.city-data { margin: 8px auto 28px; }
+.asks { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 860px; margin: 22px auto 0; }
+.asks .ask-city { margin: 0; max-width: none; }
+@media (max-width: 720px) { .asks { grid-template-columns: 1fr; } }
+.city-data { margin: 14px 0 0; font-size: 14px; color: var(--muted); }
+.city-data a { color: var(--ink); text-decoration: none; }
+.city-data a strong { border-bottom: 1px solid var(--accent); }
+.city-data a:hover strong, .city-data a:focus-visible strong { color: var(--accent); }
+.city-data .cd-note { margin-left: 6px; }

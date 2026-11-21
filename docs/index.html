@@ -19,7 +19,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="style.css?v=202611201900">
+<link rel="stylesheet" href="style.css?v=202611202000">
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -45,18 +45,20 @@
     <p>Written each night from the real requests people sent to each city's 311 line.</p>
   </div>
   <div id="city-cards" class="city-cards"></div>
+  <div class="asks">
+  <a class="ask-city" href="data/">
+    <span class="ask-emoji" aria-hidden="true">📊</span>
+    <span class="ask-text"><strong>Free data:</strong> every neighborhood count, free to download.
+      <small>CSV files updated nightly, or ask an AI about them.</small></span>
+    <span class="ask-go" aria-hidden="true">→</span>
+  </a>
   <a class="ask-city" href="mailto:admin@citymoods311.com?subject=Add%20my%20city%3A%20">
     <span class="ask-emoji" aria-hidden="true">📬</span>
     <span class="ask-text"><strong>Don't see your city?</strong> Tell us which one to add next.
       <small>We can add cities that publish their 311 requests as open data.</small></span>
     <span class="ask-go" aria-hidden="true">→</span>
   </a>
-  <a class="ask-city data-card" href="data/">
-    <span class="ask-emoji" aria-hidden="true">📊</span>
-    <span class="ask-text"><strong>Free data:</strong> download every neighborhood count for all five cities, or ask an AI about it.
-      <small>CSV files updated nightly, free to use with credit. Built for reporters, researchers and the curious.</small></span>
-    <span class="ask-go" aria-hidden="true">→</span>
-  </a>
+  </div>
   <div class="how">
     <div><span aria-hidden="true">📡</span><h3>Real city data, nightly</h3><p>Each city publishes its 311 requests as open data. We pull the latest complete day every night.</p></div>
     <div><span aria-hidden="true">🗺️</span><h3>Moods, mapped</h3><p>Thousands of requests become a few moods (no heat, noise, parking wars, critters) mapped by neighborhood, with each place's signature gripe.</p></div>
@@ -114,12 +116,7 @@
     <div id="rare" class="rare-grid"></div>
   </section>
 
-  <a class="ask-city data-card city-data" id="city-data" href="data/">
-    <span class="ask-emoji" aria-hidden="true">📊</span>
-    <span class="ask-text"><strong id="city-data-title">Download this city's data</strong>
-      <small>Every neighborhood count behind this map, as free CSV files updated nightly. Or ask an AI about it.</small></span>
-    <span class="ask-go" aria-hidden="true">→</span>
-  </a>
+  <p class="city-data"><a id="city-data" href="data/"><span aria-hidden="true">📊</span> <strong id="city-data-title">Download this city's data</strong></a> <span class="cd-note">Every neighborhood count behind this map, as free CSV files. Or ask an AI about it.</span></p>
 
   <section class="extra three">
     <div>

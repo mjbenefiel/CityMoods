@@ -28,8 +28,14 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
 .ask pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:10px 0}
 .ask button{font:inherit;font-weight:600;border:0;border-radius:999px;padding:9px 16px;background:var(--accent);color:#fff;cursor:pointer}
 .ask .ok{margin-left:10px;font-size:14px;color:var(--muted)}
-.ask .ex{font-size:14px;margin:10px 0 0} .ask .ex a{cursor:pointer}
+.ask .ex{font-size:13px;margin:12px 0 0;color:var(--muted)} .ask .ex b{display:block;font-weight:600;margin-bottom:4px}
+.ask .ex a{display:inline-block;cursor:pointer;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:4px 11px;margin:3px 4px 3px 0;background:var(--bg)}
+.ask .ex a:hover,.ask .ex a:focus-visible{border-color:var(--accent)}
 .lead{font-size:18px}
+.toast { position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
+  background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; max-width: calc(100% - 32px);
+  box-shadow: 0 4px 18px rgba(0,0,0,.25); transition: opacity .2s, transform .2s; z-index: 50; text-align: center; }
+.toast.on { opacity: 1; transform: translate(-50%, 0); }
 .dict{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
 .dict table{border-collapse:collapse;width:100%;font-size:14px}
 .dict th,.dict td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line);color:var(--muted)}
@@ -60,14 +66,15 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
   <li>Compare <code>requests</code> with <code>usual</code>. Anything around 2× or more is a spike worth a look.</li>
 </ol>
 
-<h2>Ask an AI about this data</h2>
-<p>Prefer to just ask? Type a question, copy the prompt, and paste it into Claude, ChatGPT or any AI assistant that can read web pages. It will pull the numbers straight from these files.</p>
+<h2>Analyze it with AI</h2>
+<p>Type a question, copy the prompt, and paste it into Claude, ChatGPT or any AI assistant that can read web pages. It pulls the numbers straight from these files, down to each neighborhood's top request types, which makes it useful for newsrooms, researchers, real estate and legal teams.</p>
 <div class="ask">
   <label for="askq">Your question</label>
-  <input id="askq" type="text" placeholder="Which Chicago neighborhoods had the most rat complaints this month?" autocomplete="off">
+  <input id="askq" type="text" placeholder="Give me a profile of 311 activity in Logan Square, Chicago this month." autocomplete="off">
   <pre id="askp"></pre>
   <button type="button" id="askc">Copy prompt</button><span class="ok" id="asko" aria-live="polite"></span>
-  <p class="ex">Try: <a data-q="Which city had the biggest spike in water and sewer complaints this week, and how far above usual was it?">biggest water spike</a> · <a data-q="Compare no-heat complaints in New York and Boston over the last two weeks.">NYC vs Boston no heat</a> · <a data-q="What were the five strangest spikes across all five cities this month?">strangest spikes</a></p>
+  <p class="ex"><b>Try a neighborhood</b><a role="button" tabindex="0" data-q="Give me a profile of 311 activity in Logan Square, Chicago this month: its top moods and request types, how it compares with neighborhoods nearby, and anything unusual.">Neighborhood profile</a><a role="button" tabindex="0" data-q="Compare Dorchester and Jamaica Plain in Boston this month: which complaints are most common in each, and how do they differ?">Compare two neighborhoods</a><a role="button" tabindex="0" data-q="Track noise complaints in Williamsburg, Brooklyn day by day this month. Were there any spikes, and on which days?">Track one over time</a><a role="button" tabindex="0" data-q="Which New York neighborhoods had the most no-heat complaints this month, and where did they rise the most?">No-heat hot spots</a><a role="button" tabindex="0" data-q="Rank San Francisco neighborhoods by water and sewer reports during the storm on Nov 18, 2026.">Storm by neighborhood</a><a role="button" tabindex="0" data-q="Which Los Angeles neighborhoods reported mudslides on Nov 19, 2026, and how many each?">Mudslides by neighborhood</a></p>
+  <p class="ex"><b>Or a whole city</b><a role="button" tabindex="0" data-q="Which city had the biggest spike in water and sewer complaints this week, and how far above usual was it?">Biggest water spike</a><a role="button" tabindex="0" data-q="Compare no-heat complaints in New York and Boston over the last two weeks.">NYC vs Boston no heat</a><a role="button" tabindex="0" data-q="What were the five strangest spikes across all five cities this month?">Strangest spikes</a></p>
 </div>
 
 <h2>Downloads</h2>
@@ -176,7 +183,9 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
   function render() { p.textContent = prompt(); ok.textContent = ""; }
   q.addEventListener("input", render);
   document.querySelectorAll(".ask .ex a").forEach(function (a) {
-    a.addEventListener("click", function () { q.value = a.getAttribute("data-q"); render(); q.focus(); });
+    function pick() { q.value = a.getAttribute("data-q"); render(); q.focus(); }
+    a.addEventListener("click", pick);
+    a.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); pick(); } });
   });
   c.addEventListener("click", function () {
     var text = prompt();
@@ -190,6 +199,33 @@ code{font-size:13px;background:var(--panel);border:1px solid var(--line);border-
     t.select(); try { document.execCommand("copy"); } catch (e) {} document.body.removeChild(t);
   }
   render();
+})();
+</script>
+<script>
+// Email links: plenty of people have no mail app set up, so a mailto click does nothing for them.
+// Copy the address too and say so, while still letting the mail app open for everyone else.
+(function () {
+  let toast;
+  function show(msg) {
+    if (!toast) {
+      toast = document.createElement("div");
+      toast.className = "toast";
+      toast.setAttribute("role", "status");
+      document.body.appendChild(toast);
+    }
+    toast.textContent = msg;
+    toast.classList.add("on");
+    clearTimeout(show.t);
+    show.t = setTimeout(() => toast.classList.remove("on"), 3500);
+  }
+  document.addEventListener("click", (ev) => {
+    const a = ev.target.closest && ev.target.closest('a[href^="mailto:"]');
+    if (!a) return;
+    const addr = decodeURIComponent(a.getAttribute("href").slice(7).split("?")[0]);
+    const done = () => show(`Email address copied: ${addr}`);
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(addr).then(done, () => show(`Email us at ${addr}`));
+    else show(`Email us at ${addr}`);
+  });
 })();
 </script>
 </body>

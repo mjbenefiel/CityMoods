@@ -371,9 +371,16 @@ a.brand img { display: block; }
 .ask-go { color: var(--accent); font-size: 20px; font-weight: 600; }
 .asks { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 860px; margin: 22px auto 0; }
 .asks .ask-city { margin: 0; max-width: none; }
+.asks .ask-city:hover strong, .asks .ask-city:focus-visible strong { color: var(--accent); }
 @media (max-width: 720px) { .asks { grid-template-columns: 1fr; } }
 .city-data { margin: 14px 0 0; font-size: 14px; color: var(--muted); }
 .city-data a { color: var(--ink); text-decoration: none; }
 .city-data a strong { border-bottom: 1px solid var(--accent); }
 .city-data a:hover strong, .city-data a:focus-visible strong { color: var(--accent); }
 .city-data .cd-note { margin-left: 6px; }
+
+/* Small notice at the bottom of the screen (used when an email link is clicked) */
+.toast { position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
+  background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; max-width: calc(100% - 32px);
+  box-shadow: 0 4px 18px rgba(0,0,0,.25); transition: opacity .2s, transform .2s; z-index: 50; text-align: center; }
+.toast.on { opacity: 1; transform: translate(-50%, 0); }

@@ -20,7 +20,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="style.css?v=202611191500">
+<link rel="stylesheet" href="style.css?v=202611201900">
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -50,6 +50,12 @@
     <span class="ask-emoji" aria-hidden="true">📬</span>
     <span class="ask-text"><strong>Don't see your city?</strong> Tell us which one to add next.
       <small>We can add cities that publish their 311 requests as open data.</small></span>
+    <span class="ask-go" aria-hidden="true">→</span>
+  </a>
+  <a class="ask-city data-card" href="data/">
+    <span class="ask-emoji" aria-hidden="true">📊</span>
+    <span class="ask-text"><strong>Free data:</strong> download every neighborhood count for all five cities, or ask an AI about it.
+      <small>CSV files updated nightly, free to use with credit. Built for reporters, researchers and the curious.</small></span>
     <span class="ask-go" aria-hidden="true">→</span>
   </a>
   <div class="how">
@@ -109,6 +115,13 @@
     <div id="rare" class="rare-grid"></div>
   </section>
 
+  <a class="ask-city data-card city-data" id="city-data" href="data/">
+    <span class="ask-emoji" aria-hidden="true">📊</span>
+    <span class="ask-text"><strong id="city-data-title">Download this city's data</strong>
+      <small>Every neighborhood count behind this map, as free CSV files updated nightly. Or ask an AI about it.</small></span>
+    <span class="ask-go" aria-hidden="true">→</span>
+  </a>
+
   <section class="extra three">
     <div>
       <h2>The specific gripes</h2>
@@ -144,6 +157,6 @@
 </footer>
 
 <script src="home.js?v=202611171900"></script>
-<script src="app.js?v=202611191500"></script>
+<script src="app.js?v=202611201900"></script>
 </body>
 </html>

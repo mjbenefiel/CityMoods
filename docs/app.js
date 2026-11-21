@@ -718,6 +718,8 @@
     $("city-people").textContent = CITY.people || "people";
     $("sources").innerHTML = (CITY.sources || []).map(([label, href]) => `<a href="${href}">${escapeHTML(label)}</a>`).join(" and ");
     $("not-affiliated").textContent = `the City of ${CITY.name}`;
+    $("city-data-title").textContent = `Download ${CITY.name}'s data`;
+    $("city-data").href = `data/#${CITY_KEY}`;
     // NYC has a "problem detail" level under each complaint; Chicago's menu has just the request type.
     $("gripes-hint").textContent = CITY_KEY === "nyc"
       ? `The "problem detail" ${CITY.people} picked from the 311 menu.`

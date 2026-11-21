@@ -273,7 +273,7 @@ def write_page(cities: list[dict], files: list[dict]):
             link(fs[f"neighborhood-types-{m}.csv"], m) for m in reversed(months) if f"neighborhood-types-{m}.csv" in fs)
         srcs = " · ".join(f'<a href="{e(u)}">{e(l)}</a>' for l, u in c.get("sources", []))
         blocks.append(f"""
-<section class="city">
+<section class="city" id="{e(c["key"])}">
   <h2>{e(c["name"])}</h2>
   <ul>
     <li>{link(fs["citywide.csv"], "Citywide by mood")}: every day, with the usual level and weather</li>

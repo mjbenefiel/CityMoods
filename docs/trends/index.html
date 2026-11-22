@@ -16,7 +16,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/style.css?v=202611220300">
+<link rel="stylesheet" href="/style.css?v=202611220400">
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -29,7 +29,7 @@
   <ol class="t-how" aria-label="How to use this page">
     <li><b>Pick what to look at.</b> A request type (rats, potholes, tree trims) or a whole mood, and a time range.</li>
     <li><b>See where it comes up.</b> Darker neighborhoods on the map had more reports; the list ranks them. Switch to "per 1,000 residents" to even out big and small neighborhoods.</li>
-    <li><b>Compare.</b> Tap up to 3 neighborhoods for side-by-side numbers, a year-long trend line and each one's top requests.</li>
+    <li><b>Compare.</b> Tap up to 3 neighborhoods, or search for yours by name, for side-by-side numbers, a year-long trend line and each one's top requests.</li>
   </ol>
   <p class="t-first">Chicago is first. More cities are on the way. <a href="mailto:admin@citymoods311.com?subject=Trends%20for%20my%20city%3A%20">Want yours next? Tell us.</a></p>
 
@@ -40,6 +40,13 @@
     <div class="t-field"><span id="t-range-label">Time range</span>
       <div class="seg" id="t-range" role="radiogroup" aria-labelledby="t-range-label"></div>
     </div>
+    <div class="t-field t-find"><label for="t-find">Find a neighborhood</label>
+      <div class="search">
+        <input id="t-find" type="search" placeholder="🔍 e.g. Wicker Park, Pilsen, Hyde Park" autocomplete="off"
+          role="combobox" aria-controls="t-find-results" aria-autocomplete="list" aria-expanded="false">
+        <ul id="t-find-results" class="results" role="listbox" hidden></ul>
+      </div>
+    </div>
     <div class="t-field"><span id="t-per-label">Show</span>
       <div class="seg" id="t-per" role="radiogroup" aria-labelledby="t-per-label">
         <button type="button" role="radio" data-per="0">Total</button>
@@ -47,6 +54,8 @@
       </div>
     </div>
   </div>
+
+  <p class="t-found" id="t-found" role="status" hidden></p>
 
   <div class="t-grid">
     <section class="t-mapbox" aria-label="Map">
@@ -78,7 +87,7 @@
   <p>Data: <a href="https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy">Chicago 311 Service Requests</a> and <a href="https://data.cityofchicago.org/Health-Human-Services/ACS-5-Year-Data-by-Community-Area-Most-Recent-Year/7umk-8dtw">ACS 5-year data by community area</a>, from the City of Chicago Data Portal. CityMoods is independent and not affiliated with the City of Chicago.</p>
 </footer>
 
-<script src="/trends.js?v=202611220300"></script>
+<script src="/trends.js?v=202611220400"></script>
 <script src="/menu.js?v=202611220000"></script>
 </body>
 </html>

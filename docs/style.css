@@ -504,3 +504,17 @@ a.brand img { display: block; }
 .t-first { margin: 0 0 18px; font-size: 14px; color: var(--muted); }
 .t-first a { color: var(--ink); }
 @media (max-width: 860px) { .t-how { grid-template-columns: 1fr; } }
+.t-find { flex: 1 1 260px; }
+.t-find label { cursor: default; }
+.t-find .search { margin: 0; }
+.t-find .search input { width: 100%; font-size: 15px; padding: 8px 14px; background: var(--bg); text-transform: none; letter-spacing: 0; font-weight: 500; }
+.t-find .results { left: 0; right: auto; width: 100%; max-width: none; text-transform: none; letter-spacing: 0; font-weight: 400; }
+.t-find .results li b { color: var(--ink); }
+.t-found { margin: 12px 0 0; font-size: 14px; color: var(--muted); }
+.t-found a { color: var(--ink); }
+#t-map path.found { stroke: var(--accent); stroke-width: 3; animation: t-found 0.6s ease-in-out 3 alternate; }
+@keyframes t-found { from { stroke-opacity: 1; } to { stroke-opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { #t-map path.found { animation: none; } }
+@media (max-width: 860px) { .t-find .search input { font-size: 16px; } }
+.t-find .results li.none { color: var(--muted); cursor: default; white-space: normal; }
+.t-find .results li.none:hover { background: none; }

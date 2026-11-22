@@ -13,7 +13,29 @@
   const day = (iso, yr) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", yr ? { month: "short", year: "numeric" } : { month: "short", day: "numeric" });
   const fmtRate = (r) => (r >= 10 ? r.toFixed(0) : r >= 1 ? r.toFixed(1) : r.toFixed(2));
 
+  // Names people actually use, mapped to Chicago's 77 official community areas (what the city's data uses).
+  const ALIASES = {
+    "Wicker Park": ["West Town"], "Ukrainian Village": ["West Town"], "East Village": ["West Town"],
+    "Noble Square": ["West Town"], "River West": ["West Town"], "Bucktown": ["Logan Square"],
+    "Palmer Square": ["Logan Square"], "Wrigleyville": ["Lake View"], "Boystown": ["Lake View"],
+    "Northalsted": ["Lake View"], "Lakeview": ["Lake View"], "Roscoe Village": ["North Center"],
+    "Ravenswood": ["Lincoln Square"], "Andersonville": ["Edgewater"], "Old Town": ["Near North Side"],
+    "Streeterville": ["Near North Side"], "River North": ["Near North Side"], "Gold Coast": ["Near North Side"],
+    "Magnificent Mile": ["Near North Side"], "West Loop": ["Near West Side"], "Greektown": ["Near West Side"],
+    "Little Italy": ["Near West Side"], "University Village": ["Near West Side"], "Tri-Taylor": ["Near West Side"],
+    "Illinois Medical District": ["Near West Side"], "South Loop": ["The Loop", "Near South Side"],
+    "Printer's Row": ["The Loop"], "Prairie District": ["Near South Side"], "Pilsen": ["Lower West Side"],
+    "Little Village": ["South Lawndale"], "La Villita": ["South Lawndale"], "Chinatown": ["Armour Square"],
+    "Bronzeville": ["Douglas", "Grand Boulevard"], "Back of the Yards": ["New City"], "Canaryville": ["New City"],
+    "Garfield Park": ["East Garfield Park", "West Garfield Park"], "Lawndale": ["North Lawndale"],
+    "Jackson Park Highlands": ["South Shore"], "Mayfair": ["Albany Park"], "Ravenswood Manor": ["Albany Park"],
+    "Sauganash": ["Forest Glen"], "Edgebrook": ["Forest Glen"], "Galewood": ["Austin"], "Buena Park": ["Uptown"],
+    "Sheridan Park": ["Uptown"], "West Rogers Park": ["West Ridge"], "Old Irving Park": ["Irving Park"],
+    "Six Corners": ["Portage Park"], "Marquette Park": ["Chicago Lawn"], "Pill Hill": ["Calumet Heights"],
+    "Gresham": ["Auburn Gresham"], "Wrightwood": ["Ashburn"], "Loop": ["The Loop"], "Downtown": ["The Loop"],
+  };
   let T, MOODS, series = null, seriesLoading = null;
+  const render_ = () => render();
   const S = { sel: null, days: 90, per: false, compare: [], showAll: false };
   const paths = {};
 
@@ -217,6 +239,71 @@
     }).join("");
   }
 
+  // ------------------------------------------------------------ find a neighborhood
+  function setupFind() {
+    const input = $("t-find"), box = $("t-find-results");
+    const norm = (x) => x.toLowerCase().replace(/['’.]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+    const byName = Object.fromEntries(T.areas.map((a) => [a.name, a]));
+    // One entry per community area, plus one per common name (pointing at its community area or areas).
+    const entries = [
+      ...T.areas.map((a) => ({ label: a.name, note: a.side, ids: [a.id] })),
+      ...Object.entries(ALIASES).map(([alias, names]) => ({ label: alias, alias: true, note: `part of ${names.join(" and ")}`,
+        names, ids: names.map((n) => byName[n] && byName[n].id).filter(Boolean) })).filter((e) => e.ids.length),
+    ].map((e) => ({ ...e, key: norm(e.label) }));
+    let matches = [], active = 0;
+
+    const render = () => {
+      const none = !matches.length && norm(input.value).length >= 3 && document.activeElement === input;
+      box.hidden = !matches.length && !none;
+      input.setAttribute("aria-expanded", String(!!matches.length));
+      if (none) { box.innerHTML = `<li class="none">No match. Try a community area name, like West Town or Hyde Park.</li>`; return; }
+      box.innerHTML = matches.map((m, k) => `<li role="option" data-k="${k}" class="${k === active ? "on" : ""}" aria-selected="${k === active}">` +
+        `<b>${esc(m.label)}</b><span>${esc(m.note)}</span></li>`).join("");
+    };
+    const search = () => {
+      const q = norm(input.value);
+      if (!q) { matches = []; render(); return; }
+      const starts = entries.filter((e) => e.key.startsWith(q));
+      const words = entries.filter((e) => !starts.includes(e) && e.key.split(" ").some((w) => w.startsWith(q)));
+      const inside = entries.filter((e) => !starts.includes(e) && !words.includes(e) && e.key.includes(q));
+      matches = [...starts, ...words, ...inside].slice(0, 7);
+      active = 0;
+      render();
+    };
+    const choose = (m) => {
+      matches = []; render();
+      input.value = "";
+      input.blur();
+      hideTip();
+      for (const id of m.ids) if (!S.compare.includes(id)) { S.compare.push(id); if (S.compare.length > 3) S.compare.shift(); }
+      render_();
+      const names = m.ids.map((id) => T.areas.find((a) => a.id === id).name);
+      const note = $("t-found");
+      note.innerHTML = (m.alias ? `${esc(m.label)} is part of ${esc(names.join(" and "))}. ` : "") +
+        `Added ${esc(names.join(" and "))} to <a href="#t-compare">Compare</a>.`;
+      note.hidden = false;
+      for (const id of m.ids) {                 // flash it on the map
+        const el = paths[id];
+        if (!el) continue;
+        el.classList.remove("found"); void el.getBoundingClientRect(); el.classList.add("found");
+        setTimeout(() => el.classList.remove("found"), 2400);
+      }
+      $("t-map").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+    };
+    input.addEventListener("input", search);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowDown" && matches.length) { active = (active + 1) % matches.length; render(); e.preventDefault(); }
+      else if (e.key === "ArrowUp" && matches.length) { active = (active - 1 + matches.length) % matches.length; render(); e.preventDefault(); }
+      else if (e.key === "Enter") { if (matches[active]) choose(matches[active]); e.preventDefault(); }
+      else if (e.key === "Escape") { matches = []; render(); }
+    });
+    box.addEventListener("pointerdown", (e) => {
+      const li = e.target.closest("li[data-k]");
+      if (li) { e.preventDefault(); choose(matches[+li.dataset.k]); }
+    });
+    input.addEventListener("blur", () => setTimeout(() => { matches = []; render(); }, 120));
+  }
+
   // ------------------------------------------------------------ state + controls
   function render() {
     paintMap();
@@ -298,6 +385,7 @@
       $("t-kicker").textContent = `Chicago · 311 trends · through ${end.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}`;
       drawMap(geo);
       setupControls();
+      setupFind();
       readURL();
       render();
     } catch (e) {

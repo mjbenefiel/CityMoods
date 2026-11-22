@@ -19,7 +19,7 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="style.css?v=202611212300">
+<link rel="stylesheet" href="style.css?v=202611220000">
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -46,6 +46,11 @@
   </div>
   <div id="city-cards" class="city-cards"></div>
   <div class="asks">
+  <a class="ask-city" href="trends/">
+    <span class="ask-emoji" aria-hidden="true">📈</span>
+    <span class="ask-text"><strong>New: Chicago trends.</strong> What each neighborhood reports most, over a whole year.
+      <small>Pick a request type, adjust for population, compare neighborhoods.</small></span>
+  </a>
   <a class="ask-city" href="data/">
     <span class="ask-emoji" aria-hidden="true">📊</span>
     <span class="ask-text"><strong>Free data:</strong> every neighborhood count, free to download.
@@ -115,6 +120,7 @@
   </section>
 
   <p class="city-data"><a id="city-data" href="data/"><span aria-hidden="true">📊</span> <strong id="city-data-title">Download this city's data</strong></a> <span class="cd-note">Every neighborhood count behind this map, as free CSV files. Or analyze it with AI.</span></p>
+  <p class="city-data" id="city-trends" hidden><a href="trends/"><span aria-hidden="true">📈</span> <strong>See Chicago's 311 trends</strong></a> <span class="cd-note">A year of requests by neighborhood: pick a type, adjust for population, compare.</span></p>
 
   <section class="extra three">
     <div>
@@ -151,7 +157,7 @@
 </footer>
 
 <script src="home.js?v=202611171900"></script>
-<script src="app.js?v=202611212300"></script>
-<script src="menu.js?v=202611212300"></script>
+<script src="app.js?v=202611220000"></script>
+<script src="menu.js?v=202611220000"></script>
 </body>
 </html>

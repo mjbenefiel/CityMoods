@@ -720,6 +720,7 @@
     $("not-affiliated").textContent = `the City of ${CITY.name}`;
     $("city-data-title").textContent = `Download ${CITY.name}'s data`;
     $("city-data").href = `data/#${CITY_KEY}`;
+    $("city-trends").hidden = CITY_KEY !== "chicago";   // Trends is Chicago-only for now
     // NYC has a "problem detail" level under each complaint; Chicago's menu has just the request type.
     $("gripes-hint").textContent = CITY_KEY === "nyc"
       ? `The "problem detail" ${CITY.people} picked from the 311 menu.`

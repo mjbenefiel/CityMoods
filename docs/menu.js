@@ -3,7 +3,7 @@
 // set Trends' or Shop's `on` to true once that page or shop is live.
 (function () {
   const HEADER_LINKS = [
-    { href: "/trends/", label: "Trends", on: false },
+    { href: "/trends/", label: "Trends", on: true },
     { href: "/data/", label: "Data", on: true },
     { href: "https://citymoods311.redbubble.com/", label: "Shop", on: false, ext: true },
   ];

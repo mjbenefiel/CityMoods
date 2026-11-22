@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>Chicago 311 trends by neighborhood · CityMoods</title>
+<meta name="description" content="A year of Chicago 311 requests by community area. Pick a request type and time range, see where it's reported most, adjust for population and compare neighborhoods.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CityMoods">
+<meta property="og:title" content="Chicago 311 trends, neighborhood by neighborhood">
+<meta property="og:description" content="A year of 311 requests across Chicago's 77 community areas. Pick a request type, see where it's reported most, and compare neighborhoods.">
+<meta property="og:url" content="https://citymoods311.com/trends/">
+<meta property="og:image" content="https://citymoods311.com/share/chicago.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#14161B">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css?v=202611220000">
+<script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+<header class="top"><a class="brand" href="/" aria-label="CityMoods home"><img src="/favicon.svg" alt="" width="22" height="22"> CityMoods</a></header>
+
+<main class="trends">
+  <p class="kicker" id="t-kicker">Chicago · 311 trends</p>
+  <h1>What Chicago reports, neighborhood by neighborhood.</h1>
+  <p class="t-sub">See which 311 requests come up most in each Chicago neighborhood, and how neighborhoods compare, over the past week up to the past year. Handy if you're curious about your own neighborhood, getting to know a new one, or reporting a story.</p>
+  <ol class="t-how" aria-label="How to use this page">
+    <li><b>Pick what to look at.</b> A request type (rats, potholes, tree trims) or a whole mood, and a time range.</li>
+    <li><b>See where it comes up.</b> Darker neighborhoods on the map had more reports; the list ranks them. Switch to "per 1,000 residents" to even out big and small neighborhoods.</li>
+    <li><b>Compare.</b> Tap up to 3 neighborhoods for side-by-side numbers, a year-long trend line and each one's top requests.</li>
+  </ol>
+  <p class="t-first">Chicago is first. More cities are on the way. <a href="mailto:admin@citymoods311.com?subject=Trends%20for%20my%20city%3A%20">Want yours next? Tell us.</a></p>
+
+  <div class="t-controls" role="group" aria-label="Filters">
+    <label class="t-field"><span>Request type</span>
+      <select id="t-type"></select>
+    </label>
+    <div class="t-field"><span id="t-range-label">Time range</span>
+      <div class="seg" id="t-range" role="radiogroup" aria-labelledby="t-range-label"></div>
+    </div>
+    <div class="t-field"><span id="t-per-label">Show</span>
+      <div class="seg" id="t-per" role="radiogroup" aria-labelledby="t-per-label">
+        <button type="button" role="radio" data-per="0">Total</button>
+        <button type="button" role="radio" data-per="1">Per 1,000 residents</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="t-grid">
+    <section class="t-mapbox" aria-label="Map">
+      <p class="t-city-total" id="t-total">Loading…</p>
+      <svg id="t-map" role="img" aria-label="Map of Chicago community areas shaded by the selected request type"></svg>
+      <div class="t-legend" id="t-legend"></div>
+      <div class="t-tip" id="t-tip" hidden></div>
+    </section>
+    <section class="t-list" aria-labelledby="t-list-title">
+      <h2 id="t-list-title">Most reports</h2>
+      <p class="t-hint" id="t-hint">Tap a neighborhood to compare it (up to 3).</p>
+      <ol id="t-rank"></ol>
+      <button type="button" class="t-more" id="t-more">Show all 77</button>
+    </section>
+  </div>
+
+  <section class="t-compare" id="t-compare" aria-labelledby="t-compare-title" hidden>
+    <h2 id="t-compare-title">Compare</h2>
+    <div class="t-cards" id="t-cards"></div>
+  </section>
+
+  <section class="t-notes">
+    <p><strong>What this shows:</strong> how often people asked the city for something, not how good a neighborhood is. Some neighborhoods call 311 more than others for the same problem, and big neighborhoods get more reports simply because more people live there. "Per 1,000 residents" evens that out.</p>
+    <p class="fine" id="t-fine">Counts come from the City of Chicago's 311 open data, counted by community area on the city's portal: no individual requests, addresses or names are downloaded. Counts under 3 are hidden. Requests about people, such as wage or housing complaints, aren't included. Population: U.S. Census Bureau American Community Survey 5-year estimates. Want the numbers? See the <a href="/data/">Data page</a>.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Data: <a href="https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy">Chicago 311 Service Requests</a> and <a href="https://data.cityofchicago.org/Health-Human-Services/ACS-5-Year-Data-by-Community-Area-Most-Recent-Year/7umk-8dtw">ACS 5-year data by community area</a>, from the City of Chicago Data Portal. CityMoods is independent and not affiliated with the City of Chicago.</p>
+</footer>
+
+<script src="/trends.js?v=202611220000"></script>
+<script src="/menu.js?v=202611220000"></script>
+</body>
+</html>

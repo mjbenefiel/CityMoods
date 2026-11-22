@@ -527,6 +527,13 @@ def main():
     except (SystemExit, Exception) as e:
         log(f"Data downloads not updated: {e}")
         failed.append("downloads")
+    if args.city in ("all", "chicago") and not (args.date or args.dates):
+        try:   # the Trends page's year of Chicago counts (skips itself if Chicago has no new day)
+            from trends import export_trends
+            export_trends()
+        except (SystemExit, Exception) as e:
+            log(f"Trends not updated: {e}")
+            failed.append("trends")
     if failed:
         raise SystemExit(f"Some cities failed: {', '.join(failed)}")
 

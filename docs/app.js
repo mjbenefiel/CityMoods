@@ -772,29 +772,3 @@
 
   start();
 })();
-
-// Email links: plenty of people have no mail app set up, so a mailto click does nothing for them.
-// Copy the address too and say so, while still letting the mail app open for everyone else.
-(function () {
-  let toast;
-  function show(msg) {
-    if (!toast) {
-      toast = document.createElement("div");
-      toast.className = "toast";
-      toast.setAttribute("role", "status");
-      document.body.appendChild(toast);
-    }
-    toast.textContent = msg;
-    toast.classList.add("on");
-    clearTimeout(show.t);
-    show.t = setTimeout(() => toast.classList.remove("on"), 3500);
-  }
-  document.addEventListener("click", (ev) => {
-    const a = ev.target.closest && ev.target.closest('a[href^="mailto:"]');
-    if (!a) return;
-    const addr = decodeURIComponent(a.getAttribute("href").slice(7).split("?")[0]);
-    const done = () => show(`Email address copied: ${addr}`);
-    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(addr).then(done, () => show(`Email us at ${addr}`));
-    else show(`Email us at ${addr}`);
-  });
-})();

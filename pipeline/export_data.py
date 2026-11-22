@@ -49,7 +49,7 @@ def mood_rules(key: str) -> list[tuple[str, str, str]]:
         sm = {"la": simple.LA, "sf": simple.SF, "boston": simple.BOSTON}[key]
         rows += [(m, "exact", t) for t, m in sm._lookup.items() if t not in sm.sensitive]
         rows += [(m, "contains (regex)", rx.pattern) for rx, m in sm.keyword_moods]
-    return sorted(set(rows), key=lambda r: (list(MOODS).index(r[0]), r[1], r[2].lower()))
+    return sorted(set(rows), key=lambda r: (list(MOODS).index(r[0]), r[1], r[2].lower(), r[2]))
 
 
 # Every column in every download, in plain words (rendered on the Data page and as data-dictionary.csv).
@@ -251,33 +251,7 @@ ASK_SCRIPT = """<script>
   render();
 })();
 </script>
-<script>
-// Email links: plenty of people have no mail app set up, so a mailto click does nothing for them.
-// Copy the address too and say so, while still letting the mail app open for everyone else.
-(function () {
-  let toast;
-  function show(msg) {
-    if (!toast) {
-      toast = document.createElement("div");
-      toast.className = "toast";
-      toast.setAttribute("role", "status");
-      document.body.appendChild(toast);
-    }
-    toast.textContent = msg;
-    toast.classList.add("on");
-    clearTimeout(show.t);
-    show.t = setTimeout(() => toast.classList.remove("on"), 3500);
-  }
-  document.addEventListener("click", (ev) => {
-    const a = ev.target.closest && ev.target.closest('a[href^="mailto:"]');
-    if (!a) return;
-    const addr = decodeURIComponent(a.getAttribute("href").slice(7).split("?")[0]);
-    const done = () => show(`Email address copied: ${addr}`);
-    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(addr).then(done, () => show(`Email us at ${addr}`));
-    else show(`Email us at ${addr}`);
-  });
-})();
-</script>"""
+<script src="/menu.js?v=202611212300"></script>"""
 
 
 def write_page(cities: list[dict], files: list[dict]):
@@ -347,7 +321,7 @@ def write_page(cities: list[dict], files: list[dict]):
 <link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="alternate" type="application/json" href="downloads/manifest.json" title="CityMoods data manifest">
-<link rel="stylesheet" href="../style.css?v=202611171900">
+<link rel="stylesheet" href="../style.css?v=202611212300">
 <style>
 main{{max-width:760px;padding:24px 16px 48px}} main p,main li{{color:var(--muted);line-height:1.55}}
 h1{{font-size:32px}} h2{{margin-top:28px}} main a{{color:var(--ink)}}
@@ -378,8 +352,8 @@ code{{font-size:13px;background:var(--panel);border:1px solid var(--line);border
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
+<header class="top"><a class="brand" href="/" aria-label="CityMoods home"><img src="/favicon.svg" alt="" width="22" height="22"> CityMoods</a></header>
 <main>
-<p><a href="../">← CityMoods</a></p>
 <h1>Data downloads</h1>
 <p class="lead">Every day, CityMoods sorts each city's 311 requests into the same ten moods, so you can compare rats in Chicago with rodents in New York. Here's all of it as plain CSV files, free to use.</p>
 <p>Updated nightly (newest day: {e(updated)}). Free to use with credit under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>: please cite <b>"CityMoods (citymoods311.com), from [city] 311 open data"</b>.</p>

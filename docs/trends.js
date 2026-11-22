@@ -65,11 +65,17 @@
     const W = 600, pad = 10, s = (W - pad * 2) / (maxX - minX), H = Math.round((maxY - minY) * s + pad * 2);
     svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
     const pt = ([lon, lat]) => `${((lon * k - minX) * s + pad).toFixed(1)},${((-lat - minY) * s + pad).toFixed(1)}`;
+    // The hover box goes away as soon as the pointer leaves the map, the page scrolls, Esc is pressed,
+    // or someone taps anywhere else.
+    svg.addEventListener("pointerleave", hideTip);
+    svg.addEventListener("pointermove", (ev) => { if (ev.target === svg) hideTip(); });   // over the lake or a gap
+    for (const t of ["scroll", "wheel", "touchmove"]) window.addEventListener(t, hideTip, { passive: true });
+    document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") hideTip(); });
+    document.addEventListener("pointerdown", (ev) => { if (!ev.target.closest || !ev.target.closest("#t-map path")) hideTip(); });
     geo.features.forEach((f) => {
       const el = document.createElementNS(SVGNS, "path");
       el.setAttribute("d", polys(f.geometry).map((p) => p.map((r) => "M" + r.map(pt).join("L") + "Z").join("")).join(""));
-      el.addEventListener("pointermove", (ev) => tip(f.id, ev));
-      el.addEventListener("pointerleave", () => ($("t-tip").hidden = true));
+      el.addEventListener("pointermove", (ev) => { if (ev.pointerType === "mouse") tip(f.id, ev); });
       el.addEventListener("click", (ev) => { toggleCompare(f.id); tip(f.id, ev); });
       svg.append(el);
       paths[f.id] = el;
@@ -100,6 +106,8 @@
         `<span class="hid"><i style="background:${HIDDEN}"></i>under 3</span>`
       : `<span>No neighborhood has 3 or more reports in this range.</span>`;
   }
+
+  function hideTip() { $("t-tip").hidden = true; }
 
   function tip(id, ev) {
     const k = T.areas.findIndex((a) => a.id === id);

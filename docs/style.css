@@ -442,7 +442,7 @@ a.brand img { display: block; }
 .t-city-total b { color: var(--ink); }
 #t-map { display: block; width: 100%; max-height: 78vh; }
 #t-map path { stroke: var(--bg); stroke-width: .8; cursor: pointer; transition: fill .2s; }
-#t-map path:hover { stroke: var(--ink); stroke-width: 1.4; }
+@media (hover: hover) { #t-map path:hover { stroke: var(--ink); stroke-width: 1.4; } }   /* phones keep :hover stuck after a tap */
 #t-map path.picked { stroke: var(--ink); stroke-width: 2.2; }
 .t-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 10px; font-size: 13px; color: var(--muted); }
 .t-legend .ramp { display: inline-flex; }
@@ -450,7 +450,10 @@ a.brand img { display: block; }
 .t-legend .hid { display: inline-flex; align-items: center; gap: 6px; margin-left: auto; }
 .t-tip { position: absolute; pointer-events: none; background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
   padding: 8px 10px; font-size: 13px; display: flex; flex-direction: column; gap: 2px; box-shadow: 0 6px 20px rgba(0,0,0,.35); max-width: 240px; z-index: 4; }
-.t-tip[hidden] { display: none; }   /* display:flex above would otherwise beat the hidden attribute */
+.t-tip[hidden] { display: none; }
+.t-tip.touch { pointer-events: auto; padding-right: 40px; }
+.t-tip .t-status { margin-top: 4px; color: var(--ink); font-weight: 600; }
+.t-tip .t-close { position: absolute; top: 4px; right: 4px; width: 32px; height: 32px; border: 0; background: none; color: var(--muted); font-size: 20px; line-height: 1; }   /* display:flex above would otherwise beat the hidden attribute */
 .t-tip b { font-size: 14px; }
 .t-tip .t-side { color: var(--muted); }
 .t-list { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
@@ -461,14 +464,14 @@ a.brand img { display: block; }
 #t-rank button { width: 100%; display: grid; grid-template-columns: 26px 1fr auto; grid-template-areas: "n nm val" "n bar bar";
   gap: 4px 8px; align-items: center; text-align: left; background: none; border: 1px solid transparent; border-radius: 10px; padding: 7px 8px; }
 #t-rank button::before { content: counter(r); grid-area: n; color: var(--muted); font-size: 13px; }
-#t-rank button:hover { border-color: var(--line); }
+@media (hover: hover) { #t-rank button:hover { border-color: var(--line); } }
 #t-rank button[aria-pressed="true"] { border-color: var(--ink); background: var(--bg); }
 #t-rank .nm { grid-area: nm; font-weight: 600; font-size: 15px; }
 #t-rank .val { grid-area: val; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; }
 #t-rank .bar { grid-area: bar; height: 4px; background: var(--empty); border-radius: 2px; overflow: hidden; }
 #t-rank .bar i { display: block; height: 100%; border-radius: 2px; }
 .t-more { margin-top: 8px; background: none; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 14px; color: var(--ink); }
-.t-more:hover { border-color: var(--muted); }
+@media (hover: hover) { .t-more:hover { border-color: var(--muted); } }
 .t-compare { margin-top: 18px; }
 .t-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin-top: 10px; }
 .t-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }

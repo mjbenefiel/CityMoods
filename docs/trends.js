@@ -71,12 +71,18 @@
     svg.addEventListener("pointermove", (ev) => { if (ev.target === svg) hideTip(); });   // over the lake or a gap
     for (const t of ["scroll", "wheel", "touchmove"]) window.addEventListener(t, hideTip, { passive: true });
     document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") hideTip(); });
+    // Tapping anywhere but a neighborhood closes the box, including tapping the box itself (or its ×).
     document.addEventListener("pointerdown", (ev) => { if (!ev.target.closest || !ev.target.closest("#t-map path")) hideTip(); });
     geo.features.forEach((f) => {
       const el = document.createElementNS(SVGNS, "path");
       el.setAttribute("d", polys(f.geometry).map((p) => p.map((r) => "M" + r.map(pt).join("L") + "Z").join("")).join(""));
       el.addEventListener("pointermove", (ev) => { if (ev.pointerType === "mouse") tip(f.id, ev); });
-      el.addEventListener("click", (ev) => { toggleCompare(f.id); tip(f.id, ev); });
+      el.addEventListener("click", (ev) => {
+        // Phones: a tap adds the neighborhood to Compare (a second tap removes it) and says so in the box.
+        const touch = ev.pointerType ? ev.pointerType !== "mouse" : !matchMedia("(hover: hover)").matches;
+        toggleCompare(f.id);
+        tip(f.id, ev, touch ? (S.compare.includes(f.id) ? "added" : "removed") : null);
+      });
       svg.append(el);
       paths[f.id] = el;
     });
@@ -107,9 +113,10 @@
       : `<span>No neighborhood has 3 or more reports in this range.</span>`;
   }
 
-  function hideTip() { $("t-tip").hidden = true; }
+  let tipTimer;
+  function hideTip() { clearTimeout(tipTimer); $("t-tip").hidden = true; }
 
-  function tip(id, ev) {
+  function tip(id, ev, status) {
     const k = T.areas.findIndex((a) => a.id === id);
     if (k < 0) return;
     const a = T.areas[k], n = counts()[k], tot = cityTotal();
@@ -118,8 +125,18 @@
     box.innerHTML = `<b>${esc(a.name)}</b><span class="t-side">${esc(a.side)}</span>` +
       (n == null ? `<span>Under 3 reports</span>` :
         `<span>${fmt(n)} report${n === 1 ? "" : "s"}${tot ? ` · ${((n / tot) * 100).toFixed(1)}% of the city` : ""}</span>` +
-        (r != null ? `<span>${fmtRate(r)} per 1,000 residents</span>` : ""));
+        (r != null ? `<span>${fmtRate(r)} per 1,000 residents</span>` : "")) +
+      (status ? `<span class="t-status">${status === "added" ? "✓ Added to Compare below. Tap again to remove." : "Removed from Compare."}</span>` +
+        `<button type="button" class="t-close" aria-label="Close">×</button>` : "");
+    box.classList.toggle("touch", !!status);
     box.hidden = false;
+    clearTimeout(tipTimer);
+    if (status === "removed") tipTimer = setTimeout(hideTip, 1800);
+    if (status) {                  // phones: park the box in the map's top corner instead of under the finger
+      box.style.left = "8px";
+      box.style.top = "8px";
+      return;
+    }
     const x = Math.min(ev.clientX - host.left + 14, host.width - box.offsetWidth - 8);
     const y = Math.max(ev.clientY - host.top - box.offsetHeight - 10, 8);
     box.style.left = `${Math.max(8, x)}px`;

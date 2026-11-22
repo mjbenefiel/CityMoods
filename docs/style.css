@@ -518,3 +518,4 @@ a.brand img { display: block; }
 @media (max-width: 860px) { .t-find .search input { font-size: 16px; } }
 .t-find .results li.none { color: var(--muted); cursor: default; white-space: normal; }
 .t-find .results li.none:hover { background: none; }
+.t-field .seg { align-self: flex-start; }   /* hug the buttons instead of stretching across the panel on phones */

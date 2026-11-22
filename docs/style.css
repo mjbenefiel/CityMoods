@@ -450,6 +450,7 @@ a.brand img { display: block; }
 .t-legend .hid { display: inline-flex; align-items: center; gap: 6px; margin-left: auto; }
 .t-tip { position: absolute; pointer-events: none; background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
   padding: 8px 10px; font-size: 13px; display: flex; flex-direction: column; gap: 2px; box-shadow: 0 6px 20px rgba(0,0,0,.35); max-width: 240px; z-index: 4; }
+.t-tip[hidden] { display: none; }   /* display:flex above would otherwise beat the hidden attribute */
 .t-tip b { font-size: 14px; }
 .t-tip .t-side { color: var(--muted); }
 .t-list { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }

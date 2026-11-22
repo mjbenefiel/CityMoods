@@ -888,3 +888,75 @@ date,neighborhood_id,neighborhood,area,neighborhood_total,mood,requests
 2026-11-19,west-roxbury,West Roxbury,Boston,30,streets,8
 2026-11-19,west-roxbury,West Roxbury,Boston,30,critters,4
 2026-11-19,west-roxbury,West Roxbury,Boston,30,trash,3
+2026-11-20,allston,Allston,Boston,31,trash,12
+2026-11-20,allston,Allston,Boston,31,parking,12
+2026-11-20,allston,Allston,Boston,31,critters,5
+2026-11-20,back-bay,Back Bay,Boston,38,trash,13
+2026-11-20,back-bay,Back Bay,Boston,38,parking,13
+2026-11-20,back-bay,Back Bay,Boston,38,streets,5
+2026-11-20,back-bay,Back Bay,Boston,38,other,4
+2026-11-20,bay-village,Bay Village,Boston,3,trash,3
+2026-11-20,beacon-hill,Beacon Hill,Boston,18,critters,6
+2026-11-20,beacon-hill,Beacon Hill,Boston,18,trash,5
+2026-11-20,beacon-hill,Beacon Hill,Boston,18,parking,4
+2026-11-20,brighton,Brighton,Boston,31,parking,12
+2026-11-20,brighton,Brighton,Boston,31,trash,6
+2026-11-20,brighton,Brighton,Boston,31,critters,5
+2026-11-20,brighton,Brighton,Boston,31,streets,4
+2026-11-20,charlestown,Charlestown,Boston,21,trash,9
+2026-11-20,charlestown,Charlestown,Boston,21,parking,7
+2026-11-20,chinatown,Chinatown,Boston,11,parking,7
+2026-11-20,dorchester,Dorchester,Boston,122,trash,35
+2026-11-20,dorchester,Dorchester,Boston,122,parking,30
+2026-11-20,dorchester,Dorchester,Boston,122,streets,17
+2026-11-20,dorchester,Dorchester,Boston,122,other,13
+2026-11-20,dorchester,Dorchester,Boston,122,critters,10
+2026-11-20,dorchester,Dorchester,Boston,122,housing,10
+2026-11-20,dorchester,Dorchester,Boston,122,trees,7
+2026-11-20,downtown,Downtown,Boston,33,parking,24
+2026-11-20,downtown,Downtown,Boston,33,trash,4
+2026-11-20,east-boston,East Boston,Boston,44,parking,24
+2026-11-20,east-boston,East Boston,Boston,44,trash,10
+2026-11-20,east-boston,East Boston,Boston,44,streets,6
+2026-11-20,fenway,Fenway,Boston,26,parking,14
+2026-11-20,fenway,Fenway,Boston,26,streets,5
+2026-11-20,fenway,Fenway,Boston,26,trash,5
+2026-11-20,hyde-park,Hyde Park,Boston,17,parking,6
+2026-11-20,hyde-park,Hyde Park,Boston,17,trash,6
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,51,streets,14
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,51,trash,13
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,51,parking,9
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,51,critters,7
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,51,trees,4
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,51,other,3
+2026-11-20,longwood,Longwood,Boston,6,parking,5
+2026-11-20,mattapan,Mattapan,Boston,20,other,6
+2026-11-20,mattapan,Mattapan,Boston,20,streets,4
+2026-11-20,mattapan,Mattapan,Boston,20,trash,4
+2026-11-20,mattapan,Mattapan,Boston,20,parking,3
+2026-11-20,mission-hill,Mission Hill,Boston,12,parking,3
+2026-11-20,mission-hill,Mission Hill,Boston,12,trash,3
+2026-11-20,mission-hill,Mission Hill,Boston,12,critters,3
+2026-11-20,north-end,North End,Boston,30,trash,12
+2026-11-20,north-end,North End,Boston,30,streets,11
+2026-11-20,roslindale,Roslindale,Boston,21,trash,11
+2026-11-20,roslindale,Roslindale,Boston,21,parking,6
+2026-11-20,roxbury,Roxbury,Boston,62,parking,21
+2026-11-20,roxbury,Roxbury,Boston,62,trash,17
+2026-11-20,roxbury,Roxbury,Boston,62,other,12
+2026-11-20,roxbury,Roxbury,Boston,62,streets,7
+2026-11-20,south-boston,South Boston,Boston,61,parking,35
+2026-11-20,south-boston,South Boston,Boston,61,streets,8
+2026-11-20,south-boston,South Boston,Boston,61,trash,7
+2026-11-20,south-boston,South Boston,Boston,61,critters,5
+2026-11-20,south-boston,South Boston,Boston,61,other,4
+2026-11-20,south-boston-waterfront,South Boston Waterfront,Boston,18,parking,9
+2026-11-20,south-boston-waterfront,South Boston Waterfront,Boston,18,streets,7
+2026-11-20,south-end,South End,Boston,78,parking,29
+2026-11-20,south-end,South End,Boston,78,trash,29
+2026-11-20,south-end,South End,Boston,78,other,7
+2026-11-20,south-end,South End,Boston,78,streets,6
+2026-11-20,south-end,South End,Boston,78,critters,3
+2026-11-20,south-end,South End,Boston,78,housing,3
+2026-11-20,west-roxbury,West Roxbury,Boston,20,parking,10
+2026-11-20,west-roxbury,West Roxbury,Boston,20,trash,6

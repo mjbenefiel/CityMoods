@@ -131,6 +131,17 @@ nyc,New York,2026-11-19,Thursday,trash,Trash talk,689,660,66,43,0
 nyc,New York,2026-11-19,Thursday,water,Water & sewers,283,434,66,43,0
 nyc,New York,2026-11-19,Thursday,critters,Critters,149,171,66,43,0
 nyc,New York,2026-11-19,Thursday,trees,Trees,105,174,66,43,0
+nyc,New York,2026-11-20,Friday,all,All requests,11173,11473,70,45,0
+nyc,New York,2026-11-20,Friday,parking,Parking wars,2864,2831,70,45,0
+nyc,New York,2026-11-20,Friday,noise,Noise,2247,1982,70,45,0
+nyc,New York,2026-11-20,Friday,housing,Home repairs,2148,2263,70,45,0
+nyc,New York,2026-11-20,Friday,other,Everything else,1063,1024,70,45,0
+nyc,New York,2026-11-20,Friday,heat,No heat,915,1459,70,45,0
+nyc,New York,2026-11-20,Friday,streets,Street fixes,771,815,70,45,0
+nyc,New York,2026-11-20,Friday,trash,Trash talk,642,541,70,45,0
+nyc,New York,2026-11-20,Friday,water,Water & sewers,277,284,70,45,0
+nyc,New York,2026-11-20,Friday,critters,Critters,143,128,70,45,0
+nyc,New York,2026-11-20,Friday,trees,Trees,103,146,70,45,0
 chicago,Chicago,2026-11-09,Monday,all,All requests,2731,2394,58,37,0
 chicago,Chicago,2026-11-09,Monday,trash,Trash talk,1089,790,58,37,0
 chicago,Chicago,2026-11-09,Monday,streets,Street fixes,398,392,58,37,0
@@ -263,6 +274,17 @@ chicago,Chicago,2026-11-20,Friday,housing,Home repairs,122,113,66,42,0
 chicago,Chicago,2026-11-20,Friday,other,Everything else,62,56,66,42,0
 chicago,Chicago,2026-11-20,Friday,heat,No heat,0,0,66,42,0
 chicago,Chicago,2026-11-20,Friday,noise,Noise,0,0,66,42,0
+chicago,Chicago,2026-11-21,Saturday,all,All requests,1210,1109,68,45,0
+chicago,Chicago,2026-11-21,Saturday,trash,Trash talk,484,313,68,45,0
+chicago,Chicago,2026-11-21,Saturday,parking,Parking wars,197,168,68,45,0
+chicago,Chicago,2026-11-21,Saturday,critters,Critters,168,202,68,45,0
+chicago,Chicago,2026-11-21,Saturday,streets,Street fixes,156,194,68,45,0
+chicago,Chicago,2026-11-21,Saturday,housing,Home repairs,54,67,68,45,0
+chicago,Chicago,2026-11-21,Saturday,water,Water & sewers,52,54,68,45,0
+chicago,Chicago,2026-11-21,Saturday,other,Everything else,50,45,68,45,0
+chicago,Chicago,2026-11-21,Saturday,trees,Trees,49,66,68,45,0
+chicago,Chicago,2026-11-21,Saturday,heat,No heat,0,0,68,45,0
+chicago,Chicago,2026-11-21,Saturday,noise,Noise,0,0,68,45,0
 la,Los Angeles,2026-11-09,Monday,all,All requests,4572,4013,90,61,0
 la,Los Angeles,2026-11-09,Monday,trash,Trash talk,3129,2618,90,61,0
 la,Los Angeles,2026-11-09,Monday,streets,Street fixes,514,472,90,61,0
@@ -527,6 +549,17 @@ sf,San Francisco,2026-11-20,Friday,housing,Home repairs,26,18,56,46,0.06
 sf,San Francisco,2026-11-20,Friday,noise,Noise,24,44,56,46,0.06
 sf,San Francisco,2026-11-20,Friday,heat,No heat,0,0,56,46,0.06
 sf,San Francisco,2026-11-20,Friday,critters,Critters,0,0,56,46,0.06
+sf,San Francisco,2026-11-21,Saturday,all,All requests,2402,2432,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,trash,Trash talk,988,916,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,parking,Parking wars,719,766,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,other,Everything else,442,488,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,streets,Street fixes,134,114,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,water,Water & sewers,57,33,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,noise,Noise,29,78,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,trees,Trees,22,24,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,housing,Home repairs,11,13,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,heat,No heat,0,0,54,43,0.32
+sf,San Francisco,2026-11-21,Saturday,critters,Critters,0,0,54,43,0.32
 boston,Boston,2026-11-08,Sunday,all,All requests,520,430,56,44,0.2
 boston,Boston,2026-11-08,Sunday,parking,Parking wars,200,118,56,44,0.2
 boston,Boston,2026-11-08,Sunday,trash,Trash talk,101,129,56,44,0.2
@@ -659,3 +692,14 @@ boston,Boston,2026-11-19,Thursday,trees,Trees,17,26,64,35,0
 boston,Boston,2026-11-19,Thursday,heat,No heat,4,0,64,35,0
 boston,Boston,2026-11-19,Thursday,noise,Noise,0,0,64,35,0
 boston,Boston,2026-11-19,Thursday,water,Water & sewers,0,0,64,35,0
+boston,Boston,2026-11-20,Friday,all,All requests,793,705,67,36,0
+boston,Boston,2026-11-20,Friday,parking,Parking wars,289,278,67,36,0
+boston,Boston,2026-11-20,Friday,trash,Trash talk,216,196,67,36,0
+boston,Boston,2026-11-20,Friday,streets,Street fixes,114,116,67,36,0
+boston,Boston,2026-11-20,Friday,other,Everything else,61,41,67,36,0
+boston,Boston,2026-11-20,Friday,critters,Critters,55,43,67,36,0
+boston,Boston,2026-11-20,Friday,housing,Home repairs,34,14,67,36,0
+boston,Boston,2026-11-20,Friday,trees,Trees,21,16,67,36,0
+boston,Boston,2026-11-20,Friday,heat,No heat,3,3,67,36,0
+boston,Boston,2026-11-20,Friday,noise,Noise,0,0,67,36,0
+boston,Boston,2026-11-20,Friday,water,Water & sewers,0,0,67,36,0

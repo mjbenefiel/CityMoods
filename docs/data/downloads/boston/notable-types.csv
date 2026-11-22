@@ -170,3 +170,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-19,Thursday,Domestic animal,critters,17,15,1.15,top
 2026-11-19,Thursday,Missing or knocked-down sign,streets,13,12,1.13,top
 2026-11-19,Thursday,Illegally blocked sidewalk,streets,13,11,1.18,top
+2026-11-20,Friday,Illegal parking,parking,268,226,1.18,top
+2026-11-20,Friday,Litter and debris,trash,79,68,1.15,top
+2026-11-20,Friday,Missed trash pickup,trash,54,46,1.17,top
+2026-11-20,Friday,Street light outage,streets,24,20,1.23,top
+2026-11-20,Friday,Rats,critters,21,10,2.15,top
+2026-11-20,Friday,Dead animal,critters,19,16,1.19,top
+2026-11-20,Friday,Improper trash storage,trash,17,15,1.13,top
+2026-11-20,Friday,Abandoned vehicles,parking,15,43,0.35,top
+2026-11-20,Friday,Illegally blocked sidewalk,streets,14,11,1.3,top
+2026-11-20,Friday,Illegal dumping or disposal,trash,14,20,0.7,top
+2026-11-20,Friday,Overflowing trash,trash,14,12,1.17,top
+2026-11-20,Friday,Construction debris,trash,14,6,2.33,top
+2026-11-20,Friday,Park groundskeeping,trees,13,4,3.71,top
+2026-11-20,Friday,Trash put out too early,trash,12,14,0.84,top
+2026-11-20,Friday,New / modified sign,streets,12,10,1.26,top

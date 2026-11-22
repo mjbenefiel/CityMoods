@@ -356,3 +356,34 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-19,Thursday,Construction or other noise,noise,230,227,1.01,top
 2026-11-19,Thursday,Dirty street or sidewalk,trash,198,214,0.93,top
 2026-11-19,Thursday,Potholes and street damage,streets,191,249,0.77,top
+2026-11-20,Friday,Compost,trash,53,18,3.03,spike
+2026-11-20,Friday,Food vendor: unlicensed,other,34,18,1.94,spike
+2026-11-20,Friday,Missed trash pickup,trash,160,80,2.0,spike
+2026-11-20,Friday,Building safety,housing,80,49,1.64,spike
+2026-11-20,Friday,Loud music/party (next door),noise,540,526,1.03,top
+2026-11-20,Friday,Blocked hydrant,parking,515,485,1.06,top
+2026-11-20,Friday,Posted parking sign violation,parking,489,575,0.85,top
+2026-11-20,Friday,Driveway fully blocked,parking,453,406,1.11,top
+2026-11-20,Friday,Banging/pounding (next door),noise,415,415,1.0,top
+2026-11-20,Friday,Loud music/party (on the street),noise,411,283,1.45,top
+2026-11-20,Friday,No heat (whole building),heat,361,721,0.5,top
+2026-11-20,Friday,Blocked sidewalk,parking,307,272,1.13,top
+2026-11-20,Friday,Abandoned car (with plates),parking,258,203,1.27,top
+2026-11-20,Friday,Loud music/party (at a business),noise,203,160,1.27,top
+2026-11-20,Friday,No heat (one apartment),heat,165,340,0.48,top
+2026-11-20,Friday,No heat and no hot water (whole building),heat,160,182,0.88,top
+2026-11-20,Friday,Driveway partly blocked,parking,141,158,0.89,top
+2026-11-20,Friday,Street light out,streets,138,149,0.93,top
+2026-11-20,Friday,Mold,housing,132,145,0.91,top
+2026-11-20,Friday,Illegal parking,parking,1939,1960,0.99,top
+2026-11-20,Friday,Noisy neighbors,noise,1072,1050,1.02,top
+2026-11-20,Friday,No heat or hot water,heat,905,1439,0.63,top
+2026-11-20,Friday,Blocked driveway,parking,594,564,1.05,top
+2026-11-20,Friday,Street noise,noise,537,384,1.4,top
+2026-11-20,Friday,Unsanitary apartment,housing,442,483,0.92,top
+2026-11-20,Friday,Noisy business,noise,259,206,1.26,top
+2026-11-20,Friday,Abandoned car,parking,258,203,1.27,top
+2026-11-20,Friday,Plumbing,housing,256,243,1.05,top
+2026-11-20,Friday,Peeling paint or plaster,housing,230,248,0.93,top
+2026-11-20,Friday,Construction or other noise,noise,180,175,1.03,top
+2026-11-20,Friday,Potholes and street damage,streets,170,194,0.88,top

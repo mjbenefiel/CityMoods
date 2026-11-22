@@ -753,3 +753,67 @@ date,neighborhood_id,neighborhood,area,request_type,mood,requests
 2026-11-19,west-roxbury,West Roxbury,Boston,Pothole,streets,3
 2026-11-19,west-roxbury,West Roxbury,Boston,Sidewalk repair,streets,3
 2026-11-19,west-roxbury,West Roxbury,Boston,Litter and debris,trash,3
+2026-11-20,allston,Allston,Boston,Illegal parking,parking,11
+2026-11-20,allston,Allston,Boston,Missed trash pickup,trash,7
+2026-11-20,allston,Allston,Boston,Dead animal,critters,4
+2026-11-20,back-bay,Back Bay,Boston,Illegal parking,parking,13
+2026-11-20,back-bay,Back Bay,Boston,Trash put out too early,trash,5
+2026-11-20,back-bay,Back Bay,Boston,Litter and debris,trash,4
+2026-11-20,bay-village,Bay Village,Boston,Litter and debris,trash,3
+2026-11-20,beacon-hill,Beacon Hill,Boston,Illegal parking,parking,4
+2026-11-20,beacon-hill,Beacon Hill,Boston,Rats,critters,4
+2026-11-20,brighton,Brighton,Boston,Illegal parking,parking,11
+2026-11-20,brighton,Brighton,Boston,Improper trash storage,trash,3
+2026-11-20,charlestown,Charlestown,Boston,Illegal parking,parking,5
+2026-11-20,charlestown,Charlestown,Boston,Litter and debris,trash,5
+2026-11-20,chinatown,Chinatown,Boston,Illegal parking,parking,7
+2026-11-20,dorchester,Dorchester,Boston,Illegal parking,parking,28
+2026-11-20,dorchester,Dorchester,Boston,Missed trash pickup,trash,12
+2026-11-20,dorchester,Dorchester,Boston,Litter and debris,trash,9
+2026-11-20,dorchester,Dorchester,Boston,Illegal dumping or disposal,trash,5
+2026-11-20,dorchester,Dorchester,Boston,Unsatisfactory living conditions,housing,4
+2026-11-20,dorchester,Dorchester,Boston,Park groundskeeping,trees,4
+2026-11-20,dorchester,Dorchester,Boston,Construction debris,trash,3
+2026-11-20,dorchester,Dorchester,Boston,Utility contractor complaints,streets,3
+2026-11-20,dorchester,Dorchester,Boston,Dead animal,critters,3
+2026-11-20,dorchester,Dorchester,Boston,No building permit or violation of permit,housing,3
+2026-11-20,dorchester,Dorchester,Boston,Rats,critters,3
+2026-11-20,downtown,Downtown,Boston,Illegal parking,parking,24
+2026-11-20,east-boston,East Boston,Boston,Illegal parking,parking,18
+2026-11-20,east-boston,East Boston,Boston,Abandoned vehicles,parking,6
+2026-11-20,east-boston,East Boston,Boston,Construction debris,trash,3
+2026-11-20,east-boston,East Boston,Boston,Pothole,streets,3
+2026-11-20,fenway,Fenway,Boston,Illegal parking,parking,14
+2026-11-20,fenway,Fenway,Boston,Litter and debris,trash,4
+2026-11-20,hyde-park,Hyde Park,Boston,Illegal parking,parking,3
+2026-11-20,hyde-park,Hyde Park,Boston,Missed trash pickup,trash,3
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,Missed trash pickup,trash,8
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,Illegal parking,parking,8
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,Rats,critters,5
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,Litter and debris,trash,5
+2026-11-20,jamaica-plain,Jamaica Plain,Boston,Park groundskeeping,trees,3
+2026-11-20,longwood,Longwood,Boston,Illegal parking,parking,5
+2026-11-20,mattapan,Mattapan,Boston,Illegal parking,parking,3
+2026-11-20,mission-hill,Mission Hill,Boston,Illegal parking,parking,3
+2026-11-20,north-end,North End,Boston,Street light outage,streets,8
+2026-11-20,north-end,North End,Boston,Overflowing trash,trash,4
+2026-11-20,north-end,North End,Boston,Trash put out too early,trash,3
+2026-11-20,roslindale,Roslindale,Boston,Litter and debris,trash,5
+2026-11-20,roslindale,Roslindale,Boston,Illegal parking,parking,5
+2026-11-20,roslindale,Roslindale,Boston,Missed trash pickup,trash,3
+2026-11-20,roxbury,Roxbury,Boston,Illegal parking,parking,19
+2026-11-20,roxbury,Roxbury,Boston,Missed trash pickup,trash,7
+2026-11-20,roxbury,Roxbury,Boston,Litter and debris,trash,4
+2026-11-20,roxbury,Roxbury,Boston,Illegal dumping or disposal,trash,3
+2026-11-20,south-boston,South Boston,Boston,Illegal parking,parking,34
+2026-11-20,south-boston,South Boston,Boston,Illegally blocked sidewalk,streets,4
+2026-11-20,south-boston-waterfront,South Boston Waterfront,Boston,Illegal parking,parking,9
+2026-11-20,south-boston-waterfront,South Boston Waterfront,Boston,Illegally blocked sidewalk,streets,3
+2026-11-20,south-end,South End,Boston,Illegal parking,parking,28
+2026-11-20,south-end,South End,Boston,Litter and debris,trash,19
+2026-11-20,south-end,South End,Boston,Illegal dumping or disposal,trash,4
+2026-11-20,south-end,South End,Boston,Sidewalk repair,streets,4
+2026-11-20,south-end,South End,Boston,Missed trash pickup,trash,3
+2026-11-20,south-end,South End,Boston,Building maintenance violations,housing,3
+2026-11-20,west-roxbury,West Roxbury,Boston,Illegal parking,parking,10
+2026-11-20,west-roxbury,West Roxbury,Boston,Missed trash pickup,trash,4

@@ -1,11 +1,11 @@
 // Site menu, shared by every page: a few links in the header on wide screens, and a ☰ button that opens a
 // slide-out menu with everything (on phones it's the only way in). Edit the lists below to add a page:
-// set Trends' or Shop's `on` to true once that page or shop is live.
+// set a link's `on` to false to hide it.
 (function () {
   const HEADER_LINKS = [
     { href: "/trends/", label: "Trends", on: true },
     { href: "/data/", label: "Data", on: true },
-    { href: "https://citymoods311.redbubble.com/", label: "Shop", on: false, ext: true },
+    { href: "/shop/", label: "Shop", on: true },
   ];
   const CITIES = [["nyc", "New York"], ["chicago", "Chicago"], ["la", "Los Angeles"], ["sf", "San Francisco"], ["boston", "Boston"]];
   const MORE = [

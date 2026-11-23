@@ -527,7 +527,7 @@ a.brand img { display: block; }
 .shop-sub { color: var(--muted); max-width: 680px; margin: 0 0 26px; }
 .shop-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .product { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
-.product .ph { display: block; background: #3E424D; }   /* matches the edge of the slate product photos */
+.product .ph { display: block; background: #ECE7E1; }   /* matches the edge of the off-white product photos */
 .product .ph img { display: block; width: 100%; height: auto; aspect-ratio: 1; transition: transform .25s ease; }
 @media (hover: hover) { .product:hover .ph img { transform: scale(1.03); } }
 .product .pinfo { padding: 14px 16px 18px; display: flex; flex-direction: column; flex: 1; }

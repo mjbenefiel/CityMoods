@@ -201,3 +201,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-21,Saturday,Missing city vehicle sticker,parking,24,11,2.18,top
 2026-11-21,Saturday,Street cleaning,trash,24,9,2.74,top
 2026-11-21,Saturday,Pothole,streets,22,35,0.63,top
+2026-11-22,Sunday,Tree planting,trees,45,9,5.14,spike
+2026-11-22,Sunday,Yard waste pickup,trash,138,141,0.98,top
+2026-11-22,Sunday,Graffiti,trash,83,180,0.46,top
+2026-11-22,Sunday,Abandoned car,parking,77,80,0.96,top
+2026-11-22,Sunday,Rats,critters,75,86,0.87,top
+2026-11-22,Sunday,Parking enforcement review,parking,59,63,0.94,top
+2026-11-22,Sunday,Busted garbage cart,trash,53,64,0.83,top
+2026-11-22,Sunday,Pothole,streets,41,32,1.29,top
+2026-11-22,Sunday,Stray animal,critters,36,26,1.38,top
+2026-11-22,Sunday,Lead test kit,water,30,37,0.82,top
+2026-11-22,Sunday,Sanitation code violation,trash,27,22,1.24,top
+2026-11-22,Sunday,Illegal dumping,trash,27,30,0.92,top
+2026-11-22,Sunday,Building violation,housing,25,28,0.88,top
+2026-11-22,Sunday,Street light out,streets,24,67,0.36,top
+2026-11-22,Sunday,Traffic signal out,streets,22,38,0.58,top

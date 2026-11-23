@@ -12326,3 +12326,87 @@ date,neighborhood_id,neighborhood,borough,neighborhood_total,mood,requests
 2026-11-20,QN0203,Woodside,Queens,71,other,6
 2026-11-20,QN0203,Woodside,Queens,71,trash,4
 2026-11-20,QN0203,Woodside,Queens,71,water,4
+2026-11-21,BX1104,Allerton,Bronx,6,noise,5
+2026-11-21,QN0104,Astoria (East)-Woodside (North),Queens,5,noise,3
+2026-11-21,BK1001,Bay Ridge,Brooklyn,5,parking,3
+2026-11-21,BX0702,Bedford Park,Bronx,7,noise,6
+2026-11-21,BK0302,Bedford-Stuyvesant (East),Brooklyn,6,noise,6
+2026-11-21,BK0301,Bedford-Stuyvesant (West),Brooklyn,16,noise,13
+2026-11-21,BX0603,Belmont,Bronx,4,noise,4
+2026-11-21,BK1101,Bensonhurst,Brooklyn,9,parking,6
+2026-11-21,BK1101,Bensonhurst,Brooklyn,9,noise,3
+2026-11-21,BK1202,Borough Park,Brooklyn,5,noise,5
+2026-11-21,BK1303,Brighton Beach,Brooklyn,5,parking,4
+2026-11-21,BK1602,Brownsville,Brooklyn,6,noise,4
+2026-11-21,BK0402,Bushwick (East),Brooklyn,3,noise,3
+2026-11-21,BK0401,Bushwick (West),Brooklyn,20,noise,15
+2026-11-21,BK1803,Canarsie,Brooklyn,9,noise,5
+2026-11-21,BK1803,Canarsie,Brooklyn,9,parking,4
+2026-11-21,MN0401,Chelsea-Hudson Yards,Manhattan,6,other,3
+2026-11-21,BK0204,Clinton Hill,Brooklyn,6,noise,6
+2026-11-21,QN0701,College Point,Queens,3,noise,3
+2026-11-21,BX0401,Concourse-Concourse Village,Bronx,7,noise,6
+2026-11-21,QN0402,Corona,Queens,4,noise,3
+2026-11-21,BX0303,Crotona Park East,Bronx,6,noise,4
+2026-11-21,BK0802,Crown Heights (North),Brooklyn,14,noise,14
+2026-11-21,BK0901,Crown Heights (South),Brooklyn,3,noise,3
+2026-11-21,QN0302,East Elmhurst,Queens,3,parking,3
+2026-11-21,MN1102,East Harlem (North),Manhattan,7,noise,7
+2026-11-21,MN0303,East Village,Manhattan,10,noise,9
+2026-11-21,BK0104,East Williamsburg,Brooklyn,11,noise,7
+2026-11-21,BK0104,East Williamsburg,Brooklyn,11,parking,4
+2026-11-21,QN0401,Elmhurst,Queens,5,parking,3
+2026-11-21,BK1401,Flatbush,Brooklyn,7,noise,4
+2026-11-21,QN0707,Flushing-Willets Point,Queens,20,noise,19
+2026-11-21,QN0602,Forest Hills,Queens,8,parking,4
+2026-11-21,BK0203,Fort Greene,Brooklyn,5,parking,4
+2026-11-21,QN0503,Glendale,Queens,7,noise,3
+2026-11-21,QN0503,Glendale,Queens,7,parking,3
+2026-11-21,MN0602,Gramercy,Manhattan,3,noise,3
+2026-11-21,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,5,noise,5
+2026-11-21,BK1301,Gravesend (South),Brooklyn,3,noise,3
+2026-11-21,BK0101,Greenpoint,Brooklyn,8,noise,7
+2026-11-21,MN0903,Hamilton Heights-Sugar Hill,Manhattan,24,noise,22
+2026-11-21,MN1002,Harlem (North),Manhattan,7,noise,7
+2026-11-21,MN1001,Harlem (South),Manhattan,5,noise,4
+2026-11-21,BX0402,Highbridge,Bronx,16,noise,7
+2026-11-21,BX0402,Highbridge,Bronx,16,trash,3
+2026-11-21,BX0402,Highbridge,Bronx,16,parking,3
+2026-11-21,MN1203,Inwood,Manhattan,6,noise,5
+2026-11-21,QN0301,Jackson Heights,Queens,14,parking,8
+2026-11-21,QN0301,Jackson Heights,Queens,14,noise,5
+2026-11-21,QN1201,Jamaica,Queens,9,noise,6
+2026-11-21,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,5,noise,3
+2026-11-21,BX0202,Longwood,Bronx,6,noise,5
+2026-11-21,MN0302,Lower East Side,Manhattan,15,noise,14
+2026-11-21,MN0502,Midtown-Times Square,Manhattan,8,parking,3
+2026-11-21,MN0502,Midtown-Times Square,Manhattan,8,noise,3
+2026-11-21,BX0301,Morrisania,Bronx,6,noise,6
+2026-11-21,BX0101,Mott Haven-Port Morris,Bronx,6,noise,5
+2026-11-21,BX0403,Mount Eden-Claremont (West),Bronx,8,noise,7
+2026-11-21,BX0502,Mount Hope,Bronx,8,noise,5
+2026-11-21,QN0704,Murray Hill-Broadway Flushing,Queens,4,noise,3
+2026-11-21,MN0603,Murray Hill-Kips Bay,Manhattan,6,noise,5
+2026-11-21,BK1601,Ocean Hill,Brooklyn,5,noise,4
+2026-11-21,BK0602,Park Slope,Brooklyn,3,noise,3
+2026-11-21,BX1003,Pelham Bay-Country Club-City Island,Bronx,4,parking,4
+2026-11-21,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,6,noise,5
+2026-11-21,QN0502,Ridgewood,Queens,6,noise,3
+2026-11-21,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,6,noise,5
+2026-11-21,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,6,noise,5
+2026-11-21,BX0901,Soundview-Bruckner-Bronx River,Bronx,4,noise,3
+2026-11-21,BX0902,Soundview-Clason Point,Bronx,7,noise,6
+2026-11-21,QN1001,South Ozone Park,Queens,5,parking,4
+2026-11-21,BK0504,Spring Creek-Starrett City,Brooklyn,14,parking,14
+2026-11-21,QN0202,Sunnyside,Queens,10,noise,9
+2026-11-21,BX0501,University Heights (South)-Morris Heights,Bronx,4,noise,3
+2026-11-21,MN0702,Upper West Side (Central),Manhattan,6,noise,4
+2026-11-21,MN0701,Upper West Side-Lincoln Square,Manhattan,4,noise,3
+2026-11-21,MN0703,Upper West Side-Manhattan Valley,Manhattan,7,noise,7
+2026-11-21,MN1202,Washington Heights (North),Manhattan,7,noise,6
+2026-11-21,MN1201,Washington Heights (South),Manhattan,3,noise,3
+2026-11-21,BX0601,West Farms,Bronx,3,noise,3
+2026-11-21,MN0203,West Village,Manhattan,6,noise,4
+2026-11-21,BK0102,Williamsburg,Brooklyn,14,noise,12
+2026-11-21,QN0905,Woodhaven,Queens,4,parking,3
+2026-11-21,QN0203,Woodside,Queens,3,noise,3

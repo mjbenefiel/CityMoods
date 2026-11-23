@@ -1852,3 +1852,128 @@ date,neighborhood_id,neighborhood,area,neighborhood_total,mood,requests
 2026-11-21,western-addition,Western Addition,San Francisco,57,trash,31
 2026-11-21,western-addition,Western Addition,San Francisco,57,other,11
 2026-11-21,western-addition,Western Addition,San Francisco,57,parking,10
+2026-11-22,bayview-hunters-point,Bayview Hunters Point,San Francisco,89,trash,42
+2026-11-22,bayview-hunters-point,Bayview Hunters Point,San Francisco,89,parking,24
+2026-11-22,bayview-hunters-point,Bayview Hunters Point,San Francisco,89,other,12
+2026-11-22,bayview-hunters-point,Bayview Hunters Point,San Francisco,89,water,5
+2026-11-22,bayview-hunters-point,Bayview Hunters Point,San Francisco,89,streets,5
+2026-11-22,bernal-heights,Bernal Heights,San Francisco,52,trash,22
+2026-11-22,bernal-heights,Bernal Heights,San Francisco,52,parking,17
+2026-11-22,bernal-heights,Bernal Heights,San Francisco,52,other,9
+2026-11-22,castro-upper-market,Castro/Upper Market,San Francisco,76,trash,25
+2026-11-22,castro-upper-market,Castro/Upper Market,San Francisco,76,parking,25
+2026-11-22,castro-upper-market,Castro/Upper Market,San Francisco,76,other,18
+2026-11-22,castro-upper-market,Castro/Upper Market,San Francisco,76,streets,6
+2026-11-22,chinatown,Chinatown,San Francisco,44,parking,19
+2026-11-22,chinatown,Chinatown,San Francisco,44,trash,17
+2026-11-22,chinatown,Chinatown,San Francisco,44,other,4
+2026-11-22,chinatown,Chinatown,San Francisco,44,water,3
+2026-11-22,excelsior,Excelsior,San Francisco,39,trash,19
+2026-11-22,excelsior,Excelsior,San Francisco,39,parking,17
+2026-11-22,financial-district-south-beach,Financial District/South Beach,San Francisco,95,parking,32
+2026-11-22,financial-district-south-beach,Financial District/South Beach,San Francisco,95,other,25
+2026-11-22,financial-district-south-beach,Financial District/South Beach,San Francisco,95,trash,21
+2026-11-22,financial-district-south-beach,Financial District/South Beach,San Francisco,95,streets,7
+2026-11-22,financial-district-south-beach,Financial District/South Beach,San Francisco,95,trees,6
+2026-11-22,financial-district-south-beach,Financial District/South Beach,San Francisco,95,water,3
+2026-11-22,glen-park,Glen Park,San Francisco,11,trash,7
+2026-11-22,golden-gate-park,Golden Gate Park,San Francisco,17,other,7
+2026-11-22,golden-gate-park,Golden Gate Park,San Francisco,17,streets,6
+2026-11-22,golden-gate-park,Golden Gate Park,San Francisco,17,trash,4
+2026-11-22,haight-ashbury,Haight Ashbury,San Francisco,79,trash,40
+2026-11-22,haight-ashbury,Haight Ashbury,San Francisco,79,parking,16
+2026-11-22,haight-ashbury,Haight Ashbury,San Francisco,79,other,14
+2026-11-22,haight-ashbury,Haight Ashbury,San Francisco,79,water,3
+2026-11-22,hayes-valley,Hayes Valley,San Francisco,72,trash,31
+2026-11-22,hayes-valley,Hayes Valley,San Francisco,72,other,24
+2026-11-22,hayes-valley,Hayes Valley,San Francisco,72,parking,12
+2026-11-22,inner-richmond,Inner Richmond,San Francisco,42,parking,14
+2026-11-22,inner-richmond,Inner Richmond,San Francisco,42,trash,14
+2026-11-22,inner-richmond,Inner Richmond,San Francisco,42,other,8
+2026-11-22,inner-richmond,Inner Richmond,San Francisco,42,water,3
+2026-11-22,inner-richmond,Inner Richmond,San Francisco,42,streets,3
+2026-11-22,inner-sunset,Inner Sunset,San Francisco,71,trash,32
+2026-11-22,inner-sunset,Inner Sunset,San Francisco,71,parking,23
+2026-11-22,inner-sunset,Inner Sunset,San Francisco,71,other,9
+2026-11-22,inner-sunset,Inner Sunset,San Francisco,71,streets,5
+2026-11-22,japantown,Japantown,San Francisco,12,trash,8
+2026-11-22,japantown,Japantown,San Francisco,12,other,3
+2026-11-22,lakeshore,Lakeshore,San Francisco,16,parking,5
+2026-11-22,lakeshore,Lakeshore,San Francisco,16,trash,4
+2026-11-22,lakeshore,Lakeshore,San Francisco,16,streets,4
+2026-11-22,lone-mountain-usf,Lone Mountain/USF,San Francisco,47,trash,30
+2026-11-22,lone-mountain-usf,Lone Mountain/USF,San Francisco,47,other,8
+2026-11-22,lone-mountain-usf,Lone Mountain/USF,San Francisco,47,parking,5
+2026-11-22,marina,Marina,San Francisco,69,parking,36
+2026-11-22,marina,Marina,San Francisco,69,trash,21
+2026-11-22,marina,Marina,San Francisco,69,other,5
+2026-11-22,marina,Marina,San Francisco,69,streets,3
+2026-11-22,mission,Mission,San Francisco,350,trash,203
+2026-11-22,mission,Mission,San Francisco,350,other,78
+2026-11-22,mission,Mission,San Francisco,350,parking,42
+2026-11-22,mission,Mission,San Francisco,350,water,13
+2026-11-22,mission,Mission,San Francisco,350,streets,8
+2026-11-22,mission,Mission,San Francisco,350,noise,4
+2026-11-22,mission-bay,Mission Bay,San Francisco,21,parking,7
+2026-11-22,mission-bay,Mission Bay,San Francisco,21,other,7
+2026-11-22,mission-bay,Mission Bay,San Francisco,21,trash,6
+2026-11-22,nob-hill,Nob Hill,San Francisco,99,trash,38
+2026-11-22,nob-hill,Nob Hill,San Francisco,99,parking,35
+2026-11-22,nob-hill,Nob Hill,San Francisco,99,other,22
+2026-11-22,noe-valley,Noe Valley,San Francisco,32,parking,10
+2026-11-22,noe-valley,Noe Valley,San Francisco,32,trash,9
+2026-11-22,noe-valley,Noe Valley,San Francisco,32,other,7
+2026-11-22,north-beach,North Beach,San Francisco,51,parking,22
+2026-11-22,north-beach,North Beach,San Francisco,51,other,15
+2026-11-22,north-beach,North Beach,San Francisco,51,trash,8
+2026-11-22,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,26,parking,14
+2026-11-22,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,26,trash,6
+2026-11-22,outer-mission,Outer Mission,San Francisco,35,parking,19
+2026-11-22,outer-mission,Outer Mission,San Francisco,35,other,7
+2026-11-22,outer-mission,Outer Mission,San Francisco,35,trash,5
+2026-11-22,outer-richmond,Outer Richmond,San Francisco,57,trash,27
+2026-11-22,outer-richmond,Outer Richmond,San Francisco,57,parking,22
+2026-11-22,outer-richmond,Outer Richmond,San Francisco,57,streets,4
+2026-11-22,outer-richmond,Outer Richmond,San Francisco,57,housing,3
+2026-11-22,pacific-heights,Pacific Heights,San Francisco,64,parking,31
+2026-11-22,pacific-heights,Pacific Heights,San Francisco,64,trash,15
+2026-11-22,pacific-heights,Pacific Heights,San Francisco,64,other,13
+2026-11-22,portola,Portola,San Francisco,23,trash,11
+2026-11-22,portola,Portola,San Francisco,23,parking,8
+2026-11-22,potrero-hill,Potrero Hill,San Francisco,27,trash,12
+2026-11-22,potrero-hill,Potrero Hill,San Francisco,27,other,7
+2026-11-22,potrero-hill,Potrero Hill,San Francisco,27,parking,4
+2026-11-22,potrero-hill,Potrero Hill,San Francisco,27,streets,3
+2026-11-22,presidio-heights,Presidio Heights,San Francisco,16,parking,10
+2026-11-22,presidio-heights,Presidio Heights,San Francisco,16,trash,4
+2026-11-22,russian-hill,Russian Hill,San Francisco,63,trash,26
+2026-11-22,russian-hill,Russian Hill,San Francisco,63,parking,22
+2026-11-22,russian-hill,Russian Hill,San Francisco,63,other,12
+2026-11-22,russian-hill,Russian Hill,San Francisco,63,streets,3
+2026-11-22,south-of-market,South of Market,San Francisco,126,other,45
+2026-11-22,south-of-market,South of Market,San Francisco,126,trash,42
+2026-11-22,south-of-market,South of Market,San Francisco,126,parking,22
+2026-11-22,south-of-market,South of Market,San Francisco,126,water,8
+2026-11-22,south-of-market,South of Market,San Francisco,126,trees,4
+2026-11-22,south-of-market,South of Market,San Francisco,126,streets,4
+2026-11-22,sunset-parkside,Sunset/Parkside,San Francisco,104,trash,48
+2026-11-22,sunset-parkside,Sunset/Parkside,San Francisco,104,parking,23
+2026-11-22,sunset-parkside,Sunset/Parkside,San Francisco,104,streets,15
+2026-11-22,sunset-parkside,Sunset/Parkside,San Francisco,104,other,10
+2026-11-22,sunset-parkside,Sunset/Parkside,San Francisco,104,water,4
+2026-11-22,sunset-parkside,Sunset/Parkside,San Francisco,104,noise,3
+2026-11-22,tenderloin,Tenderloin,San Francisco,132,trash,61
+2026-11-22,tenderloin,Tenderloin,San Francisco,132,other,60
+2026-11-22,tenderloin,Tenderloin,San Francisco,132,parking,10
+2026-11-22,twin-peaks,Twin Peaks,San Francisco,7,trash,4
+2026-11-22,visitacion-valley,Visitacion Valley,San Francisco,27,parking,17
+2026-11-22,visitacion-valley,Visitacion Valley,San Francisco,27,trash,5
+2026-11-22,visitacion-valley,Visitacion Valley,San Francisco,27,other,3
+2026-11-22,west-of-twin-peaks,West of Twin Peaks,San Francisco,53,parking,19
+2026-11-22,west-of-twin-peaks,West of Twin Peaks,San Francisco,53,trash,14
+2026-11-22,west-of-twin-peaks,West of Twin Peaks,San Francisco,53,other,9
+2026-11-22,west-of-twin-peaks,West of Twin Peaks,San Francisco,53,streets,7
+2026-11-22,west-of-twin-peaks,West of Twin Peaks,San Francisco,53,trees,3
+2026-11-22,western-addition,Western Addition,San Francisco,45,trash,18
+2026-11-22,western-addition,Western Addition,San Francisco,45,other,14
+2026-11-22,western-addition,Western Addition,San Francisco,45,parking,10

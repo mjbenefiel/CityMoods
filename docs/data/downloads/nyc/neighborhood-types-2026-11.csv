@@ -11391,3 +11391,55 @@ date,neighborhood_id,neighborhood,borough,request_type,mood,requests
 2026-11-20,QN0203,Woodside,Queens,Abandoned car (with plates),parking,6
 2026-11-20,QN0203,Woodside,Queens,Driveway fully blocked,parking,5
 2026-11-20,QN0203,Woodside,Queens,Blocked hydrant,parking,4
+2026-11-21,BX1104,Allerton,Bronx,Loud music/party (next door),noise,4
+2026-11-21,BK1001,Bay Ridge,Brooklyn,Blocked hydrant,parking,3
+2026-11-21,BX0702,Bedford Park,Bronx,Loud music/party (next door),noise,3
+2026-11-21,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud music/party (next door),noise,3
+2026-11-21,BK0301,Bedford-Stuyvesant (West),Brooklyn,Loud music/party (next door),noise,5
+2026-11-21,BX0603,Belmont,Bronx,Loud music/party (next door),noise,4
+2026-11-21,BK1101,Bensonhurst,Brooklyn,Blocked hydrant,parking,6
+2026-11-21,BK1202,Borough Park,Brooklyn,Loud music/party (next door),noise,4
+2026-11-21,BK1602,Brownsville,Brooklyn,Loud music/party (on the street),noise,3
+2026-11-21,BK0401,Bushwick (West),Brooklyn,Loud music/party (at a business),noise,7
+2026-11-21,BK0401,Bushwick (West),Brooklyn,Loud music/party (next door),noise,5
+2026-11-21,BK0204,Clinton Hill,Brooklyn,Loud music/party (at a business),noise,4
+2026-11-21,BX0401,Concourse-Concourse Village,Bronx,Loud music/party (next door),noise,3
+2026-11-21,BX0303,Crotona Park East,Bronx,Loud music/party (on the street),noise,3
+2026-11-21,BK0802,Crown Heights (North),Brooklyn,Loud music/party (at a business),noise,4
+2026-11-21,BK0802,Crown Heights (North),Brooklyn,Loud music/party (next door),noise,4
+2026-11-21,BK0802,Crown Heights (North),Brooklyn,Loud music/party (on the street),noise,3
+2026-11-21,MN1102,East Harlem (North),Manhattan,Loud music/party (at a business),noise,4
+2026-11-21,MN0303,East Village,Manhattan,Loud music/party (next door),noise,3
+2026-11-21,MN0303,East Village,Manhattan,Loud music/party (at a business),noise,3
+2026-11-21,MN0303,East Village,Manhattan,Loud music/party (on the street),noise,3
+2026-11-21,BK0104,East Williamsburg,Brooklyn,Parking permit improper use: parked in front of fire hydrant,parking,4
+2026-11-21,BK0104,East Williamsburg,Brooklyn,Loud music/party (at a business),noise,3
+2026-11-21,BK1401,Flatbush,Brooklyn,Loud music/party (on the street),noise,3
+2026-11-21,QN0707,Flushing-Willets Point,Queens,Loud music/party (on the street),noise,19
+2026-11-21,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,Loud music/party (on the street),noise,3
+2026-11-21,BK1301,Gravesend (South),Brooklyn,Loud music/party (next door),noise,3
+2026-11-21,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud music/party (next door),noise,15
+2026-11-21,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud talking (on the street),noise,3
+2026-11-21,MN1002,Harlem (North),Manhattan,Loud music/party (on the street),noise,4
+2026-11-21,BX0402,Highbridge,Bronx,Loud music/party (on the street),noise,4
+2026-11-21,QN0301,Jackson Heights,Queens,Blocked hydrant,parking,8
+2026-11-21,QN0301,Jackson Heights,Queens,Loud music/party (next door),noise,3
+2026-11-21,QN1201,Jamaica,Queens,Loud music/party (on the street),noise,3
+2026-11-21,BX0202,Longwood,Bronx,Loud music/party (next door),noise,3
+2026-11-21,MN0302,Lower East Side,Manhattan,Loud music/party (at a business),noise,6
+2026-11-21,BX0403,Mount Eden-Claremont (West),Bronx,Loud music/party (on the street),noise,4
+2026-11-21,BX0502,Mount Hope,Bronx,Loud music/party (next door),noise,4
+2026-11-21,BX1003,Pelham Bay-Country Club-City Island,Bronx,Blocked hydrant,parking,3
+2026-11-21,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Loud music/party (next door),noise,3
+2026-11-21,BX0902,Soundview-Clason Point,Bronx,Loud music/party (next door),noise,4
+2026-11-21,BK0504,Spring Creek-Starrett City,Brooklyn,Posted parking sign violation,parking,5
+2026-11-21,BK0504,Spring Creek-Starrett City,Brooklyn,Double parked blocking traffic,parking,4
+2026-11-21,BK0504,Spring Creek-Starrett City,Brooklyn,Blocked hydrant,parking,3
+2026-11-21,MN0703,Upper West Side-Manhattan Valley,Manhattan,Loud music/party (next door),noise,3
+2026-11-21,MN0703,Upper West Side-Manhattan Valley,Manhattan,Loud talking (on the street),noise,3
+2026-11-21,MN1202,Washington Heights (North),Manhattan,Banging/pounding (next door),noise,5
+2026-11-21,MN1201,Washington Heights (South),Manhattan,Loud talking (on the street),noise,3
+2026-11-21,BK0102,Williamsburg,Brooklyn,Loud music/party (at a business),noise,4
+2026-11-21,BK0102,Williamsburg,Brooklyn,Loud music/party (next door),noise,3
+2026-11-21,BK0102,Williamsburg,Brooklyn,Loud music/party (on the street),noise,3
+2026-11-21,QN0203,Woodside,Queens,Loud music/party (next door),noise,3

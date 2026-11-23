@@ -355,3 +355,30 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-21,Saturday,Noise,noise,29,78,0.37,top
 2026-11-21,Saturday,Sidewalk and curb,streets,27,22,1.23,top
 2026-11-21,Saturday,Muni service,streets,26,15,1.73,top
+2026-11-22,Sunday,Lime scooter,parking,75,33,2.27,spike
+2026-11-22,Sunday,Clogged storm drain: maintenance,water,27,12,2.16,spike
+2026-11-22,Sunday,Loose garbage,trash,305,285,1.07,top
+2026-11-22,Sunday,Illegal parking,parking,150,188,0.8,top
+2026-11-22,Sunday,Bagged or boxed garbage,trash,126,152,0.83,top
+2026-11-22,Sunday,Blocked driveway,parking,104,128,0.82,top
+2026-11-22,Sunday,Overflowing city trash can,trash,95,90,1.05,top
+2026-11-22,Sunday,Furniture,trash,84,84,0.99,top
+2026-11-22,Sunday,Parking on the sidewalk,parking,75,111,0.67,top
+2026-11-22,Sunday,Blocked driveway (tow requested),parking,56,76,0.74,top
+2026-11-22,Sunday,Graffiti on pole,trash,37,24,1.56,top
+2026-11-22,Sunday,Scooter with no license plate,parking,35,25,1.39,top
+2026-11-22,Sunday,Abandoned car,parking,30,44,0.69,top
+2026-11-22,Sunday,Graffiti on building commercial,trash,30,18,1.67,top
+2026-11-22,Sunday,Spin scooter,parking,28,24,1.17,top
+2026-11-22,Sunday,Street cleaning,trash,713,723,0.99,top
+2026-11-22,Sunday,Parking enforcement,parking,436,562,0.78,top
+2026-11-22,Sunday,Blocked street and sidewalk,parking,164,105,1.56,top
+2026-11-22,Sunday,Graffiti (public),trash,118,95,1.24,top
+2026-11-22,Sunday,General,other,81,77,1.05,top
+2026-11-22,Sunday,Sewer,water,64,52,1.24,top
+2026-11-22,Sunday,Graffiti (private property),trash,55,36,1.54,top
+2026-11-22,Sunday,Streetlights,streets,27,14,2.0,top
+2026-11-22,Sunday,Sidewalk and curb,streets,26,22,1.16,top
+2026-11-22,Sunday,Tree maintenance,trees,25,25,1.0,top
+2026-11-22,Sunday,Noise,noise,23,48,0.48,top
+2026-11-22,Sunday,Litter receptacle maintenance,trash,23,30,0.76,top

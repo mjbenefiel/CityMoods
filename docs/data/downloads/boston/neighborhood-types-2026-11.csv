@@ -817,3 +817,60 @@ date,neighborhood_id,neighborhood,area,request_type,mood,requests
 2026-11-20,south-end,South End,Boston,Building maintenance violations,housing,3
 2026-11-20,west-roxbury,West Roxbury,Boston,Illegal parking,parking,10
 2026-11-20,west-roxbury,West Roxbury,Boston,Missed trash pickup,trash,4
+2026-11-21,allston,Allston,Boston,Illegal parking,parking,7
+2026-11-21,allston,Allston,Boston,Dead animal,critters,4
+2026-11-21,allston,Allston,Boston,Missed trash pickup,trash,3
+2026-11-21,back-bay,Back Bay,Boston,Litter and debris,trash,4
+2026-11-21,back-bay,Back Bay,Boston,Improper trash storage,trash,3
+2026-11-21,beacon-hill,Beacon Hill,Boston,Trash put out too early,trash,9
+2026-11-21,beacon-hill,Beacon Hill,Boston,Illegal parking,parking,4
+2026-11-21,beacon-hill,Beacon Hill,Boston,Dead animal,critters,3
+2026-11-21,beacon-hill,Beacon Hill,Boston,Litter and debris,trash,3
+2026-11-21,brighton,Brighton,Boston,Illegal parking,parking,15
+2026-11-21,brighton,Brighton,Boston,Litter and debris,trash,4
+2026-11-21,brighton,Brighton,Boston,Missing or knocked-down sign,streets,3
+2026-11-21,brighton,Brighton,Boston,Traffic signal,streets,3
+2026-11-21,charlestown,Charlestown,Boston,Illegal parking,parking,8
+2026-11-21,chinatown,Chinatown,Boston,Illegal parking,parking,18
+2026-11-21,dorchester,Dorchester,Boston,Illegal parking,parking,17
+2026-11-21,dorchester,Dorchester,Boston,Dead animal,critters,4
+2026-11-21,dorchester,Dorchester,Boston,Litter and debris,trash,4
+2026-11-21,dorchester,Dorchester,Boston,Broken park equipment,trees,3
+2026-11-21,dorchester,Dorchester,Boston,Wild animal,critters,3
+2026-11-21,downtown,Downtown,Boston,Illegal parking,parking,9
+2026-11-21,downtown,Downtown,Boston,Trash put out too early,trash,3
+2026-11-21,east-boston,East Boston,Boston,Illegal parking,parking,15
+2026-11-21,east-boston,East Boston,Boston,Litter and debris,trash,6
+2026-11-21,east-boston,East Boston,Boston,Rats,critters,5
+2026-11-21,east-boston,East Boston,Boston,Abandoned vehicles,parking,3
+2026-11-21,east-boston,East Boston,Boston,Dead animal,critters,3
+2026-11-21,east-boston,East Boston,Boston,Illegal dumping or disposal,trash,3
+2026-11-21,fenway,Fenway,Boston,Illegal parking,parking,12
+2026-11-21,fenway,Fenway,Boston,Graffiti,trash,3
+2026-11-21,hyde-park,Hyde Park,Boston,Illegal parking,parking,5
+2026-11-21,hyde-park,Hyde Park,Boston,Illegally blocked sidewalk,streets,3
+2026-11-21,jamaica-plain,Jamaica Plain,Boston,Illegal parking,parking,13
+2026-11-21,jamaica-plain,Jamaica Plain,Boston,Litter and debris,trash,6
+2026-11-21,jamaica-plain,Jamaica Plain,Boston,Rats,critters,3
+2026-11-21,jamaica-plain,Jamaica Plain,Boston,Wild animal,critters,3
+2026-11-21,longwood,Longwood,Boston,Illegal parking,parking,13
+2026-11-21,mattapan,Mattapan,Boston,Illegal parking,parking,3
+2026-11-21,north-end,North End,Boston,Trash put out too early,trash,13
+2026-11-21,north-end,North End,Boston,Litter and debris,trash,8
+2026-11-21,north-end,North End,Boston,Overflowing trash,trash,4
+2026-11-21,north-end,North End,Boston,Graffiti,trash,3
+2026-11-21,roxbury,Roxbury,Boston,Litter and debris,trash,8
+2026-11-21,roxbury,Roxbury,Boston,Illegal parking,parking,7
+2026-11-21,roxbury,Roxbury,Boston,Improper trash storage,trash,3
+2026-11-21,south-boston,South Boston,Boston,Illegal parking,parking,23
+2026-11-21,south-boston,South Boston,Boston,Wild animal,critters,3
+2026-11-21,south-boston-waterfront,South Boston Waterfront,Boston,Illegal parking,parking,6
+2026-11-21,south-boston-waterfront,South Boston Waterfront,Boston,Traffic signal,streets,3
+2026-11-21,south-end,South End,Boston,Illegal parking,parking,17
+2026-11-21,south-end,South End,Boston,Litter and debris,trash,14
+2026-11-21,south-end,South End,Boston,Overflowing trash,trash,8
+2026-11-21,south-end,South End,Boston,Graffiti,trash,7
+2026-11-21,south-end,South End,Boston,Rats,critters,3
+2026-11-21,south-end,South End,Boston,Trash put out too early,trash,3
+2026-11-21,west-end,West End,Boston,Illegal parking,parking,4
+2026-11-21,west-roxbury,West Roxbury,Boston,Illegal parking,parking,6

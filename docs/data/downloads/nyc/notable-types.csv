@@ -410,3 +410,36 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-21,Saturday,Noise in a park,noise,3,28,0.11,top
 2026-11-21,Saturday,Maintenance or Facility,other,3,49,0.06,top
 2026-11-21,Saturday,Dirty street or sidewalk,trash,3,126,0.02,top
+2026-11-22,Sunday,Illegal conversion of residential building/space,housing,109,26,4.15,spike
+2026-11-22,Sunday,Driver complaint - non passenger: unsafe driving,other,116,30,3.8,spike
+2026-11-22,Sunday,Rodent sighting: street tree bed,other,30,10,3.16,spike
+2026-11-22,Sunday,Blocked bike lane,parking,99,33,3.02,spike
+2026-11-22,Sunday,Posted parking sign violation,parking,1088,391,2.78,spike
+2026-11-22,Sunday,For Hire Vehicle Complaint,other,128,42,3.08,spike
+2026-11-22,Sunday,Building/Use,housing,125,44,2.87,spike
+2026-11-22,Sunday,Loud music/party (next door),noise,872,890,0.98,top
+2026-11-22,Sunday,Blocked hydrant,parking,621,647,0.96,top
+2026-11-22,Sunday,Banging/pounding (next door),noise,597,549,1.09,top
+2026-11-22,Sunday,Loud music/party (on the street),noise,536,564,0.95,top
+2026-11-22,Sunday,Driveway fully blocked,parking,401,425,0.94,top
+2026-11-22,Sunday,Blocked sidewalk,parking,268,264,1.01,top
+2026-11-22,Sunday,No heat (whole building),heat,232,743,0.31,top
+2026-11-22,Sunday,Loud music/party (at a business),noise,225,247,0.91,top
+2026-11-22,Sunday,Blocked crosswalk,parking,149,120,1.24,top
+2026-11-22,Sunday,Abandoned car (with plates),parking,141,150,0.94,top
+2026-11-22,Sunday,Driveway partly blocked,parking,140,157,0.89,top
+2026-11-22,Sunday,Commercial overnight parking,parking,138,143,0.96,top
+2026-11-22,Sunday,No heat and no hot water (whole building),heat,136,253,0.54,top
+2026-11-22,Sunday,Loud talking (on the street),noise,117,114,1.03,top
+2026-11-22,Sunday,Illegal parking,parking,2619,1869,1.4,top
+2026-11-22,Sunday,Noisy neighbors,noise,1594,1564,1.02,top
+2026-11-22,Sunday,Street noise,noise,653,678,0.96,top
+2026-11-22,Sunday,No heat or hot water,heat,639,1508,0.42,top
+2026-11-22,Sunday,Blocked driveway,parking,541,582,0.93,top
+2026-11-22,Sunday,Noisy business,noise,278,304,0.91,top
+2026-11-22,Sunday,Unsanitary apartment,housing,270,274,0.98,top
+2026-11-22,Sunday,Construction or other noise,noise,169,161,1.05,top
+2026-11-22,Sunday,Plumbing,housing,164,158,1.04,top
+2026-11-22,Sunday,Dirty street or sidewalk,trash,161,147,1.09,top
+2026-11-22,Sunday,Noisy vehicle,noise,153,177,0.86,top
+2026-11-22,Sunday,Abandoned car,parking,141,150,0.94,top

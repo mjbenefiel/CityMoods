@@ -179,3 +179,48 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-20,Friday,Program research,other,30,40,0.74,top
 2026-11-20,Friday,Street sweeping,trash,28,17,1.65,top
 2026-11-20,Friday,Traffic safety,streets,27,30,0.9,top
+2026-11-21,Saturday,Potholes and pavement,streets,86,48,1.81,spike
+2026-11-21,Saturday,Landscape maintenance,trees,59,36,1.65,spike
+2026-11-21,Saturday,Illegal dumping,trash,635,610,1.04,top
+2026-11-21,Saturday,Graffiti,trash,312,476,0.66,top
+2026-11-21,Saturday,Service not completed (follow-up),trash,177,142,1.25,top
+2026-11-21,Saturday,Dead animal,critters,89,78,1.14,top
+2026-11-21,Saturday,Streetlight repair,streets,82,79,1.04,top
+2026-11-21,Saturday,Obstructions,streets,35,22,1.61,top
+2026-11-21,Saturday,Parking,parking,26,24,1.07,top
+2026-11-21,Saturday,Badly parked scooter or bike,parking,26,36,0.72,top
+2026-11-21,Saturday,Property violation,housing,23,23,1.01,top
+2026-11-21,Saturday,"Illegal auto repair or construction, and leaf blower violations",other,23,16,1.44,top
+2026-11-21,Saturday,Sidewalk problem,streets,21,18,1.2,top
+2026-11-21,Saturday,General street inspection,streets,19,8,2.24,top
+2026-11-21,Saturday,Traffic safety,streets,17,20,0.86,top
+2026-11-22,Sunday,Illegal dumping,trash,905,966,0.94,top
+2026-11-22,Sunday,Graffiti,trash,383,359,1.07,top
+2026-11-22,Sunday,Dead animal,critters,64,74,0.86,top
+2026-11-22,Sunday,Potholes and pavement,streets,56,57,0.99,top
+2026-11-22,Sunday,Streetlight repair,streets,51,90,0.57,top
+2026-11-22,Sunday,Landscape maintenance,trees,43,38,1.12,top
+2026-11-22,Sunday,Badly parked scooter or bike,parking,42,31,1.37,top
+2026-11-22,Sunday,Service not completed (follow-up),trash,36,57,0.63,top
+2026-11-22,Sunday,Property violation,housing,35,44,0.8,top
+2026-11-22,Sunday,Obstructions,streets,34,28,1.21,top
+2026-11-22,Sunday,Parking,parking,17,23,0.74,top
+2026-11-22,Sunday,Public street receptacles,trash,14,12,1.22,top
+2026-11-22,Sunday,Traffic sign,streets,11,16,0.69,top
+2026-11-22,Sunday,Sidewalk problem,streets,11,12,0.96,top
+2026-11-22,Sunday,Tree emergency,trees,11,34,0.33,top
+2026-11-23,Monday,Flooding,water,39,15,2.6,spike
+2026-11-23,Monday,Badly parked scooter or bike,parking,138,64,2.15,spike
+2026-11-23,Monday,Illegal dumping,trash,1521,1716,0.89,top
+2026-11-23,Monday,Graffiti,trash,669,828,0.81,top
+2026-11-23,Monday,Service not completed (follow-up),trash,257,257,1.0,top
+2026-11-23,Monday,Potholes and pavement,streets,135,135,1.0,top
+2026-11-23,Monday,Dead animal,critters,108,104,1.04,top
+2026-11-23,Monday,Streetlight repair,streets,84,135,0.62,top
+2026-11-23,Monday,Landscape maintenance,trees,83,83,1.0,top
+2026-11-23,Monday,Obstructions,streets,47,59,0.8,top
+2026-11-23,Monday,Street sweeping,trash,35,23,1.51,top
+2026-11-23,Monday,Tree emergency,trees,34,55,0.62,top
+2026-11-23,Monday,Program research,other,32,39,0.82,top
+2026-11-23,Monday,Parking,parking,30,38,0.79,top
+2026-11-23,Monday,"Illegal auto repair or construction, and leaf blower violations",other,30,30,0.98,top

@@ -92,10 +92,9 @@ footer p { margin: 0 0 6px; }
   border-bottom: 1px solid var(--line); }
 .tip p { margin: 0; font: 15px/1.4 var(--serif); color: var(--muted); }
 footer a.tip-btn { display: inline-flex; align-items: center; gap: 9px; padding: 10px 16px; border-radius: 10px;
-  background: var(--ink); color: var(--bg); font: 600 14px/1.2 var(--sans); text-decoration: none; transition: background .15s; }
-footer a.tip-btn::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
-footer a.tip-btn:hover { background: var(--accent); color: #fff; }
-footer a.tip-btn:hover::before { background: #fff; }
+  background: #C93D66; color: #fff; font: 600 14px/1.2 var(--sans); text-decoration: none; transition: background .15s; }
+footer a.tip-btn::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #fff; }
+footer a.tip-btn:hover { background: #AE3157; color: #fff; }
 footer a.tip-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 @media (max-width: 860px) {

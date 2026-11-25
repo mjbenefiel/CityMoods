@@ -91,6 +91,20 @@
   });
 })();
 
+// Tip jar: a plain link to Ko-fi in our own style, at the top of the footer on every page except the Shop
+// (which has its own Ko-fi line). Nothing loads from Ko-fi until someone clicks.
+(function () {
+  const footer = document.querySelector("footer");
+  if (!footer || location.pathname.startsWith("/shop/")) return;
+  const tip = document.createElement("div");
+  tip.className = "tip";
+  tip.innerHTML = '<p>Like the maps? They run on tips.</p>' +
+    '<a class="tip-btn" href="https://ko-fi.com/citymoods311" target="_blank" rel="noopener" ' +
+    'data-goatcounter-click="kofi-tip" data-goatcounter-title="Ko-fi tip button">Chip in for the maps ' +
+    '<span aria-hidden="true">↗</span><span class="sr"> (opens Ko-fi in a new tab)</span></a>';
+  footer.prepend(tip);
+})();
+
 // Email links: plenty of people have no mail app set up, so a mailto click does nothing for them.
 // Copy the address too and say so, while still letting the mail app open for everyone else.
 (function () {

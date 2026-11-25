@@ -153,3 +153,25 @@ date,weekday,mood,mood_label,requests,usual,high_f,low_f,rain_in
 2026-11-21,Saturday,heat,No heat,2,0,61,35,0
 2026-11-21,Saturday,noise,Noise,0,0,61,35,0
 2026-11-21,Saturday,water,Water & sewers,0,0,61,35,0
+2026-11-22,Sunday,all,All requests,491,499,60,41,0.19
+2026-11-22,Sunday,trash,Trash talk,176,128,60,41,0.19
+2026-11-22,Sunday,parking,Parking wars,132,176,60,41,0.19
+2026-11-22,Sunday,streets,Street fixes,69,77,60,41,0.19
+2026-11-22,Sunday,critters,Critters,50,49,60,41,0.19
+2026-11-22,Sunday,other,Everything else,34,44,60,41,0.19
+2026-11-22,Sunday,housing,Home repairs,15,6,60,41,0.19
+2026-11-22,Sunday,trees,Trees,15,18,60,41,0.19
+2026-11-22,Sunday,heat,No heat,0,1,60,41,0.19
+2026-11-22,Sunday,noise,Noise,0,0,60,41,0.19
+2026-11-22,Sunday,water,Water & sewers,0,0,60,41,0.19
+2026-11-23,Monday,all,All requests,782,768,66,44,1.42
+2026-11-23,Monday,trash,Trash talk,251,242,66,44,1.42
+2026-11-23,Monday,parking,Parking wars,203,250,66,44,1.42
+2026-11-23,Monday,streets,Street fixes,147,133,66,44,1.42
+2026-11-23,Monday,critters,Critters,64,57,66,44,1.42
+2026-11-23,Monday,other,Everything else,60,44,66,44,1.42
+2026-11-23,Monday,housing,Home repairs,32,15,66,44,1.42
+2026-11-23,Monday,trees,Trees,23,23,66,44,1.42
+2026-11-23,Monday,heat,No heat,2,3,66,44,1.42
+2026-11-23,Monday,noise,Noise,0,0,66,44,1.42
+2026-11-23,Monday,water,Water & sewers,0,0,66,44,1.42

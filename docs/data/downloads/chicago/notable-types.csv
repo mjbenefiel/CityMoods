@@ -232,3 +232,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-23,Monday,Building violation,housing,59,59,1.0,top
 2026-11-23,Monday,Parking enforcement review,parking,47,73,0.64,top
 2026-11-23,Monday,Public way inspection,streets,45,42,1.07,top
+2026-11-24,Tuesday,Tree trim (no longer accepted),trees,229,150,1.52,top
+2026-11-24,Tuesday,Graffiti,trash,159,340,0.47,top
+2026-11-24,Tuesday,Abandoned car,parking,132,171,0.77,top
+2026-11-24,Tuesday,Busted garbage cart,trash,132,162,0.82,top
+2026-11-24,Tuesday,Rats,critters,120,161,0.75,top
+2026-11-24,Tuesday,Yard waste pickup,trash,111,108,1.03,top
+2026-11-24,Tuesday,Building violation,housing,68,64,1.06,top
+2026-11-24,Tuesday,Street light out,streets,58,83,0.7,top
+2026-11-24,Tuesday,Traffic signal out,streets,55,85,0.65,top
+2026-11-24,Tuesday,Public way inspection,streets,53,42,1.25,top
+2026-11-24,Tuesday,Illegal dumping,trash,51,62,0.83,top
+2026-11-24,Tuesday,Recycling cart,trash,50,70,0.72,top
+2026-11-24,Tuesday,Parking enforcement review,parking,46,86,0.54,top
+2026-11-24,Tuesday,Dead animal,critters,42,52,0.8,top
+2026-11-24,Tuesday,Missed garbage pickup,trash,42,31,1.34,top

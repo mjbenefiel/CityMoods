@@ -1027,3 +1027,143 @@ date,neighborhood_id,neighborhood,area,neighborhood_total,mood,requests
 2026-11-21,west-end,West End,Boston,9,parking,4
 2026-11-21,west-roxbury,West Roxbury,Boston,15,parking,6
 2026-11-21,west-roxbury,West Roxbury,Boston,15,streets,4
+2026-11-22,allston,Allston,Boston,32,parking,12
+2026-11-22,allston,Allston,Boston,32,trash,12
+2026-11-22,allston,Allston,Boston,32,streets,4
+2026-11-22,allston,Allston,Boston,32,critters,3
+2026-11-22,back-bay,Back Bay,Boston,29,trash,12
+2026-11-22,back-bay,Back Bay,Boston,29,streets,7
+2026-11-22,back-bay,Back Bay,Boston,29,critters,5
+2026-11-22,back-bay,Back Bay,Boston,29,other,3
+2026-11-22,beacon-hill,Beacon Hill,Boston,28,trash,14
+2026-11-22,beacon-hill,Beacon Hill,Boston,28,parking,6
+2026-11-22,beacon-hill,Beacon Hill,Boston,28,streets,5
+2026-11-22,brighton,Brighton,Boston,33,parking,11
+2026-11-22,brighton,Brighton,Boston,33,streets,8
+2026-11-22,brighton,Brighton,Boston,33,critters,8
+2026-11-22,brighton,Brighton,Boston,33,trash,4
+2026-11-22,charlestown,Charlestown,Boston,10,streets,4
+2026-11-22,charlestown,Charlestown,Boston,10,other,3
+2026-11-22,chinatown,Chinatown,Boston,8,parking,5
+2026-11-22,dorchester,Dorchester,Boston,61,trash,28
+2026-11-22,dorchester,Dorchester,Boston,61,parking,15
+2026-11-22,dorchester,Dorchester,Boston,61,critters,5
+2026-11-22,dorchester,Dorchester,Boston,61,other,5
+2026-11-22,dorchester,Dorchester,Boston,61,trees,3
+2026-11-22,dorchester,Dorchester,Boston,61,streets,3
+2026-11-22,downtown,Downtown,Boston,14,trash,5
+2026-11-22,downtown,Downtown,Boston,14,streets,5
+2026-11-22,downtown,Downtown,Boston,14,parking,3
+2026-11-22,east-boston,East Boston,Boston,24,trash,12
+2026-11-22,east-boston,East Boston,Boston,24,parking,8
+2026-11-22,fenway,Fenway,Boston,21,trash,11
+2026-11-22,fenway,Fenway,Boston,21,parking,4
+2026-11-22,hyde-park,Hyde Park,Boston,7,trash,5
+2026-11-22,jamaica-plain,Jamaica Plain,Boston,21,trash,5
+2026-11-22,jamaica-plain,Jamaica Plain,Boston,21,streets,4
+2026-11-22,jamaica-plain,Jamaica Plain,Boston,21,critters,4
+2026-11-22,jamaica-plain,Jamaica Plain,Boston,21,parking,3
+2026-11-22,jamaica-plain,Jamaica Plain,Boston,21,trees,3
+2026-11-22,longwood,Longwood,Boston,5,parking,5
+2026-11-22,north-end,North End,Boston,21,trash,17
+2026-11-22,roslindale,Roslindale,Boston,13,parking,4
+2026-11-22,roslindale,Roslindale,Boston,13,critters,4
+2026-11-22,roxbury,Roxbury,Boston,30,trash,10
+2026-11-22,roxbury,Roxbury,Boston,30,other,8
+2026-11-22,roxbury,Roxbury,Boston,30,parking,8
+2026-11-22,roxbury,Roxbury,Boston,30,streets,3
+2026-11-22,south-boston,South Boston,Boston,35,parking,12
+2026-11-22,south-boston,South Boston,Boston,35,critters,8
+2026-11-22,south-boston,South Boston,Boston,35,streets,5
+2026-11-22,south-boston,South Boston,Boston,35,housing,4
+2026-11-22,south-boston,South Boston,Boston,35,other,3
+2026-11-22,south-boston-waterfront,South Boston Waterfront,Boston,5,parking,3
+2026-11-22,south-end,South End,Boston,53,trash,27
+2026-11-22,south-end,South End,Boston,53,streets,9
+2026-11-22,south-end,South End,Boston,53,parking,5
+2026-11-22,south-end,South End,Boston,53,other,4
+2026-11-22,south-end,South End,Boston,53,critters,3
+2026-11-22,south-end,South End,Boston,53,housing,3
+2026-11-22,west-roxbury,West Roxbury,Boston,11,parking,6
+2026-11-23,allston,Allston,Boston,19,streets,6
+2026-11-23,allston,Allston,Boston,19,parking,6
+2026-11-23,allston,Allston,Boston,19,trash,4
+2026-11-23,back-bay,Back Bay,Boston,32,trash,15
+2026-11-23,back-bay,Back Bay,Boston,32,streets,10
+2026-11-23,back-bay,Back Bay,Boston,32,other,4
+2026-11-23,bay-village,Bay Village,Boston,6,trash,3
+2026-11-23,beacon-hill,Beacon Hill,Boston,22,trash,15
+2026-11-23,brighton,Brighton,Boston,33,trash,17
+2026-11-23,brighton,Brighton,Boston,33,parking,9
+2026-11-23,brighton,Brighton,Boston,33,streets,3
+2026-11-23,charlestown,Charlestown,Boston,23,parking,9
+2026-11-23,charlestown,Charlestown,Boston,23,streets,6
+2026-11-23,charlestown,Charlestown,Boston,23,trees,4
+2026-11-23,charlestown,Charlestown,Boston,23,trash,3
+2026-11-23,chinatown,Chinatown,Boston,17,parking,14
+2026-11-23,dorchester,Dorchester,Boston,100,trash,39
+2026-11-23,dorchester,Dorchester,Boston,100,parking,21
+2026-11-23,dorchester,Dorchester,Boston,100,critters,15
+2026-11-23,dorchester,Dorchester,Boston,100,streets,14
+2026-11-23,dorchester,Dorchester,Boston,100,other,5
+2026-11-23,dorchester,Dorchester,Boston,100,trees,4
+2026-11-23,downtown,Downtown,Boston,20,streets,6
+2026-11-23,downtown,Downtown,Boston,20,trash,6
+2026-11-23,downtown,Downtown,Boston,20,parking,4
+2026-11-23,downtown,Downtown,Boston,20,other,4
+2026-11-23,east-boston,East Boston,Boston,60,parking,18
+2026-11-23,east-boston,East Boston,Boston,60,trash,16
+2026-11-23,east-boston,East Boston,Boston,60,streets,12
+2026-11-23,east-boston,East Boston,Boston,60,critters,9
+2026-11-23,east-boston,East Boston,Boston,60,housing,3
+2026-11-23,fenway,Fenway,Boston,23,parking,7
+2026-11-23,fenway,Fenway,Boston,23,trash,4
+2026-11-23,fenway,Fenway,Boston,23,streets,4
+2026-11-23,fenway,Fenway,Boston,23,other,4
+2026-11-23,hyde-park,Hyde Park,Boston,19,trash,10
+2026-11-23,hyde-park,Hyde Park,Boston,19,parking,4
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,48,trash,20
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,48,parking,10
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,48,streets,10
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,48,other,3
+2026-11-23,leather-district,Leather District,Boston,5,trash,3
+2026-11-23,longwood,Longwood,Boston,12,parking,7
+2026-11-23,longwood,Longwood,Boston,12,trash,4
+2026-11-23,mattapan,Mattapan,Boston,21,trash,5
+2026-11-23,mattapan,Mattapan,Boston,21,parking,4
+2026-11-23,mattapan,Mattapan,Boston,21,other,4
+2026-11-23,mattapan,Mattapan,Boston,21,trees,3
+2026-11-23,mattapan,Mattapan,Boston,21,streets,3
+2026-11-23,mission-hill,Mission Hill,Boston,16,streets,9
+2026-11-23,mission-hill,Mission Hill,Boston,16,trash,3
+2026-11-23,north-end,North End,Boston,32,trash,16
+2026-11-23,north-end,North End,Boston,32,streets,9
+2026-11-23,north-end,North End,Boston,32,parking,3
+2026-11-23,roslindale,Roslindale,Boston,29,critters,6
+2026-11-23,roslindale,Roslindale,Boston,29,trash,6
+2026-11-23,roslindale,Roslindale,Boston,29,streets,6
+2026-11-23,roslindale,Roslindale,Boston,29,parking,5
+2026-11-23,roslindale,Roslindale,Boston,29,other,3
+2026-11-23,roxbury,Roxbury,Boston,73,trash,27
+2026-11-23,roxbury,Roxbury,Boston,73,streets,15
+2026-11-23,roxbury,Roxbury,Boston,73,parking,13
+2026-11-23,roxbury,Roxbury,Boston,73,other,9
+2026-11-23,roxbury,Roxbury,Boston,73,housing,6
+2026-11-23,roxbury,Roxbury,Boston,73,critters,3
+2026-11-23,south-boston,South Boston,Boston,48,parking,20
+2026-11-23,south-boston,South Boston,Boston,48,streets,8
+2026-11-23,south-boston,South Boston,Boston,48,critters,7
+2026-11-23,south-boston,South Boston,Boston,48,trash,4
+2026-11-23,south-boston,South Boston,Boston,48,trees,4
+2026-11-23,south-boston,South Boston,Boston,48,housing,3
+2026-11-23,south-boston-waterfront,South Boston Waterfront,Boston,9,streets,5
+2026-11-23,south-end,South End,Boston,66,parking,22
+2026-11-23,south-end,South End,Boston,66,trash,17
+2026-11-23,south-end,South End,Boston,66,streets,12
+2026-11-23,south-end,South End,Boston,66,other,10
+2026-11-23,south-end,South End,Boston,66,critters,3
+2026-11-23,west-end,West End,Boston,7,parking,4
+2026-11-23,west-roxbury,West Roxbury,Boston,31,trash,12
+2026-11-23,west-roxbury,West Roxbury,Boston,31,parking,7
+2026-11-23,west-roxbury,West Roxbury,Boston,31,critters,6
+2026-11-23,west-roxbury,West Roxbury,Boston,31,streets,5

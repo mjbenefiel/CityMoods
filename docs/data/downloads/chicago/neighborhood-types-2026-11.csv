@@ -2901,3 +2901,180 @@ date,neighborhood_id,neighborhood,area,request_type,mood,requests
 2026-11-23,24,West Town,West Side,Busted garbage cart,trash,3
 2026-11-23,24,West Town,West Side,Street light out,streets,3
 2026-11-23,42,Woodlawn,South Side,Parking enforcement review,parking,7
+2026-11-24,14,Albany Park,North Side,Tree trim (no longer accepted),trees,28
+2026-11-24,14,Albany Park,North Side,Rats,critters,3
+2026-11-24,14,Albany Park,North Side,Yard waste pickup,trash,3
+2026-11-24,34,Armour Square,South Side,Tree trim (no longer accepted),trees,11
+2026-11-24,70,Ashburn,Southwest Side,Abandoned car,parking,4
+2026-11-24,71,Auburn Gresham,Southwest Side,Tree trim (no longer accepted),trees,6
+2026-11-24,71,Auburn Gresham,Southwest Side,Busted garbage cart,trash,5
+2026-11-24,71,Auburn Gresham,Southwest Side,Missed garbage pickup,trash,3
+2026-11-24,71,Auburn Gresham,Southwest Side,Dead animal,critters,3
+2026-11-24,71,Auburn Gresham,Southwest Side,Vicious animal,critters,3
+2026-11-24,25,Austin,West Side,Busted garbage cart,trash,7
+2026-11-24,25,Austin,West Side,Abandoned car,parking,5
+2026-11-24,25,Austin,West Side,Street light out,streets,4
+2026-11-24,25,Austin,West Side,Dead animal,critters,4
+2026-11-24,25,Austin,West Side,Public way inspection,streets,4
+2026-11-24,25,Austin,West Side,Alley pothole,streets,4
+2026-11-24,25,Austin,West Side,Tree removal,trees,3
+2026-11-24,25,Austin,West Side,Rats,critters,3
+2026-11-24,25,Austin,West Side,Tree debris cleanup,trees,3
+2026-11-24,25,Austin,West Side,Missed garbage pickup,trash,3
+2026-11-24,25,Austin,West Side,Injured animal,critters,3
+2026-11-24,21,Avondale,North Side,Yard waste pickup,trash,3
+2026-11-24,19,Belmont Cragin,North Side,Abandoned car,parking,9
+2026-11-24,19,Belmont Cragin,North Side,Parking enforcement review,parking,4
+2026-11-24,19,Belmont Cragin,North Side,Recycling cart,trash,3
+2026-11-24,19,Belmont Cragin,North Side,Busted garbage cart,trash,3
+2026-11-24,72,Beverly,Southwest Side,Street light out,streets,5
+2026-11-24,60,Bridgeport,South Side,Tree trim (no longer accepted),trees,12
+2026-11-24,60,Bridgeport,South Side,Rats,critters,6
+2026-11-24,60,Bridgeport,South Side,Recycling cart,trash,4
+2026-11-24,58,Brighton Park,Southwest Side,Graffiti,trash,12
+2026-11-24,58,Brighton Park,Southwest Side,Busted garbage cart,trash,5
+2026-11-24,58,Brighton Park,Southwest Side,Recycling cart,trash,4
+2026-11-24,58,Brighton Park,Southwest Side,Abandoned car,parking,3
+2026-11-24,48,Calumet Heights,South Side,Tree trim (no longer accepted),trees,13
+2026-11-24,44,Chatham,South Side,Busted garbage cart,trash,3
+2026-11-24,44,Chatham,South Side,Abandoned car,parking,3
+2026-11-24,66,Chicago Lawn,Southwest Side,Street light out,streets,6
+2026-11-24,66,Chicago Lawn,Southwest Side,Busted garbage cart,trash,4
+2026-11-24,66,Chicago Lawn,Southwest Side,Abandoned car,parking,4
+2026-11-24,66,Chicago Lawn,Southwest Side,Rats,critters,3
+2026-11-24,66,Chicago Lawn,Southwest Side,Tree trim (no longer accepted),trees,3
+2026-11-24,64,Clearing,Southwest Side,Coyote encounter,critters,4
+2026-11-24,17,Dunning,North Side,Busted garbage cart,trash,8
+2026-11-24,17,Dunning,North Side,Street light out,streets,4
+2026-11-24,27,East Garfield Park,West Side,Illegal dumping,trash,4
+2026-11-24,52,East Side,South Side,Busted garbage cart,trash,4
+2026-11-24,77,Edgewater,North Side,Abandoned car,parking,6
+2026-11-24,77,Edgewater,North Side,Rats,critters,4
+2026-11-24,77,Edgewater,North Side,Building violation,housing,4
+2026-11-24,77,Edgewater,North Side,Busted garbage cart,trash,4
+2026-11-24,77,Edgewater,North Side,Yard waste pickup,trash,3
+2026-11-24,68,Englewood,Southwest Side,Traffic signal out,streets,4
+2026-11-24,68,Englewood,Southwest Side,Busted garbage cart,trash,3
+2026-11-24,12,Forest Glen,North Side,Yard waste pickup,trash,13
+2026-11-24,63,Gage Park,Southwest Side,Tree trim (no longer accepted),trees,18
+2026-11-24,63,Gage Park,Southwest Side,Graffiti,trash,9
+2026-11-24,63,Gage Park,Southwest Side,Abandoned car,parking,4
+2026-11-24,56,Garfield Ridge,Southwest Side,Rats,critters,5
+2026-11-24,38,Grand Boulevard,South Side,Traffic signal out,streets,4
+2026-11-24,69,Greater Grand Crossing,South Side,Rats,critters,7
+2026-11-24,55,Hegewisch,South Side,Stop sign repair,streets,4
+2026-11-24,20,Hermosa,North Side,Recycling pick up,trash,3
+2026-11-24,23,Humboldt Park,West Side,Public way inspection,streets,9
+2026-11-24,23,Humboldt Park,West Side,Street light out,streets,8
+2026-11-24,23,Humboldt Park,West Side,Building violation,housing,4
+2026-11-24,23,Humboldt Park,West Side,Busted garbage cart,trash,3
+2026-11-24,23,Humboldt Park,West Side,Parking enforcement review,parking,3
+2026-11-24,23,Humboldt Park,West Side,Tree debris cleanup,trees,3
+2026-11-24,41,Hyde Park,South Side,Tree trim (no longer accepted),trees,15
+2026-11-24,16,Irving Park,North Side,Tree trim (no longer accepted),trees,13
+2026-11-24,16,Irving Park,North Side,Yard waste pickup,trash,10
+2026-11-24,16,Irving Park,North Side,Abandoned car,parking,4
+2026-11-24,16,Irving Park,North Side,Dead animal,critters,3
+2026-11-24,11,Jefferson Park,North Side,Abandoned car,parking,6
+2026-11-24,11,Jefferson Park,North Side,Yard waste pickup,trash,3
+2026-11-24,39,Kenwood,South Side,Tree trim (no longer accepted),trees,20
+2026-11-24,6,Lake View,North Side,Yard waste pickup,trash,11
+2026-11-24,6,Lake View,North Side,Rats,critters,8
+2026-11-24,6,Lake View,North Side,Graffiti,trash,4
+2026-11-24,6,Lake View,North Side,Public way inspection,streets,4
+2026-11-24,6,Lake View,North Side,Busted garbage cart,trash,3
+2026-11-24,6,Lake View,North Side,Missed garbage pickup,trash,3
+2026-11-24,7,Lincoln Park,North Side,Tree trim (no longer accepted),trees,27
+2026-11-24,7,Lincoln Park,North Side,Yard waste pickup,trash,4
+2026-11-24,7,Lincoln Park,North Side,Rats,critters,4
+2026-11-24,7,Lincoln Park,North Side,Graffiti,trash,4
+2026-11-24,7,Lincoln Park,North Side,Stop sign repair,streets,3
+2026-11-24,7,Lincoln Park,North Side,Sign repair,streets,3
+2026-11-24,7,Lincoln Park,North Side,Busted garbage cart,trash,3
+2026-11-24,4,Lincoln Square,North Side,Tree trim (no longer accepted),trees,26
+2026-11-24,4,Lincoln Square,North Side,Busted garbage cart,trash,4
+2026-11-24,22,Logan Square,North Side,Yard waste pickup,trash,10
+2026-11-24,22,Logan Square,North Side,Tree trim (no longer accepted),trees,10
+2026-11-24,22,Logan Square,North Side,Graffiti,trash,9
+2026-11-24,22,Logan Square,North Side,Rats,critters,5
+2026-11-24,22,Logan Square,North Side,Public way inspection,streets,5
+2026-11-24,22,Logan Square,North Side,Alley pothole,streets,4
+2026-11-24,22,Logan Square,North Side,Dead animal,critters,4
+2026-11-24,22,Logan Square,North Side,Busted garbage cart,trash,4
+2026-11-24,22,Logan Square,North Side,Pothole,streets,4
+2026-11-24,31,Lower West Side,West Side,Graffiti,trash,8
+2026-11-24,31,Lower West Side,West Side,Rats,critters,4
+2026-11-24,59,McKinley Park,Southwest Side,Graffiti,trash,3
+2026-11-24,75,Morgan Park,Southwest Side,Tree debris cleanup,trees,6
+2026-11-24,75,Morgan Park,Southwest Side,Busted garbage cart,trash,5
+2026-11-24,75,Morgan Park,Southwest Side,Missed garbage pickup,trash,4
+2026-11-24,75,Morgan Park,Southwest Side,Street light out,streets,3
+2026-11-24,8,Near North Side,Downtown,Graffiti,trash,8
+2026-11-24,8,Near North Side,Downtown,Public way inspection,streets,7
+2026-11-24,28,Near West Side,West Side,Traffic signal out,streets,6
+2026-11-24,28,Near West Side,West Side,Graffiti,trash,5
+2026-11-24,28,Near West Side,West Side,Parking enforcement review,parking,3
+2026-11-24,28,Near West Side,West Side,Sanitation code violation,trash,3
+2026-11-24,28,Near West Side,West Side,Lead test kit,water,3
+2026-11-24,61,New City,Southwest Side,Tree trim (no longer accepted),trees,19
+2026-11-24,61,New City,Southwest Side,Traffic signal out,streets,3
+2026-11-24,5,North Center,North Side,Yard waste pickup,trash,6
+2026-11-24,5,North Center,North Side,Abandoned car,parking,5
+2026-11-24,5,North Center,North Side,Sign repair,streets,3
+2026-11-24,29,North Lawndale,West Side,Illegal dumping,trash,10
+2026-11-24,29,North Lawndale,West Side,Graffiti,trash,4
+2026-11-24,29,North Lawndale,West Side,Stray animal,critters,4
+2026-11-24,13,North Park,North Side,Pothole,streets,4
+2026-11-24,10,Norwood Park,North Side,Abandoned car,parking,5
+2026-11-24,10,Norwood Park,North Side,Street light out,streets,3
+2026-11-24,10,Norwood Park,North Side,Busted garbage cart,trash,3
+2026-11-24,76,O'Hare,North Side,Parking enforcement review,parking,4
+2026-11-24,15,Portage Park,North Side,Rats,critters,13
+2026-11-24,15,Portage Park,North Side,Abandoned car,parking,8
+2026-11-24,15,Portage Park,North Side,Yard waste pickup,trash,5
+2026-11-24,1,Rogers Park,North Side,Graffiti,trash,8
+2026-11-24,1,Rogers Park,North Side,Building violation,housing,7
+2026-11-24,1,Rogers Park,North Side,Yard waste pickup,trash,6
+2026-11-24,51,South Deering,South Side,Tree debris cleanup,trees,4
+2026-11-24,30,South Lawndale,West Side,Graffiti,trash,31
+2026-11-24,30,South Lawndale,West Side,Abandoned car,parking,6
+2026-11-24,30,South Lawndale,West Side,Pothole,streets,5
+2026-11-24,30,South Lawndale,West Side,Alley pothole,streets,5
+2026-11-24,30,South Lawndale,West Side,Illegal dumping,trash,3
+2026-11-24,30,South Lawndale,West Side,Sewer cave-in,water,3
+2026-11-24,43,South Shore,South Side,Dead animal,critters,4
+2026-11-24,43,South Shore,South Side,Busted garbage cart,trash,4
+2026-11-24,43,South Shore,South Side,Building violation,housing,3
+2026-11-24,43,South Shore,South Side,Tree trim (no longer accepted),trees,3
+2026-11-24,32,The Loop,Downtown,Graffiti,trash,6
+2026-11-24,32,The Loop,Downtown,Traffic signal out,streets,4
+2026-11-24,32,The Loop,Downtown,Building violation,housing,3
+2026-11-24,3,Uptown,North Side,Street cleaning,trash,5
+2026-11-24,3,Uptown,North Side,Sign repair,streets,3
+2026-11-24,3,Uptown,North Side,Abandoned car,parking,3
+2026-11-24,73,Washington Heights,Southwest Side,Busted garbage cart,trash,4
+2026-11-24,40,Washington Park,South Side,Abandoned car,parking,5
+2026-11-24,62,West Elsdon,Southwest Side,Rats,critters,4
+2026-11-24,62,West Elsdon,Southwest Side,Busted garbage cart,trash,3
+2026-11-24,67,West Englewood,Southwest Side,Busted garbage cart,trash,5
+2026-11-24,67,West Englewood,Southwest Side,Abandoned car,parking,4
+2026-11-24,67,West Englewood,Southwest Side,Recycling cart,trash,4
+2026-11-24,26,West Garfield Park,West Side,Illegal dumping,trash,3
+2026-11-24,65,West Lawn,Southwest Side,Busted garbage cart,trash,4
+2026-11-24,65,West Lawn,Southwest Side,Recycling cart,trash,3
+2026-11-24,53,West Pullman,South Side,Busted garbage cart,trash,3
+2026-11-24,53,West Pullman,South Side,Abandoned car,parking,3
+2026-11-24,24,West Town,West Side,Graffiti,trash,17
+2026-11-24,24,West Town,West Side,Yard waste pickup,trash,6
+2026-11-24,24,West Town,West Side,Public way inspection,streets,6
+2026-11-24,24,West Town,West Side,Pothole,streets,5
+2026-11-24,24,West Town,West Side,Busted garbage cart,trash,4
+2026-11-24,24,West Town,West Side,Alley pothole,streets,3
+2026-11-24,24,West Town,West Side,Possible water leak,water,3
+2026-11-24,24,West Town,West Side,Sewer cleaning,water,3
+2026-11-24,24,West Town,West Side,Lead test kit,water,3
+2026-11-24,24,West Town,West Side,Rats,critters,3
+2026-11-24,24,West Town,West Side,Sanitation code violation,trash,3
+2026-11-24,24,West Town,West Side,Building violation,housing,3
+2026-11-24,24,West Town,West Side,Bike issue,streets,3
+2026-11-24,42,Woodlawn,South Side,Tree trim (no longer accepted),trees,3

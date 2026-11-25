@@ -874,3 +874,117 @@ date,neighborhood_id,neighborhood,area,request_type,mood,requests
 2026-11-21,south-end,South End,Boston,Trash put out too early,trash,3
 2026-11-21,west-end,West End,Boston,Illegal parking,parking,4
 2026-11-21,west-roxbury,West Roxbury,Boston,Illegal parking,parking,6
+2026-11-22,allston,Allston,Boston,Illegal parking,parking,12
+2026-11-22,allston,Allston,Boston,Litter and debris,trash,10
+2026-11-22,allston,Allston,Boston,Rats,critters,3
+2026-11-22,back-bay,Back Bay,Boston,Trash put out too early,trash,6
+2026-11-22,beacon-hill,Beacon Hill,Boston,Trash put out too early,trash,8
+2026-11-22,beacon-hill,Beacon Hill,Boston,Illegal parking,parking,6
+2026-11-22,brighton,Brighton,Boston,Illegal parking,parking,11
+2026-11-22,brighton,Brighton,Boston,Wild animal,critters,3
+2026-11-22,brighton,Brighton,Boston,Dead animal,critters,3
+2026-11-22,brighton,Brighton,Boston,Litter and debris,trash,3
+2026-11-22,brighton,Brighton,Boston,Traffic signal,streets,3
+2026-11-22,chinatown,Chinatown,Boston,Illegal parking,parking,5
+2026-11-22,dorchester,Dorchester,Boston,Illegal parking,parking,15
+2026-11-22,dorchester,Dorchester,Boston,Litter and debris,trash,12
+2026-11-22,dorchester,Dorchester,Boston,Overflowing trash,trash,6
+2026-11-22,dorchester,Dorchester,Boston,Illegal dumping or disposal,trash,3
+2026-11-22,dorchester,Dorchester,Boston,Improper trash storage,trash,3
+2026-11-22,downtown,Downtown,Boston,Illegal parking,parking,3
+2026-11-22,downtown,Downtown,Boston,Litter and debris,trash,3
+2026-11-22,east-boston,East Boston,Boston,Illegal parking,parking,8
+2026-11-22,east-boston,East Boston,Boston,Litter and debris,trash,6
+2026-11-22,fenway,Fenway,Boston,Graffiti,trash,5
+2026-11-22,fenway,Fenway,Boston,Litter and debris,trash,4
+2026-11-22,fenway,Fenway,Boston,Illegal parking,parking,4
+2026-11-22,hyde-park,Hyde Park,Boston,Litter and debris,trash,3
+2026-11-22,jamaica-plain,Jamaica Plain,Boston,Litter and debris,trash,4
+2026-11-22,longwood,Longwood,Boston,Illegal parking,parking,5
+2026-11-22,north-end,North End,Boston,Trash put out too early,trash,6
+2026-11-22,north-end,North End,Boston,Graffiti,trash,4
+2026-11-22,roslindale,Roslindale,Boston,Illegal parking,parking,3
+2026-11-22,roslindale,Roslindale,Boston,Wild animal,critters,3
+2026-11-22,roxbury,Roxbury,Boston,Litter and debris,trash,7
+2026-11-22,roxbury,Roxbury,Boston,Illegal parking,parking,6
+2026-11-22,south-boston,South Boston,Boston,Illegal parking,parking,11
+2026-11-22,south-boston,South Boston,Boston,Building maintenance violations,housing,3
+2026-11-22,south-boston,South Boston,Boston,Wild animal,critters,3
+2026-11-22,south-boston,South Boston,Boston,Dead animal,critters,3
+2026-11-22,south-boston-waterfront,South Boston Waterfront,Boston,Illegal parking,parking,3
+2026-11-22,south-end,South End,Boston,Litter and debris,trash,12
+2026-11-22,south-end,South End,Boston,Trash put out too early,trash,8
+2026-11-22,south-end,South End,Boston,Illegal parking,parking,4
+2026-11-22,south-end,South End,Boston,Rats,critters,3
+2026-11-22,south-end,South End,Boston,Overflowing trash,trash,3
+2026-11-22,west-roxbury,West Roxbury,Boston,Illegal parking,parking,6
+2026-11-23,allston,Allston,Boston,Illegal parking,parking,6
+2026-11-23,back-bay,Back Bay,Boston,Litter and debris,trash,5
+2026-11-23,back-bay,Back Bay,Boston,Trash put out too early,trash,3
+2026-11-23,back-bay,Back Bay,Boston,Pothole,streets,3
+2026-11-23,back-bay,Back Bay,Boston,Missed trash pickup,trash,3
+2026-11-23,beacon-hill,Beacon Hill,Boston,Missed trash pickup,trash,6
+2026-11-23,beacon-hill,Beacon Hill,Boston,Trash put out too early,trash,5
+2026-11-23,beacon-hill,Beacon Hill,Boston,Litter and debris,trash,4
+2026-11-23,brighton,Brighton,Boston,Missed trash pickup,trash,10
+2026-11-23,brighton,Brighton,Boston,Illegal parking,parking,6
+2026-11-23,brighton,Brighton,Boston,Improper trash storage,trash,3
+2026-11-23,charlestown,Charlestown,Boston,Illegal parking,parking,7
+2026-11-23,charlestown,Charlestown,Boston,Street light outage,streets,3
+2026-11-23,chinatown,Chinatown,Boston,Illegal parking,parking,14
+2026-11-23,dorchester,Dorchester,Boston,Litter and debris,trash,17
+2026-11-23,dorchester,Dorchester,Boston,Illegal parking,parking,17
+2026-11-23,dorchester,Dorchester,Boston,Missed trash pickup,trash,10
+2026-11-23,dorchester,Dorchester,Boston,Rats,critters,5
+2026-11-23,dorchester,Dorchester,Boston,Street light outage,streets,4
+2026-11-23,dorchester,Dorchester,Boston,Improper trash storage,trash,4
+2026-11-23,dorchester,Dorchester,Boston,Domestic animal,critters,4
+2026-11-23,dorchester,Dorchester,Boston,Abandoned vehicles,parking,4
+2026-11-23,dorchester,Dorchester,Boston,Illegal dumping or disposal,trash,3
+2026-11-23,downtown,Downtown,Boston,Illegal parking,parking,4
+2026-11-23,east-boston,East Boston,Boston,Illegal parking,parking,18
+2026-11-23,east-boston,East Boston,Boston,Litter and debris,trash,7
+2026-11-23,east-boston,East Boston,Boston,Street light outage,streets,5
+2026-11-23,east-boston,East Boston,Boston,Rats,critters,4
+2026-11-23,east-boston,East Boston,Boston,Illegal dumping or disposal,trash,4
+2026-11-23,east-boston,East Boston,Boston,Dead animal,critters,3
+2026-11-23,fenway,Fenway,Boston,Illegal parking,parking,6
+2026-11-23,hyde-park,Hyde Park,Boston,Missed trash pickup,trash,6
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,Illegal parking,parking,10
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,Missed trash pickup,trash,7
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,Illegal dumping or disposal,trash,6
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,Litter and debris,trash,5
+2026-11-23,jamaica-plain,Jamaica Plain,Boston,Traffic signal,streets,3
+2026-11-23,longwood,Longwood,Boston,Illegal parking,parking,7
+2026-11-23,longwood,Longwood,Boston,Improper trash storage,trash,3
+2026-11-23,mattapan,Mattapan,Boston,Missed trash pickup,trash,5
+2026-11-23,mattapan,Mattapan,Boston,Pruning,trees,3
+2026-11-23,mattapan,Mattapan,Boston,Missing or knocked-down sign,streets,3
+2026-11-23,mission-hill,Mission Hill,Boston,Missing or knocked-down sign,streets,4
+2026-11-23,north-end,North End,Boston,Litter and debris,trash,8
+2026-11-23,north-end,North End,Boston,Street light outage,streets,6
+2026-11-23,north-end,North End,Boston,Graffiti,trash,5
+2026-11-23,roslindale,Roslindale,Boston,Illegal parking,parking,5
+2026-11-23,roslindale,Roslindale,Boston,Litter and debris,trash,3
+2026-11-23,roslindale,Roslindale,Boston,Street light outage,streets,3
+2026-11-23,roxbury,Roxbury,Boston,Missed trash pickup,trash,18
+2026-11-23,roxbury,Roxbury,Boston,Illegal parking,parking,12
+2026-11-23,roxbury,Roxbury,Boston,Litter and debris,trash,6
+2026-11-23,roxbury,Roxbury,Boston,Unsatisfactory living conditions,housing,5
+2026-11-23,roxbury,Roxbury,Boston,Missing or knocked-down sign,streets,3
+2026-11-23,roxbury,Roxbury,Boston,Sidewalk repair,streets,3
+2026-11-23,roxbury,Roxbury,Boston,Pothole,streets,3
+2026-11-23,south-boston,South Boston,Boston,Illegal parking,parking,20
+2026-11-23,south-boston,South Boston,Boston,Rats,critters,3
+2026-11-23,south-boston,South Boston,Boston,Pruning,trees,3
+2026-11-23,south-boston-waterfront,South Boston Waterfront,Boston,Street light outage,streets,3
+2026-11-23,south-end,South End,Boston,Illegal parking,parking,22
+2026-11-23,south-end,South End,Boston,Litter and debris,trash,8
+2026-11-23,south-end,South End,Boston,Sidewalk repair,streets,5
+2026-11-23,south-end,South End,Boston,Trash put out too early,trash,4
+2026-11-23,south-end,South End,Boston,Street light outage,streets,3
+2026-11-23,south-end,South End,Boston,Improper trash storage,trash,3
+2026-11-23,west-end,West End,Boston,Illegal parking,parking,4
+2026-11-23,west-roxbury,West Roxbury,Boston,Litter and debris,trash,7
+2026-11-23,west-roxbury,West Roxbury,Boston,Illegal parking,parking,6
+2026-11-23,west-roxbury,West Roxbury,Boston,Dead animal,critters,4

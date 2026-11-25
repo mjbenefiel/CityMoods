@@ -1,6 +1,6 @@
 :root {
   --bg: #FAF7F2; --panel: #FFFFFF; --ink: #1D1F24; --muted: #646A75; --line: #E6E1D8;
-  --water: #DCE9F2; --empty: #ECE8E1; --stroke: #FFFFFF; --accent: #E2557B;
+  --water: #DCE9F2; --empty: #ECE8E1; --stroke: #FFFFFF; --accent: #E2557B; --tip: #C93D66;
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, ui-serif, serif;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
@@ -9,7 +9,7 @@
   :root:not([data-theme="light"]) {
     color-scheme: dark;
     --bg: #14161B; --panel: #1C1F26; --ink: #ECEDEF; --muted: #9AA0AB; --line: #2C3039;
-    --water: #182230; --empty: #2A2E36; --stroke: #14161B;
+    --water: #182230; --empty: #2A2E36; --stroke: #14161B; --tip: #F07A9A;
   }
 }
 * { box-sizing: border-box; }
@@ -92,10 +92,10 @@ footer p { margin: 0 0 6px; }
   border-bottom: 1px solid var(--line); }
 .tip p { margin: 0; font: 15px/1.4 var(--serif); color: var(--muted); }
 footer a.tip-btn { display: inline-flex; align-items: center; gap: 9px; padding: 10px 16px; border-radius: 10px;
-  background: #C93D66; color: #fff; font: 600 14px/1.2 var(--sans); text-decoration: none; transition: background .15s; }
-footer a.tip-btn::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #fff; }
-footer a.tip-btn:hover { background: #AE3157; color: #fff; }
-footer a.tip-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  background: transparent; color: var(--tip); border: 1.5px solid var(--tip); font: 600 14px/1.2 var(--sans); text-decoration: none; transition: background .15s; }
+footer a.tip-btn::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--tip); }
+footer a.tip-btn:hover { background: color-mix(in srgb, var(--tip) 14%, transparent); }
+footer a.tip-btn:focus-visible { outline: 2px solid var(--tip); outline-offset: 3px; }
 
 @media (max-width: 860px) {
   .board, .extra { grid-template-columns: 1fr; }

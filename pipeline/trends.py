@@ -6,6 +6,9 @@ individual request, address or location is ever downloaded. Writes:
   docs/data/chicago/trends.json         windows (7, 30, 90, 180, 365 days) x request type x neighborhood,
                                         mood totals, citywide totals, neighborhood population
   docs/data/chicago/trends-series.json  13 thirty-day periods per request type x neighborhood (trend lines)
+  docs/data/chicago/close.json          how fast the city closes each request type: citywide "usually within N days",
+                                        share closed within a week and share still open, plus the same shares
+                                        by neighborhood (only where a neighborhood has CLOSE_MIN+ requests)
 
 Privacy, same rules as the rest of the site:
   * neighborhood totals only; any count under MIN_CELL (3) is published as null ("under 3"), zeros too
@@ -36,6 +39,9 @@ BLOCK, NBLOCKS = 30, 13          # thirteen 30-day periods: 390 days, enough for
 WINDOWS = [7, 30, 90, 180, 365]
 TYPE_MIN = 100                   # a request type needs this many reports citywide in the past year to be listed
 POP_API = "https://data.cityofchicago.org/resource/7umk-8dtw.json"   # ACS 5-year data by community area
+CLOSE_LAG = 30                   # time to close counts requests made in the year ending this many days ago,
+CLOSE_MIN = 20                   # so each had at least a month; neighborhood shares need this many requests
+CLOSE_STEPS = [1, 3, 7, 14, 30, 90]   # "usually closed within N days" steps (None = over 90 days)
 
 
 def _counts(C, start: dt.date, end: dt.date) -> Counter:
@@ -66,6 +72,52 @@ def _population(hoods: list[dict]) -> dict[str, int]:
     if missing:
         log(f"Trends: no population for {', '.join(missing)}")
     return pop
+
+
+def _inlist(types: list[str]) -> str:
+    return ",".join("'" + t.replace("'", "''") + "'" for t in types)
+
+
+def _close(C, types: list[str], ids: list[str], last: dt.date) -> dict:
+    """How fast the city closes each listed request type. All of it is counted on the portal's side, in 30-day
+    blocks (a whole year in one query is slow and sometimes times out). City totals are the neighborhoods added up."""
+    end = last + dt.timedelta(days=1) - dt.timedelta(days=CLOSE_LAG)
+    start = end - dt.timedelta(days=365)
+    within = "".join(f", sum(case(status='Completed' and date_diff_d(closed_date, created_date) <= {d},1,true,0)) as d{d}"
+                     for d in CLOSE_STEPS)
+    select = f"community_area,sr_type,count(*) as n,sum(case(status='Open',1,true,0)) as open{within}"
+    keys = ["n", "open"] + [f"d{d}" for d in CLOSE_STEPS]
+    by = defaultdict(lambda: dict.fromkeys(keys, 0))
+    b_start = start
+    while b_start < end:
+        b_end = min(b_start + dt.timedelta(days=BLOCK), end)
+        where = (f"status in ('Completed','Open') AND created_date >= '{b_start}T00:00:00' AND created_date < '{b_end}T00:00:00' "
+                 f"AND sr_type in ({_inlist(types)}) AND {C.WHERE}")
+        for r in get(C.api_311, params={"$select": select, "$where": where,
+                                        "$group": "community_area,sr_type", "$limit": 50000}).json():
+            if r.get("community_area") and r.get("sr_type"):
+                cell = by[(str(int(float(r["community_area"]))), r["sr_type"])]
+                for k in keys:
+                    cell[k] += int(r[k])
+        b_start = b_end
+    city = defaultdict(lambda: dict.fromkeys(keys, 0))
+    for (a, t), cell in by.items():
+        for k in keys:
+            city[t][k] += cell[k]
+    pct = lambda part, n: round(100 * part / n) if n else None
+    out_types = []
+    for t in types:
+        c = city.get(t)
+        if not c or c["n"] < CLOSE_MIN:
+            out_types.append(None)
+            continue
+        # "Usually closed within N days": the first step that covers half of all requests (None = over 90 days)
+        typ = next((d for d in CLOSE_STEPS if c[f"d{d}"] * 2 >= c["n"]), None)
+        out_types.append({"n": c["n"], "typ": typ, "wk": pct(c["d7"], c["n"]), "open": pct(c["open"], c["n"])})
+    areas = [[(lambda v: [pct(v["d7"], v["n"]), pct(v["open"], v["n"])] if v and v["n"] >= CLOSE_MIN else None)(by.get((a, t)))
+              for a in ids] for t in types]
+    return {"updated": str(last), "window": {"start": str(start), "end": str(end - dt.timedelta(days=1))},
+            "min_n": CLOSE_MIN, "type_names": types, "types": out_types, "areas": areas}
 
 
 def _cell(n: int) -> int | None:
@@ -149,9 +201,16 @@ def export_trends(key: str = "chicago", force: bool = False):
         "periods": [{"start": str(s), "end": str(e - dt.timedelta(days=1))} for s, e, _ in reversed(blocks)],
         "types": [[[_cell(b[2].get((a, t), 0)) for b in reversed(blocks)] for a in ids] for t in types],
     }
-    for obj in (data, series):
+    try:
+        close = _close(C, types, ids, last)
+    except Exception as e:                           # time to close is extra; never let it stop the trends
+        log(f"Trends: time to close not refreshed ({type(e).__name__}: {e})")
+        close = None
+    for obj in (data, series, close or {}):
         assert_no_pii(obj)
     (out_dir / "trends-series.json").write_text(json.dumps(series, separators=(",", ":")))
+    if close:
+        (out_dir / "close.json").write_text(json.dumps(close, separators=(",", ":")))
     target.write_text(json.dumps(data, separators=(",", ":")))
     log(f"Trends: wrote {len(types)} request types x {len(ids)} neighborhoods through {last}")
 

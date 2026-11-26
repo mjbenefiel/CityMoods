@@ -527,6 +527,18 @@ a.brand img { display: block; }
 .adv-bars { display: block; width: 100%; height: 120px; }
 .h-col h3 small { text-transform: none; letter-spacing: 0; font-weight: 400; }
 .adv-map { margin: 0; font-size: 14px; color: var(--muted); }
+.adv-slow { margin: 0 0 8px; font-size: 14px; }
+.adv-close { width: 100%; border-collapse: collapse; font-size: 13px; }
+.adv-close th { text-align: right; font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted);
+  padding: 4px 0 6px 8px; border-bottom: 1px solid var(--line); }
+.adv-close th:first-child, .adv-close td:first-child { text-align: left; padding-left: 0; }
+.adv-close td { text-align: right; padding: 5px 0 5px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.adv-close td:first-child { white-space: normal; }
+.adv-close .t-linkbtn { text-align: left; font-size: 13px; }
+.adv-fine { margin: 6px 0 0; font-size: 12px; color: var(--muted); }
+.h-speed { list-style: none; margin: 0; padding: 0; font-size: 14px; }
+.h-speed li { display: flex; justify-content: space-between; gap: 10px; padding: 4px 0; border-top: 1px solid var(--line); }
+.h-speed small { color: var(--muted); margin-left: 4px; }
 .adv-map a { color: var(--ink); }
 .adv-types { list-style: none; margin: 0; padding: 0; }
 .adv-types button { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; width: 100%; padding: 6px 4px; border: 0;

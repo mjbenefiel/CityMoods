@@ -11,7 +11,7 @@ Data is free to use under CC BY 4.0. Please credit "CityMoods (citymoods311.com)
 - [All cities, citywide by mood (CSV)](https://citymoods311.com/data/downloads/all-cities-citywide.csv): city, date, mood, requests, usual (same weekday, previous 4 weeks), weather
 - All cities, every neighborhood by mood, one CSV per month: https://citymoods311.com/data/downloads/all-cities-neighborhoods-YYYY-MM.csv (and all-cities-neighborhood-types-YYYY-MM.csv for each neighborhood's top request types)
 - [Data dictionary (CSV)](https://citymoods311.com/data/downloads/data-dictionary.csv): every column in every file, explained (also in manifest.json under "columns")
-- [Chicago trends (JSON)](https://citymoods311.com/data/chicago/trends.json): a year of Chicago 311 counts by community area and request type for 7/30/90/180/365-day windows, with population (counts under 3 are null); 30-day series in trends-series.json. Explorable at https://citymoods311.com/trends/
+- [Chicago trends (JSON)](https://citymoods311.com/data/chicago/trends.json): a year of Chicago 311 counts by community area and request type for 7/30/90/180/365-day windows, with population (counts under 3 are null); 30-day series in trends-series.json; how fast the city closes each request type (citywide and by community area, share closed within a week and share still open) in close.json. Explorable at https://citymoods311.com/trends/
 - Per-day JSON: https://citymoods311.com/data/<city>/days/YYYY-MM-DD.json (list of days: https://citymoods311.com/data/<city>/index.json). City keys: nyc, chicago, la, sf, boston
 
 ## Moods

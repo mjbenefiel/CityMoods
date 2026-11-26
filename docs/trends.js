@@ -34,9 +34,9 @@
     "Six Corners": ["Portage Park"], "Marquette Park": ["Chicago Lawn"], "Pill Hill": ["Calumet Heights"],
     "Gresham": ["Auburn Gresham"], "Wrightwood": ["Ashburn"], "Loop": ["The Loop"], "Downtown": ["The Loop"],
   };
-  let T, MOODS, GEO, series = null, seriesLoading = null;
+  let T, MOODS, GEO, CL = null, series = null, seriesLoading = null;   // CL: time to close (close.json)
   const render_ = () => render();
-  const S = { sel: null, days: 90, per: false, compare: [], showAll: false, hood: null, adv: null };
+  const S = { sel: null, days: 90, per: false, slow: false, compare: [], showAll: false, hood: null, adv: null };
   const paths = {};
 
   async function getJSON(url) {
@@ -57,8 +57,18 @@
   const rate = (n, a) => (n == null || !a.pop ? null : (n / a.pop) * 1000);
   function values() {
     const c = counts();
+    if (S.slow) return T.areas.map((a, k) => {   // share that took over a week to close (or is still open)
+      const cell = slowOK() ? CL.areas[S.sel.i][k] : null;
+      return cell ? 100 - cell[0] : null;
+    });
     return T.areas.map((a, k) => (S.per ? rate(c[k], a) : c[k]));
   }
+  const slowOK = () => !!(CL && S.sel.kind === "type" && CL.types[S.sel.i]);
+  const STEP_WORDS = { 1: "within a day", 3: "within 3 days", 7: "within a week", 14: "within 2 weeks", 30: "within a month", 90: "within 3 months" };
+  const STEP_SHORT = { 1: "1 day", 3: "3 days", 7: "1 week", 14: "2 weeks", 30: "1 month", 90: "3 months" };
+  const usually = (c) => (c.typ ? `usually closed ${STEP_WORDS[c.typ]}` : "usually takes over 3 months");
+  const fullDay = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  const closeWindow = () => `requests made ${fullDay(CL.window.start)} to ${fullDay(CL.window.end)}`;
   function selLabel(sel = S.sel) {
     if (sel.kind === "type") return T.types[sel.i].label;
     const m = MOODS[sel.id];
@@ -128,11 +138,12 @@
       el.classList.toggle("picked", S.compare.includes(a.id));
     });
     const lo = known[0], hi = known[known.length - 1];
-    const f = (x) => (x == null ? "" : S.per ? fmtRate(x) : fmt(Math.round(x)));
+    const f = (x) => (x == null ? "" : S.slow ? `${Math.round(x)}%` : S.per ? fmtRate(x) : fmt(Math.round(x)));
     $("t-legend").innerHTML = known.length
-      ? `<span>${f(lo)}</span><span class="ramp">${[0, 1, 2, 3, 4].map((b) => `<i style="background:${mix(EMPTY, color, 0.18 + b * 0.2)}"></i>`).join("")}</span><span>${f(hi)}${S.per ? " per 1,000" : ""}</span>` +
-        `<span class="hid"><i style="background:${HIDDEN}"></i>under 3</span>`
-      : `<span>No neighborhood has 3 or more reports in this range.</span>`;
+      ? `<span>${f(lo)}</span><span class="ramp">${[0, 1, 2, 3, 4].map((b) => `<i style="background:${mix(EMPTY, color, 0.18 + b * 0.2)}"></i>`).join("")}</span>` +
+        `<span>${f(hi)}${S.slow ? " took over a week" : S.per ? " per 1,000" : ""}</span>` +
+        `<span class="hid"><i style="background:${HIDDEN}"></i>${S.slow ? `under ${CL ? CL.min_n : 20} requests` : "under 3"}</span>`
+      : `<span>${S.slow && !slowOK() ? "Pick a single request type to see how fast it gets closed." : "No neighborhood has 3 or more reports in this range."}</span>`;
   }
 
   let tipTimer;
@@ -144,8 +155,12 @@
     const a = T.areas[k], n = counts()[k], tot = cityTotal();
     const r = rate(n, a);
     const box = $("t-tip"), host = box.parentElement.getBoundingClientRect();
+    const slowCell = S.slow && slowOK() ? CL.areas[S.sel.i][k] : null;
     box.innerHTML = `<b>${esc(a.name)}</b><span class="t-side">${esc(a.side)}</span>` +
-      (n == null ? `<span>Under 3 reports</span>` :
+      (S.slow ? (slowCell
+        ? `<span>${slowCell[0]}% closed within a week · city ${CL.types[S.sel.i].wk}%</span>` + (slowCell[1] ? `<span>${slowCell[1]}% still open</span>` : "")
+        : `<span>Too few requests to say</span>`) :
+      n == null ? `<span>Under 3 reports</span>` :
         `<span>${fmt(n)} report${n === 1 ? "" : "s"}${tot ? ` · ${((n / tot) * 100).toFixed(1)}% of the city` : ""}</span>` +
         (r != null ? `<span>${fmtRate(r)} per 1,000 residents</span>` : "")) +
       (status ? `<span class="t-status">${status === "added" ? "✓ Added to Compare below. Tap again to remove." : "Removed from Compare."}</span>` +
@@ -173,19 +188,31 @@
     const hidden = rows.filter((r) => r.v == null).sort((x, y) => x.a.name.localeCompare(y.a.name));
     const max = known.length ? known[0].v : 1;
     const shown = S.showAll ? [...known, ...hidden] : known.slice(0, 10);
-    $("t-list-title").textContent = `${selLabel()}: most reports${S.per ? " per 1,000 residents" : ""}, ${RANGE_PHRASE[S.days]}`;
-    $("t-hint").textContent = S.per
+    $("t-list-title").textContent = S.slow
+      ? `${selLabel()}: biggest share taking over a week to close`
+      : `${selLabel()}: most reports${S.per ? " per 1,000 residents" : ""}, ${RANGE_PHRASE[S.days]}`;
+    $("t-hint").textContent = S.slow
+      ? (slowOK() ? `Share that took over a week or are still open, for ${closeWindow()}. Tap a neighborhood to compare it.`
+        : "Pick a single request type to see how fast the city closes it.")
+      : S.per
       ? "Tap a neighborhood to compare it (up to 3). Small neighborhoods can jump around per 1,000."
       : "Tap a neighborhood to compare it (up to 3).";
     $("t-rank").innerHTML = shown.map((r) => {
       const on = S.compare.includes(r.a.id);
-      const val = r.v == null ? "under 3" : S.per ? fmtRate(r.v) : fmt(r.v);
+      const val = r.v == null ? (S.slow ? "too few" : "under 3") : S.slow ? `${Math.round(r.v)}%` : S.per ? fmtRate(r.v) : fmt(r.v);
       const w = r.v == null ? 0 : Math.max(2, (r.v / max) * 100);
       return `<li><button type="button" data-id="${r.a.id}" aria-pressed="${on}">` +
         `<span class="nm">${esc(r.a.name)}</span><span class="val">${val}</span>` +
         `<span class="bar"><i style="width:${w.toFixed(1)}%;background:${selColor()}"></i></span></button></li>`;
     }).join("");
     $("t-more").textContent = S.showAll ? "Show top 10" : "Show all 77";
+    if (S.slow) {
+      const c = slowOK() ? CL.types[S.sel.i] : null;
+      $("t-total").innerHTML = `<b>${esc(selLabel())}</b> · ` + (c
+        ? `${usually(c)} · ${c.wk}% within a week citywide${c.open ? ` · ${c.open}% still open` : ""}`
+        : "pick a single request type");
+      return;
+    }
     $("t-more").hidden = known.length <= 10 && !hidden.length;
     const tot = cityTotal();
     $("t-total").innerHTML = `<b>${esc(selLabel())}</b> · ${RANGE_PHRASE[S.days]} · ` +
@@ -319,6 +346,7 @@
       peak + `</div>` +
       `<div class="h-grid">` +
       `<div class="h-col"><h3>Every 30 days, past year</h3><div class="t-trend">${chart}</div>` +
+      closeTable(idx) +
       `<h3>Where it comes up</h3><p class="adv-map">The <a href="#t-map">map above</a> is now shaded by ${esc(MOODS[m].label.toLowerCase())} requests. ` +
       `Tap any neighborhood to compare it, or search for yours to see its profile.</p></div>` +
       `<div class="h-col"><h3>What people ask for <small>(tap one to map it)</small></h3><ul class="adv-types">${types.map((x) =>
@@ -329,6 +357,20 @@
       `<p class="h-foot">From Chicago's 311 open data for the past year, in 30-day stretches. The titles are made up; the numbers are the city's. ` +
       `"Usual pace" is the average 30 days over the past year.</p>`;
     box.hidden = false;
+  }
+
+  // "How fast the city closes these": the advisor's own report card, from close.json.
+  function closeTable(idx) {
+    if (!CL) return "";
+    const rows = idx.map((i) => ({ t: T.types[i], i, c: CL.types[i] })).filter((x) => x.c).sort((a, b) => b.c.n - a.c.n);
+    if (!rows.length) return "";
+    const slowest = rows.filter((x) => x.c.n >= 500).sort((a, b) => a.c.wk - b.c.wk)[0];
+    return `<h3>How fast the city closes these</h3>` +
+      (slowest && slowest.c.wk < 50 ? `<p class="adv-slow">Slowest: <b>${esc(slowest.t.label)}</b>, ${usually(slowest.c)} (${slowest.c.wk}% within a week).</p>` : "") +
+      `<table class="adv-close"><thead><tr><th>Request</th><th>Usually within</th><th>In a week</th><th>Still open</th></tr></thead><tbody>` +
+      rows.map((x) => `<tr><td><button type="button" class="t-linkbtn" data-slow="${x.i}">${esc(x.t.label)}</button></td>` +
+        `<td>${x.c.typ ? STEP_SHORT[x.c.typ] : "3+ months"}</td><td>${x.c.wk}%</td><td>${x.c.open}%</td></tr>`).join("") +
+      `</tbody></table><p class="adv-fine">For ${closeWindow()}, so each had at least a month. Tap one to map how fast it gets closed in each neighborhood.</p>`;
   }
 
   function openAdvisor(m) {
@@ -361,7 +403,7 @@
     const nbTT = T.types.reduce((s, _, i) => s + v(C[i][k]), 0);
     const standouts = T.types.map((t, i) => ({ t, n: v(C[i][k]), x: nbTT && cityT[i] ? (v(C[i][k]) / nbTT) / (cityT[i] / cityTT) : 0 }))
       .filter((s_) => s_.n >= Math.max(STAND_MIN_N, nbTT * 0.005) && s_.x >= STAND_MIN_X).sort((a, b) => b.x - a.x).slice(0, 3);
-    const top = T.types.map((t, i) => ({ t, n: C[i][k] })).filter((x) => x.n != null).sort((a, b) => b.n - a.n).slice(0, 5);
+    const top = T.types.map((t, i) => ({ t, i, n: C[i][k] })).filter((x) => x.n != null).sort((a, b) => b.n - a.n).slice(0, 5);
     return { total: nbTT, mix, sig: sigC, standouts, top };
   }
 
@@ -395,13 +437,20 @@
       trend = `${spark(vals, "#E2557B")}<span class="ends"><span>${day(p[0].start, true)}</span><span>${day(p[p.length - 1].end)}</span></span>`;
     }
     const top = `<ol class="t-top">${P.top.map((x) => `<li><span>${esc(x.t.label)}</span><span>${fmt(x.n)}${a.pop ? ` <small>(${fmtRate((x.n / a.pop) * 1000)}/1k)</small>` : ""}</span></li>`).join("")}</ol>`;
+    let speed = "";
+    if (CL) {
+      const rowsC = P.top.map((x) => ({ x, here: CL.areas[x.i] && CL.areas[x.i][k], city: CL.types[x.i] })).filter((r) => r.here && r.city);
+      if (rowsC.length) speed = `<h3>How fast the city closes them here</h3><ul class="h-speed">${rowsC.map((r) =>
+        `<li><span>${esc(r.x.t.label)}</span><span><b>${r.here[0]}%</b> within a week <small>city ${r.city.wk}%</small></span></li>`).join("")}</ul>` +
+        `<p class="adv-fine">For ${closeWindow()}.</p>`;
+    }
     box.innerHTML =
       `<header class="h-head"><div><p class="h-kick">Neighborhood view · past year</p><h2>${esc(a.name)}</h2>` +
       `<p class="t-side">${esc(a.side)}${a.pop ? ` · ${fmt(a.pop)} residents` : ""} · ${fmt(P.total)} requests` +
       (a.pop ? ` · ${fmtRate((P.total / a.pop) * 1000)} per 1,000 residents` : "") + `</p></div>` +
       `<button type="button" class="x" data-close aria-label="Close the ${esc(a.name)} profile">×</button></header>` +
       `<div class="h-grid">` +
-      `<div class="h-col">${sig}<h3>Stands out for</h3>${stand}<h3>Top requests</h3>${top}</div>` +
+      `<div class="h-col">${sig}<h3>Stands out for</h3>${stand}<h3>Top requests</h3>${top}${speed}</div>` +
       `<div class="h-col"><h3>Mix of requests vs the city</h3>${mix}<h3>All requests, every 30 days</h3><div class="t-trend">${trend}</div></div>` +
       `</div>` +
       `<p class="h-foot">From Chicago's 311 open data, ${day(yr.start)}, ${yr.start.slice(0, 4)} to ${day(yr.end)}, ${yr.end.slice(0, 4)}. ` +
@@ -614,11 +663,13 @@
     renderAdvisor();
     $("t-type").value = S.sel.kind === "type" ? `t${S.sel.i}` : `m${S.sel.id}`;
     document.querySelectorAll("#t-range button").forEach((b) => b.setAttribute("aria-checked", String(+b.dataset.days === S.days)));
-    document.querySelectorAll("#t-per button").forEach((b) => b.setAttribute("aria-checked", String((b.dataset.per === "1") === S.per)));
+    const show = S.slow ? "2" : S.per ? "1" : "0";
+    document.querySelectorAll("#t-per button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.per === show)));
     const q = new URLSearchParams();
     q.set(S.sel.kind === "type" ? "type" : "mood", S.sel.kind === "type" ? slug(T.types[S.sel.i].label) : S.sel.id);
     q.set("days", S.days);
     if (S.per) q.set("per", "1");
+    if (S.slow) q.set("show", "slow");
     if (S.compare.length) q.set("compare", S.compare.join(","));
     if (S.hood) q.set("hood", S.hood);
     if (S.adv) q.set("adv", S.adv);
@@ -638,6 +689,8 @@
     const d = +q.get("days");
     if (RANGE_LABELS[d]) S.days = d;
     S.per = q.get("per") === "1";
+    S.slow = q.get("show") === "slow" && !!CL;
+    if (S.slow) S.per = false;
     const ids = new Set(T.areas.map((a) => a.id));
     S.compare = (q.get("compare") || "").split(",").filter((x) => ids.has(x)).slice(0, 3);
     S.hood = ids.has(q.get("hood")) ? q.get("hood") : null;
@@ -663,7 +716,7 @@
     });
     $("t-per").addEventListener("click", (ev) => {
       const b = ev.target.closest("button");
-      if (b) { S.per = b.dataset.per === "1"; render(); }
+      if (b) { S.per = b.dataset.per === "1"; S.slow = b.dataset.per === "2"; render(); }
     });
     $("t-rank").addEventListener("click", (ev) => {
       const b = ev.target.closest("button[data-id]");
@@ -683,8 +736,10 @@
     });
     $("t-adv").addEventListener("click", (ev) => {
       if (ev.target.closest("[data-close]")) { S.adv = null; render(); return; }
+      const sl = ev.target.closest("button[data-slow]");
+      if (sl) { S.sel = { kind: "type", i: +sl.dataset.slow }; S.slow = true; S.per = false; render(); say(`The map now shows how often <b>${esc(T.types[+sl.dataset.slow].label)}</b> took over a week to close, by neighborhood.`); return; }
       const t = ev.target.closest("button[data-type]");
-      if (t) { S.sel = { kind: "type", i: +t.dataset.type }; render(); say(`The map and list now show <b>${esc(T.types[+t.dataset.type].label)}</b>.`); return; }
+      if (t) { S.sel = { kind: "type", i: +t.dataset.type }; S.slow = false; render(); say(`The map and list now show <b>${esc(T.types[+t.dataset.type].label)}</b>.`); return; }
       const h = ev.target.closest("button[data-hood]");
       if (h) openHood(h.dataset.hood);
     });
@@ -711,6 +766,11 @@
       const [t, geo, idx] = await Promise.all([getJSON(`/data/${CITY}/trends.json`), getJSON(`/data/${CITY}/neighborhoods.geojson`),
         getJSON(`/data/${CITY}/index.json`)]);
       T = t; MOODS = idx.moods || {}; GEO = geo;
+      try {      // time to close is optional: the page works without it
+        const cl = await getJSON(`/data/${CITY}/close.json`);
+        if (cl.type_names && cl.type_names.length === T.types.length && cl.type_names.every((n, i) => n === T.types[i].type)) CL = cl;
+      } catch (e) { /* no close.json yet */ }
+      if (!CL) { const b = document.querySelector('#t-per button[data-per="2"]'); if (b) b.hidden = true; }
       const end = new Date(T.updated + "T12:00:00");
       $("t-kicker").textContent = `Chicago · 311 trends · through ${end.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}`;
       drawMap(geo);

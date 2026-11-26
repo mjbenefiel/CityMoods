@@ -36,7 +36,7 @@
   };
   let T, MOODS, GEO, series = null, seriesLoading = null;
   const render_ = () => render();
-  const S = { sel: null, days: 90, per: false, compare: [], showAll: false };
+  const S = { sel: null, days: 90, per: false, compare: [], showAll: false, hood: null };
   const paths = {};
 
   async function getJSON(url) {
@@ -213,7 +213,7 @@
     if (!S.compare.length) return;
     const color = selColor();
     if (S.sel.kind === "type" && !series && !seriesLoading) {
-      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); }).catch(() => {});
+      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); }).catch(() => {});
     }
     $("t-cards").innerHTML = S.compare.map((id) => {
       const k = T.areas.findIndex((a) => a.id === id), a = T.areas[k];
@@ -235,8 +235,85 @@
         (r != null ? ` · <b>${fmtRate(r)}</b> per 1,000` : "") + `</p>` + trend +
         `<p class="lbl">Top requests, ${RANGE_PHRASE[S.days]}</p><ol class="t-top">` +
         top.map((x) => `<li><span>${esc(x.t.label)}</span><span>${fmt(x.n)}${a.pop ? ` <small>(${fmtRate((x.n / a.pop) * 1000)}/1k)</small>` : ""}</span></li>`).join("") +
-        `</ol></article>`;
+        `</ol><button type="button" class="t-profile" data-hood="${id}">See ${esc(a.name)}'s full profile ↓</button></article>`;
     }).join("");
+  }
+
+  // ------------------------------------------------------------ neighborhood view
+  // A profile built only from the past year of 311 requests. The "311 signature" is the mood that makes up the
+  // biggest share of this neighborhood's requests compared with the city's share (at least 1.3×, and 100+ requests).
+  // Standouts are request types at least 1.5× the city's share, with 30+ requests and at least 0.5% of the neighborhood's
+  // requests (so a handful of oddities don't crowd out things people recognize). No nicknames, no rankings.
+  const SIG_MIN_X = 1.3, SIG_MIN_N = 100, STAND_MIN_X = 1.5, STAND_MIN_N = 30;
+  function profile(k) {
+    const C = T.counts[365], Mo = T.moods[365];
+    const moods = Object.keys(Mo).filter((m) => m !== "other" && MOODS[m]);
+    const v = (x) => x || 0;
+    const cityM = Object.fromEntries(moods.map((m) => [m, Mo[m].reduce((s, x) => s + v(x), 0)]));
+    const cityMT = Object.values(cityM).reduce((s, x) => s + x, 0);
+    const nbM = Object.fromEntries(moods.map((m) => [m, v(Mo[m][k])]));
+    const nbMT = Object.values(nbM).reduce((s, x) => s + x, 0);
+    const mix = moods.map((m) => ({ m, n: nbM[m], share: nbMT ? nbM[m] / nbMT : 0, city: cityMT ? cityM[m] / cityMT : 0 }))
+      .map((x) => ({ ...x, x: x.city ? x.share / x.city : 0 })).sort((a, b) => b.share - a.share);
+    const sigC = mix.filter((x) => x.n >= SIG_MIN_N && x.x >= SIG_MIN_X).sort((a, b) => b.x - a.x)[0] || null;
+    const cityT = T.types.map((_, i) => C[i].reduce((s, x) => s + v(x), 0)), cityTT = cityT.reduce((s, x) => s + x, 0);
+    const nbTT = T.types.reduce((s, _, i) => s + v(C[i][k]), 0);
+    const standouts = T.types.map((t, i) => ({ t, n: v(C[i][k]), x: nbTT && cityT[i] ? (v(C[i][k]) / nbTT) / (cityT[i] / cityTT) : 0 }))
+      .filter((s_) => s_.n >= Math.max(STAND_MIN_N, nbTT * 0.005) && s_.x >= STAND_MIN_X).sort((a, b) => b.x - a.x).slice(0, 3);
+    const top = T.types.map((t, i) => ({ t, n: C[i][k] })).filter((x) => x.n != null).sort((a, b) => b.n - a.n).slice(0, 5);
+    return { total: nbTT, mix, sig: sigC, standouts, top };
+  }
+
+  function renderHood() {
+    const box = $("t-hood");
+    const k = S.hood ? T.areas.findIndex((a) => a.id === S.hood) : -1;
+    if (k < 0) { box.hidden = true; box.innerHTML = ""; return; }
+    const a = T.areas[k], P = profile(k);
+    if (!series && !seriesLoading)
+      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); }).catch(() => {});
+    const yr = T.windows.find((w) => w.days === 365);
+    const pct = (x) => `${(x * 100).toFixed(x < 0.1 ? 1 : 0)}%`;
+    const sig = P.sig
+      ? `<div class="h-badge" style="--mc:${MOODS[P.sig.m].color}"><span class="h-k">311 signature</span>` +
+        `<b>${MOODS[P.sig.m].emoji} ${esc(MOODS[P.sig.m].label)}</b>` +
+        `<span class="h-why">${pct(P.sig.share)} of its requests are about ${esc(MOODS[P.sig.m].label.toLowerCase())}, ${P.sig.x.toFixed(1)}× the city's share.</span></div>`
+      : `<div class="h-badge"><span class="h-k">311 signature</span><b>🧭 A bit of everything</b>` +
+        `<span class="h-why">No single mood stands out: its mix of requests is close to the city's.</span></div>`;
+    const stand = P.standouts.length
+      ? `<ul class="h-stand">${P.standouts.map((x) => `<li><b>${esc(x.t.label)}</b>: ${fmt(x.n)} this year, ${x.x.toFixed(1)}× the city's share</li>`).join("")}</ul>`
+      : `<p class="h-none">No single request type stands out by much.</p>`;
+    const maxShare = Math.max(...P.mix.map((x) => Math.max(x.share, x.city)), 0.01);
+    const mix = `<ul class="h-mix">${P.mix.filter((x) => x.share >= 0.005 || x.city >= 0.02).map((x) =>
+      `<li><span class="h-ml">${MOODS[x.m].emoji} ${esc(MOODS[x.m].label)}</span>` +
+      `<span class="h-bars"><i class="h-me" style="width:${((x.share / maxShare) * 100).toFixed(1)}%;background:${MOODS[x.m].color}"></i>` +
+      `<i class="h-city" style="width:${((x.city / maxShare) * 100).toFixed(1)}%"></i></span>` +
+      `<span class="h-mv">${pct(x.share)} <small>city ${pct(x.city)}</small></span></li>`).join("")}</ul>`;
+    let trend = `<p class="h-none">Loading the year's trend…</p>`;
+    if (series) {
+      const p = series.periods, vals = p.map((_, j) => series.types.reduce((s_, ty) => s_ + (ty[k][j] || 0), 0));
+      trend = `${spark(vals, "#E2557B")}<span class="ends"><span>${day(p[0].start, true)}</span><span>${day(p[p.length - 1].end)}</span></span>`;
+    }
+    const top = `<ol class="t-top">${P.top.map((x) => `<li><span>${esc(x.t.label)}</span><span>${fmt(x.n)}${a.pop ? ` <small>(${fmtRate((x.n / a.pop) * 1000)}/1k)</small>` : ""}</span></li>`).join("")}</ol>`;
+    box.innerHTML =
+      `<header class="h-head"><div><p class="h-kick">Neighborhood view · past year</p><h2>${esc(a.name)}</h2>` +
+      `<p class="t-side">${esc(a.side)}${a.pop ? ` · ${fmt(a.pop)} residents` : ""} · ${fmt(P.total)} requests` +
+      (a.pop ? ` · ${fmtRate((P.total / a.pop) * 1000)} per 1,000 residents` : "") + `</p></div>` +
+      `<button type="button" class="x" data-close aria-label="Close the ${esc(a.name)} profile">×</button></header>` +
+      `<div class="h-grid">` +
+      `<div class="h-col">${sig}<h3>Stands out for</h3>${stand}<h3>Top requests</h3>${top}</div>` +
+      `<div class="h-col"><h3>Mix of requests vs the city</h3>${mix}<h3>All requests, every 30 days</h3><div class="t-trend">${trend}</div></div>` +
+      `</div>` +
+      `<p class="h-foot">From Chicago's 311 open data, ${day(yr.start)}, ${yr.start.slice(0, 4)} to ${day(yr.end)}, ${yr.end.slice(0, 4)}. ` +
+      `"311 signature" is the mood that's the biggest share of this neighborhood's requests compared with the city's share (at least ${SIG_MIN_X}×). ` +
+      `It describes what people here ask the city for, not what the neighborhood is like. Counts under 3 are hidden. ` +
+      `<button type="button" class="t-linkbtn" data-copy>Copy a link to this profile</button></p>`;
+    box.hidden = false;
+  }
+
+  function openHood(id, scroll = true) {
+    S.hood = id;
+    render();
+    if (scroll) $("t-hood").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   }
 
   // ------------------------------------------------------------ find a neighborhood
@@ -346,7 +423,8 @@
     const hit = GEO.features.find((f) => inside(lon, lat, f.geometry));
     if (hit) {
       const where = how === "location" ? "You're in" : "That address is in";
-      return showAreas([hit.id], `${where} ${esc(nameOf(hit.id))}. Added it to <a href="#t-compare">Compare</a>.${rough}`);
+      S.hood = hit.id;
+      return showAreas([hit.id], `${where} ${esc(nameOf(hit.id))}. Its <a href="#t-hood">profile</a> is below, and it's in <a href="#t-compare">Compare</a>.${rough}`);
     }
     // One of our other cities?
     for (const c of OTHER_CITIES) {
@@ -428,6 +506,7 @@
     paintMap();
     renderList();
     renderCompare();
+    renderHood();
     $("t-type").value = S.sel.kind === "type" ? `t${S.sel.i}` : `m${S.sel.id}`;
     document.querySelectorAll("#t-range button").forEach((b) => b.setAttribute("aria-checked", String(+b.dataset.days === S.days)));
     document.querySelectorAll("#t-per button").forEach((b) => b.setAttribute("aria-checked", String((b.dataset.per === "1") === S.per)));
@@ -436,6 +515,7 @@
     q.set("days", S.days);
     if (S.per) q.set("per", "1");
     if (S.compare.length) q.set("compare", S.compare.join(","));
+    if (S.hood) q.set("hood", S.hood);
     history.replaceState(null, "", `${location.pathname}?${q}`);
   }
 
@@ -454,6 +534,7 @@
     S.per = q.get("per") === "1";
     const ids = new Set(T.areas.map((a) => a.id));
     S.compare = (q.get("compare") || "").split(",").filter((x) => ids.has(x)).slice(0, 3);
+    S.hood = ids.has(q.get("hood")) ? q.get("hood") : null;
   }
 
   function setupControls() {
@@ -484,6 +565,16 @@
     $("t-cards").addEventListener("click", (ev) => {
       const b = ev.target.closest("button.x");
       if (b) toggleCompare(b.dataset.id);
+      const p = ev.target.closest("button[data-hood]");
+      if (p) openHood(p.dataset.hood);
+    });
+    $("t-hood").addEventListener("click", (ev) => {
+      if (ev.target.closest("[data-close]")) { S.hood = null; render(); return; }
+      const c = ev.target.closest("[data-copy]");
+      if (c) {
+        const done = () => { c.textContent = "Link copied"; setTimeout(() => (c.textContent = "Copy a link to this profile"), 2000); };
+        if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(done, () => {});
+      }
     });
     // Arrow keys move between options in each button group, like radio buttons
     document.querySelectorAll(".seg").forEach((g) => g.addEventListener("keydown", (ev) => {

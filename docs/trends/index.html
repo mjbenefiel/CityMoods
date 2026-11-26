@@ -16,7 +16,7 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/style.css?v=202611250300">
+<link rel="stylesheet" href="/style.css?v=202611260100">
 <script data-goatcounter="https://citymoods.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
@@ -42,10 +42,11 @@
     </div>
     <div class="t-field t-find"><label for="t-find">Find a neighborhood</label>
       <div class="search">
-        <input id="t-find" type="search" placeholder="🔍 e.g. Wicker Park or Pilsen" autocomplete="off"
+        <input id="t-find" type="search" placeholder="🔍 Neighborhood or address" autocomplete="off"
           role="combobox" aria-controls="t-find-results" aria-autocomplete="list" aria-expanded="false">
         <ul id="t-find-results" class="results" role="listbox" hidden></ul>
       </div>
+      <button type="button" class="t-locate" id="t-locate" hidden>📍 Use my location</button>
     </div>
     <div class="t-field"><span id="t-per-label">Show</span>
       <div class="seg" id="t-per" role="radiogroup" aria-labelledby="t-per-label">
@@ -87,7 +88,7 @@
   <p>Data: <a href="https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy">Chicago 311 Service Requests</a> and <a href="https://data.cityofchicago.org/Health-Human-Services/ACS-5-Year-Data-by-Community-Area-Most-Recent-Year/7umk-8dtw">ACS 5-year data by community area</a>, from the City of Chicago Data Portal. CityMoods is independent and not affiliated with the City of Chicago.</p>
 </footer>
 
-<script src="/trends.js?v=202611220400"></script>
+<script src="/trends.js?v=202611260100"></script>
 <script src="/menu.js?v=202611250100"></script>
 </body>
 </html>

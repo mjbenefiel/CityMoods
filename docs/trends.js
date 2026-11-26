@@ -34,7 +34,7 @@
     "Six Corners": ["Portage Park"], "Marquette Park": ["Chicago Lawn"], "Pill Hill": ["Calumet Heights"],
     "Gresham": ["Auburn Gresham"], "Wrightwood": ["Ashburn"], "Loop": ["The Loop"], "Downtown": ["The Loop"],
   };
-  let T, MOODS, series = null, seriesLoading = null;
+  let T, MOODS, GEO, series = null, seriesLoading = null;
   const render_ = () => render();
   const S = { sel: null, days: 90, per: false, compare: [], showAll: false };
   const paths = {};
@@ -253,10 +253,8 @@
     let matches = [], active = 0;
 
     const render = () => {
-      const none = !matches.length && norm(input.value).length >= 3 && document.activeElement === input;
-      box.hidden = !matches.length && !none;
+      box.hidden = !matches.length;
       input.setAttribute("aria-expanded", String(!!matches.length));
-      if (none) { box.innerHTML = `<li class="none">No match. Try a community area name, like West Town or Hyde Park.</li>`; return; }
       box.innerHTML = matches.map((m, k) => `<li role="option" data-k="${k}" class="${k === active ? "on" : ""}" aria-selected="${k === active}">` +
         `<b>${esc(m.label)}</b><span>${esc(m.note)}</span></li>`).join("");
     };
@@ -267,28 +265,21 @@
       const words = entries.filter((e) => !starts.includes(e) && e.key.split(" ").some((w) => w.startsWith(q)));
       const inside = entries.filter((e) => !starts.includes(e) && !words.includes(e) && e.key.includes(q));
       matches = [...starts, ...words, ...inside].slice(0, 7);
+      // Anything that looks like a street address (or matches no name) can be looked up as an address.
+      const raw = input.value.trim();
+      if (raw.length >= 4 && (/^\d/.test(raw) || !matches.length))
+        matches.push({ label: `Look up "${raw}"`, note: "as an address (via OpenStreetMap)", address: raw });
       active = 0;
       render();
     };
     const choose = (m) => {
       matches = []; render();
-      input.value = "";
+      input.value = "";        // never leave an address sitting in the box
       input.blur();
-      hideTip();
-      for (const id of m.ids) if (!S.compare.includes(id)) { S.compare.push(id); if (S.compare.length > 3) S.compare.shift(); }
-      render_();
+      if (m.address) return lookupAddress(m.address);
       const names = m.ids.map((id) => T.areas.find((a) => a.id === id).name);
-      const note = $("t-found");
-      note.innerHTML = (m.alias ? `${esc(m.label)} is part of ${esc(names.join(" and "))}. ` : "") +
-        `Added ${esc(names.join(" and "))} to <a href="#t-compare">Compare</a>.`;
-      note.hidden = false;
-      for (const id of m.ids) {                 // flash it on the map
-        const el = paths[id];
-        if (!el) continue;
-        el.classList.remove("found"); void el.getBoundingClientRect(); el.classList.add("found");
-        setTimeout(() => el.classList.remove("found"), 2400);
-      }
-      $("t-map").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+      showAreas(m.ids, (m.alias ? `${esc(m.label)} is part of ${esc(names.join(" and "))}. ` : "") +
+        `Added ${esc(names.join(" and "))} to <a href="#t-compare">Compare</a>.`);
     };
     input.addEventListener("input", search);
     input.addEventListener("keydown", (e) => {
@@ -302,6 +293,134 @@
       if (li) { e.preventDefault(); choose(matches[+li.dataset.k]); }
     });
     input.addEventListener("blur", () => setTimeout(() => { matches = []; render(); }, 120));
+  }
+
+  // Add neighborhoods to Compare, say so, and flash them on the map.
+  function showAreas(ids, html) {
+    hideTip();
+    for (const id of ids) if (!S.compare.includes(id)) { S.compare.push(id); if (S.compare.length > 3) S.compare.shift(); }
+    render_();
+    say(html);
+    for (const id of ids) {
+      const el = paths[id];
+      if (!el) continue;
+      el.classList.remove("found"); void el.getBoundingClientRect(); el.classList.add("found");
+      setTimeout(() => el.classList.remove("found"), 2400);
+    }
+    $("t-map").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
+  }
+  function say(html) { const n = $("t-found"); n.innerHTML = html; n.hidden = false; }
+
+  // ------------------------------------------------------------ which neighborhood am I in?
+  // Everything here happens in the visitor's browser. A location from "Use my location" never leaves the
+  // device; a typed address goes only to OpenStreetMap's search (Nominatim) to turn it into a point. CityMoods
+  // never receives, counts or stores either one, and neither ever goes in the page's link.
+  const OTHER_CITIES = [   // rough bounding boxes [west, south, east, north], so we only load a city's map when needed
+    { key: "nyc", name: "New York", box: [-74.27, 40.49, -73.69, 40.92] },
+    { key: "la", name: "Los Angeles", box: [-118.67, 33.70, -118.15, 34.34] },
+    { key: "sf", name: "San Francisco", box: [-122.52, 37.70, -122.35, 37.84] },
+    { key: "boston", name: "Boston", box: [-71.20, 42.22, -70.98, 42.40] },
+  ];
+  const polysOf = (g) => (g.type === "Polygon" ? [g.coordinates] : g.coordinates);
+  function inside(lon, lat, geom) {          // even-odd rule, so holes in a shape are handled too
+    let hit = false;
+    for (const poly of polysOf(geom)) for (const ring of poly)
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const [xi, yi] = ring[i], [xj, yj] = ring[j];
+        if ((yi > lat) !== (yj > lat) && lon < ((xj - xi) * (lat - yi)) / (yj - yi) + xi) hit = !hit;
+      }
+    return hit;
+  }
+  const miles = (lat1, lon1, lat2, lon2) => {
+    const r = Math.PI / 180, a = Math.sin(((lat2 - lat1) * r) / 2) ** 2 +
+      Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(((lon2 - lon1) * r) / 2) ** 2;
+    return 3958.8 * 2 * Math.asin(Math.sqrt(a));
+  };
+  const fmtMi = (d) => (d < 10 ? d.toFixed(1) : fmt(Math.round(d)));
+  const nameOf = (id) => (T.areas.find((a) => a.id === id) || {}).name;
+
+  async function place(lon, lat, how, accuracy) {
+    // how: "location" or "address". accuracy is in meters (location only).
+    const rough = how === "location" && accuracy > 1000
+      ? ` <span class="t-note">Your browser's location is approximate (within about ${fmtMi(accuracy / 1609)} miles), so this could be off. For an exact match, type your address.</span>` : "";
+    const hit = GEO.features.find((f) => inside(lon, lat, f.geometry));
+    if (hit) {
+      const where = how === "location" ? "You're in" : "That address is in";
+      return showAreas([hit.id], `${where} ${esc(nameOf(hit.id))}. Added it to <a href="#t-compare">Compare</a>.${rough}`);
+    }
+    // One of our other cities?
+    for (const c of OTHER_CITIES) {
+      const [w, s_, e, n] = c.box;
+      if (lon < w || lon > e || lat < s_ || lat > n) continue;
+      try {
+        const g = await getJSON(`/data/${c.key}/neighborhoods.geojson`);
+        const f = g.features.find((x) => inside(lon, lat, x.geometry));
+        if (f) {
+          const p = f.properties || {};
+          const area = p.borough && p.borough !== p.name && p.borough !== c.name ? `${p.name}, ${p.borough}` : p.name;
+          return say(`${how === "location" ? "You're in" : "That's in"} ${esc(area)}, ${esc(c.name)}. Trends are Chicago-only for now, ` +
+            `but ${esc(c.name)} has its own daily map: <a href="/${c.key}/">see ${esc(c.name)} →</a>${rough}`);
+        }
+        // Inside the rough box but outside the city itself (a neighboring town, the water, an airport…)
+        return say(`${how === "location" ? "You're" : "That's"} just outside ${esc(c.name)}. Trends are Chicago-only for now, ` +
+          `but ${esc(c.name)} has its own daily map: <a href="/${c.key}/">see ${esc(c.name)} →</a>${rough}`);
+      } catch (e) { /* fall through to the distance message */ }
+    }
+    // Near Chicago, or far away?
+    let best = null;
+    for (const f of GEO.features) for (const poly of polysOf(f.geometry)) for (const [x, y] of poly[0]) {
+      const d = miles(lat, lon, y, x);
+      if (!best || d < best.d) best = { d, id: f.id };
+    }
+    if (best && best.d <= 15) {
+      const nm = esc(nameOf(best.id));
+      say(`That's just outside Chicago. The closest neighborhood is ${nm}, about ${fmtMi(best.d)} miles away. ` +
+        `<button type="button" class="t-linkbtn" data-add="${esc(best.id)}">Add ${nm} to Compare</button>${rough}`);
+      return;
+    }
+    const far = miles(lat, lon, 41.8781, -87.6298);
+    say(`${how === "location" ? "You're" : "That's"} about ${fmtMi(far)} miles from Chicago, and your city isn't on CityMoods yet. ` +
+      `Want it? <a href="mailto:admin@citymoods311.com?subject=Add%20my%20city%3A%20">Ask us</a>.${rough}`);
+  }
+
+  async function lookupAddress(text) {
+    // Assume Chicago unless the address already names a city or state (it has a comma, or mentions IL/Illinois/Chicago).
+    const q = /,|\bchicago\b|\bil\b|\billinois\b/i.test(text) ? text : `${text}, Chicago, IL`;
+    say("Looking up that address…");
+    try {
+      const url = "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us" +
+        "&viewbox=-87.94,42.03,-87.52,41.64&q=" + encodeURIComponent(q);
+      const r = await fetch(url, { headers: { "Accept-Language": "en" }, cache: "no-store" });
+      if (!r.ok) throw new Error(r.status);
+      const [res] = await r.json();
+      if (!res) return say(`Couldn't find that address. Try adding the city, like "1600 W Division St, Chicago".`);
+      place(+res.lon, +res.lat, "address");
+    } catch (e) {
+      say("The address search isn't answering right now. Try again in a minute, or pick a neighborhood by name.");
+    }
+  }
+
+  function setupLocate() {
+    const btn = $("t-locate");
+    if (!btn) return;
+    if (!("geolocation" in navigator)) { btn.hidden = true; return; }
+    btn.hidden = false;
+    btn.addEventListener("click", () => {
+      say("Finding your location…");
+      btn.disabled = true;
+      navigator.geolocation.getCurrentPosition(
+        (pos) => { btn.disabled = false; place(pos.coords.longitude, pos.coords.latitude, "location", pos.coords.accuracy); },
+        (err) => {
+          btn.disabled = false;
+          say(err.code === 1 ? "Location is turned off for this site. You can type your address in the box instead."
+            : "Couldn't get your location. You can type your address in the box instead.");
+        },
+        { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 });
+    });
+    $("t-found").addEventListener("click", (ev) => {
+      const b = ev.target.closest("button[data-add]");
+      if (b) showAreas([b.dataset.add], `Added ${esc(nameOf(b.dataset.add))} to <a href="#t-compare">Compare</a>.`);
+    });
   }
 
   // ------------------------------------------------------------ state + controls
@@ -380,12 +499,13 @@
     try {
       const [t, geo, idx] = await Promise.all([getJSON(`/data/${CITY}/trends.json`), getJSON(`/data/${CITY}/neighborhoods.geojson`),
         getJSON(`/data/${CITY}/index.json`)]);
-      T = t; MOODS = idx.moods || {};
+      T = t; MOODS = idx.moods || {}; GEO = geo;
       const end = new Date(T.updated + "T12:00:00");
       $("t-kicker").textContent = `Chicago · 311 trends · through ${end.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}`;
       drawMap(geo);
       setupControls();
       setupFind();
+      setupLocate();
       readURL();
       render();
     } catch (e) {

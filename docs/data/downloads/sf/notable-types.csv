@@ -436,3 +436,30 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-24,Tuesday,Tree maintenance,trees,39,40,0.99,top
 2026-11-24,Tuesday,Streetlights,streets,37,21,1.74,top
 2026-11-24,Tuesday,Street defect,streets,32,36,0.9,top
+2026-11-25,Wednesday,Scooter with no license plate,parking,49,23,2.15,spike
+2026-11-25,Wednesday,Loose garbage,trash,289,285,1.01,top
+2026-11-25,Wednesday,Illegal parking,parking,169,180,0.94,top
+2026-11-25,Wednesday,Bagged or boxed garbage,trash,128,137,0.93,top
+2026-11-25,Wednesday,Furniture,trash,96,102,0.95,top
+2026-11-25,Wednesday,Parking on the sidewalk,parking,94,95,0.99,top
+2026-11-25,Wednesday,Blocked driveway,parking,66,107,0.62,top
+2026-11-25,Wednesday,Overflowing city trash can,trash,60,49,1.22,top
+2026-11-25,Wednesday,Abandoned car,parking,44,73,0.6,top
+2026-11-25,Wednesday,Blocked driveway (tow requested),parking,41,48,0.85,top
+2026-11-25,Wednesday,Mattress,trash,29,30,0.98,top
+2026-11-25,Wednesday,Lime scooter,parking,29,40,0.72,top
+2026-11-25,Wednesday,Spin scooter,parking,22,31,0.71,top
+2026-11-25,Wednesday,Graffiti on pole,trash,22,35,0.63,top
+2026-11-25,Wednesday,Sewage backup: from side sewer vent,water,19,30,0.63,top
+2026-11-25,Wednesday,Street cleaning,trash,674,686,0.98,top
+2026-11-25,Wednesday,Parking enforcement,parking,434,525,0.83,top
+2026-11-25,Wednesday,Blocked street and sidewalk,parking,122,117,1.04,top
+2026-11-25,Wednesday,Graffiti (public),trash,103,90,1.15,top
+2026-11-25,Wednesday,General,other,85,116,0.73,top
+2026-11-25,Wednesday,Sewer,water,55,284,0.19,top
+2026-11-25,Wednesday,Rpd general,other,41,35,1.17,top
+2026-11-25,Wednesday,Litter receptacle maintenance,trash,36,25,1.43,top
+2026-11-25,Wednesday,Tree maintenance,trees,33,66,0.5,top
+2026-11-25,Wednesday,Graffiti (private property),trash,32,39,0.82,top
+2026-11-25,Wednesday,Noise,noise,26,29,0.9,top
+2026-11-25,Wednesday,Sidewalk and curb,streets,21,37,0.56,top

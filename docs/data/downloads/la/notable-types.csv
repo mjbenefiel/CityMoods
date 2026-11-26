@@ -239,3 +239,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-24,Tuesday,Program research,other,46,51,0.9,top
 2026-11-24,Tuesday,Tree emergency,trees,33,32,1.04,top
 2026-11-24,Tuesday,Sidewalk problem,streets,26,40,0.66,top
+2026-11-25,Wednesday,Illegal signs or news racks,trash,38,14,2.62,spike
+2026-11-25,Wednesday,Illegal dumping,trash,1089,1531,0.71,top
+2026-11-25,Wednesday,Graffiti,trash,343,1547,0.22,top
+2026-11-25,Wednesday,Service not completed (follow-up),trash,272,362,0.75,top
+2026-11-25,Wednesday,Potholes and pavement,streets,93,141,0.66,top
+2026-11-25,Wednesday,Streetlight repair,streets,92,130,0.71,top
+2026-11-25,Wednesday,Dead animal,critters,67,100,0.67,top
+2026-11-25,Wednesday,Badly parked scooter or bike,parking,56,87,0.64,top
+2026-11-25,Wednesday,Landscape maintenance,trees,42,63,0.66,top
+2026-11-25,Wednesday,Program research,other,35,38,0.92,top
+2026-11-25,Wednesday,Parking,parking,33,33,1.01,top
+2026-11-25,Wednesday,Obstructions,streets,31,54,0.57,top
+2026-11-25,Wednesday,Tree emergency,trees,21,34,0.62,top
+2026-11-25,Wednesday,Sidewalk problem,streets,20,35,0.57,top
+2026-11-25,Wednesday,General street inspection,streets,20,28,0.73,top

@@ -12206,3 +12206,1594 @@ date,neighborhood_id,neighborhood,borough,request_type,mood,requests
 2026-11-22,QN0203,Woodside,Queens,Loud music/party (next door),noise,4
 2026-11-22,QN0203,Woodside,Queens,Blocked hydrant,parking,4
 2026-11-22,QN0203,Woodside,Queens,Derelict car,parking,3
+2026-11-23,BX1104,Allerton,Bronx,Window frame: loose or defective,housing,4
+2026-11-23,BX1104,Allerton,Bronx,Loud music/party (next door),noise,3
+2026-11-23,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Poster or sign: utility pole,trash,4
+2026-11-23,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Pothole,streets,3
+2026-11-23,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Leak,water,3
+2026-11-23,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Street light out,streets,3
+2026-11-23,SI0303,Arden Heights-Rossville,Staten Island,Blocked crosswalk,parking,3
+2026-11-23,QN0103,Astoria (Central),Queens,Blocked sidewalk,parking,24
+2026-11-23,QN0103,Astoria (Central),Queens,Rat sighting,critters,5
+2026-11-23,QN0103,Astoria (Central),Queens,Blocked hydrant,parking,5
+2026-11-23,QN0103,Astoria (Central),Queens,Cooking gas: shut-off,housing,5
+2026-11-23,QN0103,Astoria (Central),Queens,Fire escape: rusted or peeling,housing,4
+2026-11-23,QN0103,Astoria (Central),Queens,Water supply: no water,housing,4
+2026-11-23,QN0103,Astoria (Central),Queens,No hot water (whole building),heat,4
+2026-11-23,QN0103,Astoria (Central),Queens,Driveway fully blocked,parking,4
+2026-11-23,QN0103,Astoria (Central),Queens,Loud music/party (at a business),noise,3
+2026-11-23,QN0103,Astoria (Central),Queens,Condition attracting rodents: construction debris,critters,3
+2026-11-23,QN0104,Astoria (East)-Woodside (North),Queens,Loud music/party (next door),noise,4
+2026-11-23,QN0104,Astoria (East)-Woodside (North),Queens,Loud music/party (on the street),noise,4
+2026-11-23,QN0104,Astoria (East)-Woodside (North),Queens,Littering,trash,4
+2026-11-23,QN0104,Astoria (East)-Woodside (North),Queens,Blocked hydrant,parking,4
+2026-11-23,QN0104,Astoria (East)-Woodside (North),Queens,Car/truck music,noise,3
+2026-11-23,QN0104,Astoria (East)-Woodside (North),Queens,Driveway partly blocked,parking,3
+2026-11-23,QN0104,Astoria (East)-Woodside (North),Queens,Replacement basket,trash,3
+2026-11-23,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Driveway fully blocked,parking,8
+2026-11-23,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Blocked sidewalk,parking,7
+2026-11-23,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Odor,water,7
+2026-11-23,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Blocked hydrant,parking,6
+2026-11-23,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Posted parking sign violation,parking,3
+2026-11-23,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Loud music/party (on the street),noise,3
+2026-11-23,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Littering,trash,3
+2026-11-23,QN1101,Auburndale,Queens,Littering,trash,3
+2026-11-23,QN1203,Baisley Park,Queens,Drag racing,streets,4
+2026-11-23,QN1203,Baisley Park,Queens,Abandoned car (with plates),parking,3
+2026-11-23,QN1203,Baisley Park,Queens,Blocked sidewalk,parking,3
+2026-11-23,QN1203,Baisley Park,Queens,Driveway fully blocked,parking,3
+2026-11-23,BK1102,Bath Beach,Brooklyn,Blocked hydrant,parking,11
+2026-11-23,BK1102,Bath Beach,Brooklyn,Blocked - construction,streets,3
+2026-11-23,BK1001,Bay Ridge,Brooklyn,Blocked hydrant,parking,17
+2026-11-23,BK1001,Bay Ridge,Brooklyn,Posted parking sign violation,parking,12
+2026-11-23,BK1001,Bay Ridge,Brooklyn,No heat (whole building),heat,8
+2026-11-23,BK1001,Bay Ridge,Brooklyn,Commercial overnight parking,parking,6
+2026-11-23,BK1001,Bay Ridge,Brooklyn,Driveway partly blocked,parking,5
+2026-11-23,BK1001,Bay Ridge,Brooklyn,Driveway fully blocked,parking,5
+2026-11-23,BK1001,Bay Ridge,Brooklyn,No heat and no hot water (whole building),heat,4
+2026-11-23,BK1001,Bay Ridge,Brooklyn,Lead test kit request,housing,3
+2026-11-23,BK1001,Bay Ridge,Brooklyn,Double parked blocking vehicle,parking,3
+2026-11-23,BX0702,Bedford Park,Bronx,No heat and no hot water (whole building),heat,12
+2026-11-23,BX0702,Bedford Park,Bronx,No hot water (whole building),heat,5
+2026-11-23,BX0702,Bedford Park,Bronx,No heat (whole building),heat,5
+2026-11-23,BX0702,Bedford Park,Bronx,Blocked hydrant,parking,4
+2026-11-23,BX0702,Bedford Park,Bronx,Mold,housing,4
+2026-11-23,BX0702,Bedford Park,Bronx,Loud talking (on the street),noise,4
+2026-11-23,BX0702,Bedford Park,Bronx,Banging/pounding (next door),noise,3
+2026-11-23,BX0702,Bedford Park,Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX0702,Bedford Park,Bronx,Parking permit improper use: parked on sidewalk,parking,3
+2026-11-23,BX0702,Bedford Park,Bronx,No heat (one apartment),heat,3
+2026-11-23,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud music/party (next door),noise,8
+2026-11-23,BK0302,Bedford-Stuyvesant (East),Brooklyn,Posted parking sign violation,parking,6
+2026-11-23,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud talking (next door),noise,4
+2026-11-23,BK0302,Bedford-Stuyvesant (East),Brooklyn,Blocked hydrant,parking,4
+2026-11-23,BK0302,Bedford-Stuyvesant (East),Brooklyn,Car/truck music,noise,4
+2026-11-23,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud music/party (at a business),noise,3
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Driveway fully blocked,parking,6
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Loud music/party (on the street),noise,4
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Double parked blocking traffic,parking,4
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Banging/pounding (next door),noise,3
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Blocked crosswalk,parking,3
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Loud music/party (next door),noise,3
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Mold,housing,3
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Outlet/switch: outlet sealed or defective,housing,3
+2026-11-23,BK0301,Bedford-Stuyvesant (West),Brooklyn,Blocked bike lane,parking,3
+2026-11-23,QN1302,Bellerose,Queens,Blocked crosswalk,parking,3
+2026-11-23,QN1302,Bellerose,Queens,Clogged storm drain,water,3
+2026-11-23,BX0603,Belmont,Bronx,Driveway fully blocked,parking,4
+2026-11-23,BX0603,Belmont,Bronx,Wall: chipped/peeling/flaking,housing,4
+2026-11-23,BX0603,Belmont,Bronx,Heavy flow: at wall or ceiling,housing,4
+2026-11-23,BX0603,Belmont,Bronx,Banging/pounding (next door),noise,3
+2026-11-23,BX0603,Belmont,Bronx,Floor: broken or defective,housing,3
+2026-11-23,BK1101,Bensonhurst,Brooklyn,Blocked hydrant,parking,34
+2026-11-23,BK1101,Bensonhurst,Brooklyn,Banging/pounding (next door),noise,25
+2026-11-23,BK1101,Bensonhurst,Brooklyn,Driveway fully blocked,parking,9
+2026-11-23,BK1101,Bensonhurst,Brooklyn,Posted parking sign violation,parking,5
+2026-11-23,BK1101,Bensonhurst,Brooklyn,No heat (whole building),heat,4
+2026-11-23,BK1101,Bensonhurst,Brooklyn,Commercial overnight parking,parking,3
+2026-11-23,BK1101,Bensonhurst,Brooklyn,Street light out,streets,3
+2026-11-23,BK1202,Borough Park,Brooklyn,Blocked hydrant,parking,6
+2026-11-23,BK1202,Borough Park,Brooklyn,Broken curb: 4 + residential units/commercial,streets,5
+2026-11-23,BK1202,Borough Park,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK1202,Borough Park,Brooklyn,Cave-in,streets,3
+2026-11-23,BK1202,Borough Park,Brooklyn,Loud music/party (on the street),noise,3
+2026-11-23,BK1202,Borough Park,Brooklyn,Street light out,streets,3
+2026-11-23,BK1202,Borough Park,Brooklyn,Commercial overnight parking,parking,3
+2026-11-23,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,Traffic signal acting up,streets,3
+2026-11-23,BK1303,Brighton Beach,Brooklyn,Blocked sidewalk,parking,5
+2026-11-23,BK1303,Brighton Beach,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK1303,Brighton Beach,Brooklyn,Driveway fully blocked,parking,3
+2026-11-23,BK0201,Brooklyn Heights,Brooklyn,Loud music/party (on the street),noise,7
+2026-11-23,BK0201,Brooklyn Heights,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK1602,Brownsville,Brooklyn,Loud music/party (next door),noise,7
+2026-11-23,BK1602,Brownsville,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK1602,Brownsville,Brooklyn,Loud talking (on the street),noise,3
+2026-11-23,BK1602,Brownsville,Brooklyn,Pothole,streets,3
+2026-11-23,BK0402,Bushwick (East),Brooklyn,Driveway fully blocked,parking,5
+2026-11-23,BK0402,Bushwick (East),Brooklyn,Blocked hydrant,parking,3
+2026-11-23,BK0402,Bushwick (East),Brooklyn,Blocked sidewalk,parking,3
+2026-11-23,BK0402,Bushwick (East),Brooklyn,Mice,housing,3
+2026-11-23,BK0402,Bushwick (East),Brooklyn,Loud music/party (next door),noise,3
+2026-11-23,BK0401,Bushwick (West),Brooklyn,Loud music/party (next door),noise,4
+2026-11-23,BK0401,Bushwick (West),Brooklyn,No heat (whole building),heat,4
+2026-11-23,BK0401,Bushwick (West),Brooklyn,Loud talking (next door),noise,3
+2026-11-23,BK0401,Bushwick (West),Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK0401,Bushwick (West),Brooklyn,Driveway fully blocked,parking,3
+2026-11-23,BK0401,Bushwick (West),Brooklyn,Dumped stuff to haul away,trash,3
+2026-11-23,BK0401,Bushwick (West),Brooklyn,No heat and no hot water (whole building),heat,3
+2026-11-23,BK1803,Canarsie,Brooklyn,Driveway fully blocked,parking,10
+2026-11-23,BK1803,Canarsie,Brooklyn,Blocked hydrant,parking,4
+2026-11-23,BK1803,Canarsie,Brooklyn,Loud music/party (next door),noise,4
+2026-11-23,BK1803,Canarsie,Brooklyn,Pothole,streets,3
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked sidewalk,parking,23
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Posted parking sign violation,parking,18
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Driveway fully blocked,parking,6
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Construction equipment,noise,5
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Construction at odd hours,noise,5
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked hydrant,parking,5
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked crosswalk,parking,4
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked bike lane,parking,4
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Loud talking (on the street),noise,4
+2026-11-23,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,No hot water (whole building),heat,3
+2026-11-23,BX0903,Castle Hill-Unionport,Bronx,Banging/pounding (next door),noise,6
+2026-11-23,BX0903,Castle Hill-Unionport,Bronx,Driveway fully blocked,parking,4
+2026-11-23,BX0903,Castle Hill-Unionport,Bronx,Blocked hydrant,parking,3
+2026-11-23,MN0401,Chelsea-Hudson Yards,Manhattan,Posted parking sign violation,parking,8
+2026-11-23,MN0401,Chelsea-Hudson Yards,Manhattan,Banging/pounding (next door),noise,4
+2026-11-23,MN0401,Chelsea-Hudson Yards,Manhattan,Construction at odd hours,noise,3
+2026-11-23,MN0301,Chinatown-Two Bridges,Manhattan,Posted parking sign violation,parking,3
+2026-11-23,BX0302,Claremont Village-Claremont (East),Bronx,Banging/pounding (next door),noise,6
+2026-11-23,BX0302,Claremont Village-Claremont (East),Bronx,Loud music/party (on the street),noise,3
+2026-11-23,BX0302,Claremont Village-Claremont (East),Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX0302,Claremont Village-Claremont (East),Bronx,No heat and no hot water (whole building),heat,3
+2026-11-23,BK0204,Clinton Hill,Brooklyn,Blocked sidewalk,parking,6
+2026-11-23,QN0701,College Point,Queens,Driveway fully blocked,parking,5
+2026-11-23,QN0701,College Point,Queens,Posted parking sign violation,parking,5
+2026-11-23,QN0701,College Point,Queens,Blocked hydrant,parking,3
+2026-11-23,QN0701,College Point,Queens,Abandoned car (with plates),parking,3
+2026-11-23,QN0701,College Point,Queens,Driveway partly blocked,parking,3
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Banging/pounding (next door),noise,7
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Blocked bike lane,parking,5
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Mice,housing,5
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Car/truck music,noise,4
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Loud talking (on the street),noise,4
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Mold,housing,4
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Refrigerator: broken door seal,housing,3
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,Window frame: window stuck closed or open,housing,3
+2026-11-23,BX0401,Concourse-Concourse Village,Bronx,No heat (one apartment),heat,3
+2026-11-23,BK1302,Coney Island-Sea Gate,Brooklyn,Loud music/party (next door),noise,3
+2026-11-23,BK1302,Coney Island-Sea Gate,Brooklyn,Roaches,housing,3
+2026-11-23,BK1302,Coney Island-Sea Gate,Brooklyn,Banging/pounding (next door),noise,3
+2026-11-23,BX0303,Crotona Park East,Bronx,Loud music/party (on the street),noise,5
+2026-11-23,BX0303,Crotona Park East,Bronx,No hot water (whole building),heat,4
+2026-11-23,BX0303,Crotona Park East,Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX0303,Crotona Park East,Bronx,Posted parking sign violation,parking,3
+2026-11-23,BX0303,Crotona Park East,Bronx,Loud talking (on the street),noise,3
+2026-11-23,BX0303,Crotona Park East,Bronx,Abandoned car (with plates),parking,3
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Driveway fully blocked,parking,6
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Loud music/party (next door),noise,5
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,No heat (whole building),heat,5
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Trash left by property owner,trash,4
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Heavy flow: at wall or ceiling,housing,4
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Driveway partly blocked,parking,3
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Banging/pounding (next door),noise,3
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Refrigerator: broken door seal,housing,3
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,No hot water (whole building),heat,3
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,No heat and no hot water (one apartment),heat,3
+2026-11-23,BK0802,Crown Heights (North),Brooklyn,Electric/gas range: oven door missing or broken,housing,3
+2026-11-23,BK0901,Crown Heights (South),Brooklyn,Mice,housing,4
+2026-11-23,BK0901,Crown Heights (South),Brooklyn,Roaches,housing,4
+2026-11-23,BK0901,Crown Heights (South),Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK0901,Crown Heights (South),Brooklyn,Ceiling: hole or cracked,housing,3
+2026-11-23,BK0901,Crown Heights (South),Brooklyn,Door: broken or missing,housing,3
+2026-11-23,BK0901,Crown Heights (South),Brooklyn,Slow leak: at wall or ceiling,housing,3
+2026-11-23,BK0501,Cypress Hills,Brooklyn,Loud music/party (next door),noise,7
+2026-11-23,BK0501,Cypress Hills,Brooklyn,Blocked hydrant,parking,7
+2026-11-23,BK0501,Cypress Hills,Brooklyn,Posted parking sign violation,parking,6
+2026-11-23,BK0501,Cypress Hills,Brooklyn,Blocked sidewalk,parking,5
+2026-11-23,BK0501,Cypress Hills,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Blocked sidewalk,parking,11
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Banging/pounding (next door),noise,10
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Posted parking sign violation,parking,9
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Blocked hydrant,parking,7
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Blocked crosswalk,parking,5
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Blocked bike lane,parking,5
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Loud music/party (on the street),noise,5
+2026-11-23,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Traffic signal completely out,streets,4
+2026-11-23,BK1002,Dyker Heights,Brooklyn,Blocked hydrant,parking,7
+2026-11-23,BK1002,Dyker Heights,Brooklyn,Driveway fully blocked,parking,3
+2026-11-23,QN0302,East Elmhurst,Queens,Posted parking sign violation,parking,5
+2026-11-23,BK1701,East Flatbush-Erasmus,Brooklyn,Posted parking sign violation,parking,5
+2026-11-23,BK1701,East Flatbush-Erasmus,Brooklyn,Loud music/party (next door),noise,4
+2026-11-23,BK1701,East Flatbush-Erasmus,Brooklyn,Car/truck music,noise,4
+2026-11-23,BK1701,East Flatbush-Erasmus,Brooklyn,Blocked sidewalk,parking,3
+2026-11-23,BK1701,East Flatbush-Erasmus,Brooklyn,Driveway fully blocked,parking,3
+2026-11-23,BK1701,East Flatbush-Erasmus,Brooklyn,Roaches,housing,3
+2026-11-23,BK1702,East Flatbush-Farragut,Brooklyn,License plate obscured,parking,7
+2026-11-23,BK1702,East Flatbush-Farragut,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK1702,East Flatbush-Farragut,Brooklyn,Abandoned car (with plates),parking,3
+2026-11-23,BK1702,East Flatbush-Farragut,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK1702,East Flatbush-Farragut,Brooklyn,Commercial overnight parking,parking,3
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,Pothole,streets,4
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,Driveway partly blocked,parking,3
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,Driveway fully blocked,parking,3
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,Blocked hydrant,parking,3
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,Mice,housing,3
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,No heat (whole building),heat,3
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,Mold,housing,3
+2026-11-23,BK1704,East Flatbush-Remsen Village,Brooklyn,Roaches,housing,3
+2026-11-23,BK1703,East Flatbush-Rugby,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK1703,East Flatbush-Rugby,Brooklyn,Dumped stuff to haul away,trash,3
+2026-11-23,QN0705,East Flushing,Queens,Blocked hydrant,parking,6
+2026-11-23,MN1102,East Harlem (North),Manhattan,Heavy flow: at wall or ceiling,housing,5
+2026-11-23,MN1102,East Harlem (North),Manhattan,No heat (one apartment),heat,4
+2026-11-23,MN1102,East Harlem (North),Manhattan,No hot water (one apartment),heat,4
+2026-11-23,MN1102,East Harlem (North),Manhattan,Loud music/party (next door),noise,3
+2026-11-23,MN1102,East Harlem (North),Manhattan,Banging/pounding (next door),noise,3
+2026-11-23,MN1102,East Harlem (North),Manhattan,Mice,housing,3
+2026-11-23,MN1102,East Harlem (North),Manhattan,Ceiling: collapsing or falling,housing,3
+2026-11-23,MN1102,East Harlem (North),Manhattan,Slow leak: at wall or ceiling,housing,3
+2026-11-23,MN1101,East Harlem (South),Manhattan,Construction at odd hours,noise,3
+2026-11-23,MN0604,East Midtown-Turtle Bay,Manhattan,Posted parking sign violation,parking,3
+2026-11-23,MN0604,East Midtown-Turtle Bay,Manhattan,Street light out,streets,3
+2026-11-23,BK0502,East New York (North),Brooklyn,Garbage/recycling storage: accumulation,housing,6
+2026-11-23,BK0502,East New York (North),Brooklyn,Driveway fully blocked,parking,5
+2026-11-23,BK0502,East New York (North),Brooklyn,Dumped stuff to haul away,trash,4
+2026-11-23,BK0502,East New York (North),Brooklyn,Derelict car,parking,4
+2026-11-23,BK0502,East New York (North),Brooklyn,Abandoned car (with plates),parking,3
+2026-11-23,BK0505,East New York-City Line,Brooklyn,Driveway fully blocked,parking,9
+2026-11-23,BK0505,East New York-City Line,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK0503,East New York-New Lots,Brooklyn,Dumped stuff to haul away,trash,6
+2026-11-23,BK0503,East New York-New Lots,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK0503,East New York-New Lots,Brooklyn,Engine idling,noise,3
+2026-11-23,BK0503,East New York-New Lots,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,MN0303,East Village,Manhattan,Loud music/party (next door),noise,7
+2026-11-23,MN0303,East Village,Manhattan,Posted parking sign violation,parking,7
+2026-11-23,MN0303,East Village,Manhattan,No heat (whole building),heat,6
+2026-11-23,MN0303,East Village,Manhattan,Mold,housing,5
+2026-11-23,MN0303,East Village,Manhattan,Littering,trash,3
+2026-11-23,MN0303,East Village,Manhattan,Dust from construction: no children present,housing,3
+2026-11-23,MN0303,East Village,Manhattan,Lead test kit request,housing,3
+2026-11-23,MN0303,East Village,Manhattan,No hot water (one apartment),heat,3
+2026-11-23,BK0104,East Williamsburg,Brooklyn,Littering,trash,5
+2026-11-23,BK0104,East Williamsburg,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK0104,East Williamsburg,Brooklyn,Posted parking sign violation,parking,4
+2026-11-23,BK0104,East Williamsburg,Brooklyn,Parking permit improper use: parked in front of fire hydrant,parking,3
+2026-11-23,BX1202,Eastchester-Edenwald-Baychester,Bronx,Banging/pounding (next door),noise,6
+2026-11-23,BX1202,Eastchester-Edenwald-Baychester,Bronx,Driveway fully blocked,parking,5
+2026-11-23,BX1202,Eastchester-Edenwald-Baychester,Bronx,Car/truck music,noise,4
+2026-11-23,BX1202,Eastchester-Edenwald-Baychester,Bronx,Barking dog,noise,3
+2026-11-23,BX1202,Eastchester-Edenwald-Baychester,Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX1202,Eastchester-Edenwald-Baychester,Bronx,Street light out,streets,3
+2026-11-23,QN0401,Elmhurst,Queens,Driveway partly blocked,parking,11
+2026-11-23,QN0401,Elmhurst,Queens,Blocked hydrant,parking,6
+2026-11-23,QN0401,Elmhurst,Queens,Driveway fully blocked,parking,5
+2026-11-23,QN0401,Elmhurst,Queens,Defacement: graffiti,streets,4
+2026-11-23,QN0401,Elmhurst,Queens,Banging/pounding (next door),noise,3
+2026-11-23,QN0401,Elmhurst,Queens,Posted parking sign violation,parking,3
+2026-11-23,QN0401,Elmhurst,Queens,Blocked sidewalk,parking,3
+2026-11-23,QN1401,Far Rockaway-Bayswater,Queens,Loud music/party (next door),noise,4
+2026-11-23,QN1401,Far Rockaway-Bayswater,Queens,Loud music/party (on the street),noise,4
+2026-11-23,QN1401,Far Rockaway-Bayswater,Queens,Blocked crosswalk,parking,3
+2026-11-23,QN1401,Far Rockaway-Bayswater,Queens,Loud talking (next door),noise,3
+2026-11-23,QN1401,Far Rockaway-Bayswater,Queens,No heat (one apartment),heat,3
+2026-11-23,MN0101,Financial District-Battery Park City,Manhattan,Posted parking sign violation,parking,9
+2026-11-23,MN0101,Financial District-Battery Park City,Manhattan,Blocked hydrant,parking,4
+2026-11-23,MN0101,Financial District-Battery Park City,Manhattan,Blocked crosswalk,parking,4
+2026-11-23,MN0101,Financial District-Battery Park City,Manhattan,Double parked blocking traffic,parking,3
+2026-11-23,MN0101,Financial District-Battery Park City,Manhattan,Loud music/party (at a business),noise,3
+2026-11-23,BK1401,Flatbush,Brooklyn,Banging/pounding (next door),noise,25
+2026-11-23,BK1401,Flatbush,Brooklyn,Roaches,housing,8
+2026-11-23,BK1401,Flatbush,Brooklyn,Loud music/party (next door),noise,7
+2026-11-23,BK1401,Flatbush,Brooklyn,No heat (one apartment),heat,5
+2026-11-23,BK1401,Flatbush,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK1401,Flatbush,Brooklyn,Heavy flow: at wall or ceiling,housing,4
+2026-11-23,BK1401,Flatbush,Brooklyn,Pests,housing,4
+2026-11-23,BK1401,Flatbush,Brooklyn,No heat (whole building),heat,4
+2026-11-23,BK1401,Flatbush,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK1401,Flatbush,Brooklyn,Mold,housing,3
+2026-11-23,BK1401,Flatbush,Brooklyn,Slow leak: at wall or ceiling,housing,3
+2026-11-23,BK1401,Flatbush,Brooklyn,Mice,housing,3
+2026-11-23,BK1401,Flatbush,Brooklyn,Basin/sink: faucet broken/missing/leaking,housing,3
+2026-11-23,BK1401,Flatbush,Brooklyn,No hot water (one apartment),heat,3
+2026-11-23,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,Posted parking sign violation,parking,4
+2026-11-23,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,No heat and no hot water (whole building),heat,4
+2026-11-23,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,Blocked hydrant,parking,3
+2026-11-23,BK1801,Flatlands,Brooklyn,Blocked hydrant,parking,5
+2026-11-23,BK1801,Flatlands,Brooklyn,Pothole,streets,4
+2026-11-23,BK1801,Flatlands,Brooklyn,Driveway fully blocked,parking,3
+2026-11-23,BK1801,Flatlands,Brooklyn,Street light out,streets,3
+2026-11-23,QN0707,Flushing-Willets Point,Queens,Driveway fully blocked,parking,4
+2026-11-23,QN0707,Flushing-Willets Point,Queens,Driveway partly blocked,parking,4
+2026-11-23,QN0707,Flushing-Willets Point,Queens,No heat (whole building),heat,4
+2026-11-23,BX0503,Fordham Heights,Bronx,Blocked bike lane,parking,5
+2026-11-23,BX0503,Fordham Heights,Bronx,Double parked blocking vehicle,parking,4
+2026-11-23,BX0503,Fordham Heights,Bronx,Banging/pounding (next door),noise,4
+2026-11-23,BX0503,Fordham Heights,Bronx,Refrigerator: broken door seal,housing,3
+2026-11-23,BX0503,Fordham Heights,Bronx,Mold,housing,3
+2026-11-23,BX0503,Fordham Heights,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-23,QN0602,Forest Hills,Queens,Banging/pounding (next door),noise,6
+2026-11-23,QN0602,Forest Hills,Queens,Blocked hydrant,parking,5
+2026-11-23,QN0602,Forest Hills,Queens,Driveway partly blocked,parking,5
+2026-11-23,QN0602,Forest Hills,Queens,Commercial overnight parking,parking,3
+2026-11-23,QN0602,Forest Hills,Queens,Blocked bike lane,parking,3
+2026-11-23,QN0602,Forest Hills,Queens,Tree-damaged sidewalk (free repair),streets,3
+2026-11-23,QN0602,Forest Hills,Queens,No heat (whole building),heat,3
+2026-11-23,BK0203,Fort Greene,Brooklyn,Posted parking sign violation,parking,8
+2026-11-23,BK0203,Fort Greene,Brooklyn,Blocked hydrant,parking,7
+2026-11-23,BK0203,Fort Greene,Brooklyn,No heat and no hot water (whole building),heat,4
+2026-11-23,BK0203,Fort Greene,Brooklyn,Banging/pounding (next door),noise,3
+2026-11-23,QN0803,Fresh Meadows-Utopia,Queens,Sidewalk violation: dismiss violation owner fixed,streets,4
+2026-11-23,QN0503,Glendale,Queens,Blocked hydrant,parking,11
+2026-11-23,QN0503,Glendale,Queens,Posted parking sign violation,parking,6
+2026-11-23,QN0503,Glendale,Queens,Abandoned car (with plates),parking,4
+2026-11-23,QN0503,Glendale,Queens,Car/truck music,noise,3
+2026-11-23,MN0602,Gramercy,Manhattan,Graffiti,trash,5
+2026-11-23,BK1501,Gravesend (East)-Homecrest,Brooklyn,Blocked hydrant,parking,7
+2026-11-23,BK1501,Gravesend (East)-Homecrest,Brooklyn,Driveway fully blocked,parking,7
+2026-11-23,BK1501,Gravesend (East)-Homecrest,Brooklyn,Blocked sidewalk,parking,6
+2026-11-23,BK1501,Gravesend (East)-Homecrest,Brooklyn,Driveway partly blocked,parking,4
+2026-11-23,BK1501,Gravesend (East)-Homecrest,Brooklyn,Fire hydrant running,water,3
+2026-11-23,BK1501,Gravesend (East)-Homecrest,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK1501,Gravesend (East)-Homecrest,Brooklyn,Cave-in,streets,3
+2026-11-23,BK1103,Gravesend (West),Brooklyn,Blocked hydrant,parking,11
+2026-11-23,BK1103,Gravesend (West),Brooklyn,Blocked crosswalk,parking,8
+2026-11-23,BK1103,Gravesend (West),Brooklyn,Posted parking sign violation,parking,6
+2026-11-23,BK1103,Gravesend (West),Brooklyn,Driveway partly blocked,parking,3
+2026-11-23,BK1103,Gravesend (West),Brooklyn,Driveway fully blocked,parking,3
+2026-11-23,BK0101,Greenpoint,Brooklyn,Blocked sidewalk,parking,17
+2026-11-23,BK0101,Greenpoint,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK0101,Greenpoint,Brooklyn,Posted parking sign violation,parking,4
+2026-11-23,BK0101,Greenpoint,Brooklyn,Blocked hydrant,parking,4
+2026-11-23,BK0101,Greenpoint,Brooklyn,Blocked crosswalk,parking,3
+2026-11-23,MN0202,Greenwich Village,Manhattan,Dumped stuff to haul away,trash,4
+2026-11-23,MN0202,Greenwich Village,Manhattan,Loud music/party (at a business),noise,3
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No hot water (whole building),heat,13
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud music/party (next door),noise,6
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Roaches,housing,6
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat and no hot water (whole building),heat,5
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Banging/pounding (next door),noise,4
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Posted parking sign violation,parking,3
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Mice,housing,3
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Bell/buzzer/intercom: broken or missing,housing,3
+2026-11-23,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud music/party (on the street),noise,3
+2026-11-23,MN1002,Harlem (North),Manhattan,Banging/pounding (next door),noise,12
+2026-11-23,MN1002,Harlem (North),Manhattan,No heat (whole building),heat,7
+2026-11-23,MN1002,Harlem (North),Manhattan,Slow leak: at wall or ceiling,housing,4
+2026-11-23,MN1002,Harlem (North),Manhattan,Door: broken or missing,housing,4
+2026-11-23,MN1002,Harlem (North),Manhattan,No hot water (whole building),heat,4
+2026-11-23,MN1002,Harlem (North),Manhattan,Refrigerator: broken door seal,housing,3
+2026-11-23,MN1002,Harlem (North),Manhattan,Roaches,housing,3
+2026-11-23,MN1002,Harlem (North),Manhattan,Mold,housing,3
+2026-11-23,MN1002,Harlem (North),Manhattan,No heat and no hot water (one apartment),heat,3
+2026-11-23,MN1002,Harlem (North),Manhattan,Heavy flow: at wall or ceiling,housing,3
+2026-11-23,MN1002,Harlem (North),Manhattan,Mice,housing,3
+2026-11-23,MN1001,Harlem (South),Manhattan,Loud talking (on the street),noise,7
+2026-11-23,MN1001,Harlem (South),Manhattan,Blocked sidewalk,parking,7
+2026-11-23,MN1001,Harlem (South),Manhattan,Banging/pounding (next door),noise,6
+2026-11-23,MN1001,Harlem (South),Manhattan,Loud music/party (on the street),noise,6
+2026-11-23,MN1001,Harlem (South),Manhattan,Mice,housing,6
+2026-11-23,MN1001,Harlem (South),Manhattan,Blocked bike lane,parking,5
+2026-11-23,MN1001,Harlem (South),Manhattan,Pests,housing,4
+2026-11-23,MN1001,Harlem (South),Manhattan,No heat and no hot water (whole building),heat,4
+2026-11-23,MN1001,Harlem (South),Manhattan,License plate obscured,parking,3
+2026-11-23,MN1001,Harlem (South),Manhattan,Double parked blocking traffic,parking,3
+2026-11-23,MN1001,Harlem (South),Manhattan,Mold,housing,3
+2026-11-23,MN1001,Harlem (South),Manhattan,Loud talking (next door),noise,3
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Loud music/party (at a business),noise,8
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Banging/pounding (next door),noise,6
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Loud music/party (next door),noise,6
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Loud music/party (on the street),noise,5
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Blocked sidewalk,parking,5
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Posted parking sign violation,parking,4
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Driveway fully blocked,parking,3
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Car/truck music,noise,3
+2026-11-23,MN0402,Hell's Kitchen,Manhattan,Mice,housing,3
+2026-11-23,BX0402,Highbridge,Bronx,No hot water (whole building),heat,4
+2026-11-23,BX0402,Highbridge,Bronx,No heat and no hot water (whole building),heat,4
+2026-11-23,BX0402,Highbridge,Bronx,Banging/pounding (next door),noise,3
+2026-11-23,BX0402,Highbridge,Bronx,Posted parking sign violation,parking,3
+2026-11-23,BX0402,Highbridge,Bronx,Water supply: no water,housing,3
+2026-11-23,QN1206,Hollis,Queens,Abandoned car (with plates),parking,3
+2026-11-23,QN1003,Howard Beach-Lindenwood,Queens,Abandoned car (with plates),parking,4
+2026-11-23,QN1003,Howard Beach-Lindenwood,Queens,Posted parking sign violation,parking,4
+2026-11-23,BX0201,Hunts Point,Bronx,No hot water (whole building),heat,5
+2026-11-23,BX0201,Hunts Point,Bronx,Graffiti,trash,3
+2026-11-23,BX0201,Hunts Point,Bronx,Posted parking sign violation,parking,3
+2026-11-23,BX0201,Hunts Point,Bronx,Driveway fully blocked,parking,3
+2026-11-23,MN1203,Inwood,Manhattan,No heat and no hot water (whole building),heat,5
+2026-11-23,MN1203,Inwood,Manhattan,Banging/pounding (next door),noise,3
+2026-11-23,MN1203,Inwood,Manhattan,No hot water (whole building),heat,3
+2026-11-23,QN0301,Jackson Heights,Queens,Car/truck horn,noise,9
+2026-11-23,QN0301,Jackson Heights,Queens,Blocked hydrant,parking,8
+2026-11-23,QN0301,Jackson Heights,Queens,No heat (whole building),heat,8
+2026-11-23,QN0301,Jackson Heights,Queens,Loud music/party (next door),noise,6
+2026-11-23,QN0301,Jackson Heights,Queens,Loud music/party (on the street),noise,4
+2026-11-23,QN0301,Jackson Heights,Queens,Driveway partly blocked,parking,4
+2026-11-23,QN0301,Jackson Heights,Queens,Posted parking sign violation,parking,3
+2026-11-23,QN0301,Jackson Heights,Queens,Littering,trash,3
+2026-11-23,QN0301,Jackson Heights,Queens,Street light out,streets,3
+2026-11-23,QN1201,Jamaica,Queens,Banging/pounding (next door),noise,6
+2026-11-23,QN1201,Jamaica,Queens,Abandoned car (with plates),parking,3
+2026-11-23,QN1201,Jamaica,Queens,Roaches,housing,3
+2026-11-23,QN0804,Jamaica Estates-Holliswood,Queens,Loud music/party (next door),noise,9
+2026-11-23,QN0805,Jamaica Hills-Briarwood,Queens,Posted parking sign violation,parking,5
+2026-11-23,QN0805,Jamaica Hills-Briarwood,Queens,Signage missing: housing information notice,housing,3
+2026-11-23,QN0805,Jamaica Hills-Briarwood,Queens,Loud television (next door),noise,3
+2026-11-23,BK1203,Kensington,Brooklyn,Blocked hydrant,parking,8
+2026-11-23,BK1203,Kensington,Brooklyn,Blocked sidewalk,parking,8
+2026-11-23,BK1203,Kensington,Brooklyn,Posted parking sign violation,parking,4
+2026-11-23,BK1203,Kensington,Brooklyn,Trash or recycling not secure,trash,3
+2026-11-23,QN0901,Kew Gardens,Queens,Blocked hydrant,parking,4
+2026-11-23,QN0901,Kew Gardens,Queens,Blocked sidewalk,parking,3
+2026-11-23,QN0801,Kew Gardens Hills,Queens,Blocked hydrant,parking,3
+2026-11-23,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,No heat (whole building),heat,8
+2026-11-23,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Blocked hydrant,parking,5
+2026-11-23,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Banging/pounding (next door),noise,5
+2026-11-23,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Cooking gas: shut-off,housing,4
+2026-11-23,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Posted parking sign violation,parking,3
+2026-11-23,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Street light out,streets,3
+2026-11-23,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,No hot water (whole building),heat,3
+2026-11-23,BX0802,Kingsbridge-Marble Hill,Bronx,Loud music/party (next door),noise,6
+2026-11-23,BX0802,Kingsbridge-Marble Hill,Bronx,Blocked hydrant,parking,3
+2026-11-23,QN1305,Laurelton,Queens,Abandoned car (with plates),parking,4
+2026-11-23,QN0201,Long Island City-Hunters Point,Queens,Blocked sidewalk,parking,36
+2026-11-23,QN0201,Long Island City-Hunters Point,Queens,Posted parking sign violation,parking,10
+2026-11-23,QN0201,Long Island City-Hunters Point,Queens,Blocked hydrant,parking,9
+2026-11-23,QN0201,Long Island City-Hunters Point,Queens,Loud music/party (on the street),noise,6
+2026-11-23,QN0201,Long Island City-Hunters Point,Queens,Car/truck music,noise,3
+2026-11-23,MN0302,Lower East Side,Manhattan,Truck route violation,streets,86
+2026-11-23,MN0302,Lower East Side,Manhattan,Banging/pounding (next door),noise,3
+2026-11-23,MN0302,Lower East Side,Manhattan,Posted parking sign violation,parking,3
+2026-11-23,MN0302,Lower East Side,Manhattan,Street light out,streets,3
+2026-11-23,BK1502,Madison,Brooklyn,Blocked hydrant,parking,10
+2026-11-23,BK1502,Madison,Brooklyn,Driveway fully blocked,parking,5
+2026-11-23,BK1502,Madison,Brooklyn,Construction equipment,noise,3
+2026-11-23,MN0902,Manhattanville-West Harlem,Manhattan,Posted parking sign violation,parking,4
+2026-11-23,MN0902,Manhattanville-West Harlem,Manhattan,Loud music/party (on the street),noise,3
+2026-11-23,MN0902,Manhattanville-West Harlem,Manhattan,No hot water (whole building),heat,3
+2026-11-23,MN0902,Manhattanville-West Harlem,Manhattan,Slow leak: at wall or ceiling,housing,3
+2026-11-23,BK1204,Mapleton-Midwood (West),Brooklyn,Posted parking sign violation,parking,5
+2026-11-23,BK1204,Mapleton-Midwood (West),Brooklyn,Driveway partly blocked,parking,4
+2026-11-23,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Street light out,streets,5
+2026-11-23,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Commercial overnight parking,parking,4
+2026-11-23,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Driveway fully blocked,parking,3
+2026-11-23,QN0501,Maspeth,Queens,Blocked hydrant,parking,9
+2026-11-23,QN0501,Maspeth,Queens,Abandoned car (with plates),parking,7
+2026-11-23,QN0501,Maspeth,Queens,Driveway fully blocked,parking,5
+2026-11-23,QN0501,Maspeth,Queens,Posted parking sign violation,parking,5
+2026-11-23,BX0102,Melrose,Bronx,No heat and no hot water (whole building),heat,6
+2026-11-23,BX0102,Melrose,Bronx,Posted parking sign violation,parking,4
+2026-11-23,BX0102,Melrose,Bronx,No heat (whole building),heat,4
+2026-11-23,BX0102,Melrose,Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX0102,Melrose,Bronx,No hot water (one apartment),heat,3
+2026-11-23,BX0102,Melrose,Bronx,Double parked blocking vehicle,parking,3
+2026-11-23,MN0502,Midtown-Times Square,Manhattan,Pothole,streets,13
+2026-11-23,MN0502,Midtown-Times Square,Manhattan,Posted parking sign violation,parking,7
+2026-11-23,MN0502,Midtown-Times Square,Manhattan,Engine idling,noise,3
+2026-11-23,BK1403,Midwood,Brooklyn,Driveway fully blocked,parking,11
+2026-11-23,BK1403,Midwood,Brooklyn,Blocked hydrant,parking,8
+2026-11-23,BK1403,Midwood,Brooklyn,No heat and no hot water (whole building),heat,6
+2026-11-23,BK1403,Midwood,Brooklyn,Loud music/party (next door),noise,4
+2026-11-23,BK1403,Midwood,Brooklyn,Driveway partly blocked,parking,4
+2026-11-23,BK1403,Midwood,Brooklyn,No heat (whole building),heat,3
+2026-11-23,MN0901,Morningside Heights,Manhattan,Posted parking sign violation,parking,3
+2026-11-23,BX1102,Morris Park,Bronx,Driveway fully blocked,parking,5
+2026-11-23,BX1102,Morris Park,Bronx,Blocked hydrant,parking,3
+2026-11-23,BX1102,Morris Park,Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX0301,Morrisania,Bronx,Banging/pounding (next door),noise,7
+2026-11-23,BX0301,Morrisania,Bronx,Driveway fully blocked,parking,4
+2026-11-23,BX0301,Morrisania,Bronx,Wall: bulging/hole/cracked,housing,4
+2026-11-23,BX0301,Morrisania,Bronx,Roaches,housing,3
+2026-11-23,BX0301,Morrisania,Bronx,Mold,housing,3
+2026-11-23,BX0301,Morrisania,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-23,BX0101,Mott Haven-Port Morris,Bronx,Driveway fully blocked,parking,5
+2026-11-23,BX0101,Mott Haven-Port Morris,Bronx,Posted parking sign violation,parking,4
+2026-11-23,BX0101,Mott Haven-Port Morris,Bronx,Banging/pounding (at a business),noise,3
+2026-11-23,BX0101,Mott Haven-Port Morris,Bronx,Mold,housing,3
+2026-11-23,BX0403,Mount Eden-Claremont (West),Bronx,Driveway fully blocked,parking,4
+2026-11-23,BX0403,Mount Eden-Claremont (West),Bronx,Blocked hydrant,parking,4
+2026-11-23,BX0403,Mount Eden-Claremont (West),Bronx,Double parked blocking traffic,parking,4
+2026-11-23,BX0403,Mount Eden-Claremont (West),Bronx,No heat (one apartment),heat,4
+2026-11-23,BX0403,Mount Eden-Claremont (West),Bronx,Banging/pounding (next door),noise,3
+2026-11-23,BX0502,Mount Hope,Bronx,Loud music/party (next door),noise,8
+2026-11-23,BX0502,Mount Hope,Bronx,Banging/pounding (next door),noise,6
+2026-11-23,BX0502,Mount Hope,Bronx,Loud music/party (on the street),noise,5
+2026-11-23,BX0502,Mount Hope,Bronx,Mold,housing,4
+2026-11-23,BX0502,Mount Hope,Bronx,No heat (whole building),heat,4
+2026-11-23,BX0502,Mount Hope,Bronx,Blocked bike lane,parking,3
+2026-11-23,BX0502,Mount Hope,Bronx,Loud talking (next door),noise,3
+2026-11-23,QN0704,Murray Hill-Broadway Flushing,Queens,Blocked hydrant,parking,4
+2026-11-23,QN0704,Murray Hill-Broadway Flushing,Queens,Loud music/party (next door),noise,4
+2026-11-23,QN0704,Murray Hill-Broadway Flushing,Queens,Driveway fully blocked,parking,3
+2026-11-23,MN0603,Murray Hill-Kips Bay,Manhattan,Posted parking sign violation,parking,8
+2026-11-23,MN0603,Murray Hill-Kips Bay,Manhattan,Banging/pounding (next door),noise,6
+2026-11-23,MN0603,Murray Hill-Kips Bay,Manhattan,Flying too low,noise,5
+2026-11-23,MN0603,Murray Hill-Kips Bay,Manhattan,Multiple street lights out,streets,3
+2026-11-23,SI0202,New Dorp-Midland Beach,Staten Island,Abandoned car (with plates),parking,5
+2026-11-23,SI0202,New Dorp-Midland Beach,Staten Island,Commercial overnight parking,parking,4
+2026-11-23,SI0202,New Dorp-Midland Beach,Staten Island,Clogged storm drain,water,3
+2026-11-23,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,Loud music/party (next door),noise,4
+2026-11-23,QN0303,North Corona,Queens,Driveway fully blocked,parking,6
+2026-11-23,QN0303,North Corona,Queens,Driveway partly blocked,parking,3
+2026-11-23,BX0703,Norwood,Bronx,Loud music/party (on the street),noise,3
+2026-11-23,BX0703,Norwood,Bronx,No heat (whole building),heat,3
+2026-11-23,QN1104,Oakland Gardens-Hollis Hills,Queens,Street light out,streets,3
+2026-11-23,SI0301,Oakwood-Richmondtown,Staten Island,Banging/pounding (next door),noise,3
+2026-11-23,SI0301,Oakwood-Richmondtown,Staten Island,Street light out,streets,3
+2026-11-23,BK1601,Ocean Hill,Brooklyn,No hot water (whole building),heat,4
+2026-11-23,BK1601,Ocean Hill,Brooklyn,Roaches,housing,3
+2026-11-23,QN0102,Old Astoria-Hallets Point,Queens,Posted parking sign violation,parking,3
+2026-11-23,QN0102,Old Astoria-Hallets Point,Queens,Banging/pounding (next door),noise,3
+2026-11-23,QN1002,Ozone Park,Queens,Abandoned car (with plates),parking,4
+2026-11-23,QN1002,Ozone Park,Queens,Driveway fully blocked,parking,4
+2026-11-23,QN1002,Ozone Park,Queens,Catch basin search,water,3
+2026-11-23,QN1002,Ozone Park,Queens,Derelict car,parking,3
+2026-11-23,QN0904,Ozone Park (North),Queens,Driveway fully blocked,parking,5
+2026-11-23,QN0904,Ozone Park (North),Queens,Abandoned car (with plates),parking,5
+2026-11-23,QN0904,Ozone Park (North),Queens,Blocked hydrant,parking,4
+2026-11-23,BK0602,Park Slope,Brooklyn,Posted parking sign violation,parking,39
+2026-11-23,BK0602,Park Slope,Brooklyn,Blocked hydrant,parking,6
+2026-11-23,BK0602,Park Slope,Brooklyn,Double parked blocking traffic,parking,5
+2026-11-23,BK0602,Park Slope,Brooklyn,Double parked blocking vehicle,parking,3
+2026-11-23,BX1003,Pelham Bay-Country Club-City Island,Bronx,Posted parking sign violation,parking,6
+2026-11-23,BX1003,Pelham Bay-Country Club-City Island,Bronx,Banging/pounding (next door),noise,4
+2026-11-23,BX1003,Pelham Bay-Country Club-City Island,Bronx,Blocked hydrant,parking,3
+2026-11-23,BX1003,Pelham Bay-Country Club-City Island,Bronx,Abandoned car (with plates),parking,3
+2026-11-23,BX1103,Pelham Gardens,Bronx,Driveway fully blocked,parking,4
+2026-11-23,BX1103,Pelham Gardens,Bronx,Blocked sidewalk,parking,3
+2026-11-23,BX1103,Pelham Gardens,Bronx,Commercial overnight parking,parking,3
+2026-11-23,BX1101,Pelham Parkway-Van Nest,Bronx,Graffiti,trash,3
+2026-11-23,QN0802,Pomonok-Electchester-Hillcrest,Queens,Car/truck horn,noise,17
+2026-11-23,QN0802,Pomonok-Electchester-Hillcrest,Queens,Chronic speeding,streets,14
+2026-11-23,QN0802,Pomonok-Electchester-Hillcrest,Queens,Posted parking sign violation,parking,4
+2026-11-23,QN0802,Pomonok-Electchester-Hillcrest,Queens,Blocked hydrant,parking,4
+2026-11-23,QN0802,Pomonok-Electchester-Hillcrest,Queens,No heat (whole building),heat,3
+2026-11-23,QN0802,Pomonok-Electchester-Hillcrest,Queens,Driveway fully blocked,parking,3
+2026-11-23,BK0801,Prospect Heights,Brooklyn,Posted parking sign violation,parking,21
+2026-11-23,BK0801,Prospect Heights,Brooklyn,Blocked bike lane,parking,10
+2026-11-23,BK0801,Prospect Heights,Brooklyn,Flying too low,noise,5
+2026-11-23,BK0801,Prospect Heights,Brooklyn,Unauthorized bus layover,parking,3
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Posted parking sign violation,parking,7
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Banging/pounding (next door),noise,7
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Mold,housing,5
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat (whole building),heat,5
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Roaches,housing,4
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Mice,housing,4
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Loud music/party (next door),noise,3
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Abandoned car (with plates),parking,3
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Outlet/switch: outlet sealed or defective,housing,3
+2026-11-23,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Floor: tile broken or missing,housing,3
+2026-11-23,QN1303,Queens Village,Queens,Commercial overnight parking,parking,3
+2026-11-23,QN1303,Queens Village,Queens,No heat (whole building),heat,3
+2026-11-23,QN0706,Queensboro Hill,Queens,Driveway fully blocked,parking,6
+2026-11-23,QN0706,Queensboro Hill,Queens,Blocked hydrant,parking,3
+2026-11-23,QN0706,Queensboro Hill,Queens,Driveway partly blocked,parking,3
+2026-11-23,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Banging/pounding (next door),noise,6
+2026-11-23,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Posted parking sign violation,parking,4
+2026-11-23,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Loud music/party (on the street),noise,3
+2026-11-23,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Driveway fully blocked,parking,3
+2026-11-23,MN1191,Randall's Island,Manhattan,Car/truck music,noise,7
+2026-11-23,QN0601,Rego Park,Queens,Posted parking sign violation,parking,7
+2026-11-23,QN0601,Rego Park,Queens,No heat (whole building),heat,5
+2026-11-23,QN0601,Rego Park,Queens,Abandoned car (with plates),parking,3
+2026-11-23,QN0902,Richmond Hill,Queens,Driveway fully blocked,parking,5
+2026-11-23,QN0502,Ridgewood,Queens,Driveway fully blocked,parking,9
+2026-11-23,QN0502,Ridgewood,Queens,Blocked hydrant,parking,6
+2026-11-23,QN0502,Ridgewood,Queens,Loud music/party (next door),noise,3
+2026-11-23,QN0502,Ridgewood,Queens,Abandoned car (with plates),parking,3
+2026-11-23,BX0803,Riverdale-Spuyten Duyvil,Bronx,Posted parking sign violation,parking,6
+2026-11-23,BX0803,Riverdale-Spuyten Duyvil,Bronx,Loud music/party (on the street),noise,5
+2026-11-23,BX0803,Riverdale-Spuyten Duyvil,Bronx,Blocked hydrant,parking,5
+2026-11-23,BX0803,Riverdale-Spuyten Duyvil,Bronx,Banging/pounding (next door),noise,3
+2026-11-23,BX0803,Riverdale-Spuyten Duyvil,Bronx,Street light out,streets,3
+2026-11-23,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Street not swept,trash,4
+2026-11-23,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Posted parking sign violation,parking,3
+2026-11-23,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Street light out,streets,3
+2026-11-23,SI0103,Rosebank-Shore Acres-Park Hill,Staten Island,Street light out,streets,3
+2026-11-23,QN1307,Rosedale,Queens,Abandoned car (with plates),parking,3
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Banging/pounding (next door),noise,7
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Blocked sidewalk,parking,7
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Posted parking sign violation,parking,6
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Loud music/party (next door),noise,4
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Blocked hydrant,parking,4
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Lead test kit request,housing,3
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Loud talking (next door),noise,3
+2026-11-23,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Littering,trash,3
+2026-11-23,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,Posted parking sign violation,parking,8
+2026-11-23,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,Street light out,streets,3
+2026-11-23,BX0901,Soundview-Bruckner-Bronx River,Bronx,Blocked hydrant,parking,12
+2026-11-23,BX0901,Soundview-Bruckner-Bronx River,Bronx,Driveway fully blocked,parking,5
+2026-11-23,BX0901,Soundview-Bruckner-Bronx River,Bronx,Banging/pounding (next door),noise,5
+2026-11-23,BX0901,Soundview-Bruckner-Bronx River,Bronx,Posted parking sign violation,parking,5
+2026-11-23,BX0901,Soundview-Bruckner-Bronx River,Bronx,Double parked blocking traffic,parking,4
+2026-11-23,BX0901,Soundview-Bruckner-Bronx River,Bronx,Loud music/party (next door),noise,3
+2026-11-23,BX0902,Soundview-Clason Point,Bronx,Street light out,streets,4
+2026-11-23,BX0902,Soundview-Clason Point,Bronx,Garbage/recycling storage: accumulation,housing,3
+2026-11-23,BX0902,Soundview-Clason Point,Bronx,No hot water (whole building),heat,3
+2026-11-23,BX0902,Soundview-Clason Point,Bronx,No heat (whole building),heat,3
+2026-11-23,QN1202,South Jamaica,Queens,Drag racing,streets,9
+2026-11-23,QN1202,South Jamaica,Queens,Abandoned car (with plates),parking,4
+2026-11-23,QN1202,South Jamaica,Queens,Driveway partly blocked,parking,3
+2026-11-23,QN1202,South Jamaica,Queens,Driveway fully blocked,parking,3
+2026-11-23,QN1001,South Ozone Park,Queens,Driveway fully blocked,parking,12
+2026-11-23,QN1001,South Ozone Park,Queens,Abandoned car (with plates),parking,10
+2026-11-23,QN1001,South Ozone Park,Queens,Loud music/party (next door),noise,6
+2026-11-23,QN1001,South Ozone Park,Queens,Blocked sidewalk,parking,5
+2026-11-23,QN1001,South Ozone Park,Queens,Driveway partly blocked,parking,5
+2026-11-23,QN1001,South Ozone Park,Queens,Illegal fireworks,noise,5
+2026-11-23,QN1001,South Ozone Park,Queens,Cone: street,streets,4
+2026-11-23,QN1001,South Ozone Park,Queens,Posted parking sign violation,parking,4
+2026-11-23,QN1001,South Ozone Park,Queens,Littering,trash,4
+2026-11-23,QN1001,South Ozone Park,Queens,Blocked hydrant,parking,4
+2026-11-23,QN1001,South Ozone Park,Queens,Banging/pounding (next door),noise,4
+2026-11-23,QN1001,South Ozone Park,Queens,Dumped stuff to haul away,trash,3
+2026-11-23,QN1001,South Ozone Park,Queens,Commercial overnight parking,parking,3
+2026-11-23,QN1001,South Ozone Park,Queens,Blocked - construction,streets,3
+2026-11-23,QN0903,South Richmond Hill,Queens,Loud talking (on the street),noise,6
+2026-11-23,QN0903,South Richmond Hill,Queens,Driveway partly blocked,parking,4
+2026-11-23,QN0903,South Richmond Hill,Queens,Blocked hydrant,parking,4
+2026-11-23,QN0903,South Richmond Hill,Queens,Driveway fully blocked,parking,3
+2026-11-23,QN0903,South Richmond Hill,Queens,Car/truck horn,noise,3
+2026-11-23,BK0103,South Williamsburg,Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK0504,Spring Creek-Starrett City,Brooklyn,Abandoned car (with plates),parking,22
+2026-11-23,BK0504,Spring Creek-Starrett City,Brooklyn,Driveway partly blocked,parking,5
+2026-11-23,BK0504,Spring Creek-Starrett City,Brooklyn,Blocked crosswalk,parking,3
+2026-11-23,QN1204,Springfield Gardens (North)-Rochdale Village,Queens,No hot water (whole building),heat,6
+2026-11-23,QN1205,St. Albans,Queens,Driveway fully blocked,parking,3
+2026-11-23,QN1205,St. Albans,Queens,Posted parking sign violation,parking,3
+2026-11-23,QN1205,St. Albans,Queens,Street light out,streets,3
+2026-11-23,QN1205,St. Albans,Queens,Commercial overnight parking,parking,3
+2026-11-23,SI0101,St. George-New Brighton,Staten Island,Banging/pounding (next door),noise,3
+2026-11-23,SI0101,St. George-New Brighton,Staten Island,Driveway fully blocked,parking,3
+2026-11-23,QN0202,Sunnyside,Queens,Posted parking sign violation,parking,5
+2026-11-23,QN0202,Sunnyside,Queens,Driveway fully blocked,parking,4
+2026-11-23,QN0202,Sunnyside,Queens,Blocked sidewalk,parking,4
+2026-11-23,QN0202,Sunnyside,Queens,Raccoon: street or sidewalk,critters,4
+2026-11-23,QN0202,Sunnyside,Queens,Dumped stuff to haul away,trash,3
+2026-11-23,QN0202,Sunnyside,Queens,Loud television (next door),noise,3
+2026-11-23,BK0703,Sunset Park (Central),Brooklyn,Loud music/party (on the street),noise,7
+2026-11-23,BK0703,Sunset Park (Central),Brooklyn,Blocked hydrant,parking,5
+2026-11-23,BK0703,Sunset Park (Central),Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,Banging/pounding (next door),noise,3
+2026-11-23,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,Blocked hydrant,parking,3
+2026-11-23,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,Loud music/party (in a park),noise,3
+2026-11-23,BK0702,Sunset Park (West),Brooklyn,Driveway fully blocked,parking,4
+2026-11-23,BK0702,Sunset Park (West),Brooklyn,Loud music/party (on the street),noise,4
+2026-11-23,BK0702,Sunset Park (West),Brooklyn,Posted parking sign violation,parking,3
+2026-11-23,BK0702,Sunset Park (West),Brooklyn,Rat sighting,critters,3
+2026-11-23,BK0702,Sunset Park (West),Brooklyn,Abandoned car (with plates),parking,3
+2026-11-23,BX1002,Throgs Neck-Schuylerville,Bronx,Driveway fully blocked,parking,6
+2026-11-23,BX1002,Throgs Neck-Schuylerville,Bronx,Blocked hydrant,parking,4
+2026-11-23,BX1002,Throgs Neck-Schuylerville,Bronx,Banging/pounding (next door),noise,4
+2026-11-23,BX1002,Throgs Neck-Schuylerville,Bronx,Abandoned car (with plates),parking,3
+2026-11-23,BX1002,Throgs Neck-Schuylerville,Bronx,Blocked crosswalk,parking,3
+2026-11-23,BX1002,Throgs Neck-Schuylerville,Bronx,Driveway partly blocked,parking,3
+2026-11-23,SI0305,Tottenville-Charleston,Staten Island,Abandoned car (with plates),parking,3
+2026-11-23,BX0602,Tremont,Bronx,Banging/pounding (next door),noise,4
+2026-11-23,BX0602,Tremont,Bronx,No heat (one apartment),heat,4
+2026-11-23,BX0602,Tremont,Bronx,Dumped stuff to haul away,trash,3
+2026-11-23,BX0602,Tremont,Bronx,Mice,housing,3
+2026-11-23,BX0602,Tremont,Bronx,Roaches,housing,3
+2026-11-23,BX0602,Tremont,Bronx,No heat (whole building),heat,3
+2026-11-23,MN0102,Tribeca-Civic Center,Manhattan,Jackhammer,noise,3
+2026-11-23,BX0701,University Heights (North)-Fordham,Bronx,Banging/pounding (next door),noise,15
+2026-11-23,BX0701,University Heights (North)-Fordham,Bronx,No hot water (one apartment),heat,4
+2026-11-23,BX0501,University Heights (South)-Morris Heights,Bronx,Banging/pounding (next door),noise,4
+2026-11-23,BX0501,University Heights (South)-Morris Heights,Bronx,No heat (whole building),heat,4
+2026-11-23,BX0501,University Heights (South)-Morris Heights,Bronx,Loud music/party (next door),noise,3
+2026-11-23,MN0802,Upper East Side-Carnegie Hill,Manhattan,Posted parking sign violation,parking,6
+2026-11-23,MN0802,Upper East Side-Carnegie Hill,Manhattan,Rat sighting,critters,3
+2026-11-23,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,Posted parking sign violation,parking,6
+2026-11-23,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,Blocked hydrant,parking,6
+2026-11-23,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,Construction at odd hours,noise,5
+2026-11-23,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,Banging/pounding (next door),noise,4
+2026-11-23,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,Trash left by property owner,trash,3
+2026-11-23,MN0803,Upper East Side-Yorkville,Manhattan,Loud music/party (next door),noise,3
+2026-11-23,MN0803,Upper East Side-Yorkville,Manhattan,Rat or mouse: street or sidewalk,critters,3
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Fire hydrant running full,water,5
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Fire hydrant running,water,5
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Loud music/party (on the street),noise,4
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Loud talking (on the street),noise,4
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Rat sighting,critters,4
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Posted parking sign violation,parking,4
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Banging/pounding (next door),noise,4
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,No water,water,4
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,No heat (whole building),heat,4
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Air conditioner/ventilation,noise,3
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Trash left by property owner,trash,3
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Water supply: no water,housing,3
+2026-11-23,MN0702,Upper West Side (Central),Manhattan,Pothole,streets,3
+2026-11-23,MN0701,Upper West Side-Lincoln Square,Manhattan,Posted parking sign violation,parking,8
+2026-11-23,BX1203,Wakefield-Woodlawn,Bronx,Street light out,streets,4
+2026-11-23,BX1203,Wakefield-Woodlawn,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-23,MN1202,Washington Heights (North),Manhattan,Banging/pounding (next door),noise,13
+2026-11-23,MN1202,Washington Heights (North),Manhattan,Loud music/party (on the street),noise,3
+2026-11-23,MN1202,Washington Heights (North),Manhattan,Loud music/party (next door),noise,3
+2026-11-23,MN1202,Washington Heights (North),Manhattan,Littering,trash,3
+2026-11-23,MN1202,Washington Heights (North),Manhattan,Blocked hydrant,parking,3
+2026-11-23,MN1201,Washington Heights (South),Manhattan,Loud talking (on the street),noise,7
+2026-11-23,MN1201,Washington Heights (South),Manhattan,Posted parking sign violation,parking,6
+2026-11-23,MN1201,Washington Heights (South),Manhattan,Loud music/party (on the street),noise,4
+2026-11-23,MN1201,Washington Heights (South),Manhattan,No heat (one apartment),heat,4
+2026-11-23,MN1201,Washington Heights (South),Manhattan,Banging/pounding (next door),noise,3
+2026-11-23,MN1201,Washington Heights (South),Manhattan,Double parked blocking vehicle,parking,3
+2026-11-23,MN1201,Washington Heights (South),Manhattan,Littering,trash,3
+2026-11-23,SI0104,West New Brighton-Silver Lake-Grymes Hill,Staten Island,Blocked sidewalk,parking,4
+2026-11-23,SI0104,West New Brighton-Silver Lake-Grymes Hill,Staten Island,Abandoned car (with plates),parking,3
+2026-11-23,MN0203,West Village,Manhattan,Rat sighting,critters,4
+2026-11-23,MN0203,West Village,Manhattan,Construction at odd hours,noise,3
+2026-11-23,MN0203,West Village,Manhattan,Street light out,streets,3
+2026-11-23,MN0203,West Village,Manhattan,No heat (whole building),heat,3
+2026-11-23,QN0702,Whitestone-Beechhurst,Queens,No water,water,3
+2026-11-23,QN0702,Whitestone-Beechhurst,Queens,Blocked hydrant,parking,3
+2026-11-23,BX1201,Williamsbridge-Olinville,Bronx,Driveway fully blocked,parking,7
+2026-11-23,BX1201,Williamsbridge-Olinville,Bronx,Loud music/party (next door),noise,6
+2026-11-23,BX1201,Williamsbridge-Olinville,Bronx,Abandoned car (with plates),parking,3
+2026-11-23,BX1201,Williamsbridge-Olinville,Bronx,Street light out,streets,3
+2026-11-23,BX1201,Williamsbridge-Olinville,Bronx,No hot water (whole building),heat,3
+2026-11-23,BK0102,Williamsburg,Brooklyn,Posted parking sign violation,parking,7
+2026-11-23,BK0102,Williamsburg,Brooklyn,Loud music/party (next door),noise,4
+2026-11-23,BK0102,Williamsburg,Brooklyn,Dog off leash,critters,4
+2026-11-23,BK0102,Williamsburg,Brooklyn,Construction at odd hours,noise,4
+2026-11-23,BK0102,Williamsburg,Brooklyn,Cooking gas: shut-off,housing,3
+2026-11-23,QN0905,Woodhaven,Queens,Blocked hydrant,parking,15
+2026-11-23,QN0905,Woodhaven,Queens,Abandoned car (with plates),parking,8
+2026-11-23,QN0905,Woodhaven,Queens,Double parked blocking traffic,parking,6
+2026-11-23,QN0905,Woodhaven,Queens,Posted parking sign violation,parking,5
+2026-11-23,QN0905,Woodhaven,Queens,Driveway fully blocked,parking,5
+2026-11-23,QN0905,Woodhaven,Queens,Commercial overnight parking,parking,4
+2026-11-23,QN0203,Woodside,Queens,Driveway fully blocked,parking,9
+2026-11-23,QN0203,Woodside,Queens,Posted parking sign violation,parking,5
+2026-11-23,QN0203,Woodside,Queens,Blocked hydrant,parking,5
+2026-11-23,QN0203,Woodside,Queens,Blocked crosswalk,parking,3
+2026-11-24,BX1104,Allerton,Bronx,No heat (whole building),heat,12
+2026-11-24,BX1104,Allerton,Bronx,Blocked hydrant,parking,5
+2026-11-24,BX1104,Allerton,Bronx,Heavy flow: at wall or ceiling,housing,3
+2026-11-24,BX1104,Allerton,Bronx,No heat (one apartment),heat,3
+2026-11-24,BX1104,Allerton,Bronx,Mold,housing,3
+2026-11-24,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Leak,water,4
+2026-11-24,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Pothole,streets,3
+2026-11-24,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Poster or sign: utility pole,trash,3
+2026-11-24,QN0103,Astoria (Central),Queens,Blocked sidewalk,parking,33
+2026-11-24,QN0103,Astoria (Central),Queens,No heat (whole building),heat,20
+2026-11-24,QN0103,Astoria (Central),Queens,Cooking gas: shut-off,housing,11
+2026-11-24,QN0103,Astoria (Central),Queens,Fire escape: rusted or peeling,housing,7
+2026-11-24,QN0103,Astoria (Central),Queens,Posted parking sign violation,parking,6
+2026-11-24,QN0103,Astoria (Central),Queens,Driveway fully blocked,parking,5
+2026-11-24,QN0103,Astoria (Central),Queens,Loud music/party (next door),noise,4
+2026-11-24,QN0103,Astoria (Central),Queens,Lead test kit request,housing,4
+2026-11-24,QN0103,Astoria (Central),Queens,No hot water (whole building),heat,3
+2026-11-24,QN0103,Astoria (Central),Queens,Rat sighting,critters,3
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,No heat (whole building),heat,11
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,Driveway fully blocked,parking,9
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,Blocked hydrant,parking,5
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,Driveway partly blocked,parking,4
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,Littering,trash,4
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,Commercial overnight parking,parking,3
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,Blocked sidewalk,parking,3
+2026-11-24,QN0104,Astoria (East)-Woodside (North),Queens,Blocked crosswalk,parking,3
+2026-11-24,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Double parked blocking traffic,parking,10
+2026-11-24,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Driveway fully blocked,parking,5
+2026-11-24,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Loud television (next door),noise,4
+2026-11-24,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Blocked sidewalk,parking,4
+2026-11-24,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Lead test kit request,housing,3
+2026-11-24,QN1101,Auburndale,Queens,Cave-in,streets,4
+2026-11-24,QN1101,Auburndale,Queens,Tree-damaged sidewalk (free repair),streets,3
+2026-11-24,QN1101,Auburndale,Queens,No heat and no hot water (whole building),heat,3
+2026-11-24,QN1101,Auburndale,Queens,Commercial overnight parking,parking,3
+2026-11-24,QN1203,Baisley Park,Queens,No heat (one apartment),heat,3
+2026-11-24,QN1203,Baisley Park,Queens,Blocked hydrant,parking,3
+2026-11-24,QN1203,Baisley Park,Queens,Abandoned car (with plates),parking,3
+2026-11-24,BK1102,Bath Beach,Brooklyn,Blocked hydrant,parking,5
+2026-11-24,BK1102,Bath Beach,Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK1102,Bath Beach,Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK1102,Bath Beach,Brooklyn,Car/truck music,noise,3
+2026-11-24,BK1102,Bath Beach,Brooklyn,For one address: street tree,trees,3
+2026-11-24,BK1001,Bay Ridge,Brooklyn,Blocked hydrant,parking,22
+2026-11-24,BK1001,Bay Ridge,Brooklyn,No heat (whole building),heat,22
+2026-11-24,BK1001,Bay Ridge,Brooklyn,Posted parking sign violation,parking,13
+2026-11-24,BK1001,Bay Ridge,Brooklyn,Driveway fully blocked,parking,5
+2026-11-24,BK1001,Bay Ridge,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK1001,Bay Ridge,Brooklyn,Banging/pounding (next door),noise,3
+2026-11-24,BK1001,Bay Ridge,Brooklyn,Blocked crosswalk,parking,3
+2026-11-24,QN1102,Bayside,Queens,No water,water,3
+2026-11-24,BX0702,Bedford Park,Bronx,No heat (whole building),heat,69
+2026-11-24,BX0702,Bedford Park,Bronx,No heat and no hot water (whole building),heat,21
+2026-11-24,BX0702,Bedford Park,Bronx,No heat (one apartment),heat,11
+2026-11-24,BX0702,Bedford Park,Bronx,Loud talking (on the street),noise,6
+2026-11-24,BX0702,Bedford Park,Bronx,Banging/pounding (next door),noise,4
+2026-11-24,BX0702,Bedford Park,Bronx,Loud music/party (next door),noise,3
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,No heat (whole building),heat,7
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,No heat (one apartment),heat,6
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud talking (next door),noise,5
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud music/party (next door),noise,4
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,Banging/pounding (next door),noise,4
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,Cat: street or sidewalk,critters,4
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,Mold,housing,4
+2026-11-24,BK0302,Bedford-Stuyvesant (East),Brooklyn,Construction at odd hours,noise,3
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,No heat and no hot water (whole building),heat,8
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Loud music/party (at a business),noise,5
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Banging/pounding (at a business),noise,5
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Loud music/party (next door),noise,3
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Commercial overnight parking,parking,3
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Heavy flow: at wall or ceiling,housing,3
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Double parked blocking vehicle,parking,3
+2026-11-24,BK0301,Bedford-Stuyvesant (West),Brooklyn,Blocked sidewalk,parking,3
+2026-11-24,QN1302,Bellerose,Queens,Abandoned car (with plates),parking,4
+2026-11-24,BX0603,Belmont,Bronx,No heat (whole building),heat,7
+2026-11-24,BX0603,Belmont,Bronx,No heat (one apartment),heat,3
+2026-11-24,BX0603,Belmont,Bronx,Banging/pounding (next door),noise,3
+2026-11-24,BX0603,Belmont,Bronx,Mice,housing,3
+2026-11-24,BX0603,Belmont,Bronx,No heat and no hot water (one apartment),heat,3
+2026-11-24,BX0603,Belmont,Bronx,Loud music/party (next door),noise,3
+2026-11-24,BK1101,Bensonhurst,Brooklyn,Blocked hydrant,parking,32
+2026-11-24,BK1101,Bensonhurst,Brooklyn,Banging/pounding (next door),noise,31
+2026-11-24,BK1101,Bensonhurst,Brooklyn,No heat (whole building),heat,8
+2026-11-24,BK1101,Bensonhurst,Brooklyn,Commercial overnight parking,parking,7
+2026-11-24,BK1101,Bensonhurst,Brooklyn,Posted parking sign violation,parking,7
+2026-11-24,BK1101,Bensonhurst,Brooklyn,Driveway fully blocked,parking,5
+2026-11-24,BK1101,Bensonhurst,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK1101,Bensonhurst,Brooklyn,Blocked crosswalk,parking,3
+2026-11-24,BK1101,Bensonhurst,Brooklyn,Driveway partly blocked,parking,3
+2026-11-24,BK1202,Borough Park,Brooklyn,Commercial overnight parking,parking,6
+2026-11-24,BK1202,Borough Park,Brooklyn,Posted parking sign violation,parking,4
+2026-11-24,BK1202,Borough Park,Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK1202,Borough Park,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK1202,Borough Park,Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK1202,Borough Park,Brooklyn,Congestion/gridlock,streets,3
+2026-11-24,BK1202,Borough Park,Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK1202,Borough Park,Brooklyn,Garbage/recycling storage: missing or inadequate cans/lid,housing,3
+2026-11-24,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,Posted parking sign violation,parking,3
+2026-11-24,BK1303,Brighton Beach,Brooklyn,No heat (whole building),heat,11
+2026-11-24,BK1303,Brighton Beach,Brooklyn,Driveway fully blocked,parking,5
+2026-11-24,BK1303,Brighton Beach,Brooklyn,Blocked sidewalk,parking,3
+2026-11-24,BK1303,Brighton Beach,Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK0201,Brooklyn Heights,Brooklyn,Posted parking sign violation,parking,3
+2026-11-24,BK0261,Brooklyn Navy Yard,Brooklyn,Posted parking sign violation,parking,4
+2026-11-24,BK1602,Brownsville,Brooklyn,Banging/pounding (next door),noise,15
+2026-11-24,BK1602,Brownsville,Brooklyn,Driveway fully blocked,parking,7
+2026-11-24,BK1602,Brownsville,Brooklyn,Loud music/party (next door),noise,4
+2026-11-24,BK1602,Brownsville,Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK0402,Bushwick (East),Brooklyn,Fire hydrant running full,water,10
+2026-11-24,BK0402,Bushwick (East),Brooklyn,Blocked sidewalk,parking,6
+2026-11-24,BK0402,Bushwick (East),Brooklyn,Blocked hydrant,parking,5
+2026-11-24,BK0402,Bushwick (East),Brooklyn,Commercial overnight parking,parking,5
+2026-11-24,BK0402,Bushwick (East),Brooklyn,Graffiti,trash,4
+2026-11-24,BK0402,Bushwick (East),Brooklyn,Banging/pounding (next door),noise,3
+2026-11-24,BK0401,Bushwick (West),Brooklyn,Sidewalk shed/pipe scafford - inadequate defective/none,housing,3
+2026-11-24,BK0401,Bushwick (West),Brooklyn,No heat (one apartment),heat,3
+2026-11-24,BK0401,Bushwick (West),Brooklyn,Driveway partly blocked,parking,3
+2026-11-24,BK1803,Canarsie,Brooklyn,Driveway fully blocked,parking,6
+2026-11-24,BK1803,Canarsie,Brooklyn,Posted parking sign violation,parking,6
+2026-11-24,BK1803,Canarsie,Brooklyn,No heat (one apartment),heat,5
+2026-11-24,BK1803,Canarsie,Brooklyn,Clogged storm drain,water,4
+2026-11-24,BK1803,Canarsie,Brooklyn,Loud music/party (next door),noise,3
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked sidewalk,parking,22
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked bike lane,parking,20
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Posted parking sign violation,parking,11
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked hydrant,parking,9
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked crosswalk,parking,6
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Banging/pounding (next door),noise,5
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Illegal fireworks,noise,3
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Driveway fully blocked,parking,3
+2026-11-24,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Construction at odd hours,noise,3
+2026-11-24,BX0903,Castle Hill-Unionport,Bronx,Banging/pounding (next door),noise,8
+2026-11-24,BX0903,Castle Hill-Unionport,Bronx,No heat (whole building),heat,7
+2026-11-24,BX0903,Castle Hill-Unionport,Bronx,Blocked hydrant,parking,5
+2026-11-24,BX0903,Castle Hill-Unionport,Bronx,Driveway fully blocked,parking,4
+2026-11-24,BX0903,Castle Hill-Unionport,Bronx,Posted parking sign violation,parking,3
+2026-11-24,BX0903,Castle Hill-Unionport,Bronx,No heat (one apartment),heat,3
+2026-11-24,MN6491,Central Park,Manhattan,Posted parking sign violation,parking,3
+2026-11-24,MN0401,Chelsea-Hudson Yards,Manhattan,Construction at odd hours,noise,10
+2026-11-24,MN0401,Chelsea-Hudson Yards,Manhattan,No heat (whole building),heat,10
+2026-11-24,MN0401,Chelsea-Hudson Yards,Manhattan,Plate condition - noisy,streets,3
+2026-11-24,MN0401,Chelsea-Hudson Yards,Manhattan,Littering,trash,3
+2026-11-24,MN0401,Chelsea-Hudson Yards,Manhattan,Parking permit improper use: parked in 'no standing' area,parking,3
+2026-11-24,MN0401,Chelsea-Hudson Yards,Manhattan,Dumped stuff to haul away,trash,3
+2026-11-24,MN0301,Chinatown-Two Bridges,Manhattan,No heat (whole building),heat,5
+2026-11-24,BX0302,Claremont Village-Claremont (East),Bronx,Loud music/party (next door),noise,16
+2026-11-24,BX0302,Claremont Village-Claremont (East),Bronx,Banging/pounding (next door),noise,3
+2026-11-24,BK0204,Clinton Hill,Brooklyn,Blocked sidewalk,parking,9
+2026-11-24,BK0204,Clinton Hill,Brooklyn,No heat and no hot water (whole building),heat,6
+2026-11-24,BK0204,Clinton Hill,Brooklyn,Blocked bike lane,parking,5
+2026-11-24,BK0204,Clinton Hill,Brooklyn,Rat sighting,critters,5
+2026-11-24,BK0204,Clinton Hill,Brooklyn,No heat (whole building),heat,4
+2026-11-24,QN0701,College Point,Queens,Blocked hydrant,parking,3
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,No heat (whole building),heat,25
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,No heat (one apartment),heat,22
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,Banging/pounding (next door),noise,11
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,No heat and no hot water (whole building),heat,11
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,Blocked bike lane,parking,9
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,Double parked blocking vehicle,parking,5
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,No heat and no hot water (one apartment),heat,4
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,Posted parking sign violation,parking,3
+2026-11-24,BX0401,Concourse-Concourse Village,Bronx,No hot water (one apartment),heat,3
+2026-11-24,BK1302,Coney Island-Sea Gate,Brooklyn,No hot water (whole building),heat,7
+2026-11-24,BK1302,Coney Island-Sea Gate,Brooklyn,Blocked hydrant,parking,5
+2026-11-24,BK1302,Coney Island-Sea Gate,Brooklyn,Banging/pounding (next door),noise,4
+2026-11-24,BK1302,Coney Island-Sea Gate,Brooklyn,No heat (whole building),heat,3
+2026-11-24,BK1302,Coney Island-Sea Gate,Brooklyn,No hot water (one apartment),heat,3
+2026-11-24,QN0402,Corona,Queens,No heat (whole building),heat,16
+2026-11-24,QN0402,Corona,Queens,No heat (one apartment),heat,10
+2026-11-24,QN0402,Corona,Queens,Driveway fully blocked,parking,3
+2026-11-24,QN0402,Corona,Queens,Driveway partly blocked,parking,3
+2026-11-24,BX0303,Crotona Park East,Bronx,No heat (one apartment),heat,8
+2026-11-24,BX0303,Crotona Park East,Bronx,No heat (whole building),heat,7
+2026-11-24,BX0303,Crotona Park East,Bronx,Loud music/party (next door),noise,6
+2026-11-24,BX0303,Crotona Park East,Bronx,Posted parking sign violation,parking,3
+2026-11-24,BX0303,Crotona Park East,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,No heat (whole building),heat,19
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,No heat (one apartment),heat,11
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,Loud music/party (next door),noise,9
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,Banging/pounding (next door),noise,4
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,Car/truck horn,noise,3
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,Posted parking sign violation,parking,3
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,Roaches,housing,3
+2026-11-24,BK0802,Crown Heights (North),Brooklyn,No heat and no hot water (whole building),heat,3
+2026-11-24,BK0901,Crown Heights (South),Brooklyn,No heat (whole building),heat,12
+2026-11-24,BK0901,Crown Heights (South),Brooklyn,No heat (one apartment),heat,11
+2026-11-24,BK0901,Crown Heights (South),Brooklyn,No heat and no hot water (whole building),heat,9
+2026-11-24,BK0901,Crown Heights (South),Brooklyn,No heat and no hot water (one apartment),heat,5
+2026-11-24,BK0901,Crown Heights (South),Brooklyn,Loud music/party (next door),noise,4
+2026-11-24,BK0501,Cypress Hills,Brooklyn,Posted parking sign violation,parking,8
+2026-11-24,BK0501,Cypress Hills,Brooklyn,Blocked hydrant,parking,6
+2026-11-24,BK0501,Cypress Hills,Brooklyn,Blocked sidewalk,parking,6
+2026-11-24,BK0501,Cypress Hills,Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK0501,Cypress Hills,Brooklyn,No heat (one apartment),heat,3
+2026-11-24,QN1103,Douglaston-Little Neck,Queens,Blocked hydrant,parking,3
+2026-11-24,QN1103,Douglaston-Little Neck,Queens,Driveway fully blocked,parking,3
+2026-11-24,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Blocked sidewalk,parking,14
+2026-11-24,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Posted parking sign violation,parking,11
+2026-11-24,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Blocked hydrant,parking,6
+2026-11-24,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Loud music/party (on the street),noise,4
+2026-11-24,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,No heat (whole building),heat,3
+2026-11-24,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,License plate obscured,parking,3
+2026-11-24,BK1002,Dyker Heights,Brooklyn,Blocked hydrant,parking,7
+2026-11-24,QN0302,East Elmhurst,Queens,Posted parking sign violation,parking,5
+2026-11-24,QN0302,East Elmhurst,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN0302,East Elmhurst,Queens,Driveway partly blocked,parking,4
+2026-11-24,QN0302,East Elmhurst,Queens,Commercial overnight parking,parking,3
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,No heat and no hot water (whole building),heat,11
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,No heat (one apartment),heat,9
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,No heat (whole building),heat,7
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,Banging/pounding (next door),noise,5
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,Blocked crosswalk,parking,4
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,Mold,housing,3
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,Loud music/party (next door),noise,3
+2026-11-24,BK1701,East Flatbush-Erasmus,Brooklyn,No heat and no hot water (one apartment),heat,3
+2026-11-24,BK1702,East Flatbush-Farragut,Brooklyn,Banging/pounding (next door),noise,3
+2026-11-24,BK1702,East Flatbush-Farragut,Brooklyn,Street not swept,trash,3
+2026-11-24,BK1704,East Flatbush-Remsen Village,Brooklyn,No heat and no hot water (whole building),heat,8
+2026-11-24,BK1704,East Flatbush-Remsen Village,Brooklyn,No heat (one apartment),heat,5
+2026-11-24,BK1704,East Flatbush-Remsen Village,Brooklyn,No heat (whole building),heat,5
+2026-11-24,BK1704,East Flatbush-Remsen Village,Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK1703,East Flatbush-Rugby,Brooklyn,No heat (whole building),heat,8
+2026-11-24,BK1703,East Flatbush-Rugby,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK1703,East Flatbush-Rugby,Brooklyn,Street light out,streets,3
+2026-11-24,QN0705,East Flushing,Queens,No heat (whole building),heat,12
+2026-11-24,QN0705,East Flushing,Queens,Driveway fully blocked,parking,7
+2026-11-24,QN0705,East Flushing,Queens,Blocked hydrant,parking,5
+2026-11-24,QN0705,East Flushing,Queens,Posted parking sign violation,parking,4
+2026-11-24,QN0705,East Flushing,Queens,Banging/pounding (next door),noise,3
+2026-11-24,MN1102,East Harlem (North),Manhattan,No heat (one apartment),heat,12
+2026-11-24,MN1102,East Harlem (North),Manhattan,No heat (whole building),heat,8
+2026-11-24,MN1102,East Harlem (North),Manhattan,Banging/pounding (next door),noise,7
+2026-11-24,MN1102,East Harlem (North),Manhattan,Rat sighting,critters,3
+2026-11-24,MN1102,East Harlem (North),Manhattan,Posted parking sign violation,parking,3
+2026-11-24,MN1102,East Harlem (North),Manhattan,New basket,trash,3
+2026-11-24,MN1101,East Harlem (South),Manhattan,No heat and no hot water (whole building),heat,12
+2026-11-24,MN1101,East Harlem (South),Manhattan,No heat (one apartment),heat,5
+2026-11-24,MN1101,East Harlem (South),Manhattan,No hot water (whole building),heat,4
+2026-11-24,MN1101,East Harlem (South),Manhattan,No heat (whole building),heat,3
+2026-11-24,MN1101,East Harlem (South),Manhattan,Rat sighting,critters,3
+2026-11-24,MN1101,East Harlem (South),Manhattan,Fire hydrant running full,water,3
+2026-11-24,MN0604,East Midtown-Turtle Bay,Manhattan,Construction at odd hours,noise,5
+2026-11-24,MN0604,East Midtown-Turtle Bay,Manhattan,No heat (whole building),heat,4
+2026-11-24,MN0604,East Midtown-Turtle Bay,Manhattan,Private garbage truck,noise,3
+2026-11-24,MN0604,East Midtown-Turtle Bay,Manhattan,Blocked bike lane,parking,3
+2026-11-24,MN0604,East Midtown-Turtle Bay,Manhattan,Posted parking sign violation,parking,3
+2026-11-24,BK0502,East New York (North),Brooklyn,Garbage/recycling storage: accumulation,housing,8
+2026-11-24,BK0502,East New York (North),Brooklyn,Driveway fully blocked,parking,6
+2026-11-24,BK0502,East New York (North),Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK0502,East New York (North),Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK0502,East New York (North),Brooklyn,Slow leak: at wall or ceiling,housing,3
+2026-11-24,BK0505,East New York-City Line,Brooklyn,Driveway fully blocked,parking,5
+2026-11-24,BK0505,East New York-City Line,Brooklyn,Mold,housing,4
+2026-11-24,BK0505,East New York-City Line,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK0505,East New York-City Line,Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK0505,East New York-City Line,Brooklyn,Blocked sidewalk,parking,3
+2026-11-24,BK0505,East New York-City Line,Brooklyn,Double parked blocking vehicle,parking,3
+2026-11-24,BK0503,East New York-New Lots,Brooklyn,No heat (one apartment),heat,9
+2026-11-24,BK0503,East New York-New Lots,Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK0503,East New York-New Lots,Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK0503,East New York-New Lots,Brooklyn,Loud music/party (next door),noise,4
+2026-11-24,BK0503,East New York-New Lots,Brooklyn,Banging/pounding (next door),noise,4
+2026-11-24,MN0303,East Village,Manhattan,No heat (whole building),heat,11
+2026-11-24,MN0303,East Village,Manhattan,Loud music/party (next door),noise,7
+2026-11-24,MN0303,East Village,Manhattan,Posted parking sign violation,parking,7
+2026-11-24,MN0303,East Village,Manhattan,Loud talking (next door),noise,3
+2026-11-24,MN0303,East Village,Manhattan,Mice,housing,3
+2026-11-24,MN0303,East Village,Manhattan,Bell/buzzer/intercom: broken or missing,housing,3
+2026-11-24,BK0104,East Williamsburg,Brooklyn,Posted parking sign violation,parking,5
+2026-11-24,BK0104,East Williamsburg,Brooklyn,Graffiti,trash,4
+2026-11-24,BK0104,East Williamsburg,Brooklyn,Blocked crosswalk,parking,3
+2026-11-24,BK0104,East Williamsburg,Brooklyn,No heat (whole building),heat,3
+2026-11-24,BX1202,Eastchester-Edenwald-Baychester,Bronx,Driveway fully blocked,parking,5
+2026-11-24,BX1202,Eastchester-Edenwald-Baychester,Bronx,Banging/pounding (next door),noise,4
+2026-11-24,BX1202,Eastchester-Edenwald-Baychester,Bronx,No heat (one apartment),heat,3
+2026-11-24,QN0401,Elmhurst,Queens,No heat (whole building),heat,19
+2026-11-24,QN0401,Elmhurst,Queens,Driveway fully blocked,parking,6
+2026-11-24,QN0401,Elmhurst,Queens,No heat (one apartment),heat,6
+2026-11-24,QN0401,Elmhurst,Queens,Banging/pounding (next door),noise,5
+2026-11-24,QN0401,Elmhurst,Queens,No heat and no hot water (whole building),heat,4
+2026-11-24,QN0401,Elmhurst,Queens,Blocked hydrant,parking,3
+2026-11-24,QN0401,Elmhurst,Queens,Posted parking sign violation,parking,3
+2026-11-24,QN1401,Far Rockaway-Bayswater,Queens,Loud music/party (next door),noise,12
+2026-11-24,QN1401,Far Rockaway-Bayswater,Queens,Banging/pounding (next door),noise,6
+2026-11-24,QN1401,Far Rockaway-Bayswater,Queens,No heat (one apartment),heat,5
+2026-11-24,QN1401,Far Rockaway-Bayswater,Queens,Commercial overnight parking,parking,5
+2026-11-24,QN1401,Far Rockaway-Bayswater,Queens,Posted parking sign violation,parking,3
+2026-11-24,MN0101,Financial District-Battery Park City,Manhattan,Blocked sidewalk,parking,4
+2026-11-24,MN0101,Financial District-Battery Park City,Manhattan,Banging/pounding (next door),noise,4
+2026-11-24,MN0101,Financial District-Battery Park City,Manhattan,No hot water (whole building),heat,3
+2026-11-24,BK1401,Flatbush,Brooklyn,No heat (whole building),heat,31
+2026-11-24,BK1401,Flatbush,Brooklyn,Banging/pounding (next door),noise,29
+2026-11-24,BK1401,Flatbush,Brooklyn,No heat (one apartment),heat,9
+2026-11-24,BK1401,Flatbush,Brooklyn,No heat and no hot water (whole building),heat,8
+2026-11-24,BK1401,Flatbush,Brooklyn,Loud music/party (next door),noise,6
+2026-11-24,BK1401,Flatbush,Brooklyn,Mold,housing,4
+2026-11-24,BK1401,Flatbush,Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK1401,Flatbush,Brooklyn,Posted parking sign violation,parking,3
+2026-11-24,BK1401,Flatbush,Brooklyn,Blocked sidewalk,parking,3
+2026-11-24,BK1401,Flatbush,Brooklyn,Ceiling: collapsing or falling,housing,3
+2026-11-24,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,No heat (whole building),heat,8
+2026-11-24,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,No hot water (whole building),heat,4
+2026-11-24,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,No heat and no hot water (whole building),heat,4
+2026-11-24,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,Banging/pounding (next door),noise,3
+2026-11-24,BK1801,Flatlands,Brooklyn,Blocked hydrant,parking,11
+2026-11-24,BK1801,Flatlands,Brooklyn,Abandoned car (with plates),parking,5
+2026-11-24,BK1801,Flatlands,Brooklyn,Street light out,streets,5
+2026-11-24,BK1801,Flatlands,Brooklyn,Driveway fully blocked,parking,3
+2026-11-24,BK1801,Flatlands,Brooklyn,No heat (one apartment),heat,3
+2026-11-24,BK1801,Flatlands,Brooklyn,No heat (whole building),heat,3
+2026-11-24,QN8191,Flushing Meadows-Corona Park,Queens,Loud music/party (on the street),noise,8
+2026-11-24,QN8191,Flushing Meadows-Corona Park,Queens,Loud music/party (in a park),noise,6
+2026-11-24,QN0707,Flushing-Willets Point,Queens,No heat (whole building),heat,17
+2026-11-24,QN0707,Flushing-Willets Point,Queens,Loud music/party (on the street),noise,10
+2026-11-24,QN0707,Flushing-Willets Point,Queens,No heat and no hot water (whole building),heat,9
+2026-11-24,QN0707,Flushing-Willets Point,Queens,No hot water (whole building),heat,6
+2026-11-24,QN0707,Flushing-Willets Point,Queens,No heat (one apartment),heat,4
+2026-11-24,BX0503,Fordham Heights,Bronx,No heat (whole building),heat,9
+2026-11-24,BX0503,Fordham Heights,Bronx,No heat (one apartment),heat,8
+2026-11-24,BX0503,Fordham Heights,Bronx,Blocked bike lane,parking,6
+2026-11-24,BX0503,Fordham Heights,Bronx,Banging/pounding (next door),noise,4
+2026-11-24,BX0503,Fordham Heights,Bronx,No heat and no hot water (whole building),heat,4
+2026-11-24,BX0503,Fordham Heights,Bronx,Mold,housing,3
+2026-11-24,QN0602,Forest Hills,Queens,No heat (whole building),heat,23
+2026-11-24,QN0602,Forest Hills,Queens,No heat and no hot water (whole building),heat,10
+2026-11-24,QN0602,Forest Hills,Queens,Driveway fully blocked,parking,5
+2026-11-24,QN0602,Forest Hills,Queens,Posted parking sign violation,parking,5
+2026-11-24,QN0602,Forest Hills,Queens,No heat (one apartment),heat,4
+2026-11-24,QN0602,Forest Hills,Queens,Building shaking or unstable,housing,3
+2026-11-24,QN0602,Forest Hills,Queens,Construction equipment,noise,3
+2026-11-24,QN0602,Forest Hills,Queens,Mice,housing,3
+2026-11-24,QN0602,Forest Hills,Queens,Blocked hydrant,parking,3
+2026-11-24,BK0203,Fort Greene,Brooklyn,Posted parking sign violation,parking,5
+2026-11-24,BK0203,Fort Greene,Brooklyn,Construction at odd hours,noise,4
+2026-11-24,BK0203,Fort Greene,Brooklyn,No heat and no hot water (whole building),heat,4
+2026-11-24,QN0503,Glendale,Queens,Blocked hydrant,parking,9
+2026-11-24,QN0503,Glendale,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN0503,Glendale,Queens,Posted parking sign violation,parking,4
+2026-11-24,QN0503,Glendale,Queens,Loud talking (on the street),noise,3
+2026-11-24,QN0503,Glendale,Queens,Abandoned car (with plates),parking,3
+2026-11-24,MN0602,Gramercy,Manhattan,Graffiti,trash,5
+2026-11-24,MN0602,Gramercy,Manhattan,Construction at odd hours,noise,4
+2026-11-24,MN0602,Gramercy,Manhattan,No heat (whole building),heat,3
+2026-11-24,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,No heat (one apartment),heat,5
+2026-11-24,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,Abandoned car (with plates),parking,4
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Driveway fully blocked,parking,11
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Blocked sidewalk,parking,10
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,No heat (whole building),heat,7
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Commercial overnight parking,parking,6
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Posted parking sign violation,parking,4
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Bell/buzzer/intercom: broken or missing,housing,3
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Abandoned car (with plates),parking,3
+2026-11-24,BK1501,Gravesend (East)-Homecrest,Brooklyn,Blocked crosswalk,parking,3
+2026-11-24,BK1301,Gravesend (South),Brooklyn,Blocked hydrant,parking,3
+2026-11-24,BK1103,Gravesend (West),Brooklyn,Commercial overnight parking,parking,42
+2026-11-24,BK1103,Gravesend (West),Brooklyn,Blocked hydrant,parking,13
+2026-11-24,BK1103,Gravesend (West),Brooklyn,No heat (whole building),heat,9
+2026-11-24,BK1103,Gravesend (West),Brooklyn,No heat and no hot water (whole building),heat,5
+2026-11-24,BK1103,Gravesend (West),Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK1103,Gravesend (West),Brooklyn,Construction at odd hours,noise,3
+2026-11-24,SI0302,Great Kills-Eltingville,Staten Island,Street light out,streets,3
+2026-11-24,SI0302,Great Kills-Eltingville,Staten Island,Tree-damaged sidewalk (free repair),streets,3
+2026-11-24,BK0101,Greenpoint,Brooklyn,Blocked sidewalk,parking,14
+2026-11-24,BK0101,Greenpoint,Brooklyn,Posted parking sign violation,parking,11
+2026-11-24,BK0101,Greenpoint,Brooklyn,No heat (whole building),heat,5
+2026-11-24,BK0101,Greenpoint,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK0101,Greenpoint,Brooklyn,Banging/pounding (next door),noise,3
+2026-11-24,MN0202,Greenwich Village,Manhattan,Loud music/party (at a business),noise,3
+2026-11-24,MN0202,Greenwich Village,Manhattan,Posted parking sign violation,parking,3
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat (whole building),heat,33
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat (one apartment),heat,14
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat and no hot water (whole building),heat,13
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No hot water (whole building),heat,10
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud music/party (next door),noise,6
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Posted parking sign violation,parking,4
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud talking (next door),noise,4
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Mice,housing,4
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud music/party (on the street),noise,3
+2026-11-24,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No hot water (one apartment),heat,3
+2026-11-24,MN1002,Harlem (North),Manhattan,No heat (whole building),heat,26
+2026-11-24,MN1002,Harlem (North),Manhattan,No heat (one apartment),heat,20
+2026-11-24,MN1002,Harlem (North),Manhattan,Banging/pounding (next door),noise,17
+2026-11-24,MN1002,Harlem (North),Manhattan,No heat and no hot water (whole building),heat,11
+2026-11-24,MN1002,Harlem (North),Manhattan,Mold,housing,10
+2026-11-24,MN1002,Harlem (North),Manhattan,Street light out,streets,6
+2026-11-24,MN1002,Harlem (North),Manhattan,No heat and no hot water (one apartment),heat,6
+2026-11-24,MN1002,Harlem (North),Manhattan,Door: broken or missing,housing,5
+2026-11-24,MN1002,Harlem (North),Manhattan,Floor: broken or defective,housing,5
+2026-11-24,MN1002,Harlem (North),Manhattan,Power outage: entire building,housing,4
+2026-11-24,MN1002,Harlem (North),Manhattan,Loud music/party (on the street),noise,3
+2026-11-24,MN1002,Harlem (North),Manhattan,Electric/gas range: pilot light out,housing,3
+2026-11-24,MN1002,Harlem (North),Manhattan,Trash,trash,3
+2026-11-24,MN1002,Harlem (North),Manhattan,Littering,trash,3
+2026-11-24,MN1002,Harlem (North),Manhattan,Roaches,housing,3
+2026-11-24,MN1002,Harlem (North),Manhattan,Cabinet: damaged or missing,housing,3
+2026-11-24,MN1002,Harlem (North),Manhattan,Slow leak: at wall or ceiling,housing,3
+2026-11-24,MN1002,Harlem (North),Manhattan,Bathtub/shower: broken or missing,housing,3
+2026-11-24,MN1002,Harlem (North),Manhattan,No hot water (one apartment),heat,3
+2026-11-24,MN1002,Harlem (North),Manhattan,No hot water (whole building),heat,3
+2026-11-24,MN1001,Harlem (South),Manhattan,No heat (whole building),heat,23
+2026-11-24,MN1001,Harlem (South),Manhattan,No heat and no hot water (whole building),heat,13
+2026-11-24,MN1001,Harlem (South),Manhattan,No heat (one apartment),heat,7
+2026-11-24,MN1001,Harlem (South),Manhattan,Power outage: entire building,housing,6
+2026-11-24,MN1001,Harlem (South),Manhattan,No heat and no hot water (one apartment),heat,5
+2026-11-24,MN1001,Harlem (South),Manhattan,Abandoned car (with plates),parking,5
+2026-11-24,MN1001,Harlem (South),Manhattan,Blocked sidewalk,parking,5
+2026-11-24,MN1001,Harlem (South),Manhattan,Banging/pounding (next door),noise,5
+2026-11-24,MN1001,Harlem (South),Manhattan,No lighting: one room or area,housing,4
+2026-11-24,MN1001,Harlem (South),Manhattan,Loud music/party (next door),noise,3
+2026-11-24,MN1001,Harlem (South),Manhattan,Blocked hydrant,parking,3
+2026-11-24,MN1001,Harlem (South),Manhattan,No hot water (whole building),heat,3
+2026-11-24,MN0402,Hell's Kitchen,Manhattan,No heat (whole building),heat,7
+2026-11-24,MN0402,Hell's Kitchen,Manhattan,Posted parking sign violation,parking,4
+2026-11-24,MN0402,Hell's Kitchen,Manhattan,Loud music/party (on the street),noise,3
+2026-11-24,MN0402,Hell's Kitchen,Manhattan,No heat and no hot water (whole building),heat,3
+2026-11-24,MN0402,Hell's Kitchen,Manhattan,No heat (one apartment),heat,3
+2026-11-24,MN0402,Hell's Kitchen,Manhattan,Bulky recycling,trash,3
+2026-11-24,BX0402,Highbridge,Bronx,No heat (whole building),heat,12
+2026-11-24,BX0402,Highbridge,Bronx,No heat and no hot water (whole building),heat,5
+2026-11-24,BX0402,Highbridge,Bronx,No heat and no hot water (one apartment),heat,4
+2026-11-24,BX0402,Highbridge,Bronx,Loud music/party (next door),noise,3
+2026-11-24,BX0402,Highbridge,Bronx,Banging/pounding (next door),noise,3
+2026-11-24,BX0402,Highbridge,Bronx,No heat (one apartment),heat,3
+2026-11-24,BX0402,Highbridge,Bronx,Blocked sidewalk,parking,3
+2026-11-24,QN1003,Howard Beach-Lindenwood,Queens,Abandoned car (with plates),parking,4
+2026-11-24,BX0201,Hunts Point,Bronx,No heat (whole building),heat,7
+2026-11-24,BX0201,Hunts Point,Bronx,No hot water (whole building),heat,6
+2026-11-24,BX0201,Hunts Point,Bronx,Blocked hydrant,parking,3
+2026-11-24,MN1203,Inwood,Manhattan,Banging/pounding (next door),noise,22
+2026-11-24,MN1203,Inwood,Manhattan,No heat (whole building),heat,10
+2026-11-24,MN1203,Inwood,Manhattan,No heat and no hot water (whole building),heat,9
+2026-11-24,MN1203,Inwood,Manhattan,No heat (one apartment),heat,4
+2026-11-24,QN0301,Jackson Heights,Queens,No heat (whole building),heat,21
+2026-11-24,QN0301,Jackson Heights,Queens,Blocked hydrant,parking,7
+2026-11-24,QN0301,Jackson Heights,Queens,Car/truck horn,noise,5
+2026-11-24,QN0301,Jackson Heights,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN0301,Jackson Heights,Queens,No hot water (one apartment),heat,3
+2026-11-24,QN0301,Jackson Heights,Queens,No heat (one apartment),heat,3
+2026-11-24,QN0301,Jackson Heights,Queens,Abandoned car (with plates),parking,3
+2026-11-24,QN0301,Jackson Heights,Queens,No heat and no hot water (whole building),heat,3
+2026-11-24,QN0301,Jackson Heights,Queens,Trash,trash,3
+2026-11-24,QN0301,Jackson Heights,Queens,Posted parking sign violation,parking,3
+2026-11-24,QN1201,Jamaica,Queens,No heat (whole building),heat,9
+2026-11-24,QN1201,Jamaica,Queens,No heat (one apartment),heat,7
+2026-11-24,QN1201,Jamaica,Queens,Elevator out,housing,3
+2026-11-24,QN1201,Jamaica,Queens,Banging/pounding (next door),noise,3
+2026-11-24,QN1201,Jamaica,Queens,Littering,trash,3
+2026-11-24,QN0804,Jamaica Estates-Holliswood,Queens,No heat (one apartment),heat,6
+2026-11-24,QN0804,Jamaica Estates-Holliswood,Queens,Mice,housing,4
+2026-11-24,QN0804,Jamaica Estates-Holliswood,Queens,Ceiling: collapsing or falling,housing,4
+2026-11-24,QN0804,Jamaica Estates-Holliswood,Queens,Roaches,housing,3
+2026-11-24,QN0804,Jamaica Estates-Holliswood,Queens,Slow leak: at wall or ceiling,housing,3
+2026-11-24,QN0805,Jamaica Hills-Briarwood,Queens,Driveway fully blocked,parking,5
+2026-11-24,QN0805,Jamaica Hills-Briarwood,Queens,No heat (whole building),heat,4
+2026-11-24,QN0805,Jamaica Hills-Briarwood,Queens,Signage missing: housing information notice,housing,3
+2026-11-24,BK1203,Kensington,Brooklyn,Driveway fully blocked,parking,8
+2026-11-24,BK1203,Kensington,Brooklyn,No heat (whole building),heat,7
+2026-11-24,BK1203,Kensington,Brooklyn,Blocked hydrant,parking,5
+2026-11-24,BK1203,Kensington,Brooklyn,Posted parking sign violation,parking,4
+2026-11-24,BK1203,Kensington,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK1203,Kensington,Brooklyn,Banging/pounding (next door),noise,3
+2026-11-24,BK1203,Kensington,Brooklyn,No heat and no hot water (whole building),heat,3
+2026-11-24,QN0901,Kew Gardens,Queens,No heat (whole building),heat,10
+2026-11-24,QN0901,Kew Gardens,Queens,Loud music/party (next door),noise,3
+2026-11-24,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,No heat (whole building),heat,13
+2026-11-24,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Blocked hydrant,parking,11
+2026-11-24,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Posted parking sign violation,parking,7
+2026-11-24,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Mold,housing,6
+2026-11-24,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Heavy flow: at wall or ceiling,housing,3
+2026-11-24,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Cooking gas: shut-off,housing,3
+2026-11-24,BX0802,Kingsbridge-Marble Hill,Bronx,No heat (whole building),heat,15
+2026-11-24,BX0802,Kingsbridge-Marble Hill,Bronx,Posted parking sign violation,parking,4
+2026-11-24,BX0802,Kingsbridge-Marble Hill,Bronx,Driveway fully blocked,parking,3
+2026-11-24,BX0802,Kingsbridge-Marble Hill,Bronx,Blocked hydrant,parking,3
+2026-11-24,QN1305,Laurelton,Queens,Trash,trash,3
+2026-11-24,QN0201,Long Island City-Hunters Point,Queens,Blocked sidewalk,parking,28
+2026-11-24,QN0201,Long Island City-Hunters Point,Queens,Posted parking sign violation,parking,17
+2026-11-24,BX0202,Longwood,Bronx,No heat (whole building),heat,7
+2026-11-24,BX0202,Longwood,Bronx,No heat (one apartment),heat,6
+2026-11-24,BX0202,Longwood,Bronx,Construction at odd hours,noise,4
+2026-11-24,BX0202,Longwood,Bronx,Banging/pounding (next door),noise,4
+2026-11-24,BX0202,Longwood,Bronx,Mice,housing,3
+2026-11-24,BX0202,Longwood,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-24,BX0202,Longwood,Bronx,Driveway fully blocked,parking,3
+2026-11-24,MN0302,Lower East Side,Manhattan,Truck route violation,streets,76
+2026-11-24,MN0302,Lower East Side,Manhattan,Posted parking sign violation,parking,3
+2026-11-24,MN0302,Lower East Side,Manhattan,Roaches,housing,3
+2026-11-24,MN0302,Lower East Side,Manhattan,Loud music/party (on the street),noise,3
+2026-11-24,MN0302,Lower East Side,Manhattan,No heat (whole building),heat,3
+2026-11-24,MN0302,Lower East Side,Manhattan,No heat and no hot water (whole building),heat,3
+2026-11-24,MN0302,Lower East Side,Manhattan,Garbage/recycling storage: missing or inadequate cans/lid,housing,3
+2026-11-24,BK1502,Madison,Brooklyn,Driveway fully blocked,parking,10
+2026-11-24,BK1502,Madison,Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK1502,Madison,Brooklyn,No heat (one apartment),heat,4
+2026-11-24,BK1502,Madison,Brooklyn,Posted parking sign violation,parking,3
+2026-11-24,BK1502,Madison,Brooklyn,Dumped stuff to haul away,trash,3
+2026-11-24,MN0902,Manhattanville-West Harlem,Manhattan,No heat (whole building),heat,7
+2026-11-24,MN0902,Manhattanville-West Harlem,Manhattan,No heat (one apartment),heat,5
+2026-11-24,MN0902,Manhattanville-West Harlem,Manhattan,Roaches,housing,3
+2026-11-24,BK1204,Mapleton-Midwood (West),Brooklyn,No heat (whole building),heat,7
+2026-11-24,BK1204,Mapleton-Midwood (West),Brooklyn,Posted parking sign violation,parking,6
+2026-11-24,BK1204,Mapleton-Midwood (West),Brooklyn,Blocked hydrant,parking,5
+2026-11-24,BK1204,Mapleton-Midwood (West),Brooklyn,Double parked blocking traffic,parking,3
+2026-11-24,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,Abandoned car (with plates),parking,4
+2026-11-24,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,Blocked sidewalk,parking,4
+2026-11-24,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,Posted parking sign violation,parking,4
+2026-11-24,BK1891,Marine Park-Plumb Island,Brooklyn,Wildlife sighting,critters,7
+2026-11-24,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Banging/pounding (next door),noise,4
+2026-11-24,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Street light out,streets,4
+2026-11-24,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,No heat (one apartment),heat,3
+2026-11-24,QN0501,Maspeth,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN0501,Maspeth,Queens,Blocked hydrant,parking,4
+2026-11-24,QN0501,Maspeth,Queens,Commercial overnight parking,parking,3
+2026-11-24,QN0501,Maspeth,Queens,Abandoned car (with plates),parking,3
+2026-11-24,QN0501,Maspeth,Queens,Posted parking sign violation,parking,3
+2026-11-24,BX0102,Melrose,Bronx,Blocked hydrant,parking,9
+2026-11-24,BX0102,Melrose,Bronx,Posted parking sign violation,parking,5
+2026-11-24,BX0102,Melrose,Bronx,No heat (whole building),heat,4
+2026-11-24,BX0102,Melrose,Bronx,Abandoned car (with plates),parking,4
+2026-11-24,BX0102,Melrose,Bronx,Loud music/party (next door),noise,3
+2026-11-24,BX0102,Melrose,Bronx,No heat (one apartment),heat,3
+2026-11-24,QN0504,Middle Village,Queens,Posted parking sign violation,parking,3
+2026-11-24,MN0501,Midtown South-Flatiron-Union Square,Manhattan,Blocked bike lane,parking,3
+2026-11-24,MN0502,Midtown-Times Square,Manhattan,Construction at odd hours,noise,5
+2026-11-24,MN0502,Midtown-Times Square,Manhattan,Loud music/party (on the street),noise,5
+2026-11-24,MN0502,Midtown-Times Square,Manhattan,Car/truck music,noise,4
+2026-11-24,MN0502,Midtown-Times Square,Manhattan,Posted parking sign violation,parking,4
+2026-11-24,MN0502,Midtown-Times Square,Manhattan,No heat (whole building),heat,4
+2026-11-24,MN0502,Midtown-Times Square,Manhattan,Engine idling,noise,3
+2026-11-24,BK1403,Midwood,Brooklyn,Loud music/party (next door),noise,6
+2026-11-24,BK1403,Midwood,Brooklyn,No heat (whole building),heat,6
+2026-11-24,BK1403,Midwood,Brooklyn,Blocked hydrant,parking,6
+2026-11-24,BK1403,Midwood,Brooklyn,No heat and no hot water (whole building),heat,5
+2026-11-24,BK1403,Midwood,Brooklyn,Street light out,streets,4
+2026-11-24,BK1403,Midwood,Brooklyn,Driveway fully blocked,parking,3
+2026-11-24,BK1403,Midwood,Brooklyn,No heat (one apartment),heat,3
+2026-11-24,BX1102,Morris Park,Bronx,Blocked crosswalk,parking,4
+2026-11-24,BX1102,Morris Park,Bronx,Blocked hydrant,parking,3
+2026-11-24,BX0301,Morrisania,Bronx,No heat (whole building),heat,6
+2026-11-24,BX0301,Morrisania,Bronx,No heat (one apartment),heat,4
+2026-11-24,BX0301,Morrisania,Bronx,No heat and no hot water (whole building),heat,4
+2026-11-24,BX0301,Morrisania,Bronx,Loud music/party (next door),noise,4
+2026-11-24,BX0301,Morrisania,Bronx,Posted parking sign violation,parking,3
+2026-11-24,BX0301,Morrisania,Bronx,Cabinet: damaged or missing,housing,3
+2026-11-24,BX0301,Morrisania,Bronx,Elevator out,housing,3
+2026-11-24,BX0301,Morrisania,Bronx,No heat and no hot water (one apartment),heat,3
+2026-11-24,BX0301,Morrisania,Bronx,Banging/pounding (next door),noise,3
+2026-11-24,BX0101,Mott Haven-Port Morris,Bronx,No heat (whole building),heat,23
+2026-11-24,BX0101,Mott Haven-Port Morris,Bronx,No heat (one apartment),heat,5
+2026-11-24,BX0101,Mott Haven-Port Morris,Bronx,Cooking gas: shut-off,housing,5
+2026-11-24,BX0101,Mott Haven-Port Morris,Bronx,Loud music/party (next door),noise,3
+2026-11-24,BX0101,Mott Haven-Port Morris,Bronx,Engine idling,noise,3
+2026-11-24,BX0101,Mott Haven-Port Morris,Bronx,Banging/pounding (next door),noise,3
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,No heat (whole building),heat,26
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,No heat (one apartment),heat,9
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Loud music/party (next door),noise,7
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Mold,housing,5
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Door: broken or missing,housing,5
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Slow leak: at wall or ceiling,housing,4
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,No heat and no hot water (whole building),heat,4
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Blocked hydrant,parking,4
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,No heat and no hot water (one apartment),heat,4
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Blocked sidewalk,parking,3
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Water supply: no water,housing,3
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Inadequate sweeping: caused by a parked vehicle,trash,3
+2026-11-24,BX0403,Mount Eden-Claremont (West),Bronx,Double parked blocking traffic,parking,3
+2026-11-24,BX0502,Mount Hope,Bronx,No heat (whole building),heat,32
+2026-11-24,BX0502,Mount Hope,Bronx,Banging/pounding (next door),noise,12
+2026-11-24,BX0502,Mount Hope,Bronx,No heat (one apartment),heat,12
+2026-11-24,BX0502,Mount Hope,Bronx,Loud music/party (on the street),noise,7
+2026-11-24,BX0502,Mount Hope,Bronx,Blocked crosswalk,parking,6
+2026-11-24,BX0502,Mount Hope,Bronx,Street light out,streets,3
+2026-11-24,BX0502,Mount Hope,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-24,QN0704,Murray Hill-Broadway Flushing,Queens,Blocked hydrant,parking,4
+2026-11-24,QN0704,Murray Hill-Broadway Flushing,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN0704,Murray Hill-Broadway Flushing,Queens,No heat (whole building),heat,3
+2026-11-24,QN0704,Murray Hill-Broadway Flushing,Queens,Blocked crosswalk,parking,3
+2026-11-24,QN0704,Murray Hill-Broadway Flushing,Queens,Loud talking (on the street),noise,3
+2026-11-24,MN0603,Murray Hill-Kips Bay,Manhattan,Construction equipment,noise,3
+2026-11-24,MN0603,Murray Hill-Kips Bay,Manhattan,Dog off leash,critters,3
+2026-11-24,MN0603,Murray Hill-Kips Bay,Manhattan,Flying too low,noise,3
+2026-11-24,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,Tree-damaged sidewalk (free repair),streets,3
+2026-11-24,QN0303,North Corona,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN0303,North Corona,Queens,No heat (whole building),heat,3
+2026-11-24,BX0703,Norwood,Bronx,No heat (whole building),heat,36
+2026-11-24,BX0703,Norwood,Bronx,Banging/pounding (next door),noise,6
+2026-11-24,BX0703,Norwood,Bronx,No heat and no hot water (whole building),heat,6
+2026-11-24,BX0703,Norwood,Bronx,No heat (one apartment),heat,4
+2026-11-24,BX0703,Norwood,Bronx,Blocked hydrant,parking,4
+2026-11-24,QN1104,Oakland Gardens-Hollis Hills,Queens,Posted parking sign violation,parking,5
+2026-11-24,QN1104,Oakland Gardens-Hollis Hills,Queens,Blocked hydrant,parking,4
+2026-11-24,BK1601,Ocean Hill,Brooklyn,No heat (whole building),heat,5
+2026-11-24,BK1601,Ocean Hill,Brooklyn,No heat (one apartment),heat,5
+2026-11-24,BK1601,Ocean Hill,Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK1601,Ocean Hill,Brooklyn,Mice,housing,3
+2026-11-24,QN0102,Old Astoria-Hallets Point,Queens,Banging/pounding (next door),noise,5
+2026-11-24,QN1002,Ozone Park,Queens,Driveway fully blocked,parking,3
+2026-11-24,QN0904,Ozone Park (North),Queens,Abandoned car (with plates),parking,6
+2026-11-24,QN0904,Ozone Park (North),Queens,Driveway partly blocked,parking,5
+2026-11-24,QN0904,Ozone Park (North),Queens,Posted parking sign violation,parking,3
+2026-11-24,BK0602,Park Slope,Brooklyn,Mold,housing,4
+2026-11-24,BK0602,Park Slope,Brooklyn,Posted parking sign violation,parking,4
+2026-11-24,BK0602,Park Slope,Brooklyn,No heat (whole building),heat,3
+2026-11-24,BK0602,Park Slope,Brooklyn,Double parked blocking vehicle,parking,3
+2026-11-24,BK0602,Park Slope,Brooklyn,Construction equipment,noise,3
+2026-11-24,BX0904,Parkchester,Bronx,No heat (one apartment),heat,23
+2026-11-24,BX0904,Parkchester,Bronx,No heat (whole building),heat,15
+2026-11-24,BX0904,Parkchester,Bronx,No heat and no hot water (whole building),heat,8
+2026-11-24,BX0904,Parkchester,Bronx,No heat and no hot water (one apartment),heat,3
+2026-11-24,BX0904,Parkchester,Bronx,No hot water (one apartment),heat,3
+2026-11-24,BX1003,Pelham Bay-Country Club-City Island,Bronx,Blocked hydrant,parking,6
+2026-11-24,BX1003,Pelham Bay-Country Club-City Island,Bronx,Posted parking sign violation,parking,5
+2026-11-24,BX1003,Pelham Bay-Country Club-City Island,Bronx,Driveway fully blocked,parking,4
+2026-11-24,BX1003,Pelham Bay-Country Club-City Island,Bronx,No heat (whole building),heat,3
+2026-11-24,BX1103,Pelham Gardens,Bronx,Commercial overnight parking,parking,4
+2026-11-24,BX1103,Pelham Gardens,Bronx,Car/truck music,noise,3
+2026-11-24,BX1101,Pelham Parkway-Van Nest,Bronx,No heat (whole building),heat,11
+2026-11-24,BX1101,Pelham Parkway-Van Nest,Bronx,No heat (one apartment),heat,3
+2026-11-24,QN0802,Pomonok-Electchester-Hillcrest,Queens,Car/truck horn,noise,28
+2026-11-24,QN0802,Pomonok-Electchester-Hillcrest,Queens,Chronic speeding,streets,4
+2026-11-24,QN0802,Pomonok-Electchester-Hillcrest,Queens,Posted parking sign violation,parking,3
+2026-11-24,QN0802,Pomonok-Electchester-Hillcrest,Queens,Trash left by property owner,trash,3
+2026-11-24,QN0802,Pomonok-Electchester-Hillcrest,Queens,Dirty tap water,water,3
+2026-11-24,SI0106,Port Richmond,Staten Island,Trash,trash,6
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat (whole building),heat,24
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat (one apartment),heat,10
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No hot water (whole building),heat,7
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Banging/pounding (next door),noise,5
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat and no hot water (whole building),heat,5
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Blocked crosswalk,parking,4
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Water supply: no water,housing,4
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Loud music/party (next door),noise,3
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Driveway partly blocked,parking,3
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat and no hot water (one apartment),heat,3
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Posted parking sign violation,parking,3
+2026-11-24,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Roaches,housing,3
+2026-11-24,BK5591,Prospect Park,Brooklyn,Dog off leash,critters,5
+2026-11-24,QN1303,Queens Village,Queens,Pothole,streets,4
+2026-11-24,QN1303,Queens Village,Queens,Driveway partly blocked,parking,3
+2026-11-24,QN0706,Queensboro Hill,Queens,Blocked hydrant,parking,6
+2026-11-24,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Banging/pounding (next door),noise,7
+2026-11-24,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Blocked sidewalk,parking,4
+2026-11-24,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Posted parking sign violation,parking,3
+2026-11-24,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Loud music/party (next door),noise,3
+2026-11-24,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Driveway fully blocked,parking,3
+2026-11-24,QN0601,Rego Park,Queens,Posted parking sign violation,parking,5
+2026-11-24,QN0601,Rego Park,Queens,No heat (one apartment),heat,4
+2026-11-24,QN0601,Rego Park,Queens,No heat (whole building),heat,4
+2026-11-24,QN0601,Rego Park,Queens,Blocked hydrant,parking,4
+2026-11-24,QN0902,Richmond Hill,Queens,No heat (one apartment),heat,4
+2026-11-24,QN0902,Richmond Hill,Queens,Loud music/party (next door),noise,4
+2026-11-24,QN0502,Ridgewood,Queens,Driveway fully blocked,parking,7
+2026-11-24,QN0502,Ridgewood,Queens,Loud music/party (at a business),noise,5
+2026-11-24,QN0502,Ridgewood,Queens,Posted parking sign violation,parking,5
+2026-11-24,QN0502,Ridgewood,Queens,Loud music/party (next door),noise,4
+2026-11-24,QN0502,Ridgewood,Queens,Parking permit improper use: blocking driveway,parking,4
+2026-11-24,QN0502,Ridgewood,Queens,Driveway partly blocked,parking,4
+2026-11-24,QN0502,Ridgewood,Queens,Poster or sign: street light,trash,4
+2026-11-24,QN0502,Ridgewood,Queens,Blocked sidewalk,parking,3
+2026-11-24,QN0502,Ridgewood,Queens,No heat and no hot water (whole building),heat,3
+2026-11-24,QN0502,Ridgewood,Queens,Blocked hydrant,parking,3
+2026-11-24,QN0502,Ridgewood,Queens,No heat (whole building),heat,3
+2026-11-24,BX0803,Riverdale-Spuyten Duyvil,Bronx,Posted parking sign violation,parking,5
+2026-11-24,BX0803,Riverdale-Spuyten Duyvil,Bronx,No heat (whole building),heat,3
+2026-11-24,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Posted parking sign violation,parking,3
+2026-11-24,SI0103,Rosebank-Shore Acres-Park Hill,Staten Island,Commercial overnight parking,parking,3
+2026-11-24,SI0103,Rosebank-Shore Acres-Park Hill,Staten Island,Recycling - paper/metal/glass/rigid plastic,trash,3
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Posted parking sign violation,parking,12
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,No heat (whole building),heat,10
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Blocked hydrant,parking,9
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Banging/pounding (next door),noise,6
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Derelict car,parking,4
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Blocked crosswalk,parking,3
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Broken sidewalk: 1-3 residential units,streets,3
+2026-11-24,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Trash,trash,3
+2026-11-24,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,Traffic signal acting up,streets,4
+2026-11-24,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,No heat and no hot water (whole building),heat,3
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,No heat (whole building),heat,14
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,Blocked hydrant,parking,8
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,Banging/pounding (next door),noise,7
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,No heat (one apartment),heat,6
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,No heat and no hot water (whole building),heat,5
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,Driveway fully blocked,parking,4
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,Double parked blocking traffic,parking,4
+2026-11-24,BX0901,Soundview-Bruckner-Bronx River,Bronx,Posted parking sign violation,parking,3
+2026-11-24,BX0902,Soundview-Clason Point,Bronx,Street light out,streets,13
+2026-11-24,BX0902,Soundview-Clason Point,Bronx,No heat (whole building),heat,8
+2026-11-24,QN1202,South Jamaica,Queens,Abandoned car (with plates),parking,4
+2026-11-24,QN1202,South Jamaica,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN1202,South Jamaica,Queens,Roaches,housing,3
+2026-11-24,QN1202,South Jamaica,Queens,No heat (whole building),heat,3
+2026-11-24,QN1202,South Jamaica,Queens,Blocked sidewalk,parking,3
+2026-11-24,QN1202,South Jamaica,Queens,No heat (one apartment),heat,3
+2026-11-24,QN1001,South Ozone Park,Queens,Driveway fully blocked,parking,13
+2026-11-24,QN1001,South Ozone Park,Queens,Blocked hydrant,parking,12
+2026-11-24,QN1001,South Ozone Park,Queens,Abandoned car (with plates),parking,8
+2026-11-24,QN1001,South Ozone Park,Queens,Driveway partly blocked,parking,8
+2026-11-24,QN1001,South Ozone Park,Queens,Blocked sidewalk,parking,6
+2026-11-24,QN1001,South Ozone Park,Queens,Banging/pounding (next door),noise,3
+2026-11-24,QN1001,South Ozone Park,Queens,Commercial overnight parking,parking,3
+2026-11-24,QN1001,South Ozone Park,Queens,Trash,trash,3
+2026-11-24,QN0903,South Richmond Hill,Queens,Blocked hydrant,parking,7
+2026-11-24,BK0103,South Williamsburg,Brooklyn,Posted parking sign violation,parking,14
+2026-11-24,BK0103,South Williamsburg,Brooklyn,No heat (whole building),heat,4
+2026-11-24,BK0504,Spring Creek-Starrett City,Brooklyn,Abandoned car (with plates),parking,45
+2026-11-24,BK0504,Spring Creek-Starrett City,Brooklyn,Posted parking sign violation,parking,8
+2026-11-24,BK0504,Spring Creek-Starrett City,Brooklyn,Blocked hydrant,parking,7
+2026-11-24,BK0504,Spring Creek-Starrett City,Brooklyn,Double parked blocking traffic,parking,5
+2026-11-24,BK0504,Spring Creek-Starrett City,Brooklyn,Blocked crosswalk,parking,4
+2026-11-24,QN1204,Springfield Gardens (North)-Rochdale Village,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN1204,Springfield Gardens (North)-Rochdale Village,Queens,No heat and no hot water (whole building),heat,3
+2026-11-24,QN1204,Springfield Gardens (North)-Rochdale Village,Queens,No hot water (whole building),heat,3
+2026-11-24,QN1306,Springfield Gardens (South)-Brookville,Queens,No heat (one apartment),heat,4
+2026-11-24,QN1205,St. Albans,Queens,Banging/pounding (next door),noise,3
+2026-11-24,QN1205,St. Albans,Queens,Driveway fully blocked,parking,3
+2026-11-24,SI0101,St. George-New Brighton,Staten Island,Street light out,streets,4
+2026-11-24,SI0101,St. George-New Brighton,Staten Island,No heat (one apartment),heat,3
+2026-11-24,QN0202,Sunnyside,Queens,No heat (whole building),heat,10
+2026-11-24,QN0202,Sunnyside,Queens,Driveway fully blocked,parking,4
+2026-11-24,QN0202,Sunnyside,Queens,Blocked hydrant,parking,4
+2026-11-24,BK0703,Sunset Park (Central),Brooklyn,Blocked hydrant,parking,7
+2026-11-24,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,Driveway fully blocked,parking,4
+2026-11-24,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,No heat (whole building),heat,3
+2026-11-24,BK0702,Sunset Park (West),Brooklyn,Loud talking (on the street),noise,3
+2026-11-24,BK0702,Sunset Park (West),Brooklyn,Posted parking sign violation,parking,3
+2026-11-24,BK0702,Sunset Park (West),Brooklyn,Driveway partly blocked,parking,3
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,Driveway fully blocked,parking,5
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,No heat (one apartment),heat,4
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,Banging/pounding (next door),noise,3
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,Driveway partly blocked,parking,3
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,No heat (whole building),heat,3
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,Abandoned car (with plates),parking,3
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,Loud music/party (next door),noise,3
+2026-11-24,BX1002,Throgs Neck-Schuylerville,Bronx,Blocked hydrant,parking,3
+2026-11-24,BX0602,Tremont,Bronx,No heat (whole building),heat,7
+2026-11-24,BX0602,Tremont,Bronx,No heat (one apartment),heat,5
+2026-11-24,BX0602,Tremont,Bronx,Dirty tap water,water,3
+2026-11-24,BX0602,Tremont,Bronx,Mice,housing,3
+2026-11-24,BX0602,Tremont,Bronx,Banging/pounding (next door),noise,3
+2026-11-24,MN0102,Tribeca-Civic Center,Manhattan,Posted parking sign violation,parking,3
+2026-11-24,BX0701,University Heights (North)-Fordham,Bronx,Banging/pounding (next door),noise,32
+2026-11-24,BX0701,University Heights (North)-Fordham,Bronx,No heat (whole building),heat,16
+2026-11-24,BX0701,University Heights (North)-Fordham,Bronx,No heat (one apartment),heat,9
+2026-11-24,BX0701,University Heights (North)-Fordham,Bronx,Loud music/party (next door),noise,5
+2026-11-24,BX0701,University Heights (North)-Fordham,Bronx,Roaches,housing,5
+2026-11-24,BX0701,University Heights (North)-Fordham,Bronx,Mold,housing,4
+2026-11-24,BX0701,University Heights (North)-Fordham,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,No heat (whole building),heat,20
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,No heat (one apartment),heat,8
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,Banging/pounding (next door),noise,6
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,Mold,housing,4
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,Mice,housing,4
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,Window frame: loose or defective,housing,3
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,No heat and no hot water (whole building),heat,3
+2026-11-24,BX0501,University Heights (South)-Morris Heights,Bronx,Posted parking sign violation,parking,3
+2026-11-24,MN0802,Upper East Side-Carnegie Hill,Manhattan,Posted parking sign violation,parking,7
+2026-11-24,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,No heat (whole building),heat,7
+2026-11-24,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,No heat and no hot water (whole building),heat,3
+2026-11-24,MN0803,Upper East Side-Yorkville,Manhattan,No heat (one apartment),heat,5
+2026-11-24,MN0702,Upper West Side (Central),Manhattan,No heat (whole building),heat,9
+2026-11-24,MN0702,Upper West Side (Central),Manhattan,Posted parking sign violation,parking,6
+2026-11-24,MN0702,Upper West Side (Central),Manhattan,Construction at odd hours,noise,4
+2026-11-24,MN0702,Upper West Side (Central),Manhattan,Engine idling,noise,4
+2026-11-24,MN0702,Upper West Side (Central),Manhattan,Loud talking (on the street),noise,3
+2026-11-24,MN0702,Upper West Side (Central),Manhattan,Loud music/party (next door),noise,3
+2026-11-24,MN0702,Upper West Side (Central),Manhattan,Double parked blocking traffic,parking,3
+2026-11-24,MN0701,Upper West Side-Lincoln Square,Manhattan,Posted parking sign violation,parking,4
+2026-11-24,MN0701,Upper West Side-Lincoln Square,Manhattan,No heat (whole building),heat,3
+2026-11-24,MN0703,Upper West Side-Manhattan Valley,Manhattan,No heat (whole building),heat,7
+2026-11-24,MN0703,Upper West Side-Manhattan Valley,Manhattan,Posted parking sign violation,parking,6
+2026-11-24,MN0703,Upper West Side-Manhattan Valley,Manhattan,Banging/pounding (next door),noise,4
+2026-11-24,MN0703,Upper West Side-Manhattan Valley,Manhattan,Roaches,housing,3
+2026-11-24,BX1203,Wakefield-Woodlawn,Bronx,No heat (whole building),heat,19
+2026-11-24,BX1203,Wakefield-Woodlawn,Bronx,Blocked hydrant,parking,10
+2026-11-24,BX1203,Wakefield-Woodlawn,Bronx,No heat and no hot water (whole building),heat,7
+2026-11-24,BX1203,Wakefield-Woodlawn,Bronx,Blocked sidewalk,parking,5
+2026-11-24,BX1203,Wakefield-Woodlawn,Bronx,Posted parking sign violation,parking,3
+2026-11-24,BX1203,Wakefield-Woodlawn,Bronx,Blocked crosswalk,parking,3
+2026-11-24,BX1203,Wakefield-Woodlawn,Bronx,Driveway partly blocked,parking,3
+2026-11-24,MN1202,Washington Heights (North),Manhattan,No heat (whole building),heat,47
+2026-11-24,MN1202,Washington Heights (North),Manhattan,Banging/pounding (next door),noise,10
+2026-11-24,MN1202,Washington Heights (North),Manhattan,No heat and no hot water (whole building),heat,10
+2026-11-24,MN1202,Washington Heights (North),Manhattan,No heat (one apartment),heat,9
+2026-11-24,MN1202,Washington Heights (North),Manhattan,Posted parking sign violation,parking,5
+2026-11-24,MN1202,Washington Heights (North),Manhattan,Ceiling: collapsing or falling,housing,4
+2026-11-24,MN1202,Washington Heights (North),Manhattan,Loud music/party (on the street),noise,3
+2026-11-24,MN1202,Washington Heights (North),Manhattan,Littering,trash,3
+2026-11-24,MN1201,Washington Heights (South),Manhattan,No heat (whole building),heat,34
+2026-11-24,MN1201,Washington Heights (South),Manhattan,No heat and no hot water (whole building),heat,21
+2026-11-24,MN1201,Washington Heights (South),Manhattan,No heat (one apartment),heat,10
+2026-11-24,MN1201,Washington Heights (South),Manhattan,Loud talking (on the street),noise,7
+2026-11-24,MN1201,Washington Heights (South),Manhattan,Double parked blocking vehicle,parking,5
+2026-11-24,MN1201,Washington Heights (South),Manhattan,No hot water (one apartment),heat,5
+2026-11-24,MN1201,Washington Heights (South),Manhattan,Door: broken or missing,housing,4
+2026-11-24,MN1201,Washington Heights (South),Manhattan,Posted parking sign violation,parking,4
+2026-11-24,MN1201,Washington Heights (South),Manhattan,Banging/pounding (next door),noise,4
+2026-11-24,MN1201,Washington Heights (South),Manhattan,No hot water (whole building),heat,4
+2026-11-24,MN1201,Washington Heights (South),Manhattan,Mice,housing,3
+2026-11-24,MN1201,Washington Heights (South),Manhattan,Blocked hydrant,parking,3
+2026-11-24,BX0601,West Farms,Bronx,No heat (whole building),heat,5
+2026-11-24,BX0601,West Farms,Bronx,Elevator out,housing,3
+2026-11-24,MN0203,West Village,Manhattan,No heat (whole building),heat,5
+2026-11-24,BX1001,Westchester Square,Bronx,No heat (whole building),heat,4
+2026-11-24,BX1001,Westchester Square,Bronx,Commercial overnight parking,parking,4
+2026-11-24,QN0702,Whitestone-Beechhurst,Queens,Blocked hydrant,parking,8
+2026-11-24,QN0702,Whitestone-Beechhurst,Queens,Abandoned car (with plates),parking,3
+2026-11-24,QN0702,Whitestone-Beechhurst,Queens,Posted parking sign violation,parking,3
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Driveway fully blocked,parking,16
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,No heat (whole building),heat,9
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,No heat (one apartment),heat,6
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,No heat and no hot water (one apartment),heat,6
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Mice,housing,5
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,No heat and no hot water (whole building),heat,5
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Banging/pounding (next door),noise,4
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Mold,housing,4
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Window guard broken/missing: child under 11,housing,3
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Outlet/switch: outlet sealed or defective,housing,3
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Elevator out,housing,3
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Wall: bulging/hole/cracked,housing,3
+2026-11-24,BX1201,Williamsbridge-Olinville,Bronx,Roaches,housing,3
+2026-11-24,BK0102,Williamsburg,Brooklyn,Posted parking sign violation,parking,47
+2026-11-24,BK0102,Williamsburg,Brooklyn,No heat (whole building),heat,10
+2026-11-24,BK0102,Williamsburg,Brooklyn,Garbage/recycling storage: accumulation,housing,3
+2026-11-24,BK0102,Williamsburg,Brooklyn,No heat (one apartment),heat,3
+2026-11-24,BK0102,Williamsburg,Brooklyn,Sewer backup,water,3
+2026-11-24,BK0102,Williamsburg,Brooklyn,Manhole overflow,water,3
+2026-11-24,BK0102,Williamsburg,Brooklyn,Double parked blocking traffic,parking,3
+2026-11-24,QN0905,Woodhaven,Queens,Blocked hydrant,parking,10
+2026-11-24,QN0905,Woodhaven,Queens,Commercial overnight parking,parking,9
+2026-11-24,QN0905,Woodhaven,Queens,Driveway fully blocked,parking,6
+2026-11-24,QN0905,Woodhaven,Queens,Abandoned car (with plates),parking,5
+2026-11-24,QN0203,Woodside,Queens,No heat (whole building),heat,16
+2026-11-24,QN0203,Woodside,Queens,Blocked hydrant,parking,8
+2026-11-24,QN0203,Woodside,Queens,Driveway fully blocked,parking,7
+2026-11-24,QN0203,Woodside,Queens,Blocked sidewalk,parking,4
+2026-11-24,QN0203,Woodside,Queens,Driveway partly blocked,parking,3

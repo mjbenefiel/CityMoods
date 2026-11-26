@@ -36,7 +36,7 @@
   };
   let T, MOODS, GEO, series = null, seriesLoading = null;
   const render_ = () => render();
-  const S = { sel: null, days: 90, per: false, compare: [], showAll: false, hood: null };
+  const S = { sel: null, days: 90, per: false, compare: [], showAll: false, hood: null, adv: null };
   const paths = {};
 
   async function getJSON(url) {
@@ -213,7 +213,7 @@
     if (!S.compare.length) return;
     const color = selColor();
     if (S.sel.kind === "type" && !series && !seriesLoading) {
-      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); }).catch(() => {});
+      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); renderAdvisor(); }).catch(() => {});
     }
     $("t-cards").innerHTML = S.compare.map((id) => {
       const k = T.areas.findIndex((a) => a.id === id), a = T.areas[k];
@@ -239,6 +239,105 @@
         top.map((x) => `<li><span>${esc(x.t.label)}</span><span>${fmt(x.n)}${a.pop ? ` <small>(${fmtRate((x.n / a.pop) * 1000)}/1k)</small>` : ""}</span></li>`).join("") +
         `</ol></article>`;
     }).join("");
+  }
+
+  // ------------------------------------------------------------ advisors
+  // One dashboard per mood, each run by a made-up city official. The joke is on the bureaucracy; the numbers are
+  // the city's own 311 data for the past year, in 13 thirty-day stretches.
+  const ADVISORS = {
+    critters: { title: "Rat Czar", blurb: "Rats, strays, bees and other uninvited guests." },
+    streets: { title: "Pothole Inspector General", blurb: "Potholes, dark streetlights and blinking signals." },
+    trash: { title: "Sanitation Marshal", blurb: "Graffiti, busted carts, dumping and missed pickups." },
+    water: { title: "Undersecretary of Drips", blurb: "Water on the street, leaks, sewers and wet basements." },
+    trees: { title: "Keeper of the Canopy", blurb: "Fallen limbs, trims, and the trims the city stopped taking." },
+    parking: { title: "Chief Justice of Parking Wars", blurb: "Abandoned cars, parking disputes and rogue e-scooters." },
+    housing: { title: "Building Code Oracle", blurb: "Building, plumbing and permit violations." },
+  };
+  const advMoods = () => Object.keys(ADVISORS).filter((m) => MOODS[m] && T.moods[365][m]);
+
+  function renderCouncil() {
+    $("t-council-list").innerHTML = advMoods().map((m) =>
+      `<button type="button" class="adv-chip${S.adv === m ? " on" : ""}" data-adv="${m}" aria-pressed="${S.adv === m}" style="--mc:${MOODS[m].color}">` +
+      `<span class="adv-e">${MOODS[m].emoji}</span><span><b>${esc(ADVISORS[m].title)}</b><small>${esc(MOODS[m].label)}</small></span></button>`).join("");
+  }
+
+  function cityPeriods(idx) {        // citywide count per 30-day stretch for a set of request types
+    return series.periods.map((_, j) => idx.reduce((s_, i) => s_ + series.types[i].reduce((t, area) => t + (area[j] || 0), 0), 0));
+  }
+
+  function bars(vals, color, periods) {
+    const W = 520, H = 120, n = vals.length, gap = 4, bw = (W - gap * (n - 1)) / n, max = Math.max(1, ...vals);
+    const rects = vals.map((v, i) => {
+      const h = Math.max(2, (v / max) * (H - 18));
+      return `<rect x="${(i * (bw + gap)).toFixed(1)}" y="${(H - h).toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="${color}"` +
+        `${i === n - 1 ? "" : ' opacity=".55"'}><title>${day(periods[i].start)}–${day(periods[i].end)}: ${fmt(v)}</title></rect>`;
+    }).join("");
+    return `<svg class="adv-bars" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Requests every 30 days for the past year">${rects}</svg>` +
+      `<span class="ends"><span>${day(periods[0].start, true)}</span><span>Latest 30 days</span></span>`;
+  }
+
+  function renderAdvisor() {
+    const box = $("t-adv");
+    const m = S.adv;
+    if (!m || !ADVISORS[m] || !MOODS[m]) { box.hidden = true; box.innerHTML = ""; return; }
+    const A_ = ADVISORS[m], color = MOODS[m].color;
+    const idx = T.types.map((t, i) => (t.mood === m ? i : -1)).filter((i) => i >= 0);
+    const yearN = idx.reduce((s_, i) => s_ + (T.citywide[365][i] || 0), 0);
+    const monthN = idx.reduce((s_, i) => s_ + (T.citywide[30][i] || 0), 0);
+    const usual = (yearN / 365) * 30, vsUsual = usual ? monthN / usual : 1;
+    const types = idx.map((i) => ({ i, t: T.types[i], n: T.citywide[365][i] || 0 })).filter((x) => x.n).sort((a, b) => b.n - a.n);
+    const maxT = types.length ? types[0].n : 1;
+    if (!series && !seriesLoading)
+      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); renderAdvisor(); }).catch(() => {});
+    let chart = `<p class="h-none">Loading the year…</p>`, note = "", peak = "";
+    if (series) {
+      const vals = cityPeriods(idx), P = series.periods;
+      chart = bars(vals, color, P);
+      const pk = vals.indexOf(Math.max(...vals));
+      peak = `<div class="adv-stat"><span>Busiest stretch</span><b>${day(P[pk].start)}–${day(P[pk].end)}</b><small>${fmt(vals[pk])} requests</small></div>`;
+      // The advisor's note: whichever request type is running furthest above its usual pace in the latest 30 days.
+      const risers = idx.map((i) => {
+        const v = cityPeriods([i]), last = v[v.length - 1], avg = v.reduce((a, b) => a + b, 0) / v.length;
+        return { t: T.types[i], last, x: avg ? last / avg : 0 };
+      }).filter((r) => r.last >= 50).sort((a, b) => b.x - a.x);
+      const hot = risers[0];
+      note = hot && hot.x >= 1.3
+        ? `Running hot: <b>${esc(hot.t.label)}</b> is at ${hot.x.toFixed(1)}× its usual 30-day pace (${fmt(hot.last)} in the latest 30 days).`
+        : vsUsual < 0.8
+          ? `Quiet stretch: ${esc(MOODS[m].label.toLowerCase())} requests are running ${Math.round((1 - vsUsual) * 100)}% below their usual pace.`
+          : `Steady: nothing in this department is running far above its usual pace right now.`;
+    }
+    box.style.setProperty("--mc", color);
+    box.innerHTML =
+      `<header class="h-head"><div><p class="h-kick">Advisor · ${esc(MOODS[m].label)}</p>` +
+      `<h2><span class="adv-e">${MOODS[m].emoji}</span> ${esc(A_.title)}</h2><p class="t-side">${esc(A_.blurb)}</p></div>` +
+      `<button type="button" class="x" data-close aria-label="Close the ${esc(A_.title)}">×</button></header>` +
+      (note ? `<p class="adv-note">📋 <span>${note}</span></p>` : "") +
+      `<div class="adv-stats">` +
+      `<div class="adv-stat"><span>Past year</span><b>${fmt(yearN)}</b><small>requests citywide</small></div>` +
+      `<div class="adv-stat"><span>Latest 30 days</span><b>${fmt(monthN)}</b><small>${vsUsual >= 1 ? "+" : "−"}${Math.abs(Math.round((vsUsual - 1) * 100))}% vs a usual 30 days</small></div>` +
+      peak + `</div>` +
+      `<div class="h-grid">` +
+      `<div class="h-col"><h3>Every 30 days, past year</h3><div class="t-trend">${chart}</div>` +
+      `<h3>Where it comes up</h3><p class="adv-map">The <a href="#t-map">map above</a> is now shaded by ${esc(MOODS[m].label.toLowerCase())} requests. ` +
+      `Tap any neighborhood to compare it, or search for yours to see its profile.</p></div>` +
+      `<div class="h-col"><h3>What people ask for <small>(tap one to map it)</small></h3><ul class="adv-types">${types.map((x) =>
+        `<li><button type="button" data-type="${x.i}"${S.sel.kind === "type" && S.sel.i === x.i ? ' class="on"' : ""}>` +
+        `<span class="nm">${esc(x.t.label)}</span><span class="val">${fmt(x.n)}</span>` +
+        `<span class="bar"><i style="width:${Math.max(2, (x.n / maxT) * 100).toFixed(1)}%;background:${color}"></i></span></button></li>`).join("")}</ul></div>` +
+      `</div>` +
+      `<p class="h-foot">From Chicago's 311 open data for the past year, in 30-day stretches. The titles are made up; the numbers are the city's. ` +
+      `"Usual pace" is the average 30 days over the past year.</p>`;
+    box.hidden = false;
+  }
+
+  function openAdvisor(m) {
+    S.adv = m;
+    S.sel = { kind: "mood", id: m };       // the map and list follow the advisor's mood
+    if (!series && !seriesLoading)
+      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); renderAdvisor(); }).catch(() => {});
+    render();
+    $("t-adv").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   }
 
   // ------------------------------------------------------------ neighborhood view
@@ -272,7 +371,7 @@
     if (k < 0) { box.hidden = true; box.innerHTML = ""; return; }
     const a = T.areas[k], P = profile(k);
     if (!series && !seriesLoading)
-      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); }).catch(() => {});
+      seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); renderAdvisor(); }).catch(() => {});
     const yr = T.windows.find((w) => w.days === 365);
     const pct = (x) => `${(x * 100).toFixed(x < 0.1 ? 1 : 0)}%`;
     const sig = P.sig
@@ -511,6 +610,8 @@
     renderList();
     renderCompare();
     renderHood();
+    renderCouncil();
+    renderAdvisor();
     $("t-type").value = S.sel.kind === "type" ? `t${S.sel.i}` : `m${S.sel.id}`;
     document.querySelectorAll("#t-range button").forEach((b) => b.setAttribute("aria-checked", String(+b.dataset.days === S.days)));
     document.querySelectorAll("#t-per button").forEach((b) => b.setAttribute("aria-checked", String((b.dataset.per === "1") === S.per)));
@@ -520,6 +621,7 @@
     if (S.per) q.set("per", "1");
     if (S.compare.length) q.set("compare", S.compare.join(","));
     if (S.hood) q.set("hood", S.hood);
+    if (S.adv) q.set("adv", S.adv);
     history.replaceState(null, "", `${location.pathname}?${q}`);
   }
 
@@ -539,6 +641,8 @@
     const ids = new Set(T.areas.map((a) => a.id));
     S.compare = (q.get("compare") || "").split(",").filter((x) => ids.has(x)).slice(0, 3);
     S.hood = ids.has(q.get("hood")) ? q.get("hood") : null;
+    S.adv = ADVISORS[q.get("adv")] && MOODS[q.get("adv")] && T.moods[365][q.get("adv")] ? q.get("adv") : null;
+    if (S.adv && !q.get("type") && !q.get("mood")) S.sel = { kind: "mood", id: S.adv };
   }
 
   function setupControls() {
@@ -571,6 +675,18 @@
       if (b) toggleCompare(b.dataset.id);
       const p = ev.target.closest("button[data-hood]");
       if (p) openHood(p.dataset.hood);
+    });
+    $("t-council-list").addEventListener("click", (ev) => {
+      const b = ev.target.closest("button[data-adv]");
+      if (!b) return;
+      if (S.adv === b.dataset.adv) { S.adv = null; render(); } else openAdvisor(b.dataset.adv);
+    });
+    $("t-adv").addEventListener("click", (ev) => {
+      if (ev.target.closest("[data-close]")) { S.adv = null; render(); return; }
+      const t = ev.target.closest("button[data-type]");
+      if (t) { S.sel = { kind: "type", i: +t.dataset.type }; render(); say(`The map and list now show <b>${esc(T.types[+t.dataset.type].label)}</b>.`); return; }
+      const h = ev.target.closest("button[data-hood]");
+      if (h) openHood(h.dataset.hood);
     });
     $("t-hood").addEventListener("click", (ev) => {
       if (ev.target.closest("[data-close]")) { S.hood = null; render(); return; }

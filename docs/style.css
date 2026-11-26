@@ -503,13 +503,50 @@ a.brand img { display: block; }
 .t-profile:hover { background: color-mix(in srgb, var(--tip) 14%, transparent); }
 .t-profile.on { background: color-mix(in srgb, var(--tip) 14%, transparent); }
 
+/* Advisors */
+.t-council { margin: 14px 0 0; }
+.t-council h2 { margin: 0 0 8px; font: 700 18px var(--serif); }
+.t-council h2 small { display: block; margin-top: 2px; font: 400 13px var(--sans); color: var(--muted); }
+.t-council-list { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+.adv-chip { --mc: var(--muted); flex: 0 0 auto; display: flex; align-items: center; gap: 9px; padding: 8px 12px; border-radius: 12px;
+  border: 1px solid var(--line); background: var(--panel); text-align: left; }
+.adv-chip b { display: block; font-size: 13px; }
+.adv-chip small { display: block; font-size: 12px; color: var(--muted); }
+.adv-chip:hover, .adv-chip.on { border-color: var(--mc); background: color-mix(in srgb, var(--mc) 12%, var(--panel)); }
+.adv-e { font-size: 20px; line-height: 1; }
+.t-adv { --mc: var(--muted); margin-top: 18px; background: var(--panel); border: 1px solid var(--line); border-top: 3px solid var(--mc);
+  border-radius: 14px; padding: 18px 20px; scroll-margin-top: 12px; }
+.t-adv h2 .adv-e { font-size: 24px; }
+.adv-note { display: flex; gap: 8px; margin: 12px 0 0; padding: 10px 12px; border-radius: 10px; font-size: 14px;
+  background: color-mix(in srgb, var(--mc) 10%, transparent); }
+.adv-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
+.adv-stat { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
+.adv-stat span { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.adv-stat b { font: 700 20px var(--serif); }
+.adv-stat small { font-size: 12px; color: var(--muted); }
+.adv-bars { display: block; width: 100%; height: 120px; }
+.h-col h3 small { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.adv-map { margin: 0; font-size: 14px; color: var(--muted); }
+.adv-map a { color: var(--ink); }
+.adv-types { list-style: none; margin: 0; padding: 0; }
+.adv-types button { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; width: 100%; padding: 6px 4px; border: 0;
+  border-bottom: 1px solid var(--line); background: none; text-align: left; font-size: 14px; border-radius: 0; }
+.adv-types button:hover, .adv-types button.on { background: color-mix(in srgb, var(--mc) 10%, transparent); }
+.adv-types .val { font-variant-numeric: tabular-nums; color: var(--muted); }
+.adv-types .bar { grid-column: 1 / -1; height: 4px; background: var(--line); border-radius: 2px; overflow: hidden; }
+.adv-types .bar i { display: block; height: 100%; }
+@media (max-width: 760px) {
+  .adv-stats { grid-template-columns: 1fr 1fr; }
+  .t-adv { padding: 16px; }
+}
+
 /* Neighborhood view */
 .t-hood { margin-top: 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; scroll-margin-top: 12px; }
 .h-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .h-head h2 { margin: 2px 0 2px; font: 700 28px/1.15 var(--serif); }
 .h-head .t-side { margin: 0; color: var(--muted); font-size: 14px; }
 .h-kick { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-.t-hood .x { flex: none; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); background: none; font-size: 18px; line-height: 1; }
+.t-hood .x, .t-adv .x { flex: none; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); background: none; font-size: 18px; line-height: 1; }
 .h-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 28px; margin-top: 14px; }
 .h-col h3 { margin: 16px 0 6px; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .h-badge { --mc: var(--muted); display: flex; flex-direction: column; gap: 3px; padding: 12px 14px; border-radius: 12px;

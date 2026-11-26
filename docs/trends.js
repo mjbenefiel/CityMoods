@@ -232,7 +232,7 @@
       return `<article class="t-card"><header><h3>${esc(a.name)}</h3><button type="button" class="x" data-id="${id}" aria-label="Remove ${esc(a.name)}">×</button></header>` +
         `<p class="t-side">${esc(a.side)}${a.pop ? ` · ${fmt(a.pop)} residents` : ""}</p>` +
         `<button type="button" class="t-profile${S.hood === id ? " on" : ""}" data-hood="${id}" aria-pressed="${S.hood === id}">` +
-        `${S.hood === id ? "Profile open below ↓" : "View full profile →"}</button>` +
+        `${S.hood === id ? "Profile open above ↑" : "View full profile →"}</button>` +
         `<p class="big"><b>${n == null ? "Under 3" : fmt(n)}</b> report${n === 1 ? "" : "s"}` +
         (r != null ? ` · <b>${fmtRate(r)}</b> per 1,000` : "") + `</p>` + trend +
         `<p class="lbl">Top requests, ${RANGE_PHRASE[S.days]}</p><ol class="t-top">` +

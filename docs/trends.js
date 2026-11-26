@@ -231,11 +231,13 @@
       } else trend = `<div class="t-trend"><span class="lbl">Pick a single request type to see its trend line.</span></div>`;
       return `<article class="t-card"><header><h3>${esc(a.name)}</h3><button type="button" class="x" data-id="${id}" aria-label="Remove ${esc(a.name)}">×</button></header>` +
         `<p class="t-side">${esc(a.side)}${a.pop ? ` · ${fmt(a.pop)} residents` : ""}</p>` +
+        `<button type="button" class="t-profile${S.hood === id ? " on" : ""}" data-hood="${id}" aria-pressed="${S.hood === id}">` +
+        `${S.hood === id ? "Profile open below ↓" : "View full profile →"}</button>` +
         `<p class="big"><b>${n == null ? "Under 3" : fmt(n)}</b> report${n === 1 ? "" : "s"}` +
         (r != null ? ` · <b>${fmtRate(r)}</b> per 1,000` : "") + `</p>` + trend +
         `<p class="lbl">Top requests, ${RANGE_PHRASE[S.days]}</p><ol class="t-top">` +
         top.map((x) => `<li><span>${esc(x.t.label)}</span><span>${fmt(x.n)}${a.pop ? ` <small>(${fmtRate((x.n / a.pop) * 1000)}/1k)</small>` : ""}</span></li>`).join("") +
-        `</ol><button type="button" class="t-profile" data-hood="${id}">See ${esc(a.name)}'s full profile ↓</button></article>`;
+        `</ol></article>`;
     }).join("");
   }
 
@@ -355,8 +357,10 @@
       input.blur();
       if (m.address) return lookupAddress(m.address);
       const names = m.ids.map((id) => T.areas.find((a) => a.id === id).name);
+      S.hood = m.ids[0];
       showAreas(m.ids, (m.alias ? `${esc(m.label)} is part of ${esc(names.join(" and "))}. ` : "") +
-        `Added ${esc(names.join(" and "))} to <a href="#t-compare">Compare</a>.`);
+        `${esc(names[0])}'s <a href="#t-hood">profile</a> is below` +
+        (names.length > 1 ? `, and both are in <a href="#t-compare">Compare</a>.` : `, and it's in <a href="#t-compare">Compare</a>.`));
     };
     input.addEventListener("input", search);
     input.addEventListener("keydown", (e) => {

@@ -512,7 +512,8 @@ a.brand img { display: block; }
 .t-first { margin: 0 0 18px; font-size: 14px; color: var(--muted); }
 .t-first a { color: var(--ink); }
 @media (max-width: 860px) { .t-how { grid-template-columns: 1fr; } }
-.t-find { flex: 1 1 260px; }
+.t-find { flex: 0 1 340px; }
+@media (max-width: 860px) { .t-find { flex: 1 1 100%; } }
 .t-find label { cursor: default; }
 .t-find .search { margin: 0; }
 .t-find .search input { width: 100%; font-size: 15px; padding: 8px 14px; background: var(--bg); text-transform: none; letter-spacing: 0; font-weight: 500; }

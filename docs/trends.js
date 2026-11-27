@@ -64,6 +64,15 @@
     return T.areas.map((a, k) => (S.per ? rate(c[k], a) : c[k]));
   }
   const slowOK = () => !!(CL && S.sel.kind === "type" && CL.types[S.sel.i]);
+  // Speed is per request type, so "Slow to close" on a whole mood switches to that mood's most common type.
+  function slowFromMood() {
+    if (!CL || S.sel.kind !== "mood") return null;
+    const best = T.types.map((t, i) => ({ t, i, c: CL.types[i] })).filter((x) => x.t.mood === S.sel.id && x.c).sort((a, b) => b.c.n - a.c.n)[0];
+    if (!best) return null;
+    const from = selLabel();
+    S.sel = { kind: "type", i: best.i };
+    return `Time to close is measured per request type, so the map switched from ${esc(from)} to <b>${esc(best.t.label)}</b>, the most common one. Pick another in "Request type."`;
+  }
   const STEP_WORDS = { 1: "within a day", 3: "within 3 days", 7: "within a week", 14: "within 2 weeks", 30: "within a month", 90: "within 3 months" };
   const STEP_SHORT = { 1: "1 day", 3: "3 days", 7: "1 week", 14: "2 weeks", 30: "1 month", 90: "3 months" };
   const usually = (c) => (c.typ ? `usually closed ${STEP_WORDS[c.typ]}` : "usually takes over 3 months");
@@ -376,6 +385,7 @@
   function openAdvisor(m) {
     S.adv = m;
     S.sel = { kind: "mood", id: m };       // the map and list follow the advisor's mood
+    S.slow = false;
     if (!series && !seriesLoading)
       seriesLoading = getJSON(`/data/${CITY}/trends-series.json`).then((d) => { series = d; renderCompare(); renderHood(); renderAdvisor(); }).catch(() => {});
     render();
@@ -690,7 +700,7 @@
     if (RANGE_LABELS[d]) S.days = d;
     S.per = q.get("per") === "1";
     S.slow = q.get("show") === "slow" && !!CL;
-    if (S.slow) S.per = false;
+    if (S.slow) { S.per = false; slowFromMood(); }
     const ids = new Set(T.areas.map((a) => a.id));
     S.compare = (q.get("compare") || "").split(",").filter((x) => ids.has(x)).slice(0, 3);
     S.hood = ids.has(q.get("hood")) ? q.get("hood") : null;
@@ -707,6 +717,7 @@
     $("t-type").addEventListener("change", (ev) => {
       const v = ev.target.value;
       S.sel = v[0] === "t" ? { kind: "type", i: +v.slice(1) } : { kind: "mood", id: v.slice(1) };
+      if (S.sel.kind === "mood") S.slow = false;      // a whole mood can't be timed; show its totals instead
       render();
     });
     $("t-range").innerHTML = T.windows.map((w) => `<button type="button" role="radio" data-days="${w.days}">${RANGE_LABELS[w.days]}</button>`).join("");
@@ -716,7 +727,11 @@
     });
     $("t-per").addEventListener("click", (ev) => {
       const b = ev.target.closest("button");
-      if (b) { S.per = b.dataset.per === "1"; S.slow = b.dataset.per === "2"; render(); }
+      if (!b) return;
+      S.per = b.dataset.per === "1"; S.slow = b.dataset.per === "2";
+      const note = S.slow ? slowFromMood() : null;
+      render();
+      if (note) say(note);
     });
     $("t-rank").addEventListener("click", (ev) => {
       const b = ev.target.closest("button[data-id]");

@@ -77,7 +77,9 @@
   const STEP_SHORT = { 1: "1 day", 3: "3 days", 7: "1 week", 14: "2 weeks", 30: "1 month", 90: "3 months" };
   const usually = (c) => (c.typ ? `usually closed ${STEP_WORDS[c.typ]}` : "usually takes over 3 months");
   const fullDay = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
-  const closeWindow = () => `requests made ${fullDay(CL.window.start)} to ${fullDay(CL.window.end)}`;
+  const closeDates = () => `${fullDay(CL.window.start)} – ${fullDay(CL.window.end)}`;
+  const asOf = () => day(CL.updated);       // open/closed status is checked fresh each night
+  const closeWindow = () => `a full year of requests (${closeDates()}), ending a month ago so each had time to be closed, with their status as of ${asOf()}`;
   function selLabel(sel = S.sel) {
     if (sel.kind === "type") return T.types[sel.i].label;
     const m = MOODS[sel.id];
@@ -167,7 +169,7 @@
     const slowCell = S.slow && slowOK() ? CL.areas[S.sel.i][k] : null;
     box.innerHTML = `<b>${esc(a.name)}</b><span class="t-side">${esc(a.side)}</span>` +
       (S.slow ? (slowCell
-        ? `<span>${slowCell[0]}% closed within a week · city ${CL.types[S.sel.i].wk}%</span>` + (slowCell[1] ? `<span>${slowCell[1]}% still open</span>` : "")
+        ? `<span>${slowCell[0]}% closed within a week · city ${CL.types[S.sel.i].wk}%</span>` + (slowCell[1] ? `<span>${slowCell[1]}% still open as of ${asOf()}</span>` : "")
         : `<span>Too few requests to say</span>`) :
       n == null ? `<span>Under 3 reports</span>` :
         `<span>${fmt(n)} report${n === 1 ? "" : "s"}${tot ? ` · ${((n / tot) * 100).toFixed(1)}% of the city` : ""}</span>` +
@@ -201,7 +203,7 @@
       ? `${selLabel()}: biggest share taking over a week to close`
       : `${selLabel()}: most reports${S.per ? " per 1,000 residents" : ""}, ${RANGE_PHRASE[S.days]}`;
     $("t-hint").textContent = S.slow
-      ? (slowOK() ? `Share that took over a week or are still open, for ${closeWindow()}. Tap a neighborhood to compare it.`
+      ? (slowOK() ? `Share that took over a week to close or are still open. For ${closeWindow()}. Tap a neighborhood to compare it.`
         : "Pick a single request type to see how fast the city closes it.")
       : S.per
       ? "Tap a neighborhood to compare it (up to 3). Small neighborhoods can jump around per 1,000."
@@ -218,7 +220,7 @@
     if (S.slow) {
       const c = slowOK() ? CL.types[S.sel.i] : null;
       $("t-total").innerHTML = `<b>${esc(selLabel())}</b> · ` + (c
-        ? `${usually(c)} · ${c.wk}% within a week citywide${c.open ? ` · ${c.open}% still open` : ""}`
+        ? `${usually(c)} · ${c.wk}% within a week citywide${c.open ? ` · ${c.open}% still open as of ${asOf()}` : ""}`
         : "pick a single request type");
       return;
     }
@@ -376,10 +378,10 @@
     const slowest = rows.filter((x) => x.c.n >= 500).sort((a, b) => a.c.wk - b.c.wk)[0];
     return `<h3>How fast the city closes these</h3>` +
       (slowest && slowest.c.wk < 50 ? `<p class="adv-slow">Slowest: <b>${esc(slowest.t.label)}</b>, ${usually(slowest.c)} (${slowest.c.wk}% within a week).</p>` : "") +
-      `<table class="adv-close"><thead><tr><th>Request</th><th>Usually within</th><th>In a week</th><th>Still open</th></tr></thead><tbody>` +
+      `<table class="adv-close"><thead><tr><th>Request</th><th>Usually within</th><th>In a week</th><th>Open as of ${asOf()}</th></tr></thead><tbody>` +
       rows.map((x) => `<tr><td><button type="button" class="t-linkbtn" data-slow="${x.i}">${esc(x.t.label)}</button></td>` +
         `<td>${x.c.typ ? STEP_SHORT[x.c.typ] : "3+ months"}</td><td>${x.c.wk}%</td><td>${x.c.open}%</td></tr>`).join("") +
-      `</tbody></table><p class="adv-fine">For ${closeWindow()}, so each had at least a month. Tap one to map how fast it gets closed in each neighborhood.</p>`;
+      `</tbody></table><p class="adv-fine">For ${closeWindow()}. Tap one to map how fast it gets closed in each neighborhood.</p>`;
   }
 
   function openAdvisor(m) {
@@ -676,7 +678,7 @@
     const show = S.slow ? "2" : S.per ? "1" : "0";
     // In "Time to close" the time range doesn't apply: dim it and say which year the numbers cover.
     $("t-range").classList.toggle("is-fixed", S.slow);
-    $("t-range-label").textContent = S.slow && CL ? `Time range · fixed: requests made ${fullDay(CL.window.start)}–${fullDay(CL.window.end)}` : "Time range";
+    $("t-range-label").textContent = S.slow && CL ? `Time range · fixed: one full year, ${closeDates()}` : "Time range";
     document.querySelectorAll("#t-per button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.per === show)));
     const q = new URLSearchParams();
     q.set(S.sel.kind === "type" ? "type" : "mood", S.sel.kind === "type" ? slug(T.types[S.sel.i].label) : S.sel.id);

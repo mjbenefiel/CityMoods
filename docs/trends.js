@@ -64,7 +64,7 @@
     return T.areas.map((a, k) => (S.per ? rate(c[k], a) : c[k]));
   }
   const slowOK = () => !!(CL && S.sel.kind === "type" && CL.types[S.sel.i]);
-  // Speed is per request type, so "Slow to close" on a whole mood switches to that mood's most common type.
+  // Speed is per request type, so "Time to close" on a whole mood switches to that mood's most common type.
   function slowFromMood() {
     if (!CL || S.sel.kind !== "mood") return null;
     const best = T.types.map((t, i) => ({ t, i, c: CL.types[i] })).filter((x) => x.t.mood === S.sel.id && x.c).sort((a, b) => b.c.n - a.c.n)[0];
@@ -674,6 +674,9 @@
     $("t-type").value = S.sel.kind === "type" ? `t${S.sel.i}` : `m${S.sel.id}`;
     document.querySelectorAll("#t-range button").forEach((b) => b.setAttribute("aria-checked", String(+b.dataset.days === S.days)));
     const show = S.slow ? "2" : S.per ? "1" : "0";
+    // In "Time to close" the time range doesn't apply: dim it and say which year the numbers cover.
+    $("t-range").classList.toggle("is-fixed", S.slow);
+    $("t-range-label").textContent = S.slow && CL ? `Time range · fixed: requests made ${fullDay(CL.window.start)}–${fullDay(CL.window.end)}` : "Time range";
     document.querySelectorAll("#t-per button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.per === show)));
     const q = new URLSearchParams();
     q.set(S.sel.kind === "type" ? "type" : "mood", S.sel.kind === "type" ? slug(T.types[S.sel.i].label) : S.sel.id);
@@ -723,7 +726,11 @@
     $("t-range").innerHTML = T.windows.map((w) => `<button type="button" role="radio" data-days="${w.days}">${RANGE_LABELS[w.days]}</button>`).join("");
     $("t-range").addEventListener("click", (ev) => {
       const b = ev.target.closest("button");
-      if (b) { S.days = +b.dataset.days; render(); }
+      if (!b) return;
+      const wasSlow = S.slow;
+      S.days = +b.dataset.days; S.slow = false;      // time to close has its own fixed year; a range means totals
+      render();
+      if (wasSlow) say(`Switched back to totals for the ${RANGE_PHRASE[S.days]}. "Time to close" always covers one fixed year.`);
     });
     $("t-per").addEventListener("click", (ev) => {
       const b = ev.target.closest("button");

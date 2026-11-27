@@ -203,7 +203,8 @@
       ? `${selLabel()}: biggest share taking over a week to close`
       : `${selLabel()}: most reports${S.per ? " per 1,000 residents" : ""}, ${RANGE_PHRASE[S.days]}`;
     $("t-hint").textContent = S.slow
-      ? (slowOK() ? `Took over a week or still open · a full year of requests, ${closeDates()} · tap one to compare`
+      ? (slowOK() ? (() => { const c = CL.types[S.sel.i], u = usually(c);
+          return `${u[0].toUpperCase()}${u.slice(1)} · ${c.wk}% within a week citywide${c.open ? ` · ${c.open}% still open as of ${asOf()}` : ""} · tap one to compare`; })()
         : "Pick a single request type to see how fast the city closes it.")
       : S.per
       ? "Tap a neighborhood to compare it (up to 3). Small neighborhoods can jump around per 1,000."
@@ -365,7 +366,7 @@
         `<span class="nm">${esc(x.t.label)}</span><span class="val">${fmt(x.n)}</span>` +
         `<span class="bar"><i style="width:${Math.max(2, (x.n / maxT) * 100).toFixed(1)}%;background:${color}"></i></span></button></li>`).join("")}</ul></div>` +
       `</div>` +
-      `<p class="h-foot">From Chicago's 311 open data for the past year, in 30-day stretches. The titles are made up; the numbers are the city's. ` +
+      `<p class="h-foot">From Chicago's 311 open data for the past year, in 30-day stretches. The advisors are made up; the numbers are the city's. ` +
       `"Usual pace" is the average 30 days over the past year.</p>`;
     box.hidden = false;
   }

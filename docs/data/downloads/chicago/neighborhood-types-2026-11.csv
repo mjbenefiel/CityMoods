@@ -3240,3 +3240,36 @@ date,neighborhood_id,neighborhood,area,request_type,mood,requests
 2026-11-25,24,West Town,West Side,Sanitation code violation,trash,3
 2026-11-25,42,Woodlawn,South Side,Tree planting,trees,4
 2026-11-25,42,Woodlawn,South Side,Abandoned car,parking,4
+2026-11-26,71,Auburn Gresham,Southwest Side,No water,water,10
+2026-11-26,71,Auburn Gresham,Southwest Side,Pothole,streets,8
+2026-11-26,71,Auburn Gresham,Southwest Side,Possible water leak,water,5
+2026-11-26,71,Auburn Gresham,Southwest Side,Public way inspection,streets,3
+2026-11-26,25,Austin,West Side,Plumbing violation,housing,3
+2026-11-26,19,Belmont Cragin,North Side,Parking enforcement review,parking,6
+2026-11-26,19,Belmont Cragin,North Side,Sanitation code violation,trash,3
+2026-11-26,60,Bridgeport,South Side,Alley light out,streets,3
+2026-11-26,48,Calumet Heights,South Side,Injured animal,critters,8
+2026-11-26,69,Greater Grand Crossing,South Side,Stray animal,critters,4
+2026-11-26,20,Hermosa,North Side,Parking enforcement review,parking,3
+2026-11-26,23,Humboldt Park,West Side,Traffic signal out,streets,3
+2026-11-26,6,Lake View,North Side,Yard waste pickup,trash,4
+2026-11-26,7,Lincoln Park,North Side,Graffiti,trash,3
+2026-11-26,7,Lincoln Park,North Side,Tree emergency,trees,3
+2026-11-26,4,Lincoln Square,North Side,Lead test kit,water,3
+2026-11-26,22,Logan Square,North Side,Graffiti,trash,5
+2026-11-26,74,Mount Greenwood,Southwest Side,Street light out,streets,3
+2026-11-26,61,New City,Southwest Side,Missed garbage pickup,trash,5
+2026-11-26,5,North Center,North Side,Graffiti,trash,3
+2026-11-26,29,North Lawndale,West Side,Injured animal,critters,3
+2026-11-26,29,North Lawndale,West Side,Stray animal,critters,3
+2026-11-26,10,Norwood Park,North Side,Sign repair,streets,4
+2026-11-26,15,Portage Park,North Side,Lead test kit,water,3
+2026-11-26,15,Portage Park,North Side,Badly parked e-scooter,parking,3
+2026-11-26,15,Portage Park,North Side,Yard waste pickup,trash,3
+2026-11-26,46,South Chicago,South Side,Street light out,streets,6
+2026-11-26,32,The Loop,Downtown,Traffic signal out,streets,5
+2026-11-26,73,Washington Heights,Southwest Side,Water in the basement,water,4
+2026-11-26,53,West Pullman,South Side,Sign repair,streets,3
+2026-11-26,24,West Town,West Side,Graffiti,trash,4
+2026-11-26,42,Woodlawn,South Side,Parking enforcement review,parking,5
+2026-11-26,42,Woodlawn,South Side,Sign repair,streets,3

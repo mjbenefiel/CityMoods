@@ -263,3 +263,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-25,Wednesday,Street light out,streets,41,84,0.49,top
 2026-11-25,Wednesday,Building violation,housing,37,72,0.51,top
 2026-11-25,Wednesday,Illegal dumping,trash,34,64,0.53,top
+2026-11-26,Thursday,Traffic signal out,streets,33,84,0.39,top
+2026-11-26,Thursday,Street light out,streets,32,90,0.36,top
+2026-11-26,Thursday,Parking enforcement review,parking,31,68,0.46,top
+2026-11-26,Thursday,Abandoned car,parking,31,158,0.2,top
+2026-11-26,Thursday,Busted garbage cart,trash,29,154,0.19,top
+2026-11-26,Thursday,Yard waste pickup,trash,25,68,0.37,top
+2026-11-26,Thursday,Injured animal,critters,24,25,0.97,top
+2026-11-26,Thursday,Rats,critters,23,149,0.15,top
+2026-11-26,Thursday,Graffiti,trash,23,316,0.07,top
+2026-11-26,Thursday,Stray animal,critters,23,31,0.75,top
+2026-11-26,Thursday,Dead animal,critters,22,42,0.53,top
+2026-11-26,Thursday,Lead test kit,water,21,215,0.1,top
+2026-11-26,Thursday,Pothole,streets,20,64,0.31,top
+2026-11-26,Thursday,Plumbing violation,housing,18,30,0.61,top
+2026-11-26,Thursday,Building violation,housing,18,74,0.24,top

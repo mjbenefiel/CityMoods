@@ -497,3 +497,31 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-24,Tuesday,Abandoned car,parking,225,247,0.91,top
 2026-11-24,Tuesday,Street noise,noise,177,293,0.6,top
 2026-11-24,Tuesday,General repairs,housing,163,188,0.86,top
+2026-11-25,Wednesday,No heat (one apartment),heat,617,216,2.85,spike
+2026-11-25,Wednesday,No heat and no hot water (whole building),heat,487,172,2.83,spike
+2026-11-25,Wednesday,No heat (whole building),heat,1199,457,2.62,spike
+2026-11-25,Wednesday,No heat and no hot water (one apartment),heat,134,61,2.2,spike
+2026-11-25,Wednesday,Clogged storm drain,water,30,14,2.07,spike
+2026-11-25,Wednesday,No heat or hot water,heat,2611,1048,2.49,spike
+2026-11-25,Wednesday,Posted parking sign violation,parking,523,567,0.92,top
+2026-11-25,Wednesday,Blocked hydrant,parking,495,501,0.99,top
+2026-11-25,Wednesday,Banging/pounding (next door),noise,436,471,0.93,top
+2026-11-25,Wednesday,Driveway fully blocked,parking,393,386,1.02,top
+2026-11-25,Wednesday,Loud music/party (next door),noise,363,295,1.23,top
+2026-11-25,Wednesday,Blocked sidewalk,parking,292,327,0.89,top
+2026-11-25,Wednesday,Abandoned car (with plates),parking,203,248,0.82,top
+2026-11-25,Wednesday,Driveway partly blocked,parking,139,151,0.92,top
+2026-11-25,Wednesday,Blocked crosswalk,parking,116,118,0.99,top
+2026-11-25,Wednesday,No hot water (whole building),heat,115,86,1.33,top
+2026-11-25,Wednesday,Mold,housing,111,137,0.81,top
+2026-11-25,Wednesday,Illegal parking,parking,1888,2004,0.94,top
+2026-11-25,Wednesday,Noisy neighbors,noise,892,876,1.02,top
+2026-11-25,Wednesday,Blocked driveway,parking,532,537,0.99,top
+2026-11-25,Wednesday,Unsanitary apartment,housing,376,484,0.78,top
+2026-11-25,Wednesday,Plumbing,housing,270,269,1.0,top
+2026-11-25,Wednesday,Broken door or window,housing,231,206,1.12,top
+2026-11-25,Wednesday,Construction or other noise,noise,207,260,0.8,top
+2026-11-25,Wednesday,Abandoned car,parking,203,248,0.82,top
+2026-11-25,Wednesday,Peeling paint or plaster,housing,193,231,0.83,top
+2026-11-25,Wednesday,Street noise,noise,165,328,0.5,top
+2026-11-25,Wednesday,General repairs,housing,154,156,0.99,top

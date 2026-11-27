@@ -241,3 +241,16 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-24,Tuesday,Overflowing trash,trash,11,18,0.59,top
 2026-11-24,Tuesday,Traffic signal,streets,10,15,0.66,top
 2026-11-24,Tuesday,Wild animal,critters,10,8,1.25,top
+2026-11-25,Wednesday,Illegal parking,parking,138,228,0.61,top
+2026-11-25,Wednesday,Litter and debris,trash,86,73,1.18,top
+2026-11-25,Wednesday,Missed trash pickup,trash,47,36,1.29,top
+2026-11-25,Wednesday,Trash put out too early,trash,27,24,1.15,top
+2026-11-25,Wednesday,Rats,critters,26,17,1.53,top
+2026-11-25,Wednesday,Street light outage,streets,23,22,1.07,top
+2026-11-25,Wednesday,Illegal dumping or disposal,trash,21,20,1.08,top
+2026-11-25,Wednesday,Sidewalk repair,streets,20,18,1.13,top
+2026-11-25,Wednesday,Dead animal,critters,18,18,1.0,top
+2026-11-25,Wednesday,Illegally blocked sidewalk,streets,12,14,0.87,top
+2026-11-25,Wednesday,Domestic animal,critters,11,10,1.05,top
+2026-11-25,Wednesday,Pothole,streets,11,16,0.69,top
+2026-11-25,Wednesday,Improper trash storage,trash,10,13,0.75,top

@@ -200,11 +200,10 @@
     const max = known.length ? known[0].v : 1;
     const shown = S.showAll ? [...known, ...hidden] : known.slice(0, 10);
     $("t-list-title").textContent = S.slow
-      ? `${selLabel()}: biggest share taking over a week to close`
+      ? `${selLabel()}: longest waits`
       : `${selLabel()}: most reports${S.per ? " per 1,000 residents" : ""}, ${RANGE_PHRASE[S.days]}`;
     $("t-hint").textContent = S.slow
-      ? (slowOK() ? (() => { const c = CL.types[S.sel.i], u = usually(c);
-          return `${u[0].toUpperCase()}${u.slice(1)} · ${c.wk}% within a week citywide${c.open ? ` · ${c.open}% still open as of ${asOf()}` : ""} · tap one to compare`; })()
+      ? (slowOK() ? "% of requests that took over a week or are still open · tap one to compare"
         : "Pick a single request type to see how fast the city closes it.")
       : S.per
       ? "Tap a neighborhood to compare it (up to 3). Small neighborhoods can jump around per 1,000."

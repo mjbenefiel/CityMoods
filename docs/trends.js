@@ -550,7 +550,10 @@
     }
     $("t-map").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
   }
-  function say(html) { const n = $("t-found"); n.innerHTML = html; n.hidden = false; }
+  function say(html) { const n = $("t-found"); n.innerHTML = html; n.hidden = false; delete n.dataset.switch; }
+  // Notes about a view switch ("the map switched to Rats…") go away on the next filter change; lookup results stay.
+  function tell(html) { say(html); $("t-found").dataset.switch = "1"; }
+  function hush() { const n = $("t-found"); if (n.dataset.switch) { n.hidden = true; n.innerHTML = ""; delete n.dataset.switch; } }
 
   // ------------------------------------------------------------ which neighborhood am I in?
   // Everything here happens in the visitor's browser. A location from "Use my location" never leaves the
@@ -723,6 +726,7 @@
       const v = ev.target.value;
       S.sel = v[0] === "t" ? { kind: "type", i: +v.slice(1) } : { kind: "mood", id: v.slice(1) };
       if (S.sel.kind === "mood") S.slow = false;      // a whole mood can't be timed; show its totals instead
+      hush();
       render();
     });
     $("t-range").innerHTML = T.windows.map((w) => `<button type="button" role="radio" data-days="${w.days}">${RANGE_LABELS[w.days]}</button>`).join("");
@@ -731,16 +735,18 @@
       if (!b) return;
       const wasSlow = S.slow;
       S.days = +b.dataset.days; S.slow = false;      // time to close has its own fixed year; a range means totals
+      hush();
       render();
-      if (wasSlow) say(`Switched back to totals for the ${RANGE_PHRASE[S.days]}. "Time to close" always covers one fixed year.`);
+      if (wasSlow) tell(`Switched back to totals for the ${RANGE_PHRASE[S.days]}. "Time to close" always covers one fixed year.`);
     });
     $("t-per").addEventListener("click", (ev) => {
       const b = ev.target.closest("button");
       if (!b) return;
       S.per = b.dataset.per === "1"; S.slow = b.dataset.per === "2";
+      hush();
       const note = S.slow ? slowFromMood() : null;
       render();
-      if (note) say(note);
+      if (note) tell(note);
     });
     $("t-rank").addEventListener("click", (ev) => {
       const b = ev.target.closest("button[data-id]");
@@ -761,9 +767,9 @@
     $("t-adv").addEventListener("click", (ev) => {
       if (ev.target.closest("[data-close]")) { S.adv = null; render(); return; }
       const sl = ev.target.closest("button[data-slow]");
-      if (sl) { S.sel = { kind: "type", i: +sl.dataset.slow }; S.slow = true; S.per = false; render(); say(`The map now shows how often <b>${esc(T.types[+sl.dataset.slow].label)}</b> took over a week to close, by neighborhood.`); return; }
+      if (sl) { S.sel = { kind: "type", i: +sl.dataset.slow }; S.slow = true; S.per = false; render(); tell(`The map now shows how often <b>${esc(T.types[+sl.dataset.slow].label)}</b> took over a week to close, by neighborhood.`); return; }
       const t = ev.target.closest("button[data-type]");
-      if (t) { S.sel = { kind: "type", i: +t.dataset.type }; S.slow = false; render(); say(`The map and list now show <b>${esc(T.types[+t.dataset.type].label)}</b>.`); return; }
+      if (t) { S.sel = { kind: "type", i: +t.dataset.type }; S.slow = false; render(); tell(`The map and list now show <b>${esc(T.types[+t.dataset.type].label)}</b>.`); return; }
       const h = ev.target.closest("button[data-hood]");
       if (h) openHood(h.dataset.hood);
     });

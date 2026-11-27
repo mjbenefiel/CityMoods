@@ -203,7 +203,7 @@
       ? `${selLabel()}: biggest share taking over a week to close`
       : `${selLabel()}: most reports${S.per ? " per 1,000 residents" : ""}, ${RANGE_PHRASE[S.days]}`;
     $("t-hint").textContent = S.slow
-      ? (slowOK() ? `Share that took over a week to close or are still open. For ${closeWindow()}. Tap a neighborhood to compare it.`
+      ? (slowOK() ? `Took over a week or still open · a full year of requests, ${closeDates()} · tap one to compare`
         : "Pick a single request type to see how fast the city closes it.")
       : S.per
       ? "Tap a neighborhood to compare it (up to 3). Small neighborhoods can jump around per 1,000."

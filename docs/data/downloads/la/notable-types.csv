@@ -254,3 +254,30 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-25,Wednesday,Tree emergency,trees,21,34,0.62,top
 2026-11-25,Wednesday,Sidewalk problem,streets,20,35,0.57,top
 2026-11-25,Wednesday,General street inspection,streets,20,28,0.73,top
+2026-11-26,Thursday,Illegal dumping,trash,480,1249,0.38,top
+2026-11-26,Thursday,Graffiti,trash,385,725,0.53,top
+2026-11-26,Thursday,Potholes and pavement,streets,43,130,0.33,top
+2026-11-26,Thursday,Dead animal,critters,37,105,0.35,top
+2026-11-26,Thursday,Service not completed (follow-up),trash,34,373,0.09,top
+2026-11-26,Thursday,Streetlight repair,streets,31,124,0.25,top
+2026-11-26,Thursday,Landscape maintenance,trees,20,86,0.23,top
+2026-11-26,Thursday,Property violation,housing,18,37,0.49,top
+2026-11-26,Thursday,Obstructions,streets,15,55,0.27,top
+2026-11-26,Thursday,Badly parked scooter or bike,parking,14,54,0.26,top
+2026-11-26,Thursday,Parking,parking,8,30,0.27,top
+2026-11-26,Thursday,Traffic sign,streets,7,18,0.39,top
+2026-11-27,Friday,Illegal dumping,trash,756,908,0.83,top
+2026-11-27,Friday,Graffiti,trash,423,558,0.76,top
+2026-11-27,Friday,Service not completed (follow-up),trash,223,368,0.61,top
+2026-11-27,Friday,Streetlight repair,streets,76,93,0.82,top
+2026-11-27,Friday,Dead animal,critters,70,94,0.74,top
+2026-11-27,Friday,Potholes and pavement,streets,58,126,0.46,top
+2026-11-27,Friday,Landscape maintenance,trees,32,78,0.41,top
+2026-11-27,Friday,Obstructions,streets,32,49,0.65,top
+2026-11-27,Friday,Property violation,housing,22,20,1.11,top
+2026-11-27,Friday,Tree emergency,trees,21,36,0.58,top
+2026-11-27,Friday,Traffic safety,streets,18,28,0.63,top
+2026-11-27,Friday,Sidewalk problem,streets,17,31,0.55,top
+2026-11-27,Friday,Parking,parking,13,29,0.45,top
+2026-11-27,Friday,Traffic signal,streets,12,10,1.23,top
+2026-11-27,Friday,Program research,other,12,38,0.32,top

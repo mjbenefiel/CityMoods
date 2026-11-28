@@ -282,22 +282,22 @@
  "files": [
   {
    "path": "data/downloads/nyc/citywide.csv",
-   "rows": 198,
+   "rows": 209,
    "url": "https://citymoods311.com/data/downloads/nyc/citywide.csv"
   },
   {
    "path": "data/downloads/nyc/notable-types.csv",
-   "rows": 526,
+   "rows": 557,
    "url": "https://citymoods311.com/data/downloads/nyc/notable-types.csv"
   },
   {
    "path": "data/downloads/nyc/neighborhoods-2026-11.csv",
-   "rows": 16013,
+   "rows": 16797,
    "url": "https://citymoods311.com/data/downloads/nyc/neighborhoods-2026-11.csv"
   },
   {
    "path": "data/downloads/nyc/neighborhood-types-2026-11.csv",
-   "rows": 14646,
+   "rows": 15415,
    "url": "https://citymoods311.com/data/downloads/nyc/neighborhood-types-2026-11.csv"
   },
   {
@@ -307,22 +307,22 @@
   },
   {
    "path": "data/downloads/chicago/citywide.csv",
-   "rows": 198,
+   "rows": 209,
    "url": "https://citymoods311.com/data/downloads/chicago/citywide.csv"
   },
   {
    "path": "data/downloads/chicago/notable-types.csv",
-   "rows": 279,
+   "rows": 294,
    "url": "https://citymoods311.com/data/downloads/chicago/notable-types.csv"
   },
   {
    "path": "data/downloads/chicago/neighborhoods-2026-11.csv",
-   "rows": 4025,
+   "rows": 4214,
    "url": "https://citymoods311.com/data/downloads/chicago/neighborhoods-2026-11.csv"
   },
   {
    "path": "data/downloads/chicago/neighborhood-types-2026-11.csv",
-   "rows": 3274,
+   "rows": 3381,
    "url": "https://citymoods311.com/data/downloads/chicago/neighborhood-types-2026-11.csv"
   },
   {
@@ -332,22 +332,22 @@
   },
   {
    "path": "data/downloads/la/citywide.csv",
-   "rows": 187,
+   "rows": 209,
    "url": "https://citymoods311.com/data/downloads/la/citywide.csv"
   },
   {
    "path": "data/downloads/la/notable-types.csv",
-   "rows": 255,
+   "rows": 282,
    "url": "https://citymoods311.com/data/downloads/la/notable-types.csv"
   },
   {
    "path": "data/downloads/la/neighborhoods-2026-11.csv",
-   "rows": 3953,
+   "rows": 4226,
    "url": "https://citymoods311.com/data/downloads/la/neighborhoods-2026-11.csv"
   },
   {
    "path": "data/downloads/la/neighborhood-types-2026-11.csv",
-   "rows": 3938,
+   "rows": 4199,
    "url": "https://citymoods311.com/data/downloads/la/neighborhood-types-2026-11.csv"
   },
   {
@@ -357,22 +357,22 @@
   },
   {
    "path": "data/downloads/sf/citywide.csv",
-   "rows": 187,
+   "rows": 209,
    "url": "https://citymoods311.com/data/downloads/sf/citywide.csv"
   },
   {
    "path": "data/downloads/sf/notable-types.csv",
-   "rows": 464,
+   "rows": 518,
    "url": "https://citymoods311.com/data/downloads/sf/notable-types.csv"
   },
   {
    "path": "data/downloads/sf/neighborhoods-2026-11.csv",
-   "rows": 2374,
+   "rows": 2584,
    "url": "https://citymoods311.com/data/downloads/sf/neighborhoods-2026-11.csv"
   },
   {
    "path": "data/downloads/sf/neighborhood-types-2026-11.csv",
-   "rows": 3356,
+   "rows": 3592,
    "url": "https://citymoods311.com/data/downloads/sf/neighborhood-types-2026-11.csv"
   },
   {
@@ -407,17 +407,17 @@
   },
   {
    "path": "data/downloads/all-cities-citywide.csv",
-   "rows": 968,
+   "rows": 1034,
    "url": "https://citymoods311.com/data/downloads/all-cities-citywide.csv"
   },
   {
    "path": "data/downloads/all-cities-neighborhoods-2026-11.csv",
-   "rows": 27666,
+   "rows": 29122,
    "url": "https://citymoods311.com/data/downloads/all-cities-neighborhoods-2026-11.csv"
   },
   {
    "path": "data/downloads/all-cities-neighborhood-types-2026-11.csv",
-   "rows": 26322,
+   "rows": 27695,
    "url": "https://citymoods311.com/data/downloads/all-cities-neighborhood-types-2026-11.csv"
   },
   {

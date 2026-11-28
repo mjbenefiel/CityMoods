@@ -3355,3 +3355,239 @@ date,neighborhood_id,neighborhood,area,request_type,mood,requests
 2026-11-25,western-addition,Western Addition,San Francisco,Furniture,trash,4
 2026-11-25,western-addition,Western Addition,San Francisco,Blocked driveway (tow requested),parking,4
 2026-11-25,western-addition,Western Addition,San Francisco,Overflowing city trash can,trash,3
+2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Loose garbage,trash,17
+2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Parking on the sidewalk,parking,10
+2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Bagged or boxed garbage,trash,10
+2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Abandoned car,parking,8
+2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Illegal parking,parking,8
+2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Blocked driveway,parking,5
+2026-11-26,bernal-heights,Bernal Heights,San Francisco,Parking on the sidewalk,parking,7
+2026-11-26,bernal-heights,Bernal Heights,San Francisco,Illegal parking,parking,6
+2026-11-26,bernal-heights,Bernal Heights,San Francisco,Loose garbage,trash,4
+2026-11-26,castro-upper-market,Castro/Upper Market,San Francisco,Loose garbage,trash,8
+2026-11-26,castro-upper-market,Castro/Upper Market,San Francisco,Scooter with no license plate,parking,5
+2026-11-26,castro-upper-market,Castro/Upper Market,San Francisco,Parking on the sidewalk,parking,3
+2026-11-26,chinatown,Chinatown,San Francisco,Illegal parking,parking,14
+2026-11-26,chinatown,Chinatown,San Francisco,Scooter with no license plate,parking,4
+2026-11-26,chinatown,Chinatown,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-26,excelsior,Excelsior,San Francisco,Blocked driveway,parking,8
+2026-11-26,excelsior,Excelsior,San Francisco,Illegal parking,parking,6
+2026-11-26,excelsior,Excelsior,San Francisco,Bagged or boxed garbage,trash,5
+2026-11-26,excelsior,Excelsior,San Francisco,Parking on the sidewalk,parking,4
+2026-11-26,excelsior,Excelsior,San Francisco,Loose garbage,trash,3
+2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Spin scooter,parking,6
+2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Scooter with no license plate,parking,5
+2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Lime scooter,parking,4
+2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Overflowing city trash can,trash,4
+2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Loose garbage,trash,4
+2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-26,glen-park,Glen Park,San Francisco,Lime scooter,parking,3
+2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Illegal parking,parking,15
+2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Parking on the sidewalk,parking,4
+2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Loose garbage,trash,3
+2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Port a potty,parking,3
+2026-11-26,hayes-valley,Hayes Valley,San Francisco,Loose garbage,trash,11
+2026-11-26,hayes-valley,Hayes Valley,San Francisco,Bagged or boxed garbage,trash,9
+2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti on sidewalk structure,trash,9
+2026-11-26,hayes-valley,Hayes Valley,San Francisco,Illegal parking,parking,6
+2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti on pole,trash,6
+2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti on building commercial,trash,4
+2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti (public),trash,3
+2026-11-26,inner-richmond,Inner Richmond,San Francisco,Graffiti on pole,trash,4
+2026-11-26,inner-richmond,Inner Richmond,San Francisco,Loose garbage,trash,3
+2026-11-26,inner-richmond,Inner Richmond,San Francisco,Illegal parking,parking,3
+2026-11-26,lakeshore,Lakeshore,San Francisco,Illegal parking,parking,3
+2026-11-26,lone-mountain-usf,Lone Mountain/USF,San Francisco,Loose garbage,trash,7
+2026-11-26,lone-mountain-usf,Lone Mountain/USF,San Francisco,Furniture,trash,3
+2026-11-26,marina,Marina,San Francisco,Overflowing city trash can,trash,5
+2026-11-26,marina,Marina,San Francisco,Parking on the sidewalk,parking,4
+2026-11-26,marina,Marina,San Francisco,Loose garbage,trash,3
+2026-11-26,marina,Marina,San Francisco,Illegal parking,parking,3
+2026-11-26,mission,Mission,San Francisco,Loose garbage,trash,74
+2026-11-26,mission,Mission,San Francisco,Bagged or boxed garbage,trash,22
+2026-11-26,mission,Mission,San Francisco,Illegal parking,parking,11
+2026-11-26,mission,Mission,San Francisco,Furniture,trash,10
+2026-11-26,mission,Mission,San Francisco,Overflowing city trash can,trash,6
+2026-11-26,mission,Mission,San Francisco,Graffiti on building commercial,trash,5
+2026-11-26,mission,Mission,San Francisco,Parking on the sidewalk,parking,4
+2026-11-26,mission,Mission,San Francisco,Mattress,trash,4
+2026-11-26,mission,Mission,San Francisco,Graffiti on signal box,trash,3
+2026-11-26,mission,Mission,San Francisco,Blocked driveway,parking,3
+2026-11-26,mission-bay,Mission Bay,San Francisco,Loose garbage,trash,5
+2026-11-26,mission-bay,Mission Bay,San Francisco,Lime scooter,parking,4
+2026-11-26,mission-bay,Mission Bay,San Francisco,Spin scooter,parking,4
+2026-11-26,nob-hill,Nob Hill,San Francisco,Loose garbage,trash,8
+2026-11-26,nob-hill,Nob Hill,San Francisco,Scooter with no license plate,parking,4
+2026-11-26,nob-hill,Nob Hill,San Francisco,Lime scooter,parking,3
+2026-11-26,noe-valley,Noe Valley,San Francisco,Lime scooter,parking,3
+2026-11-26,north-beach,North Beach,San Francisco,Lime scooter,parking,6
+2026-11-26,north-beach,North Beach,San Francisco,Overflowing city trash can,trash,6
+2026-11-26,north-beach,North Beach,San Francisco,Spin scooter,parking,6
+2026-11-26,north-beach,North Beach,San Francisco,Loose garbage,trash,5
+2026-11-26,north-beach,North Beach,San Francisco,Scooter with no license plate,parking,4
+2026-11-26,north-beach,North Beach,San Francisco,Glass,trash,3
+2026-11-26,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Blocked driveway,parking,7
+2026-11-26,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Bagged or boxed garbage,trash,4
+2026-11-26,outer-mission,Outer Mission,San Francisco,Illegal parking,parking,8
+2026-11-26,outer-mission,Outer Mission,San Francisco,Furniture,trash,4
+2026-11-26,outer-mission,Outer Mission,San Francisco,Loose garbage,trash,4
+2026-11-26,outer-mission,Outer Mission,San Francisco,Blocked driveway (tow requested),parking,3
+2026-11-26,outer-richmond,Outer Richmond,San Francisco,Blocked driveway,parking,3
+2026-11-26,pacific-heights,Pacific Heights,San Francisco,Lime scooter,parking,5
+2026-11-26,pacific-heights,Pacific Heights,San Francisco,Overflowing city trash can,trash,3
+2026-11-26,pacific-heights,Pacific Heights,San Francisco,Illegal parking,parking,3
+2026-11-26,portola,Portola,San Francisco,Loose garbage,trash,10
+2026-11-26,portola,Portola,San Francisco,Illegal parking,parking,5
+2026-11-26,portola,Portola,San Francisco,Furniture,trash,3
+2026-11-26,portola,Portola,San Francisco,Parking on the sidewalk,parking,3
+2026-11-26,portola,Portola,San Francisco,Blocked driveway,parking,3
+2026-11-26,presidio,Presidio,San Francisco,Graffiti (public),trash,4
+2026-11-26,presidio,Presidio,San Francisco,Graffiti on pole,trash,3
+2026-11-26,presidio,Presidio,San Francisco,Other: defaced ok,streets,3
+2026-11-26,russian-hill,Russian Hill,San Francisco,Lime scooter,parking,3
+2026-11-26,russian-hill,Russian Hill,San Francisco,Loose garbage,trash,3
+2026-11-26,seacliff,Seacliff,San Francisco,Graffiti on pole,trash,5
+2026-11-26,south-of-market,South of Market,San Francisco,Loose garbage,trash,15
+2026-11-26,south-of-market,South of Market,San Francisco,Bagged or boxed garbage,trash,9
+2026-11-26,south-of-market,South of Market,San Francisco,Illegal parking,parking,4
+2026-11-26,south-of-market,South of Market,San Francisco,Furniture,trash,3
+2026-11-26,south-of-market,South of Market,San Francisco,Blocked driveway (tow requested),parking,3
+2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Blocked driveway,parking,4
+2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Abandoned car,parking,3
+2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Loose garbage,trash,3
+2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Parking on the sidewalk,parking,3
+2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Blocked driveway (tow requested),parking,3
+2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Double parking,parking,3
+2026-11-26,tenderloin,Tenderloin,San Francisco,Loose garbage,trash,21
+2026-11-26,tenderloin,Tenderloin,San Francisco,Bagged or boxed garbage,trash,5
+2026-11-26,visitacion-valley,Visitacion Valley,San Francisco,Illegal parking,parking,6
+2026-11-26,west-of-twin-peaks,West of Twin Peaks,San Francisco,Flooding: on street,water,3
+2026-11-26,west-of-twin-peaks,West of Twin Peaks,San Francisco,Blocked driveway (tow requested),parking,3
+2026-11-26,western-addition,Western Addition,San Francisco,Loose garbage,trash,5
+2026-11-26,western-addition,Western Addition,San Francisco,Furniture,trash,3
+2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Loose garbage,trash,27
+2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Parking on the sidewalk,parking,12
+2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Bagged or boxed garbage,trash,10
+2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Abandoned car,parking,8
+2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Illegal parking,parking,7
+2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Furniture,trash,5
+2026-11-27,bernal-heights,Bernal Heights,San Francisco,Loose garbage,trash,11
+2026-11-27,bernal-heights,Bernal Heights,San Francisco,Parking on the sidewalk,parking,5
+2026-11-27,bernal-heights,Bernal Heights,San Francisco,Illegal parking,parking,3
+2026-11-27,bernal-heights,Bernal Heights,San Francisco,Mattress,trash,3
+2026-11-27,bernal-heights,Bernal Heights,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,bernal-heights,Bernal Heights,San Francisco,Abandoned car,parking,3
+2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Bagged or boxed garbage,trash,10
+2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Overflowing city trash can,trash,10
+2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Loose garbage,trash,9
+2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Illegal parking,parking,5
+2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Graffiti on pole,trash,4
+2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Parking on the sidewalk,parking,4
+2026-11-27,chinatown,Chinatown,San Francisco,Loose garbage,trash,9
+2026-11-27,chinatown,Chinatown,San Francisco,Overflowing city trash can,trash,4
+2026-11-27,chinatown,Chinatown,San Francisco,Spin scooter,parking,4
+2026-11-27,chinatown,Chinatown,San Francisco,Illegal parking,parking,3
+2026-11-27,chinatown,Chinatown,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,excelsior,Excelsior,San Francisco,Parking on the sidewalk,parking,15
+2026-11-27,excelsior,Excelsior,San Francisco,Illegal parking,parking,11
+2026-11-27,excelsior,Excelsior,San Francisco,Bagged or boxed garbage,trash,7
+2026-11-27,excelsior,Excelsior,San Francisco,Furniture,trash,6
+2026-11-27,excelsior,Excelsior,San Francisco,Loose garbage,trash,5
+2026-11-27,excelsior,Excelsior,San Francisco,Mattress,trash,4
+2026-11-27,financial-district-south-beach,Financial District/South Beach,San Francisco,Loose garbage,trash,5
+2026-11-27,financial-district-south-beach,Financial District/South Beach,San Francisco,Illegal parking,parking,4
+2026-11-27,financial-district-south-beach,Financial District/South Beach,San Francisco,Furniture,trash,3
+2026-11-27,haight-ashbury,Haight Ashbury,San Francisco,Loose garbage,trash,5
+2026-11-27,haight-ashbury,Haight Ashbury,San Francisco,Abandoned car,parking,4
+2026-11-27,haight-ashbury,Haight Ashbury,San Francisco,Furniture,trash,3
+2026-11-27,hayes-valley,Hayes Valley,San Francisco,Loose garbage,trash,9
+2026-11-27,hayes-valley,Hayes Valley,San Francisco,Illegal parking,parking,6
+2026-11-27,hayes-valley,Hayes Valley,San Francisco,Parking on the sidewalk,parking,3
+2026-11-27,hayes-valley,Hayes Valley,San Francisco,Furniture,trash,3
+2026-11-27,hayes-valley,Hayes Valley,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,inner-richmond,Inner Richmond,San Francisco,Loose garbage,trash,8
+2026-11-27,inner-richmond,Inner Richmond,San Francisco,Furniture,trash,5
+2026-11-27,inner-richmond,Inner Richmond,San Francisco,Bagged or boxed garbage,trash,4
+2026-11-27,inner-sunset,Inner Sunset,San Francisco,Loose garbage,trash,9
+2026-11-27,inner-sunset,Inner Sunset,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,inner-sunset,Inner Sunset,San Francisco,Abandoned car,parking,3
+2026-11-27,japantown,Japantown,San Francisco,Loose garbage,trash,4
+2026-11-27,lone-mountain-usf,Lone Mountain/USF,San Francisco,Loose garbage,trash,4
+2026-11-27,marina,Marina,San Francisco,Loose garbage,trash,5
+2026-11-27,marina,Marina,San Francisco,Blocked driveway (tow requested),parking,4
+2026-11-27,marina,Marina,San Francisco,Furniture,trash,3
+2026-11-27,marina,Marina,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,marina,Marina,San Francisco,Parking on the sidewalk,parking,3
+2026-11-27,mission,Mission,San Francisco,Loose garbage,trash,104
+2026-11-27,mission,Mission,San Francisco,Bagged or boxed garbage,trash,33
+2026-11-27,mission,Mission,San Francisco,Illegal parking,parking,22
+2026-11-27,mission,Mission,San Francisco,Overflowing city trash can,trash,14
+2026-11-27,mission,Mission,San Francisco,Furniture,trash,12
+2026-11-27,mission,Mission,San Francisco,Mattress,trash,10
+2026-11-27,mission,Mission,San Francisco,Graffiti on building commercial,trash,10
+2026-11-27,mission,Mission,San Francisco,Abandoned car,parking,9
+2026-11-27,mission,Mission,San Francisco,Graffiti on sidewalk in front of property,trash,9
+2026-11-27,mission,Mission,San Francisco,Graffiti on pole,trash,8
+2026-11-27,mission,Mission,San Francisco,Parking on the sidewalk,parking,6
+2026-11-27,mission,Mission,San Francisco,Graffiti on mail box,trash,5
+2026-11-27,mission,Mission,San Francisco,Trash at a transit shelter,trash,5
+2026-11-27,mission,Mission,San Francisco,Glass,trash,4
+2026-11-27,mission,Mission,San Francisco,Graffiti on signal box,trash,4
+2026-11-27,mission,Mission,San Francisco,Blocked driveway,parking,3
+2026-11-27,mission,Mission,San Francisco,Blocked driveway (tow requested),parking,3
+2026-11-27,mission,Mission,San Francisco,Graffiti on bridge,trash,3
+2026-11-27,mission,Mission,San Francisco,Graffiti on building other,trash,3
+2026-11-27,mission,Mission,San Francisco,Graffiti on sidewalk structure,trash,3
+2026-11-27,mission-bay,Mission Bay,San Francisco,Lime scooter,parking,4
+2026-11-27,nob-hill,Nob Hill,San Francisco,Loose garbage,trash,9
+2026-11-27,nob-hill,Nob Hill,San Francisco,Bagged or boxed garbage,trash,6
+2026-11-27,nob-hill,Nob Hill,San Francisco,Furniture,trash,5
+2026-11-27,nob-hill,Nob Hill,San Francisco,Excessive noise,noise,5
+2026-11-27,nob-hill,Nob Hill,San Francisco,Mattress,trash,4
+2026-11-27,nob-hill,Nob Hill,San Francisco,Overflowing city trash can,trash,4
+2026-11-27,nob-hill,Nob Hill,San Francisco,Abandoned car,parking,4
+2026-11-27,noe-valley,Noe Valley,San Francisco,Illegal parking,parking,4
+2026-11-27,north-beach,North Beach,San Francisco,Lime scooter,parking,8
+2026-11-27,north-beach,North Beach,San Francisco,Spin scooter,parking,7
+2026-11-27,north-beach,North Beach,San Francisco,Loose garbage,trash,6
+2026-11-27,north-beach,North Beach,San Francisco,Scooter with no license plate,parking,3
+2026-11-27,north-beach,North Beach,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Loose garbage,trash,3
+2026-11-27,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Sewage backup: from side sewer vent,water,3
+2026-11-27,outer-mission,Outer Mission,San Francisco,Illegal parking,parking,4
+2026-11-27,outer-mission,Outer Mission,San Francisco,Bagged or boxed garbage,trash,4
+2026-11-27,outer-richmond,Outer Richmond,San Francisco,Loose garbage,trash,6
+2026-11-27,outer-richmond,Outer Richmond,San Francisco,Abandoned car,parking,3
+2026-11-27,pacific-heights,Pacific Heights,San Francisco,Blocked driveway,parking,4
+2026-11-27,portola,Portola,San Francisco,Loose garbage,trash,13
+2026-11-27,portola,Portola,San Francisco,Illegal parking,parking,4
+2026-11-27,portola,Portola,San Francisco,Parking on the sidewalk,parking,4
+2026-11-27,portola,Portola,San Francisco,Bagged or boxed garbage,trash,4
+2026-11-27,portola,Portola,San Francisco,Furniture,trash,3
+2026-11-27,portola,Portola,San Francisco,Graffiti on building commercial,trash,3
+2026-11-27,potrero-hill,Potrero Hill,San Francisco,Lime scooter,parking,3
+2026-11-27,south-of-market,South of Market,San Francisco,Bagged or boxed garbage,trash,11
+2026-11-27,south-of-market,South of Market,San Francisco,Loose garbage,trash,11
+2026-11-27,south-of-market,South of Market,San Francisco,Landscaping: empty tree basin,trees,6
+2026-11-27,south-of-market,South of Market,San Francisco,Mattress,trash,6
+2026-11-27,south-of-market,South of Market,San Francisco,Illegal parking,parking,4
+2026-11-27,south-of-market,South of Market,San Francisco,Trash at a transit shelter,streets,3
+2026-11-27,south-of-market,South of Market,San Francisco,Furniture,trash,3
+2026-11-27,south-of-market,South of Market,San Francisco,Scooter with no license plate,parking,3
+2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Blocked driveway,parking,6
+2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Loose garbage,trash,5
+2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Parking on the sidewalk,parking,4
+2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Illegal parking,parking,4
+2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Overflowing city trash can,trash,3
+2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,tenderloin,Tenderloin,San Francisco,Loose garbage,trash,18
+2026-11-27,tenderloin,Tenderloin,San Francisco,Bagged or boxed garbage,trash,7
+2026-11-27,tenderloin,Tenderloin,San Francisco,Overflowing city trash can,trash,5
+2026-11-27,tenderloin,Tenderloin,San Francisco,Mattress,trash,3
+2026-11-27,tenderloin,Tenderloin,San Francisco,Illegal parking,parking,3
+2026-11-27,visitacion-valley,Visitacion Valley,San Francisco,Parking on the sidewalk,parking,4
+2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Damaging property: lifted sidewalk tree roots,trees,9
+2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Loose garbage,trash,4
+2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Light burnt out,streets,4
+2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Bagged or boxed garbage,trash,3
+2026-11-27,western-addition,Western Addition,San Francisco,Loose garbage,trash,17

@@ -16012,3 +16012,787 @@ date,neighborhood_id,neighborhood,borough,neighborhood_total,mood,requests
 2026-11-25,QN0203,Woodside,Queens,48,noise,3
 2026-11-25,QN0203,Woodside,Queens,48,trash,3
 2026-11-25,QN0203,Woodside,Queens,48,other,3
+2026-11-26,BX1104,Allerton,Bronx,64,heat,36
+2026-11-26,BX1104,Allerton,Bronx,64,housing,17
+2026-11-26,BX1104,Allerton,Bronx,64,parking,5
+2026-11-26,BX1104,Allerton,Bronx,64,noise,3
+2026-11-26,BX1104,Allerton,Bronx,64,other,3
+2026-11-26,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,20,trees,6
+2026-11-26,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,20,trash,6
+2026-11-26,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,20,other,3
+2026-11-26,SI0303,Arden Heights-Rossville,Staten Island,24,parking,13
+2026-11-26,SI0303,Arden Heights-Rossville,Staten Island,24,trees,5
+2026-11-26,SI0303,Arden Heights-Rossville,Staten Island,24,critters,3
+2026-11-26,QN0103,Astoria (Central),Queens,160,housing,113
+2026-11-26,QN0103,Astoria (Central),Queens,160,heat,19
+2026-11-26,QN0103,Astoria (Central),Queens,160,parking,13
+2026-11-26,QN0103,Astoria (Central),Queens,160,noise,5
+2026-11-26,QN0103,Astoria (Central),Queens,160,critters,5
+2026-11-26,QN0104,Astoria (East)-Woodside (North),Queens,34,heat,16
+2026-11-26,QN0104,Astoria (East)-Woodside (North),Queens,34,housing,6
+2026-11-26,QN0104,Astoria (East)-Woodside (North),Queens,34,parking,4
+2026-11-26,QN0104,Astoria (East)-Woodside (North),Queens,34,noise,3
+2026-11-26,QN0101,Astoria (North)-Ditmars-Steinway,Queens,48,parking,13
+2026-11-26,QN0101,Astoria (North)-Ditmars-Steinway,Queens,48,noise,9
+2026-11-26,QN0101,Astoria (North)-Ditmars-Steinway,Queens,48,trees,7
+2026-11-26,QN0101,Astoria (North)-Ditmars-Steinway,Queens,48,housing,7
+2026-11-26,QN0101,Astoria (North)-Ditmars-Steinway,Queens,48,heat,6
+2026-11-26,QN1101,Auburndale,Queens,21,parking,7
+2026-11-26,QN1101,Auburndale,Queens,21,trees,5
+2026-11-26,QN1101,Auburndale,Queens,21,streets,3
+2026-11-26,QN1203,Baisley Park,Queens,40,parking,14
+2026-11-26,QN1203,Baisley Park,Queens,40,trees,7
+2026-11-26,QN1203,Baisley Park,Queens,40,housing,6
+2026-11-26,QN1203,Baisley Park,Queens,40,noise,4
+2026-11-26,QN1203,Baisley Park,Queens,40,streets,4
+2026-11-26,QN1203,Baisley Park,Queens,40,other,3
+2026-11-26,BK1102,Bath Beach,Brooklyn,16,parking,6
+2026-11-26,BK1102,Bath Beach,Brooklyn,16,heat,4
+2026-11-26,BK1102,Bath Beach,Brooklyn,16,noise,3
+2026-11-26,BK1001,Bay Ridge,Brooklyn,96,parking,36
+2026-11-26,BK1001,Bay Ridge,Brooklyn,96,heat,29
+2026-11-26,BK1001,Bay Ridge,Brooklyn,96,housing,13
+2026-11-26,BK1001,Bay Ridge,Brooklyn,96,noise,8
+2026-11-26,BK1001,Bay Ridge,Brooklyn,96,streets,5
+2026-11-26,QN0703,Bay Terrace-Clearview,Queens,17,parking,8
+2026-11-26,QN0703,Bay Terrace-Clearview,Queens,17,trees,6
+2026-11-26,QN1102,Bayside,Queens,32,noise,12
+2026-11-26,QN1102,Bayside,Queens,32,parking,6
+2026-11-26,QN1102,Bayside,Queens,32,trees,5
+2026-11-26,QN1102,Bayside,Queens,32,other,5
+2026-11-26,BX0702,Bedford Park,Bronx,183,heat,88
+2026-11-26,BX0702,Bedford Park,Bronx,183,housing,43
+2026-11-26,BX0702,Bedford Park,Bronx,183,parking,26
+2026-11-26,BX0702,Bedford Park,Bronx,183,noise,19
+2026-11-26,BX0702,Bedford Park,Bronx,183,trash,4
+2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,61,noise,18
+2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,61,housing,17
+2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,61,heat,12
+2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,61,parking,8
+2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,56,noise,15
+2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,56,parking,14
+2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,56,housing,12
+2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,56,heat,7
+2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,56,streets,5
+2026-11-26,QN1302,Bellerose,Queens,20,trees,7
+2026-11-26,QN1302,Bellerose,Queens,20,parking,3
+2026-11-26,QN1302,Bellerose,Queens,20,trash,3
+2026-11-26,BX0603,Belmont,Bronx,69,heat,35
+2026-11-26,BX0603,Belmont,Bronx,69,housing,14
+2026-11-26,BX0603,Belmont,Bronx,69,noise,11
+2026-11-26,BX0603,Belmont,Bronx,69,streets,4
+2026-11-26,BX0603,Belmont,Bronx,69,parking,3
+2026-11-26,BK1101,Bensonhurst,Brooklyn,115,parking,52
+2026-11-26,BK1101,Bensonhurst,Brooklyn,115,noise,36
+2026-11-26,BK1101,Bensonhurst,Brooklyn,115,heat,20
+2026-11-26,BK1101,Bensonhurst,Brooklyn,115,housing,4
+2026-11-26,BK1202,Borough Park,Brooklyn,50,parking,10
+2026-11-26,BK1202,Borough Park,Brooklyn,50,heat,10
+2026-11-26,BK1202,Borough Park,Brooklyn,50,streets,10
+2026-11-26,BK1202,Borough Park,Brooklyn,50,water,6
+2026-11-26,BK1202,Borough Park,Brooklyn,50,noise,5
+2026-11-26,BK1202,Borough Park,Brooklyn,50,trash,5
+2026-11-26,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,18,water,8
+2026-11-26,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,18,streets,4
+2026-11-26,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,18,noise,3
+2026-11-26,BK1303,Brighton Beach,Brooklyn,31,water,6
+2026-11-26,BK1303,Brighton Beach,Brooklyn,31,other,5
+2026-11-26,BK1303,Brighton Beach,Brooklyn,31,parking,5
+2026-11-26,BK1303,Brighton Beach,Brooklyn,31,noise,4
+2026-11-26,BK1303,Brighton Beach,Brooklyn,31,housing,4
+2026-11-26,BK1303,Brighton Beach,Brooklyn,31,heat,4
+2026-11-26,BK0201,Brooklyn Heights,Brooklyn,11,other,5
+2026-11-26,BK0201,Brooklyn Heights,Brooklyn,11,parking,3
+2026-11-26,BK1602,Brownsville,Brooklyn,43,noise,20
+2026-11-26,BK1602,Brownsville,Brooklyn,43,heat,10
+2026-11-26,BK1602,Brownsville,Brooklyn,43,parking,6
+2026-11-26,BK1602,Brownsville,Brooklyn,43,housing,3
+2026-11-26,BK1602,Brownsville,Brooklyn,43,other,3
+2026-11-26,BK0402,Bushwick (East),Brooklyn,45,streets,10
+2026-11-26,BK0402,Bushwick (East),Brooklyn,45,housing,10
+2026-11-26,BK0402,Bushwick (East),Brooklyn,45,parking,9
+2026-11-26,BK0402,Bushwick (East),Brooklyn,45,heat,5
+2026-11-26,BK0402,Bushwick (East),Brooklyn,45,water,3
+2026-11-26,BK0401,Bushwick (West),Brooklyn,33,heat,12
+2026-11-26,BK0401,Bushwick (West),Brooklyn,33,housing,11
+2026-11-26,BK0401,Bushwick (West),Brooklyn,33,noise,7
+2026-11-26,QN1304,Cambria Heights,Queens,5,parking,4
+2026-11-26,BK1803,Canarsie,Brooklyn,56,parking,22
+2026-11-26,BK1803,Canarsie,Brooklyn,56,streets,9
+2026-11-26,BK1803,Canarsie,Brooklyn,56,water,6
+2026-11-26,BK1803,Canarsie,Brooklyn,56,heat,6
+2026-11-26,BK1803,Canarsie,Brooklyn,56,noise,3
+2026-11-26,BK1803,Canarsie,Brooklyn,56,housing,3
+2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,63,parking,21
+2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,63,housing,20
+2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,63,heat,9
+2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,63,noise,8
+2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,63,water,3
+2026-11-26,BX0903,Castle Hill-Unionport,Bronx,51,noise,20
+2026-11-26,BX0903,Castle Hill-Unionport,Bronx,51,parking,16
+2026-11-26,BX0903,Castle Hill-Unionport,Bronx,51,heat,10
+2026-11-26,BX0903,Castle Hill-Unionport,Bronx,51,housing,4
+2026-11-26,MN0401,Chelsea-Hudson Yards,Manhattan,27,heat,8
+2026-11-26,MN0401,Chelsea-Hudson Yards,Manhattan,27,other,7
+2026-11-26,MN0401,Chelsea-Hudson Yards,Manhattan,27,noise,6
+2026-11-26,MN0301,Chinatown-Two Bridges,Manhattan,23,heat,6
+2026-11-26,MN0301,Chinatown-Two Bridges,Manhattan,23,other,5
+2026-11-26,MN0301,Chinatown-Two Bridges,Manhattan,23,trash,4
+2026-11-26,MN0301,Chinatown-Two Bridges,Manhattan,23,noise,3
+2026-11-26,BX0302,Claremont Village-Claremont (East),Bronx,32,noise,18
+2026-11-26,BX0302,Claremont Village-Claremont (East),Bronx,32,heat,10
+2026-11-26,BX0302,Claremont Village-Claremont (East),Bronx,32,housing,4
+2026-11-26,BK0204,Clinton Hill,Brooklyn,26,housing,13
+2026-11-26,BK0204,Clinton Hill,Brooklyn,26,parking,8
+2026-11-26,BX1004,Co-op City,Bronx,6,parking,5
+2026-11-26,QN0701,College Point,Queens,25,parking,15
+2026-11-26,QN0701,College Point,Queens,25,streets,4
+2026-11-26,QN0701,College Point,Queens,25,trees,3
+2026-11-26,BX0401,Concourse-Concourse Village,Bronx,85,heat,38
+2026-11-26,BX0401,Concourse-Concourse Village,Bronx,85,noise,19
+2026-11-26,BX0401,Concourse-Concourse Village,Bronx,85,housing,13
+2026-11-26,BX0401,Concourse-Concourse Village,Bronx,85,parking,12
+2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,59,noise,16
+2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,59,water,12
+2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,59,heat,11
+2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,59,parking,11
+2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,59,housing,5
+2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,59,streets,3
+2026-11-26,QN0402,Corona,Queens,41,parking,20
+2026-11-26,QN0402,Corona,Queens,41,heat,8
+2026-11-26,QN0402,Corona,Queens,41,noise,7
+2026-11-26,QN0402,Corona,Queens,41,housing,3
+2026-11-26,BX0303,Crotona Park East,Bronx,49,heat,20
+2026-11-26,BX0303,Crotona Park East,Bronx,49,housing,16
+2026-11-26,BX0303,Crotona Park East,Bronx,49,noise,6
+2026-11-26,BX0303,Crotona Park East,Bronx,49,streets,3
+2026-11-26,BK0802,Crown Heights (North),Brooklyn,64,heat,27
+2026-11-26,BK0802,Crown Heights (North),Brooklyn,64,housing,12
+2026-11-26,BK0802,Crown Heights (North),Brooklyn,64,noise,10
+2026-11-26,BK0802,Crown Heights (North),Brooklyn,64,other,7
+2026-11-26,BK0802,Crown Heights (North),Brooklyn,64,parking,5
+2026-11-26,BK0901,Crown Heights (South),Brooklyn,79,housing,31
+2026-11-26,BK0901,Crown Heights (South),Brooklyn,79,heat,31
+2026-11-26,BK0901,Crown Heights (South),Brooklyn,79,noise,9
+2026-11-26,BK0901,Crown Heights (South),Brooklyn,79,parking,4
+2026-11-26,BK0501,Cypress Hills,Brooklyn,55,parking,35
+2026-11-26,BK0501,Cypress Hills,Brooklyn,55,housing,6
+2026-11-26,BK0501,Cypress Hills,Brooklyn,55,trash,4
+2026-11-26,BK0501,Cypress Hills,Brooklyn,55,streets,4
+2026-11-26,QN1103,Douglaston-Little Neck,Queens,12,parking,4
+2026-11-26,QN1103,Douglaston-Little Neck,Queens,12,trees,4
+2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,41,noise,14
+2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,41,parking,14
+2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,41,streets,4
+2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,41,other,4
+2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,41,heat,3
+2026-11-26,BK1002,Dyker Heights,Brooklyn,35,parking,26
+2026-11-26,BK1002,Dyker Heights,Brooklyn,35,heat,7
+2026-11-26,QN0302,East Elmhurst,Queens,23,parking,10
+2026-11-26,QN0302,East Elmhurst,Queens,23,noise,5
+2026-11-26,QN0302,East Elmhurst,Queens,23,heat,3
+2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,107,heat,49
+2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,107,noise,24
+2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,107,housing,19
+2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,107,parking,10
+2026-11-26,BK1702,East Flatbush-Farragut,Brooklyn,22,heat,8
+2026-11-26,BK1702,East Flatbush-Farragut,Brooklyn,22,noise,4
+2026-11-26,BK1702,East Flatbush-Farragut,Brooklyn,22,streets,3
+2026-11-26,BK1702,East Flatbush-Farragut,Brooklyn,22,water,3
+2026-11-26,BK1704,East Flatbush-Remsen Village,Brooklyn,35,heat,11
+2026-11-26,BK1704,East Flatbush-Remsen Village,Brooklyn,35,noise,8
+2026-11-26,BK1704,East Flatbush-Remsen Village,Brooklyn,35,parking,7
+2026-11-26,BK1704,East Flatbush-Remsen Village,Brooklyn,35,trash,4
+2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,37,heat,11
+2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,37,housing,9
+2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,37,parking,6
+2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,37,noise,5
+2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,37,streets,3
+2026-11-26,QN0705,East Flushing,Queens,40,parking,14
+2026-11-26,QN0705,East Flushing,Queens,40,housing,11
+2026-11-26,QN0705,East Flushing,Queens,40,noise,5
+2026-11-26,QN0705,East Flushing,Queens,40,trees,4
+2026-11-26,QN0705,East Flushing,Queens,40,heat,3
+2026-11-26,MN1102,East Harlem (North),Manhattan,85,housing,37
+2026-11-26,MN1102,East Harlem (North),Manhattan,85,heat,17
+2026-11-26,MN1102,East Harlem (North),Manhattan,85,noise,15
+2026-11-26,MN1102,East Harlem (North),Manhattan,85,trash,5
+2026-11-26,MN1102,East Harlem (North),Manhattan,85,other,5
+2026-11-26,MN1102,East Harlem (North),Manhattan,85,parking,4
+2026-11-26,MN1101,East Harlem (South),Manhattan,40,noise,15
+2026-11-26,MN1101,East Harlem (South),Manhattan,40,heat,12
+2026-11-26,MN1101,East Harlem (South),Manhattan,40,other,4
+2026-11-26,MN0604,East Midtown-Turtle Bay,Manhattan,13,housing,5
+2026-11-26,MN0604,East Midtown-Turtle Bay,Manhattan,13,other,4
+2026-11-26,BK0502,East New York (North),Brooklyn,26,parking,9
+2026-11-26,BK0502,East New York (North),Brooklyn,26,housing,5
+2026-11-26,BK0502,East New York (North),Brooklyn,26,noise,4
+2026-11-26,BK0502,East New York (North),Brooklyn,26,trash,3
+2026-11-26,BK0505,East New York-City Line,Brooklyn,77,heat,34
+2026-11-26,BK0505,East New York-City Line,Brooklyn,77,housing,15
+2026-11-26,BK0505,East New York-City Line,Brooklyn,77,parking,10
+2026-11-26,BK0505,East New York-City Line,Brooklyn,77,noise,10
+2026-11-26,BK0505,East New York-City Line,Brooklyn,77,trash,6
+2026-11-26,BK0503,East New York-New Lots,Brooklyn,28,parking,12
+2026-11-26,BK0503,East New York-New Lots,Brooklyn,28,noise,8
+2026-11-26,BK0503,East New York-New Lots,Brooklyn,28,heat,5
+2026-11-26,BK0503,East New York-New Lots,Brooklyn,28,housing,3
+2026-11-26,MN0303,East Village,Manhattan,57,noise,12
+2026-11-26,MN0303,East Village,Manhattan,57,heat,12
+2026-11-26,MN0303,East Village,Manhattan,57,other,8
+2026-11-26,MN0303,East Village,Manhattan,57,parking,7
+2026-11-26,MN0303,East Village,Manhattan,57,housing,6
+2026-11-26,MN0303,East Village,Manhattan,57,trash,6
+2026-11-26,MN0303,East Village,Manhattan,57,streets,3
+2026-11-26,BK0104,East Williamsburg,Brooklyn,63,noise,14
+2026-11-26,BK0104,East Williamsburg,Brooklyn,63,streets,12
+2026-11-26,BK0104,East Williamsburg,Brooklyn,63,parking,9
+2026-11-26,BK0104,East Williamsburg,Brooklyn,63,housing,8
+2026-11-26,BK0104,East Williamsburg,Brooklyn,63,heat,8
+2026-11-26,BK0104,East Williamsburg,Brooklyn,63,other,5
+2026-11-26,BK0104,East Williamsburg,Brooklyn,63,trees,4
+2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,54,noise,17
+2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,54,parking,15
+2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,54,housing,10
+2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,54,streets,6
+2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,54,heat,3
+2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,54,trash,3
+2026-11-26,QN0401,Elmhurst,Queens,85,heat,29
+2026-11-26,QN0401,Elmhurst,Queens,85,parking,28
+2026-11-26,QN0401,Elmhurst,Queens,85,housing,12
+2026-11-26,QN0401,Elmhurst,Queens,85,noise,7
+2026-11-26,QN0401,Elmhurst,Queens,85,streets,3
+2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,66,water,16
+2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,66,noise,13
+2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,66,housing,13
+2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,66,heat,11
+2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,66,parking,6
+2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,66,other,3
+2026-11-26,MN0101,Financial District-Battery Park City,Manhattan,23,other,11
+2026-11-26,MN0101,Financial District-Battery Park City,Manhattan,23,noise,5
+2026-11-26,MN0101,Financial District-Battery Park City,Manhattan,23,streets,3
+2026-11-26,BK1401,Flatbush,Brooklyn,172,noise,83
+2026-11-26,BK1401,Flatbush,Brooklyn,172,heat,44
+2026-11-26,BK1401,Flatbush,Brooklyn,172,housing,23
+2026-11-26,BK1401,Flatbush,Brooklyn,172,parking,10
+2026-11-26,BK1401,Flatbush,Brooklyn,172,trees,6
+2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,46,parking,15
+2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,46,heat,12
+2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,46,housing,11
+2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,46,streets,4
+2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,46,other,3
+2026-11-26,BK1801,Flatlands,Brooklyn,44,parking,20
+2026-11-26,BK1801,Flatlands,Brooklyn,44,heat,8
+2026-11-26,BK1801,Flatlands,Brooklyn,44,housing,6
+2026-11-26,BK1801,Flatlands,Brooklyn,44,streets,5
+2026-11-26,BK1801,Flatlands,Brooklyn,44,trees,3
+2026-11-26,QN8191,Flushing Meadows-Corona Park,Queens,8,other,4
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,heat,24
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,streets,11
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,trash,8
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,parking,6
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,water,6
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,housing,4
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,noise,3
+2026-11-26,QN0707,Flushing-Willets Point,Queens,66,other,3
+2026-11-26,BX0503,Fordham Heights,Bronx,62,housing,24
+2026-11-26,BX0503,Fordham Heights,Bronx,62,heat,18
+2026-11-26,BX0503,Fordham Heights,Bronx,62,noise,8
+2026-11-26,BX0503,Fordham Heights,Bronx,62,parking,6
+2026-11-26,BX0503,Fordham Heights,Bronx,62,other,4
+2026-11-26,QN0602,Forest Hills,Queens,63,heat,17
+2026-11-26,QN0602,Forest Hills,Queens,63,other,11
+2026-11-26,QN0602,Forest Hills,Queens,63,noise,10
+2026-11-26,QN0602,Forest Hills,Queens,63,trees,9
+2026-11-26,QN0602,Forest Hills,Queens,63,housing,7
+2026-11-26,QN0602,Forest Hills,Queens,63,parking,7
+2026-11-26,QN8291,Forest Park,Queens,6,streets,6
+2026-11-26,BK0203,Fort Greene,Brooklyn,35,parking,13
+2026-11-26,BK0203,Fort Greene,Brooklyn,35,heat,8
+2026-11-26,BK0203,Fort Greene,Brooklyn,35,housing,7
+2026-11-26,BK0203,Fort Greene,Brooklyn,35,noise,4
+2026-11-26,QN0803,Fresh Meadows-Utopia,Queens,15,noise,7
+2026-11-26,QN0803,Fresh Meadows-Utopia,Queens,15,parking,5
+2026-11-26,QN1301,Glen Oaks-Floral Park-New Hyde Park,Queens,16,water,6
+2026-11-26,QN1301,Glen Oaks-Floral Park-New Hyde Park,Queens,16,trees,6
+2026-11-26,QN0503,Glendale,Queens,43,parking,25
+2026-11-26,QN0503,Glendale,Queens,43,noise,13
+2026-11-26,MN0602,Gramercy,Manhattan,29,housing,11
+2026-11-26,MN0602,Gramercy,Manhattan,29,noise,7
+2026-11-26,MN0602,Gramercy,Manhattan,29,other,6
+2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,23,parking,5
+2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,23,heat,4
+2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,23,trees,4
+2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,23,streets,3
+2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,23,noise,3
+2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,23,water,3
+2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,45,parking,17
+2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,45,heat,9
+2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,45,noise,5
+2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,45,trees,4
+2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,45,streets,4
+2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,45,housing,3
+2026-11-26,BK1301,Gravesend (South),Brooklyn,15,parking,4
+2026-11-26,BK1301,Gravesend (South),Brooklyn,15,heat,4
+2026-11-26,BK1103,Gravesend (West),Brooklyn,79,parking,29
+2026-11-26,BK1103,Gravesend (West),Brooklyn,79,streets,17
+2026-11-26,BK1103,Gravesend (West),Brooklyn,79,heat,13
+2026-11-26,BK1103,Gravesend (West),Brooklyn,79,housing,11
+2026-11-26,BK1103,Gravesend (West),Brooklyn,79,noise,8
+2026-11-26,SI0302,Great Kills-Eltingville,Staten Island,34,water,11
+2026-11-26,SI0302,Great Kills-Eltingville,Staten Island,34,parking,8
+2026-11-26,SI0302,Great Kills-Eltingville,Staten Island,34,streets,6
+2026-11-26,SI0302,Great Kills-Eltingville,Staten Island,34,trees,5
+2026-11-26,BK0101,Greenpoint,Brooklyn,62,parking,30
+2026-11-26,BK0101,Greenpoint,Brooklyn,62,noise,7
+2026-11-26,BK0101,Greenpoint,Brooklyn,62,heat,7
+2026-11-26,BK0101,Greenpoint,Brooklyn,62,housing,6
+2026-11-26,BK0101,Greenpoint,Brooklyn,62,trees,4
+2026-11-26,BK0101,Greenpoint,Brooklyn,62,other,4
+2026-11-26,MN0202,Greenwich Village,Manhattan,16,other,6
+2026-11-26,MN0202,Greenwich Village,Manhattan,16,noise,6
+2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,114,heat,49
+2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,114,noise,26
+2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,114,housing,25
+2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,114,streets,6
+2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,114,trash,4
+2026-11-26,MN1002,Harlem (North),Manhattan,157,heat,60
+2026-11-26,MN1002,Harlem (North),Manhattan,157,noise,52
+2026-11-26,MN1002,Harlem (North),Manhattan,157,housing,34
+2026-11-26,MN1002,Harlem (North),Manhattan,157,other,4
+2026-11-26,MN1002,Harlem (North),Manhattan,157,parking,3
+2026-11-26,MN1001,Harlem (South),Manhattan,111,heat,50
+2026-11-26,MN1001,Harlem (South),Manhattan,111,noise,22
+2026-11-26,MN1001,Harlem (South),Manhattan,111,housing,16
+2026-11-26,MN1001,Harlem (South),Manhattan,111,parking,13
+2026-11-26,MN1001,Harlem (South),Manhattan,111,streets,6
+2026-11-26,MN1001,Harlem (South),Manhattan,111,other,3
+2026-11-26,MN0402,Hell's Kitchen,Manhattan,42,housing,13
+2026-11-26,MN0402,Hell's Kitchen,Manhattan,42,noise,11
+2026-11-26,MN0402,Hell's Kitchen,Manhattan,42,other,10
+2026-11-26,MN0402,Hell's Kitchen,Manhattan,42,heat,3
+2026-11-26,BX0402,Highbridge,Bronx,82,heat,37
+2026-11-26,BX0402,Highbridge,Bronx,82,housing,23
+2026-11-26,BX0402,Highbridge,Bronx,82,noise,14
+2026-11-26,BX0402,Highbridge,Bronx,82,parking,4
+2026-11-26,BX0402,Highbridge,Bronx,82,trash,3
+2026-11-26,QN1206,Hollis,Queens,16,parking,8
+2026-11-26,QN1206,Hollis,Queens,16,heat,3
+2026-11-26,QN1206,Hollis,Queens,16,housing,3
+2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,39,parking,10
+2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,39,trees,9
+2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,39,water,8
+2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,39,streets,6
+2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,39,noise,4
+2026-11-26,BX0201,Hunts Point,Bronx,21,heat,11
+2026-11-26,BX0201,Hunts Point,Bronx,21,noise,4
+2026-11-26,BX0201,Hunts Point,Bronx,21,housing,4
+2026-11-26,BX1161,Hutchinson Metro Center,Bronx,3,streets,3
+2026-11-26,MN1203,Inwood,Manhattan,100,heat,50
+2026-11-26,MN1203,Inwood,Manhattan,100,noise,31
+2026-11-26,MN1203,Inwood,Manhattan,100,housing,11
+2026-11-26,MN1203,Inwood,Manhattan,100,parking,3
+2026-11-26,QN0301,Jackson Heights,Queens,122,parking,36
+2026-11-26,QN0301,Jackson Heights,Queens,122,heat,27
+2026-11-26,QN0301,Jackson Heights,Queens,122,noise,23
+2026-11-26,QN0301,Jackson Heights,Queens,122,housing,20
+2026-11-26,QN0301,Jackson Heights,Queens,122,streets,6
+2026-11-26,QN0301,Jackson Heights,Queens,122,trash,4
+2026-11-26,QN1201,Jamaica,Queens,75,heat,18
+2026-11-26,QN1201,Jamaica,Queens,75,housing,16
+2026-11-26,QN1201,Jamaica,Queens,75,parking,15
+2026-11-26,QN1201,Jamaica,Queens,75,noise,9
+2026-11-26,QN1201,Jamaica,Queens,75,water,8
+2026-11-26,QN1201,Jamaica,Queens,75,streets,6
+2026-11-26,QN0804,Jamaica Estates-Holliswood,Queens,13,housing,4
+2026-11-26,QN0804,Jamaica Estates-Holliswood,Queens,13,heat,4
+2026-11-26,QN0805,Jamaica Hills-Briarwood,Queens,34,housing,12
+2026-11-26,QN0805,Jamaica Hills-Briarwood,Queens,34,heat,6
+2026-11-26,QN0805,Jamaica Hills-Briarwood,Queens,34,parking,6
+2026-11-26,QN0805,Jamaica Hills-Briarwood,Queens,34,noise,5
+2026-11-26,QN8381,John F. Kennedy International Airport,Queens,32,other,20
+2026-11-26,QN8381,John F. Kennedy International Airport,Queens,32,parking,12
+2026-11-26,BK1203,Kensington,Brooklyn,41,noise,11
+2026-11-26,BK1203,Kensington,Brooklyn,41,parking,8
+2026-11-26,BK1203,Kensington,Brooklyn,41,heat,7
+2026-11-26,BK1203,Kensington,Brooklyn,41,housing,6
+2026-11-26,QN0901,Kew Gardens,Queens,22,noise,8
+2026-11-26,QN0901,Kew Gardens,Queens,22,heat,5
+2026-11-26,QN0901,Kew Gardens,Queens,22,parking,4
+2026-11-26,QN0801,Kew Gardens Hills,Queens,26,heat,8
+2026-11-26,QN0801,Kew Gardens Hills,Queens,26,noise,5
+2026-11-26,QN0801,Kew Gardens Hills,Queens,26,streets,5
+2026-11-26,QN0801,Kew Gardens Hills,Queens,26,parking,4
+2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,94,parking,27
+2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,94,noise,24
+2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,94,heat,24
+2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,94,housing,16
+2026-11-26,BX0802,Kingsbridge-Marble Hill,Bronx,28,heat,12
+2026-11-26,BX0802,Kingsbridge-Marble Hill,Bronx,28,parking,5
+2026-11-26,BX0802,Kingsbridge-Marble Hill,Bronx,28,noise,4
+2026-11-26,BX0802,Kingsbridge-Marble Hill,Bronx,28,streets,3
+2026-11-26,QN1305,Laurelton,Queens,12,parking,6
+2026-11-26,QN0201,Long Island City-Hunters Point,Queens,55,parking,40
+2026-11-26,QN0201,Long Island City-Hunters Point,Queens,55,streets,5
+2026-11-26,QN0201,Long Island City-Hunters Point,Queens,55,housing,5
+2026-11-26,BX0202,Longwood,Bronx,57,heat,32
+2026-11-26,BX0202,Longwood,Bronx,57,housing,13
+2026-11-26,BX0202,Longwood,Bronx,57,noise,6
+2026-11-26,BX0202,Longwood,Bronx,57,parking,3
+2026-11-26,MN0302,Lower East Side,Manhattan,37,noise,16
+2026-11-26,MN0302,Lower East Side,Manhattan,37,heat,7
+2026-11-26,MN0302,Lower East Side,Manhattan,37,housing,5
+2026-11-26,MN0302,Lower East Side,Manhattan,37,streets,3
+2026-11-26,BK1502,Madison,Brooklyn,38,parking,14
+2026-11-26,BK1502,Madison,Brooklyn,38,housing,13
+2026-11-26,BK1502,Madison,Brooklyn,38,heat,6
+2026-11-26,BK1502,Madison,Brooklyn,38,noise,5
+2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,46,heat,15
+2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,46,housing,14
+2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,46,noise,9
+2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,46,streets,5
+2026-11-26,BK1204,Mapleton-Midwood (West),Brooklyn,32,parking,13
+2026-11-26,BK1204,Mapleton-Midwood (West),Brooklyn,32,heat,8
+2026-11-26,BK1204,Mapleton-Midwood (West),Brooklyn,32,streets,6
+2026-11-26,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,39,parking,21
+2026-11-26,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,39,streets,5
+2026-11-26,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,39,trees,3
+2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,32,parking,12
+2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,32,noise,8
+2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,32,housing,6
+2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,32,heat,3
+2026-11-26,QN0501,Maspeth,Queens,69,parking,58
+2026-11-26,QN0501,Maspeth,Queens,69,housing,3
+2026-11-26,QN0501,Maspeth,Queens,69,other,3
+2026-11-26,BX0102,Melrose,Bronx,54,heat,18
+2026-11-26,BX0102,Melrose,Bronx,54,parking,12
+2026-11-26,BX0102,Melrose,Bronx,54,streets,8
+2026-11-26,BX0102,Melrose,Bronx,54,noise,7
+2026-11-26,BX0102,Melrose,Bronx,54,housing,4
+2026-11-26,BX0102,Melrose,Bronx,54,water,3
+2026-11-26,QN0504,Middle Village,Queens,25,parking,15
+2026-11-26,QN0504,Middle Village,Queens,25,noise,4
+2026-11-26,QN0504,Middle Village,Queens,25,heat,3
+2026-11-26,MN0501,Midtown South-Flatiron-Union Square,Manhattan,21,other,13
+2026-11-26,MN0501,Midtown South-Flatiron-Union Square,Manhattan,21,trash,3
+2026-11-26,MN0502,Midtown-Times Square,Manhattan,49,other,28
+2026-11-26,MN0502,Midtown-Times Square,Manhattan,49,noise,5
+2026-11-26,MN0502,Midtown-Times Square,Manhattan,49,streets,5
+2026-11-26,MN0502,Midtown-Times Square,Manhattan,49,housing,4
+2026-11-26,BK1403,Midwood,Brooklyn,61,heat,24
+2026-11-26,BK1403,Midwood,Brooklyn,61,housing,11
+2026-11-26,BK1403,Midwood,Brooklyn,61,parking,9
+2026-11-26,BK1403,Midwood,Brooklyn,61,streets,7
+2026-11-26,BK1403,Midwood,Brooklyn,61,noise,5
+2026-11-26,BK1403,Midwood,Brooklyn,61,trees,3
+2026-11-26,MN0901,Morningside Heights,Manhattan,16,noise,4
+2026-11-26,MN0901,Morningside Heights,Manhattan,16,other,4
+2026-11-26,MN0901,Morningside Heights,Manhattan,16,heat,3
+2026-11-26,BX1102,Morris Park,Bronx,35,parking,14
+2026-11-26,BX1102,Morris Park,Bronx,35,noise,7
+2026-11-26,BX1102,Morris Park,Bronx,35,housing,3
+2026-11-26,BX1102,Morris Park,Bronx,35,streets,3
+2026-11-26,BX1102,Morris Park,Bronx,35,heat,3
+2026-11-26,BX0301,Morrisania,Bronx,47,noise,20
+2026-11-26,BX0301,Morrisania,Bronx,47,heat,12
+2026-11-26,BX0301,Morrisania,Bronx,47,parking,7
+2026-11-26,BX0301,Morrisania,Bronx,47,housing,6
+2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,93,noise,25
+2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,93,housing,24
+2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,93,heat,23
+2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,93,parking,15
+2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,93,streets,4
+2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,58,heat,32
+2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,58,housing,15
+2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,58,parking,4
+2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,58,noise,3
+2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,58,other,3
+2026-11-26,BX0502,Mount Hope,Bronx,116,heat,35
+2026-11-26,BX0502,Mount Hope,Bronx,116,noise,31
+2026-11-26,BX0502,Mount Hope,Bronx,116,housing,23
+2026-11-26,BX0502,Mount Hope,Bronx,116,parking,16
+2026-11-26,BX0502,Mount Hope,Bronx,116,other,9
+2026-11-26,QN0704,Murray Hill-Broadway Flushing,Queens,30,parking,13
+2026-11-26,QN0704,Murray Hill-Broadway Flushing,Queens,30,heat,6
+2026-11-26,QN0704,Murray Hill-Broadway Flushing,Queens,30,streets,3
+2026-11-26,QN0704,Murray Hill-Broadway Flushing,Queens,30,noise,3
+2026-11-26,MN0603,Murray Hill-Kips Bay,Manhattan,37,streets,11
+2026-11-26,MN0603,Murray Hill-Kips Bay,Manhattan,37,noise,7
+2026-11-26,MN0603,Murray Hill-Kips Bay,Manhattan,37,other,5
+2026-11-26,MN0603,Murray Hill-Kips Bay,Manhattan,37,critters,4
+2026-11-26,SI0202,New Dorp-Midland Beach,Staten Island,27,water,14
+2026-11-26,SI0202,New Dorp-Midland Beach,Staten Island,27,parking,4
+2026-11-26,SI0202,New Dorp-Midland Beach,Staten Island,27,trees,3
+2026-11-26,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,20,parking,6
+2026-11-26,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,20,streets,5
+2026-11-26,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,20,noise,3
+2026-11-26,QN0303,North Corona,Queens,35,parking,16
+2026-11-26,QN0303,North Corona,Queens,35,noise,11
+2026-11-26,QN0303,North Corona,Queens,35,trees,3
+2026-11-26,BX0703,Norwood,Bronx,91,heat,43
+2026-11-26,BX0703,Norwood,Bronx,91,housing,20
+2026-11-26,BX0703,Norwood,Bronx,91,noise,16
+2026-11-26,BX0703,Norwood,Bronx,91,parking,10
+2026-11-26,QN1104,Oakland Gardens-Hollis Hills,Queens,17,parking,11
+2026-11-26,QN1104,Oakland Gardens-Hollis Hills,Queens,17,heat,4
+2026-11-26,SI0301,Oakwood-Richmondtown,Staten Island,17,trees,5
+2026-11-26,SI0301,Oakwood-Richmondtown,Staten Island,17,parking,5
+2026-11-26,BK1601,Ocean Hill,Brooklyn,34,parking,9
+2026-11-26,BK1601,Ocean Hill,Brooklyn,34,heat,7
+2026-11-26,BK1601,Ocean Hill,Brooklyn,34,housing,5
+2026-11-26,BK1601,Ocean Hill,Brooklyn,34,noise,4
+2026-11-26,BK1601,Ocean Hill,Brooklyn,34,water,3
+2026-11-26,QN0102,Old Astoria-Hallets Point,Queens,27,noise,9
+2026-11-26,QN0102,Old Astoria-Hallets Point,Queens,27,parking,8
+2026-11-26,QN0102,Old Astoria-Hallets Point,Queens,27,housing,5
+2026-11-26,QN0102,Old Astoria-Hallets Point,Queens,27,heat,3
+2026-11-26,QN1002,Ozone Park,Queens,24,parking,11
+2026-11-26,QN1002,Ozone Park,Queens,24,heat,6
+2026-11-26,QN1002,Ozone Park,Queens,24,noise,5
+2026-11-26,QN0904,Ozone Park (North),Queens,19,parking,15
+2026-11-26,QN0904,Ozone Park (North),Queens,19,noise,3
+2026-11-26,BK0602,Park Slope,Brooklyn,22,heat,10
+2026-11-26,BK0602,Park Slope,Brooklyn,22,trees,4
+2026-11-26,BK0602,Park Slope,Brooklyn,22,housing,4
+2026-11-26,BX0904,Parkchester,Bronx,54,heat,33
+2026-11-26,BX0904,Parkchester,Bronx,54,housing,12
+2026-11-26,BX0904,Parkchester,Bronx,54,noise,6
+2026-11-26,BX0904,Parkchester,Bronx,54,trees,3
+2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,49,heat,21
+2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,49,parking,12
+2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,49,water,3
+2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,49,housing,3
+2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,49,noise,3
+2026-11-26,BX1103,Pelham Gardens,Bronx,40,housing,11
+2026-11-26,BX1103,Pelham Gardens,Bronx,40,parking,9
+2026-11-26,BX1103,Pelham Gardens,Bronx,40,noise,7
+2026-11-26,BX1103,Pelham Gardens,Bronx,40,streets,6
+2026-11-26,BX1103,Pelham Gardens,Bronx,40,trees,5
+2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,56,heat,30
+2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,56,parking,8
+2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,56,housing,5
+2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,56,water,4
+2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,56,noise,4
+2026-11-26,QN0802,Pomonok-Electchester-Hillcrest,Queens,39,noise,14
+2026-11-26,QN0802,Pomonok-Electchester-Hillcrest,Queens,39,parking,9
+2026-11-26,QN0802,Pomonok-Electchester-Hillcrest,Queens,39,streets,6
+2026-11-26,QN0802,Pomonok-Electchester-Hillcrest,Queens,39,heat,3
+2026-11-26,SI0106,Port Richmond,Staten Island,30,noise,10
+2026-11-26,SI0106,Port Richmond,Staten Island,30,parking,9
+2026-11-26,SI0106,Port Richmond,Staten Island,30,housing,4
+2026-11-26,SI0106,Port Richmond,Staten Island,30,heat,3
+2026-11-26,SI0106,Port Richmond,Staten Island,30,other,3
+2026-11-26,BK0801,Prospect Heights,Brooklyn,14,noise,3
+2026-11-26,BK0801,Prospect Heights,Brooklyn,14,heat,3
+2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,72,heat,32
+2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,72,housing,15
+2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,72,noise,14
+2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,72,parking,4
+2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,72,streets,3
+2026-11-26,QN1303,Queens Village,Queens,26,parking,6
+2026-11-26,QN1303,Queens Village,Queens,26,heat,6
+2026-11-26,QN1303,Queens Village,Queens,26,housing,4
+2026-11-26,QN1303,Queens Village,Queens,26,trees,4
+2026-11-26,QN1303,Queens Village,Queens,26,noise,4
+2026-11-26,QN0706,Queensboro Hill,Queens,15,parking,10
+2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,35,noise,15
+2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,35,heat,6
+2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,35,housing,5
+2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,35,other,3
+2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,35,parking,3
+2026-11-26,QN0601,Rego Park,Queens,28,heat,9
+2026-11-26,QN0601,Rego Park,Queens,28,housing,8
+2026-11-26,QN0601,Rego Park,Queens,28,parking,5
+2026-11-26,QN0601,Rego Park,Queens,28,noise,5
+2026-11-26,QN0902,Richmond Hill,Queens,28,parking,13
+2026-11-26,QN0902,Richmond Hill,Queens,28,housing,3
+2026-11-26,QN0902,Richmond Hill,Queens,28,trash,3
+2026-11-26,QN0902,Richmond Hill,Queens,28,heat,3
+2026-11-26,QN0502,Ridgewood,Queens,58,noise,24
+2026-11-26,QN0502,Ridgewood,Queens,58,parking,12
+2026-11-26,QN0502,Ridgewood,Queens,58,heat,5
+2026-11-26,QN0502,Ridgewood,Queens,58,housing,5
+2026-11-26,QN0502,Ridgewood,Queens,58,other,4
+2026-11-26,QN0502,Ridgewood,Queens,58,streets,3
+2026-11-26,BX0803,Riverdale-Spuyten Duyvil,Bronx,44,parking,18
+2026-11-26,BX0803,Riverdale-Spuyten Duyvil,Bronx,44,heat,11
+2026-11-26,BX0803,Riverdale-Spuyten Duyvil,Bronx,44,housing,9
+2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,74,housing,29
+2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,74,noise,15
+2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,74,water,12
+2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,74,heat,7
+2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,74,parking,5
+2026-11-26,SI0103,Rosebank-Shore Acres-Park Hill,Staten Island,11,parking,5
+2026-11-26,QN1307,Rosedale,Queens,14,streets,5
+2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,99,parking,30
+2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,99,housing,19
+2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,99,heat,17
+2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,99,streets,12
+2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,99,noise,9
+2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,99,water,8
+2026-11-26,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,17,other,6
+2026-11-26,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,17,noise,5
+2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,100,heat,34
+2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,100,parking,30
+2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,100,housing,19
+2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,100,noise,12
+2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,100,other,3
+2026-11-26,BX0902,Soundview-Clason Point,Bronx,30,heat,11
+2026-11-26,BX0902,Soundview-Clason Point,Bronx,30,parking,8
+2026-11-26,BX0902,Soundview-Clason Point,Bronx,30,noise,5
+2026-11-26,BX0902,Soundview-Clason Point,Bronx,30,housing,3
+2026-11-26,QN1202,South Jamaica,Queens,42,parking,17
+2026-11-26,QN1202,South Jamaica,Queens,42,housing,6
+2026-11-26,QN1202,South Jamaica,Queens,42,streets,4
+2026-11-26,QN1202,South Jamaica,Queens,42,other,3
+2026-11-26,QN1202,South Jamaica,Queens,42,trees,3
+2026-11-26,QN1202,South Jamaica,Queens,42,heat,3
+2026-11-26,QN1202,South Jamaica,Queens,42,water,3
+2026-11-26,QN1202,South Jamaica,Queens,42,noise,3
+2026-11-26,QN1001,South Ozone Park,Queens,81,noise,23
+2026-11-26,QN1001,South Ozone Park,Queens,81,parking,21
+2026-11-26,QN1001,South Ozone Park,Queens,81,housing,13
+2026-11-26,QN1001,South Ozone Park,Queens,81,trees,9
+2026-11-26,QN1001,South Ozone Park,Queens,81,heat,4
+2026-11-26,QN1001,South Ozone Park,Queens,81,water,4
+2026-11-26,QN1001,South Ozone Park,Queens,81,streets,3
+2026-11-26,QN1001,South Ozone Park,Queens,81,trash,3
+2026-11-26,QN0903,South Richmond Hill,Queens,18,parking,12
+2026-11-26,BK0103,South Williamsburg,Brooklyn,11,heat,5
+2026-11-26,BK0504,Spring Creek-Starrett City,Brooklyn,17,heat,7
+2026-11-26,BK0504,Spring Creek-Starrett City,Brooklyn,17,parking,3
+2026-11-26,BK0504,Spring Creek-Starrett City,Brooklyn,17,housing,3
+2026-11-26,QN1204,Springfield Gardens (North)-Rochdale Village,Queens,9,parking,3
+2026-11-26,QN1306,Springfield Gardens (South)-Brookville,Queens,11,parking,6
+2026-11-26,QN1306,Springfield Gardens (South)-Brookville,Queens,11,water,3
+2026-11-26,QN1205,St. Albans,Queens,31,parking,14
+2026-11-26,QN1205,St. Albans,Queens,31,housing,5
+2026-11-26,QN1205,St. Albans,Queens,31,noise,4
+2026-11-26,QN1205,St. Albans,Queens,31,heat,3
+2026-11-26,SI0101,St. George-New Brighton,Staten Island,16,parking,4
+2026-11-26,SI0101,St. George-New Brighton,Staten Island,16,streets,3
+2026-11-26,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,13,noise,4
+2026-11-26,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,13,heat,4
+2026-11-26,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,13,streets,3
+2026-11-26,QN0202,Sunnyside,Queens,71,heat,22
+2026-11-26,QN0202,Sunnyside,Queens,71,housing,16
+2026-11-26,QN0202,Sunnyside,Queens,71,parking,10
+2026-11-26,QN0202,Sunnyside,Queens,71,other,8
+2026-11-26,QN0202,Sunnyside,Queens,71,noise,6
+2026-11-26,QN0202,Sunnyside,Queens,71,streets,3
+2026-11-26,QN0202,Sunnyside,Queens,71,trees,3
+2026-11-26,BK0703,Sunset Park (Central),Brooklyn,21,parking,11
+2026-11-26,BK0703,Sunset Park (Central),Brooklyn,21,heat,3
+2026-11-26,BK0703,Sunset Park (Central),Brooklyn,21,housing,3
+2026-11-26,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,24,parking,14
+2026-11-26,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,24,noise,6
+2026-11-26,BK0702,Sunset Park (West),Brooklyn,40,heat,15
+2026-11-26,BK0702,Sunset Park (West),Brooklyn,40,noise,7
+2026-11-26,BK0702,Sunset Park (West),Brooklyn,40,housing,5
+2026-11-26,BK0702,Sunset Park (West),Brooklyn,40,parking,5
+2026-11-26,BK0702,Sunset Park (West),Brooklyn,40,trash,3
+2026-11-26,BX1002,Throgs Neck-Schuylerville,Bronx,47,parking,23
+2026-11-26,BX1002,Throgs Neck-Schuylerville,Bronx,47,trees,9
+2026-11-26,BX1002,Throgs Neck-Schuylerville,Bronx,47,housing,6
+2026-11-26,BX1002,Throgs Neck-Schuylerville,Bronx,47,heat,4
+2026-11-26,SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,Staten Island,13,parking,4
+2026-11-26,SI0203,Todt Hill-Emerson Hill-Lighthouse Hill-Manor Heights,Staten Island,13,trees,3
+2026-11-26,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,19,noise,7
+2026-11-26,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,19,parking,4
+2026-11-26,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,19,water,3
+2026-11-26,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,19,trash,3
+2026-11-26,SI0305,Tottenville-Charleston,Staten Island,8,water,4
+2026-11-26,BX0602,Tremont,Bronx,33,noise,15
+2026-11-26,BX0602,Tremont,Bronx,33,heat,13
+2026-11-26,BX0602,Tremont,Bronx,33,housing,4
+2026-11-26,MN0102,Tribeca-Civic Center,Manhattan,20,streets,7
+2026-11-26,MN0102,Tribeca-Civic Center,Manhattan,20,other,5
+2026-11-26,MN0102,Tribeca-Civic Center,Manhattan,20,heat,5
+2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,73,heat,34
+2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,73,noise,23
+2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,73,housing,8
+2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,73,parking,6
+2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,84,heat,33
+2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,84,housing,26
+2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,84,noise,8
+2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,84,parking,7
+2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,84,trees,3
+2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,84,water,3
+2026-11-26,MN0802,Upper East Side-Carnegie Hill,Manhattan,32,streets,12
+2026-11-26,MN0802,Upper East Side-Carnegie Hill,Manhattan,32,other,6
+2026-11-26,MN0802,Upper East Side-Carnegie Hill,Manhattan,32,parking,6
+2026-11-26,MN0802,Upper East Side-Carnegie Hill,Manhattan,32,heat,4
+2026-11-26,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,23,housing,8
+2026-11-26,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,23,other,8
+2026-11-26,MN0801,Upper East Side-Lenox Hill-Roosevelt Island,Manhattan,23,heat,3
+2026-11-26,MN0803,Upper East Side-Yorkville,Manhattan,23,noise,8
+2026-11-26,MN0803,Upper East Side-Yorkville,Manhattan,23,other,6
+2026-11-26,MN0803,Upper East Side-Yorkville,Manhattan,23,heat,3
+2026-11-26,MN0803,Upper East Side-Yorkville,Manhattan,23,trees,3
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,heat,16
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,noise,14
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,parking,12
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,streets,8
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,other,7
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,housing,7
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,trees,5
+2026-11-26,MN0702,Upper West Side (Central),Manhattan,72,trash,3
+2026-11-26,MN0701,Upper West Side-Lincoln Square,Manhattan,30,noise,10
+2026-11-26,MN0701,Upper West Side-Lincoln Square,Manhattan,30,housing,6
+2026-11-26,MN0701,Upper West Side-Lincoln Square,Manhattan,30,other,6
+2026-11-26,MN0701,Upper West Side-Lincoln Square,Manhattan,30,streets,5
+2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,housing,16
+2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,heat,16
+2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,noise,5
+2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,streets,5
+2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,50,trash,3
+2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,84,heat,34
+2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,84,housing,19
+2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,84,parking,13
+2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,84,noise,7
+2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,84,trees,7
+2026-11-26,MN1202,Washington Heights (North),Manhattan,116,heat,51
+2026-11-26,MN1202,Washington Heights (North),Manhattan,116,noise,27
+2026-11-26,MN1202,Washington Heights (North),Manhattan,116,housing,21
+2026-11-26,MN1202,Washington Heights (North),Manhattan,116,parking,9
+2026-11-26,MN1202,Washington Heights (North),Manhattan,116,water,4
+2026-11-26,MN1201,Washington Heights (South),Manhattan,114,heat,44
+2026-11-26,MN1201,Washington Heights (South),Manhattan,114,housing,31
+2026-11-26,MN1201,Washington Heights (South),Manhattan,114,noise,29
+2026-11-26,MN1201,Washington Heights (South),Manhattan,114,other,5
+2026-11-26,MN1201,Washington Heights (South),Manhattan,114,parking,3
+2026-11-26,BX0601,West Farms,Bronx,28,housing,10
+2026-11-26,BX0601,West Farms,Bronx,28,heat,10
+2026-11-26,BX0601,West Farms,Bronx,28,noise,4
+2026-11-26,SI0104,West New Brighton-Silver Lake-Grymes Hill,Staten Island,18,heat,5
+2026-11-26,SI0104,West New Brighton-Silver Lake-Grymes Hill,Staten Island,18,streets,3
+2026-11-26,MN0203,West Village,Manhattan,12,housing,3
+2026-11-26,MN0203,West Village,Manhattan,12,heat,3
+2026-11-26,BX1001,Westchester Square,Bronx,35,housing,15
+2026-11-26,BX1001,Westchester Square,Bronx,35,heat,9
+2026-11-26,BX1001,Westchester Square,Bronx,35,parking,4
+2026-11-26,BX1001,Westchester Square,Bronx,35,streets,4
+2026-11-26,SI0105,Westerleigh-Castleton Corners,Staten Island,23,streets,11
+2026-11-26,SI0105,Westerleigh-Castleton Corners,Staten Island,23,parking,4
+2026-11-26,SI0105,Westerleigh-Castleton Corners,Staten Island,23,trash,3
+2026-11-26,QN0702,Whitestone-Beechhurst,Queens,19,trees,7
+2026-11-26,QN0702,Whitestone-Beechhurst,Queens,19,parking,6
+2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,84,housing,33
+2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,84,heat,24
+2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,84,parking,12
+2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,84,noise,11
+2026-11-26,BK0102,Williamsburg,Brooklyn,61,noise,18
+2026-11-26,BK0102,Williamsburg,Brooklyn,61,housing,12
+2026-11-26,BK0102,Williamsburg,Brooklyn,61,other,11
+2026-11-26,BK0102,Williamsburg,Brooklyn,61,heat,11
+2026-11-26,BK0102,Williamsburg,Brooklyn,61,streets,4
+2026-11-26,BK0102,Williamsburg,Brooklyn,61,parking,3
+2026-11-26,BK0701,Windsor Terrace-South Slope,Brooklyn,14,heat,5
+2026-11-26,BK0701,Windsor Terrace-South Slope,Brooklyn,14,housing,3
+2026-11-26,QN0905,Woodhaven,Queens,73,parking,67
+2026-11-26,QN0905,Woodhaven,Queens,73,streets,4
+2026-11-26,QN0203,Woodside,Queens,41,parking,11
+2026-11-26,QN0203,Woodside,Queens,41,heat,9
+2026-11-26,QN0203,Woodside,Queens,41,noise,6
+2026-11-26,QN0203,Woodside,Queens,41,streets,6
+2026-11-26,QN0203,Woodside,Queens,41,housing,5

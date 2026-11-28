@@ -197,3 +197,14 @@ date,weekday,mood,mood_label,requests,usual,high_f,low_f,rain_in
 2026-11-25,Wednesday,water,Water & sewers,243,258,43,32,0
 2026-11-25,Wednesday,critters,Critters,118,157,43,32,0
 2026-11-25,Wednesday,trees,Trees,69,146,43,32,0
+2026-11-26,Thursday,all,All requests,9200,11596,52,42,1.61
+2026-11-26,Thursday,heat,No heat,2249,1024,52,42,1.61
+2026-11-26,Thursday,parking,Parking wars,1923,2964,52,42,1.61
+2026-11-26,Thursday,noise,Noise,1590,1638,52,42,1.61
+2026-11-26,Thursday,housing,Home repairs,1577,2466,52,42,1.61
+2026-11-26,Thursday,streets,Street fixes,572,958,52,42,1.61
+2026-11-26,Thursday,other,Everything else,448,1132,52,42,1.61
+2026-11-26,Thursday,trees,Trees,305,151,52,42,1.61
+2026-11-26,Thursday,water,Water & sewers,272,438,52,42,1.61
+2026-11-26,Thursday,trash,Trash talk,209,662,52,42,1.61
+2026-11-26,Thursday,critters,Critters,55,162,52,42,1.61

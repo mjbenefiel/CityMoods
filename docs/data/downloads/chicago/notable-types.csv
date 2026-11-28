@@ -278,3 +278,18 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-26,Thursday,Pothole,streets,20,64,0.31,top
 2026-11-26,Thursday,Plumbing violation,housing,18,30,0.61,top
 2026-11-26,Thursday,Building violation,housing,18,74,0.24,top
+2026-11-27,Friday,Water on street,water,34,6,5.91,spike
+2026-11-27,Friday,Tree emergency,trees,42,22,1.95,spike
+2026-11-27,Friday,Missed garbage pickup,trash,49,30,1.65,spike
+2026-11-27,Friday,Tree trim (no longer accepted),trees,205,220,0.93,top
+2026-11-27,Friday,Busted garbage cart,trash,89,145,0.61,top
+2026-11-27,Friday,Abandoned car,parking,77,148,0.52,top
+2026-11-27,Friday,Traffic signal out,streets,67,78,0.86,top
+2026-11-27,Friday,Graffiti,trash,64,366,0.17,top
+2026-11-27,Friday,Yard waste pickup,trash,57,64,0.89,top
+2026-11-27,Friday,Rats,critters,57,144,0.4,top
+2026-11-27,Friday,Street light out,streets,56,58,0.97,top
+2026-11-27,Friday,Recycling cart,trash,38,64,0.59,top
+2026-11-27,Friday,Parking enforcement review,parking,34,69,0.49,top
+2026-11-27,Friday,Building violation,housing,33,60,0.55,top
+2026-11-27,Friday,Lead test kit,water,32,111,0.29,top

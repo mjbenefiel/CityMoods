@@ -525,3 +525,34 @@ date,weekday,request_type,mood,requests,usual,ratio,kind
 2026-11-25,Wednesday,Peeling paint or plaster,housing,193,231,0.83,top
 2026-11-25,Wednesday,Street noise,noise,165,328,0.5,top
 2026-11-25,Wednesday,General repairs,housing,154,156,0.99,top
+2026-11-26,Thursday,Remove debris,trash,31,1,31.0,spike
+2026-11-26,Thursday,Entire tree has fallen down: blocking street,trees,50,2,28.57,spike
+2026-11-26,Thursday,Entire tree has fallen down: blocking sidewalk,trees,34,3,12.36,spike
+2026-11-26,Thursday,Fire escape: rusted or peeling,housing,34,4,8.0,spike
+2026-11-26,Thursday,Traffic signal acting up,streets,247,69,3.57,spike
+2026-11-26,Thursday,No heat and no hot water (one apartment),heat,136,48,2.82,spike
+2026-11-26,Thursday,Damaged tree,trees,260,56,4.68,spike
+2026-11-26,Thursday,Traffic signal problem,streets,380,166,2.29,spike
+2026-11-26,Thursday,No heat or hot water,heat,2233,1009,2.21,spike
+2026-11-26,Thursday,Water leak,housing,346,195,1.78,spike
+2026-11-26,Thursday,No heat (whole building),heat,998,436,2.29,top
+2026-11-26,Thursday,Blocked hydrant,parking,556,489,1.14,top
+2026-11-26,Thursday,Banging/pounding (next door),noise,548,420,1.3,top
+2026-11-26,Thursday,No heat (one apartment),heat,548,224,2.45,top
+2026-11-26,Thursday,Loud music/party (next door),noise,544,278,1.96,top
+2026-11-26,Thursday,Driveway fully blocked,parking,489,430,1.14,top
+2026-11-26,Thursday,No heat and no hot water (whole building),heat,415,159,2.61,top
+2026-11-26,Thursday,Heavy flow: at wall or ceiling,housing,195,83,2.36,top
+2026-11-26,Thursday,Blocked sidewalk,parking,190,292,0.65,top
+2026-11-26,Thursday,Posted parking sign violation,parking,187,608,0.31,top
+2026-11-26,Thursday,Driveway partly blocked,parking,124,157,0.79,top
+2026-11-26,Thursday,Slow leak: at wall or ceiling,housing,114,83,1.38,top
+2026-11-26,Thursday,No hot water (whole building),heat,96,87,1.11,top
+2026-11-26,Thursday,Illegal parking,parking,1265,2022,0.63,top
+2026-11-26,Thursday,Noisy neighbors,noise,1188,803,1.48,top
+2026-11-26,Thursday,Blocked driveway,parking,613,586,1.05,top
+2026-11-26,Thursday,Sewer problem,water,208,258,0.81,top
+2026-11-26,Thursday,Unsanitary apartment,housing,202,508,0.4,top
+2026-11-26,Thursday,Plumbing,housing,194,269,0.72,top
+2026-11-26,Thursday,General repairs,housing,161,170,0.94,top
+2026-11-26,Thursday,Street noise,noise,124,300,0.41,top

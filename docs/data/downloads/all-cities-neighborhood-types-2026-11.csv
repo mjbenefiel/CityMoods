@@ -14645,6 +14645,775 @@ nyc,New York,2026-11-25,QN0203,Woodside,Queens,Driveway fully blocked,parking,5
 nyc,New York,2026-11-25,QN0203,Woodside,Queens,Blocked hydrant,parking,5
 nyc,New York,2026-11-25,QN0203,Woodside,Queens,Driveway partly blocked,parking,3
 nyc,New York,2026-11-25,QN0203,Woodside,Queens,Blocked crosswalk,parking,3
+nyc,New York,2026-11-26,BX1104,Allerton,Bronx,No heat (whole building),heat,17
+nyc,New York,2026-11-26,BX1104,Allerton,Bronx,No heat and no hot water (whole building),heat,11
+nyc,New York,2026-11-26,BX1104,Allerton,Bronx,Double parked blocking vehicle,parking,5
+nyc,New York,2026-11-26,BX1104,Allerton,Bronx,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,SI0304,Annadale-Huguenot-Prince's Bay-Woodrow,Staten Island,Poster or sign: utility pole,trash,5
+nyc,New York,2026-11-26,SI0303,Arden Heights-Rossville,Staten Island,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,SI0303,Arden Heights-Rossville,Staten Island,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,SI0303,Arden Heights-Rossville,Staten Island,Unleashed dog in public,critters,3
+nyc,New York,2026-11-26,QN0103,Astoria (Central),Queens,Cooking gas: shut-off,housing,70
+nyc,New York,2026-11-26,QN0103,Astoria (Central),Queens,Fire escape: rusted or peeling,housing,34
+nyc,New York,2026-11-26,QN0103,Astoria (Central),Queens,Blocked sidewalk,parking,10
+nyc,New York,2026-11-26,QN0103,Astoria (Central),Queens,No heat (whole building),heat,10
+nyc,New York,2026-11-26,QN0103,Astoria (Central),Queens,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,QN0103,Astoria (Central),Queens,Rat sighting,critters,3
+nyc,New York,2026-11-26,QN0104,Astoria (East)-Woodside (North),Queens,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,QN0104,Astoria (East)-Woodside (North),Queens,No heat (whole building),heat,5
+nyc,New York,2026-11-26,QN0101,Astoria (North)-Ditmars-Steinway,Queens,Blocked hydrant,parking,7
+nyc,New York,2026-11-26,QN0101,Astoria (North)-Ditmars-Steinway,Queens,No heat (whole building),heat,4
+nyc,New York,2026-11-26,QN1101,Auburndale,Queens,Abandoned car (with plates),parking,3
+nyc,New York,2026-11-26,QN1203,Baisley Park,Queens,Double parked blocking traffic,parking,4
+nyc,New York,2026-11-26,QN1203,Baisley Park,Queens,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,QN1203,Baisley Park,Queens,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,QN1203,Baisley Park,Queens,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,QN1203,Baisley Park,Queens,Entire tree has fallen down: fell on vehicle,trees,3
+nyc,New York,2026-11-26,BK1102,Bath Beach,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK1001,Bay Ridge,Brooklyn,Blocked hydrant,parking,27
+nyc,New York,2026-11-26,BK1001,Bay Ridge,Brooklyn,No heat (whole building),heat,13
+nyc,New York,2026-11-26,BK1001,Bay Ridge,Brooklyn,No heat and no hot water (whole building),heat,8
+nyc,New York,2026-11-26,BK1001,Bay Ridge,Brooklyn,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,BK1001,Bay Ridge,Brooklyn,No heat and no hot water (one apartment),heat,4
+nyc,New York,2026-11-26,BK1001,Bay Ridge,Brooklyn,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BK1001,Bay Ridge,Brooklyn,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,QN0703,Bay Terrace-Clearview,Queens,Entire tree has fallen down: blocking street,trees,4
+nyc,New York,2026-11-26,QN0703,Bay Terrace-Clearview,Queens,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,QN1102,Bayside,Queens,Posted parking sign violation,parking,5
+nyc,New York,2026-11-26,QN1102,Bayside,Queens,Loud music/party (on the street),noise,3
+nyc,New York,2026-11-26,QN1102,Bayside,Queens,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,No heat (whole building),heat,31
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,No heat and no hot water (whole building),heat,26
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,No heat (one apartment),heat,16
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Loud music/party (next door),noise,12
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,No hot water (whole building),heat,9
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Heavy flow: at wall or ceiling,housing,6
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Slow leak: at wall or ceiling,housing,4
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Posted parking sign violation,parking,3
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Blocked bike lane,parking,3
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,No heat and no hot water (one apartment),heat,3
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Dumped stuff to haul away,trash,3
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Double parked blocking vehicle,parking,3
+nyc,New York,2026-11-26,BX0702,Bedford Park,Bronx,Elevator out,housing,3
+nyc,New York,2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud music/party (next door),noise,10
+nyc,New York,2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,No heat (whole building),heat,4
+nyc,New York,2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,Loud music/party (at a business),noise,3
+nyc,New York,2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BK0302,Bedford-Stuyvesant (East),Brooklyn,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,No heat (whole building),heat,5
+nyc,New York,2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,Banging/pounding (at a business),noise,4
+nyc,New York,2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,Blocked sidewalk,parking,4
+nyc,New York,2026-11-26,BK0301,Bedford-Stuyvesant (West),Brooklyn,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BX0603,Belmont,Bronx,No heat (whole building),heat,14
+nyc,New York,2026-11-26,BX0603,Belmont,Bronx,No heat and no hot water (whole building),heat,9
+nyc,New York,2026-11-26,BX0603,Belmont,Bronx,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BX0603,Belmont,Bronx,No hot water (whole building),heat,6
+nyc,New York,2026-11-26,BX0603,Belmont,Bronx,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,BX0603,Belmont,Bronx,Loud talking (next door),noise,3
+nyc,New York,2026-11-26,BX0603,Belmont,Bronx,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BK1101,Bensonhurst,Brooklyn,Blocked hydrant,parking,36
+nyc,New York,2026-11-26,BK1101,Bensonhurst,Brooklyn,Banging/pounding (next door),noise,34
+nyc,New York,2026-11-26,BK1101,Bensonhurst,Brooklyn,Driveway fully blocked,parking,13
+nyc,New York,2026-11-26,BK1101,Bensonhurst,Brooklyn,No heat (whole building),heat,12
+nyc,New York,2026-11-26,BK1101,Bensonhurst,Brooklyn,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,BK1202,Borough Park,Brooklyn,No heat (whole building),heat,5
+nyc,New York,2026-11-26,BK1202,Borough Park,Brooklyn,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BK1202,Borough Park,Brooklyn,Graffiti,trash,5
+nyc,New York,2026-11-26,BK1202,Borough Park,Brooklyn,Odor,water,4
+nyc,New York,2026-11-26,BK1202,Borough Park,Brooklyn,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,BK1202,Borough Park,Brooklyn,Commercial overnight parking,parking,3
+nyc,New York,2026-11-26,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,Flooded street,water,4
+nyc,New York,2026-11-26,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,Clogged storm drain,water,3
+nyc,New York,2026-11-26,QN1403,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,Queens,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,BK1303,Brighton Beach,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK0201,Brooklyn Heights,Brooklyn,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,BK1602,Brownsville,Brooklyn,Banging/pounding (next door),noise,8
+nyc,New York,2026-11-26,BK1602,Brownsville,Brooklyn,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BK1602,Brownsville,Brooklyn,Loud talking (on the street),noise,6
+nyc,New York,2026-11-26,BK1602,Brownsville,Brooklyn,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BK1602,Brownsville,Brooklyn,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BK0402,Bushwick (East),Brooklyn,Traffic signal completely out,streets,5
+nyc,New York,2026-11-26,BK0402,Bushwick (East),Brooklyn,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BK0402,Bushwick (East),Brooklyn,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,BK0402,Bushwick (East),Brooklyn,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BK0401,Bushwick (West),Brooklyn,No heat and no hot water (whole building),heat,7
+nyc,New York,2026-11-26,BK0401,Bushwick (West),Brooklyn,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BK1803,Canarsie,Brooklyn,Driveway fully blocked,parking,11
+nyc,New York,2026-11-26,BK1803,Canarsie,Brooklyn,Blocked hydrant,parking,6
+nyc,New York,2026-11-26,BK1803,Canarsie,Brooklyn,Sewer backup,water,4
+nyc,New York,2026-11-26,BK1803,Canarsie,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK1803,Canarsie,Brooklyn,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked sidewalk,parking,14
+nyc,New York,2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,BK0601,Carroll Gardens-Cobble Hill-Gowanus-Red Hook,Brooklyn,No heat (whole building),heat,4
+nyc,New York,2026-11-26,BX0903,Castle Hill-Unionport,Bronx,Banging/pounding (next door),noise,13
+nyc,New York,2026-11-26,BX0903,Castle Hill-Unionport,Bronx,Driveway fully blocked,parking,8
+nyc,New York,2026-11-26,BX0903,Castle Hill-Unionport,Bronx,No heat (whole building),heat,6
+nyc,New York,2026-11-26,BX0903,Castle Hill-Unionport,Bronx,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,BX0903,Castle Hill-Unionport,Bronx,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BX0903,Castle Hill-Unionport,Bronx,Loud talking (next door),noise,3
+nyc,New York,2026-11-26,BX0903,Castle Hill-Unionport,Bronx,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,MN0401,Chelsea-Hudson Yards,Manhattan,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,MN0401,Chelsea-Hudson Yards,Manhattan,No heat (whole building),heat,4
+nyc,New York,2026-11-26,MN0301,Chinatown-Two Bridges,Manhattan,Graffiti,trash,4
+nyc,New York,2026-11-26,MN0301,Chinatown-Two Bridges,Manhattan,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BX0302,Claremont Village-Claremont (East),Bronx,Loud music/party (next door),noise,13
+nyc,New York,2026-11-26,BX0302,Claremont Village-Claremont (East),Bronx,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,BX0302,Claremont Village-Claremont (East),Bronx,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BX0302,Claremont Village-Claremont (East),Bronx,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK0204,Clinton Hill,Brooklyn,Blocked sidewalk,parking,8
+nyc,New York,2026-11-26,QN0701,College Point,Queens,Driveway fully blocked,parking,7
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,No heat (whole building),heat,20
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,No heat (one apartment),heat,11
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,Banging/pounding (next door),noise,10
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,Loud talking (next door),noise,4
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,No heat and no hot water (one apartment),heat,4
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,Posted parking sign violation,parking,3
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,Double parked blocking vehicle,parking,3
+nyc,New York,2026-11-26,BX0401,Concourse-Concourse Village,Bronx,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,Posted parking sign violation,parking,6
+nyc,New York,2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,Alarm that won't stop,noise,5
+nyc,New York,2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,Flooded street,water,4
+nyc,New York,2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,No hot water (whole building),heat,3
+nyc,New York,2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,BK1302,Coney Island-Sea Gate,Brooklyn,Clogged storm drain,water,3
+nyc,New York,2026-11-26,QN0402,Corona,Queens,Driveway fully blocked,parking,10
+nyc,New York,2026-11-26,QN0402,Corona,Queens,No heat (whole building),heat,7
+nyc,New York,2026-11-26,QN0402,Corona,Queens,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,QN0402,Corona,Queens,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,QN0402,Corona,Queens,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,QN0402,Corona,Queens,Blocked crosswalk,parking,3
+nyc,New York,2026-11-26,BX0303,Crotona Park East,Bronx,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,BX0303,Crotona Park East,Bronx,No heat (whole building),heat,6
+nyc,New York,2026-11-26,BX0303,Crotona Park East,Bronx,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,BX0303,Crotona Park East,Bronx,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BX0303,Crotona Park East,Bronx,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BK0802,Crown Heights (North),Brooklyn,No heat (one apartment),heat,10
+nyc,New York,2026-11-26,BK0802,Crown Heights (North),Brooklyn,No heat (whole building),heat,8
+nyc,New York,2026-11-26,BK0802,Crown Heights (North),Brooklyn,No heat and no hot water (whole building),heat,8
+nyc,New York,2026-11-26,BK0802,Crown Heights (North),Brooklyn,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,No heat (whole building),heat,19
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,Heavy flow: at wall or ceiling,housing,6
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,No heat and no hot water (whole building),heat,6
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,Slow leak: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,Mice,housing,3
+nyc,New York,2026-11-26,BK0901,Crown Heights (South),Brooklyn,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BK0501,Cypress Hills,Brooklyn,Blocked hydrant,parking,14
+nyc,New York,2026-11-26,BK0501,Cypress Hills,Brooklyn,Driveway fully blocked,parking,9
+nyc,New York,2026-11-26,BK0501,Cypress Hills,Brooklyn,Blocked sidewalk,parking,6
+nyc,New York,2026-11-26,BK0501,Cypress Hills,Brooklyn,Graffiti,trash,3
+nyc,New York,2026-11-26,BK0501,Cypress Hills,Brooklyn,Double parked blocking traffic,parking,3
+nyc,New York,2026-11-26,QN1103,Douglaston-Little Neck,Queens,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Blocked sidewalk,parking,8
+nyc,New York,2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Posted parking sign violation,parking,3
+nyc,New York,2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,BK0202,Downtown Brooklyn-DUMBO-Boerum Hill,Brooklyn,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BK1002,Dyker Heights,Brooklyn,Blocked hydrant,parking,11
+nyc,New York,2026-11-26,BK1002,Dyker Heights,Brooklyn,Driveway fully blocked,parking,8
+nyc,New York,2026-11-26,BK1002,Dyker Heights,Brooklyn,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,BK1002,Dyker Heights,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,QN0302,East Elmhurst,Queens,Driveway fully blocked,parking,7
+nyc,New York,2026-11-26,QN0302,East Elmhurst,Queens,Alarm that won't stop,noise,5
+nyc,New York,2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,No heat (whole building),heat,24
+nyc,New York,2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,No heat and no hot water (whole building),heat,11
+nyc,New York,2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,Loud music/party (next door),noise,10
+nyc,New York,2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,No heat and no hot water (one apartment),heat,7
+nyc,New York,2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,BK1701,East Flatbush-Erasmus,Brooklyn,Loud music/party (at a business),noise,3
+nyc,New York,2026-11-26,BK1702,East Flatbush-Farragut,Brooklyn,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BK1702,East Flatbush-Farragut,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK1704,East Flatbush-Remsen Village,Brooklyn,No heat (whole building),heat,6
+nyc,New York,2026-11-26,BK1704,East Flatbush-Remsen Village,Brooklyn,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BK1704,East Flatbush-Remsen Village,Brooklyn,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK1703,East Flatbush-Rugby,Brooklyn,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,QN0705,East Flushing,Queens,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,QN0705,East Flushing,Queens,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,QN0705,East Flushing,Queens,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,Banging/pounding (next door),noise,7
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,Heavy flow: at wall or ceiling,housing,5
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,Roaches,housing,4
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,Mice,housing,3
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,No heat (whole building),heat,3
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,MN1102,East Harlem (North),Manhattan,Graffiti,trash,3
+nyc,New York,2026-11-26,MN1101,East Harlem (South),Manhattan,Loud music/party (on the street),noise,6
+nyc,New York,2026-11-26,MN1101,East Harlem (South),Manhattan,Loud music/party (next door),noise,6
+nyc,New York,2026-11-26,MN1101,East Harlem (South),Manhattan,No heat (whole building),heat,4
+nyc,New York,2026-11-26,MN1101,East Harlem (South),Manhattan,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,MN1101,East Harlem (South),Manhattan,No hot water (whole building),heat,3
+nyc,New York,2026-11-26,BK0502,East New York (North),Brooklyn,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,No heat and no hot water (one apartment),heat,16
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,No heat and no hot water (whole building),heat,7
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,Parking permit improper use: blocking driveway,parking,3
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BK0505,East New York-City Line,Brooklyn,No hot water (one apartment),heat,3
+nyc,New York,2026-11-26,BK0503,East New York-New Lots,Brooklyn,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,BK0503,East New York-New Lots,Brooklyn,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,BK0503,East New York-New Lots,Brooklyn,Driveway partly blocked,parking,4
+nyc,New York,2026-11-26,BK0503,East New York-New Lots,Brooklyn,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,MN0303,East Village,Manhattan,No heat (whole building),heat,7
+nyc,New York,2026-11-26,MN0303,East Village,Manhattan,Blocked sidewalk,parking,4
+nyc,New York,2026-11-26,MN0303,East Village,Manhattan,Loud talking (on the street),noise,3
+nyc,New York,2026-11-26,MN0303,East Village,Manhattan,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,MN0303,East Village,Manhattan,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,MN0303,East Village,Manhattan,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,MN0303,East Village,Manhattan,Graffiti,trash,3
+nyc,New York,2026-11-26,BK0104,East Williamsburg,Brooklyn,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BK0104,East Williamsburg,Brooklyn,Parking permit improper use: parked in front of fire hydrant,parking,5
+nyc,New York,2026-11-26,BK0104,East Williamsburg,Brooklyn,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,BK0104,East Williamsburg,Brooklyn,Trash or recycling: blocking,streets,5
+nyc,New York,2026-11-26,BK0104,East Williamsburg,Brooklyn,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BK0104,East Williamsburg,Brooklyn,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,Driveway fully blocked,parking,9
+nyc,New York,2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,Loud talking (next door),noise,5
+nyc,New York,2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,BX1202,Eastchester-Edenwald-Baychester,Bronx,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN0401,Elmhurst,Queens,No heat (whole building),heat,19
+nyc,New York,2026-11-26,QN0401,Elmhurst,Queens,Driveway fully blocked,parking,14
+nyc,New York,2026-11-26,QN0401,Elmhurst,Queens,Blocked hydrant,parking,9
+nyc,New York,2026-11-26,QN0401,Elmhurst,Queens,No heat (one apartment),heat,8
+nyc,New York,2026-11-26,QN0401,Elmhurst,Queens,Posted parking sign violation,parking,4
+nyc,New York,2026-11-26,QN0401,Elmhurst,Queens,Loud music/party (at a business),noise,3
+nyc,New York,2026-11-26,QN0401,Elmhurst,Queens,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,Loud music/party (next door),noise,8
+nyc,New York,2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,Flooded street,water,8
+nyc,New York,2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,No heat (whole building),heat,5
+nyc,New York,2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,Leak,water,3
+nyc,New York,2026-11-26,QN1401,Far Rockaway-Bayswater,Queens,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,Banging/pounding (next door),noise,60
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,No heat (whole building),heat,24
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,Loud music/party (next door),noise,16
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,No heat (one apartment),heat,16
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,Loud music/party (on the street),noise,4
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,Planted more than 2 years ago,trees,3
+nyc,New York,2026-11-26,BK1401,Flatbush,Brooklyn,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,No heat (whole building),heat,8
+nyc,New York,2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,Posted parking sign violation,parking,4
+nyc,New York,2026-11-26,BK1402,Flatbush (West)-Ditmas Park-Parkville,Brooklyn,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BK1801,Flatlands,Brooklyn,Driveway fully blocked,parking,9
+nyc,New York,2026-11-26,BK1801,Flatlands,Brooklyn,Blocked hydrant,parking,8
+nyc,New York,2026-11-26,BK1801,Flatlands,Brooklyn,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BK1801,Flatlands,Brooklyn,Traffic signal completely out,streets,3
+nyc,New York,2026-11-26,BK1801,Flatlands,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,QN0707,Flushing-Willets Point,Queens,No heat (whole building),heat,12
+nyc,New York,2026-11-26,QN0707,Flushing-Willets Point,Queens,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,QN0707,Flushing-Willets Point,Queens,Trash left by property owner,trash,4
+nyc,New York,2026-11-26,QN0707,Flushing-Willets Point,Queens,Flooded street,water,3
+nyc,New York,2026-11-26,BX0503,Fordham Heights,Bronx,No heat (whole building),heat,10
+nyc,New York,2026-11-26,BX0503,Fordham Heights,Bronx,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,BX0503,Fordham Heights,Bronx,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,BX0503,Fordham Heights,Bronx,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BX0503,Fordham Heights,Bronx,Double parked blocking vehicle,parking,3
+nyc,New York,2026-11-26,BX0503,Fordham Heights,Bronx,Mice,housing,3
+nyc,New York,2026-11-26,BX0503,Fordham Heights,Bronx,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,QN0602,Forest Hills,Queens,No heat (whole building),heat,11
+nyc,New York,2026-11-26,QN0602,Forest Hills,Queens,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,QN0602,Forest Hills,Queens,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,QN0602,Forest Hills,Queens,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,QN0602,Forest Hills,Queens,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,QN0602,Forest Hills,Queens,Loud music/party (on the street),noise,3
+nyc,New York,2026-11-26,QN0602,Forest Hills,Queens,Entire tree has fallen down: blocking street,trees,3
+nyc,New York,2026-11-26,BK0203,Fort Greene,Brooklyn,Posted parking sign violation,parking,11
+nyc,New York,2026-11-26,BK0203,Fort Greene,Brooklyn,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BK0203,Fort Greene,Brooklyn,No hot water (whole building),heat,3
+nyc,New York,2026-11-26,BK0203,Fort Greene,Brooklyn,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BK0203,Fort Greene,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,QN0803,Fresh Meadows-Utopia,Queens,Loud music/party (next door),noise,7
+nyc,New York,2026-11-26,QN1301,Glen Oaks-Floral Park-New Hyde Park,Queens,Dirty tap water,water,4
+nyc,New York,2026-11-26,QN0503,Glendale,Queens,Blocked hydrant,parking,12
+nyc,New York,2026-11-26,QN0503,Glendale,Queens,Driveway fully blocked,parking,11
+nyc,New York,2026-11-26,QN0503,Glendale,Queens,Loud music/party (next door),noise,7
+nyc,New York,2026-11-26,MN0602,Gramercy,Manhattan,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,MN0602,Gramercy,Manhattan,Car/truck horn,noise,3
+nyc,New York,2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,SI0201,Grasmere-Arrochar-South Beach-Dongan Hills,Staten Island,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,No heat (whole building),heat,5
+nyc,New York,2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,Blocked sidewalk,parking,5
+nyc,New York,2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BK1501,Gravesend (East)-Homecrest,Brooklyn,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,Blocked hydrant,parking,18
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,Banging/pounding (next door),noise,7
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,Traffic signal acting up,streets,6
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,No heat (whole building),heat,6
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,Commercial overnight parking,parking,4
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,Veh signal head: hanging,streets,4
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,BK1103,Gravesend (West),Brooklyn,Damp spot: from wall or ceiling,housing,3
+nyc,New York,2026-11-26,SI0302,Great Kills-Eltingville,Staten Island,Flooded street,water,5
+nyc,New York,2026-11-26,SI0302,Great Kills-Eltingville,Staten Island,Posted parking sign violation,parking,3
+nyc,New York,2026-11-26,SI0302,Great Kills-Eltingville,Staten Island,Sewer backup,water,3
+nyc,New York,2026-11-26,BK0101,Greenpoint,Brooklyn,Blocked sidewalk,parking,25
+nyc,New York,2026-11-26,MN0202,Greenwich Village,Manhattan,Loud talking (on the street),noise,3
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat (whole building),heat,14
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat (one apartment),heat,13
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud music/party (on the street),noise,11
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No hot water (whole building),heat,9
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud music/party (next door),noise,7
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat and no hot water (whole building),heat,6
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Slow leak: at wall or ceiling,housing,5
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Heavy flow: at wall or ceiling,housing,5
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No hot water (one apartment),heat,4
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,No heat and no hot water (one apartment),heat,3
+nyc,New York,2026-11-26,MN0903,Hamilton Heights-Sugar Hill,Manhattan,Loud talking (on the street),noise,3
+nyc,New York,2026-11-26,MN1002,Harlem (North),Manhattan,Loud music/party (next door),noise,36
+nyc,New York,2026-11-26,MN1002,Harlem (North),Manhattan,No heat (whole building),heat,28
+nyc,New York,2026-11-26,MN1002,Harlem (North),Manhattan,No heat (one apartment),heat,18
+nyc,New York,2026-11-26,MN1002,Harlem (North),Manhattan,Banging/pounding (next door),noise,14
+nyc,New York,2026-11-26,MN1002,Harlem (North),Manhattan,No heat and no hot water (whole building),heat,10
+nyc,New York,2026-11-26,MN1002,Harlem (North),Manhattan,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,MN1002,Harlem (North),Manhattan,Water supply: no hot water,housing,3
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,No heat (whole building),heat,29
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,Banging/pounding (next door),noise,12
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,Blocked sidewalk,parking,11
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,No heat (one apartment),heat,9
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,Heavy flow: at wall or ceiling,housing,6
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,No hot water (whole building),heat,6
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,Traffic signal acting up,streets,5
+nyc,New York,2026-11-26,MN1001,Harlem (South),Manhattan,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,MN0402,Hell's Kitchen,Manhattan,Loud music/party (at a business),noise,4
+nyc,New York,2026-11-26,MN0402,Hell's Kitchen,Manhattan,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,MN0402,Hell's Kitchen,Manhattan,Heavy flow: at wall or ceiling,housing,4
+nyc,New York,2026-11-26,MN0402,Hell's Kitchen,Manhattan,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,No heat and no hot water (whole building),heat,21
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,Water supply: no water,housing,9
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,No heat (whole building),heat,7
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,Heavy flow: at wall or ceiling,housing,4
+nyc,New York,2026-11-26,BX0402,Highbridge,Bronx,Loud music/party (on the street),noise,3
+nyc,New York,2026-11-26,QN1206,Hollis,Queens,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,Flooded street,water,4
+nyc,New York,2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,Entire tree has fallen down: blocking street,trees,3
+nyc,New York,2026-11-26,QN1003,Howard Beach-Lindenwood,Queens,Clogged storm drain,water,3
+nyc,New York,2026-11-26,BX0201,Hunts Point,Bronx,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BX0201,Hunts Point,Bronx,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,BX1161,Hutchinson Metro Center,Bronx,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,No heat (whole building),heat,24
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,Loud music/party (next door),noise,14
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,No heat (one apartment),heat,10
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,No heat and no hot water (one apartment),heat,5
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,Loud talking (on the street),noise,5
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,Loud music/party (at a business),noise,4
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,Loud music/party (on the street),noise,3
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,Slow leak: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,No hot water (whole building),heat,3
+nyc,New York,2026-11-26,MN1203,Inwood,Manhattan,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,Blocked hydrant,parking,20
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,No heat and no hot water (whole building),heat,10
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,Driveway fully blocked,parking,9
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,No heat (one apartment),heat,9
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,Car/truck horn,noise,7
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,No heat (whole building),heat,5
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,QN0301,Jackson Heights,Queens,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,No heat (whole building),heat,10
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,Driveway fully blocked,parking,9
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,Loud music/party (next door),noise,6
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,Sewer backup,water,3
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,QN1201,Jamaica,Queens,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN0804,Jamaica Estates-Holliswood,Queens,Basin/sink: drain pipe blocked or broken,housing,3
+nyc,New York,2026-11-26,QN0804,Jamaica Estates-Holliswood,Queens,No heat (whole building),heat,3
+nyc,New York,2026-11-26,QN0805,Jamaica Hills-Briarwood,Queens,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,QN0805,Jamaica Hills-Briarwood,Queens,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,QN0805,Jamaica Hills-Briarwood,Queens,Signage missing: housing information notice,housing,3
+nyc,New York,2026-11-26,QN8381,John F. Kennedy International Airport,Queens,Posted parking sign violation,parking,12
+nyc,New York,2026-11-26,BK1203,Kensington,Brooklyn,Loud music/party (next door),noise,8
+nyc,New York,2026-11-26,BK1203,Kensington,Brooklyn,No heat (whole building),heat,4
+nyc,New York,2026-11-26,BK1203,Kensington,Brooklyn,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,QN0901,Kew Gardens,Queens,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,QN0901,Kew Gardens,Queens,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN0801,Kew Gardens Hills,Queens,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,QN0801,Kew Gardens Hills,Queens,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,QN0801,Kew Gardens Hills,Queens,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,QN0801,Kew Gardens Hills,Queens,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Blocked hydrant,parking,16
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Banging/pounding (next door),noise,8
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,No heat (whole building),heat,8
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,No heat and no hot water (whole building),heat,7
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Loud talking (next door),noise,6
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Posted parking sign violation,parking,5
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,Power outage: entire apartment,housing,3
+nyc,New York,2026-11-26,BX0801,Kingsbridge Heights-Van Cortlandt Village,Bronx,No heat and no hot water (one apartment),heat,3
+nyc,New York,2026-11-26,BX0802,Kingsbridge-Marble Hill,Bronx,No heat (whole building),heat,7
+nyc,New York,2026-11-26,BX0802,Kingsbridge-Marble Hill,Bronx,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN1305,Laurelton,Queens,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,QN0201,Long Island City-Hunters Point,Queens,Blocked sidewalk,parking,31
+nyc,New York,2026-11-26,QN0201,Long Island City-Hunters Point,Queens,Posted parking sign violation,parking,5
+nyc,New York,2026-11-26,BX0202,Longwood,Bronx,No heat (whole building),heat,12
+nyc,New York,2026-11-26,BX0202,Longwood,Bronx,No heat and no hot water (whole building),heat,6
+nyc,New York,2026-11-26,BX0202,Longwood,Bronx,No hot water (whole building),heat,5
+nyc,New York,2026-11-26,BX0202,Longwood,Bronx,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BX0202,Longwood,Bronx,Heavy flow: at wall or ceiling,housing,4
+nyc,New York,2026-11-26,BX0202,Longwood,Bronx,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BX0202,Longwood,Bronx,No hot water (one apartment),heat,3
+nyc,New York,2026-11-26,MN0302,Lower East Side,Manhattan,Loud music/party (next door),noise,8
+nyc,New York,2026-11-26,MN0302,Lower East Side,Manhattan,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BK1502,Madison,Brooklyn,Driveway fully blocked,parking,7
+nyc,New York,2026-11-26,BK1502,Madison,Brooklyn,No heat (whole building),heat,4
+nyc,New York,2026-11-26,BK1502,Madison,Brooklyn,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BK1502,Madison,Brooklyn,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,Alarm that won't stop,noise,5
+nyc,New York,2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,Traffic signal acting up,streets,5
+nyc,New York,2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,Loud television (next door),noise,3
+nyc,New York,2026-11-26,MN0902,Manhattanville-West Harlem,Manhattan,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BK1204,Mapleton-Midwood (West),Brooklyn,No heat (whole building),heat,8
+nyc,New York,2026-11-26,BK1204,Mapleton-Midwood (West),Brooklyn,Posted parking sign violation,parking,4
+nyc,New York,2026-11-26,BK1204,Mapleton-Midwood (West),Brooklyn,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,Driveway fully blocked,parking,7
+nyc,New York,2026-11-26,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,Blocked sidewalk,parking,4
+nyc,New York,2026-11-26,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,BK1802,Marine Park-Mill Basin-Bergen Beach,Brooklyn,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Banging/pounding (next door),noise,7
+nyc,New York,2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,Driveway partly blocked,parking,4
+nyc,New York,2026-11-26,SI0107,Mariner's Harbor-Arlington-Graniteville,Staten Island,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN0501,Maspeth,Queens,Blocked hydrant,parking,28
+nyc,New York,2026-11-26,QN0501,Maspeth,Queens,Blocked crosswalk,parking,10
+nyc,New York,2026-11-26,QN0501,Maspeth,Queens,Posted parking sign violation,parking,7
+nyc,New York,2026-11-26,QN0501,Maspeth,Queens,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,QN0501,Maspeth,Queens,Commercial overnight parking,parking,3
+nyc,New York,2026-11-26,BX0102,Melrose,Bronx,No heat and no hot water (whole building),heat,11
+nyc,New York,2026-11-26,BX0102,Melrose,Bronx,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,BX0102,Melrose,Bronx,Traffic signal acting up,streets,5
+nyc,New York,2026-11-26,BX0102,Melrose,Bronx,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BX0102,Melrose,Bronx,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BX0102,Melrose,Bronx,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BX0102,Melrose,Bronx,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN0504,Middle Village,Queens,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,QN0504,Middle Village,Queens,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,MN0501,Midtown South-Flatiron-Union Square,Manhattan,Graffiti,trash,3
+nyc,New York,2026-11-26,MN0502,Midtown-Times Square,Manhattan,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,BK1403,Midwood,Brooklyn,No heat (whole building),heat,15
+nyc,New York,2026-11-26,BK1403,Midwood,Brooklyn,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,BK1403,Midwood,Brooklyn,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BK1403,Midwood,Brooklyn,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BK1403,Midwood,Brooklyn,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,BK1403,Midwood,Brooklyn,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BX1102,Morris Park,Bronx,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BX1102,Morris Park,Bronx,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,BX1102,Morris Park,Bronx,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BX0301,Morrisania,Bronx,Banging/pounding (next door),noise,18
+nyc,New York,2026-11-26,BX0301,Morrisania,Bronx,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,BX0301,Morrisania,Bronx,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BX0301,Morrisania,Bronx,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Loud music/party (next door),noise,13
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,No heat and no hot water (whole building),heat,8
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,No heat (one apartment),heat,8
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Cooking gas: shut-off,housing,5
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,No heat (whole building),heat,4
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Slow leak: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Loud talking (next door),noise,3
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BX0101,Mott Haven-Port Morris,Bronx,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,No heat (whole building),heat,15
+nyc,New York,2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,Slow leak: at wall or ceiling,housing,5
+nyc,New York,2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,BX0403,Mount Eden-Claremont (West),Bronx,No heat and no hot water (one apartment),heat,4
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Loud music/party (next door),noise,25
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,No heat (whole building),heat,14
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,No heat (one apartment),heat,8
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,No heat and no hot water (whole building),heat,7
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,No heat and no hot water (one apartment),heat,6
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Double parked blocking vehicle,parking,4
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Double parked blocking traffic,parking,4
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Mice,housing,3
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Loud talking (next door),noise,3
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Posted parking sign violation,parking,3
+nyc,New York,2026-11-26,BX0502,Mount Hope,Bronx,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,QN0704,Murray Hill-Broadway Flushing,Queens,Blocked hydrant,parking,6
+nyc,New York,2026-11-26,QN0704,Murray Hill-Broadway Flushing,Queens,No heat (whole building),heat,4
+nyc,New York,2026-11-26,QN0704,Murray Hill-Broadway Flushing,Queens,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,MN0603,Murray Hill-Kips Bay,Manhattan,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,MN0603,Murray Hill-Kips Bay,Manhattan,Dog off leash,critters,4
+nyc,New York,2026-11-26,MN0603,Murray Hill-Kips Bay,Manhattan,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,SI0202,New Dorp-Midland Beach,Staten Island,Flooded street,water,7
+nyc,New York,2026-11-26,SI0202,New Dorp-Midland Beach,Staten Island,Sewer backup,water,3
+nyc,New York,2026-11-26,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,Traffic signal acting up,streets,5
+nyc,New York,2026-11-26,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,SI0204,New Springville-Willowbrook-Bulls Head-Travis,Staten Island,Double parked blocking traffic,parking,3
+nyc,New York,2026-11-26,QN0303,North Corona,Queens,Banging/pounding (next door),noise,9
+nyc,New York,2026-11-26,QN0303,North Corona,Queens,Driveway fully blocked,parking,8
+nyc,New York,2026-11-26,QN0303,North Corona,Queens,Commercial overnight parking,parking,3
+nyc,New York,2026-11-26,QN0303,North Corona,Queens,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,No heat (whole building),heat,28
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,Loud music/party (next door),noise,11
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,No heat (one apartment),heat,9
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,Posted parking sign violation,parking,3
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,BX0703,Norwood,Bronx,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,QN1104,Oakland Gardens-Hollis Hills,Queens,Blocked hydrant,parking,9
+nyc,New York,2026-11-26,BK1601,Ocean Hill,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK1601,Ocean Hill,Brooklyn,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN0102,Old Astoria-Hallets Point,Queens,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,QN1002,Ozone Park,Queens,Blocked hydrant,parking,6
+nyc,New York,2026-11-26,QN1002,Ozone Park,Queens,No heat (whole building),heat,5
+nyc,New York,2026-11-26,QN1002,Ozone Park,Queens,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,QN0904,Ozone Park (North),Queens,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,BK0602,Park Slope,Brooklyn,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BK0602,Park Slope,Brooklyn,No heat (whole building),heat,4
+nyc,New York,2026-11-26,BX0904,Parkchester,Bronx,No heat (whole building),heat,17
+nyc,New York,2026-11-26,BX0904,Parkchester,Bronx,No heat (one apartment),heat,11
+nyc,New York,2026-11-26,BX0904,Parkchester,Bronx,Water supply: no water,housing,6
+nyc,New York,2026-11-26,BX0904,Parkchester,Bronx,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,BX0904,Parkchester,Bronx,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,No heat (whole building),heat,9
+nyc,New York,2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,Blocked hydrant,parking,7
+nyc,New York,2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,No heat and no hot water (whole building),heat,7
+nyc,New York,2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BX1003,Pelham Bay-Country Club-City Island,Bronx,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,BX1103,Pelham Gardens,Bronx,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BX1103,Pelham Gardens,Bronx,Traffic signal acting up,streets,5
+nyc,New York,2026-11-26,BX1103,Pelham Gardens,Bronx,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BX1103,Pelham Gardens,Bronx,Power outage: entire building,housing,3
+nyc,New York,2026-11-26,BX1103,Pelham Gardens,Bronx,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,No heat (whole building),heat,18
+nyc,New York,2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BX1101,Pelham Parkway-Van Nest,Bronx,Slow leak: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,QN0802,Pomonok-Electchester-Hillcrest,Queens,Car/truck horn,noise,13
+nyc,New York,2026-11-26,QN0802,Pomonok-Electchester-Hillcrest,Queens,Chronic speeding,streets,5
+nyc,New York,2026-11-26,SI0106,Port Richmond,Staten Island,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,SI0106,Port Richmond,Staten Island,Loud talking (next door),noise,3
+nyc,New York,2026-11-26,BK0801,Prospect Heights,Brooklyn,Alarm that won't stop,noise,3
+nyc,New York,2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat (whole building),heat,16
+nyc,New York,2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Banging/pounding (next door),noise,8
+nyc,New York,2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,No heat and no hot water (whole building),heat,6
+nyc,New York,2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Heavy flow: at wall or ceiling,housing,4
+nyc,New York,2026-11-26,BK0902,Prospect Lefferts Gardens-Wingate,Brooklyn,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,QN1303,Queens Village,Queens,No heat (whole building),heat,5
+nyc,New York,2026-11-26,QN1303,Queens Village,Queens,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,QN0706,Queensboro Hill,Queens,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,QN0706,Queensboro Hill,Queens,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Loud music/party (next door),noise,8
+nyc,New York,2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,QN0105,Queensbridge-Ravenswood-Dutch Kills,Queens,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,QN0601,Rego Park,Queens,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,QN0601,Rego Park,Queens,No heat (whole building),heat,4
+nyc,New York,2026-11-26,QN0601,Rego Park,Queens,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,QN0601,Rego Park,Queens,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,QN0902,Richmond Hill,Queens,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,QN0902,Richmond Hill,Queens,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,QN0502,Ridgewood,Queens,Loud music/party (at a business),noise,20
+nyc,New York,2026-11-26,QN0502,Ridgewood,Queens,Blocked hydrant,parking,6
+nyc,New York,2026-11-26,QN0502,Ridgewood,Queens,No heat (whole building),heat,5
+nyc,New York,2026-11-26,QN0502,Ridgewood,Queens,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,QN0502,Ridgewood,Queens,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,BX0803,Riverdale-Spuyten Duyvil,Bronx,Blocked hydrant,parking,9
+nyc,New York,2026-11-26,BX0803,Riverdale-Spuyten Duyvil,Bronx,No heat (whole building),heat,8
+nyc,New York,2026-11-26,BX0803,Riverdale-Spuyten Duyvil,Bronx,Posted parking sign violation,parking,6
+nyc,New York,2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Water supply: no water,housing,20
+nyc,New York,2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Loud music/party (next door),noise,7
+nyc,New York,2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Flooded street,water,6
+nyc,New York,2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,QN1402,Rockaway Beach-Arverne-Edgemere,Queens,Clogged storm drain,water,3
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Blocked hydrant,parking,18
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,No heat (whole building),heat,10
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Flooded street,water,5
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,No heat (one apartment),heat,5
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Traffic signal completely out,streets,3
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BK1503,Sheepshead Bay-Manhattan Beach-Gerritsen Beach,Brooklyn,Street light out,streets,3
+nyc,New York,2026-11-26,MN0201,SoHo-Little Italy-Hudson Square,Manhattan,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,No heat (whole building),heat,18
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Banging/pounding (next door),noise,8
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,No heat (one apartment),heat,8
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,No heat and no hot water (whole building),heat,7
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Blocked hydrant,parking,7
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Double parked blocking traffic,parking,4
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Heavy flow: at wall or ceiling,housing,4
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Commercial overnight parking,parking,3
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Posted parking sign violation,parking,3
+nyc,New York,2026-11-26,BX0901,Soundview-Bruckner-Bronx River,Bronx,Double parked blocking vehicle,parking,3
+nyc,New York,2026-11-26,BX0902,Soundview-Clason Point,Bronx,No heat (whole building),heat,5
+nyc,New York,2026-11-26,BX0902,Soundview-Clason Point,Bronx,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BX0902,Soundview-Clason Point,Bronx,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BX0902,Soundview-Clason Point,Bronx,No hot water (whole building),heat,3
+nyc,New York,2026-11-26,QN1202,South Jamaica,Queens,Driveway fully blocked,parking,9
+nyc,New York,2026-11-26,QN1001,South Ozone Park,Queens,Loud music/party (next door),noise,14
+nyc,New York,2026-11-26,QN1001,South Ozone Park,Queens,Illegal conversion of residential building/space,housing,8
+nyc,New York,2026-11-26,QN1001,South Ozone Park,Queens,Driveway fully blocked,parking,7
+nyc,New York,2026-11-26,QN1001,South Ozone Park,Queens,Driveway partly blocked,parking,5
+nyc,New York,2026-11-26,QN1001,South Ozone Park,Queens,Loud music/party (at a business),noise,4
+nyc,New York,2026-11-26,QN1001,South Ozone Park,Queens,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,QN1001,South Ozone Park,Queens,Remove debris,trash,3
+nyc,New York,2026-11-26,QN0903,South Richmond Hill,Queens,Driveway partly blocked,parking,4
+nyc,New York,2026-11-26,QN0903,South Richmond Hill,Queens,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BK0103,South Williamsburg,Brooklyn,No heat (whole building),heat,5
+nyc,New York,2026-11-26,BK0504,Spring Creek-Starrett City,Brooklyn,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BK0504,Spring Creek-Starrett City,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,QN1205,St. Albans,Queens,Abandoned car (with plates),parking,3
+nyc,New York,2026-11-26,QN1205,St. Albans,Queens,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,SI0101,St. George-New Brighton,Staten Island,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,Loud talking (next door),noise,3
+nyc,New York,2026-11-26,MN0601,Stuyvesant Town-Peter Cooper Village,Manhattan,No heat (whole building),heat,3
+nyc,New York,2026-11-26,QN0202,Sunnyside,Queens,No heat (whole building),heat,13
+nyc,New York,2026-11-26,QN0202,Sunnyside,Queens,Blocked hydrant,parking,6
+nyc,New York,2026-11-26,QN0202,Sunnyside,Queens,Slow leak: at wall or ceiling,housing,5
+nyc,New York,2026-11-26,QN0202,Sunnyside,Queens,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,QN0202,Sunnyside,Queens,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,QN0202,Sunnyside,Queens,Banging/pounding (next door),noise,4
+nyc,New York,2026-11-26,QN0202,Sunnyside,Queens,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BK0703,Sunset Park (Central),Brooklyn,Blocked hydrant,parking,5
+nyc,New York,2026-11-26,BK0703,Sunset Park (Central),Brooklyn,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BK0703,Sunset Park (Central),Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,Blocked hydrant,parking,7
+nyc,New York,2026-11-26,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,Driveway fully blocked,parking,6
+nyc,New York,2026-11-26,BK1201,Sunset Park (East)-Borough Park (West),Brooklyn,Loud music/party (next door),noise,4
+nyc,New York,2026-11-26,BK0702,Sunset Park (West),Brooklyn,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,BK0702,Sunset Park (West),Brooklyn,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,BK0702,Sunset Park (West),Brooklyn,No heat and no hot water (one apartment),heat,3
+nyc,New York,2026-11-26,BK0702,Sunset Park (West),Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BX1002,Throgs Neck-Schuylerville,Bronx,Blocked hydrant,parking,10
+nyc,New York,2026-11-26,BX1002,Throgs Neck-Schuylerville,Bronx,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BX1002,Throgs Neck-Schuylerville,Bronx,No heat (whole building),heat,3
+nyc,New York,2026-11-26,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,Loud music/party (on the street),noise,3
+nyc,New York,2026-11-26,SI0102,Tompkinsville-Stapleton-Clifton-Fox Hills,Staten Island,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BX0602,Tremont,Bronx,Loud music/party (next door),noise,9
+nyc,New York,2026-11-26,BX0602,Tremont,Bronx,No heat (whole building),heat,6
+nyc,New York,2026-11-26,BX0602,Tremont,Bronx,Banging/pounding (next door),noise,5
+nyc,New York,2026-11-26,BX0602,Tremont,Bronx,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,MN0102,Tribeca-Civic Center,Manhattan,Traffic signal acting up,streets,5
+nyc,New York,2026-11-26,MN0102,Tribeca-Civic Center,Manhattan,No heat (whole building),heat,5
+nyc,New York,2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,Banging/pounding (next door),noise,23
+nyc,New York,2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,No heat (whole building),heat,19
+nyc,New York,2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,No heat and no hot water (whole building),heat,10
+nyc,New York,2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BX0701,University Heights (North)-Fordham,Bronx,Water supply: scalding hot water,housing,3
+nyc,New York,2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,No heat (whole building),heat,16
+nyc,New York,2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,No heat (one apartment),heat,10
+nyc,New York,2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,Loud music/party (next door),noise,6
+nyc,New York,2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,Driveway fully blocked,parking,5
+nyc,New York,2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,Slow leak: at wall or ceiling,housing,4
+nyc,New York,2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,Heavy flow: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,BX0501,University Heights (South)-Morris Heights,Bronx,No heat and no hot water (whole building),heat,3
+nyc,New York,2026-11-26,MN0802,Upper East Side-Carnegie Hill,Manhattan,Traffic signal acting up,streets,9
+nyc,New York,2026-11-26,MN0802,Upper East Side-Carnegie Hill,Manhattan,Blocked hydrant,parking,3
+nyc,New York,2026-11-26,MN0803,Upper East Side-Yorkville,Manhattan,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,MN0803,Upper East Side-Yorkville,Manhattan,Loud music/party (on the street),noise,3
+nyc,New York,2026-11-26,MN0702,Upper West Side (Central),Manhattan,Blocked hydrant,parking,9
+nyc,New York,2026-11-26,MN0702,Upper West Side (Central),Manhattan,No heat (whole building),heat,9
+nyc,New York,2026-11-26,MN0702,Upper West Side (Central),Manhattan,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,MN0701,Upper West Side-Lincoln Square,Manhattan,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,No heat and no hot water (whole building),heat,5
+nyc,New York,2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,No heat (whole building),heat,5
+nyc,New York,2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,Loud music/party (next door),noise,5
+nyc,New York,2026-11-26,MN0703,Upper West Side-Manhattan Valley,Manhattan,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,No heat and no hot water (whole building),heat,18
+nyc,New York,2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,No heat (whole building),heat,9
+nyc,New York,2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BX1203,Wakefield-Woodlawn,Bronx,Double parked blocking vehicle,parking,3
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,No heat (whole building),heat,27
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,No heat and no hot water (whole building),heat,9
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,Banging/pounding (next door),noise,9
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,Loud music/party (next door),noise,9
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,No heat (one apartment),heat,7
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,No heat and no hot water (one apartment),heat,5
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,No hot water (whole building),heat,3
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,Loud music/party (on the street),noise,3
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,Loud talking (next door),noise,3
+nyc,New York,2026-11-26,MN1202,Washington Heights (North),Manhattan,Slow leak: at wall or ceiling,housing,3
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,No heat (whole building),heat,19
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,No heat and no hot water (whole building),heat,12
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,Loud talking (on the street),noise,8
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,No heat (one apartment),heat,8
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,Banging/pounding (next door),noise,8
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,Loud music/party (next door),noise,7
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,Heavy flow: at wall or ceiling,housing,5
+nyc,New York,2026-11-26,MN1201,Washington Heights (South),Manhattan,Ceiling: collapsing or falling,housing,4
+nyc,New York,2026-11-26,BX0601,West Farms,Bronx,No heat (one apartment),heat,6
+nyc,New York,2026-11-26,BX0601,West Farms,Bronx,No heat (whole building),heat,4
+nyc,New York,2026-11-26,BX0601,West Farms,Bronx,Loud music/party (next door),noise,3
+nyc,New York,2026-11-26,BX1001,Westchester Square,Bronx,No heat (whole building),heat,7
+nyc,New York,2026-11-26,BX1001,Westchester Square,Bronx,Traffic signal acting up,streets,4
+nyc,New York,2026-11-26,SI0105,Westerleigh-Castleton Corners,Staten Island,Veh signal head: hanging,streets,3
+nyc,New York,2026-11-26,SI0105,Westerleigh-Castleton Corners,Staten Island,Driveway fully blocked,parking,3
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,No heat and no hot water (one apartment),heat,9
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,No heat (whole building),heat,8
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,Driveway fully blocked,parking,8
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,Heavy flow: at wall or ceiling,housing,8
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,Banging/pounding (next door),noise,6
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,No heat (one apartment),heat,4
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,Window frame: loose or defective,housing,3
+nyc,New York,2026-11-26,BX1201,Williamsbridge-Olinville,Bronx,Mold,housing,3
+nyc,New York,2026-11-26,BK0102,Williamsburg,Brooklyn,Loud music/party (next door),noise,6
+nyc,New York,2026-11-26,BK0102,Williamsburg,Brooklyn,Car/truck horn,noise,4
+nyc,New York,2026-11-26,BK0102,Williamsburg,Brooklyn,No heat and no hot water (whole building),heat,4
+nyc,New York,2026-11-26,BK0102,Williamsburg,Brooklyn,No heat (whole building),heat,3
+nyc,New York,2026-11-26,BK0102,Williamsburg,Brooklyn,Traffic signal acting up,streets,3
+nyc,New York,2026-11-26,BK0102,Williamsburg,Brooklyn,Banging/pounding (next door),noise,3
+nyc,New York,2026-11-26,BK0102,Williamsburg,Brooklyn,No heat (one apartment),heat,3
+nyc,New York,2026-11-26,QN0905,Woodhaven,Queens,Blocked hydrant,parking,21
+nyc,New York,2026-11-26,QN0905,Woodhaven,Queens,Posted parking sign violation,parking,16
+nyc,New York,2026-11-26,QN0905,Woodhaven,Queens,Driveway fully blocked,parking,9
+nyc,New York,2026-11-26,QN0905,Woodhaven,Queens,Blocked sidewalk,parking,8
+nyc,New York,2026-11-26,QN0905,Woodhaven,Queens,Double parked blocking traffic,parking,5
+nyc,New York,2026-11-26,QN0905,Woodhaven,Queens,Driveway partly blocked,parking,3
+nyc,New York,2026-11-26,QN0905,Woodhaven,Queens,Commercial overnight parking,parking,3
+nyc,New York,2026-11-26,QN0203,Woodside,Queens,No heat (whole building),heat,7
+nyc,New York,2026-11-26,QN0203,Woodside,Queens,Blocked hydrant,parking,4
+nyc,New York,2026-11-26,QN0203,Woodside,Queens,Driveway fully blocked,parking,4
+nyc,New York,2026-11-26,QN0203,Woodside,Queens,Banging/pounding (next door),noise,3
 chicago,Chicago,2026-11-09,14,Albany Park,North Side,Yard waste pickup,trash,12
 chicago,Chicago,2026-11-09,14,Albany Park,North Side,Rats,critters,10
 chicago,Chicago,2026-11-09,14,Albany Park,North Side,Parking enforcement review,parking,3
@@ -17919,6 +18688,113 @@ chicago,Chicago,2026-11-26,53,West Pullman,South Side,Sign repair,streets,3
 chicago,Chicago,2026-11-26,24,West Town,West Side,Graffiti,trash,4
 chicago,Chicago,2026-11-26,42,Woodlawn,South Side,Parking enforcement review,parking,5
 chicago,Chicago,2026-11-26,42,Woodlawn,South Side,Sign repair,streets,3
+chicago,Chicago,2026-11-27,14,Albany Park,North Side,Parking enforcement review,parking,3
+chicago,Chicago,2026-11-27,71,Auburn Gresham,Southwest Side,Busted garbage cart,trash,7
+chicago,Chicago,2026-11-27,71,Auburn Gresham,Southwest Side,Lead test kit,water,4
+chicago,Chicago,2026-11-27,71,Auburn Gresham,Southwest Side,Pothole,streets,3
+chicago,Chicago,2026-11-27,71,Auburn Gresham,Southwest Side,Tree emergency,trees,3
+chicago,Chicago,2026-11-27,25,Austin,West Side,Tree trim (no longer accepted),trees,27
+chicago,Chicago,2026-11-27,25,Austin,West Side,Busted garbage cart,trash,3
+chicago,Chicago,2026-11-27,25,Austin,West Side,Stray animal,critters,3
+chicago,Chicago,2026-11-27,25,Austin,West Side,Abandoned car,parking,3
+chicago,Chicago,2026-11-27,25,Austin,West Side,Missed garbage pickup,trash,3
+chicago,Chicago,2026-11-27,19,Belmont Cragin,North Side,Street light out,streets,5
+chicago,Chicago,2026-11-27,19,Belmont Cragin,North Side,Abandoned car,parking,4
+chicago,Chicago,2026-11-27,72,Beverly,Southwest Side,Busted garbage cart,trash,7
+chicago,Chicago,2026-11-27,72,Beverly,Southwest Side,Water on street,water,4
+chicago,Chicago,2026-11-27,72,Beverly,Southwest Side,Recycling cart,trash,3
+chicago,Chicago,2026-11-27,60,Bridgeport,South Side,Busted garbage cart,trash,5
+chicago,Chicago,2026-11-27,60,Bridgeport,South Side,Abandoned car,parking,3
+chicago,Chicago,2026-11-27,44,Chatham,South Side,Abandoned car,parking,5
+chicago,Chicago,2026-11-27,44,Chatham,South Side,Stray animal,critters,3
+chicago,Chicago,2026-11-27,66,Chicago Lawn,Southwest Side,Busted garbage cart,trash,6
+chicago,Chicago,2026-11-27,66,Chicago Lawn,Southwest Side,Missed garbage pickup,trash,4
+chicago,Chicago,2026-11-27,64,Clearing,Southwest Side,Coyote encounter,critters,4
+chicago,Chicago,2026-11-27,17,Dunning,North Side,Yard waste pickup,trash,4
+chicago,Chicago,2026-11-27,27,East Garfield Park,West Side,Tree trim (no longer accepted),trees,11
+chicago,Chicago,2026-11-27,77,Edgewater,North Side,Yard waste pickup,trash,3
+chicago,Chicago,2026-11-27,77,Edgewater,North Side,Traffic signal out,streets,3
+chicago,Chicago,2026-11-27,68,Englewood,Southwest Side,Water on street,water,3
+chicago,Chicago,2026-11-27,12,Forest Glen,North Side,Yard waste pickup,trash,3
+chicago,Chicago,2026-11-27,55,Hegewisch,South Side,Building violation,housing,3
+chicago,Chicago,2026-11-27,23,Humboldt Park,West Side,Abandoned car,parking,4
+chicago,Chicago,2026-11-27,23,Humboldt Park,West Side,Graffiti,trash,3
+chicago,Chicago,2026-11-27,23,Humboldt Park,West Side,Rats,critters,3
+chicago,Chicago,2026-11-27,41,Hyde Park,South Side,Street light out,streets,5
+chicago,Chicago,2026-11-27,16,Irving Park,North Side,Yard waste pickup,trash,3
+chicago,Chicago,2026-11-27,11,Jefferson Park,North Side,Yard waste pickup,trash,5
+chicago,Chicago,2026-11-27,11,Jefferson Park,North Side,Parking enforcement review,parking,4
+chicago,Chicago,2026-11-27,11,Jefferson Park,North Side,Traffic signal out,streets,3
+chicago,Chicago,2026-11-27,11,Jefferson Park,North Side,Missing city vehicle sticker,parking,3
+chicago,Chicago,2026-11-27,6,Lake View,North Side,Graffiti,trash,5
+chicago,Chicago,2026-11-27,6,Lake View,North Side,Yard waste pickup,trash,3
+chicago,Chicago,2026-11-27,7,Lincoln Park,North Side,Yard waste pickup,trash,4
+chicago,Chicago,2026-11-27,4,Lincoln Square,North Side,Tree trim (no longer accepted),trees,11
+chicago,Chicago,2026-11-27,4,Lincoln Square,North Side,Yard waste pickup,trash,4
+chicago,Chicago,2026-11-27,4,Lincoln Square,North Side,Abandoned car,parking,3
+chicago,Chicago,2026-11-27,4,Lincoln Square,North Side,Rats,critters,3
+chicago,Chicago,2026-11-27,22,Logan Square,North Side,Tree trim (no longer accepted),trees,17
+chicago,Chicago,2026-11-27,22,Logan Square,North Side,Graffiti,trash,6
+chicago,Chicago,2026-11-27,22,Logan Square,North Side,Yard waste pickup,trash,5
+chicago,Chicago,2026-11-27,31,Lower West Side,West Side,Tree trim (no longer accepted),trees,9
+chicago,Chicago,2026-11-27,59,McKinley Park,Southwest Side,Abandoned car,parking,4
+chicago,Chicago,2026-11-27,75,Morgan Park,Southwest Side,Busted garbage cart,trash,5
+chicago,Chicago,2026-11-27,74,Mount Greenwood,Southwest Side,Busted garbage cart,trash,7
+chicago,Chicago,2026-11-27,8,Near North Side,Downtown,Tree trim (no longer accepted),trees,11
+chicago,Chicago,2026-11-27,8,Near North Side,Downtown,Traffic signal out,streets,4
+chicago,Chicago,2026-11-27,8,Near North Side,Downtown,Public way inspection,streets,3
+chicago,Chicago,2026-11-27,33,Near South Side,Downtown,Low water pressure,water,7
+chicago,Chicago,2026-11-27,33,Near South Side,Downtown,Water on street,water,6
+chicago,Chicago,2026-11-27,28,Near West Side,West Side,Public way inspection,streets,6
+chicago,Chicago,2026-11-27,28,Near West Side,West Side,Graffiti,trash,5
+chicago,Chicago,2026-11-27,28,Near West Side,West Side,Water on street,water,3
+chicago,Chicago,2026-11-27,28,Near West Side,West Side,Pothole,streets,3
+chicago,Chicago,2026-11-27,5,North Center,North Side,Tree trim (no longer accepted),trees,18
+chicago,Chicago,2026-11-27,5,North Center,North Side,Tree emergency,trees,3
+chicago,Chicago,2026-11-27,29,North Lawndale,West Side,Tree trim (no longer accepted),trees,25
+chicago,Chicago,2026-11-27,29,North Lawndale,West Side,Plumbing violation,housing,4
+chicago,Chicago,2026-11-27,13,North Park,North Side,Lead test kit,water,3
+chicago,Chicago,2026-11-27,10,Norwood Park,North Side,Tree trim (no longer accepted),trees,33
+chicago,Chicago,2026-11-27,10,Norwood Park,North Side,Street light pole damage,streets,4
+chicago,Chicago,2026-11-27,15,Portage Park,North Side,Badly parked e-scooter,parking,3
+chicago,Chicago,2026-11-27,1,Rogers Park,North Side,Traffic signal out,streets,3
+chicago,Chicago,2026-11-27,49,Roseland,South Side,Tree emergency,trees,7
+chicago,Chicago,2026-11-27,49,Roseland,South Side,Water in the basement,water,4
+chicago,Chicago,2026-11-27,46,South Chicago,South Side,Street light out,streets,4
+chicago,Chicago,2026-11-27,46,South Chicago,South Side,Building violation,housing,3
+chicago,Chicago,2026-11-27,51,South Deering,South Side,Street light out,streets,4
+chicago,Chicago,2026-11-27,51,South Deering,South Side,Busted garbage cart,trash,3
+chicago,Chicago,2026-11-27,30,South Lawndale,West Side,Tree trim (no longer accepted),trees,18
+chicago,Chicago,2026-11-27,30,South Lawndale,West Side,Busted garbage cart,trash,3
+chicago,Chicago,2026-11-27,43,South Shore,South Side,Building violation,housing,3
+chicago,Chicago,2026-11-27,43,South Shore,South Side,Abandoned car,parking,3
+chicago,Chicago,2026-11-27,43,South Shore,South Side,Plumbing violation,housing,3
+chicago,Chicago,2026-11-27,43,South Shore,South Side,Recycling cart,trash,3
+chicago,Chicago,2026-11-27,32,The Loop,Downtown,Street light out,streets,3
+chicago,Chicago,2026-11-27,32,The Loop,Downtown,Graffiti,trash,3
+chicago,Chicago,2026-11-27,3,Uptown,North Side,Traffic signal out,streets,3
+chicago,Chicago,2026-11-27,3,Uptown,North Side,Street light out,streets,3
+chicago,Chicago,2026-11-27,73,Washington Heights,Southwest Side,Traffic signal out,streets,8
+chicago,Chicago,2026-11-27,73,Washington Heights,Southwest Side,Rats,critters,3
+chicago,Chicago,2026-11-27,67,West Englewood,Southwest Side,Busted garbage cart,trash,3
+chicago,Chicago,2026-11-27,65,West Lawn,Southwest Side,Abandoned car,parking,3
+chicago,Chicago,2026-11-27,53,West Pullman,South Side,Tree trim (no longer accepted),trees,9
+chicago,Chicago,2026-11-27,53,West Pullman,South Side,Traffic signal out,streets,4
+chicago,Chicago,2026-11-27,53,West Pullman,South Side,Missed garbage pickup,trash,3
+chicago,Chicago,2026-11-27,53,West Pullman,South Side,Recycling cart,trash,3
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Rats,critters,8
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Tree trim (no longer accepted),trees,4
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Street light out,streets,3
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Street cleaning,trash,3
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Traffic signal out,streets,3
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Abandoned car,parking,3
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Coyote encounter,critters,3
+chicago,Chicago,2026-11-27,2,West Ridge,North Side,Badly parked e-scooter,parking,3
+chicago,Chicago,2026-11-27,24,West Town,West Side,Graffiti,trash,6
+chicago,Chicago,2026-11-27,24,West Town,West Side,Possible water leak,water,5
+chicago,Chicago,2026-11-27,24,West Town,West Side,Yard waste pickup,trash,5
+chicago,Chicago,2026-11-27,24,West Town,West Side,Public way inspection,streets,3
+chicago,Chicago,2026-11-27,24,West Town,West Side,Dead animal,critters,3
 la,Los Angeles,2026-11-09,42,Arroyo Seco,Eastside,Illegal dumping,trash,7
 la,Los Angeles,2026-11-09,46,Arts District Little Tokyo,Central LA,Badly parked scooter or bike,parking,16
 la,Los Angeles,2026-11-09,37,Atwater Village,Eastside,Illegal dumping,trash,5
@@ -21857,6 +22733,267 @@ la,Los Angeles,2026-11-25,16,Woodland Hills-warner Center,West Valley,Illegal du
 la,Los Angeles,2026-11-25,16,Woodland Hills-warner Center,West Valley,Graffiti,trash,5
 la,Los Angeles,2026-11-25,125,Zapata King,South LA,Illegal dumping,trash,14
 la,Los Angeles,2026-11-25,125,Zapata King,South LA,Graffiti,trash,4
+la,Los Angeles,2026-11-26,37,Atwater Village,Eastside,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,50,Boyle Heights,Eastside,Graffiti,trash,15
+la,Los Angeles,2026-11-26,50,Boyle Heights,Eastside,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,13,Canoga Park,West Valley,Illegal dumping,trash,5
+la,Los Angeles,2026-11-26,32,Central Hollywood,Central LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,95,Central San Pedro,Harbor,Illegal dumping,trash,6
+la,Los Angeles,2026-11-26,99,Chatsworth,West Valley,Potholes and pavement,streets,9
+la,Los Angeles,2026-11-26,99,Chatsworth,West Valley,Illegal dumping,trash,5
+la,Los Angeles,2026-11-26,96,Coastal San Pedro,Harbor,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,96,Coastal San Pedro,Harbor,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-26,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Parking,parking,3
+la,Los Angeles,2026-11-26,52,Downtown Los Angeles,Central LA,Graffiti,trash,6
+la,Los Angeles,2026-11-26,34,East Hollywood,Central LA,Illegal dumping,trash,20
+la,Los Angeles,2026-11-26,44,Echo Park,Eastside,Graffiti,trash,6
+la,Los Angeles,2026-11-26,44,Echo Park,Eastside,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,9
+la,Los Angeles,2026-11-26,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,18
+la,Los Angeles,2026-11-26,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,5
+la,Los Angeles,2026-11-26,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,18,Encino,West Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-26,9,Foothill Trails District,East Valley,Illegal dumping,trash,6
+la,Los Angeles,2026-11-26,21,Greater Valley Glen,East Valley,Illegal dumping,trash,6
+la,Los Angeles,2026-11-26,119,Greater Wilshire,Central LA,Illegal dumping,trash,6
+la,Los Angeles,2026-11-26,119,Greater Wilshire,Central LA,Streetlight repair,streets,4
+la,Los Angeles,2026-11-26,90,Harbor Gateway North,Harbor,Illegal dumping,trash,41
+la,Los Angeles,2026-11-26,91,Harbor Gateway South,Harbor,Illegal dumping,trash,5
+la,Los Angeles,2026-11-26,128,Historic Cultural North,Central LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,41,Historic Highland Park,Eastside,Graffiti,trash,3
+la,Los Angeles,2026-11-26,29,Hollywood Hills West,Central LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,33,Hollywood Studio District,Central LA,Illegal dumping,trash,13
+la,Los Angeles,2026-11-26,48,LA-32,Eastside,Illegal dumping,trash,5
+la,Los Angeles,2026-11-26,19,Lake Balboa,West Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-26,19,Lake Balboa,West Valley,Service not completed (follow-up),trash,7
+la,Los Angeles,2026-11-26,19,Lake Balboa,West Valley,Potholes and pavement,streets,3
+la,Los Angeles,2026-11-26,47,Lincoln Heights,Eastside,Streetlight repair,streets,3
+la,Los Angeles,2026-11-26,36,Los Feliz,Eastside,Illegal dumping,trash,6
+la,Los Angeles,2026-11-26,36,Los Feliz,Eastside,Graffiti,trash,3
+la,Los Angeles,2026-11-26,54,Macarthur Park,Central LA,Graffiti,trash,273
+la,Los Angeles,2026-11-26,54,Macarthur Park,Central LA,Streetlight repair,streets,5
+la,Los Angeles,2026-11-26,54,Macarthur Park,Central LA,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,73,Mid City,South LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,58,Mid City West,Central LA,Illegal dumping,trash,9
+la,Los Angeles,2026-11-26,58,Mid City West,Central LA,Dead animal,critters,3
+la,Los Angeles,2026-11-26,24,NoHo,East Valley,Illegal dumping,trash,25
+la,Los Angeles,2026-11-26,24,NoHo,East Valley,Badly parked scooter or bike,parking,9
+la,Los Angeles,2026-11-26,24,NoHo,East Valley,Graffiti,trash,7
+la,Los Angeles,2026-11-26,112,North Hills East,West Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,120,Northridge East,West Valley,Property violation,housing,7
+la,Los Angeles,2026-11-26,120,Northridge East,West Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,124,Northridge South,West Valley,Illegal dumping,trash,6
+la,Los Angeles,2026-11-26,104,Olympic Park,Central LA,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,7,Pacoima,East Valley,Illegal dumping,trash,21
+la,Los Angeles,2026-11-26,100,Panorama City,East Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,100,Panorama City,East Valley,Graffiti,trash,3
+la,Los Angeles,2026-11-26,76,Pico Union,Central LA,Illegal dumping,trash,9
+la,Los Angeles,2026-11-26,76,Pico Union,Central LA,Obstructions,streets,4
+la,Los Angeles,2026-11-26,76,Pico Union,Central LA,Graffiti,trash,3
+la,Los Angeles,2026-11-26,114,Porter Ranch,West Valley,Dead animal,critters,3
+la,Los Angeles,2026-11-26,53,Rampart Village,Eastside,Illegal dumping,trash,8
+la,Los Angeles,2026-11-26,15,Reseda,West Valley,Illegal dumping,trash,10
+la,Los Angeles,2026-11-26,15,Reseda,West Valley,Graffiti,trash,4
+la,Los Angeles,2026-11-26,15,Reseda,West Valley,Landscape maintenance,trees,3
+la,Los Angeles,2026-11-26,26,Sherman Oaks,East Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-26,38,Silver Lake,Eastside,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,78,South Central,South LA,Service not completed (follow-up),trash,4
+la,Los Angeles,2026-11-26,61,South Robertson,Westside,Illegal dumping,trash,9
+la,Los Angeles,2026-11-26,27,Studio City,East Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-26,27,Studio City,East Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-26,8,Sun Valley Area,East Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,10,Sunland-tujunga,East Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-26,5,Sylmar,East Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-26,17,Tarzana,West Valley,Illegal dumping,trash,5
+la,Los Angeles,2026-11-26,20,Van Nuys,East Valley,Illegal dumping,trash,16
+la,Los Angeles,2026-11-26,88,Watts,South LA,Property violation,housing,5
+la,Los Angeles,2026-11-26,88,Watts,South LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,11,West Hills,West Valley,Illegal dumping,trash,11
+la,Los Angeles,2026-11-26,11,West Hills,West Valley,Streetlight repair,streets,4
+la,Los Angeles,2026-11-26,66,West Los Angeles,Westside,Illegal dumping,trash,7
+la,Los Angeles,2026-11-26,121,Westlake South,Central LA,Illegal dumping,trash,5
+la,Los Angeles,2026-11-26,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,36
+la,Los Angeles,2026-11-26,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,20
+la,Los Angeles,2026-11-26,14,Winnetka,West Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-26,125,Zapata King,South LA,Graffiti,trash,3
+la,Los Angeles,2026-11-27,6,Arleta,East Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,6,Arleta,East Valley,Dead animal,critters,3
+la,Los Angeles,2026-11-27,37,Atwater Village,Eastside,Service not completed (follow-up),trash,4
+la,Los Angeles,2026-11-27,37,Atwater Village,Eastside,Graffiti,trash,3
+la,Los Angeles,2026-11-27,37,Atwater Village,Eastside,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,64,Bel Air-beverly Crest,Westside,Potholes and pavement,streets,6
+la,Los Angeles,2026-11-27,50,Boyle Heights,Eastside,Graffiti,trash,14
+la,Los Angeles,2026-11-27,50,Boyle Heights,Eastside,Illegal dumping,trash,7
+la,Los Angeles,2026-11-27,50,Boyle Heights,Eastside,Service not completed (follow-up),trash,5
+la,Los Angeles,2026-11-27,50,Boyle Heights,Eastside,Streetlight repair,streets,3
+la,Los Angeles,2026-11-27,50,Boyle Heights,Eastside,Curb,streets,3
+la,Los Angeles,2026-11-27,13,Canoga Park,West Valley,Graffiti,trash,11
+la,Los Angeles,2026-11-27,13,Canoga Park,West Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-27,32,Central Hollywood,Central LA,Illegal dumping,trash,11
+la,Los Angeles,2026-11-27,95,Central San Pedro,Harbor,Illegal dumping,trash,7
+la,Los Angeles,2026-11-27,99,Chatsworth,West Valley,Obstructions,streets,9
+la,Los Angeles,2026-11-27,99,Chatsworth,West Valley,Traffic safety,streets,4
+la,Los Angeles,2026-11-27,99,Chatsworth,West Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,96,Coastal San Pedro,Harbor,Illegal dumping,trash,6
+la,Los Angeles,2026-11-27,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Illegal dumping,trash,11
+la,Los Angeles,2026-11-27,86,Community And Neighbors For Ninth District Unity (canndu),South LA,Streetlight repair,streets,3
+la,Los Angeles,2026-11-27,70,Del Rey,Westside,Graffiti,trash,3
+la,Los Angeles,2026-11-27,52,Downtown Los Angeles,Central LA,Graffiti,trash,10
+la,Los Angeles,2026-11-27,52,Downtown Los Angeles,Central LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,34,East Hollywood,Central LA,Illegal dumping,trash,50
+la,Los Angeles,2026-11-27,34,East Hollywood,Central LA,Graffiti,trash,31
+la,Los Angeles,2026-11-27,34,East Hollywood,Central LA,Service not completed (follow-up),trash,11
+la,Los Angeles,2026-11-27,34,East Hollywood,Central LA,Landscape maintenance,trees,4
+la,Los Angeles,2026-11-27,44,Echo Park,Eastside,Illegal dumping,trash,17
+la,Los Angeles,2026-11-27,44,Echo Park,Eastside,Graffiti,trash,7
+la,Los Angeles,2026-11-27,44,Echo Park,Eastside,Service not completed (follow-up),trash,6
+la,Los Angeles,2026-11-27,81,Empowerment Congress Central Area,South LA,Illegal dumping,trash,27
+la,Los Angeles,2026-11-27,81,Empowerment Congress Central Area,South LA,Service not completed (follow-up),trash,14
+la,Los Angeles,2026-11-27,81,Empowerment Congress Central Area,South LA,Property violation,housing,4
+la,Los Angeles,2026-11-27,77,Empowerment Congress North Area,South LA,Illegal dumping,trash,13
+la,Los Angeles,2026-11-27,87,Empowerment Congress Southeast Area,South LA,Illegal dumping,trash,23
+la,Los Angeles,2026-11-27,87,Empowerment Congress Southeast Area,South LA,Dead animal,critters,3
+la,Los Angeles,2026-11-27,84,Empowerment Congress Southwest Area,South LA,Service not completed (follow-up),trash,10
+la,Los Angeles,2026-11-27,84,Empowerment Congress Southwest Area,South LA,Streetlight repair,streets,4
+la,Los Angeles,2026-11-27,84,Empowerment Congress Southwest Area,South LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,79,Empowerment Congress West Area,South LA,Illegal dumping,trash,8
+la,Los Angeles,2026-11-27,18,Encino,West Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,18,Encino,West Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,9,Foothill Trails District,East Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-27,39,Glassell Park,Eastside,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,118,Granada Hills South,West Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,118,Granada Hills South,West Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,21,Greater Valley Glen,East Valley,Illegal dumping,trash,9
+la,Los Angeles,2026-11-27,21,Greater Valley Glen,East Valley,Parking,parking,3
+la,Los Angeles,2026-11-27,21,Greater Valley Glen,East Valley,Graffiti,trash,3
+la,Los Angeles,2026-11-27,119,Greater Wilshire,Central LA,Illegal dumping,trash,9
+la,Los Angeles,2026-11-27,119,Greater Wilshire,Central LA,Streetlight repair,streets,8
+la,Los Angeles,2026-11-27,90,Harbor Gateway North,Harbor,Illegal dumping,trash,22
+la,Los Angeles,2026-11-27,91,Harbor Gateway South,Harbor,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,41,Historic Highland Park,Eastside,Illegal dumping,trash,9
+la,Los Angeles,2026-11-27,29,Hollywood Hills West,Central LA,Potholes and pavement,streets,5
+la,Los Angeles,2026-11-27,29,Hollywood Hills West,Central LA,Graffiti,trash,5
+la,Los Angeles,2026-11-27,29,Hollywood Hills West,Central LA,Service not completed (follow-up),trash,4
+la,Los Angeles,2026-11-27,29,Hollywood Hills West,Central LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,33,Hollywood Studio District,Central LA,Illegal dumping,trash,13
+la,Los Angeles,2026-11-27,33,Hollywood Studio District,Central LA,Graffiti,trash,5
+la,Los Angeles,2026-11-27,33,Hollywood Studio District,Central LA,Service not completed (follow-up),trash,4
+la,Los Angeles,2026-11-27,48,LA-32,Eastside,Illegal dumping,trash,8
+la,Los Angeles,2026-11-27,48,LA-32,Eastside,Streetlight repair,streets,4
+la,Los Angeles,2026-11-27,19,Lake Balboa,West Valley,Illegal dumping,trash,6
+la,Los Angeles,2026-11-27,19,Lake Balboa,West Valley,Graffiti,trash,5
+la,Los Angeles,2026-11-27,47,Lincoln Heights,Eastside,Graffiti,trash,7
+la,Los Angeles,2026-11-27,47,Lincoln Heights,Eastside,Illegal dumping,trash,6
+la,Los Angeles,2026-11-27,36,Los Feliz,Eastside,Service not completed (follow-up),trash,10
+la,Los Angeles,2026-11-27,36,Los Feliz,Eastside,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,54,Macarthur Park,Central LA,Graffiti,trash,160
+la,Los Angeles,2026-11-27,54,Macarthur Park,Central LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,67,Mar Vista,Westside,Illegal dumping,trash,6
+la,Los Angeles,2026-11-27,67,Mar Vista,Westside,Dead animal,critters,4
+la,Los Angeles,2026-11-27,73,Mid City,South LA,Graffiti,trash,3
+la,Los Angeles,2026-11-27,73,Mid City,South LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,58,Mid City West,Central LA,Illegal dumping,trash,13
+la,Los Angeles,2026-11-27,58,Mid City West,Central LA,Service not completed (follow-up),trash,7
+la,Los Angeles,2026-11-27,58,Mid City West,Central LA,Graffiti,trash,3
+la,Los Angeles,2026-11-27,101,Mission Hills,East Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,101,Mission Hills,East Valley,Graffiti,trash,3
+la,Los Angeles,2026-11-27,24,NoHo,East Valley,Illegal dumping,trash,21
+la,Los Angeles,2026-11-27,24,NoHo,East Valley,Badly parked scooter or bike,parking,5
+la,Los Angeles,2026-11-27,24,NoHo,East Valley,Public street receptacles,trash,4
+la,Los Angeles,2026-11-27,24,NoHo,East Valley,Graffiti,trash,3
+la,Los Angeles,2026-11-27,22,NoHo West,East Valley,Service not completed (follow-up),trash,4
+la,Los Angeles,2026-11-27,112,North Hills East,West Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-27,112,North Hills East,West Valley,Dead animal,critters,3
+la,Los Angeles,2026-11-27,112,North Hills East,West Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,111,North Hills West,East Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,23,North Hollywood Northeast,East Valley,Illegal dumping,trash,8
+la,Los Angeles,2026-11-27,23,North Hollywood Northeast,East Valley,Graffiti,trash,4
+la,Los Angeles,2026-11-27,127,North Westwood,Westside,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,120,Northridge East,West Valley,Property violation,housing,5
+la,Los Angeles,2026-11-27,124,Northridge South,West Valley,Illegal dumping,trash,18
+la,Los Angeles,2026-11-27,124,Northridge South,West Valley,Graffiti,trash,7
+la,Los Angeles,2026-11-27,124,Northridge South,West Valley,Traffic safety,streets,4
+la,Los Angeles,2026-11-27,124,Northridge South,West Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,60,P.i.c.o.,Central LA,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,7,Pacoima,East Valley,Illegal dumping,trash,19
+la,Los Angeles,2026-11-27,7,Pacoima,East Valley,Traffic signal,streets,5
+la,Los Angeles,2026-11-27,7,Pacoima,East Valley,Dead animal,critters,4
+la,Los Angeles,2026-11-27,7,Pacoima,East Valley,Graffiti,trash,3
+la,Los Angeles,2026-11-27,115,Palms,Westside,Illegal dumping,trash,5
+la,Los Angeles,2026-11-27,100,Panorama City,East Valley,Illegal dumping,trash,11
+la,Los Angeles,2026-11-27,100,Panorama City,East Valley,Graffiti,trash,5
+la,Los Angeles,2026-11-27,100,Panorama City,East Valley,Service not completed (follow-up),trash,5
+la,Los Angeles,2026-11-27,80,Park Mesa Heights,South LA,Illegal dumping,trash,7
+la,Los Angeles,2026-11-27,80,Park Mesa Heights,South LA,Service not completed (follow-up),trash,6
+la,Los Angeles,2026-11-27,80,Park Mesa Heights,South LA,Streetlight repair,streets,6
+la,Los Angeles,2026-11-27,80,Park Mesa Heights,South LA,Landscape maintenance,trees,4
+la,Los Angeles,2026-11-27,80,Park Mesa Heights,South LA,Dead animal,critters,4
+la,Los Angeles,2026-11-27,76,Pico Union,Central LA,Illegal dumping,trash,5
+la,Los Angeles,2026-11-27,76,Pico Union,Central LA,Graffiti,trash,5
+la,Los Angeles,2026-11-27,53,Rampart Village,Eastside,Illegal dumping,trash,13
+la,Los Angeles,2026-11-27,53,Rampart Village,Eastside,Graffiti,trash,4
+la,Los Angeles,2026-11-27,15,Reseda,West Valley,Illegal dumping,trash,16
+la,Los Angeles,2026-11-27,15,Reseda,West Valley,Service not completed (follow-up),trash,9
+la,Los Angeles,2026-11-27,15,Reseda,West Valley,Graffiti,trash,5
+la,Los Angeles,2026-11-27,26,Sherman Oaks,East Valley,Illegal dumping,trash,14
+la,Los Angeles,2026-11-27,26,Sherman Oaks,East Valley,Graffiti,trash,12
+la,Los Angeles,2026-11-27,26,Sherman Oaks,East Valley,Service not completed (follow-up),trash,6
+la,Los Angeles,2026-11-27,26,Sherman Oaks,East Valley,Tree emergency,trees,4
+la,Los Angeles,2026-11-27,26,Sherman Oaks,East Valley,Potholes and pavement,streets,3
+la,Los Angeles,2026-11-27,38,Silver Lake,Eastside,Service not completed (follow-up),trash,10
+la,Los Angeles,2026-11-27,38,Silver Lake,Eastside,Illegal dumping,trash,9
+la,Los Angeles,2026-11-27,78,South Central,South LA,Illegal dumping,trash,8
+la,Los Angeles,2026-11-27,61,South Robertson,Westside,Illegal dumping,trash,35
+la,Los Angeles,2026-11-27,61,South Robertson,Westside,Service not completed (follow-up),trash,7
+la,Los Angeles,2026-11-27,27,Studio City,East Valley,Property violation,housing,5
+la,Los Angeles,2026-11-27,27,Studio City,East Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,8,Sun Valley Area,East Valley,Illegal dumping,trash,7
+la,Los Angeles,2026-11-27,10,Sunland-tujunga,East Valley,Illegal dumping,trash,6
+la,Los Angeles,2026-11-27,5,Sylmar,East Valley,Illegal dumping,trash,6
+la,Los Angeles,2026-11-27,5,Sylmar,East Valley,Dead animal,critters,3
+la,Los Angeles,2026-11-27,17,Tarzana,West Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,17,Tarzana,West Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Illegal dumping,trash,15
+la,Los Angeles,2026-11-27,74,"United Neighborhoods Of The Historic Arlington Heights, West Adams, And Jefferson Park Community",South LA,Dead animal,critters,3
+la,Los Angeles,2026-11-27,25,Valley Village,East Valley,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,25,Valley Village,East Valley,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,20,Van Nuys,East Valley,Illegal dumping,trash,15
+la,Los Angeles,2026-11-27,20,Van Nuys,East Valley,Graffiti,trash,12
+la,Los Angeles,2026-11-27,20,Van Nuys,East Valley,Service not completed (follow-up),trash,6
+la,Los Angeles,2026-11-27,20,Van Nuys,East Valley,Potholes and pavement,streets,5
+la,Los Angeles,2026-11-27,68,Venice,Westside,Illegal dumping,trash,9
+la,Los Angeles,2026-11-27,68,Venice,Westside,Graffiti,trash,3
+la,Los Angeles,2026-11-27,109,Voices Of 90037,South LA,Illegal dumping,trash,21
+la,Los Angeles,2026-11-27,109,Voices Of 90037,South LA,Service not completed (follow-up),trash,8
+la,Los Angeles,2026-11-27,88,Watts,South LA,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,75,West Adams,South LA,Illegal dumping,trash,5
+la,Los Angeles,2026-11-27,11,West Hills,West Valley,Illegal dumping,trash,14
+la,Los Angeles,2026-11-27,11,West Hills,West Valley,Streetlight repair,streets,5
+la,Los Angeles,2026-11-27,11,West Hills,West Valley,Obstructions,streets,4
+la,Los Angeles,2026-11-27,66,West Los Angeles,Westside,Illegal dumping,trash,12
+la,Los Angeles,2026-11-27,66,West Los Angeles,Westside,Graffiti,trash,3
+la,Los Angeles,2026-11-27,71,Westchester/playa,Westside,Graffiti,trash,11
+la,Los Angeles,2026-11-27,71,Westchester/playa,Westside,Illegal dumping,trash,5
+la,Los Angeles,2026-11-27,71,Westchester/playa,Westside,Dead animal,critters,5
+la,Los Angeles,2026-11-27,121,Westlake South,Central LA,Illegal dumping,trash,4
+la,Los Angeles,2026-11-27,121,Westlake South,Central LA,Graffiti,trash,4
+la,Los Angeles,2026-11-27,62,Westside,Westside,Streetlight repair,streets,6
+la,Los Angeles,2026-11-27,62,Westside,Westside,Service not completed (follow-up),trash,3
+la,Los Angeles,2026-11-27,93,Wilmington,Harbor,Illegal dumping,trash,9
+la,Los Angeles,2026-11-27,93,Wilmington,Harbor,Service not completed (follow-up),trash,7
+la,Los Angeles,2026-11-27,93,Wilmington,Harbor,Potholes and pavement,streets,3
+la,Los Angeles,2026-11-27,55,Wilshire Center - Koreatown,Central LA,Illegal dumping,trash,23
+la,Los Angeles,2026-11-27,55,Wilshire Center - Koreatown,Central LA,Graffiti,trash,22
+la,Los Angeles,2026-11-27,55,Wilshire Center - Koreatown,Central LA,Service not completed (follow-up),trash,6
+la,Los Angeles,2026-11-27,55,Wilshire Center - Koreatown,Central LA,Potholes and pavement,streets,3
+la,Los Angeles,2026-11-27,14,Winnetka,West Valley,Illegal dumping,trash,6
+la,Los Angeles,2026-11-27,14,Winnetka,West Valley,Potholes and pavement,streets,3
+la,Los Angeles,2026-11-27,16,Woodland Hills-warner Center,West Valley,Service not completed (follow-up),trash,4
+la,Los Angeles,2026-11-27,16,Woodland Hills-warner Center,West Valley,Illegal dumping,trash,3
+la,Los Angeles,2026-11-27,16,Woodland Hills-warner Center,West Valley,Tree emergency,trees,3
+la,Los Angeles,2026-11-27,125,Zapata King,South LA,Illegal dumping,trash,7
 sf,San Francisco,2026-11-09,bayview-hunters-point,Bayview Hunters Point,San Francisco,Loose garbage,trash,28
 sf,San Francisco,2026-11-09,bayview-hunters-point,Bayview Hunters Point,San Francisco,Bagged or boxed garbage,trash,17
 sf,San Francisco,2026-11-09,bayview-hunters-point,Bayview Hunters Point,San Francisco,Illegal parking,parking,13
@@ -25213,6 +26350,242 @@ sf,San Francisco,2026-11-25,western-addition,Western Addition,San Francisco,Bagg
 sf,San Francisco,2026-11-25,western-addition,Western Addition,San Francisco,Furniture,trash,4
 sf,San Francisco,2026-11-25,western-addition,Western Addition,San Francisco,Blocked driveway (tow requested),parking,4
 sf,San Francisco,2026-11-25,western-addition,Western Addition,San Francisco,Overflowing city trash can,trash,3
+sf,San Francisco,2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Loose garbage,trash,17
+sf,San Francisco,2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Parking on the sidewalk,parking,10
+sf,San Francisco,2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Bagged or boxed garbage,trash,10
+sf,San Francisco,2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Abandoned car,parking,8
+sf,San Francisco,2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Illegal parking,parking,8
+sf,San Francisco,2026-11-26,bayview-hunters-point,Bayview Hunters Point,San Francisco,Blocked driveway,parking,5
+sf,San Francisco,2026-11-26,bernal-heights,Bernal Heights,San Francisco,Parking on the sidewalk,parking,7
+sf,San Francisco,2026-11-26,bernal-heights,Bernal Heights,San Francisco,Illegal parking,parking,6
+sf,San Francisco,2026-11-26,bernal-heights,Bernal Heights,San Francisco,Loose garbage,trash,4
+sf,San Francisco,2026-11-26,castro-upper-market,Castro/Upper Market,San Francisco,Loose garbage,trash,8
+sf,San Francisco,2026-11-26,castro-upper-market,Castro/Upper Market,San Francisco,Scooter with no license plate,parking,5
+sf,San Francisco,2026-11-26,castro-upper-market,Castro/Upper Market,San Francisco,Parking on the sidewalk,parking,3
+sf,San Francisco,2026-11-26,chinatown,Chinatown,San Francisco,Illegal parking,parking,14
+sf,San Francisco,2026-11-26,chinatown,Chinatown,San Francisco,Scooter with no license plate,parking,4
+sf,San Francisco,2026-11-26,chinatown,Chinatown,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-26,excelsior,Excelsior,San Francisco,Blocked driveway,parking,8
+sf,San Francisco,2026-11-26,excelsior,Excelsior,San Francisco,Illegal parking,parking,6
+sf,San Francisco,2026-11-26,excelsior,Excelsior,San Francisco,Bagged or boxed garbage,trash,5
+sf,San Francisco,2026-11-26,excelsior,Excelsior,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-26,excelsior,Excelsior,San Francisco,Loose garbage,trash,3
+sf,San Francisco,2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Spin scooter,parking,6
+sf,San Francisco,2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Scooter with no license plate,parking,5
+sf,San Francisco,2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Lime scooter,parking,4
+sf,San Francisco,2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Overflowing city trash can,trash,4
+sf,San Francisco,2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Loose garbage,trash,4
+sf,San Francisco,2026-11-26,financial-district-south-beach,Financial District/South Beach,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-26,glen-park,Glen Park,San Francisco,Lime scooter,parking,3
+sf,San Francisco,2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Illegal parking,parking,15
+sf,San Francisco,2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Loose garbage,trash,3
+sf,San Francisco,2026-11-26,haight-ashbury,Haight Ashbury,San Francisco,Port a potty,parking,3
+sf,San Francisco,2026-11-26,hayes-valley,Hayes Valley,San Francisco,Loose garbage,trash,11
+sf,San Francisco,2026-11-26,hayes-valley,Hayes Valley,San Francisco,Bagged or boxed garbage,trash,9
+sf,San Francisco,2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti on sidewalk structure,trash,9
+sf,San Francisco,2026-11-26,hayes-valley,Hayes Valley,San Francisco,Illegal parking,parking,6
+sf,San Francisco,2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti on pole,trash,6
+sf,San Francisco,2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti on building commercial,trash,4
+sf,San Francisco,2026-11-26,hayes-valley,Hayes Valley,San Francisco,Graffiti (public),trash,3
+sf,San Francisco,2026-11-26,inner-richmond,Inner Richmond,San Francisco,Graffiti on pole,trash,4
+sf,San Francisco,2026-11-26,inner-richmond,Inner Richmond,San Francisco,Loose garbage,trash,3
+sf,San Francisco,2026-11-26,inner-richmond,Inner Richmond,San Francisco,Illegal parking,parking,3
+sf,San Francisco,2026-11-26,lakeshore,Lakeshore,San Francisco,Illegal parking,parking,3
+sf,San Francisco,2026-11-26,lone-mountain-usf,Lone Mountain/USF,San Francisco,Loose garbage,trash,7
+sf,San Francisco,2026-11-26,lone-mountain-usf,Lone Mountain/USF,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-26,marina,Marina,San Francisco,Overflowing city trash can,trash,5
+sf,San Francisco,2026-11-26,marina,Marina,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-26,marina,Marina,San Francisco,Loose garbage,trash,3
+sf,San Francisco,2026-11-26,marina,Marina,San Francisco,Illegal parking,parking,3
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Loose garbage,trash,74
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Bagged or boxed garbage,trash,22
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Illegal parking,parking,11
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Furniture,trash,10
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Overflowing city trash can,trash,6
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Graffiti on building commercial,trash,5
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Mattress,trash,4
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Graffiti on signal box,trash,3
+sf,San Francisco,2026-11-26,mission,Mission,San Francisco,Blocked driveway,parking,3
+sf,San Francisco,2026-11-26,mission-bay,Mission Bay,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-26,mission-bay,Mission Bay,San Francisco,Lime scooter,parking,4
+sf,San Francisco,2026-11-26,mission-bay,Mission Bay,San Francisco,Spin scooter,parking,4
+sf,San Francisco,2026-11-26,nob-hill,Nob Hill,San Francisco,Loose garbage,trash,8
+sf,San Francisco,2026-11-26,nob-hill,Nob Hill,San Francisco,Scooter with no license plate,parking,4
+sf,San Francisco,2026-11-26,nob-hill,Nob Hill,San Francisco,Lime scooter,parking,3
+sf,San Francisco,2026-11-26,noe-valley,Noe Valley,San Francisco,Lime scooter,parking,3
+sf,San Francisco,2026-11-26,north-beach,North Beach,San Francisco,Lime scooter,parking,6
+sf,San Francisco,2026-11-26,north-beach,North Beach,San Francisco,Overflowing city trash can,trash,6
+sf,San Francisco,2026-11-26,north-beach,North Beach,San Francisco,Spin scooter,parking,6
+sf,San Francisco,2026-11-26,north-beach,North Beach,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-26,north-beach,North Beach,San Francisco,Scooter with no license plate,parking,4
+sf,San Francisco,2026-11-26,north-beach,North Beach,San Francisco,Glass,trash,3
+sf,San Francisco,2026-11-26,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Blocked driveway,parking,7
+sf,San Francisco,2026-11-26,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Bagged or boxed garbage,trash,4
+sf,San Francisco,2026-11-26,outer-mission,Outer Mission,San Francisco,Illegal parking,parking,8
+sf,San Francisco,2026-11-26,outer-mission,Outer Mission,San Francisco,Furniture,trash,4
+sf,San Francisco,2026-11-26,outer-mission,Outer Mission,San Francisco,Loose garbage,trash,4
+sf,San Francisco,2026-11-26,outer-mission,Outer Mission,San Francisco,Blocked driveway (tow requested),parking,3
+sf,San Francisco,2026-11-26,outer-richmond,Outer Richmond,San Francisco,Blocked driveway,parking,3
+sf,San Francisco,2026-11-26,pacific-heights,Pacific Heights,San Francisco,Lime scooter,parking,5
+sf,San Francisco,2026-11-26,pacific-heights,Pacific Heights,San Francisco,Overflowing city trash can,trash,3
+sf,San Francisco,2026-11-26,pacific-heights,Pacific Heights,San Francisco,Illegal parking,parking,3
+sf,San Francisco,2026-11-26,portola,Portola,San Francisco,Loose garbage,trash,10
+sf,San Francisco,2026-11-26,portola,Portola,San Francisco,Illegal parking,parking,5
+sf,San Francisco,2026-11-26,portola,Portola,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-26,portola,Portola,San Francisco,Parking on the sidewalk,parking,3
+sf,San Francisco,2026-11-26,portola,Portola,San Francisco,Blocked driveway,parking,3
+sf,San Francisco,2026-11-26,presidio,Presidio,San Francisco,Graffiti (public),trash,4
+sf,San Francisco,2026-11-26,presidio,Presidio,San Francisco,Graffiti on pole,trash,3
+sf,San Francisco,2026-11-26,presidio,Presidio,San Francisco,Other: defaced ok,streets,3
+sf,San Francisco,2026-11-26,russian-hill,Russian Hill,San Francisco,Lime scooter,parking,3
+sf,San Francisco,2026-11-26,russian-hill,Russian Hill,San Francisco,Loose garbage,trash,3
+sf,San Francisco,2026-11-26,seacliff,Seacliff,San Francisco,Graffiti on pole,trash,5
+sf,San Francisco,2026-11-26,south-of-market,South of Market,San Francisco,Loose garbage,trash,15
+sf,San Francisco,2026-11-26,south-of-market,South of Market,San Francisco,Bagged or boxed garbage,trash,9
+sf,San Francisco,2026-11-26,south-of-market,South of Market,San Francisco,Illegal parking,parking,4
+sf,San Francisco,2026-11-26,south-of-market,South of Market,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-26,south-of-market,South of Market,San Francisco,Blocked driveway (tow requested),parking,3
+sf,San Francisco,2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Blocked driveway,parking,4
+sf,San Francisco,2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Abandoned car,parking,3
+sf,San Francisco,2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Loose garbage,trash,3
+sf,San Francisco,2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Parking on the sidewalk,parking,3
+sf,San Francisco,2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Blocked driveway (tow requested),parking,3
+sf,San Francisco,2026-11-26,sunset-parkside,Sunset/Parkside,San Francisco,Double parking,parking,3
+sf,San Francisco,2026-11-26,tenderloin,Tenderloin,San Francisco,Loose garbage,trash,21
+sf,San Francisco,2026-11-26,tenderloin,Tenderloin,San Francisco,Bagged or boxed garbage,trash,5
+sf,San Francisco,2026-11-26,visitacion-valley,Visitacion Valley,San Francisco,Illegal parking,parking,6
+sf,San Francisco,2026-11-26,west-of-twin-peaks,West of Twin Peaks,San Francisco,Flooding: on street,water,3
+sf,San Francisco,2026-11-26,west-of-twin-peaks,West of Twin Peaks,San Francisco,Blocked driveway (tow requested),parking,3
+sf,San Francisco,2026-11-26,western-addition,Western Addition,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-26,western-addition,Western Addition,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Loose garbage,trash,27
+sf,San Francisco,2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Parking on the sidewalk,parking,12
+sf,San Francisco,2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Bagged or boxed garbage,trash,10
+sf,San Francisco,2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Abandoned car,parking,8
+sf,San Francisco,2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Illegal parking,parking,7
+sf,San Francisco,2026-11-27,bayview-hunters-point,Bayview Hunters Point,San Francisco,Furniture,trash,5
+sf,San Francisco,2026-11-27,bernal-heights,Bernal Heights,San Francisco,Loose garbage,trash,11
+sf,San Francisco,2026-11-27,bernal-heights,Bernal Heights,San Francisco,Parking on the sidewalk,parking,5
+sf,San Francisco,2026-11-27,bernal-heights,Bernal Heights,San Francisco,Illegal parking,parking,3
+sf,San Francisco,2026-11-27,bernal-heights,Bernal Heights,San Francisco,Mattress,trash,3
+sf,San Francisco,2026-11-27,bernal-heights,Bernal Heights,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,bernal-heights,Bernal Heights,San Francisco,Abandoned car,parking,3
+sf,San Francisco,2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Bagged or boxed garbage,trash,10
+sf,San Francisco,2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Overflowing city trash can,trash,10
+sf,San Francisco,2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Loose garbage,trash,9
+sf,San Francisco,2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Illegal parking,parking,5
+sf,San Francisco,2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Graffiti on pole,trash,4
+sf,San Francisco,2026-11-27,castro-upper-market,Castro/Upper Market,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-27,chinatown,Chinatown,San Francisco,Loose garbage,trash,9
+sf,San Francisco,2026-11-27,chinatown,Chinatown,San Francisco,Overflowing city trash can,trash,4
+sf,San Francisco,2026-11-27,chinatown,Chinatown,San Francisco,Spin scooter,parking,4
+sf,San Francisco,2026-11-27,chinatown,Chinatown,San Francisco,Illegal parking,parking,3
+sf,San Francisco,2026-11-27,chinatown,Chinatown,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,excelsior,Excelsior,San Francisco,Parking on the sidewalk,parking,15
+sf,San Francisco,2026-11-27,excelsior,Excelsior,San Francisco,Illegal parking,parking,11
+sf,San Francisco,2026-11-27,excelsior,Excelsior,San Francisco,Bagged or boxed garbage,trash,7
+sf,San Francisco,2026-11-27,excelsior,Excelsior,San Francisco,Furniture,trash,6
+sf,San Francisco,2026-11-27,excelsior,Excelsior,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-27,excelsior,Excelsior,San Francisco,Mattress,trash,4
+sf,San Francisco,2026-11-27,financial-district-south-beach,Financial District/South Beach,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-27,financial-district-south-beach,Financial District/South Beach,San Francisco,Illegal parking,parking,4
+sf,San Francisco,2026-11-27,financial-district-south-beach,Financial District/South Beach,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-27,haight-ashbury,Haight Ashbury,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-27,haight-ashbury,Haight Ashbury,San Francisco,Abandoned car,parking,4
+sf,San Francisco,2026-11-27,haight-ashbury,Haight Ashbury,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-27,hayes-valley,Hayes Valley,San Francisco,Loose garbage,trash,9
+sf,San Francisco,2026-11-27,hayes-valley,Hayes Valley,San Francisco,Illegal parking,parking,6
+sf,San Francisco,2026-11-27,hayes-valley,Hayes Valley,San Francisco,Parking on the sidewalk,parking,3
+sf,San Francisco,2026-11-27,hayes-valley,Hayes Valley,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-27,hayes-valley,Hayes Valley,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,inner-richmond,Inner Richmond,San Francisco,Loose garbage,trash,8
+sf,San Francisco,2026-11-27,inner-richmond,Inner Richmond,San Francisco,Furniture,trash,5
+sf,San Francisco,2026-11-27,inner-richmond,Inner Richmond,San Francisco,Bagged or boxed garbage,trash,4
+sf,San Francisco,2026-11-27,inner-sunset,Inner Sunset,San Francisco,Loose garbage,trash,9
+sf,San Francisco,2026-11-27,inner-sunset,Inner Sunset,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,inner-sunset,Inner Sunset,San Francisco,Abandoned car,parking,3
+sf,San Francisco,2026-11-27,japantown,Japantown,San Francisco,Loose garbage,trash,4
+sf,San Francisco,2026-11-27,lone-mountain-usf,Lone Mountain/USF,San Francisco,Loose garbage,trash,4
+sf,San Francisco,2026-11-27,marina,Marina,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-27,marina,Marina,San Francisco,Blocked driveway (tow requested),parking,4
+sf,San Francisco,2026-11-27,marina,Marina,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-27,marina,Marina,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,marina,Marina,San Francisco,Parking on the sidewalk,parking,3
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Loose garbage,trash,104
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Bagged or boxed garbage,trash,33
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Illegal parking,parking,22
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Overflowing city trash can,trash,14
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Furniture,trash,12
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Mattress,trash,10
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on building commercial,trash,10
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Abandoned car,parking,9
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on sidewalk in front of property,trash,9
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on pole,trash,8
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Parking on the sidewalk,parking,6
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on mail box,trash,5
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Trash at a transit shelter,trash,5
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Glass,trash,4
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on signal box,trash,4
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Blocked driveway,parking,3
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Blocked driveway (tow requested),parking,3
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on bridge,trash,3
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on building other,trash,3
+sf,San Francisco,2026-11-27,mission,Mission,San Francisco,Graffiti on sidewalk structure,trash,3
+sf,San Francisco,2026-11-27,mission-bay,Mission Bay,San Francisco,Lime scooter,parking,4
+sf,San Francisco,2026-11-27,nob-hill,Nob Hill,San Francisco,Loose garbage,trash,9
+sf,San Francisco,2026-11-27,nob-hill,Nob Hill,San Francisco,Bagged or boxed garbage,trash,6
+sf,San Francisco,2026-11-27,nob-hill,Nob Hill,San Francisco,Furniture,trash,5
+sf,San Francisco,2026-11-27,nob-hill,Nob Hill,San Francisco,Excessive noise,noise,5
+sf,San Francisco,2026-11-27,nob-hill,Nob Hill,San Francisco,Mattress,trash,4
+sf,San Francisco,2026-11-27,nob-hill,Nob Hill,San Francisco,Overflowing city trash can,trash,4
+sf,San Francisco,2026-11-27,nob-hill,Nob Hill,San Francisco,Abandoned car,parking,4
+sf,San Francisco,2026-11-27,noe-valley,Noe Valley,San Francisco,Illegal parking,parking,4
+sf,San Francisco,2026-11-27,north-beach,North Beach,San Francisco,Lime scooter,parking,8
+sf,San Francisco,2026-11-27,north-beach,North Beach,San Francisco,Spin scooter,parking,7
+sf,San Francisco,2026-11-27,north-beach,North Beach,San Francisco,Loose garbage,trash,6
+sf,San Francisco,2026-11-27,north-beach,North Beach,San Francisco,Scooter with no license plate,parking,3
+sf,San Francisco,2026-11-27,north-beach,North Beach,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Loose garbage,trash,3
+sf,San Francisco,2026-11-27,oceanview-merced-ingleside,Oceanview/Merced/Ingleside,San Francisco,Sewage backup: from side sewer vent,water,3
+sf,San Francisco,2026-11-27,outer-mission,Outer Mission,San Francisco,Illegal parking,parking,4
+sf,San Francisco,2026-11-27,outer-mission,Outer Mission,San Francisco,Bagged or boxed garbage,trash,4
+sf,San Francisco,2026-11-27,outer-richmond,Outer Richmond,San Francisco,Loose garbage,trash,6
+sf,San Francisco,2026-11-27,outer-richmond,Outer Richmond,San Francisco,Abandoned car,parking,3
+sf,San Francisco,2026-11-27,pacific-heights,Pacific Heights,San Francisco,Blocked driveway,parking,4
+sf,San Francisco,2026-11-27,portola,Portola,San Francisco,Loose garbage,trash,13
+sf,San Francisco,2026-11-27,portola,Portola,San Francisco,Illegal parking,parking,4
+sf,San Francisco,2026-11-27,portola,Portola,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-27,portola,Portola,San Francisco,Bagged or boxed garbage,trash,4
+sf,San Francisco,2026-11-27,portola,Portola,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-27,portola,Portola,San Francisco,Graffiti on building commercial,trash,3
+sf,San Francisco,2026-11-27,potrero-hill,Potrero Hill,San Francisco,Lime scooter,parking,3
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Bagged or boxed garbage,trash,11
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Loose garbage,trash,11
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Landscaping: empty tree basin,trees,6
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Mattress,trash,6
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Illegal parking,parking,4
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Trash at a transit shelter,streets,3
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Furniture,trash,3
+sf,San Francisco,2026-11-27,south-of-market,South of Market,San Francisco,Scooter with no license plate,parking,3
+sf,San Francisco,2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Blocked driveway,parking,6
+sf,San Francisco,2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Loose garbage,trash,5
+sf,San Francisco,2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Illegal parking,parking,4
+sf,San Francisco,2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Overflowing city trash can,trash,3
+sf,San Francisco,2026-11-27,sunset-parkside,Sunset/Parkside,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,tenderloin,Tenderloin,San Francisco,Loose garbage,trash,18
+sf,San Francisco,2026-11-27,tenderloin,Tenderloin,San Francisco,Bagged or boxed garbage,trash,7
+sf,San Francisco,2026-11-27,tenderloin,Tenderloin,San Francisco,Overflowing city trash can,trash,5
+sf,San Francisco,2026-11-27,tenderloin,Tenderloin,San Francisco,Mattress,trash,3
+sf,San Francisco,2026-11-27,tenderloin,Tenderloin,San Francisco,Illegal parking,parking,3
+sf,San Francisco,2026-11-27,visitacion-valley,Visitacion Valley,San Francisco,Parking on the sidewalk,parking,4
+sf,San Francisco,2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Damaging property: lifted sidewalk tree roots,trees,9
+sf,San Francisco,2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Loose garbage,trash,4
+sf,San Francisco,2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Light burnt out,streets,4
+sf,San Francisco,2026-11-27,west-of-twin-peaks,West of Twin Peaks,San Francisco,Bagged or boxed garbage,trash,3
+sf,San Francisco,2026-11-27,western-addition,Western Addition,San Francisco,Loose garbage,trash,17
 boston,Boston,2026-11-08,allston,Allston,Boston,Rats,critters,3
 boston,Boston,2026-11-08,back-bay,Back Bay,Boston,Illegal parking,parking,9
 boston,Boston,2026-11-08,back-bay,Back Bay,Boston,Rats,critters,5
